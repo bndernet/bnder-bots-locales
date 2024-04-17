@@ -95,6 +95,8 @@
     "task_assigned_role": "Die Aufgabe **{{id}}** wurde der Rolle <@&{{role_id}}> zugewiesen. Sie wird in der Aufgabenliste (\"/task list\") jedes Benutzers mit dieser Rolle erscheinen.",
     "task_done": "Die Aufgabe wurde als erledigt markiert.",
     "task_edited": "Die Aufgabe wurde bearbeitet.",
+    "deadline_due": "Die Deadline für die Aufgabe **{{id}}** ist am {{deadline}} fällig im Server {{server_name}}: {{task_text}}",
+    "deadline_was_in_past_reminder": "Die Deadline für die Aufgabe {{id}} ist im Server {{server_name}} abgelaufen: {{task_text}}",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",
@@ -151,7 +153,6 @@
     "task_assigned_dm": "Sie wurden der Aufgabe **{{id}}** zugewiesen, deren Frist auf {{deadline}} gesetzt wurde: {{text}}",
     "deadline_set": "Die Frist für die Aufgabe **{{id}}** wurde auf {{- deadline}} gesetzt. Wenn Sie die Frist in Ihrem Kalender sehen möchten, schauen Sie sich unseren [Calendar Manager Bot](<https://bnder.net/calendar>) an.",
     "deadline_removed": "Die Deadline für die Aufgabe {{id}} wurde entfernt.",
-    "deadline_due": "Aufgabe **{{id}}** ist fällig am {{deadline}}: {{taskText}}",
     "task_delete_could_not_send_message": "Die Aufgabe **{{id}}** wurde als gelöscht markiert und wird in {{days}} Tagen endgültig gelöscht.\n\n⚠\uFE0F Der Bot hat versucht eine, für alle sichtbare, Bestätigungsnachricht zu senden, konnte dies aufgrund fehlender Discord-Berechtigungen in diesem Kanal. Bitte gewähre dem Bot die Discord-Berechtigung Nachrichten zu senden.",
     "task_delete_instantly_could_not_send_message": "Die Aufgabe **{{id}}** wurde gelöscht.\n\n⚠\uFE0F Der Bot hat versucht, eine für alle sichtbare Bestätigungsnachricht zu senden, konnte dies aber aufgrund fehlender Discord-Berechtigungen in diesem Kanal nicht tun. Bitte erteile dem Bot die Discord-Berechtigung zum Senden von Nachrichten.",
     "deleted_instantly_ephemeral_message": "Die Aufgabe **{{id}}** wurde gelöscht.",

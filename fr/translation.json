@@ -95,6 +95,8 @@
     "task_assigned_role" : "La tâche **{{id}}** a été attribuée au rôle <@&{{role_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de chaque utilisateur ayant ce rôle.",
     "task_done": "La tâche a été marquée comme terminée.",
     "task_edited": "La tâche a été traitée.",
+    "deadline_due": "La date limite pour la tâche **{{id}}** est le {{deadline}} dans le serveur {{server_name}}: {{task_text}}",
+    "deadline_was_in_past_reminder": "La date limite pour la tâche {{id}} est dépassée dans le serveur {{server_name}}: {{task_text}}",
     "info": {
       "id_headline": "Id",
       "text_headline": "Texte",
@@ -151,7 +153,6 @@
     "task_assigned_dm": "Vous avez été affecté à la tâche **{{id}}** dont l'échéance est fixée à {{deadline}}: {{text}}",
     "deadline_set": "L'échéance de la tâche **{{id}}** a été fixée à {{- deadline}}. Si vous souhaitez voir la date limite dans votre calendrier, consultez notre [Calendar Manager Bot] (<https://bnder.net/calendar>).",
     "deadline_removed": "La date limite pour la tâche {{id}} a été supprimée.",
-    "deadline_due": "La tâche **{{id}}** est due à {{deadline}} : {{taskText}}",
     "task_delete_could_not_send_message": "La tâche {{id}} a été marquée comme supprimée et le sera dans {{days}}. jours est définitivement supprimée.\n\n⚠\uFE0F Le bot a essayé d'envoyer un message de confirmation visible par tous, mais n'a pas pu le faire à cause du manque de permissions Discord sur ce canal. Veuillez accorder au bot l'autorisation d'envoyer des messages sur Discord.",
     "task_delete_instantly_could_not_send_message": "La tâche **{{id}}** a été supprimée.\n⚠\uFE0F Le bot a essayé d'envoyer un message de confirmation visible par tous, mais n'a pas pu le faire en raison d'un manque de permissions Discord dans ce canal. Veuillez accorder au bot la permission Discord d'envoyer des messages",
     "deleted_instantly_ephemeral_message": "La tâche **{{id}}** a été supprimée",

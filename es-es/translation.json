@@ -95,6 +95,8 @@
     "task_assigned_role": "La tarea **{{id}}** ha sido asignada al rol <@&{{role_id}}>. Aparecerá en la lista de tareas (\"/task list\") de todos los usuarios con este rol.",
     "task_done": "La tarea se ha marcado como completada.",
     "task_edited": "La tarea fue procesada.",
+    "deadline_due": "La fecha límite para la tarea **{{id}}** vence el {{deadline}} en el servidor {{server_name}}: {{task_text}}",
+    "deadline_in_past_reminder": "La fecha límite para la tarea {{id}} está vencida en el servidor {{server_name}}: {{task_text}}",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",
@@ -151,7 +153,6 @@
     "task_assigned_dm": "Te asignaron a la tarea **{{id}}** con fecha límite establecida en {{deadline}}: {{text}}",
     "deadline_set": "La fecha límite para la tarea **{{id}}** se ha fijado en {{- deadline}}. Si quieres ver la fecha límite en tu calendario, echa un vistazo a nuestro [Calendar Manager Bot](<https://bnder.net/calendar>).",
     "deadline_removed": "La fecha límite para la tarea {{id}} ha sido eliminada.",
-    "deadline_due": "La tarea **{{id}}** vence en {{deadline}}: {{taskText}}",
     "task_delete_could_not_send_message": "La tarea {{id}} se ha marcado como eliminada y se eliminará permanentemente en {{days}} días.\n\n⚠\uFE0F El bot intentó enviar un mensaje de confirmación visible para todos, pero no pudo hacerlo debido a la falta de permisos de Discord en este canal. Por favor, concede al bot el permiso de Discord para enviar mensajes.",
     "task_delete_instantly_could_not_send_message": "La tarea **{{id}}** fue eliminada.\n\n⚠\uFE0F El bot intentó enviar un mensaje de confirmación visible para todos, pero no pudo hacerlo debido a la falta de permisos de Discord en este canal. Por favor, concede al bot el permiso de Discord para enviar mensajes",
     "deleted_instantly_ephemeral_message": "La tarea **{{id}}** fue eliminada",

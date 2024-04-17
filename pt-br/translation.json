@@ -95,6 +95,8 @@
     "task_assigned_role": "A tarefa **{{id}}** foi atribuída à função <@&{{role_id}}>. Ela aparecerá na lista de tarefas (\"/task list\") de todos os usuários com essa função.",
     "task_done": "A tarefa foi marcada como concluída.",
     "task_edited": "A tarefa foi processada.",
+    "deadline_due": "O prazo para a tarefa **{{id}}** vence em {{deadline}} no servidor {{server_name}}: {{task_text}}",
+    "deadline_in_past_reminder": "O prazo para a tarefa {{id}} está atrasado no servidor {{server_name}}: {{task_text}}",
     "info": {
       "id_headline": "Id",
       "text_headline": "Texto",
@@ -151,7 +153,6 @@
     "task_assigned_dm": "Você foi atribuído à tarefa **{{id}}** com prazo definido para {{deadline}}: {{text}}",
     "deadline_set": "O prazo para a tarefa **{{id}}** foi definido como {{- deadline}}. Se quiser ver o prazo em seu calendário, confira nosso [Calendar Manager Bot] (<https://bnder.net/calendar>).",
     "deadline_removed": "O prazo para a tarefa {{id}} foi removido.",
-    "deadline_due": "A tarefa **{{id}}** vence em {{deadline}}: {{taskText}}",
     "task_delete_could_not_send_message": "A tarefa {{id}} foi marcada como excluída e será excluída permanentemente em {{dias}} dias.\n\n⚠\uFE0F O bot tentou enviar uma mensagem de confirmação visível para todos, mas não conseguiu fazê-lo devido à falta de permissões do Discord neste canal. Por favor, conceda ao bot a permissão do Discord para enviar mensagens.",
     "task_delete_instantly_could_not_send_message": "A tarefa **{{id}}** foi excluída.\n\n⚠\uFE0F O bot tentou enviar uma mensagem de confirmação visível para todos, mas não conseguiu devido à falta de permissões do Discord neste canal. Por favor, conceda ao bot a permissão do Discord para enviar mensagens",
     "deleted_instantly_ephemeral_message": "A tarefa **{{id}}** foi excluída",
