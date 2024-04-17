@@ -95,8 +95,6 @@
     "task_assigned_role": "**{{id}}** görevi <@&{{role_id}}> rolüne atandı. Bu role sahip her kullanıcının görev listesinde (\"/task list\") görünecektir.",
     "task_done": "Görev tamamlandı olarak işaretlendi.",
     "task_edited": "Görev işleme alındı.",
-    "deadline_due": "Görev **{{id}}** için son teslim tarihi {{deadline}} sunucuda **{{server_name}}**: {{task_text}}",
-    "deadline_in_past_reminder": "Görev **{{id}}** için son teslim tarihi sunucuda **{{server_name}}** geçmiş: {{task_text}}",
     "info": {
       "id_headline": "Id",
       "text_headline": "Metin",
@@ -153,6 +151,7 @@
     "task_assigned_dm": "Son teslim tarihi {{deadline}} olarak ayarlanmış **{{id}}** görevine atandınız: {{text}}",
     "deadline_set": "Görev **{{id}}** için son tarih {{- deadline}} olarak ayarlanmıştır. Son tarihi takviminizde görmek istiyorsanız, [Calendar Manager Bot](<https://bnder.net/calendar>)'umuza göz atın.",
     "deadline_removed": "{{id}} görevi için son tarih kaldırıldı.",
+    "deadline_due": "Görev **{{id}}** {{deadline}} de sona erecek: {{taskText}}",
     "task_delete_could_not_send_message": "Görev {{id}} silindi olarak işaretlendi ve {{days}} içinde kalıcı olarak silinecek gün.\n\n⚠\uFE0F Bot, herkes tarafından görülebilen bir onay mesajı göndermeye çalıştı, ancak bu kanalda Discord izinlerinin olmaması nedeniyle bunu yapamadı. Lütfen bota mesaj göndermesi için Discord izni verin.",
     "task_delete_instantly_could_not_send_message": "**{{id}}** görevi silindi.\n\n⚠\uFE0F Bot herkes tarafından görülebilen bir onay mesajı göndermeye çalıştı, ancak bu kanalda Discord izinlerinin olmaması nedeniyle bunu yapamadı. Lütfen bota mesaj göndermesi için Discord izni verin.",
     "deleted_instantly_ephemeral_message": "**{{id}}** görevi silindi.",
