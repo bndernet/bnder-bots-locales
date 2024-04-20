@@ -90,6 +90,11 @@ export interface TSLocalizationKeys {
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string;
+        invite_notification: {
+            content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string,
+            accept_button: string,
+            deny_button: string,
+        }
     }
 }
 

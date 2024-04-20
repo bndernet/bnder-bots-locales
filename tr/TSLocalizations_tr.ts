@@ -138,6 +138,13 @@ export class TSLocalizations_tr {
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
                 return `Yaklaşan etkinlik (${id}: ${name}) ${durationTillEventMinutes} dakika içinde ${guildName} sunucusunda başlayacak.`;
+            },
+            invite_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> sizi **${eventId}** etkinliğine davet etti: **${eventName}** (${start} - ${end})`;
+                },
+                accept_button: "Kabul et",
+                deny_button: "Reddet"
             }
         }
     }

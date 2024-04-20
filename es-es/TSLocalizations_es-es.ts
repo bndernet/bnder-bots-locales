@@ -138,6 +138,13 @@ export class TSLocalizations_es_es {
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
                 return `El próximo evento (${id}: ${name}) comienza en ${durationTillEventMinutes} minutos en ${guildName}.`;
+            },
+            invite_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `Has sido invitado por <@${inviterId}> al evento **${eventName}** que comienza el ${start} y termina el ${end}`;
+                },
+                accept_button: "Aceptar",
+                deny_button: "Rechazar"
             }
         }
     }

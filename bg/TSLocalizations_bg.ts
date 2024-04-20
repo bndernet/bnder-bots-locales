@@ -138,6 +138,13 @@ export class TSLocalizations_bg {
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
                 return `Предстоящо събитие (${id}: ${name}) започва след ${durationTillEventMinutes} минути в ${guildName}.`;
+            },
+            invite_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `Покана за събитие **${eventId}** от <@${inviterId}>: ${eventName} от ${start} до ${end}`;
+                },
+                accept_button: "Приеми",
+                deny_button: "Откажи"
             }
         }
     }
