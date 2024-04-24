@@ -13,6 +13,8 @@ export class TSLocalizations_tr {
                 return `Görev ${id} atandı`;
             },
             assigned_embed_footer: "Bu bildirimler sunucu yöneticisi tarafından \"/preferences direct_messages\" komutu kullanılarak devre dışı bırakılabilir.",
+            assigned_embed_button_in_progress: "Devam ediyor",
+            assigned_embed_button_done: "Yapıldı",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `Görev **${id}** için son teslim tarihi sunucuda **${guildName}** geçmiş: ${task_text}`;
             },

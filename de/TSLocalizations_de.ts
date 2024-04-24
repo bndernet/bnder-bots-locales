@@ -13,6 +13,8 @@ export class TSLocalizations_de {
                 return `Aufgabe ${id} zugewiesen`;
             },
             assigned_embed_footer: "Diese Benachrichtigungen können von einem Serveradministrator mit dem Befehl \"/preferences direct_messages\" deaktiviert werden.",
+            assigned_embed_button_in_progress: "In Bearbeitung",
+            assigned_embed_button_done: "Erledigt",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `Die Deadline für die Aufgabe ${id} ist im Server ${guildName} abgelaufen: ${task_text}`;
             },

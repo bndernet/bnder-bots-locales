@@ -13,6 +13,8 @@ export class TSLocalizations_en {
                 return `Task ${id} assigned`;
             },
             assigned_embed_footer: "These notifications can be disabled using the \"/preferences direct_messages\" command.",
+            assigned_embed_button_in_progress: "Mark as in progress",
+            assigned_embed_button_done: "Mark as done",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `The deadline for task ${id} is overdue in server ${guildName}: ${task_text}`;
             },

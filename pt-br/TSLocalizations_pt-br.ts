@@ -13,6 +13,8 @@ export class TSLocalizations_pt_br {
                 return `Tarefa ${id} atribuída`;
             },
             assigned_embed_footer: "Essas notificações podem ser desativadas por um administrador do servidor usando o comando \"/preferences direct_messages\"",
+            assigned_embed_button_in_progress: "Marcar como em progresso",
+            assigned_embed_button_done: "Marcar como feito",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `O prazo para a tarefa ${id} está atrasado no servidor ${guildName}: ${task_text}`;
             },

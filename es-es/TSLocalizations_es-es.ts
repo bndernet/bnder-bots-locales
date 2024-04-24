@@ -13,6 +13,8 @@ export class TSLocalizations_es_es {
                 return `Tarea ${id} asignada`;
             },
             assigned_embed_footer: "Estas notificaciones pueden ser desactivadas por un administrador del servidor usando el comando \"/preferences direct_messages\"",
+            assigned_embed_button_in_progress: "Marcar como en progreso",
+            assigned_embed_button_done: "Marcar como hecho",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `La fecha límite para la tarea ${id} está vencida en el servidor ${guildName}: ${task_text}`;
             },

@@ -13,6 +13,8 @@ export interface TSLocalizationKeys {
         assigned_notification(guildName: string): string;
         assigned_embed_title(id: string): string;
         assigned_embed_footer: string;
+        assigned_embed_button_in_progress: string;
+        assigned_embed_button_done: string;
         deadline_was_in_past(id: string, task_text: string, guildName: string): string;
         repeat_notification(guildName: string): string;
         repeat_notification_embed_title(id: string): string;

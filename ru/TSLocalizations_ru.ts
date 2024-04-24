@@ -13,6 +13,8 @@ export class TSLocalizations_ru {
                 return `Задача ${id} назначена`;
             },
             assigned_embed_footer: "Эти уведомления могут быть отключены администратором сервера с помощью команды \"/preferences direct_messages\"",
+            assigned_embed_button_in_progress: "В процессе",
+            assigned_embed_button_done: "Сделано",
             deadline_was_in_past(id: string, task_text: string, guildName: string): string {
                 return `Крайний срок для задачи ${id} истек в сервере ${guildName}: ${task_text}`;
             },
