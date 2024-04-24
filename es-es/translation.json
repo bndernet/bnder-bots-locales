@@ -424,11 +424,11 @@
   },
   "setup": {
     "skip_button_label": "Saltar este paso",
-    "step_language": "## Paso 1: Idioma\n\nPor favor, seleccione el idioma que desea utilizar para el bot. Esto se puede cambiar en cada momento con el comando \"/settings language\".",
-    "step_dateformat": "## Paso 2: Formato de fecha Por favor, seleccione el formato de fecha que desea utilizar para el bot. Esto se puede cambiar en cualquier momento con el comando \"/settings dateformat\".",
-    "set_auto_priority": "## Paso 3: Prioridad automática ¿Desea activar la prioridad automática? Esto establecerá automáticamente una prioridad para las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_priority\".",
-    "step_auto_labeling": "## Paso 4: Autoetiquetado ¿Desea activar el autoetiquetado? Esto añadirá automáticamente etiquetas a las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_labeling\".",
-    "step_week_start_day": "## Paso 3: Día de inicio de la semana Por favor, seleccione el día en que desea que comience la semana. Esto se puede cambiar en cualquier momento con el comando \"/settings week_start_day\".",
+    "step_language": "## Paso 1/{{steps}}: Idioma\n\nPor favor, seleccione el idioma que desea utilizar para el bot. Esto se puede cambiar en cada momento con el comando \"/settings language\".",
+    "step_dateformat": "## Paso 2/{{steps}}: Formato de fecha Por favor, seleccione el formato de fecha que desea utilizar para el bot. Esto se puede cambiar en cualquier momento con el comando \"/settings dateformat\".",
+    "set_auto_priority": "## Paso 3/{{steps}}: Prioridad automática ¿Desea activar la prioridad automática? Esto establecerá automáticamente una prioridad para las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_priority\".",
+    "step_auto_labeling": "## Paso 4/{{steps}}: Autoetiquetado ¿Desea activar el autoetiquetado? Esto añadirá automáticamente etiquetas a las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_labeling\".",
+    "step_week_start_day": "## Paso 3/{{steps}}: Día de inicio de la semana Por favor, seleccione el día en que desea que comience la semana. Esto se puede cambiar en cualquier momento con el comando \"/settings week_start_day\".",
     "setup_completed": "La configuración se ha completado. Ya puedes utilizar el bot. Si quieres cambiar la configuración, utiliza el comando \"/settings\".\n\nPara una experiencia completa de gestión de proyectos, echa un vistazo a otros Bots de bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) y [Calendar Manager](<https://bnder.net/calendar>)."
   },
   "integration": {

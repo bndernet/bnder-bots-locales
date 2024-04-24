@@ -424,11 +424,11 @@
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",
-    "step_language": "## Step 1: Language\n\nPor favor, selecione o idioma que você deseja usar no bot. Isso pode ser alterado a qualquer momento com o comando \"/settings language\".",
-    "step_dateformat": "## Step 2: Date format\n\nPor favor, selecione o formato de data que você deseja usar para o bot. Isso pode ser alterado a qualquer momento com o comando \"/settings dateformat\".",
-    "step_auto_priority": "## Step 3: Auto priority\n\nDo you want to enable auto priority? Isso definirá automaticamente uma prioridade para as tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_priority\".",
-    "step_auto_labeling": "## Step 4: Auto labeling\n\nDo you want to enable auto labeling? Isso adicionará automaticamente rótulos às tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_labeling\".",
-    "step_week_start_day": "## Step 3: Week start day\n\nPor favor, selecione o dia em que você deseja que a semana comece. Isso pode ser alterado a qualquer momento com o comando \"/settings week_start_day\".",
+    "step_language": "## Step 1/{{steps}}: Language\n\nPor favor, selecione o idioma que você deseja usar no bot. Isso pode ser alterado a qualquer momento com o comando \"/settings language\".",
+    "step_dateformat": "## Step 2/{{steps}}: Date format\n\nPor favor, selecione o formato de data que você deseja usar para o bot. Isso pode ser alterado a qualquer momento com o comando \"/settings dateformat\".",
+    "step_auto_priority": "## Step 3/{{steps}}: Auto priority\n\nDo you want to enable auto priority? Isso definirá automaticamente uma prioridade para as tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_priority\".",
+    "step_auto_labeling": "## Step 4/{{steps}}: Auto labeling\n\nDo you want to enable auto labeling? Isso adicionará automaticamente rótulos às tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_labeling\".",
+    "step_week_start_day": "## Step 3/{{steps}}: Week start day\n\nPor favor, selecione o dia em que você deseja que a semana comece. Isso pode ser alterado a qualquer momento com o comando \"/settings week_start_day\".",
     "setup_completed": "A configuração foi concluída. Agora você pode usar o bot. Se você quiser alterar as configurações, use o comando \"/settings\".\n\nPara obter uma experiência completa de gerenciamento de projetos, confira outros bots da bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) e [Calendar Manager](<https://bnder.net/calendar>)."
   },
   "integration": {

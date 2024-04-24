@@ -424,11 +424,11 @@
   },
   "setup": {
     "skip_button_label": "Skip this step",
-    "step_language": "## Step 1: Language\n\nPlease select the language you want to use for the bot. This can be changed at every time with the command \"/settings language\".",
-    "step_dateformat": "## Step 2: Date format\n\nPlease select the date format you want to use for the bot. This can be changed at every time with the command \"/settings dateformat\".",
-    "step_auto_priority": "## Step 3: Auto priority\n\nDo you want to enable auto priority? This will automatically set a priority for tasks based on their text. This can be changed at every time with the command \"/settings auto_priority\".",
-    "step_auto_labeling": "## Step 4: Auto labeling\n\nDo you want to enable auto labeling? This will automatically add labels to tasks based on their text. This can be changed at every time with the command \"/settings auto_labeling\".",
-    "step_week_start_day": "## Step 3: Week start day\n\nPlease select the day you want the week to start with. This can be changed at every time with the command \"/settings week_start_day\".",
+    "step_language": "## Step 1/{{steps}}: Language\n\nPlease select the language you want to use for the bot. This can be changed at every time with the command \"/settings language\".",
+    "step_dateformat": "## Step 2/{{steps}}: Date format\n\nPlease select the date format you want to use for the bot. This can be changed at every time with the command \"/settings dateformat\".",
+    "step_auto_priority": "## Step 3/{{steps}}: Auto priority\n\nDo you want to enable auto priority? This will automatically set a priority for tasks based on their text. This can be changed at every time with the command \"/settings auto_priority\".",
+    "step_auto_labeling": "## Step 4/{{steps}}: Auto labeling\n\nDo you want to enable auto labeling? This will automatically add labels to tasks based on their text. This can be changed at every time with the command \"/settings auto_labeling\".",
+    "step_week_start_day": "## Step 3/{{steps}}: Week start day\n\nPlease select the day you want the week to start with. This can be changed at every time with the command \"/settings week_start_day\".",
     "setup_completed": "The setup has been completed. You can now use the bot. If you want to change the settings, use the command \"/settings\".\n\nFor the complete project management experience, checkout other Bots by bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) and [Calendar Manager](<https://bnder.net/calendar>)."
   },
   "integration": {

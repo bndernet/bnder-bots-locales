@@ -424,11 +424,11 @@
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",
-    "step_language": "## Adım 1: Dil\n\nLütfen bot için kullanmak istediğiniz dili seçin. Bu her zaman \"/settings language\" komutu ile değiştirilebilir.",
-    "step_dateformat": "## Adım 2: Tarih biçimi\n\nLütfen bot için kullanmak istediğiniz tarih biçimini seçin. Bu her zaman \"/settings dateformat\" komutu ile değiştirilebilir.",
-    "step_auto_priority": "## Adım 3: Otomatik öncelik\n\nOtomatik önceliği etkinleştirmek istiyor musunuz? Bu, görevler için metinlerine göre otomatik olarak bir öncelik belirleyecektir. Bu her zaman \"/settings auto_priority\" komutu ile değiştirilebilir.",
-    "step_auto_labeling": "## Adım 4: Otomatik etiketleme\n\nOtomatik etiketlemeyi etkinleştirmek istiyor musunuz? Bu, görevlere metinlerine göre otomatik olarak etiket ekleyecektir. Bu her zaman \"/settings auto_labeling\" komutu ile değiştirilebilir.",
-    "step_week_start_day": "## Adım 3: Hafta başlangıç günü\n\nLütfen haftanın başlamasını istediğiniz günü seçin. Bu her zaman \"/settings week_start_day\" komutu ile değiştirilebilir.",
+    "step_language": "## Adım 1/{{steps}}: Dil\n\nLütfen bot için kullanmak istediğiniz dili seçin. Bu her zaman \"/settings language\" komutu ile değiştirilebilir.",
+    "step_dateformat": "## Adım 2/{{steps}}: Tarih biçimi\n\nLütfen bot için kullanmak istediğiniz tarih biçimini seçin. Bu her zaman \"/settings dateformat\" komutu ile değiştirilebilir.",
+    "step_auto_priority": "## Adım 3/{{steps}}: Otomatik öncelik\n\nOtomatik önceliği etkinleştirmek istiyor musunuz? Bu, görevler için metinlerine göre otomatik olarak bir öncelik belirleyecektir. Bu her zaman \"/settings auto_priority\" komutu ile değiştirilebilir.",
+    "step_auto_labeling": "## Adım 4/{{steps}}: Otomatik etiketleme\n\nOtomatik etiketlemeyi etkinleştirmek istiyor musunuz? Bu, görevlere metinlerine göre otomatik olarak etiket ekleyecektir. Bu her zaman \"/settings auto_labeling\" komutu ile değiştirilebilir.",
+    "step_week_start_day": "## Adım 3/{{steps}}: Hafta başlangıç günü\n\nLütfen haftanın başlamasını istediğiniz günü seçin. Bu her zaman \"/settings week_start_day\" komutu ile değiştirilebilir.",
     "setup_completed": "Kurulum tamamlandı. Artık botu kullanabilirsiniz. Ayarları değiştirmek isterseniz, \"/settings\" komutunu kullanın.\n\nTam bir proje yönetimi deneyimi için bnder'in diğer botlarına göz atın: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) ve [Calendar Manager](<https://bnder.net/calendar>)."
   },
   "integration": {
