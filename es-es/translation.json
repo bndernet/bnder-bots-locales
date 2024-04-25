@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Roles asignados",
       "labels_headline": "Etiquetas",
       "priority_headline": "Prioridad",
-      "subtasks_headline": "Subtareas"
+      "subtasks_headline": "Subtareas",
+      "description_headline": "Descripción"
     },
     "subtask": {
-      "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"text\" para especificar el texto de la subtarea",
+      "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",
       "added": "Se ha añadido una subtarea a la tarea **{{id}}**",
       "number_not_found": "Falta el número de la subtarea. Utiliza el parámetro \"number\" para especificar el número de la subtarea. Utilice \"/task info\" para ver los números de subtarea de una tarea.",
       "número_no_un_número": "El número de subtarea debe ser un número positivo",
@@ -205,8 +206,10 @@
       "priority_changed": "Prioridad cambiada de {{old_priority}} a {{new_priority}}.",
       "subtask_added": "Añadida una subtarea",
       "subtask_removed": "Eliminada una subtarea",
-      "commit_mention": "Mencionado en [commit](<{{url}}>)"
-    }
+      "commit_mention": "Mencionado en [commit](<{{url}}>)",
+      "description_edited": "Descripción editada"
+    },
+    "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

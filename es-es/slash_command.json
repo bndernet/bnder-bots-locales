@@ -93,7 +93,8 @@
     "show_option_description": "Si el mensaje debe mostrarse a todo el mundo",
     "subtasks_subcommand_description": "Añadir, eliminar, completar o descompletar subtareas",
     "subtaskaction_option_description": "La acción a realizar en la subtarea",
-    "subtasknumber_option_description": "El número de la subtarea"
+    "subtasknumber_option_description": "El número de la subtarea",
+    "description_option_description": "La descripción de la tarea"
   },
   "topic": {
     "name_option_description": "El nombre de un tema",

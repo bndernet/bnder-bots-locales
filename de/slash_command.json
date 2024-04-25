@@ -93,7 +93,8 @@
     "show_option_description": "Ob die Nachricht für alle angezeigt werden soll",
     "subtasks_subcommand_description": "Teilaufgaben hinzufügen, entfernen, abschließen oder nicht abschließen",
     "subtaskaction_option_description": "Die Aktion, die für die Teilaufgabe durchgeführt werden soll",
-    "subtasknumber_option_description": "Die Nummer der Unteraufgabe"
+    "subtasknumber_option_description": "Die Nummer der Unteraufgabe",
+    "description_option_description": "Die Beschreibung einer Aufgabe"
   },
   "topic": {
     "name_option_description": "Der Name eines Themas",

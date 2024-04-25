@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Zugewiesene Rollen",
       "assigned_labels_headline": "Labels",
       "priority_headline": "Priorität",
-      "subtasks_headline": "Teilaufgaben"
+      "subtasks_headline": "Teilaufgaben",
+      "description_headline": "Beschreibung"
     },
     "subtask": {
-      "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"text\", um den Text der Unteraufgabe anzugeben.",
+      "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"title\", um den Text der Unteraufgabe anzugeben.",
       "added": "Eine Unteraufgabe wurde der Aufgabe **{{id}}** hinzugefügt.",
       "number_not_found": "Die Nummer der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"number\", um die Nummer der Unteraufgabe anzugeben. Verwenden Sie \"/task info\", um die Nummern der Unteraufgaben einer Aufgabe anzuzeigen.",
       "number_not_a_number": "Die Teilaufgabennummer muss eine positive Zahl sein.",
@@ -205,8 +206,10 @@
       "priority_changed": "Priorität geändert von {{old_priority}} auf {{new_priority}}.",
       "subtask_added": "Eine Teilaufgabe hinzugefügt",
       "subtask_removed": "Entfernte eine Teilaufgabe",
-      "commit_mention": "Erwähnt in [commit](<{{url}}>)"
-    }
+      "commit_mention": "Erwähnt in [commit](<{{url}}>)",
+      "description_edited": "Beschreibung bearbeitet"
+    },
+    "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

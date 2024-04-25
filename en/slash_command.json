@@ -93,7 +93,8 @@
     "show_option_description": "Whether the message should be shown to everyone",
     "subtasks_subcommand_description": "Add, remove, complete or uncomplete subtasks",
     "subtaskaction_option_description": "The action to perform on the subtask",
-    "subtasknumber_option_description": "The number of the subtask"
+    "subtasknumber_option_description": "The number of the subtask",
+    "description_option_description": "The description of a task"
   },
   "topic": {
     "name_option_description": "The name of a topic",

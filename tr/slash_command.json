@@ -93,7 +93,8 @@
     "show_option_description": "Mesajın herkese gösterilip gösterilmeyeceği",
     "subtasks_subcommand_description": "Alt görev ekle, kaldır, tamamla veya tamamlama",
     "subtaskaction_option_description": "Alt görev üzerinde gerçekleştirilecek eylem",
-    "subtasknumber_option_description": "Alt görevin numarası"
+    "subtasknumber_option_description": "Alt görevin numarası",
+    "description_option_description": "Görevin açıklaması"
   },
   "topic": {
     "name_option_description": "Bir konunun adı",

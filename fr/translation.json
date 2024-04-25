@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Rôles assignés",
       "labels_headline": "Étiquettes",
       "priority_headline": "Priorité",
-      "subtasks_headline": "Tâches secondaires"
+      "subtasks_headline": "Tâches secondaires",
+      "description_headline": "Description"
     },
     "subtask": {
-      "text_not_found": "Le texte de la sous-tâche est manquant. Veuillez utiliser le paramètre \"text\" pour spécifier le texte de la sous-tâche.",
+      "text_not_found": "Le texte de la sous-tâche est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la sous-tâche.",
       "added": "Une sous-tâche a été ajoutée à la tâche **{{id}}**",
       "number_not_found": "Le numéro de la sous-tâche est manquant. Veuillez utiliser le paramètre \"number\" pour spécifier le numéro de la sous-tâche. Utilisez \"/task info\" pour voir les numéros de sous-tâches d'une tâche.",
       "number_not_a_number": "Le numéro de sous-tâche doit être un nombre positif",
@@ -205,8 +206,10 @@
       "priority_changed": "Priorité modifiée de {{old_priority}} à {{new_priority}}.",
       "subtask_added": "Ajout d'une sous-tâche",
       "subtask_removed": "Suppression d'une sous-tâche",
-      "commit_mention" : "Mentionné dans [commit](<{{url}}>)"
-    }
+      "commit_mention" : "Mentionné dans [commit](<{{url}}>)",
+      "description_edited": "Description de la tâche éditée"
+    },
+    "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Funções atribuídas",
       "labels_headline": "Rótulos",
       "priority_headline": "Prioridade",
-      "subtasks_headline": "Subtarefas"
+      "subtasks_headline": "Subtarefas",
+      "description_headline": "Descrição"
     },
     "subtask": {
-      "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"text\" para especificar o texto da subtarefa.",
+      "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",
       "added": "Uma subtarefa foi adicionada à tarefa **{{id}}**.",
       "number_not_found": "O número da subtarefa está faltando. Use o parâmetro \"number\" para especificar o número da subtarefa. Use \"/task info\" para ver os números das subtarefas de uma tarefa.",
       "number_not_a_number": "O número da subtarefa deve ser um número positivo.",
@@ -205,8 +206,10 @@
       "priority_changed": "A prioridade foi alterada de {{old_priority}} para {{new_priority}}.",
       "subtask_added": "Adicionada uma subtarefa",
       "subtask_removed": "Removida uma subtarefa",
-      "commit_mention": "Mencionado em [commit](<{{url}}>)"
-    }
+      "commit_mention": "Mencionado em [commit](<{{url}}>)",
+      "description_edited": "Descrição editada"
+    },
+    "description_too_long": "A descrição é muito longa. Reduza-a para um máximo de {{max}} caracteres."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

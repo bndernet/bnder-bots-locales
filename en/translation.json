@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Assigned roles",
       "assigned_labels_headline": "Labels",
       "priority_headline": "Priority",
-      "subtasks_headline": "Subtasks"
+      "subtasks_headline": "Subtasks",
+      "description_headline": "Description"
     },
     "subtask": {
-      "text_not_found": "The subtask text is missing. Please use the \"text\" parameter to specify the subtask text.",
+      "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",
       "added": "A subtask was added to the task **{{id}}**.",
       "number_not_found": "The subtask number is missing. Please use the \"number\" parameter to specify the subtask number. Use \"/task info\" to see the subtask numbers of a task.",
       "number_not_a_number": "The subtask number must be a positive number.",
@@ -205,8 +206,10 @@
       "priority_changed": "Priority changed from {{old_priority}} to {{new_priority}}.",
       "subtask_added": "Added a subtask",
       "subtask_removed": "Removed a subtask",
-      "commit_mention": "Mentioned in [commit](<{{url}}>)"
-    }
+      "commit_mention": "Mentioned in [commit](<{{url}}>)",
+      "description_edited": "Description edited"
+    },
+    "description_too_long": "The description is too long. Please shorten it to {{max}} characters."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

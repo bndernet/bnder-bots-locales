@@ -110,10 +110,11 @@
       "assigned_roles_headline": "Atanmış roller",
       "labels_headline": "Etiketler",
       "priority_headline": "Öncelik",
-      "subtasks_headline": "Alt Görevler"
+      "subtasks_headline": "Alt Görevler",
+      "description_headline": "Açıklama"
     },
     "subtask": {
-      "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"text\" parametresini kullanın.",
+      "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
       "added": "**{{id}}** görevine bir alt görev eklendi.",
       "number_not_found": "Alt görev numarası eksik. Alt görev numarasını belirtmek için lütfen \"number\" parametresini kullanın. Bir görevin alt görev numaralarını görmek için \"/task info\" parametresini kullanın.",
       "number_not_a_number": "Alt görev numarası pozitif bir sayı olmalıdır.",
@@ -205,8 +206,10 @@
       "priority_changed": "Öncelik {{old_priority}}'den {{new_priority}}'ye değiştirildi.",
       "subtask_added": "Bir alt görev eklendi",
       "subtask_removed": "Bir alt görev kaldırıldı",
-      "commit_mention": "Mentioned in [commit](<{{url}}>)"
-    }
+      "commit_mention": "Mentioned in [commit](<{{url}}>)",
+      "description_edited": "Açıklama düzenlendi"
+    },
+    "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

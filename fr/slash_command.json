@@ -93,7 +93,8 @@
     "show_option_description": "Si le message doit être montré à tout le monde",
     "subtasks_subcommand_description": "Ajouter, supprimer, compléter ou décompléter des sous-tâches",
     "subtaskaction_option_description": "L'action à effectuer sur la sous-tâche",
-    "subtasknumber_option_description": "Le numéro de la sous-tâche"
+    "subtasknumber_option_description": "Le numéro de la sous-tâche",
+    "description_option_description": "La description d'une tâche"
   },
   "topic": {
     "name_option_description": "Le nom d'un sujet",

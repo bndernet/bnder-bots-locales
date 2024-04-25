@@ -93,7 +93,8 @@
     "show_option_description": "Должно ли сообщение показываться всем",
     "subtasks_subcommand_description": "Добавлять, удалять, завершать или не завершать подзадачи",
     "subtaskaction_option_description": "Действие, которое нужно выполнить над подзадачей",
-    "subtasknumber_option_description": "Номер подзадачи"
+    "subtasknumber_option_description": "Номер подзадачи",
+    "description_option_description": "Описание задачи"
   },
   "topic": {
     "name_option_description": "Название темы",
