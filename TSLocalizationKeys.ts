@@ -6,6 +6,7 @@ import { TSLocalizations_fr } from "./fr/TSLocalizations_fr";
 import { TSLocalizations_pt_br } from "./pt-br/TSLocalizations_pt-br";
 import { TSLocalizations_ru } from "./ru/TSLocalizations_ru";
 import { TSLocalizations_tr } from "./tr/TSLocalizations_tr";
+import { TSLocalizations_hi } from "./hi/TSLocalizations_en";
 
 export interface TSLocalizationKeys {
     task: {
@@ -110,6 +111,7 @@ export class Localizations {
         "en": TSLocalizations_en.Localizations,
         "es-es": TSLocalizations_es_es.Localizations,
         "fr": TSLocalizations_fr.Localizations,
+        "hi": TSLocalizations_hi.Localizations,
         "pt-br": TSLocalizations_pt_br.Localizations,
         "ru": TSLocalizations_ru.Localizations,
         "tr": TSLocalizations_tr.Localizations,
