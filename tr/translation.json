@@ -94,7 +94,7 @@
     "task_assigned_user": "**{{id}}** görevi <@{{user_id}}> kullanıcısına atandı. Bu kullanıcının görev listesinde (\"/task list\") görünecektir.",
     "task_assigned_role": "**{{id}}** görevi <@&{{role_id}}> rolüne atandı. Bu role sahip her kullanıcının görev listesinde (\"/task list\") görünecektir.",
     "task_done": "Görev tamamlandı olarak işaretlendi.",
-    "task_edited": "Görev işleme alındı.",
+    "task_edited": "Görevin başlığı/açıklaması **{{id}}** düzenlendi.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Metin",

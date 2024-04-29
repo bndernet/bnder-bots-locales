@@ -94,7 +94,7 @@
     "task_assigned_user": "The task **{{id}}** was assigned to the user <@{{user_id}}>. It will appear in the task list (\"/task list\") of this user.",
     "task_assigned_role": "The task **{{id}}** was assigned to the role <@&{{role_id}}>. It will appear in the task list (\"/task list\") of every user with this role.",
     "task_done": "The task **{{id}}** is marked as done.",
-    "task_edited": "The task text of **{{id}}** has been edited.",
+    "task_edited": "The text/title of task **{{id}}** has been edited.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",

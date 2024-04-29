@@ -94,7 +94,7 @@
     "task_assigned_user": "Die Aufgabe **{{id}}** wurde dem Benutzer <@{{user_id}}> zugewiesen. Sie wird in der Aufgabenliste (\"/task list\") dieses Benutzers erscheinen.",
     "task_assigned_role": "Die Aufgabe **{{id}}** wurde der Rolle <@&{{role_id}}> zugewiesen. Sie wird in der Aufgabenliste (\"/task list\") jedes Benutzers mit dieser Rolle erscheinen.",
     "task_done": "Die Aufgabe wurde als erledigt markiert.",
-    "task_edited": "Die Aufgabe wurde bearbeitet.",
+    "task_edited": "Der Titel/die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",

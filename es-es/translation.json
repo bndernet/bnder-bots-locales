@@ -94,7 +94,7 @@
     "task_assigned_user": "La tarea **{{id}}** ha sido asignada al usuario <@{{user_id}}>. Aparecerá en la lista de tareas (\"/task list\") de este usuario",
     "task_assigned_role": "La tarea **{{id}}** ha sido asignada al rol <@&{{role_id}}>. Aparecerá en la lista de tareas (\"/task list\") de todos los usuarios con este rol.",
     "task_done": "La tarea se ha marcado como completada.",
-    "task_edited": "La tarea fue procesada.",
+    "task_edited": "El título/descripción de la tarea **{{id}}** ha sido editado.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",

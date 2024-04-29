@@ -94,7 +94,7 @@
     "task_assigned_user": "A tarefa **{{id}}** foi atribuída ao usuário <@{{user_id}}>. Ela aparecerá na lista de tarefas (\"/task list\") desse usuário.",
     "task_assigned_role": "A tarefa **{{id}}** foi atribuída à função <@&{{role_id}}>. Ela aparecerá na lista de tarefas (\"/task list\") de todos os usuários com essa função.",
     "task_done": "A tarefa foi marcada como concluída.",
-    "task_edited": "A tarefa foi processada.",
+    "task_edited": "O título/descrição da tarefa **{{id}}** foi editado.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Texto",
