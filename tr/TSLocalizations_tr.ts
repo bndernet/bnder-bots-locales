@@ -135,6 +135,16 @@ export class TSLocalizations_tr {
             test_message: {
                 title: "Bu bir test mesajıdır",
                 description: "Bu mesajı görüyorsanız, web kancası doğru çalışıyor ve günlüğe kayıt etme etkin."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Yorum eklendi: ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Yorum silindi: ${id}`;
+                }
             }
         },
         event: {

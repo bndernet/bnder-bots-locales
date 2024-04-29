@@ -135,6 +135,16 @@ export class TSLocalizations_pt_br {
             test_message: {
                 title: "Esta é uma mensagem de teste",
                 description: "Se você vê esta mensagem, o webhook está funcionando corretamente e o log está ativado."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Comentário adicionado à tarefa ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Comentário excluído da tarefa ${id}`;
+                }
             }
         },
         event: {

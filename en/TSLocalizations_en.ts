@@ -135,6 +135,16 @@ export class TSLocalizations_en {
             test_message: {
                 title: "This is a test message",
                 description: "If you see this message, the webhook is working correctly and the logging is enabled."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Comment added to task ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Comment deleted from task ${id}`;
+                }
             }
         },
         event: {

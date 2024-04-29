@@ -90,6 +90,12 @@ export interface TSLocalizationKeys {
             title: string,
             description: string,
         },
+        comment_added: {
+            title(id: string): string,
+        },
+        comment_deleted: {
+            title(id: string): string,
+        },
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string;

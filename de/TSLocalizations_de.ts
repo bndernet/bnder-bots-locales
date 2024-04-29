@@ -135,6 +135,16 @@ export class TSLocalizations_de {
             test_message: {
                 title: "Dies ist eine Testnachricht",
                 description: "Wenn Sie diese Nachricht sehen, funktioniert das Webhook richtig und das Protokollieren ist aktiviert."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Kommentar hinzugefügt zu Aufgabe ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Kommentar gelöscht von Aufgabe ${id}`;
+                }
             }
         },
         event: {

@@ -135,6 +135,16 @@ export class TSLocalizations_ru {
             test_message: {
                 title: "Это тестовое сообщение",
                 description: "Если вы видите это сообщение, веб-крючок работает правильно, и включено ведение журнала."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Комментарий добавлен к задаче ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Комментарий удален из задачи ${id}`;
+                }
             }
         },
         event: {

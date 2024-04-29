@@ -135,6 +135,16 @@ export class TSLocalizations_bg {
             test_message: {
                 title: "Това е тестово съобщение",
                 description: "Ако виждате това съобщение, уебхукът работи правилно и логването е активирано."
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `Коментар към задача ${id}`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `Коментар към задача ${id} изтрит`;
+                }
             }
         },
         event: {

@@ -135,6 +135,16 @@ export class TSLocalizations_hi {
             test_message: {
                 title: "यह एक परीक्षण संदेश है",
                 description: "यदि आप यह संदेश देखते हैं, तो वेबहुक सही ढंग से काम कर रहा है और लॉगिंग सक्षम है।"
+            },
+            comment_added: {
+                title(id: string): string {
+                    return `कार्य ${id} पर टिप्पणी जोड़ी गई`;
+                }
+            },
+            comment_deleted: {
+                title(id: string): string {
+                    return `कार्य ${id} से टिप्पणी हटाई गई`;
+                }
             }
         },
         event: {
