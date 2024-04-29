@@ -96,7 +96,7 @@
     "subtasknumber_option_description": "Номер подзадачи",
     "description_option_description": "Описание задачи",
     "comment_option_description": "Комментарий, который нужно добавить к задаче",
-    "comment_subcommand_description": "Добавить комментарий к задаче".
+    "comment_subcommand_description": "Добавить комментарий к задаче"
   },
   "topic": {
     "name_option_description": "Название темы",
