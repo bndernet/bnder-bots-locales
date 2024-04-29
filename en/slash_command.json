@@ -94,7 +94,9 @@
     "subtasks_subcommand_description": "Add, remove, complete or uncomplete subtasks",
     "subtaskaction_option_description": "The action to perform on the subtask",
     "subtasknumber_option_description": "The number of the subtask",
-    "description_option_description": "The description of a task"
+    "description_option_description": "The description of a task",
+    "comment_option_description": "The comment to add to a task",
+    "comment_subcommand_description": "Add a comment to a task"
   },
   "topic": {
     "name_option_description": "The name of a topic",

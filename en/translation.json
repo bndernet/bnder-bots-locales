@@ -209,7 +209,9 @@
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Description edited"
     },
-    "description_too_long": "The description is too long. Please shorten it to {{max}} characters."
+    "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
+    "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",
+    "task_commented": "Your comment was added to the task **{{id}}**. It will be visible in the \"/task info\" command and in the app."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

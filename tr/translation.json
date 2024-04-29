@@ -209,7 +209,9 @@
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Açıklama düzenlendi"
     },
-    "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın."
+    "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
+    "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
+    "task_commented": "Yorumunuz **{{id}}** görevine eklendi. Bu yorum \"/task info\" komutunda ve uygulamada görülebilir."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

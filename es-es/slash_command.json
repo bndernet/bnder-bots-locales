@@ -94,7 +94,9 @@
     "subtasks_subcommand_description": "Añadir, eliminar, completar o descompletar subtareas",
     "subtaskaction_option_description": "La acción a realizar en la subtarea",
     "subtasknumber_option_description": "El número de la subtarea",
-    "description_option_description": "La descripción de la tarea"
+    "description_option_description": "La descripción de la tarea",
+    "comment_option_description": "El comentario a añadir a una tarea",
+    "comment_subcommand_description": "Añadir un comentario a una tarea"
   },
   "topic": {
     "name_option_description": "El nombre de un tema",

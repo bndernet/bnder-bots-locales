@@ -209,7 +209,9 @@
       "commit_mention" : "Mentionné dans [commit](<{{url}}>)",
       "description_edited": "Description de la tâche éditée"
     },
-    "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères."
+    "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
+    "comment_text_too_long" : "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
+    "task_commented" : "Votre commentaire a été ajouté à la tâche **{{id}}**. Il sera visible dans la commande \"/task info\" et dans l'application."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

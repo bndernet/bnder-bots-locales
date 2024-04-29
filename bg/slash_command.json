@@ -94,7 +94,9 @@
     "subtasks_subcommand_description": "Добавяне, премахване, завършване или незавършване на подзадачи",
     "subtaskaction_option_description": "Действие, което да се извърши върху подзадачата",
     "subtasknumber_option_description": "Номер на подзадачата",
-    "description_option_description": "Описание на задачата"
+    "description_option_description": "Описание на задачата",
+    "comment_option_description": "Коментарът, който се добавя към задачата",
+    "comment_subcommand_description": "Добавяне на коментар към задача"
   },
   "topic": {
     "name_option_description": "Името на темата",

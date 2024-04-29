@@ -94,7 +94,9 @@
     "subtasks_subcommand_description": "Adicionar, remover, concluir ou descompletar subtarefas",
     "subtaskaction_option_description": "A ação a ser executada na subtarefa",
     "subtasknumber_option_description": "O número da subtarefa",
-    "description_option_description": "A descrição de uma tarefa"
+    "description_option_description": "A descrição de uma tarefa",
+    "comment_option_description": "O comentário a ser adicionado a uma tarefa",
+    "comment_subcommand_description": "Adicionar um comentário a uma tarefa"
   },
   "topic": {
     "name_option_description": "O nome de um tópico",
