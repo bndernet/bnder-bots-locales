@@ -111,7 +111,8 @@
       "assigned_labels_headline": "Labels",
       "priority_headline": "Priority",
       "subtasks_headline": "Subtasks",
-      "description_headline": "Description"
+      "description_headline": "Description",
+      "comments_headline": "Comments"
     },
     "subtask": {
       "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",

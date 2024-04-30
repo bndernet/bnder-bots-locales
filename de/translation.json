@@ -111,7 +111,8 @@
       "assigned_labels_headline": "Labels",
       "priority_headline": "Priorität",
       "subtasks_headline": "Teilaufgaben",
-      "description_headline": "Beschreibung"
+      "description_headline": "Beschreibung",
+      "comments_headline": "Kommentare"
     },
     "subtask": {
       "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"title\", um den Text der Unteraufgabe anzugeben.",

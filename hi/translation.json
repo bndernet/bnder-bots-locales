@@ -111,7 +111,8 @@
       "assigned_labels_headline": "लेबल",
       "priority_headline": "प्राथमिकता",
       "subtasks_headline": "उपकार्य",
-      "description_headline": "विवरण"
+      "description_headline": "विवरण",
+      "comments_headline": "टिप्पणियाँ"
     },
     "subtask": {
       "text_not_found": "उपकार्य पाठ गुम है। उपकार्य पाठ निर्दिष्ट करने के लिए कृपया \"शीर्षक\" पैरामीटर का उपयोग करें।",

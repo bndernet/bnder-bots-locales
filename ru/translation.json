@@ -111,7 +111,8 @@
       "labels_headline": "Метки",
       "priority_headline": "Приоритет",
       "subtasks_headline": "Подзадачи",
-      "description_headline": "Описание"
+      "description_headline": "Описание",
+      "comments_headline": "Комментарии"
     },
     "subtask": {
       "text_not_found": "Текст подзадачи отсутствует. Пожалуйста, используйте параметр \"title\", чтобы указать текст подзадачи.",

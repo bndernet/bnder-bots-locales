@@ -111,7 +111,8 @@
       "labels_headline": "Rótulos",
       "priority_headline": "Prioridade",
       "subtasks_headline": "Subtarefas",
-      "description_headline": "Descrição"
+      "description_headline": "Descrição",
+      "comments_headline": "Comentários"
     },
     "subtask": {
       "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",

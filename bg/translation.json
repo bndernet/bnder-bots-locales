@@ -111,7 +111,8 @@
       "assigned_labels_headline": "Labels",
       "priority_headline": "Приоритет",
       "subtasks_headline": "Подзадачи",
-      "description_headline": "Описание"
+      "description_headline": "Описание",
+      "comments_headline": "Коментари"
     },
     "subtask": {
       "text_not_found": "Текстът на подзадачата липсва. Моля, използвайте параметъра \"title\", за да посочите текста на подзадачата.",

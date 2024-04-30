@@ -111,7 +111,8 @@
       "labels_headline": "Etiketler",
       "priority_headline": "Öncelik",
       "subtasks_headline": "Alt Görevler",
-      "description_headline": "Açıklama"
+      "description_headline": "Açıklama",
+      "comments_headline": "Yorumlar"
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",

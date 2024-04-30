@@ -111,7 +111,8 @@
       "labels_headline": "Etiquetas",
       "priority_headline": "Prioridad",
       "subtasks_headline": "Subtareas",
-      "description_headline": "Descripción"
+      "description_headline": "Descripción",
+      "comments_headline": "Comentarios"
     },
     "subtask": {
       "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",

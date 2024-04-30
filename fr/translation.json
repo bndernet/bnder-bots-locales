@@ -111,7 +111,8 @@
       "labels_headline": "Étiquettes",
       "priority_headline": "Priorité",
       "subtasks_headline": "Tâches secondaires",
-      "description_headline": "Description"
+      "description_headline": "Description",
+      "comments_headline": "Commentaires"
     },
     "subtask": {
       "text_not_found": "Le texte de la sous-tâche est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la sous-tâche.",
