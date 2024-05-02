@@ -427,7 +427,8 @@
     "regenerate_key": "Tem certeza de que deseja gerar novamente o link do seu calendário? O link antigo será inválido e não poderá mais ser usado para acessar seus eventos. Clique no botão abaixo para confirmar.",
     "create_key_button": "Criar link de calendário",
     "repeat_end_before_start": "A data final da repetição deve ser posterior à data de início.",
-    "repeat_end_too_far": "A data final da repetição deve estar dentro de 1 ano a partir de agora."
+    "repeat_end_too_far": "A data final da repetição deve estar dentro de 1 ano a partir de agora.",
+    "max_events_reached": "Você atingiu a quantidade máxima ({{max}}) de eventos para sua guilda. Exclua alguns eventos para poder criar mais."
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",

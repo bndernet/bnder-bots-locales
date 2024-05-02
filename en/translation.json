@@ -427,7 +427,8 @@
     "regenerate_key": "Are you sure you want to regenerate your calendar link? The old link will be invalid and can't be used to access your events anymore. Click the button below to confirm.",
     "create_key_button": "Create calendar link",
     "repeat_end_before_start": "The repeat end date must be after the start date.",
-    "repeat_end_too_far": "The repeat end date must be within 1 year from now."
+    "repeat_end_too_far": "The repeat end date must be within 1 year from now.",
+    "max_events_reached": "You have reached the maximum amount ({{max}}) of events for your guild. Please delete some events in order to create more."
   },
   "setup": {
     "skip_button_label": "Skip this step",

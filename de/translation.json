@@ -427,7 +427,8 @@
     "regenerate_key": "Sind Sie sicher, dass Sie Ihren Kalenderlink neu generieren möchten? Der alte Link wird dann ungültig und kann nicht mehr für den Zugriff auf Ihre Veranstaltungen verwendet werden. Klicken Sie zur Bestätigung auf die Schaltfläche unten.",
     "create_key_button": "Kalenderlink erstellen",
     "repeat_end_before_start": "Das Enddatum der Wiederholung muss nach dem Startdatum liegen.",
-    "repeat_end_too_far": "Das Enddatum der Wiederholung muss innerhalb eines Jahres liegen."
+    "repeat_end_too_far": "Das Enddatum der Wiederholung muss innerhalb eines Jahres liegen.",
+    "max_events_reached": "Du hast die maximale Anzahl ({{max}}) von Ereignissen für deine Gilde erreicht. Bitte lösche einige Ereignisse, um mehr zu erstellen."
   },
   "setup": {
     "skip_button_label": "Diesen Schritt überspringen",

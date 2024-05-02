@@ -427,7 +427,8 @@
     "regenerate_key": "Takvim bağlantınızı yeniden oluşturmak istediğinizden emin misiniz? Eski bağlantı geçersiz olacak ve artık etkinliklerinize erişmek için kullanılamayacak. Onaylamak için aşağıdaki düğmeyi tıklayın.",
     "create_key_button": "Takvim bağlantısı oluştur",
     "repeat_end_before_start": "Tekrar bitiş tarihi başlangıç tarihinden sonra olmalıdır.",
-    "repeat_end_too_far": "Tekrar bitiş tarihi şu andan itibaren 1 yıl içinde olmalıdır."
+    "repeat_end_too_far": "Tekrar bitiş tarihi şu andan itibaren 1 yıl içinde olmalıdır.",
+    "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin."
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",
