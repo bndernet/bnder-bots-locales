@@ -212,7 +212,8 @@
     },
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
-    "task_commented": "Tu comentario se ha añadido a la tarea **{{id}}**. Será visible en el comando \"/task info\" y en la app."
+    "task_commented": "Tu comentario se ha añadido a la tarea **{{id}}**. Será visible en el comando \"/task info\" y en la app.",
+    "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",
