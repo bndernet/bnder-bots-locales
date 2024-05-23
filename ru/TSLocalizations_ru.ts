@@ -24,7 +24,13 @@ export class TSLocalizations_ru {
             repeat_notification_embed_title(id: string): string {
                 return `Задача ${id} повторена`;
             },
-            deadline_alert: "Крайний срок задачи"
+            deadline_alert: "Крайний срок задачи",
+            commented_embed_title(id: string): string {
+                return `К задаче ${id} добавлен комментарий`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `К задаче на сервере ${guildName} был добавлен комментарий от ${author}: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

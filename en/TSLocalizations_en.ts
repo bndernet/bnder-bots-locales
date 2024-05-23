@@ -24,7 +24,13 @@ export class TSLocalizations_en {
             repeat_notification_embed_title(id: string): string {
                 return `Task ${id} repeated`;
             },
-            deadline_alert: "Task deadline"
+            deadline_alert: "Task deadline",
+            commented_embed_title(id: string): string {
+                return `Comment added to task ${id}`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `A comment was added to a task in server ${guildName} by ${author}: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

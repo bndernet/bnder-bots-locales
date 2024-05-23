@@ -24,7 +24,13 @@ export class TSLocalizations_bg {
             repeat_notification_embed_title(id: string): string {
                 return `Задача ${id} повторена`;
             },
-            deadline_alert: "Краен срок на задача"
+            deadline_alert: "Краен срок на задача",
+            commented_embed_title(id: string): string {
+                return `Добавен коментар към задача ${id}`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `Коментар беше добавен към задача в сървър ${guildName} от ${author}: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

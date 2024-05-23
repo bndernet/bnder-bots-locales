@@ -24,7 +24,13 @@ export class TSLocalizations_tr {
             repeat_notification_embed_title(id: string): string {
                 return `Görev ${id} tekrarlandı`;
             },
-            deadline_alert: "Görevin son teslim tarihi"
+            deadline_alert: "Görevin son teslim tarihi",
+            commented_embed_title(id: string): string {
+                return `Göreve yorum eklendi: ${id}`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `Sunucuda **${guildName}** bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

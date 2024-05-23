@@ -24,7 +24,13 @@ export class TSLocalizations_de {
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;
             },
-            deadline_alert: "Deadline Benachrichtigung"
+            deadline_alert: "Deadline Benachrichtigung",
+            commented_embed_title(id: string): string {
+                return `Kommentar hinzugefügt zu Aufgabe ${id}`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `Ein Kommentar wurde zu einer Aufgabe im Server ${guildName} hinzugefügt von ${author}: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

@@ -24,7 +24,13 @@ export class TSLocalizations_hi {
             repeat_notification_embed_title(id: string): string {
                 return `कार्य ${id} दोहराया गया`;
             },
-            deadline_alert: "कार्य की समय सीमा"
+            deadline_alert: "कार्य की समय सीमा",
+            commented_embed_title(id: string): string {
+                return `कार्य ${id} में टिप्पणी जोड़ी गई`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `एक टिप्पणी एक कार्य में सर्वर ${guildName} में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "पहचान",

@@ -20,6 +20,8 @@ export interface TSLocalizationKeys {
         repeat_notification(guildName: string): string;
         repeat_notification_embed_title(id: string): string;
         deadline_alert: string;
+        commented_notification(guildName: string, author: string, commentText: string): string;
+        commented_embed_title(id: string): string;
     },
     webhookLogging: {
         id_field: string,

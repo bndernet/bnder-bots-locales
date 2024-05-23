@@ -24,7 +24,13 @@ export class TSLocalizations_es_es {
             repeat_notification_embed_title(id: string): string {
                 return `Tarea ${id} repetida`;
             },
-            deadline_alert: "Fecha límite de la tarea"
+            deadline_alert: "Fecha límite de la tarea",
+            commented_embed_title(id: string): string {
+                return `Comentario añadido a la tarea ${id}`;
+            },
+            commented_notification(guildName: string, author: string, commentText: string): string {
+                return `Se ha añadido un comentario a una tarea en el servidor ${guildName} por ${author}: ${commentText}`;
+            }
         },
         webhookLogging: {
             id_field: "Id",
