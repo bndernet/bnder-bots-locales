@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_de {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, task_text: string, guildName: string): string {
-                return `Die Deadline für die Aufgabe **${id}** ist am ${deadline} fällig im Server ${guildName}: ${task_text}`;
+            deadline_due(id: string, deadline: string, guildName: string): string {
+                return `Die Deadline für die Aufgabe **${id}** ist am ${deadline} fällig im Server ${guildName}`;
             },
             assigned_notification(guildName: string): string {
                 return `Sie wurden einer Aufgabe im Server ${guildName} zugewiesen`;
@@ -15,15 +15,16 @@ export class TSLocalizations_de {
             assigned_embed_footer: "Diese Benachrichtigungen können von einem Serveradministrator mit dem Befehl \"/preferences direct_messages\" deaktiviert werden.",
             assigned_embed_button_in_progress: "In Bearbeitung",
             assigned_embed_button_done: "Erledigt",
-            deadline_was_in_past(id: string, task_text: string, guildName: string): string {
-                return `Die Deadline für die Aufgabe ${id} ist im Server ${guildName} abgelaufen: ${task_text}`;
+            deadline_was_in_past(id: string, guildName: string): string {
+                return `Die Deadline für die Aufgabe ${id} ist im Server ${guildName} abgelaufen`;
             },
             repeat_notification(guildName: string): string {
                 return `Eine Aufgabe, der Sie zugewiesen sind, wurde wiederholt und muss im Server ${guildName} erledigt werden`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;
-            }
+            },
+            deadline_alert: "Deadline Benachrichtigung"
         },
         webhookLogging: {
             id_field: "Id",

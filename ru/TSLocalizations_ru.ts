@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_ru {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, task_text: string, guildName: string): string {
-                return `Крайний срок для задачи **${id}** истекает ${deadline} на сервере ${guildName}: ${task_text}`;
+            deadline_due(id: string, deadline: string, guildName: string): string {
+                return `Крайний срок для задачи **${id}** истекает ${deadline} на сервере ${guildName}`;
             },
             assigned_notification(guildName: string): string {
                 return `Вас назначили на задачу на сервере ${guildName}`;
@@ -15,15 +15,16 @@ export class TSLocalizations_ru {
             assigned_embed_footer: "Эти уведомления могут быть отключены администратором сервера с помощью команды \"/preferences direct_messages\"",
             assigned_embed_button_in_progress: "В процессе",
             assigned_embed_button_done: "Сделано",
-            deadline_was_in_past(id: string, task_text: string, guildName: string): string {
-                return `Крайний срок для задачи ${id} истек в сервере ${guildName}: ${task_text}`;
+            deadline_was_in_past(id: string, guildName: string): string {
+                return `Крайний срок для задачи ${id} истек в сервере ${guildName}`;
             },
             repeat_notification(guildName: string): string {
                 return `Задача, к которой вы назначены, была повторена и должна быть выполнена на сервере ${guildName}`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Задача ${id} повторена`;
-            }
+            },
+            deadline_alert: "Крайний срок задачи"
         },
         webhookLogging: {
             id_field: "Id",

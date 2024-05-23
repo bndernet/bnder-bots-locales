@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_fr {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, task_text: string, guildName: string): string {
-                return `La date limite pour la tâche **${id}** est le ${deadline} dans le serveur ${guildName}: ${task_text}`;
+            deadline_due(id: string, deadline: string, guildName: string): string {
+                return `La date limite pour la tâche **${id}** est le ${deadline} dans le serveur ${guildName}`;
             },
             assigned_notification(guildName: string): string {
                 return `Vous avez été assigné à une tâche dans le serveur ${guildName}`;
@@ -15,15 +15,16 @@ export class TSLocalizations_fr {
             assigned_embed_footer: "Ces notifications peuvent être désactivées par un administrateur de serveur en utilisant la commande \"/preferences direct_messages\"",
             assigned_embed_button_in_progress: "Marquer comme en cours",
             assigned_embed_button_done: "Marquer comme fait",
-            deadline_was_in_past(id: string, task_text: string, guildName: string): string {
-                return `La date limite pour la tâche ${id} est dépassée dans le serveur ${guildName}: ${task_text}`;
+            deadline_was_in_past(id: string, guildName: string): string {
+                return `La date limite pour la tâche ${id} est dépassée dans le serveur ${guildName}`;
             },
             repeat_notification(guildName: string): string {
                 return `Une tâche à laquelle vous êtes assigné a été répétée et doit être effectuée dans le serveur ${guildName}`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Tâche ${id} répétée`;
-            }
+            },
+            deadline_alert: "Date limite de tâche"
         },
         webhookLogging: {
             id_field: "Id",

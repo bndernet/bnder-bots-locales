@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_tr {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, task_text: string, guildName: string): string {
-                return `Görev **${id}** için son teslim tarihi ${deadline} sunucuda **${guildName}**: ${task_text}`;
+            deadline_due(id: string, deadline: string, guildName: string): string {
+                return `Görev **${id}** için son teslim tarihi ${deadline} sunucuda **${guildName}**`;
             },
             assigned_notification(guildName: string): string {
                 return `Sunucuda **${guildName}** size bir görev atandı`;
@@ -15,15 +15,16 @@ export class TSLocalizations_tr {
             assigned_embed_footer: "Bu bildirimler sunucu yöneticisi tarafından \"/preferences direct_messages\" komutu kullanılarak devre dışı bırakılabilir.",
             assigned_embed_button_in_progress: "Devam ediyor",
             assigned_embed_button_done: "Yapıldı",
-            deadline_was_in_past(id: string, task_text: string, guildName: string): string {
-                return `Görev **${id}** için son teslim tarihi sunucuda **${guildName}** geçmiş: ${task_text}`;
+            deadline_was_in_past(id: string, guildName: string): string {
+                return `Görev **${id}** için son teslim tarihi sunucuda **${guildName}** geçmiş`;
             },
             repeat_notification(guildName: string): string {
                 return `Atandığınız bir görev tekrarlandı ve sunucuda **${guildName}** yapılması gerekiyor`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Görev ${id} tekrarlandı`;
-            }
+            },
+            deadline_alert: "Görevin son teslim tarihi"
         },
         webhookLogging: {
             id_field: "Id",
