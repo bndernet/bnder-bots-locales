@@ -31,6 +31,7 @@ export class TSLocalizations_fr {
             deadline_field: "Date limite",
             assignees_field: "Assignés",
             status_field: "Statut",
+            subtasks_field: "Sous-tâches",
             delete_at_field: "Supprimer à",
             project_field: "Projet",
             text_field: "Texte",

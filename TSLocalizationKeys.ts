@@ -26,6 +26,7 @@ export interface TSLocalizationKeys {
         deadline_field: string,
         assignees_field: string,
         status_field: string,
+        subtasks_field: string,
         status_field_value(status: number): string,
         delete_at_field: string,
         text_field: string,

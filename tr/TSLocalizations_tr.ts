@@ -31,6 +31,7 @@ export class TSLocalizations_tr {
             deadline_field: "Son teslim tarihi",
             assignees_field: "Atananlar",
             status_field: "Durum",
+            subtasks_field: "Alt görevler",
             delete_at_field: "Silinme tarihi",
             text_field: "Metin",
             project_field: "Proje",
