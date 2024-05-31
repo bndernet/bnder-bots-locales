@@ -428,7 +428,8 @@
     "create_key_button": "Crear enlace de calendario",
     "repeat_end_before_start": "La fecha de fin de repetición debe ser posterior a la fecha de inicio",
     "repeat_end_too_far": "La fecha de finalización de la repetición debe ser dentro de 1 año a partir de ahora",
-    "max_events_reached": "Has alcanzado la cantidad máxima ({{max}}) de eventos para tu gremio. Por favor, elimina algunos eventos para poder crear más."
+    "max_events_reached": "Has alcanzado la cantidad máxima ({{max}}) de eventos para tu gremio. Por favor, elimina algunos eventos para poder crear más.",
+    "remove_dm": "Has sido eliminado del evento **{{id}}**: {{name}}."
   },
   "setup": {
     "skip_button_label": "Saltar este paso",

@@ -428,7 +428,8 @@
     "create_key_button": "Criar link de calendário",
     "repeat_end_before_start": "A data final da repetição deve ser posterior à data de início.",
     "repeat_end_too_far": "A data final da repetição deve estar dentro de 1 ano a partir de agora.",
-    "max_events_reached": "Você atingiu a quantidade máxima ({{max}}) de eventos para sua guilda. Exclua alguns eventos para poder criar mais."
+    "max_events_reached": "Você atingiu a quantidade máxima ({{max}}) de eventos para sua guilda. Exclua alguns eventos para poder criar mais.",
+    "remove_dm": "Você foi removido do evento **{{id}}**: {{name}}."
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",

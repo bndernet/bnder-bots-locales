@@ -428,7 +428,8 @@
     "create_key_button" : "Créer un lien de calendrier",
     "repeat_end_before_start" : "La date de fin de la répétition doit être postérieure à la date de début",
     "repeat_end_too_far" : "La date de fin de répétition doit se situer dans un délai d'un an à partir de maintenant.",
-    "max_events_reached" : "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres."
+    "max_events_reached" : "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres.",
+    "remove_dm": "Vous avez été supprimé de l'événement **{{id}}**: {{name}}."
   },
   "setup" : {
     "skip_button_label" : "Sauter cette étape",

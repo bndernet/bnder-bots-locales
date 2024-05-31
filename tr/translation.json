@@ -428,7 +428,8 @@
     "create_key_button": "Takvim bağlantısı oluştur",
     "repeat_end_before_start": "Tekrar bitiş tarihi başlangıç tarihinden sonra olmalıdır.",
     "repeat_end_too_far": "Tekrar bitiş tarihi şu andan itibaren 1 yıl içinde olmalıdır.",
-    "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin."
+    "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin.",
+    "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}."
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

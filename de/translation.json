@@ -428,7 +428,8 @@
     "create_key_button": "Kalenderlink erstellen",
     "repeat_end_before_start": "Das Enddatum der Wiederholung muss nach dem Startdatum liegen.",
     "repeat_end_too_far": "Das Enddatum der Wiederholung muss innerhalb eines Jahres liegen.",
-    "max_events_reached": "Du hast die maximale Anzahl ({{max}}) von Ereignissen für deine Gilde erreicht. Bitte lösche einige Ereignisse, um mehr zu erstellen."
+    "max_events_reached": "Du hast die maximale Anzahl ({{max}}) von Ereignissen für deine Gilde erreicht. Bitte lösche einige Ereignisse, um mehr zu erstellen.",
+    "remove_dm": "Sie wurden von der Veranstaltung **{{id}}**: {{name}} entfernt."
   },
   "setup": {
     "skip_button_label": "Diesen Schritt überspringen",
