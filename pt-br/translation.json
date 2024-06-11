@@ -94,7 +94,6 @@
     "task_assigned_user": "A tarefa **{{id}}** foi atribuída ao usuário <@{{user_id}}>. Ela aparecerá na lista de tarefas (\"/task list\") desse usuário.",
     "task_assigned_role": "A tarefa **{{id}}** foi atribuída à função <@&{{role_id}}>. Ela aparecerá na lista de tarefas (\"/task list\") de todos os usuários com essa função.",
     "task_done": "A tarefa foi marcada como concluída.",
-    "task_edited": "O título/descrição da tarefa **{{id}}** foi editado.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Texto",
@@ -213,7 +212,10 @@
     "description_too_long": "A descrição é muito longa. Reduza-a para um máximo de {{max}} caracteres.",
     "comment_text_too_long": "O texto do comentário é muito longo. Por favor, reduza-o para {{max}} caracteres.",
     "task_commented": "Seu comentário foi adicionado à tarefa **{{id}}**. Ele ficará visível no comando \"/task info\" e no aplicativo.",
-    "max_amount_of_comments_per_task": "Você não pode adicionar mais do que {{max}} comentários a uma tarefa."
+    "max_amount_of_comments_per_task": "Você não pode adicionar mais do que {{max}} comentários a uma tarefa.",
+    "task_edited_text_and_description": "O texto e a descrição da tarefa **{{id}}** foram editados.",
+    "task_edited_text": "O texto da tarefa **{{id}}** foi editado.",
+    "task_edited_description": "A descrição da tarefa **{{id}}** foi editada."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

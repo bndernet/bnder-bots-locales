@@ -94,7 +94,6 @@
     "task_assigned_user" : "La tâche **{{id}}** a été attribuée à l'utilisateur <@{{user_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de cet utilisateur.",
     "task_assigned_role" : "La tâche **{{id}}** a été attribuée au rôle <@&{{role_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de chaque utilisateur ayant ce rôle.",
     "task_done": "La tâche a été marquée comme terminée.",
-    "task_edited": "Le titre/la description de la tâche **{{id}}** a été modifié(e).",
     "info": {
       "id_headline": "Id",
       "text_headline": "Texte",
@@ -213,7 +212,10 @@
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long" : "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
     "task_commented" : "Votre commentaire a été ajouté à la tâche **{{id}}**. Il sera visible dans la commande \"/task info\" et dans l'application.",
-    "max_amount_of_comments_per_task" : "Vous ne pouvez pas ajouter plus de {{max}} commentaires à une tâche."
+    "max_amount_of_comments_per_task" : "Vous ne pouvez pas ajouter plus de {{max}} commentaires à une tâche.",
+    "task_edited_text_and_description": "Le texte et la description de la tâche **{{id}}** ont été modifiés.",
+    "task_edited_text": "Le texte de la tâche **{{id}}** a été modifié.",
+    "task_edited_description": "La description de la tâche **{{id}}** a été modifiée."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

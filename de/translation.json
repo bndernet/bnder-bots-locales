@@ -94,7 +94,6 @@
     "task_assigned_user": "Die Aufgabe **{{id}}** wurde dem Benutzer <@{{user_id}}> zugewiesen. Sie wird in der Aufgabenliste (\"/task list\") dieses Benutzers erscheinen.",
     "task_assigned_role": "Die Aufgabe **{{id}}** wurde der Rolle <@&{{role_id}}> zugewiesen. Sie wird in der Aufgabenliste (\"/task list\") jedes Benutzers mit dieser Rolle erscheinen.",
     "task_done": "Die Aufgabe wurde als erledigt markiert.",
-    "task_edited": "Der Titel/die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",
@@ -213,7 +212,10 @@
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
     "task_commented": "Ihr Kommentar wurde zu der Aufgabe **{{id}}** hinzugefügt. Er wird im Befehl \"/task info\" und in der App sichtbar sein.",
-    "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen."
+    "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen.",
+    "task_edited_text_and_description": "Der Text und die Beschreibung der Aufgabe **{{id}}** wurden bearbeitet.",
+    "task_edited_text": "Der Text der Aufgabe **{{id}}** wurde bearbeitet.",
+    "task_edited_description": "Die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

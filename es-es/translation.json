@@ -94,7 +94,6 @@
     "task_assigned_user": "La tarea **{{id}}** ha sido asignada al usuario <@{{user_id}}>. Aparecerá en la lista de tareas (\"/task list\") de este usuario",
     "task_assigned_role": "La tarea **{{id}}** ha sido asignada al rol <@&{{role_id}}>. Aparecerá en la lista de tareas (\"/task list\") de todos los usuarios con este rol.",
     "task_done": "La tarea se ha marcado como completada.",
-    "task_edited": "El título/descripción de la tarea **{{id}}** ha sido editado.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",
@@ -213,7 +212,10 @@
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
     "task_commented": "Tu comentario se ha añadido a la tarea **{{id}}**. Será visible en el comando \"/task info\" y en la app.",
-    "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea."
+    "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea.",
+    "task_edited_text_and_description": "El texto y la descripción de la tarea **{{id}}** han sido editados.",
+    "task_edited_text": "El texto de la tarea **{{id}}** ha sido editado.",
+    "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",
