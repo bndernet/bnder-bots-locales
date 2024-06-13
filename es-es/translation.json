@@ -215,7 +215,8 @@
     "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea.",
     "task_edited_text_and_description": "El texto y la descripción de la tarea **{{id}}** han sido editados.",
     "task_edited_text": "El texto de la tarea **{{id}}** ha sido editado.",
-    "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada."
+    "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada.",
+    "edit_no_changes": "No se realizaron cambios en la tarea **{{id}}** porque no especificaste un nuevo título o descripción."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

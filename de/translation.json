@@ -215,7 +215,8 @@
     "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen.",
     "task_edited_text_and_description": "Der Text und die Beschreibung der Aufgabe **{{id}}** wurden bearbeitet.",
     "task_edited_text": "Der Text der Aufgabe **{{id}}** wurde bearbeitet.",
-    "task_edited_description": "Die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet."
+    "task_edited_description": "Die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet.",
+    "edit_no_changes": "Es wurden keine Änderungen an der Aufgabe **{{id}}** vorgenommen, da Sie keinen neuen Titel oder keine neue Beschreibung angegeben haben."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

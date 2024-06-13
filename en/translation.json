@@ -215,7 +215,8 @@
     "max_amount_of_comments_per_task": "You can't add more than {{max}} comments to a task.",
     "task_edited_text_and_description": "The text and description of task **{{id}}** have been edited.",
     "task_edited_text": "The text of task **{{id}}** has been edited.",
-    "task_edited_description": "The description of task **{{id}}** has been edited."
+    "task_edited_description": "The description of task **{{id}}** has been edited.",
+    "edit_no_changes": "No changes were made to the task **{{id}}**, because you didn't specify a new title or description."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

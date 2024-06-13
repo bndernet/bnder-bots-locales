@@ -215,7 +215,8 @@
     "max_amount_of_comments_per_task": "Você não pode adicionar mais do que {{max}} comentários a uma tarefa.",
     "task_edited_text_and_description": "O texto e a descrição da tarefa **{{id}}** foram editados.",
     "task_edited_text": "O texto da tarefa **{{id}}** foi editado.",
-    "task_edited_description": "A descrição da tarefa **{{id}}** foi editada."
+    "task_edited_description": "A descrição da tarefa **{{id}}** foi editada.",
+    "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}** porque você não especificou um novo título ou descrição."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",
