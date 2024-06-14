@@ -278,7 +278,7 @@
   "object_not_found": "O objeto com o id **{{id}}** não pôde ser encontrado.",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarefa vinculada {{id}}",
-  "invalid_id_format": "O ID inserido é inválido. Os IDs de tarefas devem conter apenas números.",
+  "invalid_id_format": "O ID inserido é inválido. Ids para tarefas, documentos e eventos devem conter apenas números.",
   "delete_instantly_button": "Excluir imediatamente",
   "times": {
     "singleMinute": "minuto",

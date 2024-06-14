@@ -278,7 +278,7 @@
   "object_not_found": "Das Objekt mit der ID **{{id}}** konnte nicht gefunden werden.",
   "resolved_document": "Verknüpftes Dokument {{id}}",
   "resolved_task": "Verknüpfte Aufgabe {{id}}",
-  "invalid_id_format": "Die eingegebene ID ist ungültig. Aufgaben-IDs sollten nur Zahlen enthalten.",
+  "invalid_id_format": "Die eingegebene ID ist ungültig. IDs für Aufgaben, Dokumente und Ereignisse sollten nur Zahlen enthalten.",
   "delete_instantly_button": "Sofort löschen",
   "times": {
     "singleMinute": "Minute",

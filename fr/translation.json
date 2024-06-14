@@ -278,7 +278,7 @@
   "object_not_found": "L'objet avec l'identifiant **{{id}}** n'a pas pu être trouvé",
   "resolved_document": "Document lié {{id}}",
   "resolved_task": "Tâche liée {{id}}",
-  "invalid_id_format": "L'identifiant saisi n'est pas valide. Les identifiants de tâches ne doivent contenir que des chiffres.",
+  "invalid_id_format": "L'identifiant saisi n'est pas valide. Les identifiants des tâches, documents et événements ne doivent contenir que des chiffres.",
   "delete_instantly_button": "Supprimer immédiatement",
   "times": {
     "singleMinute": "minute",
