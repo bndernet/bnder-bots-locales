@@ -4,7 +4,8 @@
   "setup_command_description": "Sunucunuz için botu kurun",
   "integration": {
     "command_description": "Entegrasyonları yönet",
-    "github_subcommand_description": "Bot ile bir github deposunu bağla"
+    "github_subcommand_description": "Bot ile bir github deposunu bağla",
+    "gitlab_subcommand_description": "Bot ile bir gitlab deposunu bağla"
   },
   "preferences": {
     "command_description": "Tercihlerinizi değiştirin",

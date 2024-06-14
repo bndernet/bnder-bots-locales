@@ -451,6 +451,12 @@
       "not_linked": "Şu anda GitHub deponuzu bot ile ilişkilendirmek için oluşturulmuş bir url yok. Oluşturmak için aşağıdaki düğmeyi tıklayın.\n\nGithub entegrasyonu, commit mesajında görev kimliğini \"#\" ile belirterek commitleri görevlere bağlamanıza olanak tanır. Daha fazla bilgi için aşağıdaki butona tıklayın.",
       "help_button": "GitHub entegrasyon yardımı",
       "regenerate_button": "Yeni url oluştur"
+    },
+    "gitlab": {
+      "already_linked": "GitLab deponuzu bot ile bağlamak için bu url'yi {{url}} kullanın. Daha fazla bilgi için aşağıdaki düğmeye tıklayın.\n\nUll'yi gitlab deponuzda bir webhook url'si olarak ayarlayın ve yalnızca push olayını seçin.",
+      "not_linked": "Şu anda GitLab deponuzu bot ile ilişkilendirmek için oluşturulmuş bir url yok. Oluşturmak için aşağıdaki düğmeyi tıklayın.\n\nGitLab entegrasyonu, commit mesajında görev kimliğini \"#\" ile belirterek commitleri görevlere bağlamanıza olanak tanır. Daha fazla bilgi için aşağıdaki butona tıklayın.",
+      "help_button": "GitLab entegrasyon yardımı",
+      "regenerate_button": "Yeni url oluştur"
     }
   }
 }

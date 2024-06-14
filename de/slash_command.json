@@ -4,7 +4,8 @@
   "setup_command_description": "Richte den Bot für deinen Server ein",
   "integration": {
     "command_description": "Integrationen verwalten",
-    "github_subcommand_description": "Ein Github-Repository mit dem Bot verknüpfen"
+    "github_subcommand_description": "Ein Github-Repository mit dem Bot verknüpfen",
+    "gitlab_subcommand_description": "Ein Gitlab-Repository mit dem Bot verknüpfen"
   },
   "preferences": {
     "command_description": "Ändern Sie Ihre Einstellungen",

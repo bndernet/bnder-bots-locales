@@ -451,6 +451,12 @@
       "not_linked": "Currently there is no url generated to link your GitHub repository with the bot. Click the button below to generate one.\n\nIntegrating github allows you to link commits to tasks by mentioning the task id with \"#\" in the commit message. For further information click the button below.",
       "help_button": "GitHub integration help",
       "regenerate_button": "Generate new url"
+    },
+    "gitlab": {
+      "already_linked": "Use this url {{url}} to link your GitLab repository with the bot. For further information click the button below.\n\nSet the url as a webhook url in your gitlab repository and select only the push event.",
+      "not_linked": "Currently there is no url generated to link your GitLab repository with the bot. Click the button below to generate one.\n\nIntegrating gitlab allows you to link commits to tasks by mentioning the task id with \"#\" in the commit message. For further information click the button below.",
+      "help_button": "GitLab integration help",
+      "regenerate_button": "Generate new url"
     }
   }
 }

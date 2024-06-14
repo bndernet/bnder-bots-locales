@@ -4,7 +4,8 @@
   "setup_command_description": "Настройте бота за вашия сървър",
   "integration": {
     "command_description": "Управление на интеграциите",
-    "github_subcommand_description": "Свързване на хранилище в github с бота"
+    "github_subcommand_description": "Свързване на хранилище в github с бота",
+    "gitlab_subcommand_description": "Свързване на хранилище в gitlab с бота"
   },
   "preferences": {
     "command_description": "Променете предпочитанията си",

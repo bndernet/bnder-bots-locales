@@ -4,7 +4,8 @@
   "setup_command_description": "Настроить бота для вашего сервера",
   "integration": {
     "command_description": "Управлять интеграциями",
-    "github_subcommand_description": "Связать репозиторий github с ботом"
+    "github_subcommand_description": "Связать репозиторий github с ботом",
+    "gitlab_subcommand_description": "Связать репозиторий gitlab с ботом"
   },
   "preferences": {
     "command_description": "Изменить свои предпочтения",

@@ -4,7 +4,8 @@
   "setup_command_description": "अपने सर्वर के लिए बॉट सेट करें",
   "integration": {
     "command_description": "एकीकरण प्रबंधित करें",
-    "github_subcommand_description": "जीथब रिपॉजिटरी को बॉट के साथ लिंक करें"
+    "github_subcommand_description": "जीथब रिपॉजिटरी को बॉट के साथ लिंक करें",
+    "gitlab_subcommand_description": "गिटलैब रिपॉजिटरी को बॉट के साथ लिंक करें"
   },
   "preferences": {
     "command_description": "अपनी प्राथमिकताएँ बदलें",

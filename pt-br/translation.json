@@ -451,6 +451,12 @@
       "not_linked": "No momento, não há nenhuma url gerada para vincular seu repositório do GitHub ao bot. Clique no botão abaixo para gerar uma.\n\nA integração do github permite que você vincule commits a tarefas mencionando o ID da tarefa com \"#\" na mensagem de commit. Para obter mais informações, clique no botão abaixo.",
       "help_button": "Ajuda de integração do GitHub",
       "regenerate_button": "Gerar nova url"
+    },
+    "gitlab": {
+      "already_linked": "Use esta url {{url}} para vincular seu repositório do GitLab ao bot. Para obter mais informações, clique no botão abaixo.\n\nConfigure a url como uma url de webhook em seu repositório do gitlab e selecione apenas o evento push.",
+      "not_linked": "No momento, não há nenhuma url gerada para vincular seu repositório do GitLab ao bot. Clique no botão abaixo para gerar uma.\n\nA integração do gitlab permite que você vincule commits a tarefas mencionando o ID da tarefa com \"#\" na mensagem de commit. Para obter mais informações, clique no botão abaixo.",
+      "help_button": "Ajuda de integração do GitLab",
+      "regenerate_button": "Gerar nova url"
     }
   }
 }

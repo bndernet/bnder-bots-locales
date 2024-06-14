@@ -451,6 +451,12 @@
       "not_linked": "Derzeit wird keine Url generiert, um Ihr GitHub-Repository mit dem Bot zu verknüpfen. Klicken Sie auf die Schaltfläche unten, um eine zu generieren.\n\nDie Integration von Github ermöglicht es Ihnen, Commits mit Tasks zu verknüpfen, indem Sie die Task-ID mit \"#\" in der Commit-Nachricht erwähnen. Für weitere Informationen klicken Sie auf die Schaltfläche unten.",
       "help_button": "GitHub-Integrationshilfe",
       "regenerate_button": "Neue Url generieren"
+    },
+    "gitlab": {
+      "already_linked": "Verwenden Sie diese Url {{url}}, um Ihr GitLab-Repository mit dem Bot zu verknüpfen. Setzen Sie die Url als Webhook-Url in Ihrem GitLab-Repository und wählen Sie nur das Push-Ereignis aus.",
+      "not_linked": "Derzeit wird keine Url generiert, um Ihr GitLab-Repository mit dem Bot zu verknüpfen. Klicken Sie auf die Schaltfläche unten, um eine zu generieren.\n\nDie Integration von GitLab ermöglicht es Ihnen, Commits mit Aufgaben zu verknüpfen, indem Sie die Aufgaben-ID mit \"#\" in der Commit-Nachricht erwähnen. Für weitere Informationen klicken Sie auf die Schaltfläche unten.",
+      "help_button": "GitLab-Integrationshilfe",
+      "regenerate_button": "Neue Url generieren"
     }
   }
 }

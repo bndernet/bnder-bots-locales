@@ -81,7 +81,7 @@
     "delete_cancel": "La procédure de suppression a été annulée.",
     "text_too_long": "Le texte est trop long. Veuillez le raccourcir à {{max}} maximum. caractères.",
     "task_created": "La tâche a été créée avec l'identifiant **{{task_id}}** dans le projet {{project_name}}. Utilisez \"/task info\" pour voir tous les détails de la tâche.",
-    "task_created_no_assignee" : "La tâche a été créée avec l'identifiant **{{task_id}}** dans le projet {{project_name}}, mais aucun destinataire n'a été défini. Utilisez \"/task assign\" pour affecter un utilisateur ou un rôle à la tâche.",
+    "task_created_no_assignee": "La tâche a été créée avec l'identifiant **{{task_id}}** dans le projet {{project_name}}, mais aucun destinataire n'a été défini. Utilisez \"/task assign\" pour affecter un utilisateur ou un rôle à la tâche.",
     "delete_button": "Supprimer une tâche",
     "cancel_button": "Annuler",
     "deletion_confirmation": "Êtes-vous sûr de vouloir déplacer la tâche **{{task_id}}** dans la poubelle (elle est supprimée après {{delete_in_days}} jours) ? Si vous choisissez de supprimer la tâche instantanément, l'action ne peut pas être annulée.",
@@ -91,8 +91,8 @@
     "task_not_found": "La tâche **{{id}}** n'a pas été trouvée. Utilisez \"/task list\" pour lister toutes les tâches qui vous ont été attribuées ou \"/task project\" pour lister toutes les tâches. Vous pouvez également créer une nouvelle tâche avec \"/task create\".",
     "already_assigned_user": "La tâche est déjà attribuée à l'utilisateur.",
     "already_assigned_role": "La tâche est déjà attribuée au rôle.",
-    "task_assigned_user" : "La tâche **{{id}}** a été attribuée à l'utilisateur <@{{user_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de cet utilisateur.",
-    "task_assigned_role" : "La tâche **{{id}}** a été attribuée au rôle <@&{{role_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de chaque utilisateur ayant ce rôle.",
+    "task_assigned_user": "La tâche **{{id}}** a été attribuée à l'utilisateur <@{{user_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de cet utilisateur.",
+    "task_assigned_role": "La tâche **{{id}}** a été attribuée au rôle <@&{{role_id}}>. Elle apparaîtra dans la liste des tâches (\"/task list\") de chaque utilisateur ayant ce rôle.",
     "task_done": "La tâche a été marquée comme terminée.",
     "info": {
       "id_headline": "Id",
@@ -124,8 +124,8 @@
     },
     "list_tasks_for_user": "# Tâches pour <@{{user_id}}> sur le projet {{project_name}} ({{count}} tâches):",
     "list_tasks_for_role": "# Tâches pour le rôle <@&{{role_id}}> dans le projet {{project_name}} ({{count}} tâches):",
-    "no_tasks_role" : "Aucune tâche n'a été attribuée à <@&{{role_id}}> dans le projet **{{project_name}}**. Utilisez la commande `/task project` pour voir toutes les tâches d'un projet.",
-    "no_tasks_user" : "Aucune tâche n'a été attribuée à <@{{user_id}}> dans le projet **{{project_name}}**. Utilisez la commande `/task project` pour voir toutes les tâches d'un projet.",
+    "no_tasks_role": "Aucune tâche n'a été attribuée à <@&{{role_id}}> dans le projet **{{project_name}}**. Utilisez la commande `/task project` pour voir toutes les tâches d'un projet.",
+    "no_tasks_user": "Aucune tâche n'a été attribuée à <@{{user_id}}> dans le projet **{{project_name}}**. Utilisez la commande `/task project` pour voir toutes les tâches d'un projet.",
     "list_tasks_for_user_all_projects": "# Tâches pour <@{{user_id}}> dans tous les projets ({{count}} tâches) :",
     "list_tasks_for_role_all_projects": "# Tâches pour le rôle <@&{{role_id}}> dans tous les projets ({{count}} tâches) :",
     "no_tasks_user_all_projects": "Aucune tâche n'a été trouvée pour <@{{user_id}}> dans aucun projet. Utilisez la commande `/task project` pour voir toutes les tâches d'un projet.",
@@ -206,13 +206,13 @@
       "priority_changed": "Priorité modifiée de {{old_priority}} à {{new_priority}}.",
       "subtask_added": "Ajout d'une sous-tâche",
       "subtask_removed": "Suppression d'une sous-tâche",
-      "commit_mention" : "Mentionné dans [commit](<{{url}}>)",
+      "commit_mention": "Mentionné dans [commit](<{{url}}>)",
       "description_edited": "Description de la tâche éditée"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
-    "comment_text_too_long" : "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
-    "task_commented" : "Votre commentaire a été ajouté à la tâche **{{id}}**. Il sera visible dans la commande \"/task info\" et dans l'application.",
-    "max_amount_of_comments_per_task" : "Vous ne pouvez pas ajouter plus de {{max}} commentaires à une tâche.",
+    "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
+    "task_commented": "Votre commentaire a été ajouté à la tâche **{{id}}**. Il sera visible dans la commande \"/task info\" et dans l'application.",
+    "max_amount_of_comments_per_task": "Vous ne pouvez pas ajouter plus de {{max}} commentaires à une tâche.",
     "task_edited_text_and_description": "Le texte et la description de la tâche **{{id}}** ont été modifiés.",
     "task_edited_text": "Le texte de la tâche **{{id}}** a été modifié.",
     "task_edited_description": "La description de la tâche **{{id}}** a été modifiée.",
@@ -317,7 +317,7 @@
     "not_added": "Le label **{{name}}** n'a pas été ajouté à l'objet",
     "removed_from_task": "Le label **{{name}}** a été supprimé de la tâche **{{id}}**.",
     "removed_from_document": "L'étiquette **{{name}}** a été retirée du document **{{id}}**.",
-    "edited" : "L'étiquette **{{old_name}}** a été modifiée."
+    "edited": "L'étiquette **{{old_name}}** a été modifiée."
   },
   "settings": {
     "logging_webhook": {
@@ -326,11 +326,11 @@
       "url_removed": "L'URL du Webhook a été supprimée et la journalisation est désormais désactivée.",
       "test_title": "Message de test",
       "test_description": "Il s'agit d'un message de test pour vérifier que l'url du webhook est valide. Si vous voyez ce message, tout fonctionne correctement.",
-      "url_remove_confirmation" : "Êtes-vous sûr de vouloir supprimer l'url du webhook ? La journalisation sera désactivée.\n\nPour activer la journalisation, définissez une url en tant qu'option de commande.",
-      "remove_button" : "Désactiver la journalisation",
-      "help_button" : "Aide à la journalisation",
-      "url_not_set" : "Aucune url de webhook n'est définie. Veuillez définir une url de webhook pour recevoir les messages de journalisation. Pour en savoir plus, cliquez sur le bouton ci-dessous.",
-      "url_remove_canceled" : "La suppression de l'url du webhook a été annulée."
+      "url_remove_confirmation": "Êtes-vous sûr de vouloir supprimer l'url du webhook ? La journalisation sera désactivée.\n\nPour activer la journalisation, définissez une url en tant qu'option de commande.",
+      "remove_button": "Désactiver la journalisation",
+      "help_button": "Aide à la journalisation",
+      "url_not_set": "Aucune url de webhook n'est définie. Veuillez définir une url de webhook pour recevoir les messages de journalisation. Pour en savoir plus, cliquez sur le bouton ci-dessous.",
+      "url_remove_canceled": "La suppression de l'url du webhook a été annulée."
     },
     "auto_labeling": {
       "enabled": "L'étiquetage automatique est maintenant activé. Pour créer une nouvelle étiquette, utilisez la commande \"/label create\". Pour en savoir plus sur l'étiquetage automatique, consultez le site https://bnder.net/help/task/labels.",
@@ -363,23 +363,23 @@
     "default_assignee": {
       "success": "Le destinataire par défaut des nouvelles tâches a été modifié."
     },
-    "week_start_day" : {
-      "set" : "Le jour de début de semaine a été fixé à **{{day}}**."
+    "week_start_day": {
+      "set": "Le jour de début de semaine a été fixé à **{{day}}**."
     },
-    "user_timezones" : {
-      "enabled" : "Les utilisateurs peuvent désormais définir leur propre fuseau horaire en utilisant \"/preferences timezone\". Le bot leur répondra alors dans le fuseau horaire qu'ils auront configuré",
-      "disabled" : "Les utilisateurs ne peuvent plus définir leur propre fuseau horaire. Le bot utilisera le fuseau horaire configuré du serveur. Vous pouvez modifier le fuseau horaire via \"/settings timezone\"."
+    "user_timezones": {
+      "enabled": "Les utilisateurs peuvent désormais définir leur propre fuseau horaire en utilisant \"/preferences timezone\". Le bot leur répondra alors dans le fuseau horaire qu'ils auront configuré",
+      "disabled": "Les utilisateurs ne peuvent plus définir leur propre fuseau horaire. Le bot utilisera le fuseau horaire configuré du serveur. Vous pouvez modifier le fuseau horaire via \"/settings timezone\"."
     },
-    "private_messages" : {
-      "enabled" : "Les messages privés sont désormais activés. Les utilisateurs recevront une notification par message direct lorsqu'eux-mêmes ou l'un de leurs rôles seront affectés à une tâche.",
-      "disabled" : "Les messages privés sont désormais désactivés."
+    "private_messages": {
+      "enabled": "Les messages privés sont désormais activés. Les utilisateurs recevront une notification par message direct lorsqu'eux-mêmes ou l'un de leurs rôles seront affectés à une tâche.",
+      "disabled": "Les messages privés sont désormais désactivés."
     },
-    "loglevel" : {
-      "changed_but_no_webhook" : "Le niveau de journalisation a été modifié, mais aucune URL de webhook n'a été définie. Veuillez définir une url de webhook pour recevoir les messages du journal. Pour en savoir plus, cliquez sur le bouton ci-dessous",
-      "help_button_label" : "Aide à la journalisation",
-      "changed_to_everything" : "Le niveau de journalisation est passé à tout. Chaque message de journal sera envoyé au webhook.",
-      "changed_to_create_delete" : "Le niveau de journalisation a été modifié pour passer à la création et à la suppression. Seules les actions de création et de suppression seront envoyées au webhook.",
-      "changed_to_permissions_only" : "Le niveau de journalisation a été modifié pour les permissions uniquement. Seuls les changements de permission seront envoyés au webhook."
+    "loglevel": {
+      "changed_but_no_webhook": "Le niveau de journalisation a été modifié, mais aucune URL de webhook n'a été définie. Veuillez définir une url de webhook pour recevoir les messages du journal. Pour en savoir plus, cliquez sur le bouton ci-dessous",
+      "help_button_label": "Aide à la journalisation",
+      "changed_to_everything": "Le niveau de journalisation est passé à tout. Chaque message de journal sera envoyé au webhook.",
+      "changed_to_create_delete": "Le niveau de journalisation a été modifié pour passer à la création et à la suppression. Seules les actions de création et de suppression seront envoyées au webhook.",
+      "changed_to_permissions_only": "Le niveau de journalisation a été modifié pour les permissions uniquement. Seuls les changements de permission seront envoyés au webhook."
     }
   },
   "preferences": {
@@ -388,16 +388,16 @@
       "language_changed": "La langue a été modifiée",
       "language_not_found": "La langue {{languageTag}} n'est pas disponible."
     },
-    "timezone" : {
-      "timezone_set" : "Votre fuseau horaire personnel a été réglé sur **{{timezone}}**."
+    "timezone": {
+      "timezone_set": "Votre fuseau horaire personnel a été réglé sur **{{timezone}}**."
     },
-    "event_reminders" : {
-      "enabled" : "Les rappels d'événements sont désormais activés. Vous recevrez un rappel jusqu'à 30 minutes avant le début d'un événement",
-      "disabled" : "Les rappels d'événements sont désormais désactivés."
+    "event_reminders": {
+      "enabled": "Les rappels d'événements sont désormais activés. Vous recevrez un rappel jusqu'à 30 minutes avant le début d'un événement",
+      "disabled": "Les rappels d'événements sont désormais désactivés."
     },
-    "direct_messages" : {
-      "enabled" : "Les messages directs sont désormais activés. Vous recevrez un message direct lorsque vous serez affecté à une tâche",
-      "disabled" : "Les messages directs sont désormais désactivés. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche."
+    "direct_messages": {
+      "enabled": "Les messages directs sont désormais activés. Vous recevrez un message direct lorsque vous serez affecté à une tâche",
+      "disabled": "Les messages directs sont désormais désactivés. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche."
     }
   },
   "event": {
@@ -420,37 +420,43 @@
     "invite_success": "L'utilisateur <@{{user}}> a été invité à l'événement **{{id}}**",
     "already_accepted": "Vous avez déjà accepté l'invitation à l'événement **{{id}}**",
     "already_denied": "Vous avez déjà refusé l'invitation à l'événement **{{id}}**.",
-    "deleted" : "L'événement **{{name}}** avec l'identifiant {{id}} a été supprimé.",
-    "remove_creator_error" : "Vous ne pouvez pas supprimer des utilisateurs d'un événement dont vous n'êtes pas le créateur",
-    "remove_self_creator_error" : "Vous ne pouvez pas vous retirer d'un événement dont vous êtes le créateur. Utilisez \"/event delete\" pour supprimer l'événement.",
-    "remove_not_invited_error" : "L'utilisateur <@{{user}}> n'est pas invité à l'événement **{{id}}**.",
-    "remove_success" : "L'utilisateur <@{{user}}> a été supprimé de l'événement **{{id}}**.",
-    "create_public_key" : "Êtes-vous sûr de vouloir exporter votre calendrier ? Cela générera un lien unique qui pourra être utilisé pour accéder à vos événements à partir de ce serveur. Toute personne possédant ce lien pourra voir vos événements. Cliquez sur le bouton ci-dessous pour confirmer",
-    "public_key" : "Vous pouvez accéder à votre calendrier et l'intégrer dans votre application de calendrier préférée en cliquant sur le lien suivant: {{url}}\n\nVeuillez noter ce qui suit :\n- Toute personne disposant du lien pourra voir vos événements.\n- Il n'affichera que les événements de la semaine précédente ou des quatre semaines à venir lorsqu'il sera synchronisé avec votre application de calendrier.\n- Vous pouvez régénérer le lien à tout moment pour rendre l'ancien lien invalide.",
-    "regenerate_key" : "Are you sure you want to regenerate your calendar link ? L'ancien lien sera invalide et ne pourra plus être utilisé pour accéder à vos événements. Cliquez sur le bouton ci-dessous pour confirmer",
-    "create_key_button" : "Créer un lien de calendrier",
-    "repeat_end_before_start" : "La date de fin de la répétition doit être postérieure à la date de début",
-    "repeat_end_too_far" : "La date de fin de répétition doit se situer dans un délai d'un an à partir de maintenant.",
-    "max_events_reached" : "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres.",
+    "deleted": "L'événement **{{name}}** avec l'identifiant {{id}} a été supprimé.",
+    "remove_creator_error": "Vous ne pouvez pas supprimer des utilisateurs d'un événement dont vous n'êtes pas le créateur",
+    "remove_self_creator_error": "Vous ne pouvez pas vous retirer d'un événement dont vous êtes le créateur. Utilisez \"/event delete\" pour supprimer l'événement.",
+    "remove_not_invited_error": "L'utilisateur <@{{user}}> n'est pas invité à l'événement **{{id}}**.",
+    "remove_success": "L'utilisateur <@{{user}}> a été supprimé de l'événement **{{id}}**.",
+    "create_public_key": "Êtes-vous sûr de vouloir exporter votre calendrier ? Cela générera un lien unique qui pourra être utilisé pour accéder à vos événements à partir de ce serveur. Toute personne possédant ce lien pourra voir vos événements. Cliquez sur le bouton ci-dessous pour confirmer",
+    "public_key": "Vous pouvez accéder à votre calendrier et l'intégrer dans votre application de calendrier préférée en cliquant sur le lien suivant: {{url}}\n\nVeuillez noter ce qui suit :\n- Toute personne disposant du lien pourra voir vos événements.\n- Il n'affichera que les événements de la semaine précédente ou des quatre semaines à venir lorsqu'il sera synchronisé avec votre application de calendrier.\n- Vous pouvez régénérer le lien à tout moment pour rendre l'ancien lien invalide.",
+    "regenerate_key": "Are you sure you want to regenerate your calendar link ? L'ancien lien sera invalide et ne pourra plus être utilisé pour accéder à vos événements. Cliquez sur le bouton ci-dessous pour confirmer",
+    "create_key_button": "Créer un lien de calendrier",
+    "repeat_end_before_start": "La date de fin de la répétition doit être postérieure à la date de début",
+    "repeat_end_too_far": "La date de fin de répétition doit se situer dans un délai d'un an à partir de maintenant.",
+    "max_events_reached": "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres.",
     "remove_dm": "Vous avez été supprimé de l'événement **{{id}}**: {{name}}."
   },
-  "setup" : {
-    "skip_button_label" : "Sauter cette étape",
-    "step_language" : "## Étape 1/{{steps}}: Langue\n\nVeuillez sélectionner la langue que vous souhaitez utiliser pour le bot. Ceci peut être modifié à tout moment avec la commande \"/settings language\".",
-    "step_dateformat" : "## Étape 2/{{steps}}: Format de date Veuillez\n\nsélectionner le format de date que vous souhaitez utiliser pour le robot. Il peut être modifié à tout moment à l'aide de la commande \"/settings dateformat\".",
+  "setup": {
+    "skip_button_label": "Sauter cette étape",
+    "step_language": "## Étape 1/{{steps}}: Langue\n\nVeuillez sélectionner la langue que vous souhaitez utiliser pour le bot. Ceci peut être modifié à tout moment avec la commande \"/settings language\".",
+    "step_dateformat": "## Étape 2/{{steps}}: Format de date Veuillez\n\nsélectionner le format de date que vous souhaitez utiliser pour le robot. Il peut être modifié à tout moment à l'aide de la commande \"/settings dateformat\".",
     "step_timezone_country": "## Étape 3/{{steps}}: Fuseau horaire\n\nVeuillez sélectionner la région dans laquelle vous vous trouvez pour définir le bon fuseau horaire. Vous pouvez ensuite sélectionner le fuseau horaire exact. Celui-ci peut être modifié à tout moment à l'aide de la commande \"/settings timezone\".",
     "step_timezone": "## Étape 3/{{steps}}: Fuseau horaire\n\nVeuillez sélectionner le fuseau horaire exact dans lequel vous vous trouvez. En raison des limitations de Discord, tous les fuseaux horaires ne sont pas affichés ici. Si vous ne trouvez pas votre fuseau horaire, utilisez la commande \"/settings timezone\" et sautez cette étape.",
-    "step_auto_labeling" : "## Étape 4/{{steps}}: Étiquetage automatique\n\nVoulez-vous activer l'étiquetage automatique ? Cela ajoutera automatiquement des étiquettes aux tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_labeling\".",
-    "step_auto_priority" : "## Étape 5/{{steps}}: Priorité automatique\n\nVous souhaitez activer la priorité automatique ? Cela permettra de définir automatiquement une priorité pour les tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_priority\".",
-    "step_week_start_day" : "## Étape 4/{{steps}}: Jour de début de la semaine\n\nVeuillez sélectionner le jour par lequel vous souhaitez que la semaine commence. Ce jour peut être modifié à tout moment avec la commande \"/settings week_start_day\".",
-    "setup_completed" : "L'installation est terminée. Vous pouvez maintenant utiliser le robot. Si vous souhaitez modifier les paramètres, utilisez la commande \"/settings\".\n\nPour une expérience complète de la gestion de projet, consultez les autres bots de bnder : [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) et [Calendar Manager](<https://bnder.net/calendar>)."
+    "step_auto_labeling": "## Étape 4/{{steps}}: Étiquetage automatique\n\nVoulez-vous activer l'étiquetage automatique ? Cela ajoutera automatiquement des étiquettes aux tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_labeling\".",
+    "step_auto_priority": "## Étape 5/{{steps}}: Priorité automatique\n\nVous souhaitez activer la priorité automatique ? Cela permettra de définir automatiquement une priorité pour les tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_priority\".",
+    "step_week_start_day": "## Étape 4/{{steps}}: Jour de début de la semaine\n\nVeuillez sélectionner le jour par lequel vous souhaitez que la semaine commence. Ce jour peut être modifié à tout moment avec la commande \"/settings week_start_day\".",
+    "setup_completed": "L'installation est terminée. Vous pouvez maintenant utiliser le robot. Si vous souhaitez modifier les paramètres, utilisez la commande \"/settings\".\n\nPour une expérience complète de la gestion de projet, consultez les autres bots de bnder : [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) et [Calendar Manager](<https://bnder.net/calendar>)."
   },
-  "integration" : {
-    "github" : {
-      "already_linked" : "Utilisez cette url {{url}} pour lier votre dépôt GitHub avec le bot. Pour plus d'informations, cliquez sur le bouton ci-dessous. Définissez l'url en tant qu'url de webhook dans votre dépôt Github et sélectionnez uniquement l'événement push.",
-      "not_linked" : "Actuellement, il n'y a pas d'url générée pour lier votre dépôt GitHub avec le bot. Cliquez sur le bouton ci-dessous pour en générer une.\n\nL'intégration de github vous permet de lier des commits à des tâches en mentionnant l'identifiant de la tâche avec \"#\" dans le message de commit. Pour plus d'informations, cliquez sur le bouton ci-dessous.",
-      "help_button" : "Aide à l'intégration de GitHub",
-      "regenerate_button" : "Générer une nouvelle URL"
+  "integration": {
+    "github": {
+      "already_linked": "Utilisez cette url {{url}} pour lier votre dépôt GitHub avec le bot. Pour plus d'informations, cliquez sur le bouton ci-dessous. Définissez l'url en tant qu'url de webhook dans votre dépôt Github et sélectionnez uniquement l'événement push.",
+      "not_linked": "Actuellement, il n'y a pas d'url générée pour lier votre dépôt GitHub avec le bot. Cliquez sur le bouton ci-dessous pour en générer une.\n\nL'intégration de github vous permet de lier des commits à des tâches en mentionnant l'identifiant de la tâche avec \"#\" dans le message de commit. Pour plus d'informations, cliquez sur le bouton ci-dessous.",
+      "help_button": "Aide à l'intégration de GitHub",
+      "regenerate_button": "Générer une nouvelle URL"
+    },
+    "gitlab": {
+      "already_linked": "Utilisez cette url {{url}} pour lier votre dépôt GitLab avec le bot. Pour plus d'informations, cliquez sur le bouton ci-dessous. Définissez l'url en tant qu'url de webhook dans votre dépôt GitLab et sélectionnez uniquement l'événement push.",
+      "not_linked": "Actuellement, il n'y a pas d'url générée pour lier votre dépôt GitLab avec le bot. Cliquez sur le bouton ci-dessous pour en générer une.\n\nL'intégration de GitLab vous permet de lier des commits à des tâches en mentionnant l'identifiant de la tâche avec \"#\" dans le message de commit. Pour plus d'informations, cliquez sur le bouton ci-dessous.",
+      "help_button": "Aide à l'intégration de GitLab",
+      "regenerate_button": "Générer une nouvelle URL"
     }
   }
 }
