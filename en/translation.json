@@ -138,7 +138,6 @@
     "done": "Done",
     "unassigned": "Unassigned",
     "task_already_done": "The task **{{id}}** is already marked as done.",
-    "now_done": "The task **{{id}}** is now marked as done.",
     "now_in_progress": "The task **{{id}}** is now marked as in progress.",
     "now_todo": "The task **{{id}}** is now marked as todo.",
     "not_assigned_user": "The task **{{id}}** is not assigned to <@{{user_id}}>.",

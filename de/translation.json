@@ -138,7 +138,6 @@
     "done": "Erledigt",
     "unassigned": "Nicht zugewiesen",
     "task_already_done": "Die Aufgabe {{id}} ist bereits als erledigt markiert.",
-    "now_done": "Die Aufgabe ist nun als erledigt markiert.",
     "now_in_progress": "Die Aufgabe ist nun in Bearbeitung.",
     "now_todo": "Die Aufgabe ist nun als zu erledigen markiert.",
     "not_assigned_user": "Die Aufgabe ist dem Nutzer nicht zugewiesen.",

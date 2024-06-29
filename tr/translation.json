@@ -138,7 +138,6 @@
     "done": "Bitti",
     "unassigned": "Görevlendirilmedi",
     "task_already_done": "Görev {{id}} zaten tamamlandı olarak işaretlendi.",
-    "now_done": "Görev artık tamamlandı olarak işaretlenmiştir.",
     "now_in_progress": "Görev şu anda devam etmektedir.",
     "now_todo": "Görev artık yapılacak olarak işaretlenmiştir.",
     "not_assigned_user": "Görev kullanıcıya atanmamıştır.",

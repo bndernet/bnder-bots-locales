@@ -138,7 +138,6 @@
     "done": "Fait",
     "unassigned": "Non attribué",
     "task_already_done": "La tâche {{id}} est déjà marquée comme terminée.",
-    "now_done": "La tâche est maintenant marquée comme terminée.",
     "now_in_progress": "La tâche est maintenant en cours de réalisation.",
     "now_todo": "La tâche est maintenant marquée comme devant être effectuée.",
     "not_assigned_user": "Cette tâche n'est pas attribuée à l'utilisateur.",
