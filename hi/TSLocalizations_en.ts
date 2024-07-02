@@ -6,8 +6,8 @@ export class TSLocalizations_hi {
             deadline_due(id: string, deadline: string, guildName: string): string {
                 return `कार्य की समय सीमा **${id}** सर्वर ${guildName} में ${deadline} पर देय है`;
             },
-            assigned_notification(guildName: string): string {
-                return `आपको सर्वर ${guildName} में एक कार्य सौंपा गया है`;
+            assigned_notification(guildName: string, guildId: string): string {
+                return `आपको सर्वर [${guildName}](https://discord.com/channels/${guildId}) में एक कार्य सौंपा गया है`;
             },
             assigned_embed_title(id: string): string {
                 return `कार्य ${id} सौंपा गया`;

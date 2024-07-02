@@ -6,8 +6,8 @@ export class TSLocalizations_pt_br {
             deadline_due(id: string, deadline: string, guildName: string): string {
                 return `O prazo para a tarefa **${id}** vence em ${deadline} no servidor ${guildName}`;
             },
-            assigned_notification(guildName: string): string {
-                return `Você foi atribuído a uma tarefa no servidor ${guildName}`;
+            assigned_notification(guildName: string, guildId: string): string {
+                return `Você foi atribuído a uma tarefa no servidor [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_embed_title(id: string): string {
                 return `Tarefa ${id} atribuída`;

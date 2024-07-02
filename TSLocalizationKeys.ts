@@ -11,7 +11,7 @@ import { TSLocalizations_hi } from "./hi/TSLocalizations_en";
 export interface TSLocalizationKeys {
     task: {
         deadline_due(id: string, deadline: string, guildName: string): string;
-        assigned_notification(guildName: string): string;
+        assigned_notification(guildName: string, guildId: string): string;
         assigned_embed_title(id: string): string;
         assigned_embed_footer: string;
         assigned_embed_button_in_progress: string;

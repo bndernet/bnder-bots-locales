@@ -6,8 +6,8 @@ export class TSLocalizations_en {
             deadline_due(id: string, deadline: string, guildName: string): string {
                 return `The deadline for task **${id}** is due on ${deadline} in server ${guildName}`;
             },
-            assigned_notification(guildName: string): string {
-                return `You have been assigned to a task in server ${guildName}`;
+            assigned_notification(guildName: string, guildId: string): string {
+                return `You have been assigned to a task in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_embed_title(id: string): string {
                 return `Task ${id} assigned`;
