@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_de {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string): string {
-                return `Die Deadline für die Aufgabe **${id}** ist am ${deadline} fällig im Server ${guildName}`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
+                return `Die Deadline für die Aufgabe **${id}** ist am ${deadline} fällig im Server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `Sie wurden einer Aufgabe im Server [${guildName}](https://discord.com/channels/${guildId}) zugewiesen`;
@@ -15,11 +15,11 @@ export class TSLocalizations_de {
             assigned_embed_footer: "Diese Benachrichtigungen können von einem Serveradministrator mit dem Befehl \"/preferences direct_messages\" deaktiviert werden.",
             assigned_embed_button_in_progress: "In Bearbeitung",
             assigned_embed_button_done: "Erledigt",
-            deadline_was_in_past(id: string, guildName: string): string {
-                return `Die Deadline für die Aufgabe ${id} ist im Server ${guildName} abgelaufen`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
+                return `Die Deadline für die Aufgabe ${id} ist im Server [${guildName}](https://discord.com/channels/${guildId}) abgelaufen`;
             },
-            repeat_notification(guildName: string): string {
-                return `Eine Aufgabe, der Sie zugewiesen sind, wurde wiederholt und muss im Server ${guildName} erledigt werden`;
+            repeat_notification(guildName: string, guildId: string): string {
+                return `Eine Aufgabe, der Sie zugewiesen sind, wurde wiederholt und muss im Server [${guildName}](https://discord.com/channels/${guildId}) erledigt werden`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;
@@ -28,8 +28,8 @@ export class TSLocalizations_de {
             commented_embed_title(id: string): string {
                 return `Kommentar hinzugefügt zu Aufgabe ${id}`;
             },
-            commented_notification(guildName: string, author: string, commentText: string): string {
-                return `Ein Kommentar wurde zu einer Aufgabe im Server ${guildName} hinzugefügt von ${author}: ${commentText}`;
+            commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
+                return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt von ${author}: ${commentText}`;
             }
         },
         webhookLogging: {

@@ -10,17 +10,17 @@ import { TSLocalizations_hi } from "./hi/TSLocalizations_en";
 
 export interface TSLocalizationKeys {
     task: {
-        deadline_due(id: string, deadline: string, guildName: string): string;
+        deadline_due(id: string, deadline: string, guildName: string, guildId: string): string;
         assigned_notification(guildName: string, guildId: string): string;
         assigned_embed_title(id: string): string;
         assigned_embed_footer: string;
         assigned_embed_button_in_progress: string;
         assigned_embed_button_done: string;
-        deadline_was_in_past(id: string, guildName: string): string;
-        repeat_notification(guildName: string): string;
+        deadline_was_in_past(id: string, guildName: string, guildId: string): string;
+        repeat_notification(guildName: string, guildId: string): string;
         repeat_notification_embed_title(id: string): string;
         deadline_alert: string;
-        commented_notification(guildName: string, author: string, commentText: string): string;
+        commented_notification(guildName: string, guildId: string, author: string, commentText: string): string;
         commented_embed_title(id: string): string;
     },
     webhookLogging: {

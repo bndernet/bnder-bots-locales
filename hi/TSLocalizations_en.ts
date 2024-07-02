@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_hi {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string): string {
-                return `कार्य की समय सीमा **${id}** सर्वर ${guildName} में ${deadline} पर देय है`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
+                return `कार्य की समय सीमा **${id}** सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${deadline} पर देय है`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `आपको सर्वर [${guildName}](https://discord.com/channels/${guildId}) में एक कार्य सौंपा गया है`;
@@ -15,11 +15,11 @@ export class TSLocalizations_hi {
             assigned_embed_footer: "इन सूचनाओं को \"/preferences direct_messages\" कमांड का उपयोग करके अक्षम नहीं किया जा सकता है।",
             assigned_embed_button_in_progress: "प्रगति पर है के रूप में चिह्नित करें",
             assigned_embed_button_done: "पूर्ण हुआ चिह्नित करें",
-            deadline_was_in_past(id: string, guildName: string): string {
-                return `कार्य ${id} की समय सीमा सर्वर ${guildName} में अतिदेय है`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
+                return `कार्य ${id} की समय सीमा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में अतिदेय है`;
             },
-            repeat_notification(guildName: string): string {
-                return `आपको जो कार्य सौंपा गया है उसे दोहराया गया है और उसे सर्वर ${guildName} में पूरा करने की आवश्यकता है`;
+            repeat_notification(guildName: string, guildId: string): string {
+                return `आपको जो कार्य सौंपा गया है उसे दोहराया गया है और उसे सर्वर [${guildName}](https://discord.com/channels/${guildId}) में पूरा करने की आवश्यकता है`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `कार्य ${id} दोहराया गया`;
@@ -28,8 +28,8 @@ export class TSLocalizations_hi {
             commented_embed_title(id: string): string {
                 return `कार्य ${id} में टिप्पणी जोड़ी गई`;
             },
-            commented_notification(guildName: string, author: string, commentText: string): string {
-                return `एक टिप्पणी एक कार्य में सर्वर ${guildName} में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
+            commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
+                return `एक टिप्पणी एक कार्य में सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
             }
         },
         webhookLogging: {

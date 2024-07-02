@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_en {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string): string {
-                return `The deadline for task **${id}** is due on ${deadline} in server ${guildName}`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
+                return `The deadline for task **${id}** is due on ${deadline} in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `You have been assigned to a task in server [${guildName}](https://discord.com/channels/${guildId})`;
@@ -15,11 +15,11 @@ export class TSLocalizations_en {
             assigned_embed_footer: "These notifications can be disabled using the \"/preferences direct_messages\" command.",
             assigned_embed_button_in_progress: "Mark as in progress",
             assigned_embed_button_done: "Mark as done",
-            deadline_was_in_past(id: string, guildName: string): string {
-                return `The deadline for task ${id} is overdue in server ${guildName}`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
+                return `The deadline for task ${id} is overdue in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
-            repeat_notification(guildName: string): string {
-                return `A task you are assigned to has been repeated and needs to be done in server ${guildName}`;
+            repeat_notification(guildName: string, guildId: string): string {
+                return `A task you are assigned to has been repeated and needs to be done in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Task ${id} repeated`;
@@ -28,8 +28,8 @@ export class TSLocalizations_en {
             commented_embed_title(id: string): string {
                 return `Comment added to task ${id}`;
             },
-            commented_notification(guildName: string, author: string, commentText: string): string {
-                return `A comment was added to a task in server ${guildName} by ${author}: ${commentText}`;
+            commented_notification(guildName: string, guildId: string,author: string, commentText: string): string {
+                return `A comment was added to a task in server [${guildName}](https://discord.com/channels/${guildId}) by ${author}: ${commentText}`;
             }
         },
         webhookLogging: {

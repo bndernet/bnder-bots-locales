@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_tr {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string): string {
-                return `Görev **${id}** için son teslim tarihi ${deadline} sunucuda **${guildName}**`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
+                return `Görev **${id}** için son teslim tarihi ${deadline} sunucuda [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) size bir görev atandı`;
@@ -15,11 +15,11 @@ export class TSLocalizations_tr {
             assigned_embed_footer: "Bu bildirimler sunucu yöneticisi tarafından \"/preferences direct_messages\" komutu kullanılarak devre dışı bırakılabilir.",
             assigned_embed_button_in_progress: "Devam ediyor",
             assigned_embed_button_done: "Yapıldı",
-            deadline_was_in_past(id: string, guildName: string): string {
-                return `Görev **${id}** için son teslim tarihi sunucuda **${guildName}** geçmiş`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
+                return `Görev **${id}** için son teslim tarihi sunucuda [${guildName}](https://discord.com/channels/${guildId}) geçmiş`;
             },
-            repeat_notification(guildName: string): string {
-                return `Atandığınız bir görev tekrarlandı ve sunucuda **${guildName}** yapılması gerekiyor`;
+            repeat_notification(guildName: string, guildId: string): string {
+                return `Atandığınız bir görev tekrarlandı ve sunucuda [${guildName}](https://discord.com/channels/${guildId}) yapılması gerekiyor`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Görev ${id} tekrarlandı`;
@@ -28,8 +28,8 @@ export class TSLocalizations_tr {
             commented_embed_title(id: string): string {
                 return `Göreve yorum eklendi: ${id}`;
             },
-            commented_notification(guildName: string, author: string, commentText: string): string {
-                return `Sunucuda **${guildName}** bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
+            commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
+                return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
             }
         },
         webhookLogging: {

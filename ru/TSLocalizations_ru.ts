@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_ru {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string): string {
-                return `Крайний срок для задачи **${id}** истекает ${deadline} на сервере ${guildName}`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
+                return `Крайний срок для задачи **${id}** истекает ${deadline} на сервере [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `Вас назначили на задачу на сервере [${guildName}](https://discord.com/channels/${guildId})`;
@@ -15,11 +15,11 @@ export class TSLocalizations_ru {
             assigned_embed_footer: "Эти уведомления могут быть отключены администратором сервера с помощью команды \"/preferences direct_messages\"",
             assigned_embed_button_in_progress: "В процессе",
             assigned_embed_button_done: "Сделано",
-            deadline_was_in_past(id: string, guildName: string): string {
-                return `Крайний срок для задачи ${id} истек в сервере ${guildName}`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
+                return `Крайний срок для задачи ${id} истек в сервере [${guildName}](https://discord.com/channels/${guildId})`;
             },
-            repeat_notification(guildName: string): string {
-                return `Задача, к которой вы назначены, была повторена и должна быть выполнена на сервере ${guildName}`;
+            repeat_notification(guildName: string, guildId: string): string {
+                return `Задача, к которой вы назначены, была повторена и должна быть выполнена на сервере [${guildName}](https://discord.com/channels/${guildId})`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Задача ${id} повторена`;
@@ -28,8 +28,8 @@ export class TSLocalizations_ru {
             commented_embed_title(id: string): string {
                 return `К задаче ${id} добавлен комментарий`;
             },
-            commented_notification(guildName: string, author: string, commentText: string): string {
-                return `К задаче на сервере ${guildName} был добавлен комментарий от ${author}: ${commentText}`;
+            commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
+                return `К задаче на сервере [${guildName}](https://discord.com/channels/${guildId}) был добавлен комментарий от ${author}: ${commentText}`;
             }
         },
         webhookLogging: {
