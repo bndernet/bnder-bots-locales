@@ -70,7 +70,8 @@
     "no_manager": "The project **{{project}}** has no manager set. Use the command \"/project manager\" and select a user to set a manager.",
     "manager_info": "The project manager for the project **{{project}}** is <@{{manager}}>.",
     "manager_removed": "The project manager for the project **{{project}}** has been removed.",
-    "remove_manager_action": "Remove manager"
+    "remove_manager_action": "Remove manager",
+    "hidden_due_to_permission": "Hidden due to permission"
   },
   "error": {
     "unknown": "An unknown error occurred. Please try again later."

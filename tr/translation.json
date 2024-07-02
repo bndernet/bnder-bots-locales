@@ -70,7 +70,8 @@
     "no_manager": "**{{project}}** projesinin yönetici ayarı yok. \"/project manager\" komutunu kullanın ve bir yönetici ayarlamak için bir kullanıcı seçin.",
     "manager_info": "**{{project}}** projesinin proje yöneticisi <@{{manager}}>'dır.",
     "manager_removed": "**{{project}}** projesinin proje yöneticisi kaldırıldı.",
-    "remove_manager_action": "Yöneticiyi kaldır"
+    "remove_manager_action": "Yöneticiyi kaldır",
+    "hidden_due_to_permission": "İzinler nedeniyle gizli"
   },
   "error": {
     "unknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin."

@@ -70,7 +70,8 @@
     "no_manager": "El proyecto **{{project}}** no tiene ningún gestor establecido. Utilice el comando \"/project manager\" y seleccione un usuario para establecer un gestor",
     "manager_info": "El gestor del proyecto **{{project}}** es <@{{manager}}>",
     "manager_removed": "El gestor del proyecto **{{project}}** ha sido eliminado",
-    "remove_manager_action": "Eliminar gestor"
+    "remove_manager_action": "Eliminar gestor",
+    "hidden_due_to_permission": "Oculto debido a la falta de permiso"
   },
   "error": {
     "unknown": "Se ha producido un error desconocido. Vuelva a intentarlo más tarde."

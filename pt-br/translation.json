@@ -70,7 +70,8 @@
     "no_manager": "O projeto **{{project}}** não tem um gerente definido. Use o comando \"/project manager\" e selecione um usuário para definir um gerente.",
     "manager_info": "O gerente de projeto do projeto **{{project}}** é <@{{manager}}>.",
     "manager_removed": "O gerente de projeto do projeto **{{project}}** foi removido.",
-    "remove_manager_action": "Remover gerente"
+    "remove_manager_action": "Remover gerente",
+    "hidden_due_to_permission": "Oculto devido a permissões"
   },
   "error": {
     "unknown": "Ocorreu um erro desconhecido. Tente novamente mais tarde."
