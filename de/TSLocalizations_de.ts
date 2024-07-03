@@ -156,8 +156,8 @@ export class TSLocalizations_de {
             }
         },
         event: {
-            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
-                return `Bevorstehend Ereignis (${id}: ${name}) beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in ${guildName}.`;
+            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
+                return `Bevorstehend Ereignis (${id}: ${name}) beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {

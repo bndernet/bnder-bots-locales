@@ -156,8 +156,8 @@ export class TSLocalizations_tr {
             }
         },
         event: {
-            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
-                return `Yaklaşan etkinlik (${id}: ${name}) ${durationTillEventMinutes} dakika içinde ${guildName} sunucusunda başlayacak.`;
+            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
+                return `Yaklaşan etkinlik (${id}: ${name}) ${durationTillEventMinutes} dakika içinde [${guildName}](https://discord.com/channels/${guildId}) sunucusunda başlayacak.`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {

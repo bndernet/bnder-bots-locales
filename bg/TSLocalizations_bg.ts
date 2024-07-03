@@ -156,8 +156,8 @@ export class TSLocalizations_bg {
             }
         },
         event: {
-            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
-                return `Предстоящо събитие (${id}: ${name}) започва след ${durationTillEventMinutes} минути в ${guildName}.`;
+            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
+                return `Предстоящо събитие (${id}: ${name}) започва след ${durationTillEventMinutes} минути в [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {

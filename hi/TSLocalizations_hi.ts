@@ -156,8 +156,8 @@ export class TSLocalizations_hi {
             }
         },
         event: {
-            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, startTime: string): string {
-                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} में ${guildName} में शुरू हो रहा है।`;
+            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
+                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} में [${guildName}](https://discord.com/channels/${guildId}) में शुरू हो रहा है।`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
