@@ -216,7 +216,10 @@
     "task_edited_text_and_description": "El texto y la descripción de la tarea **{{id}}** han sido editados.",
     "task_edited_text": "El texto de la tarea **{{id}}** ha sido editado.",
     "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada.",
-    "edit_no_changes": "No se realizaron cambios en la tarea **{{id}}** porque no especificaste un nuevo título o descripción."
+    "edit_no_changes": "No se realizaron cambios en la tarea **{{id}}** porque no especificaste un nuevo título o descripción.",
+    "comment_modal_title": "Añade un comentario a la tarea {{id}}",
+    "comment_modal_placeholder": "Introduce tu comentario",
+    "comment_modal_label": "Comentario"
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

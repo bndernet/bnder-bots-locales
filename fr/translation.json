@@ -216,7 +216,10 @@
     "task_edited_text_and_description": "Le texte et la description de la tâche **{{id}}** ont été modifiés.",
     "task_edited_text": "Le texte de la tâche **{{id}}** a été modifié.",
     "task_edited_description": "La description de la tâche **{{id}}** a été modifiée.",
-    "edit_no_changes": "Aucune modification n'a été apportée à la tâche **{{id}}**, car vous n'avez pas spécifié de nouveau titre ou de nouvelle description."
+    "edit_no_changes": "Aucune modification n'a été apportée à la tâche **{{id}}**, car vous n'avez pas spécifié de nouveau titre ou de nouvelle description.",
+    "comment_modal_title" : "Ajouter un commentaire à la tâche {{id}}",
+    "comment_modal_placeholder" : "Entrez votre commentaire",
+    "comment_modal_label" : "Commentaire"
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

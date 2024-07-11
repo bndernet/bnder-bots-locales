@@ -216,7 +216,10 @@
     "task_edited_text_and_description": "O texto e a descrição da tarefa **{{id}}** foram editados.",
     "task_edited_text": "O texto da tarefa **{{id}}** foi editado.",
     "task_edited_description": "A descrição da tarefa **{{id}}** foi editada.",
-    "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}** porque você não especificou um novo título ou descrição."
+    "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}** porque você não especificou um novo título ou descrição.",
+    "comment_modal_title": "Adicionar um comentário à tarefa {{id}}",
+    "comment_modal_placeholder": "Digite seu comentário",
+    "comment_modal_label": "Comentário"
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

@@ -30,7 +30,8 @@ export class TSLocalizations_en {
             },
             commented_notification(guildName: string, guildId: string,author: string, commentText: string): string {
                 return `A comment was added to a task in server [${guildName}](https://discord.com/channels/${guildId}) by ${author}: ${commentText}`;
-            }
+            },
+            comment_response_button: "Respond to comment"
         },
         webhookLogging: {
             id_field: "Id",

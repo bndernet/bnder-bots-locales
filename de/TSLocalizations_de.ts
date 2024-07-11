@@ -30,7 +30,8 @@ export class TSLocalizations_de {
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt von ${author}: ${commentText}`;
-            }
+            },
+            comment_response_button: "Auf Kommentar antworten"
         },
         webhookLogging: {
             id_field: "Id",

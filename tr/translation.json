@@ -216,7 +216,10 @@
     "task_edited_text_and_description": "**{{id}}** görevinin metni ve açıklaması düzenlendi.",
     "task_edited_text": "**{{id}}** görevinin metni düzenlendi.",
     "task_edited_description": "**{{id}}** görevinin açıklaması düzenlendi.",
-    "edit_no_changes": "Yeni bir başlık veya açıklama belirtmediğiniz için **{{id}}** görevinde herhangi bir değişiklik yapılmadı."
+    "edit_no_changes": "Yeni bir başlık veya açıklama belirtmediğiniz için **{{id}}** görevinde herhangi bir değişiklik yapılmadı.",
+    "comment_modal_title": "{{id}} görevine yorum ekle",
+    "comment_modal_placeholder": "Yorumunuzu girin",
+    "comment_modal_label": "Yorum"
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",
