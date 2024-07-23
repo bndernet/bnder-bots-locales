@@ -31,7 +31,8 @@ export class TSLocalizations_es_es {
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `Se ha añadido un comentario a una tarea en el servidor [${guildName}](https://discord.com/channels/${guildId}) por ${author}: ${commentText}`;
             },
-            comment_response_button: "Responder al comentario"
+            comment_response_button: "Responder al comentario",
+            stop_followup_reminder_button: "Detener recordatorio de seguimiento"
         },
         webhookLogging: {
             id_field: "Id",

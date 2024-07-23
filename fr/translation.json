@@ -219,7 +219,8 @@
     "edit_no_changes": "Aucune modification n'a été apportée à la tâche **{{id}}**, car vous n'avez pas spécifié de nouveau titre ou de nouvelle description.",
     "comment_modal_title" : "Ajouter un commentaire à la tâche {{id}}",
     "comment_modal_placeholder" : "Entrez votre commentaire",
-    "comment_modal_label" : "Commentaire"
+    "comment_modal_label" : "Commentaire",
+    "followup_reminder_stopped" : "Le rappel de suivi de la tâche **{{id}}** a été arrêté."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

@@ -23,6 +23,7 @@ export interface TSLocalizationKeys {
         commented_notification(guildName: string, guildId: string, author: string, commentText: string): string;
         commented_embed_title(id: string): string;
         comment_response_button: string;
+        stop_followup_reminder_button: string;
     },
     webhookLogging: {
         id_field: string,

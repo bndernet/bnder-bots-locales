@@ -31,7 +31,8 @@ export class TSLocalizations_bg {
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `Коментар беше добавен към задача в сървър [${guildName}](https://discord.com/channels/${guildId}) от ${author}: ${commentText}`;
             },
-            comment_response_button: "Отговори на коментар"
+            comment_response_button: "Отговори на коментар",
+            stop_followup_reminder_button: "Спри напомнянето за последване"
         },
         webhookLogging: {
             id_field: "Id",

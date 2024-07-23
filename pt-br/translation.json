@@ -219,7 +219,8 @@
     "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}** porque você não especificou um novo título ou descrição.",
     "comment_modal_title": "Adicionar um comentário à tarefa {{id}}",
     "comment_modal_placeholder": "Digite seu comentário",
-    "comment_modal_label": "Comentário"
+    "comment_modal_label": "Comentário",
+    "followup_reminder_stopped": "O lembrete de acompanhamento da tarefa **{{id}}** foi interrompido."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

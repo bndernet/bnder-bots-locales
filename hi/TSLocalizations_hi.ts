@@ -31,7 +31,8 @@ export class TSLocalizations_hi {
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `एक टिप्पणी एक कार्य में सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
             },
-            comment_response_button: "टिप्पणी का जवाब दें"
+            comment_response_button: "टिप्पणी का जवाब दें",
+            stop_followup_reminder_button: "फॉलो-अप अनुस्मारक रोकें"
         },
         webhookLogging: {
             id_field: "पहचान",

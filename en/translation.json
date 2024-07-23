@@ -219,7 +219,8 @@
     "edit_no_changes": "No changes were made to the task **{{id}}**, because you didn't specify a new title or description.",
     "comment_modal_title": "Add a comment to task {{id}}",
     "comment_modal_placeholder": "Enter your comment",
-    "comment_modal_label": "Comment"
+    "comment_modal_label": "Comment",
+    "followup_reminder_stopped": "The follow-up reminder for task **{{id}}** has been stopped."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

@@ -219,7 +219,8 @@
     "edit_no_changes": "Yeni bir başlık veya açıklama belirtmediğiniz için **{{id}}** görevinde herhangi bir değişiklik yapılmadı.",
     "comment_modal_title": "{{id}} görevine yorum ekle",
     "comment_modal_placeholder": "Yorumunuzu girin",
-    "comment_modal_label": "Yorum"
+    "comment_modal_label": "Yorum",
+    "followup_reminder_stopped": "**{{id}}** görevi için takip hatırlatıcısı durduruldu."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

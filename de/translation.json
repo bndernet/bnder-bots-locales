@@ -219,7 +219,8 @@
     "edit_no_changes": "Es wurden keine Änderungen an der Aufgabe **{{id}}** vorgenommen, da Sie keinen neuen Titel oder keine neue Beschreibung angegeben haben.",
     "comment_modal_title": "Einen Kommentar zur Aufgabe {{id}} hinzufügen",
     "comment_modal_placeholder": "Geben Sie Ihren Kommentar ein",
-    "comment_modal_label": "Kommentar"
+    "comment_modal_label": "Kommentar",
+    "followup_reminder_stopped": "Die Wiederholungserinnerung für Aufgabe **{{id}}** wurde gestoppt."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

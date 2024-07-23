@@ -31,7 +31,8 @@ export class TSLocalizations_tr {
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
             },
-            comment_response_button: "Yoruma yanıt ver"
+            comment_response_button: "Yoruma yanıt ver",
+            stop_followup_reminder_button: "Takip hatırlatmasını durdur"
         },
         webhookLogging: {
             id_field: "Id",
