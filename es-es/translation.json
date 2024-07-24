@@ -443,7 +443,7 @@
     "max_events_reached": "Has alcanzado la cantidad máxima ({{max}}) de eventos para tu gremio. Por favor, elimina algunos eventos para poder crear más.",
     "remove_dm": "Has sido eliminado del evento **{{id}}**: {{name}}.",
     "daily_repeating_not_allowed": "Los eventos que se repiten a diario solo están disponibles para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "Establecer una fecha de finalización de repetición solo está disponible para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing".
+    "repeat_end_not_allowed": "Establecer una fecha de finalización de repetición solo está disponible para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing."
   },
   "setup": {
     "skip_button_label": "Saltar este paso",
