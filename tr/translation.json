@@ -112,7 +112,8 @@
       "priority_headline": "Öncelik",
       "subtasks_headline": "Alt Görevler",
       "description_headline": "Açıklama",
-      "comments_headline": "Yorumlar"
+      "comments_headline": "Yorumlar",
+      "more_comments_premium": "Yalnızca son 3 yorumu görebilirsiniz. Tüm yorumları görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
@@ -207,12 +208,13 @@
       "subtask_added": "Bir alt görev eklendi",
       "subtask_removed": "Bir alt görev kaldırıldı",
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
-      "description_edited": "Açıklama düzenlendi"
+      "description_edited": "Açıklama düzenlendi",
+      "more_entries_available": "Sadece son 3 girişi görebilirsiniz. Tüm girişleri görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
     "task_commented": "Yorumunuz **{{id}}** görevine eklendi. Bu yorum \"/task info\" komutunda ve uygulamada görülebilir.",
-    "max_amount_of_comments_per_task": "Bir göreve {{max}} yorumdan fazlasını ekleyemezsiniz.",
+    "max_amount_of_comments_per_task": "Premium koltuğa yükseltmediğiniz sürece bir göreve {{max}} yorumdan fazlasını ekleyemezsiniz. Premium hakkında daha fazla bilgi için https://bnder.net/pricing adresini ziyaret edin.",
     "task_edited_text_and_description": "**{{id}}** görevinin metni ve açıklaması düzenlendi.",
     "task_edited_text": "**{{id}}** görevinin metni düzenlendi.",
     "task_edited_description": "**{{id}}** görevinin açıklaması düzenlendi.",
@@ -220,7 +222,10 @@
     "comment_modal_title": "{{id}} görevine yorum ekle",
     "comment_modal_placeholder": "Yorumunuzu girin",
     "comment_modal_label": "Yorum",
-    "followup_reminder_stopped": "**{{id}}** görevi için takip hatırlatıcısı durduruldu."
+    "followup_reminder_stopped": "**{{id}}** görevi için takip hatırlatıcısı durduruldu.",
+    "max_assignees_reached_buy_premium": "Bir göreve {{max}}'dan fazla kullanıcı veya rol atayamazsınız. Daha fazla kullanıcı veya rol atamak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "daily_repeat_not_allowed": "Günlük tekrarlanan görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "subtask_not_allowed": "Alt görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",
@@ -312,7 +317,7 @@
     "color_not_supported": "**{{color}} rengi desteklenmiyor. Lütfen aşağıdakilerden birini kullanın: {{colors}}",
     "created": "**{{name}}** etiketi oluşturuldu. Artık \"/label add\" komutu ile nesnelere ekleyebilirsiniz.",
     "not_found": "**{{name}}** etiketi bulunamadı. Tüm etiketleri listelemek için \"/label list\" komutunu kullanın veya \"/label create\" ile yeni bir etiket oluşturun.",
-    "too_many_labels": "Nesne zaten maksimum etiket sayısına ({{max}}) sahip. Lütfen yeni bir etiket eklemeden önce bir etiketi kaldırın.",
+    "too_many_labels": "Nesne zaten maksimum etiket miktarına ({{max}}) sahip. Başka bir etiket eklemek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
     "already_added": "**{{name}} etiketi nesneye zaten eklenmiş.",
     "added_to_task": "**{{name}} etiketi **{{id}} görevine eklendi.",
     "added_to_document": "**{{name}} etiketi **{{id}} belgesine eklendi.",
@@ -436,7 +441,9 @@
     "repeat_end_before_start": "Tekrar bitiş tarihi başlangıç tarihinden sonra olmalıdır.",
     "repeat_end_too_far": "Tekrar bitiş tarihi şu andan itibaren 1 yıl içinde olmalıdır.",
     "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin.",
-    "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}."
+    "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}.",
+    "daily_repeating_not_allowed": "Günlük tekrar eden etkinlikler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "repeat_end_not_allowed": "Bir tekrar bitiş tarihi ayarlamak yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

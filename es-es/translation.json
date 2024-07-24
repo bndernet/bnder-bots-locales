@@ -112,7 +112,8 @@
       "priority_headline": "Prioridad",
       "subtasks_headline": "Subtareas",
       "description_headline": "Descripción",
-      "comments_headline": "Comentarios"
+      "comments_headline": "Comentarios",
+      "more_comments_premium": "Solo puedes ver los 3 últimos comentarios. Para ver todos los comentarios, por favor actualice a un asiento premium. Más información sobre premium en https://bnder.net/pricing."
     },
     "subtask": {
       "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",
@@ -207,12 +208,13 @@
       "subtask_added": "Añadida una subtarea",
       "subtask_removed": "Eliminada una subtarea",
       "commit_mention": "Mencionado en [commit](<{{url}}>)",
-      "description_edited": "Descripción editada"
+      "description_edited": "Descripción editada",
+      "more_entries_available": "Solo puedes ver las 3 últimas entradas. Para ver todas las entradas, por favor actualice a un asiento premium. Más información sobre Premium en https://bnder.net/pricing"
     },
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
     "task_commented": "Tu comentario se ha añadido a la tarea **{{id}}**. Será visible en el comando \"/task info\" y en la app.",
-    "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea.",
+    "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea, a menos que pases a Premium. Más información sobre Premium en https://bnder.net/pricing.",
     "task_edited_text_and_description": "El texto y la descripción de la tarea **{{id}}** han sido editados.",
     "task_edited_text": "El texto de la tarea **{{id}}** ha sido editado.",
     "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada.",
@@ -220,7 +222,10 @@
     "comment_modal_title": "Añade un comentario a la tarea {{id}}",
     "comment_modal_placeholder": "Introduce tu comentario",
     "comment_modal_label": "Comentario",
-    "followup_reminder_stopped": "El recordatorio de seguimiento de la tarea **{{id}}** se ha detenido."
+    "followup_reminder_stopped": "El recordatorio de seguimiento de la tarea **{{id}}** se ha detenido.",
+    "max_assignees_reached_buy_premium": "No puedes asignar más de {{max}} usuarios o roles a una tarea. Por favor, actualice a un asiento premium para asignar más usuarios o roles. Más información sobre Premium en https://bnder.net/pricing.",
+    "daily_repeat_not_allowed": "Las tareas de repetición diaria solo están disponibles para los usuarios de los asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing.",
+    "subtask_not_allowed": "Las subtareas solo están disponibles para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing"
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",
@@ -312,7 +317,7 @@
     "color_not_supported": "El color **{{color}}** no es compatible. Utilice uno de los siguientes: {{colors}}",
     "created": "La etiqueta **{{name}}** ha sido creada. Ahora puede añadirla a los objetos con el comando \"/label add\".",
     "not_found": "No se ha encontrado la etiqueta **{{name}}. Utilice \"/label list\" para listar todas las etiquetas o cree una nueva con \"/label create\".",
-    "too_many_labels": "El objeto ya tiene la cantidad máxima de etiquetas ({{max}}). Por favor, elimine una etiqueta antes de añadir una nueva",
+    "too_many_labels": "El objeto ya tiene la cantidad máxima de etiquetas ({{max}}). Para añadir otra etiqueta, por favor actualice a un asiento premium. Más información sobre Premium en https://bnder.net/pricing.",
     "already_added": "La etiqueta **{{name}}** ya está añadida al objeto",
     "added_to_task": "La etiqueta **{{name}}** se ha añadido a la tarea **{{id}}**",
     "added_to_document": "La etiqueta **{{name}}** se ha añadido al documento **{{id}}**",
@@ -436,7 +441,9 @@
     "repeat_end_before_start": "La fecha de fin de repetición debe ser posterior a la fecha de inicio",
     "repeat_end_too_far": "La fecha de finalización de la repetición debe ser dentro de 1 año a partir de ahora",
     "max_events_reached": "Has alcanzado la cantidad máxima ({{max}}) de eventos para tu gremio. Por favor, elimina algunos eventos para poder crear más.",
-    "remove_dm": "Has sido eliminado del evento **{{id}}**: {{name}}."
+    "remove_dm": "Has sido eliminado del evento **{{id}}**: {{name}}.",
+    "daily_repeating_not_allowed": "Los eventos que se repiten a diario solo están disponibles para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing.",
+    "repeat_end_not_allowed": "Establecer una fecha de finalización de repetición solo está disponible para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing".
   },
   "setup": {
     "skip_button_label": "Saltar este paso",

@@ -112,7 +112,8 @@
       "priority_headline": "Priorität",
       "subtasks_headline": "Teilaufgaben",
       "description_headline": "Beschreibung",
-      "comments_headline": "Kommentare"
+      "comments_headline": "Kommentare",
+      "more_comments_premium": "Sie können nur die letzten 3 Kommentare sehen. Um alle Kommentare zu sehen, müssen Sie ein Upgrade auf einen Premium-Platz durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
     },
     "subtask": {
       "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"title\", um den Text der Unteraufgabe anzugeben.",
@@ -207,12 +208,13 @@
       "subtask_added": "Eine Teilaufgabe hinzugefügt",
       "subtask_removed": "Entfernte eine Teilaufgabe",
       "commit_mention": "Erwähnt in [commit](<{{url}}>)",
-      "description_edited": "Beschreibung bearbeitet"
+      "description_edited": "Beschreibung bearbeitet",
+      "more_entries_available": "Sie können nur die letzten 3 Einträge sehen. Um alle Einträge zu sehen, erwerben Sie bitte einen Premium-Platz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
     "task_commented": "Ihr Kommentar wurde zu der Aufgabe **{{id}}** hinzugefügt. Er wird im Befehl \"/task info\" und in der App sichtbar sein.",
-    "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen.",
+    "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen, es sei denn, Sie haben ein Upgrade auf einen Premium-Platz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
     "task_edited_text_and_description": "Der Text und die Beschreibung der Aufgabe **{{id}}** wurden bearbeitet.",
     "task_edited_text": "Der Text der Aufgabe **{{id}}** wurde bearbeitet.",
     "task_edited_description": "Die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet.",
@@ -220,7 +222,10 @@
     "comment_modal_title": "Einen Kommentar zur Aufgabe {{id}} hinzufügen",
     "comment_modal_placeholder": "Geben Sie Ihren Kommentar ein",
     "comment_modal_label": "Kommentar",
-    "followup_reminder_stopped": "Die Wiederholungserinnerung für Aufgabe **{{id}}** wurde gestoppt."
+    "followup_reminder_stopped": "Die Wiederholungserinnerung für Aufgabe **{{id}}** wurde gestoppt.",
+    "max_assignees_reached_buy_premium": "Sie können einer Aufgabe nicht mehr als {{max}} Benutzer oder Rollen zuweisen. Bitte erwerben Sie ein Upgrade auf einen Premium-Platz, um mehr Benutzer oder Rollen zuzuweisen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "daily_repeat_not_allowed": "Täglich wiederkehrende Aufgaben sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "subtask_not_allowed": "Unteraufgaben sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion nutzen zu können. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",
@@ -312,7 +317,7 @@
     "color_not_supported": "Die Farbe **{{color}}** wird nicht unterstützt. Bitte verwenden Sie eine der folgenden Farben: {{colors}}",
     "created": "Das Label **{{name}}** wurde erstellt. Sie können es jetzt mit dem Befehl \"/label add\" zu Objekten hinzufügen.",
     "not_found": "Das Etikett **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/label list\", um alle Labels aufzulisten, oder erstellen Sie ein neues Label mit \"/label create\".",
-    "too_many_labels": "Das Objekt hat bereits die maximale Anzahl von Labels ({{max}}). Bitte entfernen Sie ein Label, bevor Sie ein neues hinzufügen.",
+    "too_many_labels": "Das Objekt hat bereits die maximale Anzahl von Etiketten ({{max}}). Um eine weitere Beschriftung hinzuzufügen, erwerben Sie bitte einen Premiumplatz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
     "already_added": "Das Label **{{name}}** ist dem Objekt bereits hinzugefügt.",
     "added_to_task": "Die Bezeichnung **{{name}}** wurde der Aufgabe **{{id}}** hinzugefügt.",
     "added_to_document": "Das Label **{{name}}** wurde dem Dokument **{{id}}** hinzugefügt.",
@@ -436,7 +441,9 @@
     "repeat_end_before_start": "Das Enddatum der Wiederholung muss nach dem Startdatum liegen.",
     "repeat_end_too_far": "Das Enddatum der Wiederholung muss innerhalb eines Jahres liegen.",
     "max_events_reached": "Du hast die maximale Anzahl ({{max}}) von Ereignissen für deine Gilde erreicht. Bitte lösche einige Ereignisse, um mehr zu erstellen.",
-    "remove_dm": "Sie wurden von der Veranstaltung **{{id}}**: {{name}} entfernt."
+    "remove_dm": "Sie wurden von der Veranstaltung **{{id}}**: {{name}} entfernt.",
+    "daily_repeating_not_allowed": "Täglich wiederkehrende Ereignisse sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "repeat_end_not_allowed": "Das Festlegen eines Enddatums für die Wiederholung ist nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
   },
   "setup": {
     "skip_button_label": "Diesen Schritt überspringen",
