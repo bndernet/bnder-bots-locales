@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "उपकार्य की संख्या",
     "description_option_description": "किसी कार्य का वर्णन",
     "comment_option_description": "किसी कार्य में जोड़ने के लिए टिप्पणी",
-    "comment_subcommand_description": "किसी कार्य में एक टिप्पणी जोड़ें"
+    "comment_subcommand_description": "किसी कार्य में एक टिप्पणी जोड़ें",
+    "attach_subcommand_description": "किसी कार्य में फ़ाइल संलग्न करें",
+    "attachment_option_description": "कार्य में जोड़ने के लिए अनुलग्नक",
+    "attachment_name_option_description": "अनुलग्नक का नाम",
+    "detach_subcommand_description": "कार्य से फ़ाइल अलग करें"
   },
   "topic": {
     "name_option_description": "किसी विषय का नाम",

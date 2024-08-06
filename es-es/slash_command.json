@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "El número de la subtarea",
     "description_option_description": "La descripción de la tarea",
     "comment_option_description": "El comentario a añadir a una tarea",
-    "comment_subcommand_description": "Añadir un comentario a una tarea"
+    "comment_subcommand_description": "Añadir un comentario a una tarea",
+    "attach_subcommand_description": "Adjuntar un archivo a una tarea",
+    "attachment_option_description": "El archivo adjunto a añadir a una tarea",
+    "attachment_name_option_description": "El nombre del archivo adjunto",
+    "detach_subcommand_description": "Separar un archivo de una tarea"
   },
   "topic": {
     "name_option_description": "El nombre de un tema",

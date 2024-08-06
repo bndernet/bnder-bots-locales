@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "O número da subtarefa",
     "description_option_description": "A descrição de uma tarefa",
     "comment_option_description": "O comentário a ser adicionado a uma tarefa",
-    "comment_subcommand_description": "Adicionar um comentário a uma tarefa"
+    "comment_subcommand_description": "Adicionar um comentário a uma tarefa",
+    "attach_subcommand_description": "Anexar um arquivo a uma tarefa",
+    "attachment_option_description": "O anexo a ser adicionado a uma tarefa",
+    "attachment_name_option_description": "O nome do anexo",
+    "detach_subcommand_description": "Desanexar um arquivo de uma tarefa"
   },
   "topic": {
     "name_option_description": "O nome de um tópico",

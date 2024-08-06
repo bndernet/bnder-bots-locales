@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "Alt görevin numarası",
     "description_option_description": "Görevin açıklaması",
     "comment_option_description": "Bir göreve eklenecek yorum",
-    "comment_subcommand_description": "Bir göreve yorum ekle"
+    "comment_subcommand_description": "Bir göreve yorum ekle",
+    "attach_subcommand_description": "Bir göreve dosya ekle",
+    "attachment_option_description": "Bir göreve eklenecek ek",
+    "attachment_name_option_description": "Ek'in adı",
+    "detach_subcommand_description": "Bir dosyayı bir görevden ayır"
   },
   "topic": {
     "name_option_description": "Bir konunun adı",

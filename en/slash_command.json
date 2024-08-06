@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "The number of the subtask",
     "description_option_description": "The description of a task",
     "comment_option_description": "The comment to add to a task",
-    "comment_subcommand_description": "Add a comment to a task"
+    "comment_subcommand_description": "Add a comment to a task",
+    "attach_subcommand_description": "Attach a file to a task",
+    "attachment_option_description": "The attachment to add to a task",
+    "attachment_name_option_description": "The name of the attachment",
+    "detach_subcommand_description": "Detach a file from a task"
   },
   "topic": {
     "name_option_description": "The name of a topic",

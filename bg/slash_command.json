@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "Номер на подзадачата",
     "description_option_description": "Описание на задачата",
     "comment_option_description": "Коментарът, който се добавя към задачата",
-    "comment_subcommand_description": "Добавяне на коментар към задача"
+    "comment_subcommand_description": "Добавяне на коментар към задача",
+    "attach_subcommand_description": "Прикачване на файл към задача",
+    "attachment_option_description": "Приложението, което да се добави към задачата",
+    "attachment_name_option_description": "Името на прикачения файл",
+    "detach_subcommand_description": "Отделяне на файл от задача"
   },
   "topic": {
     "name_option_description": "Името на темата",

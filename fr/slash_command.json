@@ -97,7 +97,11 @@
     "subtasknumber_option_description": "Le numéro de la sous-tâche",
     "description_option_description": "La description d'une tâche",
     "comment_option_description" : "Le commentaire à ajouter à une tâche",
-    "comment_subcommand_description" : "Ajouter un commentaire à une tâche"
+    "comment_subcommand_description" : "Ajouter un commentaire à une tâche",
+    "attach_subcommand_description" : "Attacher un fichier à une tâche",
+    "attachment_option_description" : "La pièce jointe à ajouter à une tâche",
+    "attachment_name_option_description" : "Le nom de la pièce jointe",
+    "detach_subcommand_description" : "Détachement d'un fichier d'une tâche"
   },
   "topic": {
     "name_option_description": "Le nom d'un sujet",
