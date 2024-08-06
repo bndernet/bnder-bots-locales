@@ -33,9 +33,9 @@ export class TSLocalizations_es_es {
             },
             comment_response_button: "Responder al comentario",
             stop_followup_reminder_button: "Detener recordatorio de seguimiento",
-            extend_deadline_by_one_day_button: "+1 día",
-            extend_deadline_by_two_days_button: "+2 días",
-            extend_deadline_by_one_week_button: "+1 semana",
+            extend_deadline_by_one_day_button: "Ampliar el plazo 1 día",
+            extend_deadline_by_two_days_button: "Ampliar el plazo 2 días",
+            extend_deadline_by_one_week_button: "Ampliar el plazo 1 semana",
         },
         webhookLogging: {
             id_field: "Id",

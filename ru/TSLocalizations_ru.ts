@@ -33,9 +33,9 @@ export class TSLocalizations_ru {
             },
             comment_response_button: "Ответить на комментарий",
             stop_followup_reminder_button: "Остановить напоминание о выполнении",
-            extend_deadline_by_one_day_button: "+1 день",
-            extend_deadline_by_two_days_button: "+2 дня",
-            extend_deadline_by_one_week_button: "+1 неделя",
+            extend_deadline_by_one_day_button: "Продлить срок на 1 день",
+            extend_deadline_by_two_days_button: "Продлить срок на 2 дня",
+            extend_deadline_by_one_week_button: "Продлить срок на 1 неделю",
         },
         webhookLogging: {
             id_field: "Id",

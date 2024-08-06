@@ -33,9 +33,9 @@ export class TSLocalizations_hi {
             },
             comment_response_button: "टिप्पणी का जवाब दें",
             stop_followup_reminder_button: "फॉलो-अप अनुस्मारक रोकें",
-            extend_deadline_by_one_day_button: "+1 दिन",
-            extend_deadline_by_two_days_button: "+2 दिन",
-            extend_deadline_by_one_week_button: "+1 सप्ताह",
+            extend_deadline_by_one_day_button: "समय सीमा 1 दिन बढ़ाएँ",
+            extend_deadline_by_two_days_button: "समय सीमा 2 दिन बढ़ाएँ",
+            extend_deadline_by_one_week_button: "समय सीमा 1 सप्ताह बढ़ाएँ",
         },
         webhookLogging: {
             id_field: "पहचान",

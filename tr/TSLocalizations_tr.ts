@@ -33,9 +33,9 @@ export class TSLocalizations_tr {
             },
             comment_response_button: "Yoruma yanıt ver",
             stop_followup_reminder_button: "Takip hatırlatmasını durdur",
-            extend_deadline_by_one_day_button: "+1 gün",
-            extend_deadline_by_two_days_button: "+2 gün",
-            extend_deadline_by_one_week_button: "+1 hafta",
+            extend_deadline_by_one_day_button: "Son teslim tarihini 1 gün uzatın",
+            extend_deadline_by_two_days_button: "Son teslim tarihini 2 gün uzatın",
+            extend_deadline_by_one_week_button: "Son teslim tarihini 1 hafta uzatın",
         },
         webhookLogging: {
             id_field: "Id",
