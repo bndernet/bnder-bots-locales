@@ -32,7 +32,10 @@ export class TSLocalizations_hi {
                 return `एक टिप्पणी एक कार्य में सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
             },
             comment_response_button: "टिप्पणी का जवाब दें",
-            stop_followup_reminder_button: "फॉलो-अप अनुस्मारक रोकें"
+            stop_followup_reminder_button: "फॉलो-अप अनुस्मारक रोकें",
+            extend_deadline_by_one_day_button: "+1 दिन",
+            extend_deadline_by_two_days_button: "+2 दिन",
+            extend_deadline_by_one_week_button: "+1 सप्ताह",
         },
         webhookLogging: {
             id_field: "पहचान",

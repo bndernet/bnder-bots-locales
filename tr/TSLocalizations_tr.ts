@@ -32,7 +32,10 @@ export class TSLocalizations_tr {
                 return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
             },
             comment_response_button: "Yoruma yanıt ver",
-            stop_followup_reminder_button: "Takip hatırlatmasını durdur"
+            stop_followup_reminder_button: "Takip hatırlatmasını durdur",
+            extend_deadline_by_one_day_button: "+1 gün",
+            extend_deadline_by_two_days_button: "+2 gün",
+            extend_deadline_by_one_week_button: "+1 hafta",
         },
         webhookLogging: {
             id_field: "Id",

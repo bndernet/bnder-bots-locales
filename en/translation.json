@@ -209,7 +209,9 @@
       "subtask_removed": "Removed a subtask",
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Description edited",
-      "more_entries_available": "You can only see the last 3 entries. To see all entries, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing."
+      "more_entries_available": "You can only see the last 3 entries. To see all entries, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+      "attachment_added": "Attachment {{file_name}} added",
+      "attachment_removed": "Attachment {{file_name}} removed"
     },
     "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
     "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",
@@ -225,7 +227,11 @@
     "followup_reminder_stopped": "The follow-up reminder for task **{{id}}** has been stopped.",
     "max_assignees_reached_buy_premium": "You can't assign more than {{max}} users or roles to a task. Please upgrade to a premium seat to assign more users or roles. Lean more about premium at https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "Daily repeating tasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "subtask_not_allowed": "Subtasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing."
+    "subtask_not_allowed": "Subtasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "attachments_not_allowed": "Attachments are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "You have reached the maximum storage limit for this server. To increase the storage limit, please upgrade to more premium seats. Learn more about premium at https://bnder.net/pricing.",
+    "attachment_added": "The attachment **{{file_name}}** has been added to the task **{{id}}**.",
+    "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

@@ -32,7 +32,10 @@ export class TSLocalizations_de {
                 return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt von ${author}: ${commentText}`;
             },
             comment_response_button: "Auf Kommentar antworten",
-            stop_followup_reminder_button: "Folge-Erinnerung stoppen"
+            stop_followup_reminder_button: "Folge-Erinnerung stoppen",
+            extend_deadline_by_one_day_button: "+1 Tag",
+            extend_deadline_by_two_days_button: "+2 Tage",
+            extend_deadline_by_one_week_button: "+1 Woche",
         },
         webhookLogging: {
             id_field: "Id",

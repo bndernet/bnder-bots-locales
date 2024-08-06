@@ -209,7 +209,9 @@
       "subtask_removed": "Bir alt görev kaldırıldı",
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Açıklama düzenlendi",
-      "more_entries_available": "Sadece son 3 girişi görebilirsiniz. Tüm girişleri görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
+      "more_entries_available": "Sadece son 3 girişi görebilirsiniz. Tüm girişleri görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+      "attachment_added": "Ek {{file_name}} eklendi",
+      "attachment_removed": "Ek {{file_name}} kaldırıldı"
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
@@ -225,7 +227,11 @@
     "followup_reminder_stopped": "**{{id}}** görevi için takip hatırlatıcısı durduruldu.",
     "max_assignees_reached_buy_premium": "Bir göreve {{max}}'dan fazla kullanıcı veya rol atayamazsınız. Daha fazla kullanıcı veya rol atamak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
     "daily_repeat_not_allowed": "Günlük tekrarlanan görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "subtask_not_allowed": "Alt görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
+    "subtask_not_allowed": "Alt görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "attachments_not_allowed": "Ekler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "attachments_storage_limit_reached": "Bu sunucu için maksimum depolama sınırına ulaştınız. Depolama sınırını artırmak için lütfen daha fazla premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "attachment_added": "**{{file_name}}** eki **{{id}}** görevine eklendi.",
+    "deadline_extended": "**{{id}}** görevi için son tarih {{deadline}} olarak uzatıldı."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

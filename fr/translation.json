@@ -209,7 +209,9 @@
       "subtask_removed": "Suppression d'une sous-tâche",
       "commit_mention": "Mentionné dans [commit](<{{url}}>)",
       "description_edited": "Description de la tâche éditée",
-      "more_entries_available" : "Vous ne pouvez voir que les 3 dernières entrées. Pour voir toutes les entrées, veuillez passer à un siège premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing."
+      "more_entries_available" : "Vous ne pouvez voir que les 3 dernières entrées. Pour voir toutes les entrées, veuillez passer à un siège premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
+      "attachment_added" : "Pièce jointe {{file_name}} ajoutée",
+        "attachment_removed" : "Pièce jointe {{file_name}} supprimée"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
@@ -225,7 +227,11 @@
     "followup_reminder_stopped" : "Le rappel de suivi de la tâche **{{id}}** a été arrêté.",
     "max_assignees_reached_buy_premium" : "Vous ne pouvez pas assigner plus de {{max}} utilisateurs ou rôles à une tâche. Veuillez passer à un siège premium pour assigner plus d'utilisateurs ou de rôles. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
     "daily_repeat_not_allowed" : "Les tâches quotidiennes répétées ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
-    "subtask_not_allowed" : "Les sous-tâches ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing."
+    "subtask_not_allowed" : "Les sous-tâches ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
+    "attachments_not_allowed" : "Les pièces jointes ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
+    "attachments_storage_limit_reached" : "Vous avez atteint la limite de stockage maximale pour ce serveur. Pour augmenter la limite de stockage, veuillez passer à des sièges plus premium. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
+    "attachment_added" : "La pièce jointe **{{file_name}}** a été ajoutée à la tâche **{{id}}**",
+    "deadline_extended" : "Le délai pour la tâche **{{id}}** a été prolongé jusqu'à {{deadline}}."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

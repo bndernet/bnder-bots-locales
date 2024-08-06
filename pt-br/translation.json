@@ -209,7 +209,9 @@
       "subtask_removed": "Removida uma subtarefa",
       "commit_mention": "Mencionado em [commit](<{{url}}>)",
       "description_edited": "Descrição editada",
-      "more_entries_available": "Você só pode ver as últimas 3 entradas. Para ver todas as entradas, faça upgrade para um assento premium. Saiba mais sobre premium em https://bnder.net/pricing."
+      "more_entries_available": "Você só pode ver as últimas 3 entradas. Para ver todas as entradas, faça upgrade para um assento premium. Saiba mais sobre premium em https://bnder.net/pricing.",
+      "attachment_added": "Anexo {{file_name}} adicionado",
+      "attachment_removed": "Anexo {{file_name}} removido"
     },
     "description_too_long": "A descrição é muito longa. Reduza-a para um máximo de {{max}} caracteres.",
     "comment_text_too_long": "O texto do comentário é muito longo. Por favor, reduza-o para {{max}} caracteres.",
@@ -225,7 +227,11 @@
     "followup_reminder_stopped": "O lembrete de acompanhamento da tarefa **{{id}}** foi interrompido.",
     "max_assignees_reached_buy_premium": "Não é possível atribuir mais do que {{max}} usuários ou funções a uma tarefa. Faça upgrade para um assento premium para atribuir mais usuários ou funções. Saiba mais sobre premium em https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "As tarefas de repetição diária estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre o premium em https://bnder.net/pricing.",
-    "subtask_not_allowed": "As subtarefas estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing."
+    "subtask_not_allowed": "As subtarefas estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "attachments_not_allowed": "Os anexos estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "Você atingiu o limite máximo de armazenamento para este servidor. Para aumentar o limite de armazenamento, faça upgrade para mais assentos premium. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "attachment_added": "O anexo **{{file_name}}** foi adicionado à tarefa **{{id}}**.",
+    "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

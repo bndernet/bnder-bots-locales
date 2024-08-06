@@ -209,7 +209,9 @@
       "subtask_removed": "Entfernte eine Teilaufgabe",
       "commit_mention": "Erwähnt in [commit](<{{url}}>)",
       "description_edited": "Beschreibung bearbeitet",
-      "more_entries_available": "Sie können nur die letzten 3 Einträge sehen. Um alle Einträge zu sehen, erwerben Sie bitte einen Premium-Platz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
+      "more_entries_available": "Sie können nur die letzten 3 Einträge sehen. Um alle Einträge zu sehen, erwerben Sie bitte einen Premium-Platz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+      "attachment_added": "Anlage {{file_name}} hinzugefügt",
+      "attachment_removed": "Anlage {{file_name}} entfernt"
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
@@ -225,7 +227,11 @@
     "followup_reminder_stopped": "Die Wiederholungserinnerung für Aufgabe **{{id}}** wurde gestoppt.",
     "max_assignees_reached_buy_premium": "Sie können einer Aufgabe nicht mehr als {{max}} Benutzer oder Rollen zuweisen. Bitte erwerben Sie ein Upgrade auf einen Premium-Platz, um mehr Benutzer oder Rollen zuzuweisen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "Täglich wiederkehrende Aufgaben sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
-    "subtask_not_allowed": "Unteraufgaben sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion nutzen zu können. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
+    "subtask_not_allowed": "Unteraufgaben sind nur für Benutzer von Premium-Plätzen verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion nutzen zu können. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "attachments_not_allowed": "Anhänge sind nur für Benutzer mit Premium-Mitgliedschaft verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "Sie haben das maximale Speicherlimit für diesen Server erreicht. Um das Speicherlimit zu erhöhen, führen Sie bitte ein Upgrade auf mehr Premium-Plätze durch. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "attachment_added": "Die Anlage **{{file_name}}** wurde der Aufgabe **{{id}}** hinzugefügt.",
+    "deadline_extended": "Die Frist für die Aufgabe **{{id}}** wurde auf {{deadline}} verlängert."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

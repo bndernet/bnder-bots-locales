@@ -32,7 +32,10 @@ export class TSLocalizations_bg {
                 return `Коментар беше добавен към задача в сървър [${guildName}](https://discord.com/channels/${guildId}) от ${author}: ${commentText}`;
             },
             comment_response_button: "Отговори на коментар",
-            stop_followup_reminder_button: "Спри напомнянето за последване"
+            stop_followup_reminder_button: "Спри напомнянето за последване",
+            extend_deadline_by_one_day_button: "+1 ден",
+            extend_deadline_by_two_days_button: "+2 дни",
+            extend_deadline_by_one_week_button: "+1 седмица",
         },
         webhookLogging: {
             id_field: "Id",

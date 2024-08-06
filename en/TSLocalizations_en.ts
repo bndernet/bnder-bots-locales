@@ -28,11 +28,14 @@ export class TSLocalizations_en {
             commented_embed_title(id: string): string {
                 return `Comment added to task ${id}`;
             },
-            commented_notification(guildName: string, guildId: string,author: string, commentText: string): string {
+            commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
                 return `A comment was added to a task in server [${guildName}](https://discord.com/channels/${guildId}) by ${author}: ${commentText}`;
             },
             comment_response_button: "Respond to comment",
-            stop_followup_reminder_button: "Stop follow-up reminder"
+            stop_followup_reminder_button: "Stop follow-up reminder",
+            extend_deadline_by_one_day_button: "+1 day",
+            extend_deadline_by_two_days_button: "+2 days",
+            extend_deadline_by_one_week_button: "+1 week",
         },
         webhookLogging: {
             id_field: "Id",

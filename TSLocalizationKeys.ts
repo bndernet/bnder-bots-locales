@@ -24,6 +24,9 @@ export interface TSLocalizationKeys {
         commented_embed_title(id: string): string;
         comment_response_button: string;
         stop_followup_reminder_button: string;
+        extend_deadline_by_one_day_button: string;
+        extend_deadline_by_two_days_button: string;
+        extend_deadline_by_one_week_button: string;
     },
     webhookLogging: {
         id_field: string,
