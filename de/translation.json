@@ -113,7 +113,8 @@
       "subtasks_headline": "Teilaufgaben",
       "description_headline": "Beschreibung",
       "comments_headline": "Kommentare",
-      "more_comments_premium": "Sie können nur die letzten 3 Kommentare sehen. Um alle Kommentare zu sehen, müssen Sie ein Upgrade auf einen Premium-Platz durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
+      "more_comments_premium": "Sie können nur die letzten 3 Kommentare sehen. Um alle Kommentare zu sehen, müssen Sie ein Upgrade auf einen Premium-Platz durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+      "attachments_headline": "Anhänge"
     },
     "subtask": {
       "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"title\", um den Text der Unteraufgabe anzugeben.",
@@ -234,7 +235,9 @@
     "deadline_extended": "Die Frist für die Aufgabe **{{id}}** wurde auf {{deadline}} verlängert.",
     "attachment_removed": "Die Anlage **{{file_name}}** wurde von der Aufgabe **{{id}}** entfernt.",
     "attachment_remove_error": "Die Anlage **{{file_name}}** konnte nicht aus der Aufgabe **{{id}}** entfernt werden. Bitte versuchen Sie es später erneut.",
-    "attachment_not_found": "Die Anlage **{{file_name}}** konnte nicht in der Aufgabe **{{id}}** gefunden werden. Verwenden Sie \"/task info\", um alle Anhänge anzuzeigen."
+    "attachment_not_found": "Die Anlage **{{file_name}}** konnte nicht in der Aufgabe **{{id}}** gefunden werden. Verwenden Sie \"/task info\", um alle Anhänge anzuzeigen.",
+    "attachments_list_title": "# Anhänge der Aufgabe **{{id}}** ({{count}} Anhänge):",
+    "no_attachments": "Es gibt keine Anhänge für die Aufgabe **{{id}}**."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

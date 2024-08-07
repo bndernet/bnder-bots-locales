@@ -101,7 +101,8 @@
     "attach_subcommand_description": "Bir göreve dosya ekle",
     "attachment_option_description": "Bir göreve eklenecek ek",
     "attachment_name_option_description": "Ek'in adı",
-    "detach_subcommand_description": "Bir dosyayı bir görevden ayır"
+    "detach_subcommand_description": "Bir dosyayı bir görevden ayır",
+    "attachments_subcommand_description": "Bir görevin tüm eklerini listele"
   },
   "topic": {
     "name_option_description": "Bir konunun adı",

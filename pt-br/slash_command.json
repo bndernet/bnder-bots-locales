@@ -101,7 +101,8 @@
     "attach_subcommand_description": "Anexar um arquivo a uma tarefa",
     "attachment_option_description": "O anexo a ser adicionado a uma tarefa",
     "attachment_name_option_description": "O nome do anexo",
-    "detach_subcommand_description": "Desanexar um arquivo de uma tarefa"
+    "detach_subcommand_description": "Desanexar um arquivo de uma tarefa",
+    "attachments_subcommand_description": "Listar todos os anexos de uma tarefa"
   },
   "topic": {
     "name_option_description": "O nome de um tópico",

@@ -113,7 +113,8 @@
       "subtasks_headline": "Alt Görevler",
       "description_headline": "Açıklama",
       "comments_headline": "Yorumlar",
-      "more_comments_premium": "Yalnızca son 3 yorumu görebilirsiniz. Tüm yorumları görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
+      "more_comments_premium": "Yalnızca son 3 yorumu görebilirsiniz. Tüm yorumları görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+      "attachments_headline": "Ekler"
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
@@ -234,7 +235,9 @@
     "deadline_extended": "**{{id}}** görevi için son tarih {{deadline}} olarak uzatıldı.",
     "attachment_removed": "**{{file_name}}** eki **{{id}}** görevinden kaldırıldı.",
     "attachment_remove_error": "**{{file_name}}** eki **{{id}}** görevinden kaldırılamadı. Lütfen daha sonra tekrar deneyin.",
-    "attachment_not_found": "**{{file_name}}** eki **{{id}}** görevinde bulunamadı. Tüm ekleri görmek için \"/task info\" kullanın."
+    "attachment_not_found": "**{{file_name}}** eki **{{id}}** görevinde bulunamadı. Tüm ekleri görmek için \"/task info\" kullanın.",
+    "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
+    "no_attachments": "**{{id}}** görevi için hiçbir ek yok."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

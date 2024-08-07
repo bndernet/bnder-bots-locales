@@ -101,7 +101,8 @@
     "attach_subcommand_description": "Eine Datei an eine Aufgabe anhängen",
     "attachment_option_description": "Die Anlage, die einer Aufgabe hinzugefügt werden soll",
     "attachment_name_option_description": "Der Name des Anhangs",
-    "detach_subcommand_description": "Eine Datei von einer Aufgabe abtrennen"
+    "detach_subcommand_description": "Eine Datei von einer Aufgabe abtrennen",
+    "attachments_subcommand_description": "Alle Anhänge einer Aufgabe auflisten"
   },
   "topic": {
     "name_option_description": "Der Name eines Themas",

@@ -101,7 +101,8 @@
     "attach_subcommand_description" : "Attacher un fichier à une tâche",
     "attachment_option_description" : "La pièce jointe à ajouter à une tâche",
     "attachment_name_option_description" : "Le nom de la pièce jointe",
-    "detach_subcommand_description" : "Détachement d'un fichier d'une tâche"
+    "detach_subcommand_description" : "Détachement d'un fichier d'une tâche",
+    "attachments_subcommand_description" : "Liste de toutes les pièces jointes d'une tâche"
   },
   "topic": {
     "name_option_description": "Le nom d'un sujet",

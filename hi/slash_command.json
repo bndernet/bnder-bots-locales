@@ -101,7 +101,8 @@
     "attach_subcommand_description": "किसी कार्य में फ़ाइल संलग्न करें",
     "attachment_option_description": "कार्य में जोड़ने के लिए अनुलग्नक",
     "attachment_name_option_description": "अनुलग्नक का नाम",
-    "detach_subcommand_description": "कार्य से फ़ाइल अलग करें"
+    "detach_subcommand_description": "कार्य से फ़ाइल अलग करें",
+    "attachments_subcommand_description": "किसी कार्य के सभी अनुलग्नकों की सूची बनाएं"
   },
   "topic": {
     "name_option_description": "किसी विषय का नाम",

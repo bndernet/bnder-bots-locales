@@ -101,7 +101,8 @@
     "attach_subcommand_description": "Adjuntar un archivo a una tarea",
     "attachment_option_description": "El archivo adjunto a añadir a una tarea",
     "attachment_name_option_description": "El nombre del archivo adjunto",
-    "detach_subcommand_description": "Separar un archivo de una tarea"
+    "detach_subcommand_description": "Separar un archivo de una tarea",
+    "attachments_subcommand_description": "Listar todos los adjuntos de una tarea"
   },
   "topic": {
     "name_option_description": "El nombre de un tema",

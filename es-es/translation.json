@@ -113,7 +113,8 @@
       "subtasks_headline": "Subtareas",
       "description_headline": "Descripción",
       "comments_headline": "Comentarios",
-      "more_comments_premium": "Solo puedes ver los 3 últimos comentarios. Para ver todos los comentarios, por favor actualice a un asiento premium. Más información sobre premium en https://bnder.net/pricing."
+      "more_comments_premium": "Solo puedes ver los 3 últimos comentarios. Para ver todos los comentarios, por favor actualice a un asiento premium. Más información sobre premium en https://bnder.net/pricing.",
+      "attachments_headline": "Archivos adjuntos"
     },
     "subtask": {
       "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",
@@ -234,7 +235,9 @@
     "deadline_extended": "La fecha límite para la tarea **{{id}}** se ha ampliado a {{deadline}}.",
     "attachment_removed": "El archivo adjunto **{{file_name}}** se ha eliminado de la tarea **{{id}}**",
     "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde.",
-    "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos."
+    "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos.",
+    "attachments_list_title": "# Adjuntos de la tarea **{{id}}** ({{count}} adjuntos):",
+    "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

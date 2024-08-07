@@ -113,7 +113,8 @@
       "subtasks_headline": "Subtarefas",
       "description_headline": "Descrição",
       "comments_headline": "Comentários",
-      "more_comments_premium": "Você só pode ver os últimos 3 comentários. Para ver todos os comentários, faça upgrade para um assento premium. Saiba mais sobre premium em https://bnder.net/pricing."
+      "more_comments_premium": "Você só pode ver os últimos 3 comentários. Para ver todos os comentários, faça upgrade para um assento premium. Saiba mais sobre premium em https://bnder.net/pricing.",
+      "attachments_headline": "Anexos"
     },
     "subtask": {
       "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",
@@ -234,7 +235,9 @@
     "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}.",
     "attachment_removed": "O anexo **{{file_name}}** foi removido da tarefa **{{id}}**.",
     "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde.",
-    "attachment_not_found": "O anexo **{{file_name}}** não pôde ser encontrado na tarefa **{{id}}**. Use \"/task info\" para ver todos os anexos."
+    "attachment_not_found": "O anexo **{{file_name}}** não pôde ser encontrado na tarefa **{{id}}**. Use \"/task info\" para ver todos os anexos.",
+    "attachments_list_title": "# Anexos da tarefa **{{id}}** ({{count}} anexos):",
+    "no_attachments": "Não há anexos para a tarefa **{{id}}**."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

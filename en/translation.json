@@ -113,7 +113,8 @@
       "subtasks_headline": "Subtasks",
       "description_headline": "Description",
       "comments_headline": "Comments",
-      "more_comments_premium": "You can only see the last 3 comments. To see all comments, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing."
+      "more_comments_premium": "You can only see the last 3 comments. To see all comments, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+      "attachments_headline": "Attachments"
     },
     "subtask": {
       "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",
@@ -234,7 +235,9 @@
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
     "attachment_removed": "The attachment **{{file_name}}** has been removed from the task **{{id}}**.",
     "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later.",
-    "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments."
+    "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments.",
+    "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
+    "no_attachments": "There are no attachments for the task **{{id}}**."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",
