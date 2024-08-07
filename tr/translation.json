@@ -233,7 +233,8 @@
     "attachment_added": "Ek **{{file_name}}** yüklendikten sonra **{{id}}** görevine eklenecektir. Bu işlem birkaç saniye sürebilir.",
     "deadline_extended": "**{{id}}** görevi için son tarih {{deadline}} olarak uzatıldı.",
     "attachment_removed": "**{{file_name}}** eki **{{id}}** görevinden kaldırıldı.",
-    "attachment_remove_error": "**{{file_name}}** eki **{{id}}** görevinden kaldırılamadı. Lütfen daha sonra tekrar deneyin."
+    "attachment_remove_error": "**{{file_name}}** eki **{{id}}** görevinden kaldırılamadı. Lütfen daha sonra tekrar deneyin.",
+    "attachment_not_found": "**{{file_name}}** eki **{{id}}** görevinde bulunamadı. Tüm ekleri görmek için \"/task info\" kullanın."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

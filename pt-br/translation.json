@@ -233,7 +233,8 @@
     "attachment_added": "O anexo **{{file_name}}** será adicionado à tarefa **{{id}}** assim que for carregado. Isso pode levar alguns segundos.",
     "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}.",
     "attachment_removed": "O anexo **{{file_name}}** foi removido da tarefa **{{id}}**.",
-    "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde."
+    "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde.",
+    "attachment_not_found": "O anexo **{{file_name}}** não pôde ser encontrado na tarefa **{{id}}**. Use \"/task info\" para ver todos os anexos."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

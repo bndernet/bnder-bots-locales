@@ -233,7 +233,8 @@
     "attachment_added": "El archivo adjunto **{{file_name}}** se añadirá a la tarea **{{id}}** una vez cargado. Esto puede tardar unos segundos.",
     "deadline_extended": "La fecha límite para la tarea **{{id}}** se ha ampliado a {{deadline}}.",
     "attachment_removed": "El archivo adjunto **{{file_name}}** se ha eliminado de la tarea **{{id}}**",
-    "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde."
+    "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde.",
+    "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

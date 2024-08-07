@@ -233,7 +233,8 @@
     "attachment_added": "The attachment **{{file_name}}** will be added to the task **{{id}}** once it is uploaded. This may take a few seconds.",
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
     "attachment_removed": "The attachment **{{file_name}}** has been removed from the task **{{id}}**.",
-    "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later."
+    "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later.",
+    "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

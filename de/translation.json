@@ -233,7 +233,8 @@
     "attachment_added": "Der Anhang **{{file_name}}** wird der Aufgabe **{{id}}** hinzugefügt, sobald er hochgeladen ist. Dies kann ein paar Sekunden dauern.",
     "deadline_extended": "Die Frist für die Aufgabe **{{id}}** wurde auf {{deadline}} verlängert.",
     "attachment_removed": "Die Anlage **{{file_name}}** wurde von der Aufgabe **{{id}}** entfernt.",
-    "attachment_remove_error": "Die Anlage **{{file_name}}** konnte nicht aus der Aufgabe **{{id}}** entfernt werden. Bitte versuchen Sie es später erneut."
+    "attachment_remove_error": "Die Anlage **{{file_name}}** konnte nicht aus der Aufgabe **{{id}}** entfernt werden. Bitte versuchen Sie es später erneut.",
+    "attachment_not_found": "Die Anlage **{{file_name}}** konnte nicht in der Aufgabe **{{id}}** gefunden werden. Verwenden Sie \"/task info\", um alle Anhänge anzuzeigen."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

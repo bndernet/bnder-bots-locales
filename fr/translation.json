@@ -233,7 +233,8 @@
     "attachment_added" : "La pièce jointe **{{file_name}}** sera ajoutée à la tâche **{{id}}** une fois qu'elle aura été téléchargée. Cela peut prendre quelques secondes.",
     "deadline_extended" : "Le délai pour la tâche **{{id}}** a été prolongé jusqu'à {{deadline}}.",
     "attachment_removed" : "La pièce jointe **{{file_name}}** a été supprimée de la tâche **{{id}}**",
-    "attachment_remove_error" : "La pièce jointe **{{file_name}}** n'a pas pu être supprimée de la tâche **{{id}}**. Veuillez réessayer plus tard."
+    "attachment_remove_error" : "La pièce jointe **{{file_name}}** n'a pas pu être supprimée de la tâche **{{id}}**. Veuillez réessayer plus tard.",
+    "attachment_not_found" : "La pièce jointe **{{file_name}}** n'a pas été trouvée dans la tâche **{{id}}**. Utilisez \"/task info\" pour voir toutes les pièces jointes."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",
