@@ -114,7 +114,8 @@
       "description_headline": "Description",
       "comments_headline": "Comments",
       "more_comments_premium": "You can only see the last 3 comments. To see all comments, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
-      "attachments_headline": "Attachments"
+      "attachments_headline": "Attachments",
+      "open_attachments": "Open attachments"
     },
     "subtask": {
       "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",
@@ -231,7 +232,7 @@
     "subtask_not_allowed": "Subtasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
     "attachments_not_allowed": "Attachments are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "You have reached the maximum storage limit for this server. To increase the storage limit, please upgrade to more premium seats. Learn more about premium at https://bnder.net/pricing.",
-    "attachment_added": "The attachment **{{file_name}}** will be added to the task **{{id}}** once it is uploaded. This may take a few seconds.",
+    "attachment_added": "The attachment **{{file_name}}** has been added to the task **{{id}}**. You can view it by using the \"/task attachments\" command.",
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
     "attachment_removed": "The attachment **{{file_name}}** has been removed from the task **{{id}}**.",
     "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later.",

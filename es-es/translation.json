@@ -114,7 +114,8 @@
       "description_headline": "Descripción",
       "comments_headline": "Comentarios",
       "more_comments_premium": "Solo puedes ver los 3 últimos comentarios. Para ver todos los comentarios, por favor actualice a un asiento premium. Más información sobre premium en https://bnder.net/pricing.",
-      "attachments_headline": "Archivos adjuntos"
+      "attachments_headline": "Archivos adjuntos",
+      "open_attachments": "Abrir archivos adjuntos"
     },
     "subtask": {
       "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",
@@ -231,7 +232,7 @@
     "subtask_not_allowed": "Las subtareas solo están disponibles para usuarios en asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing",
     "attachments_not_allowed": "Los archivos adjuntos solo están disponibles para los usuarios de los asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "Has alcanzado el límite máximo de almacenamiento para este servidor. Para aumentar el límite de almacenamiento, actualice a más puestos premium. Más información sobre Premium en https://bnder.net/pricing.",
-    "attachment_added": "El archivo adjunto **{{file_name}}** se añadirá a la tarea **{{id}}** una vez cargado. Esto puede tardar unos segundos.",
+    "attachment_added": "El archivo adjunto **{{file_name}}** ha sido añadido a la tarea **{{id}}**. Puede verlo utilizando el comando \"/task attachments\".",
     "deadline_extended": "La fecha límite para la tarea **{{id}}** se ha ampliado a {{deadline}}.",
     "attachment_removed": "El archivo adjunto **{{file_name}}** se ha eliminado de la tarea **{{id}}**",
     "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde.",

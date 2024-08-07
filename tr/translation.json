@@ -114,7 +114,8 @@
       "description_headline": "Açıklama",
       "comments_headline": "Yorumlar",
       "more_comments_premium": "Yalnızca son 3 yorumu görebilirsiniz. Tüm yorumları görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-      "attachments_headline": "Ekler"
+      "attachments_headline": "Ekler",
+      "open_attachments": "Ekleri aç"
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
@@ -231,7 +232,7 @@
     "subtask_not_allowed": "Alt görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
     "attachments_not_allowed": "Ekler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
     "attachments_storage_limit_reached": "Bu sunucu için maksimum depolama sınırına ulaştınız. Depolama sınırını artırmak için lütfen daha fazla premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "attachment_added": "Ek **{{file_name}}** yüklendikten sonra **{{id}}** görevine eklenecektir. Bu işlem birkaç saniye sürebilir.",
+    "attachment_added": "**{{file_name}}** eki **{{id}}** görevine eklendi. \"/task attachments\" komutunu kullanarak görüntüleyebilirsiniz.",
     "deadline_extended": "**{{id}}** görevi için son tarih {{deadline}} olarak uzatıldı.",
     "attachment_removed": "**{{file_name}}** eki **{{id}}** görevinden kaldırıldı.",
     "attachment_remove_error": "**{{file_name}}** eki **{{id}}** görevinden kaldırılamadı. Lütfen daha sonra tekrar deneyin.",

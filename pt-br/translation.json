@@ -114,7 +114,8 @@
       "description_headline": "Descrição",
       "comments_headline": "Comentários",
       "more_comments_premium": "Você só pode ver os últimos 3 comentários. Para ver todos os comentários, faça upgrade para um assento premium. Saiba mais sobre premium em https://bnder.net/pricing.",
-      "attachments_headline": "Anexos"
+      "attachments_headline": "Anexos",
+      "open_attachments": "Abrir anexos"
     },
     "subtask": {
       "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",
@@ -231,7 +232,7 @@
     "subtask_not_allowed": "As subtarefas estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "attachments_not_allowed": "Os anexos estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "Você atingiu o limite máximo de armazenamento para este servidor. Para aumentar o limite de armazenamento, faça upgrade para mais assentos premium. Saiba mais sobre premium em https://bnder.net/pricing.",
-    "attachment_added": "O anexo **{{file_name}}** será adicionado à tarefa **{{id}}** assim que for carregado. Isso pode levar alguns segundos.",
+    "attachment_added": "O anexo **{{file_name}}** foi adicionado à tarefa **{{id}}**. Você pode visualizá-lo usando o comando \"/task attachments\".",
     "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}.",
     "attachment_removed": "O anexo **{{file_name}}** foi removido da tarefa **{{id}}**.",
     "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde.",
