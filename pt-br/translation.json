@@ -230,8 +230,10 @@
     "subtask_not_allowed": "As subtarefas estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "attachments_not_allowed": "Os anexos estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "Você atingiu o limite máximo de armazenamento para este servidor. Para aumentar o limite de armazenamento, faça upgrade para mais assentos premium. Saiba mais sobre premium em https://bnder.net/pricing.",
-    "attachment_added": "O anexo **{{file_name}}** foi adicionado à tarefa **{{id}}**.",
-    "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}."
+    "attachment_added": "O anexo **{{file_name}}** será adicionado à tarefa **{{id}}** assim que for carregado. Isso pode levar alguns segundos.",
+    "deadline_extended": "O prazo para a tarefa **{{id}}** foi estendido para {{deadline}}.",
+    "attachment_removed": "O anexo **{{file_name}}** foi removido da tarefa **{{id}}**.",
+    "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",
