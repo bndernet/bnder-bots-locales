@@ -177,7 +177,31 @@ export class TSLocalizations_en {
                 description(name: string): string {
                     return `Topic ${name} was deleted`;
                 }
-            }
+            },
+            document_created: {
+                title(id: string): string {
+                    return `Document ${id} created`;
+                },
+                description(name: string): string {
+                    return `Document ${name} was created`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Document ${id} updated`;
+                },
+                description(name: string): string {
+                    return `Document ${name} was updated`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Document ${id} deleted`;
+                },
+                description(name: string): string {
+                    return `Document ${name} was deleted`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

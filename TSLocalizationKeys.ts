@@ -118,6 +118,18 @@ export interface TSLocalizationKeys {
             title: string,
             description(name: string): string,
         },
+        document_created: {
+            title(id: string): string,
+            description(name: string): string,
+        },
+        document_updated: {
+            title(id: string): string,
+            description(name: string): string,
+        },
+        document_deleted: {
+            title(id: string): string,
+            description(name: string): string,
+        },
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string;

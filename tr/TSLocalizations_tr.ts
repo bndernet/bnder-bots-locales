@@ -178,6 +178,30 @@ export class TSLocalizations_tr {
                     return `Konu ${name} silindi`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `Belge oluşturuldu: ${id}`;
+                },
+                description(name: string): string {
+                    return `Belge ${name} oluşturuldu`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Belge güncellendi: ${id}`;
+                },
+                description(name: string): string {
+                    return `Belge ${name} güncellendi`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Belge silindi: ${id}`;
+                },
+                description(name: string): string {
+                    return `Belge ${name} silindi`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

@@ -178,6 +178,30 @@ export class TSLocalizations_pt_br {
                     return `Tópico ${topicName} foi excluído`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `Documento ${id} criado`;
+                },
+                description(name: string): string {
+                    return `Documento ${name} foi criado`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Documento ${id} atualizado`;
+                },
+                description(name: string): string {
+                    return `Documento ${name} foi atualizado`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Documento ${id} excluído`;
+                },
+                description(name: string): string {
+                    return `Documento ${name} foi excluído`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

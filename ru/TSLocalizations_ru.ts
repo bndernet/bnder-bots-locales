@@ -178,6 +178,30 @@ export class TSLocalizations_ru {
                     return `Тема ${name} была удалена`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `Документ ${id} создан`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} был создан`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Документ ${id} обновлен`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} был обновлен`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Документ ${id} удален`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} был удален`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

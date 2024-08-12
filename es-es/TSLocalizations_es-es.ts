@@ -178,6 +178,30 @@ export class TSLocalizations_es_es {
                     return `Tema ${name} fue eliminado`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `Documento ${id} creado`;
+                },
+                description(id: string): string {
+                    return `Documento ${id} fue creado`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Documento ${id} actualizado`;
+                },
+                description(id: string): string {
+                    return `Documento ${id} fue actualizado`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Documento ${id} eliminado`;
+                },
+                description(id: string): string {
+                    return `Documento ${id} fue eliminado`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

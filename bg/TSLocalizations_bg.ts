@@ -178,6 +178,30 @@ export class TSLocalizations_bg {
                     return `Тема ${topicName} беше изтрита`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `Документ ${id} създаден`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} беше създаден`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `Документ ${id} актуализиран`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} беше актуализиран`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `Документ ${id} изтрит`;
+                },
+                description(name: string): string {
+                    return `Документ ${name} беше изтрит`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

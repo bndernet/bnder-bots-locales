@@ -178,6 +178,30 @@ export class TSLocalizations_hi {
                     return `विषय ${topicName} हटाया गया था`;
                 }
             },
+            document_created: {
+                title(id: string): string {
+                    return `दस्तावेज ${id} बनाया गया`;
+                },
+                description(name: string): string {
+                    return `दस्तावेज ${name} बनाया गया था`;
+                }
+            },
+            document_updated: {
+                title(id: string): string {
+                    return `दस्तावेज ${id} अद्यतन किया गया`;
+                },
+                description(name: string): string {
+                    return `दस्तावेज ${name} अद्यतन किया गया था`;
+                }
+            },
+            document_deleted: {
+                title(id: string): string {
+                    return `दस्तावेज ${id} हटाया गया`;
+                },
+                description(name: string): string {
+                    return `दस्तावेज ${name} हटाया गया था`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
