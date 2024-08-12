@@ -38,6 +38,7 @@ export interface TSLocalizationKeys {
         delete_at_field: string,
         text_field: string,
         project_field: string,
+        topic_field: string,
         permission_field: string,
         role_field: string,
         user_field: string,
@@ -104,6 +105,18 @@ export interface TSLocalizationKeys {
         },
         comment_deleted: {
             title(id: string): string,
+        },
+        topic_created: {
+            title: string,
+            description(name: string): string,
+        },
+        topic_updated: {
+            title: string,
+            description(name: string): string,
+        },
+        topic_deleted: {
+            title: string,
+            description(name: string): string,
         },
     },
     event: {

@@ -46,6 +46,7 @@ export class TSLocalizations_tr {
             delete_at_field: "Silinme tarihi",
             text_field: "Metin",
             project_field: "Proje",
+            topic_field: "Konu",
             role_field: "Rol",
             permission_field: "İzin",
             user_field: "Kullanıcı",
@@ -158,7 +159,25 @@ export class TSLocalizations_tr {
                 title(id: string): string {
                     return `Yorum silindi: ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Konu oluşturuldu",
+                description(name: string): string {
+                    return `Konu ${name} oluşturuldu`;
+                }
+            },
+            topic_updated: {
+                title: "Konu güncellendi",
+                description(name: string): string {
+                    return `Konu ${name} güncellendi`;
+                }
+            },
+            topic_deleted: {
+                title: "Konu silindi",
+                description(name: string): string {
+                    return `Konu ${name} silindi`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

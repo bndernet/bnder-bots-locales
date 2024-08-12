@@ -45,6 +45,7 @@ export class TSLocalizations_fr {
             subtasks_field: "Sous-tâches",
             delete_at_field: "Supprimer à",
             project_field: "Projet",
+            topic_field: "Sujet",
             text_field: "Texte",
             role_field: "Rôle",
             permission_field: "Autorisation",
@@ -158,7 +159,25 @@ export class TSLocalizations_fr {
                 title(id: string): string {
                     return `Commentaire supprimé de la tâche ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Sujet créé",
+                description(name: string): string {
+                    return `Sujet ${name} a été créé`;
+                }
+            },
+            topic_updated: {
+                title: "Sujet mis à jour",
+                description(name: string): string {
+                    return `Sujet ${name} a été mis à jour`;
+                }
+            },
+            topic_deleted: {
+                title: "Sujet supprimé",
+                description(name: string): string {
+                    return `Sujet ${name} a été supprimé`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

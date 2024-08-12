@@ -45,6 +45,7 @@ export class TSLocalizations_en {
             subtasks_field: "Subtasks",
             delete_at_field: "Delete at",
             project_field: "Project",
+            topic_field: "Topic",
             text_field: "Text",
             role_field: "Role",
             permission_field: "Permission",
@@ -157,6 +158,24 @@ export class TSLocalizations_en {
             comment_deleted: {
                 title(id: string): string {
                     return `Comment deleted from task ${id}`;
+                }
+            },
+            topic_created: {
+                title: "Topic created",
+                description(name: string): string {
+                    return `Topic ${name} was created`;
+                }
+            },
+            topic_updated: {
+                title: "Topic updated",
+                description(name: string): string {
+                    return `Topic ${name} was updated`;
+                }
+            },
+            topic_deleted: {
+                title: "Topic deleted",
+                description(name: string): string {
+                    return `Topic ${name} was deleted`;
                 }
             }
         },

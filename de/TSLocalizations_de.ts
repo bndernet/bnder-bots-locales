@@ -46,6 +46,7 @@ export class TSLocalizations_de {
             delete_at_field: "Löschen am",
             text_field: "Text",
             project_field: "Projekt",
+            topic_field: "Thema",
             user_field: "Benutzer",
             role_field: "Rolle",
             permission_field: "Berechtigung",
@@ -158,7 +159,25 @@ export class TSLocalizations_de {
                 title(id: string): string {
                     return `Kommentar gelöscht von Aufgabe ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Thema erstellt",
+                description(name: string): string {
+                    return `Thema ${name} wurde erstellt`;
+                }
+            },
+            topic_updated: {
+                title: "Thema aktualisiert",
+                description(name: string): string {
+                    return `Thema ${name} wurde aktualisiert`;
+                }
+            },
+            topic_deleted: {
+                title: "Thema gelöscht",
+                description(name: string): string {
+                    return `Thema ${name} wurde gelöscht`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

@@ -45,6 +45,7 @@ export class TSLocalizations_hi {
             subtasks_field: "उपकार्य",
             delete_at_field: "पर हटाएँ",
             project_field: "परियोजना",
+            topic_field: "विषय",
             text_field: "मूलपाठ",
             role_field: "भूमिका",
             permission_field: "अनुमति",
@@ -158,7 +159,25 @@ export class TSLocalizations_hi {
                 title(id: string): string {
                     return `कार्य ${id} से टिप्पणी हटाई गई`;
                 }
-            }
+            },
+            topic_created: {
+                title: "विषय बनाया गया",
+                description(topicName: string): string {
+                    return `विषय ${topicName} बनाया गया था`;
+                }
+            },
+            topic_updated: {
+                title: "विषय अद्यतन किया गया",
+                description(topicName: string): string {
+                    return `विषय ${topicName} अद्यतन किया गया था`;
+                }
+            },
+            topic_deleted: {
+                title: "विषय हटाया गया",
+                description(topicName: string): string {
+                    return `विषय ${topicName} हटाया गया था`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

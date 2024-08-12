@@ -46,6 +46,7 @@ export class TSLocalizations_es_es {
             delete_at_field: "Eliminar en",
             text_field: "Texto",
             project_field: "Proyecto",
+            topic_field: "Tema",
             role_field: "Rol",
             permission_field: "Permiso",
             user_field: "Usuario",
@@ -158,7 +159,25 @@ export class TSLocalizations_es_es {
                 title(id: string): string {
                     return `Comentario eliminado de la tarea ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Tema creado",
+                description(name: string): string {
+                    return `Tema ${name} fue creado`;
+                }
+            },
+            topic_updated: {
+                title: "Tema actualizado",
+                description(name: string): string {
+                    return `Tema ${name} fue actualizado`;
+                }
+            },
+            topic_deleted: {
+                title: "Tema eliminado",
+                description(name: string): string {
+                    return `Tema ${name} fue eliminado`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

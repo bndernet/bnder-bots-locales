@@ -45,6 +45,7 @@ export class TSLocalizations_ru {
             subtasks_field: "Подзадачи",
             delete_at_field: "Удалить в",
             project_field: "Проект",
+            topic_field: "Тема",
             text_field: "Текст",
             role_field: "Роль",
             user_field: "Пользователь",
@@ -158,7 +159,25 @@ export class TSLocalizations_ru {
                 title(id: string): string {
                     return `Комментарий удален из задачи ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Тема создана",
+                description(name: string): string {
+                    return `Тема ${name} была создана`;
+                }
+            },
+            topic_updated: {
+                title: "Тема обновлена",
+                description(name: string): string {
+                    return `Тема ${name} была обновлена`;
+                }
+            },
+            topic_deleted: {
+                title: "Тема удалена",
+                description(name: string): string {
+                    return `Тема ${name} была удалена`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

@@ -45,6 +45,7 @@ export class TSLocalizations_bg {
             subtasks_field: "Подзадачи",
             delete_at_field: "Изтриване на",
             project_field: "Проект",
+            topic_field: "Тема",
             text_field: "Текст",
             user_field: "Потребител",
             role_field: "Роля",
@@ -158,7 +159,25 @@ export class TSLocalizations_bg {
                 title(id: string): string {
                     return `Коментар към задача ${id} изтрит`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Тема създадена",
+                description(topicName: string): string {
+                    return `Тема ${topicName} беше създадена`;
+                }
+            },
+            topic_updated: {
+                title: "Тема актуализирана",
+                description(topicName: string): string {
+                    return `Тема ${topicName} беше актуализирана`;
+                }
+            },
+            topic_deleted: {
+                title: "Тема изтрита",
+                description(topicName: string): string {
+                    return `Тема ${topicName} беше изтрита`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

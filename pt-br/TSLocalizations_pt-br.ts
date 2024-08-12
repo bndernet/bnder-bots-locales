@@ -46,6 +46,7 @@ export class TSLocalizations_pt_br {
             delete_at_field: "Excluir em",
             text_field: "Texto",
             project_field: "Projeto",
+            topic_field: "Tópico",
             role_field: "Função",
             permission_field: "Permissão",
             user_field: "Usuário",
@@ -158,7 +159,25 @@ export class TSLocalizations_pt_br {
                 title(id: string): string {
                     return `Comentário excluído da tarefa ${id}`;
                 }
-            }
+            },
+            topic_created: {
+                title: "Tópico criado",
+                description(topicName: string): string {
+                    return `Tópico ${topicName} foi criado`;
+                }
+            },
+            topic_updated: {
+                title: "Tópico atualizado",
+                description(topicName: string): string {
+                    return `Tópico ${topicName} foi atualizado`;
+                }
+            },
+            topic_deleted: {
+                title: "Tópico excluído",
+                description(topicName: string): string {
+                    return `Tópico ${topicName} foi excluído`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
