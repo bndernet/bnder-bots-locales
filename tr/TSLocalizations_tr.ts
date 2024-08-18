@@ -202,6 +202,24 @@ export class TSLocalizations_tr {
                     return `Belge ${name} silindi`;
                 }
             },
+            label_created: {
+                title: "Etiket oluşturuldu",
+                description(name: string): string {
+                    return `Etiket ${name} oluşturuldu`;
+                }
+            },
+            label_updated: {
+                title: "Etiket güncellendi",
+                description(name: string): string {
+                    return `Etiket ${name} güncellendi`;
+                }
+            },
+            label_deleted: {
+                title: "Etiket silindi",
+                description(name: string): string {
+                    return `Etiket ${name} silindi`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

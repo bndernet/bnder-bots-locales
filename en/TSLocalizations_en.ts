@@ -202,6 +202,24 @@ export class TSLocalizations_en {
                     return `Document ${name} was deleted`;
                 }
             },
+            label_created: {
+                title: "Label created",
+                description(name: string): string {
+                    return `Label ${name} was created`;
+                }
+            },
+            label_updated: {
+                title: "Label updated",
+                description(name: string): string {
+                    return `Label ${name} was updated`;
+                }
+            },
+            label_deleted: {
+                title: "Label deleted",
+                description(name: string): string {
+                    return `Label ${name} was deleted`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

@@ -202,6 +202,24 @@ export class TSLocalizations_bg {
                     return `Документ ${name} беше изтрит`;
                 }
             },
+            label_created: {
+                title: "Етикет създаден",
+                description(name: string): string {
+                    return `Етикет ${name} беше създаден`;
+                }
+            },
+            label_updated: {
+                title: "Етикет актуализиран",
+                description(name: string): string {
+                    return `Етикет ${name} беше актуализиран`;
+                }
+            },
+            label_deleted: {
+                title: "Етикет изтрит",
+                description(name: string): string {
+                    return `Етикет ${name} беше изтрит`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

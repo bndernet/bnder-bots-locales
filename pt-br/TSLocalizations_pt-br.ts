@@ -202,6 +202,24 @@ export class TSLocalizations_pt_br {
                     return `Documento ${name} foi excluído`;
                 }
             },
+            label_created: {
+                title: "Rótulo criado",
+                description(name: string): string {
+                    return `Rótulo ${name} foi criado`;
+                }
+            },
+            label_updated: {
+                title: "Rótulo atualizado",
+                description(name: string): string {
+                    return `Rótulo ${name} foi atualizado`;
+                }
+            },
+            label_deleted: {
+                title: "Rótulo excluído",
+                description(name: string): string {
+                    return `Rótulo ${name} foi excluído`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

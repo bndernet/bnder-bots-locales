@@ -202,6 +202,24 @@ export class TSLocalizations_hi {
                     return `दस्तावेज ${name} हटाया गया था`;
                 }
             },
+            label_created: {
+                title: "लेबल बनाया गया",
+                description(name: string): string {
+                    return `लेबल ${name} बनाया गया था`;
+                }
+            },
+            label_updated: {
+                title: "लेबल अद्यतन किया गया",
+                description(name: string): string {
+                    return `लेबल ${name} अद्यतन किया गया था`;
+                }
+            },
+            label_deleted: {
+                title: "लेबल हटाया गया",
+                description(name: string): string {
+                    return `लेबल ${name} हटाया गया था`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

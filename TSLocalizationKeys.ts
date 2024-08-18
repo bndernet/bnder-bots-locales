@@ -130,6 +130,18 @@ export interface TSLocalizationKeys {
             title(id: string): string,
             description(name: string): string,
         },
+        label_created: {
+            title: string,
+            description(name: string): string,
+        },
+        label_updated: {
+            title: string,
+            description(name: string): string,
+        },
+        label_deleted: {
+            title: string,
+            description(name: string): string,
+        },
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string;

@@ -202,6 +202,24 @@ export class TSLocalizations_ru {
                     return `Документ ${name} был удален`;
                 }
             },
+            label_created: {
+                title: "Метка создана",
+                description(name: string): string {
+                    return `Метка ${name} была создана`;
+                }
+            },
+            label_updated: {
+                title: "Метка обновлена",
+                description(name: string): string {
+                    return `Метка ${name} была обновлена`;
+                }
+            },
+            label_deleted: {
+                title: "Метка удалена",
+                description(name: string): string {
+                    return `Метка ${name} была удалена`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

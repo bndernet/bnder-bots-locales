@@ -202,6 +202,24 @@ export class TSLocalizations_es_es {
                     return `Documento ${id} fue eliminado`;
                 }
             },
+            label_created: {
+                title: "Etiqueta creada",
+                description(name: string): string {
+                    return `Etiqueta ${name} fue creada`;
+                }
+            },
+            label_updated: {
+                title: "Etiqueta actualizada",
+                description(name: string): string {
+                    return `Etiqueta ${name} fue actualizada`;
+                }
+            },
+            label_deleted: {
+                title: "Etiqueta eliminada",
+                description(name: string): string {
+                    return `Etiqueta ${name} fue eliminada`;
+                }
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
