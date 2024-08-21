@@ -36,6 +36,10 @@ export class TSLocalizations_en {
             extend_deadline_by_one_day_button: "Extend deadline by 1 day",
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
+            watcher_notification(guildName: string, guildId: string): string {
+                return `A task you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
+            },
+            watcher_notification_footer: "Disable notifications for this task by using \"/task unwatch\" command",
         },
         webhookLogging: {
             id_field: "Id",

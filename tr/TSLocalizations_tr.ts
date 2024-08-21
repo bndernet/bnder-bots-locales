@@ -36,6 +36,10 @@ export class TSLocalizations_tr {
             extend_deadline_by_one_day_button: "Son teslim tarihini 1 gün uzatın",
             extend_deadline_by_two_days_button: "Son teslim tarihini 2 gün uzatın",
             extend_deadline_by_one_week_button: "Son teslim tarihini 1 hafta uzatın",
+            watcher_notification(guildName: string, guildId: string): string {
+                return `Sunucuda izlediğiniz bir görev [${guildName}](https://discord.com/channels/${guildId}) değişti:`;
+            },
+            watcher_notification_footer: "“/task unwatch” komutunu kullanarak bu görev için bildirimleri devre dışı bırakın",
         },
         webhookLogging: {
             id_field: "Id",

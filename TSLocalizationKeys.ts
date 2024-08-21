@@ -27,6 +27,8 @@ export interface TSLocalizationKeys {
         extend_deadline_by_one_day_button: string;
         extend_deadline_by_two_days_button: string;
         extend_deadline_by_one_week_button: string;
+        watcher_notification(guildName: string, guildId: string): string;
+        watcher_notification_footer: string;
     },
     webhookLogging: {
         id_field: string,

@@ -36,6 +36,10 @@ export class TSLocalizations_pt_br {
             extend_deadline_by_one_day_button: "Prorrogar o prazo em 1 dia",
             extend_deadline_by_two_days_button: "Prorrogar o prazo em 2 dias",
             extend_deadline_by_one_week_button: "Prorrogar o prazo em 1 semana",
+            watcher_notification(guildName: string, guildId: string): string {
+                return `Uma tarefa que você está acompanhando no servidor [${guildName}](https://discord.com/channels/${guildId}) foi alterada:`;
+            },
+            watcher_notification_footer: "Desative as notificações para essa tarefa usando o comando “/task unwatch”",
         },
         webhookLogging: {
             id_field: "Id",

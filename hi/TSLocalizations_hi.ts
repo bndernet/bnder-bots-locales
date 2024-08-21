@@ -36,6 +36,10 @@ export class TSLocalizations_hi {
             extend_deadline_by_one_day_button: "समय सीमा 1 दिन बढ़ाएँ",
             extend_deadline_by_two_days_button: "समय सीमा 2 दिन बढ़ाएँ",
             extend_deadline_by_one_week_button: "समय सीमा 1 सप्ताह बढ़ाएँ",
+            watcher_notification(guildName: string, guildId: string): string {
+                return `सर्वर [${guildName}](https://discord.com/channels/${guildId}) में आप जो कार्य देख रहे हैं, वह परिवर्तित हो गया है:`;
+            },
+            watcher_notification_footer: "\"/task unwatch\" कमांड का उपयोग करके इस कार्य के लिए अधिसूचनाएँ अक्षम करें",
         },
         webhookLogging: {
             id_field: "पहचान",

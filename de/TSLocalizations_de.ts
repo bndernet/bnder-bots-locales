@@ -36,6 +36,10 @@ export class TSLocalizations_de {
             extend_deadline_by_one_day_button: "Frist um 1 Tag verlängern",
             extend_deadline_by_two_days_button: "Frist um 2 Tage verlängern",
             extend_deadline_by_one_week_button: "Frist um 1 Woche verlängern",
+            watcher_notification(guildName: string, guildId: string): string {
+                return `Eine Aufgabe, die Sie auf dem Server [${guildName}](https://discord.com/channels/${guildId}) beobachten, wurde geändert:`;
+            },
+            watcher_notification_footer: "Benachrichtigungen für diese Aufgabe mit dem Befehl „/task unwatch“ deaktivieren",
         },
         webhookLogging: {
             id_field: "Id",
