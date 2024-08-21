@@ -213,7 +213,9 @@
       "description_edited": "Açıklama düzenlendi",
       "more_entries_available": "Sadece son 3 girişi görebilirsiniz. Tüm girişleri görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
       "attachment_added": "Ek {{file_name}} eklendi",
-      "attachment_removed": "Ek {{file_name}} kaldırıldı"
+      "attachment_removed": "Ek {{file_name}} kaldırıldı",
+      "watcher_added": "Watcher {{watcher}} eklendi",
+      "watcher_removed": "Watcher {{watcher}} kaldırıldı"
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",

@@ -213,7 +213,9 @@
       "description_edited": "Description edited",
       "more_entries_available": "You can only see the last 3 entries. To see all entries, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
       "attachment_added": "Attachment {{file_name}} added",
-      "attachment_removed": "Attachment {{file_name}} removed"
+      "attachment_removed": "Attachment {{file_name}} removed",
+      "watcher_added": "Watcher {{watcher}} added",
+      "watcher_removed": "Watcher {{watcher}} removed"
     },
     "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
     "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",

@@ -213,7 +213,9 @@
       "description_edited": "Descripción editada",
       "more_entries_available": "Solo puedes ver las 3 últimas entradas. Para ver todas las entradas, por favor actualice a un asiento premium. Más información sobre Premium en https://bnder.net/pricing",
       "attachment_added": "Adjunto {{file_name}} añadido",
-      "attachment_removed": "Adjunto {{file_name}} eliminado"
+      "attachment_removed": "Adjunto {{file_name}} eliminado",
+      "watcher_added": "Observador {{watcher}} añadido",
+      "watcher_removed": "Observador {{watcher}} eliminado"
     },
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",

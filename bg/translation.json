@@ -213,7 +213,9 @@
       "description_edited": "Описанието на задачата е редактирано",
       "more_entries_available": "Можете да видите само последните 3 записа. За да видите всички записи, моля, преминете към премиум място. Научете повече за премиум сегмента на https://bnder.net/pricing.",
       "attachment_added": "Добавено приложение {{file_name}}",
-      "attachment_removed": "Приложение премахнато {{file_name}}"
+      "attachment_removed": "Приложение премахнато {{file_name}}",
+      "watcher_added": "Добавяне на наблюдател {{watcher}}",
+      "watcher_removed": "Премахване на наблюдател {{watcher}}"
     },
     "description_too_long": "Описанието е твърде дълго. Моля, съкратете го до максимум {{max}} символа.",
     "comment_text_too_long": "Текстът на коментара е твърде дълъг. Моля, съкратете го до {{max}} знаци.",

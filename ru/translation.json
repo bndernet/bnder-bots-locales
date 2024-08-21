@@ -213,7 +213,9 @@
       "description_edited": "Описание отредактировано",
       "more_entries_available": "Вы можете видеть только 3 последние записи. Чтобы увидеть все записи, пожалуйста, перейдите на премиум-место. Узнайте больше о премиуме на сайте https://bnder.net/pricing.",
       "attachment_added": "Добавлено вложение {{file_name}}",
-      "attachment_removed": "Удалено вложение {{file_name}}"
+      "attachment_removed": "Удалено вложение {{file_name}}",
+      "watcher_added": "Наблюдатель {{watcher}} добавил",
+      "watcher_removed": "Наблюдатель {{watcher}} удален"
     },
     "description_too_long": "Описание слишком длинное. Пожалуйста, сократите его до {{max}} символов.",
     "comment_text_too_long": "Текст комментария слишком длинный. Пожалуйста, сократите его до {{max}} символов.",

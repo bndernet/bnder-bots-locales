@@ -213,7 +213,9 @@
       "description_edited": "Description de la tâche éditée",
       "more_entries_available": "Vous ne pouvez voir que les 3 dernières entrées. Pour voir toutes les entrées, veuillez passer à un siège premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
       "attachment_added": "Pièce jointe {{file_name}} ajoutée",
-      "attachment_removed": "Pièce jointe {{file_name}} supprimée"
+      "attachment_removed": "Pièce jointe {{file_name}} supprimée",
+      "watcher_added": "Watcher {{watcher}} a ajouté",
+      "watcher_removed": "Watcher {{watcher}} supprimé"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",

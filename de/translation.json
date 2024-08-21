@@ -213,7 +213,9 @@
       "description_edited": "Beschreibung bearbeitet",
       "more_entries_available": "Sie können nur die letzten 3 Einträge sehen. Um alle Einträge zu sehen, erwerben Sie bitte einen Premium-Platz. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
       "attachment_added": "Anlage {{file_name}} hinzugefügt",
-      "attachment_removed": "Anlage {{file_name}} entfernt"
+      "attachment_removed": "Anlage {{file_name}} entfernt",
+      "watcher_added": "Beobachter {{watcher}} hinzugefügt",
+      "watcher_removed": "Beobachter {{watcher}} entfernt"
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
