@@ -246,7 +246,8 @@
     "already_watching": "Ya estás vigilando la tarea **{{id}}**",
     "watching_success": "Ahora estás observando la tarea **{{id}}**. Recibirás notificaciones sobre cualquier cambio en esta tarea",
     "not_watching": "No estás observando la tarea **{{id}}**",
-    "unwatched_success": "Ya no estás observando la tarea **{{id}}** y no recibirás notificaciones sobre los cambios en esta tarea."
+    "unwatched_success": "Ya no estás observando la tarea **{{id}}** y no recibirás notificaciones sobre los cambios en esta tarea.",
+    "watch_not_allowed": "La función de observación solo está disponible para los usuarios de los asientos premium. Por favor, actualice a un asiento premium para utilizar esta función. Más información sobre Premium en https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

@@ -246,7 +246,8 @@
     "already_watching": "Sie beobachten bereits die Aufgabe **{{id}}**.",
     "watching_success": "Sie beobachten jetzt die Aufgabe **{{id}}**. Sie werden über jede Änderung an dieser Aufgabe benachrichtigt.",
     "not_watching": "Sie beobachten die Aufgabe **{{id}}** nicht.",
-    "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt."
+    "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt.",
+    "watch_not_allowed": "Beobachten von Aufgaben ist nur für Benutzer mit Premium-Mitgliedschaft verfügbar. Bitte führen Sie ein Upgrade auf einen Premium-Platz durch, um diese Funktion zu nutzen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

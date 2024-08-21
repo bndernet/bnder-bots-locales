@@ -246,7 +246,8 @@
     "already_watching": "You are already watching the task **{{id}}**.",
     "watching_success": "You are now watching the task **{{id}}**. You will get notified about every change to this task.",
     "not_watching": "You are not watching the task **{{id}}**.",
-    "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task."
+    "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task.",
+    "watch_not_allowed": "Watching tasks is only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

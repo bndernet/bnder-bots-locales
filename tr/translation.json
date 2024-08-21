@@ -246,7 +246,8 @@
     "already_watching": "**{{id}}** görevini zaten izliyorsunuz.",
     "watching_success": "Şu anda **{{id}}** görevini izliyorsunuz. Bu görevdeki her değişiklik hakkında bilgilendirileceksiniz.",
     "not_watching": "**{{id}}** görevini izlemiyorsunuz.",
-    "unwatched_success": "Artık **{{id}}** görevini izlemiyorsunuz ve bu görevdeki değişiklikler hakkında bildirim almayacaksınız."
+    "unwatched_success": "Artık **{{id}}** görevini izlemiyorsunuz ve bu görevdeki değişiklikler hakkında bildirim almayacaksınız.",
+    "watch_not_allowed": "Görevleri izlemek yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",
