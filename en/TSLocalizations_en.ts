@@ -40,6 +40,9 @@ export class TSLocalizations_en {
                 return `A task you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
             },
             watcher_notification_footer: "Disable notifications for this task by using \"/task unwatch\" command",
+            watcher_embed_title(id: string): string {
+                return `Task ${id} updated`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

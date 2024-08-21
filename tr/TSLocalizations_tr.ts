@@ -40,6 +40,9 @@ export class TSLocalizations_tr {
                 return `Sunucuda izlediğiniz bir görev [${guildName}](https://discord.com/channels/${guildId}) değişti:`;
             },
             watcher_notification_footer: "“/task unwatch” komutunu kullanarak bu görev için bildirimleri devre dışı bırakın",
+            watcher_embed_title(id: string): string {
+                return `Görev ${id} güncellendi`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

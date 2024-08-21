@@ -40,6 +40,9 @@ export class TSLocalizations_ru {
                 return `Задание, за которым вы следите на сервере [${guildName}](https://discord.com/channels/${guildId}), изменилось:`;
             },
             watcher_notification_footer: "Отключите уведомления для этой задачи с помощью команды «/task unwatch».",
+            watcher_embed_title(id: string): string {
+                return `Задача ${id} обновлена`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

@@ -40,6 +40,9 @@ export class TSLocalizations_bg {
                 return `Задачата, която наблюдавате в сървъра [${guildName}](https://discord.com/channels/${guildId}), се е променила:`;
             },
             watcher_notification_footer: "Деактивиране на известията за тази задача с помощта на командата „/task unwatch“",
+            watcher_embed_title(id: string): string {
+                return `Задачата ${id} е актуализирана`;
+            }
         },
         webhookLogging: {
             id_field: "Id",

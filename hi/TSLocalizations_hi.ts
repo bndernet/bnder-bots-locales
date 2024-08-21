@@ -40,6 +40,9 @@ export class TSLocalizations_hi {
                 return `सर्वर [${guildName}](https://discord.com/channels/${guildId}) में आप जो कार्य देख रहे हैं, वह परिवर्तित हो गया है:`;
             },
             watcher_notification_footer: "\"/task unwatch\" कमांड का उपयोग करके इस कार्य के लिए अधिसूचनाएँ अक्षम करें",
+            watcher_embed_title(id: string): string {
+                return `कार्य ${id} अपडेट किया गया`;
+            }
         },
         webhookLogging: {
             id_field: "पहचान",

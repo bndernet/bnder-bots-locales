@@ -40,6 +40,9 @@ export class TSLocalizations_es_es {
                 return `Una tarea que estás vigilando en el servidor [${guildName}](https://discord.com/channels/${guildId}) ha cambiado:`;
             },
             watcher_notification_footer: "Desactive las notificaciones de esta tarea mediante el comando «/task unwatch».",
+            watcher_embed_title(id: string): string {
+                return `Tarea ${id} actualizada`;
+            }
         },
         webhookLogging: {
             id_field: "Id",
