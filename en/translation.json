@@ -241,6 +241,8 @@
     "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
     "no_attachments": "There are no attachments for the task **{{id}}**.",
+    "attachment_discord_download_error": "The attachment could not be downloaded from Discord. Please try again later.",
+    "attachment_cdn_upload_error": "The attachment could not be uploaded to the CDN. Please try again later.",
     "already_watching": "You are already watching the task **{{id}}**.",
     "watching_success": "You are now watching the task **{{id}}**. You will get notified about every change to this task.",
     "not_watching": "You are not watching the task **{{id}}**.",

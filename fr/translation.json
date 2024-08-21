@@ -241,6 +241,8 @@
     "attachment_not_found": "La pièce jointe **{{file_name}}** n'a pas été trouvée dans la tâche **{{id}}**. Utilisez \"/task info\" pour voir toutes les pièces jointes.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments) :",
     "no_attachments": "Il n'y a pas de pièces jointes pour la tâche **{{id}}**.",
+    "attachment_discord_download_error": "Une erreur s'est produite lors du téléchargement de la pièce jointe. Veuillez réessayer plus tard.",
+    "attachment_cdn_upload_error": "Une erreur s'est produite lors du téléchargement de la pièce jointe. Veuillez réessayer plus tard.",
     "already_watching": "Vous êtes déjà en train de surveiller la tâche **{{id}}**",
     "watching_success": "Vous surveillez maintenant la tâche **{{id}}**. Vous serez informé de toute modification apportée à cette tâche.",
     "not_watching": "Vous ne surveillez pas la tâche **{{id}}**",

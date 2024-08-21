@@ -241,6 +241,8 @@
     "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos.",
     "attachments_list_title": "# Adjuntos de la tarea **{{id}}** ({{count}} adjuntos):",
     "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**.",
+    "attachment_discord_download_error": "No se ha podido descargar el archivo adjunto. Por favor, inténtelo de nuevo más tarde.",
+    "attachment_cdn_upload_error": "No se ha podido subir el archivo adjunto. Por favor, inténtelo de nuevo más tarde.",
     "already_watching": "Ya estás vigilando la tarea **{{id}}**",
     "watching_success": "Ahora estás observando la tarea **{{id}}**. Recibirás notificaciones sobre cualquier cambio en esta tarea",
     "not_watching": "No estás observando la tarea **{{id}}**",

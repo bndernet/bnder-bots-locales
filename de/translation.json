@@ -241,6 +241,8 @@
     "attachment_not_found": "Die Anlage **{{file_name}}** konnte nicht in der Aufgabe **{{id}}** gefunden werden. Verwenden Sie \"/task info\", um alle Anhänge anzuzeigen.",
     "attachments_list_title": "# Anhänge der Aufgabe **{{id}}** ({{count}} Anhänge):",
     "no_attachments": "Es gibt keine Anhänge für die Aufgabe **{{id}}**.",
+    "attachment_discord_download_error": "Die Anlage konnte nicht heruntergeladen werden. Bitte versuchen Sie es später erneut.",
+    "attachment_cdn_upload_error": "Die Anlage konnte nicht hochgeladen werden. Bitte versuchen Sie es später erneut.",
     "already_watching": "Sie beobachten bereits die Aufgabe **{{id}}**.",
     "watching_success": "Sie beobachten jetzt die Aufgabe **{{id}}**. Sie werden über jede Änderung an dieser Aufgabe benachrichtigt.",
     "not_watching": "Sie beobachten die Aufgabe **{{id}}** nicht.",
