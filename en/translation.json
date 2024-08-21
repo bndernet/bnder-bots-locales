@@ -238,7 +238,11 @@
     "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later.",
     "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
-    "no_attachments": "There are no attachments for the task **{{id}}**."
+    "no_attachments": "There are no attachments for the task **{{id}}**.",
+    "already_watching": "You are already watching the task **{{id}}**.",
+    "watching_success": "You are now watching the task **{{id}}**. You will get notified about every change to this task.",
+    "not_watching": "You are not watching the task **{{id}}**.",
+    "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

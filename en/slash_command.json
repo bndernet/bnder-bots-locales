@@ -102,7 +102,9 @@
     "attachment_option_description": "The attachment to add to a task",
     "attachment_name_option_description": "The name of the attachment",
     "detach_subcommand_description": "Detach a file from a task",
-    "attachments_subcommand_description": "List all attachments of a task"
+    "attachments_subcommand_description": "List all attachments of a task",
+    "watch_subcommand_description": "Watch a task",
+    "unwatch_subcommand_description": "Unwatch a task"
   },
   "topic": {
     "name_option_description": "The name of a topic",

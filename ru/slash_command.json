@@ -102,7 +102,9 @@
     "attachment_option_description": "Вложение, которое нужно добавить к задаче",
     "attachment_name_option_description": "Имя вложения",
     "detach_subcommand_description": "Отсоединить файл от задачи",
-    "attachments_subcommand_description": "Перечислить все вложения задачи"
+    "attachments_subcommand_description": "Перечислить все вложения задачи",
+    "watch_subcommand_description": "Следить за задачей",
+    "unwatch_subcommand_description": "Прекратить следить за задачей"
   },
   "topic": {
     "name_option_description": "Название темы",

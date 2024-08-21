@@ -238,7 +238,11 @@
     "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde.",
     "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos.",
     "attachments_list_title": "# Adjuntos de la tarea **{{id}}** ({{count}} adjuntos):",
-    "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**."
+    "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**.",
+    "already_watching": "Ya estás vigilando la tarea **{{id}}**",
+    "watching_success": "Ahora estás observando la tarea **{{id}}**. Recibirás notificaciones sobre cualquier cambio en esta tarea",
+    "not_watching": "No estás observando la tarea **{{id}}**",
+    "unwatched_success": "Ya no estás observando la tarea **{{id}}** y no recibirás notificaciones sobre los cambios en esta tarea."
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

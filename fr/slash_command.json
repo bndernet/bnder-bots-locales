@@ -1,18 +1,18 @@
 {
   "support_command_description": "Obtenir des liens utiles",
   "invite_command_description": "Obtenir le lien d'invitation pour inviter le bot sur un autre serveur",
-  "setup_command_description" : "Configurer le bot pour votre serveur",
-  "integration" : {
-    "command_description" : "Gérer les intégrations",
-    "github_subcommand_description" : "Lier un dépôt github avec le Bot",
+  "setup_command_description": "Configurer le bot pour votre serveur",
+  "integration": {
+    "command_description": "Gérer les intégrations",
+    "github_subcommand_description": "Lier un dépôt github avec le Bot",
     "gitlab_subcommand_description": "Lier un dépôt GitLab avec le Bot"
   },
   "preferences": {
     "command_description": "Changez vos préférences",
     "language_subcommand_description": "Changez votre langue préférée",
-    "timezone_subcommand_description" : "Changez votre fuseau horaire préféré",
-    "event_reminders_subcommand_description" : "Activer ou désactiver les rappels d'événements",
-    "direct_messages_subcommand_description" : "Activer ou désactiver les messages directs"
+    "timezone_subcommand_description": "Changez votre fuseau horaire préféré",
+    "event_reminders_subcommand_description": "Activer ou désactiver les rappels d'événements",
+    "direct_messages_subcommand_description": "Activer ou désactiver les messages directs"
   },
   "settings": {
     "command_description": "Gérer les paramètres",
@@ -31,12 +31,12 @@
     "user_languages_subcommand_description": "Les utilisateurs peuvent définir leur propre langue dans leurs préférences",
     "default_assignee_subcommand_description": "Définir le destinataire par défaut des tâches",
     "default_assignee_option_description": "Utilisateur ou rôle à définir en tant que destinataire par défaut",
-    "week_start_subcommand_description" : "Définir le jour de début de la semaine",
-    "weekstartday_option_description" : "Jour du début de la semaine",
-    "user_timezones_subcommand_description" : "Activer/Désactiver les utilisateurs pour qu'ils définissent leur propre fuseau horaire",
-    "direct_messages_subcommand_description" : "Activer/Désactiver les messages directs",
-    "loglevel_option_description" : "Le niveau de journalisation à définir",
-    "loglevel_subcommand_description" : "Définir le niveau de journalisation du bot"
+    "week_start_subcommand_description": "Définir le jour de début de la semaine",
+    "weekstartday_option_description": "Jour du début de la semaine",
+    "user_timezones_subcommand_description": "Activer/Désactiver les utilisateurs pour qu'ils définissent leur propre fuseau horaire",
+    "direct_messages_subcommand_description": "Activer/Désactiver les messages directs",
+    "loglevel_option_description": "Le niveau de journalisation à définir",
+    "loglevel_subcommand_description": "Définir le niveau de journalisation du bot"
   },
   "permission": {
     "command_description": "Attribue, retire et affiche toutes les autorisations",
@@ -96,13 +96,15 @@
     "subtaskaction_option_description": "L'action à effectuer sur la sous-tâche",
     "subtasknumber_option_description": "Le numéro de la sous-tâche",
     "description_option_description": "La description d'une tâche",
-    "comment_option_description" : "Le commentaire à ajouter à une tâche",
-    "comment_subcommand_description" : "Ajouter un commentaire à une tâche",
-    "attach_subcommand_description" : "Attacher un fichier à une tâche",
-    "attachment_option_description" : "La pièce jointe à ajouter à une tâche",
-    "attachment_name_option_description" : "Le nom de la pièce jointe",
-    "detach_subcommand_description" : "Détachement d'un fichier d'une tâche",
-    "attachments_subcommand_description" : "Liste de toutes les pièces jointes d'une tâche"
+    "comment_option_description": "Le commentaire à ajouter à une tâche",
+    "comment_subcommand_description": "Ajouter un commentaire à une tâche",
+    "attach_subcommand_description": "Attacher un fichier à une tâche",
+    "attachment_option_description": "La pièce jointe à ajouter à une tâche",
+    "attachment_name_option_description": "Le nom de la pièce jointe",
+    "detach_subcommand_description": "Détachement d'un fichier d'une tâche",
+    "attachments_subcommand_description": "Liste de toutes les pièces jointes d'une tâche",
+    "watch_subcommand_description": "Suivre ou arrêter de suivre une tâche",
+    "unwatch_subcommand_description": "Arrêter de suivre une tâche"
   },
   "topic": {
     "name_option_description": "Le nom d'un sujet",
@@ -137,8 +139,8 @@
     "remove_subcommand_description": "Retirer une étiquette d'une tâche ou d'un document",
     "object_option_description": "Id de la tâche ou du document",
     "color_option_description": "Couleur de l'étiquette",
-    "new_name_option_description" : "Le nouveau nom de l'étiquette",
-    "edit_subcommand_description" : "Modifier une étiquette"
+    "new_name_option_description": "Le nouveau nom de l'étiquette",
+    "edit_subcommand_description": "Modifier une étiquette"
   },
   "errors": {
     "interaction_message_too_old": "Tu ne peux plus interagir avec ce message, car il date de plus de {{minutes}} minutes. Merci de l'envoyer à nouveau.",
@@ -160,10 +162,10 @@
     "deny_subcommand_description": "refuser une invitation à un événement",
     "accept_subcommand_description": "Accepter une invitation à un événement",
     "remove_subcommand_description": "Retirer un utilisateur d'un événement",
-    "regenerate_option_description" : "Régénérer ou non l'url publique de votre calendrier",
-    "subscription_subcommand_description" : "Obtenir le lien d'abonnement à votre calendrier",
-    "repeat_interval_option_description" : "Intervalle auquel l'événement doit se répéter",
-    "repeat_until_option_description" : "Date jusqu'à laquelle l'événement doit se répéter",
-    "all_day_option_description" : "Si l'événement est un événement d'une journée entière"
+    "regenerate_option_description": "Régénérer ou non l'url publique de votre calendrier",
+    "subscription_subcommand_description": "Obtenir le lien d'abonnement à votre calendrier",
+    "repeat_interval_option_description": "Intervalle auquel l'événement doit se répéter",
+    "repeat_until_option_description": "Date jusqu'à laquelle l'événement doit se répéter",
+    "all_day_option_description": "Si l'événement est un événement d'une journée entière"
   }
 }

@@ -102,7 +102,9 @@
     "attachment_option_description": "Приложението, което да се добави към задачата",
     "attachment_name_option_description": "Името на прикачения файл",
     "detach_subcommand_description": "Отделяне на файл от задача",
-    "attachments_subcommand_description": "Списък с всички прикачени файлове на задачата"
+    "attachments_subcommand_description": "Списък с всички прикачени файлове на задачата",
+    "watch_subcommand_description": "Следете задача за промени",
+    "unwatch_subcommand_description": "Прекратяване на следенето на задача за промени"
   },
   "topic": {
     "name_option_description": "Името на темата",

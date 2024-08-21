@@ -238,7 +238,11 @@
     "attachment_remove_error": "Die Anlage **{{file_name}}** konnte nicht aus der Aufgabe **{{id}}** entfernt werden. Bitte versuchen Sie es später erneut.",
     "attachment_not_found": "Die Anlage **{{file_name}}** konnte nicht in der Aufgabe **{{id}}** gefunden werden. Verwenden Sie \"/task info\", um alle Anhänge anzuzeigen.",
     "attachments_list_title": "# Anhänge der Aufgabe **{{id}}** ({{count}} Anhänge):",
-    "no_attachments": "Es gibt keine Anhänge für die Aufgabe **{{id}}**."
+    "no_attachments": "Es gibt keine Anhänge für die Aufgabe **{{id}}**.",
+    "already_watching": "Sie beobachten bereits die Aufgabe **{{id}}**.",
+    "watching_success": "Sie beobachten jetzt die Aufgabe **{{id}}**. Sie werden über jede Änderung an dieser Aufgabe benachrichtigt.",
+    "not_watching": "Sie beobachten die Aufgabe **{{id}}** nicht.",
+    "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

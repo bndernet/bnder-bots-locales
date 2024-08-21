@@ -238,7 +238,11 @@
     "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde.",
     "attachment_not_found": "O anexo **{{file_name}}** não pôde ser encontrado na tarefa **{{id}}**. Use \"/task info\" para ver todos os anexos.",
     "attachments_list_title": "# Anexos da tarefa **{{id}}** ({{count}} anexos):",
-    "no_attachments": "Não há anexos para a tarefa **{{id}}**."
+    "no_attachments": "Não há anexos para a tarefa **{{id}}**.",
+    "already_watching": "Você já está observando a tarefa **{{id}}**.",
+    "watching_success": "Você agora está observando a tarefa **{{id}}**. Você será notificado sobre todas as alterações nessa tarefa.",
+    "not_watching": "Você não está observando a tarefa **{{id}}**.",
+    "unwatched_success": "Você não está mais observando a tarefa **{{id}}** e não será notificado sobre alterações nessa tarefa."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",
