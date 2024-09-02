@@ -113,7 +113,7 @@
       "subtasks_headline": "Alt Görevler",
       "description_headline": "Açıklama",
       "comments_headline": "Yorumlar",
-      "more_comments_premium": "Yalnızca son 3 yorumu görebilirsiniz. Tüm yorumları görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+      "more_comments_premium": "Вы можете видеть только 3 последних комментария. Чтобы увидеть все комментарии, [пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
       "attachments_headline": "Ekler",
       "open_attachments": "Ekleri aç"
     },
@@ -211,7 +211,7 @@
       "subtask_removed": "Bir alt görev kaldırıldı",
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Açıklama düzenlendi",
-      "more_entries_available": "Sadece son 3 girişi görebilirsiniz. Tüm girişleri görmek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+      "more_entries_available": "Вы можете увидеть только 3 последние записи. Чтобы увидеть все записи, [пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
       "attachment_added": "Ek {{file_name}} eklendi",
       "attachment_removed": "Ek {{file_name}} kaldırıldı",
       "watcher_added": "Watcher {{watcher}} eklendi",
@@ -220,7 +220,7 @@
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
     "task_commented": "Yorumunuz **{{id}}** görevine eklendi. Bu yorum \"/task info\" komutunda ve uygulamada görülebilir.",
-    "max_amount_of_comments_per_task": "Premium koltuğa yükseltmediğiniz sürece bir göreve {{max}} yorumdan fazlasını ekleyemezsiniz. Premium hakkında daha fazla bilgi için https://bnder.net/pricing adresini ziyaret edin.",
+    "max_amount_of_comments_per_task": "Вы не можете добавить к заданию больше {{max}} комментариев, если только вы не [перешли на премиум-место](https://bnder.net/p/{{guildId}}). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
     "task_edited_text_and_description": "**{{id}}** görevinin metni ve açıklaması düzenlendi.",
     "task_edited_text": "**{{id}}** görevinin metni düzenlendi.",
     "task_edited_description": "**{{id}}** görevinin açıklaması düzenlendi.",
@@ -229,11 +229,11 @@
     "comment_modal_placeholder": "Yorumunuzu girin",
     "comment_modal_label": "Yorum",
     "followup_reminder_stopped": "**{{id}}** görevi için takip hatırlatıcısı durduruldu.",
-    "max_assignees_reached_buy_premium": "Bir göreve {{max}}'dan fazla kullanıcı veya rol atayamazsınız. Daha fazla kullanıcı veya rol atamak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "daily_repeat_not_allowed": "Günlük tekrarlanan görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "subtask_not_allowed": "Alt görevler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "attachments_not_allowed": "Ekler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "attachments_storage_limit_reached": "Bu sunucu için maksimum depolama sınırına ulaştınız. Depolama sınırını artırmak için lütfen daha fazla premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "max_assignees_reached_buy_premium": "Вы не можете назначить на задание больше {{max}} пользователей или ролей. [Чтобы назначить больше пользователей или ролей, перейдите в премиум-класс](https://bnder.net/p/{{guildId}}). Подробнее о премиуме можно узнать на сайте https://bnder.net/pricing.",
+    "daily_repeat_not_allowed": "Ежедневно повторяющиеся задания доступны только пользователям премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing.",
+    "subtask_not_allowed": "Подзадачи доступны только пользователям премиум-мест. [Пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing.",
+    "attachments_not_allowed": "Вложения доступны только для пользователей премиум-мест. [Пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}), чтобы воспользоваться этой функцией. Узнайте больше о премиуме на https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "Вы достигли максимального лимита хранения для этого сервера. Чтобы увеличить лимит хранилища, пожалуйста, [перейдите на более премиумные места](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing.",
     "attachment_added": "**{{file_name}}** eki **{{id}}** görevine eklendi. \"/task attachments\" komutunu kullanarak görüntüleyebilirsiniz.",
     "deadline_extended": "**{{id}}** görevi için son tarih {{deadline}} olarak uzatıldı.",
     "attachment_removed": "**{{file_name}}** eki **{{id}}** görevinden kaldırıldı.",
@@ -247,7 +247,7 @@
     "watching_success": "Şu anda **{{id}}** görevini izliyorsunuz. Bu görevdeki her değişiklik hakkında bilgilendirileceksiniz.",
     "not_watching": "**{{id}}** görevini izlemiyorsunuz.",
     "unwatched_success": "Artık **{{id}}** görevini izlemiyorsunuz ve bu görevdeki değişiklikler hakkında bildirim almayacaksınız.",
-    "watch_not_allowed": "Görevleri izlemek yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
+    "watch_not_allowed": "Просмотр заданий доступен только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",
@@ -339,7 +339,7 @@
     "color_not_supported": "**{{color}} rengi desteklenmiyor. Lütfen aşağıdakilerden birini kullanın: {{colors}}",
     "created": "**{{name}}** etiketi oluşturuldu. Artık \"/label add\" komutu ile nesnelere ekleyebilirsiniz.",
     "not_found": "**{{name}}** etiketi bulunamadı. Tüm etiketleri listelemek için \"/label list\" komutunu kullanın veya \"/label create\" ile yeni bir etiket oluşturun.",
-    "too_many_labels": "Nesne zaten maksimum etiket miktarına ({{max}}) sahip. Başka bir etiket eklemek için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
+    "too_many_labels": "У предмета уже есть максимальное количество меток ({{max}}). Чтобы добавить еще одну метку, [пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing.",
     "already_added": "**{{name}} etiketi nesneye zaten eklenmiş.",
     "added_to_task": "**{{name}} etiketi **{{id}} görevine eklendi.",
     "added_to_document": "**{{name}} etiketi **{{id}} belgesine eklendi.",
@@ -464,8 +464,8 @@
     "repeat_end_too_far": "Tekrar bitiş tarihi şu andan itibaren 1 yıl içinde olmalıdır.",
     "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin.",
     "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}.",
-    "daily_repeating_not_allowed": "Günlük tekrar eden etkinlikler yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
-    "repeat_end_not_allowed": "Bir tekrar bitiş tarihi ayarlamak yalnızca premium koltuklardaki kullanıcılar tarafından kullanılabilir. Bu özelliği kullanmak için lütfen premium koltuğa yükseltin. Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz."
+    "daily_repeating_not_allowed": "Ежедневно повторяющиеся события доступны только пользователям премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing.",
+    "repeat_end_not_allowed": "Установка даты окончания повтора доступна только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнайте больше о премиуме на https://bnder.net/pricing."
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

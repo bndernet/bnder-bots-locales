@@ -113,7 +113,7 @@
       "subtasks_headline": "Tâches secondaires",
       "description_headline": "Description",
       "comments_headline": "Commentaires",
-      "more_comments_premium": "Vous ne pouvez voir que les 3 derniers commentaires. Pour voir tous les commentaires, veuillez passer à un siège premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
+      "more_comments_premium": "Vous ne pouvez voir que les 3 derniers commentaires. Pour voir tous les commentaires, [veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
       "attachments_headline": "Pièces jointes",
       "open_attachments": "Ouvrir les pièces jointes"
     },
@@ -153,7 +153,7 @@
     "max_tasks_reached": "Vous ne pouvez pas créer plus de tâches que {{max}} dans votre serveur. Veuillez supprimer certaines tâches pour pouvoir en créer d'autres.",
     "max_assignees_reached": "La tâche a déjà atteint le nombre maximal {{max}} d'utilisateurs ou de rôles attribués.",
     "task_assigned_dm": "Vous avez été affecté à la tâche **{{id}}** dont l'échéance est fixée à {{deadline}}: {{text}}",
-    "deadline_set": "L'échéance de la tâche **{{id}}** a été fixée à {{- deadline}}. Si vous souhaitez voir la date limite dans votre calendrier, consultez notre [Calendar Manager Bot] (<https://bnder.net/calendar>).",
+    "deadline_set": "L'échéance de la tâche **{{id}}** a été fixée à {{- deadline}}. Si vous souhaitez voir la date limite dans votre calendrier, consultez notre [Calendar Manager Bot](<https://bnder.net/calendar>).",
     "deadline_removed": "La date limite pour la tâche {{id}} a été supprimée.",
     "deadline_due": "La tâche **{{id}}** est due à {{deadline}} : {{taskText}}",
     "task_delete_could_not_send_message": "La tâche {{id}} a été marquée comme supprimée et le sera dans {{days}}. jours est définitivement supprimée.\n\n⚠\uFE0F Le bot a essayé d'envoyer un message de confirmation visible par tous, mais n'a pas pu le faire à cause du manque de permissions Discord sur ce canal. Veuillez accorder au bot l'autorisation d'envoyer des messages sur Discord.",
@@ -211,7 +211,7 @@
       "subtask_removed": "Suppression d'une sous-tâche",
       "commit_mention": "Mentionné dans [commit](<{{url}}>)",
       "description_edited": "Description de la tâche éditée",
-      "more_entries_available": "Vous ne pouvez voir que les 3 dernières entrées. Pour voir toutes les entrées, veuillez passer à un siège premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
+      "more_entries_available": "Vous ne pouvez voir que les 3 dernières entrées. Pour voir toutes les entrées, [veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
       "attachment_added": "Pièce jointe {{file_name}} ajoutée",
       "attachment_removed": "Pièce jointe {{file_name}} supprimée",
       "watcher_added": "Watcher {{watcher}} a ajouté",
@@ -229,11 +229,11 @@
     "comment_modal_placeholder": "Entrez votre commentaire",
     "comment_modal_label": "Commentaire",
     "followup_reminder_stopped": "Le rappel de suivi de la tâche **{{id}}** a été arrêté.",
-    "max_assignees_reached_buy_premium": "Vous ne pouvez pas assigner plus de {{max}} utilisateurs ou rôles à une tâche. Veuillez passer à un siège premium pour assigner plus d'utilisateurs ou de rôles. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
-    "daily_repeat_not_allowed": "Les tâches quotidiennes répétées ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
-    "subtask_not_allowed": "Les sous-tâches ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
-    "attachments_not_allowed": "Les pièces jointes ne sont disponibles que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
-    "attachments_storage_limit_reached": "Vous avez atteint la limite de stockage maximale pour ce serveur. Pour augmenter la limite de stockage, veuillez passer à des sièges plus premium. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
+    "max_assignees_reached_buy_premium": "Vous ne pouvez pas assigner plus de {{max}} utilisateurs ou rôles à une tâche. [Veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}) pour assigner plus d'utilisateurs ou de rôles. Pour en savoir plus sur les places premium, consultez le site https://bnder.net/pricing.",
+    "daily_repeat_not_allowed": "Les tâches quotidiennes répétitives ne sont disponibles que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, vous devez passer à un siège premium (https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
+    "subtask_not_allowed": "Les sous-tâches ne sont disponibles que pour les utilisateurs de sièges premium. [Veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
+    "attachments_not_allowed": "Les pièces jointes ne sont disponibles que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "Vous avez atteint la limite de stockage maximale pour ce serveur. Pour augmenter la limite de stockage, veuillez [mettre à niveau vers plus de sièges premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
     "attachment_added": "La pièce jointe **{{file_name}}** a été ajoutée à la tâche **{{id}}**. Vous pouvez la visualiser en utilisant la commande \"/task attachments\".",
     "deadline_extended": "Le délai pour la tâche **{{id}}** a été prolongé jusqu'à {{deadline}}.",
     "attachment_removed": "La pièce jointe **{{file_name}}** a été supprimée de la tâche **{{id}}**",
@@ -247,7 +247,7 @@
     "watching_success": "Vous surveillez maintenant la tâche **{{id}}**. Vous serez informé de toute modification apportée à cette tâche.",
     "not_watching": "Vous ne surveillez pas la tâche **{{id}}**",
     "unwatched_success": "Vous ne surveillez plus la tâche **{{id}}** et ne serez pas informé des modifications apportées à cette tâche.",
-    "watch_not_allowed": "La surveillance des tâches n'est disponible que pour les utilisateurs de sièges premium. Veuillez vous mettre à niveau vers un siège premium pour utiliser cette fonctionnalité. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing."
+    "watch_not_allowed": "L'observation des tâches n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, vous devez passer à un siège premium (https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",
@@ -339,7 +339,7 @@
     "color_not_supported": "La couleur **{{color}}** n'est pas prise en charge. Veuillez utiliser l'une des couleurs suivantes : {{colors}}",
     "created": "L'étiquette **{{name}}** a été créée. Vous pouvez maintenant l'ajouter aux objets à l'aide de la commande \"/label add\".",
     "not_found": "L'étiquette **{{name}}** n'a pas été trouvée. Utilisez la commande \"/label list\" pour lister tous les labels ou créez-en un nouveau avec la commande \"/label create\".",
-    "too_many_labels": "L'objet possède déjà le nombre maximum d'étiquettes ({{max}}). Pour ajouter un autre libellé, veuillez passer à la catégorie \"Premium\". Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
+    "too_many_labels": "L'objet possède déjà le nombre maximum d'étiquettes ({{max}}). Pour ajouter une autre étiquette, [veuillez passer à une place premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
     "already_added": "L'étiquette **{{name}}** est déjà ajoutée à l'objet",
     "added_to_task": "Le label **{{name}}** a été ajouté à la tâche **{{id}}**",
     "added_to_document": "L'étiquette **{{name}}** a été ajoutée au document **{{id}}**",
@@ -464,8 +464,8 @@
     "repeat_end_too_far": "La date de fin de répétition doit se situer dans un délai d'un an à partir de maintenant.",
     "max_events_reached": "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres.",
     "remove_dm": "Vous avez été supprimé de l'événement **{{id}}**: {{name}}.",
-    "daily_repeating_not_allowed": "Les événements qui se répètent quotidiennement ne sont disponibles que pour les utilisateurs de sièges premium. Pour utiliser cette fonctionnalité, il faut passer à un siège premium. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "La définition d'une date de fin de répétition n'est disponible que pour les utilisateurs de sièges premium. Pour utiliser cette fonctionnalité, il faut passer à un siège premium. Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing."
+    "daily_repeating_not_allowed": "Les événements quotidiens répétitifs ne sont disponibles que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
+    "repeat_end_not_allowed": "La définition d'une date de fin de répétition n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (https://bnder.net/p/{{guildId}}). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing."
   },
   "setup": {
     "skip_button_label": "Sauter cette étape",

@@ -113,7 +113,7 @@
       "subtasks_headline": "Subtasks",
       "description_headline": "Description",
       "comments_headline": "Comments",
-      "more_comments_premium": "You can only see the last 3 comments. To see all comments, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+      "more_comments_premium": "You can only see the last 3 comments. To see all comments, [please upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
       "attachments_headline": "Attachments",
       "open_attachments": "Open attachments"
     },
@@ -211,7 +211,7 @@
       "subtask_removed": "Removed a subtask",
       "commit_mention": "Mentioned in [commit](<{{url}}>)",
       "description_edited": "Description edited",
-      "more_entries_available": "You can only see the last 3 entries. To see all entries, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+      "more_entries_available": "You can only see the last 3 entries. To see all entries, [please upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
       "attachment_added": "Attachment {{file_name}} added",
       "attachment_removed": "Attachment {{file_name}} removed",
       "watcher_added": "Watcher {{watcher}} added",
@@ -220,7 +220,7 @@
     "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
     "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",
     "task_commented": "Your comment was added to the task **{{id}}**. It will be visible in the \"/task info\" command and in the app.",
-    "max_amount_of_comments_per_task": "You can't add more than {{max}} comments to a task, unless you upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+    "max_amount_of_comments_per_task": "You can't add more than {{max}} comments to a task, unless you [upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
     "task_edited_text_and_description": "The text and description of task **{{id}}** have been edited.",
     "task_edited_text": "The text of task **{{id}}** has been edited.",
     "task_edited_description": "The description of task **{{id}}** has been edited.",
@@ -229,11 +229,11 @@
     "comment_modal_placeholder": "Enter your comment",
     "comment_modal_label": "Comment",
     "followup_reminder_stopped": "The follow-up reminder for task **{{id}}** has been stopped.",
-    "max_assignees_reached_buy_premium": "You can't assign more than {{max}} users or roles to a task. Please upgrade to a premium seat to assign more users or roles. Lean more about premium at https://bnder.net/pricing.",
-    "daily_repeat_not_allowed": "Daily repeating tasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "subtask_not_allowed": "Subtasks are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "attachments_not_allowed": "Attachments are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "attachments_storage_limit_reached": "You have reached the maximum storage limit for this server. To increase the storage limit, please upgrade to more premium seats. Learn more about premium at https://bnder.net/pricing.",
+    "max_assignees_reached_buy_premium": "You can't assign more than {{max}} users or roles to a task. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to assign more users or roles. Lean more about premium at https://bnder.net/pricing.",
+    "daily_repeat_not_allowed": "Daily repeating tasks are only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "subtask_not_allowed": "Subtasks are only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
+    "attachments_not_allowed": "Attachments are only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "attachments_storage_limit_reached": "You have reached the maximum storage limit for this server. To increase the storage limit, please [upgrade to more premium seats](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
     "attachment_added": "The attachment **{{file_name}}** has been added to the task **{{id}}**. You can view it by using the \"/task attachments\" command.",
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
     "attachment_removed": "The attachment **{{file_name}}** has been removed from the task **{{id}}**.",
@@ -247,7 +247,7 @@
     "watching_success": "You are now watching the task **{{id}}**. You will get notified about every change to this task.",
     "not_watching": "You are not watching the task **{{id}}**.",
     "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task.",
-    "watch_not_allowed": "Watching tasks is only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing."
+    "watch_not_allowed": "Watching tasks is only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",
@@ -339,7 +339,7 @@
     "color_not_supported": "The color **{{color}}** is not supported. Please use one of the following: {{colors}}",
     "created": "The label **{{name}}** has been created. You can now add it to objects with the command \"/label add\".",
     "not_found": "The label **{{name}}** could not be found. Use \"/label list\" to list all labels or create a new one with \"/label create\".",
-    "too_many_labels": "The object already has the maximum amount of labels ({{max}}). In order to add another label, please upgrade to a premium seat. Learn more about premium at https://bnder.net/pricing.",
+    "too_many_labels": "The object already has the maximum amount of labels ({{max}}). In order to add another label, [please upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
     "already_added": "The label **{{name}}** is already added to the object.",
     "added_to_task": "The label **{{name}}** has been added to the task **{{id}}**.",
     "added_to_document": "The label **{{name}}** has been added to the document **{{id}}**.",
@@ -464,8 +464,8 @@
     "repeat_end_too_far": "The repeat end date must be within 1 year from now.",
     "max_events_reached": "You have reached the maximum amount ({{max}}) of events for your guild. Please delete some events in order to create more.",
     "remove_dm": "You have been removed from the event **{{id}}**: {{name}}.",
-    "daily_repeating_not_allowed": "Daily repeating events are only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "Setting a repeat end date is only available to users in premium seats. Please upgrade to a premium seat to use this feature. Learn more about premium at https://bnder.net/pricing."
+    "daily_repeating_not_allowed": "Daily repeating events are only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "repeat_end_not_allowed": "Setting a repeat end date is only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing."
   },
   "setup": {
     "skip_button_label": "Skip this step",
