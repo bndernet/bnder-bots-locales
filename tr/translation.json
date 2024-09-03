@@ -53,7 +53,7 @@
     "project_name_default_cant_renamed": "Varsayılan proje olduğu için **default** projesi yeniden adlandırılamaz.",
     "switch_project_button_label": "Projeye geç",
     "project_name_too_long": "Proje adı çok uzun. Lütfen {{max}} karaktere kısaltın.",
-    "project_limit_reached": "Maksimum proje sayısına ({{max}}) ulaştınız. Lütfen yeni bir proje oluşturmadan önce bir projeyi silin.",
+    "project_limit_reached": "Maksimum proje sayısına ({{max}}) ulaştınız. [Daha fazla proje oluşturmak için lütfen premium koltuğa yükseltin](https://bnder.net/p/{{guildId}}). Premium hakkında daha fazla bilgiyi https://bnder.net/pricing adresinde bulabilirsiniz.",
     "project_delete_could_not_send_message": "Proje **{{project_name}}** ve projedeki tüm görevler silinmiş olarak işaretlendi ve {{days}} gün içinde silinecek. Discord izni olmaması nedeniyle bot tarafından bir onay mesajı gönderilemedi.",
     "project_delete_immediate_could_not_send_message": "Proje **{{project_structure}}** ve proje üzerindeki tüm görevler silindi. Discord izni olmaması nedeniyle bot tarafından bir onay mesajı gönderilemedi.",
     "logging_action_create": "Proje oluşturuldu",

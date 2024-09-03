@@ -53,7 +53,7 @@
     "project_name_default_cant_renamed": "The project **default** can not be renamed, because it is the default project.",
     "switch_project_button_label": "Switch to project",
     "project_name_too_long": "The project name is too long. Please shorten it to {{max}} characters.",
-    "project_limit_reached": "You have reached the maximum amount ({{max}}) of projects. Please delete a project before creating a new one.",
+    "project_limit_reached": "You have reached the maximum amount ({{max}}) of projects. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to create more projects. Learn more about premium at https://bnder.net/pricing.",
     "project_delete_could_not_send_message": "The project **{{project_name}}** and all tasks on the project have been marked as deleted and will be deleted in {{days}} days. A confirmation message could not be sent by the bot due to lack of Discord permission.",
     "project_delete_immediate_could_not_send_message": "The project **{{project_name}}** and all tasks on the project have been deleted. A confirmation message could not be sent by the bot due to lack of Discord permission.",
     "logging_action_create": "Project created",

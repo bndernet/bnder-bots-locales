@@ -53,7 +53,7 @@
     "project_name_default_cant_renamed": "Le projet **default** ne peut pas être renommé, car il s'agit du projet par défaut.",
     "switch_project_button_label": "Passer au projet",
     "project_name_too_long": "Le nom du projet est trop long. Veuillez le raccourcir à {{max}} caractères.",
-    "project_limit_reached": "Vous avez atteint le nombre maximum ({{max}}) de projets. Veuillez supprimer un projet avant d'en créer un nouveau.",
+    "project_limit_reached": "Vous avez atteint le nombre maximum ({{max}}) de projets. [Veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}) pour créer plus de projets. Pour en savoir plus sur le statut Premium, consultez le site https://bnder.net/pricing.",
     "project_delete_could_not_send_message": "Le projet **{{project_name}}** et toutes les tâches du projet ont été marqués comme supprimés et seront supprimés dans {{days}} jours. Un message de confirmation n'a pas pu être envoyé par le bot en raison d'un manque d'autorisation sur Discord.",
     "project_delete_immediate_could_not_send_message": "Le projet **{{project_name}}** et toutes les tâches du projet ont été supprimés. Un message de confirmation n'a pas pu être envoyé par le bot en raison d'un manque d'autorisation sur Discord.",
     "logging_action_create": "Projet créé",
