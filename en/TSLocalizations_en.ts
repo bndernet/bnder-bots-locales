@@ -18,8 +18,8 @@ export class TSLocalizations_en {
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
                 return `The deadline for task **${id}** ${taskTitle} is overdue in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
-            repeat_notification(guildName: string, guildId: string): string {
-                return `A task you are assigned to has been repeated and needs to be done in server [${guildName}](https://discord.com/channels/${guildId})`;
+            repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Task ${id} repeated`;

@@ -18,8 +18,8 @@ export class TSLocalizations_pt_br {
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
                 return `O prazo para a tarefa ${id} está atrasado no servidor [${guildName}](https://discord.com/channels/${guildId})`;
             },
-            repeat_notification(guildName: string, guildId: string): string {
-                return `Uma tarefa à qual você está atribuído foi repetida e precisa ser feita no servidor [${guildName}](https://discord.com/channels/${guildId})`;
+            repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `A tarefa **${id}** ${taskTitle} para a qual você foi designado foi repetida e precisa ser feita novamente no servidor [${guildName}](https://discord.com/channels/${guildId})`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Tarefa ${id} repetida`;

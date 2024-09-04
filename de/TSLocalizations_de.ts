@@ -18,8 +18,8 @@ export class TSLocalizations_de {
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
                 return `Die Deadline für die Aufgabe ${id} ist im Server [${guildName}](https://discord.com/channels/${guildId}) abgelaufen`;
             },
-            repeat_notification(guildName: string, guildId: string): string {
-                return `Eine Aufgabe, der Sie zugewiesen sind, wurde wiederholt und muss im Server [${guildName}](https://discord.com/channels/${guildId}) erledigt werden`;
+            repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Die Aufgabe **${id}** ${taskTitle} die Ihnen zugewiesen wurde, wurde wiederholt und muss auf dem Server [${guildName}](https://discord.com/channels/${guildId}) erneut erledigt werden.`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;

@@ -17,7 +17,7 @@ export interface TSLocalizationKeys {
         assigned_embed_button_in_progress: string;
         assigned_embed_button_done: string;
         deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string;
-        repeat_notification(guildName: string, guildId: string): string;
+        repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
         repeat_notification_embed_title(id: string): string;
         deadline_alert: string;
         commented_notification(guildName: string, guildId: string, author: string, commentText: string): string;

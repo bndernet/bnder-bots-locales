@@ -18,8 +18,8 @@ export class TSLocalizations_hi {
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
                 return `कार्य ${id} की समय सीमा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में अतिदेय है`;
             },
-            repeat_notification(guildName: string, guildId: string): string {
-                return `आपको जो कार्य सौंपा गया है उसे दोहराया गया है और उसे सर्वर [${guildName}](https://discord.com/channels/${guildId}) में पूरा करने की आवश्यकता है`;
+            repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `आपको जो कार्य **${id}** ${taskTitle} सौंपा गया है, उसे दोहराया गया है और सर्वर [${guildName}](https://discord.com/channels/${guildId}) में फिर से करने की आवश्यकता है`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `कार्य ${id} दोहराया गया`;

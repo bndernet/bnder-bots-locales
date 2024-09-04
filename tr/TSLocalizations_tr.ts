@@ -18,8 +18,8 @@ export class TSLocalizations_tr {
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
                 return `Görev **${id}** için son teslim tarihi sunucuda [${guildName}](https://discord.com/channels/${guildId}) geçmiş`;
             },
-            repeat_notification(guildName: string, guildId: string): string {
-                return `Atandığınız bir görev tekrarlandı ve sunucuda [${guildName}](https://discord.com/channels/${guildId}) yapılması gerekiyor`;
+            repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Görev **${id}** ${taskTitle} atandığınız sunucu tekrarlandı ve [${guildName}](https://discord.com/channels/${guildId}) sunucusunda tekrar yapılması gerekiyor.`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Görev ${id} tekrarlandı`;
