@@ -3,8 +3,8 @@ import { TSLocalizationKeys } from "../TSLocalizationKeys";
 export class TSLocalizations_bg {
     static Localizations: TSLocalizationKeys = {
         task: {
-            deadline_due(id: string, deadline: string, guildName: string, guildId: string): string {
-                return `Краен срок за задача **${id}** е на ${deadline} в сървър [${guildName}](https://discord.com/channels/${guildId})`;
+            deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
+                return `Крайният срок за задачата **${id}** ${taskTitle} е дължим на ${deadline} в сървъра [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_notification(guildName: string, guildId: string): string {
                 return `Вие сте назначени за задача в сървър [${guildName}](https://discord.com/channels/${guildId})`;
