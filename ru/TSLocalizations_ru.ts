@@ -6,8 +6,8 @@ export class TSLocalizations_ru {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
                 return `Срок выполнения задания **${id}** ${taskTitle} должен наступить в ${deadline} на сервере [${guildName}](https://discord.com/channels/${guildId}).`;
             },
-            assigned_notification(guildName: string, guildId: string): string {
-                return `Вас назначили на задачу на сервере [${guildName}](https://discord.com/channels/${guildId})`;
+            assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
+                return `Вы были назначены на задание **${id}** ${taskText} на сервере [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             assigned_embed_title(id: string): string {
                 return `Задача ${id} назначена`;

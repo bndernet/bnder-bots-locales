@@ -6,8 +6,8 @@ export class TSLocalizations_tr {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
                 return `Görev **${id}** ${taskTitle} için son tarih sunucu [${guildName}](https://discord.com/channels/${guildId})'da ${deadline} tarihinde sona erecektir.`;
             },
-            assigned_notification(guildName: string, guildId: string): string {
-                return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) size bir görev atandı`;
+            assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
+                return `Sunucuda **${id}** ${taskText} görevine atandınız [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_embed_title(id: string): string {
                 return `Görev ${id} atandı`;

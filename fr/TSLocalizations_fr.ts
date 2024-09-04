@@ -6,8 +6,8 @@ export class TSLocalizations_fr {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
                 return `L'échéance de la tâche **${id}** ${taskTitle} est due le ${deadline} dans le serveur [${guildName}](https://discord.com/channels/${guildId})`;
             },
-            assigned_notification(guildName: string, guildId: string): string {
-                return `Vous avez été assigné à une tâche dans le serveur [${guildName}](https://discord.com/channels/${guildId})`;
+            assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
+                return `Vous avez été affecté à la tâche **${id}** ${taskText} dans le serveur [${guildName}](https://discord.com/channels/${guildId})`;
             },
             assigned_embed_title(id: string): string {
                 return `Tâche ${id} assignée`;
