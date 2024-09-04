@@ -227,6 +227,7 @@ export class TSLocalizations_ru {
                     return `Метка ${name} была удалена`;
                 }
             },
+            attachments_field: "Вложения",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

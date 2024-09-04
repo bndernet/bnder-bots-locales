@@ -227,6 +227,7 @@ export class TSLocalizations_es_es {
                     return `Etiqueta ${name} fue eliminada`;
                 }
             },
+            attachments_field: "Archivos adjuntos",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

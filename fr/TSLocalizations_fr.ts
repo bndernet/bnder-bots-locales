@@ -227,6 +227,7 @@ export class TSLocalizations_fr {
                     return `L'étiquette ${name} a été supprimée`;
                 }
             },
+            attachments_field: "Pièces jointes",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

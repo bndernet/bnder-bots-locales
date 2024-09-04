@@ -227,6 +227,7 @@ export class TSLocalizations_tr {
                     return `Etiket ${name} silindi`;
                 }
             },
+            attachments_field: "Ekler",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

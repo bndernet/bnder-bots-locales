@@ -227,6 +227,7 @@ export class TSLocalizations_pt_br {
                     return `Rótulo ${name} foi excluído`;
                 }
             },
+            attachments_field: "Anexos",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

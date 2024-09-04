@@ -227,6 +227,7 @@ export class TSLocalizations_bg {
                     return `Етикет ${name} беше изтрит`;
                 }
             },
+            attachments_field: "Прикачени файлове",
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

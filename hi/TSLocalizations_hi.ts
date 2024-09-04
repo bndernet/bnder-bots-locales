@@ -227,6 +227,7 @@ export class TSLocalizations_hi {
                     return `लेबल ${name} हटाया गया था`;
                 }
             },
+            attachments_field: "अटैचमेंट्स"
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

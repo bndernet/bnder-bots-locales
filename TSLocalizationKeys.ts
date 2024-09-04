@@ -145,6 +145,7 @@ export interface TSLocalizationKeys {
             title: string,
             description(name: string): string,
         },
+        attachments_field: string,
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string;

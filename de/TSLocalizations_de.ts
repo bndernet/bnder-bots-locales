@@ -227,6 +227,7 @@ export class TSLocalizations_de {
                     return `Label ${name} wurde gelöscht`;
                 }
             },
+            attachments_field: "Anhänge"
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
