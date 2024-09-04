@@ -36,8 +36,8 @@ export class TSLocalizations_bg {
             extend_deadline_by_one_day_button: "Удължаване на срока с 1 ден",
             extend_deadline_by_two_days_button: "Удължаване на срока с 2 дни",
             extend_deadline_by_one_week_button: "Удължаване на срока с 1 седмица",
-            watcher_notification(guildName: string, guildId: string): string {
-                return `Задачата, която наблюдавате в сървъра [${guildName}](https://discord.com/channels/${guildId}), се е променила:`;
+            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Задачата **${id}** ${taskTitle} която наблюдавате в сървъра [${guildName}](https://discord.com/channels/${guildId}), е променена:`;
             },
             watcher_notification_footer: "Деактивиране на известията за тази задача с помощта на командата „/task unwatch“",
             watcher_embed_title(id: string): string {

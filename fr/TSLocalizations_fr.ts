@@ -36,8 +36,8 @@ export class TSLocalizations_fr {
             extend_deadline_by_one_day_button: "Prolonger le délai de 1 jour",
             extend_deadline_by_two_days_button: "Prolonger le délai de 2 jours",
             extend_deadline_by_one_week_button: "Prolonger le délai de 1 semaine",
-            watcher_notification(guildName: string, guildId: string): string {
-                return `Une tâche que vous surveillez dans le serveur [${guildName}](https://discord.com/channels/${guildId}) a changé:`;
+            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `La tâche **${id}** ${taskTitle} que vous observez sur le serveur [${guildName}](https://discord.com/channels/${guildId}) a changé :`;
             },
             watcher_notification_footer: "Désactiver les notifications pour cette tâche en utilisant la commande « /task unwatch ».",
             watcher_embed_title(id: string): string {

@@ -16,7 +16,7 @@ export interface TSLocalizationKeys {
         assigned_embed_footer: string;
         assigned_embed_button_in_progress: string;
         assigned_embed_button_done: string;
-        deadline_was_in_past(id: string, guildName: string, guildId: string): string;
+        deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string;
         repeat_notification(guildName: string, guildId: string): string;
         repeat_notification_embed_title(id: string): string;
         deadline_alert: string;
@@ -27,7 +27,7 @@ export interface TSLocalizationKeys {
         extend_deadline_by_one_day_button: string;
         extend_deadline_by_two_days_button: string;
         extend_deadline_by_one_week_button: string;
-        watcher_notification(guildName: string, guildId: string): string;
+        watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
         watcher_notification_footer: string;
         watcher_embed_title(id: string): string;
     },

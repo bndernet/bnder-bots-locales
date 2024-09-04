@@ -15,8 +15,8 @@ export class TSLocalizations_en {
             assigned_embed_footer: "These notifications can be disabled using the \"/preferences direct_messages\" command.",
             assigned_embed_button_in_progress: "Mark as in progress",
             assigned_embed_button_done: "Mark as done",
-            deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `The deadline for task ${id} is overdue in server [${guildName}](https://discord.com/channels/${guildId})`;
+            deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
+                return `The deadline for task **${id}** ${taskTitle} is overdue in server [${guildName}](https://discord.com/channels/${guildId})`;
             },
             repeat_notification(guildName: string, guildId: string): string {
                 return `A task you are assigned to has been repeated and needs to be done in server [${guildName}](https://discord.com/channels/${guildId})`;
@@ -36,8 +36,8 @@ export class TSLocalizations_en {
             extend_deadline_by_one_day_button: "Extend deadline by 1 day",
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
-            watcher_notification(guildName: string, guildId: string): string {
-                return `A task you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
+            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `The task **${id}** ${taskTitle} you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
             },
             watcher_notification_footer: "Disable notifications for this task by using \"/task unwatch\" command",
             watcher_embed_title(id: string): string {
