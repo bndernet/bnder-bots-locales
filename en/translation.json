@@ -115,7 +115,8 @@
       "comments_headline": "Comments",
       "more_comments_premium": "You can only see the last 3 comments. To see all comments, [please upgrade to a premium seat](https://bnder.net/p/{{guildId}}). Learn more about premium at https://bnder.net/pricing.",
       "attachments_headline": "Attachments",
-      "open_attachments": "Open attachments"
+      "open_attachments": "Open attachments",
+      "repeating_day_of_month_headline": "Repeating day of month"
     },
     "subtask": {
       "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",

@@ -115,7 +115,8 @@
       "comments_headline": "Commentaires",
       "more_comments_premium": "Vous ne pouvez voir que les 3 derniers commentaires. Pour voir tous les commentaires, [veuillez passer à un siège premium](https://bnder.net/p/{{guildId}}). Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
       "attachments_headline": "Pièces jointes",
-      "open_attachments": "Ouvrir les pièces jointes"
+      "open_attachments": "Ouvrir les pièces jointes",
+      "repeating_day_of_month_headline": "Jour du mois"
     },
     "subtask": {
       "text_not_found": "Le texte de la sous-tâche est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la sous-tâche.",

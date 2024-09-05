@@ -115,7 +115,8 @@
       "comments_headline": "Комментарии",
       "more_comments_premium": "Вы можете видеть только 3 последних комментария. Чтобы увидеть все комментарии, [пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Узнать больше о премиуме можно на сайте https://bnder.net/pricing.",
       "attachments_headline": "Вложения",
-      "open_attachments": "Открыть вложения"
+      "open_attachments": "Открыть вложения",
+      "repeating_day_of_month_headline": "День месяца"
     },
     "subtask": {
       "text_not_found": "Текст подзадачи отсутствует. Пожалуйста, используйте параметр \"title\", чтобы указать текст подзадачи.",

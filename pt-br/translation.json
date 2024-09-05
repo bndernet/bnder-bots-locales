@@ -115,7 +115,8 @@
       "comments_headline": "Comentários",
       "more_comments_premium": "Você só pode ver os últimos 3 comentários. Para ver todos os comentários, [faça upgrade para um assento premium](https://bnder.net/p/{{guildId}}). Saiba mais sobre premium em https://bnder.net/pricing.",
       "attachments_headline": "Anexos",
-      "open_attachments": "Abrir anexos"
+      "open_attachments": "Abrir anexos",
+      "repeating_day_of_month_headline": "Dia do mês"
     },
     "subtask": {
       "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",

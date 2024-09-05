@@ -115,7 +115,8 @@
       "comments_headline": "टिप्पणियाँ",
       "more_comments_premium": "आप केवल अंतिम 3 टिप्पणियाँ ही देख सकते हैं। सभी टिप्पणियाँ देखने के लिए, [कृपया प्रीमियम सीट पर अपग्रेड करें](https://bnder.net/p/{{guildId}})। https://bnder.net/pricing पर प्रीमियम के बारे में अधिक जानें।",
       "attachments_headline": "संलग्नक",
-      "open_attachments": "संलग्नक खोलें"
+      "open_attachments": "संलग्नक खोलें",
+      "repeating_day_of_month_headline": "महीने का दिन"
     },
     "subtask": {
       "text_not_found": "उपकार्य पाठ गुम है। उपकार्य पाठ निर्दिष्ट करने के लिए कृपया \"शीर्षक\" पैरामीटर का उपयोग करें।",

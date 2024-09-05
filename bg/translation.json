@@ -115,7 +115,8 @@
       "comments_headline": "Коментари",
       "more_comments_premium": "Можете да видите само последните 3 коментара. За да видите всички коментари, [моля, преминете към премиум място](https://bnder.net/p/{{guildId}}). Научете повече за премиум мястото на адрес https://bnder.net/pricing.",
       "attachments_headline": "Прикачени файлове",
-      "open_attachments": "Отвори прикачените файлове"
+      "open_attachments": "Отвори прикачените файлове",
+      "repeating_day_of_month_headline": "Ден от месеца"
     },
     "subtask": {
       "text_not_found": "Текстът на подзадачата липсва. Моля, използвайте параметъра \"title\", за да посочите текста на подзадачата.",

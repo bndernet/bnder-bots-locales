@@ -115,7 +115,8 @@
       "comments_headline": "Yorumlar",
       "more_comments_premium": "Вы можете видеть только 3 последних комментария. Чтобы увидеть все комментарии, [пожалуйста, перейдите на премиум-место](https://bnder.net/p/{{guildId}}). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
       "attachments_headline": "Ekler",
-      "open_attachments": "Ekleri aç"
+      "open_attachments": "Ekleri aç",
+      "repeating_day_of_month_headline": "Ayın günü"
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
