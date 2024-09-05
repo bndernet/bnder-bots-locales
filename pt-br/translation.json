@@ -247,7 +247,8 @@
     "watching_success": "Você agora está observando a tarefa **{{id}}**. Você será notificado sobre todas as alterações nessa tarefa.",
     "not_watching": "Você não está observando a tarefa **{{id}}**.",
     "unwatched_success": "Você não está mais observando a tarefa **{{id}}** e não será notificado sobre alterações nessa tarefa.",
-    "watch_not_allowed": "A observação de tarefas está disponível apenas para usuários de assentos premium. [Faça upgrade para um assento premium](https://bnder.net/p/{{guildId}}) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing."
+    "watch_not_allowed": "A observação de tarefas está disponível apenas para usuários de assentos premium. [Faça upgrade para um assento premium](https://bnder.net/p/{{guildId}}) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "repeat_set_monthly": "A tarefa **{{id}}** {{title, length100}} agora se repetirá todo mês no {{repeat_day_of_month}}, começando em {{start_date}} e terminando em {{end_date}}. Quando a tarefa for marcada como concluída, ela voltará a ser definida como “todo” quando a próxima data de repetição for atingida."
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

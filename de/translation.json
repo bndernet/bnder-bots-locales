@@ -247,7 +247,8 @@
     "watching_success": "Sie beobachten jetzt die Aufgabe **{{id}}**. Sie werden über jede Änderung an dieser Aufgabe benachrichtigt.",
     "not_watching": "Sie beobachten die Aufgabe **{{id}}** nicht.",
     "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt.",
-    "watch_not_allowed": "Das Beobachten von Aufgaben ist nur für Benutzer mit Premium-Mitgliedschaft verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premium-Platz (https://bnder.net/p/{{guildId}}) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
+    "watch_not_allowed": "Das Beobachten von Aufgaben ist nur für Benutzer mit Premium-Mitgliedschaft verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premium-Platz (https://bnder.net/p/{{guildId}}) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "repeat_set_monthly": "Die Aufgabe **{{id}}** {{title, length100}} wird nun jeden Monat am {{repeat_day_of_month}} wiederholt, beginnend mit {{start_date}} und endend mit {{end_date}}. Wenn die Aufgabe als erledigt markiert ist, wird sie bei Erreichen des nächsten Wiederholungsdatums wieder auf „Zu erledigen“ gesetzt."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

@@ -247,7 +247,8 @@
     "watching_success": "You are now watching the task **{{id}}**. You will get notified about every change to this task.",
     "not_watching": "You are not watching the task **{{id}}**.",
     "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task.",
-    "watch_not_allowed": "Watching tasks is only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing."
+    "watch_not_allowed": "Watching tasks is only available to users in premium seats. [Please upgrade to a premium seat](https://bnder.net/p/{{guildId}}) to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "repeat_set_monthly": "The task **{{id}}** {{title, length100}} will now repeat every month at the {{repeat_day_of_month}}., starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to todo when the next repeating date is reached."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",
