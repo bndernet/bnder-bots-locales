@@ -160,7 +160,7 @@
     "task_delete_could_not_send_message": "La tâche {{id}} a été marquée comme supprimée et le sera dans {{days}}. jours est définitivement supprimée.\n\n⚠\uFE0F Le bot a essayé d'envoyer un message de confirmation visible par tous, mais n'a pas pu le faire à cause du manque de permissions Discord sur ce canal. Veuillez accorder au bot l'autorisation d'envoyer des messages sur Discord.",
     "task_delete_instantly_could_not_send_message": "La tâche **{{id}}** a été supprimée.\n⚠\uFE0F Le bot a essayé d'envoyer un message de confirmation visible par tous, mais n'a pas pu le faire en raison d'un manque de permissions Discord dans ce canal. Veuillez accorder au bot la permission Discord d'envoyer des messages",
     "deleted_instantly_ephemeral_message": "La tâche **{{id}}** a été supprimée",
-    "invalid_deadline_date": "La date n'est pas valide. Veuillez utiliser le format **{{format}}**, ou utilisez une date relative comme **1 semaine 3 jours**. Vous pouvez configurer le format de la date avec la commande `/settings dateformat`.",
+    "invalid_deadline_date": "La date n'est pas valide. Veuillez utiliser le format **{{format}}** (par exemple {{example_date}}), ou utilisez une date relative comme **1 week 3 days**. Vous pouvez configurer le format de la date avec la commande `/settings dateformat`.",
     "more_assignees": "(+ {{count}} autres)",
     "not_created_deleted_project": "La tâche n'a pas pu être créée car le projet \"{{name}}\" est marqué comme supprimé. Restaurez le projet via \"/projet restore\" ou choisissez un autre projet.",
     "not_moved_deleted_project": "La tâche n'a pas pu être déplacée car le projet \"{{name}}\" est marqué comme supprimé. Restaurez le projet via \"/projet restore\" ou choisissez un autre projet.",
@@ -435,7 +435,7 @@
   },
   "event": {
     "not_found": "L'événement avec l'identifiant **{{id}}** n'a pas pu être trouvé. Utilisez \"/event list\" pour lister tous les événements ou créez-en un nouveau avec \"/event create\"",
-    "invalid_date": "La date n'est pas valide. Veuillez utiliser le format **{{format}}**, ou une date relative comme **1 semaine 3 jours**. Vous pouvez configurer le format de date avec la commande `/settings dateformat`.",
+    "invalid_date": "La date n'est pas valide. Veuillez utiliser le format **{{format}}** (par exemple {{example_date}}), ou utilisez une date relative comme **1 week 3 days**. Vous pouvez configurer le format de la date avec la commande `/settings dateformat`.",
     "start_after_end": "La date de début doit être antérieure à la date de fin",
     "created": "L'événement **{{name}}** a été créé avec l'identifiant **{{id}}** de {{start}} à {{end}}.",
     "not_invited": "Vous n'êtes pas invité à l'événement **{{id}}**",

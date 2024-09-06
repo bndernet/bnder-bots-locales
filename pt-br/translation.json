@@ -160,7 +160,7 @@
     "task_delete_could_not_send_message": "A tarefa {{id}} foi marcada como excluída e será excluída permanentemente em {{dias}} dias.\n\n⚠\uFE0F O bot tentou enviar uma mensagem de confirmação visível para todos, mas não conseguiu fazê-lo devido à falta de permissões do Discord neste canal. Por favor, conceda ao bot a permissão do Discord para enviar mensagens.",
     "task_delete_instantly_could_not_send_message": "A tarefa **{{id}}** foi excluída.\n\n⚠\uFE0F O bot tentou enviar uma mensagem de confirmação visível para todos, mas não conseguiu devido à falta de permissões do Discord neste canal. Por favor, conceda ao bot a permissão do Discord para enviar mensagens",
     "deleted_instantly_ephemeral_message": "A tarefa **{{id}}** foi excluída",
-    "invalid_deadline_date": "A data é inválida. Use o formato **{{format}}** ou use uma data relativa como **1 semana 3 dias**. Você pode configurar o formato da data com o comando `/settings dateformat`.",
+    "invalid_deadline_date": "A data é inválida. Use o formato **{{format}}** (por exemplo, {{example_date}}) ou use uma data relativa como **1 week 3 days**. Você pode configurar o formato da data com o comando `/settings dateformat`.",
     "more_assignees": "(+ {{count}} mais)",
     "not_created_deleted_project": "A tarefa não pôde ser criada porque o projeto \"{{name}}\" está marcado como excluído. Restaure o projeto por meio de \"/project restore\" ou escolha um projeto diferente.",
     "not_moved_deleted_project": "A tarefa não pôde ser movida porque o projeto \"{{name}}\" está marcado como excluído. Restaure o projeto via \"/project restore\" ou escolha um projeto diferente.",
@@ -435,7 +435,7 @@
   },
   "event": {
     "not_found": "O evento com o id **{{id}}** não pôde ser encontrado. Use \"/event list\" para listar todos os eventos ou crie um novo evento com \"/event create\".",
-    "invalid_date": "A data é inválida. Use o formato **{{format}}** ou use uma data relativa como **1 semana 3 dias**. Você pode configurar o formato da data com o comando `/settings dateformat`.",
+    "invalid_date": "A data é inválida. Use o formato **{{format}}** (por exemplo, {{example_date}}) ou use uma data relativa como **1 week 3 days**. Você pode configurar o formato da data com o comando `/settings dateformat`.",
     "start_after_end": "A data de início deve ser anterior à data de término.",
     "created": "O evento **{{name}}** foi criado com o id **{{id}}** de {{start}} a {{end}}.",
     "not_invited": "Você não foi convidado para o evento **{{id}}**.",

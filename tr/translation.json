@@ -160,7 +160,7 @@
     "task_delete_could_not_send_message": "Görev {{id}} silindi olarak işaretlendi ve {{days}} içinde kalıcı olarak silinecek gün.\n\n⚠\uFE0F Bot, herkes tarafından görülebilen bir onay mesajı göndermeye çalıştı, ancak bu kanalda Discord izinlerinin olmaması nedeniyle bunu yapamadı. Lütfen bota mesaj göndermesi için Discord izni verin.",
     "task_delete_instantly_could_not_send_message": "**{{id}}** görevi silindi.\n\n⚠\uFE0F Bot herkes tarafından görülebilen bir onay mesajı göndermeye çalıştı, ancak bu kanalda Discord izinlerinin olmaması nedeniyle bunu yapamadı. Lütfen bota mesaj göndermesi için Discord izni verin.",
     "deleted_instantly_ephemeral_message": "**{{id}}** görevi silindi.",
-    "invalid_deadline_date": "Tarih geçersiz. Lütfen **{{format}}** biçimini kullanın veya **1 hafta 3 gün** gibi göreli bir tarih kullanın. Tarih biçimini `/settings dateformat` komutu ile yapılandırabilirsiniz.",
+    "invalid_deadline_date": "Tarih geçersiz. Lütfen **{{format}} biçimini kullanın (örneğin {{example_date}}) veya **1 week 3 days** gibi göreli bir tarih kullanın. Tarih biçimini `/settings dateformat` komutu ile yapılandırabilirsiniz.",
     "more_assignees": "(+ {{count}} tane daha)",
     "not_created_deleted_project": "\"{{name}}\" proje silinmiş olarak işaretlendiği için görev oluşturulamadı. proje \"/project restore\" yoluyla geri yükleyin veya farklı bir proje seçin.",
     "not_moved_deleted_project": "\"{{name}}\" proje silinmiş olarak işaretlendiği için görev taşınamadı. proje \"/project restore\" yoluyla geri yükleyin veya farklı bir proje seçin.",
@@ -435,7 +435,7 @@
   },
   "event": {
     "not_found": "**{{id}}** kimliğine sahip etkinlik bulunamadı. Tüm olayları listelemek için \"/event list\" kullanın veya \"/event create\" ile yeni bir tane oluşturun.",
-    "invalid_date": "Tarih geçersiz. Lütfen **{{format}}** biçimini kullanın veya **1 hafta 3 gün** gibi göreli bir tarih kullanın. Tarih biçimini `/settings dateformat` komutuyla yapılandırabilirsiniz.",
+    "invalid_date": "Tarih geçersiz. Lütfen **{{format}} biçimini kullanın (örneğin {{example_date}}) veya **1 week 3 days** gibi göreli bir tarih kullanın. Tarih biçimini `/settings dateformat` komutu ile yapılandırabilirsiniz.",
     "start_after_end": "Başlangıç tarihi bitiş tarihinden önce olmalıdır.",
     "created": "**{{name}}** etkinliği {{start}} ile {{end}} arasında id **{{id}}** ile oluşturuldu.",
     "not_invited": "**{{id}}** etkinliğine davet edilmediniz.",
