@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Разрешаване/забраняване на потребителите да задават собствената си часова зона",
     "direct_messages_subcommand_description": "Активиране/деактивиране на директни съобщения",
     "loglevel_option_description": "Нивото на дневника, което да се зададе",
-    "loglevel_subcommand_description": "Задайте нивото на дневника на бота"
+    "loglevel_subcommand_description": "Задайте нивото на дневника на бота",
+    "task_cleanup_policy_option_description": "След колко време задачата трябва да бъде изтрита",
+    "task_cleanup_policy_subcommand_description": "Задайте кога да бъдат изтрити задачите в състояние на изпълнение"
   },
   "permission": {
     "command_description": "Присвояване, премахване и показване на всички разрешения",

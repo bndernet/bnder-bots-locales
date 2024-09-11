@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "उपयोगकर्ताओं को अपना स्वयं का समयक्षेत्र निर्धारित करने के लिए सक्षम/अक्षम करें",
     "direct_messages_subcommand_description": "सीधे संदेश सक्षम/अक्षम करें",
     "loglevel_option_description": "सेट करने के लिए लॉग स्तर",
-    "loglevel_subcommand_description": "बॉट का लॉग स्तर सेट करें"
+    "loglevel_subcommand_description": "बॉट का लॉग स्तर सेट करें",
+    "task_cleanup_policy_option_description": "किस समय के बाद किसी कार्य को हटाया जाना चाहिए",
+    "task_cleanup_policy_subcommand_description": "निर्धारित करें कि पूर्ण अवस्था में कार्य कब हटाया जाना चाहिए"
   },
   "permission": {
     "command_description": "अनुमतियाँ प्रदान करें, रद्द करें या सूचीबद्ध करें",

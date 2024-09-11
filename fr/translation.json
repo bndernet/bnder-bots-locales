@@ -413,6 +413,10 @@
       "changed_to_everything": "Le niveau de journalisation est passé à tout. Chaque message de journal sera envoyé au webhook.",
       "changed_to_create_delete": "Le niveau de journalisation a été modifié pour passer à la création et à la suppression. Seules les actions de création et de suppression seront envoyées au webhook.",
       "changed_to_permissions_only": "Le niveau de journalisation a été modifié pour les permissions uniquement. Seuls les changements de permission seront envoyés au webhook."
+    },
+    "task_cleanup_policy": {
+      "disabled": "La politique de nettoyage des tâches a été désactivée. Les tâches ne seront pas supprimées automatiquement.",
+      "enabled": "La politique de nettoyage des tâches a été activée. Les tâches seront supprimées automatiquement après {{days}} jours dans l'état « done » sans changement."
     }
   },
   "preferences": {

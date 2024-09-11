@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Kullanıcıların kendi saat dilimlerini ayarlamalarını etkinleştir/devre dışı bırak",
     "direct_messages_subcommand_description": "Doğrudan mesajları etkinleştir/devre dışı bırak",
     "loglevel_option_description": "Ayarlanacak günlük seviyesi",
-    "loglevel_subcommand_description": "Botun günlük seviyesini ayarla"
+    "loglevel_subcommand_description": "Botun günlük seviyesini ayarla",
+    "task_cleanup_policy_option_description": "Bir görev hangi süreden sonra silinmelidir",
+    "task_cleanup_policy_subcommand_description": "Bitti durumundaki görevlerin ne zaman silinmesi gerektiğini ayarla"
   },
   "permission": {
     "command_description": "Tüm izinleri atayın, kaldırın ve görüntüleyin",

@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Enable/Disable users to set their own timezone",
     "direct_messages_subcommand_description": "Enable/Disable direct messages",
     "loglevel_option_description": "The log level to set",
-    "loglevel_subcommand_description": "Set the log level of the bot"
+    "loglevel_subcommand_description": "Set the log level of the bot",
+    "task_cleanup_policy_option_description": "After which time a task should be deleted",
+    "task_cleanup_policy_subcommand_description": "Set when tasks in the done state should be deleted"
   },
   "permission": {
     "command_description": "Grant, revoke or list permissions",

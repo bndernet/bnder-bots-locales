@@ -413,6 +413,10 @@
       "changed_to_everything": "Günlük seviyesi her şey olarak değiştirildi. Her günlük mesajı web kancasına gönderilecektir.",
       "changed_to_create_delete": "Günlük düzeyi oluşturma ve silme olarak değiştirildi. Web kancasına yalnızca oluşturma ve silme eylemleri gönderilecektir.",
       "changed_to_permissions_only": "Günlük düzeyi yalnızca izinler olarak değiştirildi. Web kancasına yalnızca izin değişiklikleri gönderilecektir."
+    },
+    "task_cleanup_policy": {
+      "disabled": "Görev temizleme ilkesi devre dışı bırakıldı. Görevler otomatik olarak silinmeyecektir.",
+      "enabled": "Görev temizleme ilkesi etkinleştirildi. Görevler, değişiklik yapılmadan tamamlandı durumunda {{days}} gün kaldıktan sonra otomatik olarak silinecektir."
     }
   },
   "preferences": {

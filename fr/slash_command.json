@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Activer/Désactiver les utilisateurs pour qu'ils définissent leur propre fuseau horaire",
     "direct_messages_subcommand_description": "Activer/Désactiver les messages directs",
     "loglevel_option_description": "Le niveau de journalisation à définir",
-    "loglevel_subcommand_description": "Définir le niveau de journalisation du bot"
+    "loglevel_subcommand_description": "Définir le niveau de journalisation du bot",
+    "task_cleanup_policy_option_description": "Délai après lequel une tâche doit être supprimée",
+    "task_cleanup_policy_subcommand_description": "Définir le moment où les tâches dans l'état « done » doivent être supprimées"
   },
   "permission": {
     "command_description": "Attribue, retire et affiche toutes les autorisations",

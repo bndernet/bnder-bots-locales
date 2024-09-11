@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Ativar/desativar usuários para definir seu próprio fuso horário",
     "direct_messages_subcommand_description": "Ativar/desativar mensagens diretas",
     "loglevel_option_description": "O nível de registro a ser definido",
-    "loglevel_subcommand_description": "Definir o nível de registro do bot"
+    "loglevel_subcommand_description": "Definir o nível de registro do bot",
+    "task_cleanup_policy_option_description": "Depois de quanto tempo uma tarefa deve ser excluída",
+    "task_cleanup_policy_subcommand_description": "Definir quando as tarefas no estado concluído devem ser excluídas"
   },
   "permission": {
     "command_description": "Atribuir, remover e exibir todas as permissões",

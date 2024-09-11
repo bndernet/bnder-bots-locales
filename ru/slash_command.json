@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Разрешить/запретить пользователям устанавливать свой часовой пояс",
     "direct_messages_subcommand_description": "Включить/выключить прямые сообщения",
     "loglevel_option_description": "Уровень журнала, который нужно установить",
-    "loglevel_subcommand_description": "Установить уровень журнала бота"
+    "loglevel_subcommand_description": "Установить уровень журнала бота",
+    "task_cleanup_policy_option_description": "Через какое время задача должна быть удалена",
+    "task_cleanup_policy_subcommand_description": "Установить, когда задачи в состоянии «сделано» должны быть удалены"
   },
   "permission": {
     "command_description": "Назначение, удаление и отображение всех разрешений",

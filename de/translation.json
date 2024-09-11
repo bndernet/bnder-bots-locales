@@ -413,6 +413,10 @@
       "changed_to_everything": "Die Protokollierungsstufe wurde auf alles geändert. Jede Protokollmeldung wird an den Webhook gesendet.",
       "changed_to_create_delete": "Die Protokollebene wurde auf Erstellen und Löschen geändert. Nur Erstellungs- und Löschaktionen werden an den Webhook gesendet.",
       "changed_to_permissions_only": "Die Protokollebene wurde auf \"nur Berechtigungen\" geändert. Es werden nur Berechtigungsänderungen an den Webhook gesendet."
+    },
+    "task_cleanup_policy": {
+      "disabled": "Die Aufgabenbereinigungsrichtlinie wurde deaktiviert. Aufgaben werden nicht automatisch gelöscht.",
+      "enabled": "Die Aufgabenbereinigungsrichtlinie wurde aktiviert. Aufgaben werden nach {{days}} Tagen im Erledigt-Status ohne Änderungen automatisch gelöscht."
     }
   },
   "preferences": {

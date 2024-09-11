@@ -36,7 +36,9 @@
     "user_timezones_subcommand_description": "Aktivieren/Deaktivieren, dass Benutzer ihre eigene Zeitzone einstellen können",
     "direct_messages_subcommand_description": "Direktnachrichten aktivieren/deaktivieren",
     "loglevel_option_description": "Die einzustellende Protokollstufe",
-    "loglevel_subcommand_description": "Den Loglevel des Bots einstellen"
+    "loglevel_subcommand_description": "Den Loglevel des Bots einstellen",
+    "task_cleanup_policy_option_description": "Nach welcher Zeit soll eine Aufgabe gelöscht werden",
+    "task_cleanup_policy_subcommand_description": "Festlegen, wann Aufgaben im Erledigt-Zustand gelöscht werden sollen"
   },
   "permission": {
     "command_description": "Vergebe, entferne und zeige alle Berechtigungen an",

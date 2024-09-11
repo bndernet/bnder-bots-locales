@@ -413,6 +413,10 @@
       "changed_to_everything": "El nivel de registro se ha cambiado a todo. Todos los mensajes de registro se enviarán al webhook",
       "changed_to_create_delete": "El nivel de registro se ha cambiado a crear y eliminar. Sólo se enviarán al webhook las acciones de crear y eliminar",
       "changed_to_permissions_only": "El nivel de registro se ha cambiado a solo permisos. Sólo se enviarán al webhook los cambios de permisos."
+    },
+    "task_cleanup_policy": {
+      "disabled": "Se ha desactivado la política de limpieza de tareas. Las tareas no se eliminarán automáticamente",
+      "enabled": "La política de limpieza de tareas se ha habilitado. Las tareas se eliminarán automáticamente después de {{days}} días en el estado hecho sin cambios."
     }
   },
   "preferences": {

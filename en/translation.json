@@ -413,6 +413,10 @@
       "changed_to_everything": "The log level has been changed to everything. Every log message will be sent to the webhook.",
       "changed_to_create_delete": "The log level has been changed to create and delete. Only create and delete actions will be sent to the webhook.",
       "changed_to_permissions_only": "The log level has been changed to permissions only. Only permission changes will be sent to the webhook."
+    },
+    "task_cleanup_policy": {
+      "disabled": "The task cleanup policy has been disabled. Tasks will not be deleted automatically.",
+      "enabled": "The task cleanup policy has been enabled. Tasks will be deleted automatically after {{days}} days in the done status without changes."
     }
   },
   "preferences": {
