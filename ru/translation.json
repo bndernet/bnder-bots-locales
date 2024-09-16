@@ -311,7 +311,7 @@
   "object_not_found": "Объект с идентификатором **{{id}}** не найден.",
   "resolved_document": "Связанный документ {{id}}",
   "resolved_task": "Связанная задача {{id}}",
-  "invalid_id_format": "Введенный идентификатор недействителен. Идентификаторы задач, документов и событий должны содержать только цифры.",
+  "invalid_id_format": "Введенный идентификатор недействителен. Идентификаторы для [задач](<https://bnder.net/help/task/tasks>), [документов](<https://bnder.net/help/knowledge/documents>) и [событий](<https://bnder.net/help/calendar/events>) должны содержать только цифры.",
   "delete_instantly_button": "Удалить немедленно",
   "times": {
     "singleMinute": "минута",

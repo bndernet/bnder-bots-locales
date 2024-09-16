@@ -311,7 +311,7 @@
   "object_not_found": "**{{id}}** kimliğine sahip nesne bulunamadı.",
   "resolved_document": "Bağlantılı Belge {{id}}",
   "resolved_task": "Bağlantılı Görev {{id}}",
-  "invalid_id_format": "Girilen kimlik geçersiz. Görevler, belgeler ve etkinliklere ilişkin kimlikler yalnızca sayı içermelidir.",
+  "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/task/tasks>), [belgeler](<https://bnder.net/help/knowledge/documents>) ve [olaylar](<https://bnder.net/help/calendar/events>) için kimlikler yalnızca sayı içermelidir.",
   "delete_instantly_button": "Hemen sil",
   "times": {
     "singleMinute": "dakika",

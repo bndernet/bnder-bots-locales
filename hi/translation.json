@@ -311,7 +311,7 @@
   "object_not_found": "**{{id}}** आईडी वाला ऑब्जेक्ट नहीं मिल सका।",
   "resolved_document": "लिंक किया गया दस्तावेज़ {{id}}",
   "resolved_task": "लिंक किया गया कार्य {{id}}",
-  "invalid_id_format": "दर्ज की गई आईडी अमान्य है। कार्यों, दस्तावेज़ों और ईवेंट के लिए आईडी में केवल संख्याएँ होनी चाहिए।",
+  "invalid_id_format": "दर्ज की गई आईडी अमान्य है। [कार्य](<https://bnder.net/help/task/tasks>), [दस्तावेज़](<https://bnder.net/help/knowledge/documents>) और [ईवेंट](<https://bnder.net/help/calendar/events>) की आईडी में केवल संख्याएँ होनी चाहिए।",
   "delete_instantly_button": "तुरंत हटाएं",
   "times": {
     "singleMinute": "मिनट",

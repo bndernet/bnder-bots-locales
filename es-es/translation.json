@@ -311,7 +311,7 @@
   "object_not_found": "No se ha podido encontrar el objeto con el id **{{id}}**",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarea vinculada {{id}}",
-  "invalid_id_format": "La identificación ingresada no es válida. Las identificaciones para tareas, documentos y eventos deben contener solo números.",
+  "invalid_id_format": "El identificador introducido no es válido. Los identificadores de [tareas](<https://bnder.net/help/task/tasks>), [documentos](<https://bnder.net/help/knowledge/documents>) y [eventos](<https://bnder.net/help/calendar/events>) sólo deben contener números.",
   "delete_instantly_button": "Borrar inmediatamente",
   "times": {
     "singleMinute": "minuto",

@@ -311,7 +311,7 @@
   "object_not_found": "The object with the id **{{id}}** could not be found.",
   "resolved_document": "Linked Document {{id}}",
   "resolved_task": "Linked Task {{id}}",
-  "invalid_id_format": "The entered id is invalid. Ids for tasks, documents and events should contain only numbers.",
+  "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/task/tasks>), [documents](<https://bnder.net/help/knowledge/documents>) and [events](<https://bnder.net/help/calendar/events>) should contain only numbers.",
   "delete_instantly_button": "Delete immediately",
   "times": {
     "singleMinute": "minute",
