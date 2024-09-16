@@ -240,6 +240,9 @@ export class TSLocalizations_es_es {
                 accept_button: "Aceptar",
                 deny_button: "Rechazar"
             }
+        },
+        premium_granted_notification(guildId: string, guildName: string): string {
+            return `¡Enhorabuena! Se te ha asignado una plaza premium en el servidor [${guildName}](<https://discord.com/channels/${guildId}>). Esto significa que ahora tienes acceso a [características premium](<https://bnder.net/pricing>). ¡Que lo disfrutes!`;
         }
     }
 }

@@ -154,7 +154,8 @@ export interface TSLocalizationKeys {
             accept_button: string,
             deny_button: string,
         }
-    }
+    },
+    premium_granted_notification(guildId: string, guildName: string): string;
 }
 
 export class Localizations {

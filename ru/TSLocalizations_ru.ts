@@ -240,6 +240,9 @@ export class TSLocalizations_ru {
                 accept_button: "Принять",
                 deny_button: "Отклонить"
             }
+        },
+        premium_granted_notification(guildId: string, guildName: string): string {
+            return `Поздравляем! Вы заняли премиум-место на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это означает, что теперь у вас есть доступ к [премиум-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
         }
     }
 }

@@ -240,6 +240,9 @@ export class TSLocalizations_en {
                 accept_button: "Accept",
                 deny_button: "Deny"
             }
+        },
+        premium_granted_notification(guildId: string, guildName: string): string {
+            return `Congratulations! You have been placed in a premium seat in server [${guildName}](<https://discord.com/channels/${guildId}>). This mean you now have access to [premium features](<https://bnder.net/pricing>). Enjoy!`;
         }
     }
 }
