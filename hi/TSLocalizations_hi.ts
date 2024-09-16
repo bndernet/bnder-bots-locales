@@ -240,6 +240,9 @@ export class TSLocalizations_hi {
                 accept_button: "स्वीकार करना",
                 deny_button: "अस्वीकार करना"
             }
+        },
+        premium_granted_notification(guildId: string, guildName: string): string {
+            return `बधाई हो! आपको सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में प्रीमियम सीट पर रखा गया है। इसका मतलब है कि अब आपके पास [प्रीमियम सुविधाओं](<https://bnder.net/pricing>) तक पहुँच है। आनंद लें!`;
         }
     }
 }
