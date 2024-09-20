@@ -65,6 +65,7 @@ export class TSLocalizations_pt_br {
             repeat_interval_field: "Intervalo de repetição em dias",
             repeat_end_date_field: "Data de término da repetição",
             milestone_field: "Marco",
+            due_date_field: "Data de vencimento",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:

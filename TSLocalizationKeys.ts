@@ -53,6 +53,7 @@ export interface TSLocalizationKeys {
         repeat_interval_field: string,
         repeat_end_date_field: string,
         milestone_field: string,
+        due_date_field: string,
         deadline_due: {
             title(id: string): string,
             description(id: string, deadline: string): string,

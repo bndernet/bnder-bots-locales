@@ -65,6 +65,7 @@ export class TSLocalizations_en {
             repeat_interval_field: "Repeat interval in days",
             repeat_end_date_field: "Repeat end date",
             milestone_field: "Milestone",
+            due_date_field: "Due date",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:

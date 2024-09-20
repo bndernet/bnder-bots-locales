@@ -65,6 +65,7 @@ export class TSLocalizations_ru {
             repeat_interval_field: "Интервал повторения в днях",
             repeat_end_date_field: "Дата окончания повторения",
             milestone_field: "Веха",
+            due_date_field: "Срок выполнения",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:

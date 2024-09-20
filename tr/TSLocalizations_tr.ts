@@ -65,6 +65,7 @@ export class TSLocalizations_tr {
             repeat_interval_field: "Gün cinsinden tekrar aralığı",
             repeat_end_date_field: "Tekrar bitiş tarihi",
             milestone_field: "Kilometre taşı",
+            due_date_field: "Son teslim tarihi",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:

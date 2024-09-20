@@ -65,6 +65,7 @@ export class TSLocalizations_hi {
             repeat_interval_field: "दिनों में अंतराल दोहराएँ",
             repeat_end_date_field: "समाप्ति तिथि दोहराएँ",
             milestone_field: "मील का पत्थर",
+            due_date_field: "अंतिम तिथि",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
