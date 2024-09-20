@@ -64,6 +64,7 @@ export class TSLocalizations_de {
             manager_field: "Manager",
             repeat_interval_field: "Wiederholungsintervall in Tagen",
             repeat_end_date_field: "Wiederholungsenddatum",
+            milestone_field: "Meilenstein",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -227,7 +228,16 @@ export class TSLocalizations_de {
                     return `Label ${name} wurde gelöscht`;
                 }
             },
-            attachments_field: "Anhänge"
+            attachments_field: "Anhänge",
+            milestone_created: {
+                title: "Meilenstein erstellt",
+            },
+            milestone_updated: {
+                title: "Meilenstein aktualisiert",
+            },
+            milestone_deleted: {
+                title: "Meilenstein gelöscht",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

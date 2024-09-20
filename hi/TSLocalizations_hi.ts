@@ -64,6 +64,7 @@ export class TSLocalizations_hi {
             manager_field: "प्रबंधक",
             repeat_interval_field: "दिनों में अंतराल दोहराएँ",
             repeat_end_date_field: "समाप्ति तिथि दोहराएँ",
+            milestone_field: "मील का पत्थर",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -227,7 +228,16 @@ export class TSLocalizations_hi {
                     return `लेबल ${name} हटाया गया था`;
                 }
             },
-            attachments_field: "अटैचमेंट्स"
+            attachments_field: "अटैचमेंट्स",
+            milestone_created: {
+                title: "मील का पत्थर बनाया गया",
+            },
+            milestone_updated: {
+                title: "मील का पत्थर अद्यतन किया गया",
+            },
+            milestone_deleted: {
+                title: "मील का पत्थर हटाया गया",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

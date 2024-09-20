@@ -216,7 +216,10 @@
       "attachment_added": "Anexo {{file_name}} adicionado",
       "attachment_removed": "Anexo {{file_name}} removido",
       "watcher_added": "Observador {{watcher}} adicionado",
-      "watcher_removed": "Observador {{watcher}} removido"
+      "watcher_removed": "Observador {{watcher}} removido",
+      "none": "Nenhum",
+      "unknown": "Desconhecido",
+      "milestone_changed": "Marco alterado para {{milestone}}"
     },
     "description_too_long": "A descrição é muito longa. Reduza-a para um máximo de {{max}} caracteres.",
     "comment_text_too_long": "O texto do comentário é muito longo. Por favor, reduza-o para {{max}} caracteres.",

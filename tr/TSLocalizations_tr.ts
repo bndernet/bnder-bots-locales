@@ -64,6 +64,7 @@ export class TSLocalizations_tr {
             manager_field: "Yönetici",
             repeat_interval_field: "Gün cinsinden tekrar aralığı",
             repeat_end_date_field: "Tekrar bitiş tarihi",
+            milestone_field: "Kilometre taşı",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -228,6 +229,15 @@ export class TSLocalizations_tr {
                 }
             },
             attachments_field: "Ekler",
+            milestone_created: {
+                title: "Kilometre taşı oluşturuldu",
+            },
+            milestone_updated: {
+                title: "Kilometre taşı güncellendi",
+            },
+            milestone_deleted: {
+                title: "Kilometre taşı silindi",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

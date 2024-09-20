@@ -64,6 +64,7 @@ export class TSLocalizations_ru {
             manager_field: "Менеджер",
             repeat_interval_field: "Интервал повторения в днях",
             repeat_end_date_field: "Дата окончания повторения",
+            milestone_field: "Веха",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -228,6 +229,15 @@ export class TSLocalizations_ru {
                 }
             },
             attachments_field: "Вложения",
+            milestone_created: {
+                title: "Веха создана",
+            },
+            milestone_updated: {
+                title: "Веха обновлена",
+            },
+            milestone_deleted: {
+                title: "Веха удалена",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

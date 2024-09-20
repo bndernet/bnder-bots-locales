@@ -216,7 +216,10 @@
       "attachment_added": "Добавено приложение {{file_name}}",
       "attachment_removed": "Приложение премахнато {{file_name}}",
       "watcher_added": "Добавяне на наблюдател {{watcher}}",
-      "watcher_removed": "Премахване на наблюдател {{watcher}}"
+      "watcher_removed": "Премахване на наблюдател {{watcher}}",
+      "none": "Няма",
+      "unknown": "Неизвестно",
+      "milestone_changed": "Краен етап е променен на {{milestone}}"
     },
     "description_too_long": "Описанието е твърде дълго. Моля, съкратете го до максимум {{max}} символа.",
     "comment_text_too_long": "Текстът на коментара е твърде дълъг. Моля, съкратете го до {{max}} знаци.",

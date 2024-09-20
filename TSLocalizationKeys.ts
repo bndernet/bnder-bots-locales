@@ -52,6 +52,7 @@ export interface TSLocalizationKeys {
         manager_field: string,
         repeat_interval_field: string,
         repeat_end_date_field: string,
+        milestone_field: string,
         deadline_due: {
             title(id: string): string,
             description(id: string, deadline: string): string,
@@ -146,6 +147,15 @@ export interface TSLocalizationKeys {
             description(name: string): string,
         },
         attachments_field: string,
+        milestone_created: {
+            title: string,
+        },
+        milestone_updated: {
+            title: string,
+        },
+        milestone_deleted: {
+            title: string,
+        },
     },
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string;

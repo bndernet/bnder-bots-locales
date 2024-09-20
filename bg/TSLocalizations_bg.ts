@@ -64,6 +64,7 @@ export class TSLocalizations_bg {
             manager_field: "Мениджър",
             repeat_interval_field: "Интервал на повторение в дни",
             repeat_end_date_field: "Край на повторението",
+            milestone_field: "Краен срок",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -228,6 +229,15 @@ export class TSLocalizations_bg {
                 }
             },
             attachments_field: "Прикачени файлове",
+            milestone_created: {
+                title: "Краен срок създаден",
+            },
+            milestone_updated: {
+                title: "Краен срок актуализиран",
+            },
+            milestone_deleted: {
+                title: "Краен срок изтрит",
+            }
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

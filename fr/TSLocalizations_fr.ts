@@ -64,6 +64,7 @@ export class TSLocalizations_fr {
             manager_field: "Manager",
             repeat_interval_field: "Intervalle de répétition en jours",
             repeat_end_date_field: "Date de fin de répétition",
+            milestone_field: "Jalon",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -228,6 +229,15 @@ export class TSLocalizations_fr {
                 }
             },
             attachments_field: "Pièces jointes",
+            milestone_created: {
+                title: "Jalon créé",
+            },
+            milestone_updated: {
+                title: "Jalon mis à jour",
+            },
+            milestone_deleted: {
+                title: "Jalon supprimé",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

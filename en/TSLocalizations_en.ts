@@ -64,6 +64,7 @@ export class TSLocalizations_en {
             manager_field: "Manager",
             repeat_interval_field: "Repeat interval in days",
             repeat_end_date_field: "Repeat end date",
+            milestone_field: "Milestone",
             status_field_value(status: number): string {
                 switch (status) {
                     case 0:
@@ -228,6 +229,15 @@ export class TSLocalizations_en {
                 }
             },
             attachments_field: "Attachments",
+            milestone_created: {
+                title: "Milestone created",
+            },
+            milestone_updated: {
+                title: "Milestone updated",
+            },
+            milestone_deleted: {
+                title: "Milestone deleted",
+            },
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {

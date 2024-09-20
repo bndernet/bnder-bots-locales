@@ -216,7 +216,10 @@
       "attachment_added": "Ek {{file_name}} eklendi",
       "attachment_removed": "Ek {{file_name}} kaldırıldı",
       "watcher_added": "Watcher {{watcher}} eklendi",
-      "watcher_removed": "Watcher {{watcher}} kaldırıldı"
+      "watcher_removed": "Watcher {{watcher}} kaldırıldı",
+      "none": "Hiçbiri",
+      "unknown": "Bilinmiyor",
+      "milestone_changed": "Kilometre taşı {{milestone}} olarak değiştirildi"
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",

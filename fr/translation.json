@@ -216,7 +216,10 @@
       "attachment_added": "Pièce jointe {{file_name}} ajoutée",
       "attachment_removed": "Pièce jointe {{file_name}} supprimée",
       "watcher_added": "Watcher {{watcher}} a ajouté",
-      "watcher_removed": "Watcher {{watcher}} supprimé"
+      "watcher_removed": "Watcher {{watcher}} supprimé",
+      "none": "Aucun",
+      "unknown": "Inconnu",
+      "milestone_changed": "Jalon modifié en {{milestone}}"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",

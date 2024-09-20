@@ -216,7 +216,10 @@
       "attachment_added": "Добавлено вложение {{file_name}}",
       "attachment_removed": "Удалено вложение {{file_name}}",
       "watcher_added": "Наблюдатель {{watcher}} добавил",
-      "watcher_removed": "Наблюдатель {{watcher}} удален"
+      "watcher_removed": "Наблюдатель {{watcher}} удален",
+      "none": "Нет",
+      "unknown": "Неизвестно",
+      "milestone_changed": "Веха изменена на {{milestone}}"
     },
     "description_too_long": "Описание слишком длинное. Пожалуйста, сократите его до {{max}} символов.",
     "comment_text_too_long": "Текст комментария слишком длинный. Пожалуйста, сократите его до {{max}} символов.",

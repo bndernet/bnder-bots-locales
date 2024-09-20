@@ -216,7 +216,10 @@
       "attachment_added": "Anlage {{file_name}} hinzugefügt",
       "attachment_removed": "Anlage {{file_name}} entfernt",
       "watcher_added": "Beobachter {{watcher}} hinzugefügt",
-      "watcher_removed": "Beobachter {{watcher}} entfernt"
+      "watcher_removed": "Beobachter {{watcher}} entfernt",
+      "none": "Keine",
+      "unknown": "Unbekannt",
+      "milestone_changed": "Meilenstein geändert zu {{milestone}}"
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
