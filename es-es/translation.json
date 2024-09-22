@@ -116,7 +116,8 @@
       "more_comments_premium": "Sólo puedes ver los 3 últimos comentarios. Para ver todos los comentarios, [actualiza a un asiento premium](<https://bnder.net/p/{{guildId}}>). Más información sobre Premium en https://bnder.net/pricing.",
       "attachments_headline": "Archivos adjuntos",
       "open_attachments": "Abrir archivos adjuntos",
-      "repeating_day_of_month_headline": "Día del mes"
+      "repeating_day_of_month_headline": "Día del mes",
+      "milestone_headline": "Hito"
     },
     "subtask": {
       "text_not_found": "Falta el texto de la subtarea. Por favor, utilice el parámetro \"title\" para especificar el texto de la subtarea",
@@ -253,6 +254,19 @@
     "unwatched_success": "Ya no estás observando la tarea **{{id}}** y no recibirás notificaciones sobre los cambios en esta tarea.",
     "watch_not_allowed": "Ver tareas solo está disponible para los usuarios de licencias premium. [Para utilizar esta función, es necesario cambiar a una cuenta Premium](<https://bnder.net/p/{{guildId}}>). Más información sobre Premium en https://bnder.net/pricing.",
     "repeat_set_monthly": "La tarea **{{id}}** {{title, length100}} se repetirá ahora cada mes en el {{repeat_day_of_month}}, comenzando en {{start_date}} y terminando en {{end_date}}. Cuando la tarea está marcada como realizada, la tarea se establecerá de nuevo a todo cuando la próxima fecha de repetición se alcanza."
+  },
+  "milestone": {
+    "not_found": "No se pudo encontrar el hito **{{name}}**. Use \"/milestone list\" para listar todos los hitos.",
+    "deleted_immediate_ephemeral_message": "Se eliminó el hito **{{name}}**.",
+    "already_exists": "Ya existe un hito con el nombre **{{name}}**.",
+    "max_milestones_reached": "Alcanzó la cantidad máxima ({{max}}) de hitos para su gremio. [Actualice a un puesto premium](<https://bnder.net/p/{{guildId}}>) para crear más hitos. Obtenga más información sobre premium en https://bnder.net/pricing.",
+    "due_date_invalid": "La fecha de vencimiento no es válida. Use el formato **{{format}}** (p. ej., {{example_date}}), o use una fecha relativa como **1 week 3 days**. Puede configurar el formato de fecha con el command `/settings dateformat`.",
+    "milestone_created": "Se ha creado el hito **{{name}}** en el proyecto {{project}}.",
+    "delete_confirm": "¿Está seguro de que desea eliminar el hito **{{name}}**?",
+    "no_changes": "No se realizaron cambios en el hito **{{name}}**.",
+    "edited": "Se ha editado el hito **{{name}}**.",
+    "list_title": "# Hitos en el proyecto **{{project}}**:",
+    "list_tasks_done": "({{done}}/{{total}} tareas realizadas ({{percentage}}%))"
   },
   "topic": {
     "not_found": "No se ha encontrado el tema seleccionado. Utilice \"/topic list\" para listar todos los temas disponibles o cree uno nuevo con \"/topic create\".",

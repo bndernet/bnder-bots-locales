@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Bir görevi izle",
     "unwatch_subcommand_description": "Bir görevi izlemeyi bırak"
   },
+  "milestone": {
+    "command_description": "Kilometre taşlarını yönet",
+    "create_subcommand_description": "Yeni bir kilometre taşı oluştur",
+    "delete_subcommand_description": "Bir kilometre taşını sil",
+    "list_subcommand_description": "Tüm kilometre taşlarını listele",
+    "edit_subcommand_description": "Bir kilometre taşını düzenle",
+    "name_option_description": "Kilometre taşının adı",
+    "new_name_option_description": "Kilometre taşının yeni adı",
+    "due_date_option_description": "Kilometre taşının son tarihi"
+  },
   "topic": {
     "name_option_description": "Bir konunun adı",
     "new_name_option_description": "Konunun yeni adı",

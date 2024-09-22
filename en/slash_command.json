@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Watch a task",
     "unwatch_subcommand_description": "Unwatch a task"
   },
+  "milestone": {
+    "command_description": "Manage milestones",
+    "create_subcommand_description": "Create a new milestone",
+    "delete_subcommand_description": "Delete a milestone",
+    "list_subcommand_description": "List all milestones",
+    "edit_subcommand_description": "Edit a milestone",
+    "name_option_description": "Name of the milestone",
+    "new_name_option_description": "New name of the milestone",
+    "due_date_option_description": "Due date of the milestone"
+  },
   "topic": {
     "name_option_description": "The name of a topic",
     "new_name_option_description": "The new name of the topic",

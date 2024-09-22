@@ -116,7 +116,8 @@
       "more_comments_premium": "Você só pode ver os últimos 3 comentários. Para ver todos os comentários, [faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>). Saiba mais sobre premium em https://bnder.net/pricing.",
       "attachments_headline": "Anexos",
       "open_attachments": "Abrir anexos",
-      "repeating_day_of_month_headline": "Dia do mês"
+      "repeating_day_of_month_headline": "Dia do mês",
+      "milestone_headline": "Marco"
     },
     "subtask": {
       "text_not_found": "O texto da subtarefa está faltando. Use o parâmetro \"title\" para especificar o texto da subtarefa.",
@@ -253,6 +254,19 @@
     "unwatched_success": "Você não está mais observando a tarefa **{{id}}** e não será notificado sobre alterações nessa tarefa.",
     "watch_not_allowed": "A observação de tarefas está disponível apenas para usuários de assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "repeat_set_monthly": "A tarefa **{{id}}** {{title, length100}} agora se repetirá todo mês no {{repeat_day_of_month}}, começando em {{start_date}} e terminando em {{end_date}}. Quando a tarefa for marcada como concluída, ela voltará a ser definida como “todo” quando a próxima data de repetição for atingida."
+  },
+  "milestone": {
+    "not_found": "O marco **{{name}}** não pôde ser encontrado. Use \"/milestone list\" para listar todos os marcos.",
+    "deleted_immediate_ephemeral_message": "O marco **{{name}}** foi excluído.",
+    "already_exists": "Um marco com o nome **{{name}}** já existe.",
+    "max_milestones_reached": "Você atingiu a quantidade máxima ({{max}}) de marcos para sua guilda. [Faça upgrade para uma vaga premium](<https://bnder.net/p/{{guildId}}>) para criar mais marcos. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "due_date_invalid": "A data de vencimento é inválida. Use o formato **{{format}}** (por exemplo, {{example_date}}) ou use uma data relativa como **1 week 3 days**. Você pode configurar o formato da data com o comando `/settings dateformat`.",
+    "milestone_created": "O marco **{{name}}** foi criado no projeto {{project}}.",
+    "delete_confirm": "Tem certeza de que deseja excluir o marco **{{name}}**?",
+    "no_changes": "Nenhuma alteração foi feita no marco **{{name}}**.",
+    "edited": "O marco **{{name}}** foi editado.",
+    "list_title": "# Marcos no projeto **{{project}}**:",
+    "list_tasks_done": "({{done}}/{{total}} tarefas concluídas ({{percentage}}%))"
   },
   "topic": {
     "not_found": "O tópico selecionado não foi encontrado. Use \"/topic list\" para listar todos os tópicos disponíveis ou crie um novo com \"/topic create\".",

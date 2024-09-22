@@ -116,7 +116,8 @@
       "more_comments_premium": "You can only see the last 3 comments. To see all comments, [please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>). Learn more about premium at https://bnder.net/pricing.",
       "attachments_headline": "Attachments",
       "open_attachments": "Open attachments",
-      "repeating_day_of_month_headline": "Repeating day of month"
+      "repeating_day_of_month_headline": "Repeating day of month",
+      "milestone_headline": "Milestone"
     },
     "subtask": {
       "text_not_found": "The subtask text is missing. Please use the \"title\" parameter to specify the subtask text.",
@@ -253,6 +254,19 @@
     "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task.",
     "watch_not_allowed": "Watching tasks is only available to users in premium seats. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about premium at https://bnder.net/pricing.",
     "repeat_set_monthly": "The task **{{id}}** {{title, length100}} will now repeat every month at the {{repeat_day_of_month}}., starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to todo when the next repeating date is reached."
+  },
+  "milestone": {
+    "not_found": "The milestone **{{name}}** could not be found. Use \"/milestone list\" to list all milestones.",
+    "deleted_immediate_ephemeral_message": "The milestone **{{name}}** was deleted.",
+    "already_exists": "A milestone with the name **{{name}}** already exists.",
+    "max_milestones_reached": "You have reached the maximum amount ({{max}}) of milestones for your guild. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to create more milestones. Learn more about premium at https://bnder.net/pricing.",
+    "due_date_invalid": "The due date is invalid. Please use the format **{{format}}** (e.g. {{example_date}}), or use a relative date like **1 week 3 days**. You can configure the date format with the command `/settings dateformat`.",
+    "milestone_created": "The milestone **{{name}}** has been created in the project {{project}}.",
+    "delete_confirm": "Are you sure you want to delete the milestone **{{name}}**?",
+    "no_changes": "No changes were made to the milestone **{{name}}**.",
+    "edited": "The milestone **{{name}}** has been edited.",
+    "list_title": "# Milestones in project **{{project}}**:",
+    "list_tasks_done": "({{done}}/{{total}} tasks done ({{percentage}}%))"
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

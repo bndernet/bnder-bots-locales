@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Eine Aufgabe beobachten",
     "unwatch_subcommand_description": "Eine Aufgabe nicht mehr beobachten"
   },
+  "milestone": {
+    "command_description": "Meilensteine verwalten",
+    "create_subcommand_description": "Neuen Meilenstein erstellen",
+    "delete_subcommand_description": "Meilenstein löschen",
+    "list_subcommand_description": "Alle Meilensteine auflisten",
+    "edit_subcommand_description": "Meilenstein bearbeiten",
+    "name_option_description": "Name des Meilensteins",
+    "new_name_option_description": "Neuer Name des Meilensteins",
+    "due_date_option_description": "Fälligkeitsdatum des Meilensteins"
+  },
   "topic": {
     "name_option_description": "Der Name eines Themas",
     "new_name_option_description": "Der neue Name des Themas",

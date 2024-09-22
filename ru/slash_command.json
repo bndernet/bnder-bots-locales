@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Следить за задачей",
     "unwatch_subcommand_description": "Прекратить следить за задачей"
   },
+  "milestone": {
+    "command_description": "Управление вехами",
+    "create_subcommand_description": "Создание новой вехи",
+    "delete_subcommand_description": "Удаление вехи",
+    "list_subcommand_description": "Список всех вех",
+    "edit_subcommand_description": "Редактирование вехи",
+    "name_option_description": "Название вехи",
+    "new_name_option_description": "Новое название вехи",
+    "due_date_option_description": "Срок выполнения вехи"
+  },
   "topic": {
     "name_option_description": "Название темы",
     "new_name_option_description": "Новое название темы",

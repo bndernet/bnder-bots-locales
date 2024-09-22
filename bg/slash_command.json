@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Следете задача за промени",
     "unwatch_subcommand_description": "Прекратяване на следенето на задача за промени"
   },
+  "milestone": {
+    "command_description": "Управление на важни етапи",
+    "create_subcommand_description": "Създаване на нов етап",
+    "delete_subcommand_description": "Изтриване на крайъгълен камък",
+    "list_subcommand_description": "Избройте всички етапи",
+    "edit_subcommand_description": "Редактиране на крайъгълен камък",
+    "name_option_description": "Име на крайъгълния камък",
+    "new_name_option_description": "Ново име на етапа",
+    "due_date_option_description": "Краен срок на етапа"
+  },
   "topic": {
     "name_option_description": "Името на темата",
     "new_name_option_description": "Новото име на темата",

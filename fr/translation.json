@@ -116,7 +116,8 @@
       "more_comments_premium": "Vous ne pouvez voir que les 3 derniers commentaires. Pour voir tous les commentaires, [veuillez passer à un siège premium](<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur les sièges premium, consultez le site https://bnder.net/pricing.",
       "attachments_headline": "Pièces jointes",
       "open_attachments": "Ouvrir les pièces jointes",
-      "repeating_day_of_month_headline": "Jour du mois"
+      "repeating_day_of_month_headline": "Jour du mois",
+      "milestone_headline": "Jalon"
     },
     "subtask": {
       "text_not_found": "Le texte de la sous-tâche est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la sous-tâche.",
@@ -253,6 +254,19 @@
     "unwatched_success": "Vous ne surveillez plus la tâche **{{id}}** et ne serez pas informé des modifications apportées à cette tâche.",
     "watch_not_allowed": "L'observation des tâches n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, vous devez passer à un siège premium (<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
     "repeat_set_monthly": "La tâche **{{id}}** {{title, length100}} se répétera désormais tous les mois au {{repeat_day_of_month}}, à partir de {{start_date}} et jusqu'à {{end_date}}. Lorsque la tâche est marquée comme terminée, elle sera remise dans la liste des tâches à faire à la prochaine date de répétition."
+  },
+  "milestone": {
+    "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",
+    "deleted_immediate_ephemeral_message": "Le jalon **{{name}}** a été supprimé.",
+    "already_exists": "Un jalon portant le nom **{{name}}** existe déjà.",
+    "max_milestones_reached": "Vous avez atteint le nombre maximum ({{max}}) de jalons pour votre guilde. [Veuillez passer à un siège premium](<https://bnder.net/p/{{guildId}}>) pour créer plus de jalons. Pour en savoir plus sur le premium, consultez https://bnder.net/pricing.",
+    "due_date_invalid": "La date d'échéance n'est pas valide. Veuillez utiliser le format **{{format}}** (par exemple, {{example_date}}), ou une date relative comme **1 week 3 days**. Vous pouvez configurer le format de date avec la commande `/settings dateformat`.",
+    "milestone_created": "Le jalon **{{name}}** a été créé dans le projet {{project}}.",
+    "delete_confirm": "Êtes-vous sûr de vouloir supprimer le jalon **{{name}}**?",
+    "no_changes": "Aucune modification n'a été apportée au jalon **{{name}}**.",
+    "edited": "Le jalon **{{name}}** a été modifié.",
+    "list_title": "# Jalons dans le projet **{{project}}**:",
+    "list_tasks_done": "({{done}}/{{total}} tâches effectuées ({{percentage}}%))"
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

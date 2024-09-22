@@ -116,7 +116,8 @@
       "more_comments_premium": "Sie können nur die letzten 3 Kommentare sehen. Um alle Kommentare zu sehen, [müssen Sie ein Upgrade auf einen Premium-Platz durchführen](<https://bnder.net/p/{{guildId}}>). Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
       "attachments_headline": "Anhänge",
       "open_attachments": "Anhänge anzeigen",
-      "repeating_day_of_month_headline": "Wiederholungstag des Monats"
+      "repeating_day_of_month_headline": "Wiederholungstag des Monats",
+      "milestone_headline": "Meilenstein"
     },
     "subtask": {
       "text_not_found": "Der Text der Unteraufgabe fehlt. Bitte verwenden Sie den Parameter \"title\", um den Text der Unteraufgabe anzugeben.",
@@ -253,6 +254,19 @@
     "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt.",
     "watch_not_allowed": "Das Beobachten von Aufgaben ist nur für Benutzer mit Premium-Mitgliedschaft verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premium-Platz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
     "repeat_set_monthly": "Die Aufgabe **{{id}}** {{title, length100}} wird nun jeden Monat am {{repeat_day_of_month}} wiederholt, beginnend mit {{start_date}} und endend mit {{end_date}}. Wenn die Aufgabe als erledigt markiert ist, wird sie bei Erreichen des nächsten Wiederholungsdatums wieder auf „Zu erledigen“ gesetzt."
+  },
+  "milestone": {
+    "not_found": "Der Meilenstein **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/milestone list\", um alle Meilensteine aufzulisten.",
+    "deleted_immediate_ephemeral_message": "Der Meilenstein **{{name}}** wurde gelöscht.",
+    "already_exists": "Ein Meilenstein mit dem Namen **{{name}}** existiert bereits.",
+    "max_milestones_reached": "Du hast die maximale Anzahl ({{max}}) an Meilensteinen für deine Gilde erreicht. [Bitte steigen Sie auf einen Premiumplatz (<https://bnder.net/p/{{guildId}}>) auf, um weitere Meilensteine zu erstellen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "due_date_invalid": "Das Fälligkeitsdatum ist ungültig. Bitte verwenden Sie das Format **{{format}}** (z.B. {{example_date}}), oder verwenden Sie ein relatives Datum wie **1 week 3 days**. Sie können das Datumsformat mit dem Befehl `/settings dateformat` konfigurieren.",
+    "milestone_created": "Der Meilenstein **{{name}}** wurde im Projekt {{project}} erstellt.",
+    "delete_confirm": "Sind Sie sicher, dass Sie den Meilenstein **{{name}}** löschen wollen?",
+    "no_changes": "Es wurden keine Änderungen am Meilenstein **{{name}}** vorgenommen.",
+    "edited": "Der Meilenstein **{{name}}** wurde bearbeitet.",
+    "list_title": "# Meilensteine im Projekt **{{project}}**:",
+    "list_tasks_done": "({{done}}/{{total}} Aufgaben erledigt ({{percentage}}%))"
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

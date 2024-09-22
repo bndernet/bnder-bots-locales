@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Seguir o dejar de seguir una tarea",
     "unwatch_subcommand_description": "Dejar de seguir una tarea"
   },
+  "milestone": {
+    "command_description": "Administrar hitos",
+    "create_subcommand_description": "Crear un nuevo hito",
+    "delete_subcommand_description": "Eliminar un hito",
+    "list_subcommand_description": "Enumerar todos los hitos",
+    "edit_subcommand_description": "Editar un hito",
+    "name_option_description": "Nombre del hito",
+    "new_name_option_description": "Nuevo nombre del hito",
+    "due_date_option_description": "Fecha de vencimiento del hito"
+  },
   "topic": {
     "name_option_description": "El nombre de un tema",
     "new_name_option_description": "El nuevo nombre del tema",

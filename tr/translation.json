@@ -116,7 +116,8 @@
       "more_comments_premium": "Вы можете видеть только 3 последних комментария. Чтобы увидеть все комментарии, [пожалуйста, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
       "attachments_headline": "Ekler",
       "open_attachments": "Ekleri aç",
-      "repeating_day_of_month_headline": "Ayın günü"
+      "repeating_day_of_month_headline": "Ayın günü",
+      "milestone_headline": "Kilometre taşı"
     },
     "subtask": {
       "text_not_found": "Alt görev metni eksik. Lütfen alt görev metnini belirtmek için \"title\" parametresini kullanın.",
@@ -253,6 +254,19 @@
     "unwatched_success": "Artık **{{id}}** görevini izlemiyorsunuz ve bu görevdeki değişiklikler hakkında bildirim almayacaksınız.",
     "watch_not_allowed": "Просмотр заданий доступен только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
     "repeat_set_monthly": "Görev **{{id}}** {{title, length100}} artık her ay {{repeat_day_of_month}}'da tekrarlanacak ve {{start_date}}'den başlayıp {{end_date}}'de sona erecek. Görev tamamlandı olarak işaretlendiğinde, bir sonraki yineleme tarihine ulaşıldığında görev tekrar yapılacaklar arasına alınacaktır."
+  },
+  "milestone": {
+    "not_found": "**{{name}}** kilometre taşı bulunamadı. Tüm kilometre taşlarını listelemek için \"/milestone list\" kullanın.",
+    "deleted_immediate_ephemeral_message": "**{{name}}** kilometre taşı silindi.",
+    "already_exists": "**{{name}}** adlı bir kilometre taşı zaten mevcut.",
+    "max_milestones_reached": "Loncanız için maksimum kilometre taşı miktarına ({{max}}) ulaştınız. Daha fazla kilometre taşı oluşturmak için [Lütfen premium koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Premium hakkında daha fazla bilgi edinmek için https://bnder.net/pricing adresini ziyaret edin.",
+    "due_date_invalid": "Son tarih geçersiz. Lütfen **{{format}}** biçimini (örn. {{example_date}}) kullanın veya **1 week 3 days** gibi göreceli tarih. Tarih biçimini `/settings dateformat` komutuyla yapılandırabilirsiniz.",
+    "milestone_created": "**{{name}}** kilometre taşı {{project}} projesinde oluşturuldu.",
+    "delete_confirm": "**{{name}}** kilometre taşını silmek istediğinizden emin misiniz?",
+    "no_changes": "**{{name}}** kilometre taşında hiçbir değişiklik yapılmadı.",
+    "edited": "**{{name}}** kilometre taşı düzenlendi.",
+    "list_title": "# **{{project}}** projesindeki kilometre taşları:",
+    "list_tasks_done": "({{done}}/{{total}} görev tamamlandı ({{percentage}}%))"
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

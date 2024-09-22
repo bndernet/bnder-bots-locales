@@ -108,6 +108,16 @@
     "watch_subcommand_description": "किसी कार्य को देखना शुरू करें",
     "unwatch_subcommand_description": "किसी कार्य को देखना बंद करें"
   },
+  "milestone": {
+    "command_description": "मील का पत्थर प्रबंधित करें",
+    "create_subcommand_description": "एक नया मील का पत्थर बनाएँ",
+    "delete_subcommand_description": "एक मील का पत्थर हटाएँ",
+    "list_subcommand_description": "सभी मील के पत्थर सूचीबद्ध करें",
+    "edit_subcommand_description": "एक मील का पत्थर संपादित करें",
+    "name_option_description": "मील का पत्थर का नाम",
+    "new_name_option_description": "मील का पत्थर का नया नाम",
+    "due_date_option_description": "मील का पत्थर की नियत तिथि"
+  },
   "topic": {
     "name_option_description": "किसी विषय का नाम",
     "new_name_option_description": "विषय का नया नाम",

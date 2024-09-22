@@ -108,6 +108,16 @@
     "watch_subcommand_description": "Suivre ou arrêter de suivre une tâche",
     "unwatch_subcommand_description": "Arrêter de suivre une tâche"
   },
+  "milestone": {
+    "command_description": "Gérer les jalons",
+    "create_subcommand_description": "Créer un nouveau jalon",
+    "delete_subcommand_description": "Supprimer un jalon",
+    "list_subcommand_description": "Liste de tous les jalons",
+    "edit_subcommand_description": "Modifier un jalon",
+    "name_option_description": "Nom du jalon",
+    "new_name_option_description": "Nouveau nom du jalon",
+    "due_date_option_description": "Date d'échéance du jalon"
+  },
   "topic": {
     "name_option_description": "Le nom d'un sujet",
     "new_name_option_description": "Le nouveau nom du sujet",
