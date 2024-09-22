@@ -270,7 +270,7 @@
     "edited": "The milestone **{{name}}** has been edited.",
     "list_title": "# Milestones in project **{{project}}**:",
     "list_tasks_done": "({{done}}/{{total}} tasks done ({{percentage}}%))",
-    "list_no_milestones": "There are no milestones in the project **{{project}}**. Use the command \"/milestone create\" to create a new milestone.",
+    "list_no_milestones": "There are no milestones in the project **{{project}}**. Use the command \"/milestone create\" to create a new milestone."
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",
