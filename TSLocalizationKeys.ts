@@ -30,6 +30,7 @@ export interface TSLocalizationKeys {
         watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
         watcher_notification_footer: string;
         watcher_embed_title(id: string): string;
+        milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string;
     },
     webhookLogging: {
         id_field: string,

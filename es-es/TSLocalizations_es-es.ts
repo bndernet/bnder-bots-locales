@@ -42,6 +42,9 @@ export class TSLocalizations_es_es {
             watcher_notification_footer: "Desactive las notificaciones de esta tarea mediante el comando «/task unwatch».",
             watcher_embed_title(id: string): string {
                 return `Tarea ${id} actualizada`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `El hito **${milestoneName}** vence en menos de 6 horas en el servidor [${guildName}](https://discord.com/channels/${guildId}) y tiene tareas que deben completarse.`;
             }
         },
         webhookLogging: {

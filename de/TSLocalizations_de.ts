@@ -42,6 +42,9 @@ export class TSLocalizations_de {
             watcher_notification_footer: "Benachrichtigungen für diese Aufgabe mit dem Befehl „/task unwatch“ deaktivieren",
             watcher_embed_title(id: string): string {
                 return `Aufgabe ${id} wurde aktualisiert`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](https://discord.com/channels/${guildId}) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
             }
         },
         webhookLogging: {

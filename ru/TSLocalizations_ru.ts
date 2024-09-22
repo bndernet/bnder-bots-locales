@@ -42,6 +42,9 @@ export class TSLocalizations_ru {
             watcher_notification_footer: "Отключите уведомления для этой задачи с помощью команды «/task unwatch».",
             watcher_embed_title(id: string): string {
                 return `Задача ${id} обновлена`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `Достижение этапа **${milestoneName}** на сервере [${guildName}](https://discord.com/channels/${guildId}) запланировано менее чем на 6 часов, и в нем есть задания, которые необходимо выполнить.`;
             }
         },
         webhookLogging: {

@@ -42,6 +42,9 @@ export class TSLocalizations_tr {
             watcher_notification_footer: "“/task unwatch” komutunu kullanarak bu görev için bildirimleri devre dışı bırakın",
             watcher_embed_title(id: string): string {
                 return `Görev ${id} güncellendi`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `**${milestoneName}** kilometre taşı, 6 saatten az bir süre içinde [${guildName}](https://discord.com/channels/${guildId}) sunucusunda yayınlanacak ve tamamlanması gereken görevler içeriyor.`;
             }
         },
         webhookLogging: {

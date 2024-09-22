@@ -42,6 +42,9 @@ export class TSLocalizations_fr {
             watcher_notification_footer: "Désactiver les notifications pour cette tâche en utilisant la commande « /task unwatch ».",
             watcher_embed_title(id: string): string {
                 return `Mise à jour de la tâche ${id}`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `Le jalon **${milestoneName}** doit être atteint dans moins de 6 heures sur le serveur [${guildName}](https://discord.com/channels/${guildId}) et comporte des tâches à accomplir.`;
             }
         },
         webhookLogging: {

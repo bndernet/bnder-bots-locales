@@ -42,6 +42,9 @@ export class TSLocalizations_hi {
             watcher_notification_footer: "\"/task unwatch\" कमांड का उपयोग करके इस कार्य के लिए अधिसूचनाएँ अक्षम करें",
             watcher_embed_title(id: string): string {
                 return `कार्य ${id} अपडेट किया गया`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `माइलस्टोन **${milestoneName}** सर्वर [${guildName}](https://discord.com/channels/${guildId}) पर 6 घंटे से भी कम समय में पूरा होने वाला है और इसमें ऐसे कार्य हैं जिन्हें पूरा करने की आवश्यकता है।`;
             }
         },
         webhookLogging: {

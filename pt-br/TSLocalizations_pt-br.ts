@@ -42,6 +42,9 @@ export class TSLocalizations_pt_br {
             watcher_notification_footer: "Desative as notificações para essa tarefa usando o comando “/task unwatch”",
             watcher_embed_title(id: string): string {
                 return `Tarefa ${id} atualizada`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `O marco **${milestoneName}** deve ser entregue em menos de 6 horas no servidor [${guildName}](https://discord.com/channels/${guildId}) e tem tarefas que precisam ser concluídas.`;
             }
         },
         webhookLogging: {

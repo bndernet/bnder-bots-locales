@@ -42,6 +42,9 @@ export class TSLocalizations_bg {
             watcher_notification_footer: "Деактивиране на известията за тази задача с помощта на командата „/task unwatch“",
             watcher_embed_title(id: string): string {
                 return `Задачата ${id} е актуализирана`;
+            },
+            milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
+                return `Важен етап **${milestoneName}** предстои след по-малко от 6 часа в сървъра [${guildName}](https://discord.com/channels/${guildId}) и има задачи, които трябва да бъдат изпълнени.`;
             }
         },
         webhookLogging: {
