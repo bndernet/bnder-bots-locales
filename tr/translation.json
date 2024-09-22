@@ -253,7 +253,10 @@
     "not_watching": "**{{id}}** görevini izlemiyorsunuz.",
     "unwatched_success": "Artık **{{id}}** görevini izlemiyorsunuz ve bu görevdeki değişiklikler hakkında bildirim almayacaksınız.",
     "watch_not_allowed": "Просмотр заданий доступен только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
-    "repeat_set_monthly": "Görev **{{id}}** {{title, length100}} artık her ay {{repeat_day_of_month}}'da tekrarlanacak ve {{start_date}}'den başlayıp {{end_date}}'de sona erecek. Görev tamamlandı olarak işaretlendiğinde, bir sonraki yineleme tarihine ulaşıldığında görev tekrar yapılacaklar arasına alınacaktır."
+    "repeat_set_monthly": "Görev **{{id}}** {{title, length100}} artık her ay {{repeat_day_of_month}}'da tekrarlanacak ve {{start_date}}'den başlayıp {{end_date}}'de sona erecek. Görev tamamlandı olarak işaretlendiğinde, bir sonraki yineleme tarihine ulaşıldığında görev tekrar yapılacaklar arasına alınacaktır.",
+    "milestone_not_in_project": "**{{name}}** kilometre taşı, görevin bulunduğu **{{project}}** projesinde değil. Projedeki tüm kilometre taşlarını listelemek için \"/milestone list\" veya yeni bir tane oluşturmak için \"/milestone create\" kullanın.",
+    "milestone_not_set": "Belirlenmemiş olduğu için kilometre taşı **{{id}}** görevinden kaldırılamadı.",
+    "milestone_removed": "Kilometre taşı **{{id}}** görevinden kaldırıldı."
   },
   "milestone": {
     "not_found": "**{{name}}** kilometre taşı bulunamadı. Tüm kilometre taşlarını listelemek için \"/milestone list\" kullanın.",
@@ -266,7 +269,8 @@
     "no_changes": "**{{name}}** kilometre taşında hiçbir değişiklik yapılmadı.",
     "edited": "**{{name}}** kilometre taşı düzenlendi.",
     "list_title": "# **{{project}}** projesindeki kilometre taşları:",
-    "list_tasks_done": "({{done}}/{{total}} görev tamamlandı ({{percentage}}%))"
+    "list_tasks_done": "({{done}}/{{total}} görev tamamlandı ({{percentage}}%))",
+    "list_no_milestones": "**{{project}}** projesinde hiçbir kilometre taşı yok. Yeni bir kilometre taşı oluşturmak için \"/milestone create\" komutunu kullanın."
   },
   "topic": {
     "not_found": "Seçilen konu bulunamadı. Mevcut tüm konuları listelemek için \"/topic list\" kullanın veya \"/topic create\" ile yeni bir konu oluşturun.",

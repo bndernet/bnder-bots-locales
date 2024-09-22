@@ -253,7 +253,10 @@
     "not_watching": "Vous ne surveillez pas la tâche **{{id}}**",
     "unwatched_success": "Vous ne surveillez plus la tâche **{{id}}** et ne serez pas informé des modifications apportées à cette tâche.",
     "watch_not_allowed": "L'observation des tâches n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, vous devez passer à un siège premium (<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
-    "repeat_set_monthly": "La tâche **{{id}}** {{title, length100}} se répétera désormais tous les mois au {{repeat_day_of_month}}, à partir de {{start_date}} et jusqu'à {{end_date}}. Lorsque la tâche est marquée comme terminée, elle sera remise dans la liste des tâches à faire à la prochaine date de répétition."
+    "repeat_set_monthly": "La tâche **{{id}}** {{title, length100}} se répétera désormais tous les mois au {{repeat_day_of_month}}, à partir de {{start_date}} et jusqu'à {{end_date}}. Lorsque la tâche est marquée comme terminée, elle sera remise dans la liste des tâches à faire à la prochaine date de répétition.",
+    "milestone_not_in_project": "Le jalon **{{name}}** ne se trouve pas dans le projet **{{project}}**, où se trouve la tâche. Utilisez \"/milestone list\" pour répertorier tous les jalons du projet ou \"/milestone create\" pour en créer un nouveau.",
+    "milestone_not_set": "Impossible de supprimer le jalon de la tâche **{{id}}**, car il n'est pas défini.",
+    "milestone_removed": "Le jalon a été supprimé de la tâche **{{id}}**."
   },
   "milestone": {
     "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",
@@ -266,7 +269,8 @@
     "no_changes": "Aucune modification n'a été apportée au jalon **{{name}}**.",
     "edited": "Le jalon **{{name}}** a été modifié.",
     "list_title": "# Jalons dans le projet **{{project}}**:",
-    "list_tasks_done": "({{done}}/{{total}} tâches effectuées ({{percentage}}%))"
+    "list_tasks_done": "({{done}}/{{total}} tâches effectuées ({{percentage}}%))",
+    "list_no_milestones": "Il n'y a pas de jalons dans le projet **{{project}}**. Utilisez la commande \"/milestone create\" pour créer un nouveau jalon."
   },
   "topic": {
     "not_found": "Le sujet sélectionné n'a pas été trouvé. Utilisez \"/topic list\" pour lister tous les sujets disponibles ou créez-en un nouveau avec \"/topic create\".",

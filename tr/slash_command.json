@@ -106,7 +106,8 @@
     "detach_subcommand_description": "Bir dosyayı bir görevden ayır",
     "attachments_subcommand_description": "Bir görevin tüm eklerini listele",
     "watch_subcommand_description": "Bir görevi izle",
-    "unwatch_subcommand_description": "Bir görevi izlemeyi bırak"
+    "unwatch_subcommand_description": "Bir görevi izlemeyi bırak",
+    "milestone_subcommand_description": "Bir görevin kilometre taşını ayarlayın"
   },
   "milestone": {
     "command_description": "Kilometre taşlarını yönet",

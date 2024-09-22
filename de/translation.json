@@ -253,7 +253,10 @@
     "not_watching": "Sie beobachten die Aufgabe **{{id}}** nicht.",
     "unwatched_success": "Sie beobachten die Aufgabe **{{id}}** nicht mehr und werden nicht über Änderungen an dieser Aufgabe benachrichtigt.",
     "watch_not_allowed": "Das Beobachten von Aufgaben ist nur für Benutzer mit Premium-Mitgliedschaft verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premium-Platz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
-    "repeat_set_monthly": "Die Aufgabe **{{id}}** {{title, length100}} wird nun jeden Monat am {{repeat_day_of_month}} wiederholt, beginnend mit {{start_date}} und endend mit {{end_date}}. Wenn die Aufgabe als erledigt markiert ist, wird sie bei Erreichen des nächsten Wiederholungsdatums wieder auf „Zu erledigen“ gesetzt."
+    "repeat_set_monthly": "Die Aufgabe **{{id}}** {{title, length100}} wird nun jeden Monat am {{repeat_day_of_month}} wiederholt, beginnend mit {{start_date}} und endend mit {{end_date}}. Wenn die Aufgabe als erledigt markiert ist, wird sie bei Erreichen des nächsten Wiederholungsdatums wieder auf „Zu erledigen“ gesetzt.",
+    "milestone_not_in_project": "Der Meilenstein **{{name}}** befindet sich nicht im Projekt **{{project}}**, in dem sich die Aufgabe befindet. Verwenden Sie \"/milestone list\", um alle Meilensteine im Projekt aufzulisten, oder \"/milestone create\", um einen neuen zu erstellen.",
+    "milestone_not_set": "Der Meilenstein konnte nicht aus der Aufgabe **{{id}}** entfernt werden, da er nicht festgelegt ist.",
+    "milestone_removed": "Der Meilenstein wurde aus der Aufgabe **{{id}}** entfernt."
   },
   "milestone": {
     "not_found": "Der Meilenstein **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/milestone list\", um alle Meilensteine aufzulisten.",
@@ -266,7 +269,8 @@
     "no_changes": "Es wurden keine Änderungen am Meilenstein **{{name}}** vorgenommen.",
     "edited": "Der Meilenstein **{{name}}** wurde bearbeitet.",
     "list_title": "# Meilensteine im Projekt **{{project}}**:",
-    "list_tasks_done": "({{done}}/{{total}} Aufgaben erledigt ({{percentage}}%))"
+    "list_tasks_done": "({{done}}/{{total}} Aufgaben erledigt ({{percentage}}%))",
+    "list_no_milestones": "Es gibt keine Meilensteine ​​im Projekt **{{project}}**. Verwenden Sie den Befehl \"/milestone create\", um einen neuen Meilenstein zu erstellen."
   },
   "topic": {
     "not_found": "Das ausgewählte Thema wurde nicht gefunden. Verwenden Sie \"/topic list\", um alle verfügbaren Themen aufzulisten, oder erstellen Sie ein neues Thema mit \"/topic create\".",

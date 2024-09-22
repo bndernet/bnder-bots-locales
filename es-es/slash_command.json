@@ -106,7 +106,8 @@
     "detach_subcommand_description": "Separar un archivo de una tarea",
     "attachments_subcommand_description": "Listar todos los adjuntos de una tarea",
     "watch_subcommand_description": "Seguir o dejar de seguir una tarea",
-    "unwatch_subcommand_description": "Dejar de seguir una tarea"
+    "unwatch_subcommand_description": "Dejar de seguir una tarea",
+    "milestone_subcommand_description": "Establecer el hito de una tarea"
   },
   "milestone": {
     "command_description": "Administrar hitos",

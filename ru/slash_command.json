@@ -106,7 +106,8 @@
     "detach_subcommand_description": "Отсоединить файл от задачи",
     "attachments_subcommand_description": "Перечислить все вложения задачи",
     "watch_subcommand_description": "Следить за задачей",
-    "unwatch_subcommand_description": "Прекратить следить за задачей"
+    "unwatch_subcommand_description": "Прекратить следить за задачей",
+    "milestone_subcommand_description": "Установить веху задачи"
   },
   "milestone": {
     "command_description": "Управление вехами",

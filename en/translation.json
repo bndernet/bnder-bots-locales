@@ -253,7 +253,10 @@
     "not_watching": "You are not watching the task **{{id}}**.",
     "unwatched_success": "You are no longer watching the task **{{id}}** and will not get notified about changes to this task.",
     "watch_not_allowed": "Watching tasks is only available to users in premium seats. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about premium at https://bnder.net/pricing.",
-    "repeat_set_monthly": "The task **{{id}}** {{title, length100}} will now repeat every month at the {{repeat_day_of_month}}., starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to todo when the next repeating date is reached."
+    "repeat_set_monthly": "The task **{{id}}** {{title, length100}} will now repeat every month at the {{repeat_day_of_month}}., starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to todo when the next repeating date is reached.",
+    "milestone_not_in_project": "The milestone **{{name}}** is not in the project **{{project}}**, where the task is in. Use \"/milestone list\" to list all milestones in the project or \"/milestone create\" to create a new one.",
+    "milestone_not_set": "Could not remove the milestone from the task **{{id}}**, because it is not set.",
+    "milestone_removed": "The milestone was removed from the task **{{id}}**."
   },
   "milestone": {
     "not_found": "The milestone **{{name}}** could not be found. Use \"/milestone list\" to list all milestones.",
@@ -266,7 +269,8 @@
     "no_changes": "No changes were made to the milestone **{{name}}**.",
     "edited": "The milestone **{{name}}** has been edited.",
     "list_title": "# Milestones in project **{{project}}**:",
-    "list_tasks_done": "({{done}}/{{total}} tasks done ({{percentage}}%))"
+    "list_tasks_done": "({{done}}/{{total}} tasks done ({{percentage}}%))",
+    "list_no_milestones": "There are no milestones in the project **{{project}}**. Use the command \"/milestone create\" to create a new milestone.",
   },
   "topic": {
     "not_found": "The selected topic was not found. Use \"/topic list\" to list all available topics or create a new one with \"/topic create\".",

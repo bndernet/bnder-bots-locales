@@ -106,7 +106,8 @@
     "detach_subcommand_description": "Eine Datei von einer Aufgabe abtrennen",
     "attachments_subcommand_description": "Alle Anhänge einer Aufgabe auflisten",
     "watch_subcommand_description": "Eine Aufgabe beobachten",
-    "unwatch_subcommand_description": "Eine Aufgabe nicht mehr beobachten"
+    "unwatch_subcommand_description": "Eine Aufgabe nicht mehr beobachten",
+    "milestone_subcommand_description": "Meilenstein einer Aufgabe festlegen"
   },
   "milestone": {
     "command_description": "Meilensteine verwalten",

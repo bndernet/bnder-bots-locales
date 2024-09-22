@@ -106,7 +106,8 @@
     "detach_subcommand_description": "Detach a file from a task",
     "attachments_subcommand_description": "List all attachments of a task",
     "watch_subcommand_description": "Watch a task",
-    "unwatch_subcommand_description": "Unwatch a task"
+    "unwatch_subcommand_description": "Unwatch a task",
+    "milestone_subcommand_description": "Set the milestone of a task"
   },
   "milestone": {
     "command_description": "Manage milestones",

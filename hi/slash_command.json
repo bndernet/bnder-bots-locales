@@ -106,7 +106,8 @@
     "detach_subcommand_description": "कार्य से फ़ाइल अलग करें",
     "attachments_subcommand_description": "किसी कार्य के सभी अनुलग्नकों की सूची बनाएं",
     "watch_subcommand_description": "किसी कार्य को देखना शुरू करें",
-    "unwatch_subcommand_description": "किसी कार्य को देखना बंद करें"
+    "unwatch_subcommand_description": "किसी कार्य को देखना बंद करें",
+    "milestone_subcommand_description": "किसी कार्य का माइलस्टोन सेट करें"
   },
   "milestone": {
     "command_description": "मील का पत्थर प्रबंधित करें",
