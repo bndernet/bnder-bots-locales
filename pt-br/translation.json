@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "O nome do rótulo é muito longo. Por favor, reduza-o para {{max}} caracteres",
-    "max_amount_of_labels_reached": "Você atingiu a quantidade máxima ({{max}}) de etiquetas para sua guilda. Exclua um rótulo antes de criar um novo.",
+    "max_amount_of_labels_reached": "Você atingiu a quantidade máxima ({{max}}) de rótulos para sua guilda. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para criar mais rótulos. Saiba mais sobre premium em https://bnder.net/pricing.",
     "already_exists": "Um rótulo com o nome **{{name}}** já existe.",
     "color_not_supported": "A cor **{{color}}** não é compatível. Por favor, use uma das seguintes: {{colors}}",
     "created": "O rótulo **{{name}}** foi criado. Agora você pode adicioná-lo a objetos com o comando \"/label add\".",

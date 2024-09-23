@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "Etiket adı çok uzun. Lütfen {{max}} karaktere kısaltın.",
-    "max_amount_of_labels_reached": "Loncanız için maksimum etiket miktarına ({{max}}) ulaştınız. Lütfen yeni bir etiket oluşturmadan önce bir etiketi silin.",
+    "max_amount_of_labels_reached": "Loncanız için maksimum etiket sayısına ({{max}}) ulaştınız. Daha fazla etiket oluşturmak için [Lütfen premium koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Premium hakkında daha fazla bilgi edinmek için https://bnder.net/pricing adresini ziyaret edin.",
     "already_exists": "**{{name}}** adında bir etiket zaten mevcut.",
     "color_not_supported": "**{{color}} rengi desteklenmiyor. Lütfen aşağıdakilerden birini kullanın: {{colors}}",
     "created": "**{{name}}** etiketi oluşturuldu. Artık \"/label add\" komutu ile nesnelere ekleyebilirsiniz.",

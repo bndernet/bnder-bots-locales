@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "Der Name des Etiketts ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
-    "max_amount_of_labels_reached": "Du hast die maximale Anzahl ({{max}}) von Labels für deine Gilde erreicht. Bitte lösche ein Label, bevor du ein neues erstellst.",
+    "max_amount_of_labels_reached": "Sie haben die maximale Anzahl ({{max}}) an Labels für Ihre Gilde erreicht. [Bitte upgraden Sie auf einen Premium-Sitz](<https://bnder.net/p/{{guildId}}>), um weitere Labels zu erstellen. Weitere Informationen zu Premium finden Sie unter https://bnder.net/pricing.",
     "already_exists": "Ein Label mit dem Namen **{{name}}** existiert bereits.",
     "color_not_supported": "Die Farbe **{{color}}** wird nicht unterstützt. Bitte verwenden Sie eine der folgenden Farben: {{colors}}",
     "created": "Das Label **{{name}}** wurde erstellt. Sie können es jetzt mit dem Befehl \"/label add\" zu Objekten hinzufügen.",

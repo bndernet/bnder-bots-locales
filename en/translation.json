@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "The label name is too long. Please shorten it to {{max}} characters.",
-    "max_amount_of_labels_reached": "You have reached the maximum amount ({{max}}) of labels for your guild. Please delete a label before creating a new one.",
+    "max_amount_of_labels_reached": "You have reached the maximum amount ({{max}}) of labels for your guild. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to create more labels. Learn more about premium at https://bnder.net/pricing.",
     "already_exists": "A label with the name **{{name}}** already exists.",
     "color_not_supported": "The color **{{color}}** is not supported. Please use one of the following: {{colors}}",
     "created": "The label **{{name}}** has been created. You can now add it to objects with the command \"/label add\".",

@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "Le nom de l'étiquette est trop long. Veuillez le raccourcir à {{max}} caractères",
-    "max_amount_of_labels_reached": "Vous avez atteint la quantité maximale ({{max}}) de labels pour votre guilde. Veuillez supprimer un label avant d'en créer un nouveau.",
+    "max_amount_of_labels_reached": "Vous avez atteint le nombre maximum ({{max}}) d'étiquettes pour votre guilde. [Veuillez passer à un siège premium](<https://bnder.net/p/{{guildId}}>) pour créer plus d'étiquettes. Pour en savoir plus sur le premium, consultez https://bnder.net/pricing.",
     "already_exists": "Un label portant le nom **{{name}}** existe déjà",
     "color_not_supported": "La couleur **{{color}}** n'est pas prise en charge. Veuillez utiliser l'une des couleurs suivantes : {{colors}}",
     "created": "L'étiquette **{{name}}** a été créée. Vous pouvez maintenant l'ajouter aux objets à l'aide de la commande \"/label add\".",

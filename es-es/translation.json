@@ -357,7 +357,7 @@
   },
   "label": {
     "name_too_long": "El nombre de la etiqueta es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
-    "max_amount_of_labels_reached": "Has alcanzado la cantidad máxima ({{max}}) de etiquetas para tu gremio. Por favor, elimina una etiqueta antes de crear una nueva.",
+    "max_amount_of_labels_reached": "Has alcanzado la cantidad máxima ({{max}}) de etiquetas para tu gremio. [Actualiza a un nivel premium](<https://bnder.net/p/{{guildId}}>) para crear más etiquetas. Obtén más información sobre el nivel premium en https://bnder.net/pricing.",
     "already_exists": "Ya existe una etiqueta con el nombre **{{name}}**",
     "color_not_supported": "El color **{{color}}** no es compatible. Utilice uno de los siguientes: {{colors}}",
     "created": "La etiqueta **{{name}}** ha sido creada. Ahora puede añadirla a los objetos con el comando \"/label add\".",
