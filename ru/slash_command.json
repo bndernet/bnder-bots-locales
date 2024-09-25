@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Перечислить все вложения задачи",
     "watch_subcommand_description": "Следить за задачей",
     "unwatch_subcommand_description": "Прекратить следить за задачей",
-    "milestone_subcommand_description": "Установить веху задачи"
+    "milestone_subcommand_description": "Установить веху задачи",
+    "milestone_option_description": "Веха, которую следует установить для задачи"
   },
   "milestone": {
     "command_description": "Управление вехами",

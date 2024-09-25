@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Liste de toutes les pièces jointes d'une tâche",
     "watch_subcommand_description": "Suivre ou arrêter de suivre une tâche",
     "unwatch_subcommand_description": "Arrêter de suivre une tâche",
-    "milestone_subcommand_description": "Définir le jalon d'une tâche"
+    "milestone_subcommand_description": "Définir le jalon d'une tâche",
+    "milestone_option_description": "Jalon à définir pour la tâche"
   },
   "milestone": {
     "command_description": "Gérer les jalons",

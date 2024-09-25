@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Bir görevin tüm eklerini listele",
     "watch_subcommand_description": "Bir görevi izle",
     "unwatch_subcommand_description": "Bir görevi izlemeyi bırak",
-    "milestone_subcommand_description": "Bir görevin kilometre taşını ayarlayın"
+    "milestone_subcommand_description": "Bir görevin kilometre taşını ayarlayın",
+    "milestone_option_description": "Görev için ayarlanacak kilometre taşı"
   },
   "milestone": {
     "command_description": "Kilometre taşlarını yönet",

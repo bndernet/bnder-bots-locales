@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Listar todos os anexos de uma tarefa",
     "watch_subcommand_description": "Assistir a uma tarefa",
     "unwatch_subcommand_description": "Parar de assistir a uma tarefa",
-    "milestone_subcommand_description": "Defina o marco de uma tarefa"
+    "milestone_subcommand_description": "Defina o marco de uma tarefa",
+    "milestone_option_description": "Marco a ser definido para a tarefa"
   },
   "milestone": {
     "command_description": "Gerenciar marcos",

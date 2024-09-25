@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Списък с всички прикачени файлове на задачата",
     "watch_subcommand_description": "Следете задача за промени",
     "unwatch_subcommand_description": "Прекратяване на следенето на задача за промени",
-    "milestone_subcommand_description": "Задайте крайъгълен камък на задача"
+    "milestone_subcommand_description": "Задайте крайъгълен камък на задача",
+    "milestone_option_description": "Важен етап за задаване на задачата"
   },
   "milestone": {
     "command_description": "Управление на важни етапи",

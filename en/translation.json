@@ -256,7 +256,8 @@
     "repeat_set_monthly": "The task **{{id}}** {{title, length100}} will now repeat every month at the {{repeat_day_of_month}}., starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to todo when the next repeating date is reached.",
     "milestone_not_in_project": "The milestone **{{name}}** is not in the project **{{project}}**, where the task is in. Use \"/milestone list\" to list all milestones in the project or \"/milestone create\" to create a new one.",
     "milestone_not_set": "Could not remove the milestone from the task **{{id}}**, because it is not set.",
-    "milestone_removed": "The milestone was removed from the task **{{id}}**."
+    "milestone_removed": "The milestone was removed from the task **{{id}}**.",
+    "deadline_not_set": "There is no deadline set for the task **{{id}}**. Use \"/task deadline\" to set a deadline by providing it in the command."
   },
   "milestone": {
     "not_found": "The milestone **{{name}}** could not be found. Use \"/milestone list\" to list all milestones.",
@@ -465,8 +466,8 @@
     "created": "The event **{{name}}** has been created with id **{{id}}** from {{start}} to {{end}}. Use \"/event invite\" to invite others to this event.",
     "accept_not_invited": "The event **{{id}}** could not be accepted because you are not invited. Use \"/event list\" to list all events or create a new one with \"/event create\".",
     "not_invited": "You are not invited to the event **{{id}}**. If you are the creator, use \"/event delete\" to delete the event.",
-    "accepted": "You have accepted the invitation to the event **{{id}}**.",
-    "accept_dm": "<@{{invitee}}> has accepted your invitation to the event **{{id}}**.",
+    "accepted": "You have accepted the invitation to the event **{{id}}** {{title}}.",
+    "accept_dm": "<@{{invitee}}> has accepted your invitation to the event **{{id}}** {{title}}.",
     "delete_creator_error": "You can't delete an event you are not the creator of.",
     "delete_confirm": "Are you sure you want to delete the event **{{id}}**?",
     "invite_denied": "You have denied the invitation to the event **{{id}}**.",
@@ -475,7 +476,7 @@
     "invite_creator_error": "You can't invite users to an event you are not the creator of.",
     "invite_self_creator_error": "You can't invite yourself to an event you are the creator of.",
     "invite_already_invited": "The user <@{{user}}> is already invited to the event **{{id}}**.",
-    "invite_limit_reached": "You have reached the maximum amount ({{max}}) of invites for the event **{{id}}**.",
+    "invite_limit_reached": "You have reached the maximum amount ({{max}}) of invites for the event **{{id}}**. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to invite more users. Learn more about premium at https://bnder.net/pricing.",
     "invite_success": "The user <@{{user}}> has been invited to the event **{{id}}**.",
     "already_accepted": "You have already accepted the invitation to the event **{{id}}**.",
     "already_denied": "You have already denied the invitation to the event **{{id}}**.",

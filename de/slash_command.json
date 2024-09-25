@@ -107,7 +107,8 @@
     "attachments_subcommand_description": "Alle Anhänge einer Aufgabe auflisten",
     "watch_subcommand_description": "Eine Aufgabe beobachten",
     "unwatch_subcommand_description": "Eine Aufgabe nicht mehr beobachten",
-    "milestone_subcommand_description": "Meilenstein einer Aufgabe festlegen"
+    "milestone_subcommand_description": "Meilenstein einer Aufgabe festlegen",
+    "milestone_option_description": "Für die Aufgabe festzulegender Meilenstein"
   },
   "milestone": {
     "command_description": "Meilensteine verwalten",
