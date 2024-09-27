@@ -333,7 +333,7 @@
   "object_not_found": "No se ha podido encontrar el objeto con el id **{{id}}**",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarea vinculada {{id}}",
-  "invalid_id_format": "El identificador introducido no es válido. Los identificadores de [tareas](<https://bnder.net/help/task/tasks>), [documentos](<https://bnder.net/help/knowledge/documents>) y [eventos](<https://bnder.net/help/calendar/events>) sólo deben contener números.",
+  "invalid_id_format": "El identificador introducido no es válido. Los identificadores de [tareas](<https://bnder.net/help/tasks>), [documentos](<https://bnder.net/help/documents>) y [eventos](<https://bnder.net/help/events>) sólo deben contener números.",
   "delete_instantly_button": "Borrar inmediatamente",
   "times": {
     "singleMinute": "minuto",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "La url del webhook introducida no es válida. Por favor, introduzca una url de webhook de Discord válida, que empiece por \"https://discord.com/api/webhooks/\".",
-      "url_set": "La URL del Webhook ha sido configurada. Se ha enviado un mensaje de prueba, comprueba tu canal de Discordia para ver si ha funcionado. Si no, consulta nuestra página de ayuda en https://bnder.net/help/task/advanced/logging para obtener más información.",
+      "url_set": "La URL del Webhook ha sido configurada. Se ha enviado un mensaje de prueba, comprueba tu canal de Discordia para ver si ha funcionado. Si no, consulta nuestra página de ayuda en https://bnder.net/help/advanced/logging para obtener más información.",
       "url_removed": "La URL Webhook ha sido eliminada y el registro está desactivado.",
       "test_title": "Mensaje de prueba",
       "test_description": "Este es un mensaje de prueba para comprobar si la url del webhook es válida. Si ves este mensaje, todo funciona correctamente.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "Se canceló la eliminación de la url del webhook."
     },
     "auto_labeling": {
-      "enabled": "El etiquetado automático ya está habilitado. Para crear una nueva etiqueta, utilice el comando \"/label create\". Para obtener más información sobre el etiquetado automático, visite https://bnder.net/help/task/labels.",
+      "enabled": "El etiquetado automático ya está habilitado. Para crear una nueva etiqueta, utilice el comando \"/label create\". Para obtener más información sobre el etiquetado automático, visite https://bnder.net/help/labels.",
       "disabled": "El etiquetado automático está ahora deshabilitado."
     },
     "language": {

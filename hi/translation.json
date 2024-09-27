@@ -333,7 +333,7 @@
   "object_not_found": "**{{id}}** आईडी वाला ऑब्जेक्ट नहीं मिल सका।",
   "resolved_document": "लिंक किया गया दस्तावेज़ {{id}}",
   "resolved_task": "लिंक किया गया कार्य {{id}}",
-  "invalid_id_format": "दर्ज की गई आईडी अमान्य है। [कार्य](<https://bnder.net/help/task/tasks>), [दस्तावेज़](<https://bnder.net/help/knowledge/documents>) और [ईवेंट](<https://bnder.net/help/calendar/events>) की आईडी में केवल संख्याएँ होनी चाहिए।",
+  "invalid_id_format": "दर्ज की गई आईडी अमान्य है। [कार्य](<https://bnder.net/help/tasks>), [दस्तावेज़](<https://bnder.net/help/documents>) और [ईवेंट](<https://bnder.net/help/events>) की आईडी में केवल संख्याएँ होनी चाहिए।",
   "delete_instantly_button": "तुरंत हटाएं",
   "times": {
     "singleMinute": "मिनट",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "दर्ज किया गया वेबहुक url अमान्य है। कृपया \"https://discord.com/api/webhooks/\" से शुरू होने वाला एक वैध डिस्कॉर्ड वेबहुक url दर्ज करें।",
-      "url_set": "वेबहुक URL सेट कर दिया गया है। एक परीक्षण संदेश भेजा गया है, यह देखने के लिए कि क्या यह काम करता है, अपने डिस्कॉर्ड चैनल की जाँच करें। अन्यथा, अधिक जानकारी के लिए https://bnder.net/help/task/advanced/logging पर हमारे सहायता पृष्ठ देखें।",
+      "url_set": "वेबहुक URL सेट कर दिया गया है। एक परीक्षण संदेश भेजा गया है, यह देखने के लिए कि क्या यह काम करता है, अपने डिस्कॉर्ड चैनल की जाँच करें। अन्यथा, अधिक जानकारी के लिए https://bnder.net/help/advanced/logging पर हमारे सहायता पृष्ठ देखें।",
       "url_removed": "वेबहुक URL हटा दिया गया है और लॉगिंग अब अक्षम है।",
       "test_title": "परीक्षण संदेश",
       "test_description": "यह जांचने के लिए एक परीक्षण संदेश है कि वेबहुक url मान्य है या नहीं। यदि आप यह संदेश देखते हैं, तो सब कुछ ठीक काम कर रहा है।",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "वेबहुक url को हटाना रद्द कर दिया गया था।"
     },
     "auto_labeling": {
-      "enabled": "ऑटो लेबलिंग अब सक्षम है। एक नया लेबल बनाने के लिए, \"/label create\" कमांड का उपयोग करें। ऑटो लेबलिंग के बारे में अधिक जानने के लिए, https://bnder.net/help/task/labels पर जाएँ।",
+      "enabled": "ऑटो लेबलिंग अब सक्षम है। एक नया लेबल बनाने के लिए, \"/label create\" कमांड का उपयोग करें। ऑटो लेबलिंग के बारे में अधिक जानने के लिए, https://bnder.net/help/labels पर जाएँ।",
       "disabled": "ऑटो लेबलिंग अब अक्षम है।"
     },
     "language": {

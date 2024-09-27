@@ -333,7 +333,7 @@
   "object_not_found": "**{{id}}** kimliğine sahip nesne bulunamadı.",
   "resolved_document": "Bağlantılı Belge {{id}}",
   "resolved_task": "Bağlantılı Görev {{id}}",
-  "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/task/tasks>), [belgeler](<https://bnder.net/help/knowledge/documents>) ve [olaylar](<https://bnder.net/help/calendar/events>) için kimlikler yalnızca sayı içermelidir.",
+  "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/tasks>), [belgeler](<https://bnder.net/help/documents>) ve [olaylar](<https://bnder.net/help/events>) için kimlikler yalnızca sayı içermelidir.",
   "delete_instantly_button": "Hemen sil",
   "times": {
     "singleMinute": "dakika",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "Girilen web kancası URL'si geçersiz. Lütfen \"https://discord.com/api/webhooks/\" ile başlayan geçerli bir Discord webhook url'si girin.",
-      "url_set": "Webhook URL'si ayarlandı. Bir test mesajı gönderildi, çalışıp çalışmadığını görmek için Discord kanalınızı kontrol edin. Aksi takdirde, daha fazla bilgi için https://bnder.net/help/task/advanced/logging adresindeki yardım sayfamızı kontrol edin.",
+      "url_set": "Webhook URL'si ayarlandı. Bir test mesajı gönderildi, çalışıp çalışmadığını görmek için Discord kanalınızı kontrol edin. Aksi takdirde, daha fazla bilgi için https://bnder.net/help/advanced/logging adresindeki yardım sayfamızı kontrol edin.",
       "url_removed": "Web kancası URL'si kaldırıldı ve günlük kaydı artık devre dışı bırakıldı.",
       "test_title": "Test mesajı",
       "test_description": "Bu, web kancası URL'sinin geçerli olup olmadığını kontrol etmek için bir test mesajıdır. Bu mesajı görüyorsanız, her şey yolunda gidiyor demektir.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "Web kancası url'sinin kaldırılması iptal edildi."
     },
     "auto_labeling": {
-      "enabled": "Otomatik etiketleme artık etkin. Yeni bir etiket oluşturmak için \"/label create\" komutunu kullanın. Otomatik etiketleme hakkında daha fazla bilgi edinmek için https://bnder.net/help/task/labels adresini ziyaret edin.",
+      "enabled": "Otomatik etiketleme artık etkin. Yeni bir etiket oluşturmak için \"/label create\" komutunu kullanın. Otomatik etiketleme hakkında daha fazla bilgi edinmek için https://bnder.net/help/labels adresini ziyaret edin.",
       "disabled": "Otomatik etiketleme artık devre dışı."
     },
     "language": {

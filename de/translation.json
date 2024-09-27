@@ -333,7 +333,7 @@
   "object_not_found": "Das Objekt mit der ID **{{id}}** konnte nicht gefunden werden.",
   "resolved_document": "Verknüpftes Dokument {{id}}",
   "resolved_task": "Verknüpfte Aufgabe {{id}}",
-  "invalid_id_format": "Die eingegebene ID ist ungültig. Ids für [Aufgaben](<https://bnder.net/help/task/tasks>), [Dokumente](<https://bnder.net/help/knowledge/documents>) und [Ereignisse](<https://bnder.net/help/calendar/events>) sollten nur Zahlen enthalten.",
+  "invalid_id_format": "Die eingegebene ID ist ungültig. Ids für [Aufgaben](<https://bnder.net/help/tasks>), [Dokumente](<https://bnder.net/help/documents>) und [Ereignisse](<https://bnder.net/help/events>) sollten nur Zahlen enthalten.",
   "delete_instantly_button": "Sofort löschen",
   "times": {
     "singleMinute": "Minute",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "Die eingegebene Webhook-URL ist ungültig. Bitte geben Sie eine gültige Discord-Webhook-URL ein, die mit \"https://discord.com/api/webhooks/\" beginnt.",
-      "url_set": "Die Webhook-URL wurde festgelegt. Es wurde eine Testnachricht gesendet. Überprüfen Sie in Ihrem Discord-Kanal, ob sie funktioniert hat. Ansonsten finden Sie weitere Informationen auf unserer Hilfeseite unter https://bnder.net/help/task/advanced/logging.",
+      "url_set": "Die Webhook-URL wurde festgelegt. Es wurde eine Testnachricht gesendet. Überprüfen Sie in Ihrem Discord-Kanal, ob sie funktioniert hat. Ansonsten finden Sie weitere Informationen auf unserer Hilfeseite unter https://bnder.net/help/advanced/logging.",
       "url_removed": "Die Webhook-URL wurde entfernt und die Protokollierung ist nun deaktiviert.",
       "test_title": "Testnachricht",
       "test_description": "Dies ist eine Testmeldung, um zu prüfen, ob die Webhook-Url gültig ist. Wenn Sie diese Meldung sehen, funktioniert alles einwandfrei.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "Die Entfernung der Webhook-Url wurde abgebrochen."
     },
     "auto_labeling": {
-      "aktiviert": "Auto labeling ist jetzt aktiviert. Um ein neues Label zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/task/labels.",
+      "aktiviert": "Auto labeling ist jetzt aktiviert. Um ein neues Label zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels.",
       "disabled": "Auto labeling ist jetzt deaktiviert."
     },
     "language": {

@@ -333,7 +333,7 @@
   "object_not_found": "The object with the id **{{id}}** could not be found.",
   "resolved_document": "Linked Document {{id}}",
   "resolved_task": "Linked Task {{id}}",
-  "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/task/tasks>), [documents](<https://bnder.net/help/knowledge/documents>) and [events](<https://bnder.net/help/calendar/events>) should contain only numbers.",
+  "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/tasks>), [documents](<https://bnder.net/help/documents>) and [events](<https://bnder.net/help/events>) should contain only numbers.",
   "delete_instantly_button": "Delete immediately",
   "times": {
     "singleMinute": "minute",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "The entered webhook url is invalid. Please enter a valid Discord webhook url, starting with \"https://discord.com/api/webhooks/\".",
-      "url_set": "The Webhook URL has been set. A test message has been sent, check your Discord channel to see if it worked. Otherwise, check our help page at https://bnder.net/help/task/advanced/logging for more information.",
+      "url_set": "The Webhook URL has been set. A test message has been sent, check your Discord channel to see if it worked. Otherwise, check our help page at https://bnder.net/help/advanced/logging for more information.",
       "url_removed": "The Webhook URL has been removed and logging is now disabled.",
       "test_title": "Test message",
       "test_description": "This is a test message to check if the webhook url is valid. If you see this message, everything is working fine.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "The removal of the webhook url was canceled."
     },
     "auto_labeling": {
-      "enabled": "Auto labeling is now enabled. To create a new label, use the command \"/label create\". To learn more about auto labeling, visit https://bnder.net/help/task/labels.",
+      "enabled": "Auto labeling is now enabled. To create a new label, use the command \"/label create\". To learn more about auto labeling, visit https://bnder.net/help/labels.",
       "disabled": "Auto labeling is now disabled."
     },
     "language": {

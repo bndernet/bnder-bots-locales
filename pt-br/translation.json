@@ -333,7 +333,7 @@
   "object_not_found": "O objeto com o id **{{id}}** não pôde ser encontrado.",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarefa vinculada {{id}}",
-  "invalid_id_format": "O ID inserido é inválido. Os ids para [Tarefas](<https://bnder.net/help/task/tasks>), [documentos](<https://bnder.net/help/knowledge/documents>) e [eventos](<https://bnder.net/help/calendar/events>) devem conter apenas números.",
+  "invalid_id_format": "O ID inserido é inválido. Os ids para [Tarefas](<https://bnder.net/help/tasks>), [documentos](<https://bnder.net/help/documents>) e [eventos](<https://bnder.net/help/events>) devem conter apenas números.",
   "delete_instantly_button": "Excluir imediatamente",
   "times": {
     "singleMinute": "minuto",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "O URL do webhook inserido é inválido. Digite um URL de webhook Discord válido, começando com \"https://discord.com/api/webhooks/\".",
-      "url_set": "O URL do webhook foi definido. Uma mensagem de teste foi enviada, verifique seu canal do Discord para ver se funcionou. Caso contrário, consulte nossa página de ajuda em https://bnder.net/help/task/advanced/logging para obter mais informações.",
+      "url_set": "O URL do webhook foi definido. Uma mensagem de teste foi enviada, verifique seu canal do Discord para ver se funcionou. Caso contrário, consulte nossa página de ajuda em https://bnder.net/help/advanced/logging para obter mais informações.",
       "url_removed": "O URL do webhook foi removido e o registro está desativado.",
       "test_title": "Mensagem de teste",
       "test_description": "Esta é uma mensagem de teste para verificar se a url do webhook é válida. Se você vir essa mensagem, tudo está funcionando bem.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "A remoção do url do webhook foi cancelada."
     },
     "auto_labeling": {
-      "enabled": "A rotulagem automática agora está ativada. Para criar um novo rótulo, use o comando \"/label create\". Para saber mais sobre rotulagem automática, visite https://bnder.net/help/task/labels.",
+      "enabled": "A rotulagem automática agora está ativada. Para criar um novo rótulo, use o comando \"/label create\". Para saber mais sobre rotulagem automática, visite https://bnder.net/help/labels.",
       "disabled": "A rotulagem automática agora está desativada."
     },
     "language": {

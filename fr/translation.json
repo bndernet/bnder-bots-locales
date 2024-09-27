@@ -333,7 +333,7 @@
   "object_not_found": "L'objet avec l'identifiant **{{id}}** n'a pas pu être trouvé",
   "resolved_document": "Document lié {{id}}",
   "resolved_task": "Tâche liée {{id}}",
-  "invalid_id_format": "L'identifiant saisi n'est pas valide. Les identifiants des [tâches](<https://bnder.net/help/task/tasks>), [documents](<https://bnder.net/help/knowledge/documents>) et [événements](<https://bnder.net/help/calendar/events>) ne doivent contenir que des chiffres.",
+  "invalid_id_format": "L'identifiant saisi n'est pas valide. Les identifiants des [tâches](<https://bnder.net/help/tasks>), [documents](<https://bnder.net/help/documents>) et [événements](<https://bnder.net/help/events>) ne doivent contenir que des chiffres.",
   "delete_instantly_button": "Supprimer immédiatement",
   "times": {
     "singleMinute": "minute",
@@ -377,7 +377,7 @@
   "settings": {
     "logging_webhook": {
       "invalid_url": "L'adresse webhook saisie n'est pas valide. Veuillez saisir une url de webhook Discord valide, commençant par \"https://discord.com/api/webhooks/\".",
-      "url_set": "L'URL du Webhook a été définie. Un message test a été envoyé, vérifiez votre canal Discord pour voir s'il a fonctionné. Sinon, consultez notre page d'aide à l'adresse https://bnder.net/help/task/advanced/logging pour plus d'informations.",
+      "url_set": "L'URL du Webhook a été définie. Un message test a été envoyé, vérifiez votre canal Discord pour voir s'il a fonctionné. Sinon, consultez notre page d'aide à l'adresse https://bnder.net/help/advanced/logging pour plus d'informations.",
       "url_removed": "L'URL du Webhook a été supprimée et la journalisation est désormais désactivée.",
       "test_title": "Message de test",
       "test_description": "Il s'agit d'un message de test pour vérifier que l'url du webhook est valide. Si vous voyez ce message, tout fonctionne correctement.",
@@ -388,7 +388,7 @@
       "url_remove_canceled": "La suppression de l'url du webhook a été annulée."
     },
     "auto_labeling": {
-      "enabled": "L'étiquetage automatique est maintenant activé. Pour créer une nouvelle étiquette, utilisez la commande \"/label create\". Pour en savoir plus sur l'étiquetage automatique, consultez le site https://bnder.net/help/task/labels.",
+      "enabled": "L'étiquetage automatique est maintenant activé. Pour créer une nouvelle étiquette, utilisez la commande \"/label create\". Pour en savoir plus sur l'étiquetage automatique, consultez le site https://bnder.net/help/labels.",
       "disabled": "L'étiquetage automatique est maintenant désactivé."
     },
     "language": {
