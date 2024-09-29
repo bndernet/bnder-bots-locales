@@ -8,7 +8,7 @@
     "invite_text": "Botu bu bağlantı üzerinden sunucunuza davet edebilirsiniz:\n{{link}}",
     "button": "Davetiye"
   },
-  "no_permission": "Bu komutu çalıştırmak için **{{permission}}** izniniz eksik. Bir sunucu yöneticisi **/permission grant <@{{user_id}}> {{permission}}** komutunu kullanarak izin verebilir veya \"/permission preset\" aracılığıyla bir dizi izin uygulayabilir.",
+  "no_permission": "Bu komutu yürütmek için **{{permission}}** izniniz eksik. Bir sunucu yöneticisi **/permission grant <@{{user_id}}> {{permission}}** komutunu kullanarak izin verebilir veya \"/permission preset\" aracılığıyla bir dizi izin uygulayabilir.\n-# [İzin sistemi](https://bnder.net/help/permissions) hakkında daha fazla bilgi edinin.",
   "permission": {
     "granted_user": "<@{{user_id}}>'e global kapsam için **{{permission}} izni verildi.",
     "granted_user_project": "<@{{user_id}}>'e **{{project_name}}** projesi için **{{permission}}** izni verildi.",

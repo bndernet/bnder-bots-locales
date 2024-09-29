@@ -8,7 +8,7 @@
     "invite_text": "Du kannst den Bot über diesen Link zu deinem Server einladen:\n{{link}}",
     "button": "Einladen"
   },
-  "no_permission": "Ihnen fehlt die Berechtigung **{{permission}}** zur Ausführung dieses Befehls. Ein Serveradministrator kann die Berechtigung mit dem Befehl **/permission grant <@{{user_id}}> {{permission}}** erteilen oder eine Reihe von Berechtigungen über \"/permission preset\" anwenden.",
+  "no_permission": "Ihnen fehlt die Berechtigung **{{permission}}**, um diesen Befehl auszuführen. Ein Serveradministrator kann die Berechtigung mit dem Befehl **/permission grant <@{{user_id}}> {{permission}}** erteilen oder einen Satz von Berechtigungen über „/permission preset“ anwenden.\n-# Erfahren Sie mehr über das [Berechtigungssystem](https://bnder.net/help/permissions).",
   "permission": {
     "granted_user": "<@{{user_id}}> hat die Berechtigung **{{permission}}** für den globalen Bereich erhalten.",
     "granted_user_project": "<@{{user_id}}> hat die Berechtigung **{{permission}}** für das Projekt **{{project_name}}** erhalten.",

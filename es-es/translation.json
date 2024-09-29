@@ -8,7 +8,7 @@
     "invite_text": "Puedes invitar al bot a tu servidor a través de este enlace:\n{{link}}",
     "button": "Invite a"
   },
-  "no_permission": "Le falta el permiso **{{permission}}** para ejecutar este comando. Un administrador del servidor puede conceder permisos mediante el comando **/permission grant <@{{user_id}}> {{permission}}** o aplicar un conjunto de permisos mediante \"/permission preset\".",
+  "no_permission": "No tiene el permiso **{{permission}}** para ejecutar este comando. Un administrador de servidor puede otorgar permisos mediante el comando **/permission grant <@{{user_id}}> {{permission}}** o aplicar un conjunto de permisos mediante \"/permission preset\".\n-# Obtenga más información sobre el [sistema de permisos](https://bnder.net/help/permissions).",
   "permission": {
     "granted_user": "Se ha concedido a <@{{user_id}}> el permiso **{{permission}}** para el ámbito global.",
     "granted_user_project": "Se ha concedido a <@{{user_id}}> el permiso **{{permission}}** para el proyecto **{{project_name}}**",

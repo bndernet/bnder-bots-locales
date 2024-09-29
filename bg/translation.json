@@ -8,7 +8,7 @@
     "invite_text": "Можете да поканите бота на вашия сървър чрез тази връзка:\n{{link}}",
     "button": "Einladen"
   },
-  "no_permission": "Липсва ви разрешение **{{permission}}** за изпълнение на тази команда. Администраторът на сървъра може да даде разрешение чрез командата **/permission grant <@{{user_id}}> {{permission}}** или да приложи набор от разрешения чрез \"/permission preset\".",
+  "no_permission": "Липсва ви разрешение **{{permission}}** за изпълнение на тази команда. Администраторът на сървъра може да даде разрешение, като използва командата **/permission grant <@{{user_id}}> {{permission}}** или да приложи набор от разрешения чрез „/permission preset“.\n-# Научете повече за [системата за разрешения](https://bnder.net/help/permissions).",
   "permission": {
     "granted_user": "<@{{user_id}}> е получил разрешението **{{permission}}** за глобалния обхват.",
     "granted_user_project": "<@{{user_id}}> е получил разрешение **{{permission}}** за проекта **{{project_name}}**.",

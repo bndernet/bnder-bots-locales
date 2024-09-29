@@ -8,7 +8,7 @@
     "invite_text": "You can invite me to your server with this link:\n{{link}}",
     "button": "Invite"
   },
-  "no_permission": "You are missing permission **{{permission}}** to execute this command. A server administrator can grant permission by using the **/permission grant <@{{user_id}}> {{permission}}** command or apply a set of permissions via \"/permission preset\".",
+  "no_permission": "You are missing permission **{{permission}}** to execute this command. A server administrator can grant permission by using the **/permission grant <@{{user_id}}> {{permission}}** command or apply a set of permissions via \"/permission preset\".\n-# Learn more about the [permissions system](https://bnder.net/help/permissions).",
   "permission": {
     "granted_user": "<@{{user_id}}> has been granted the permission **{{permission}}** for the global scope.",
     "granted_user_project": "<@{{user_id}}> has been granted the permission **{{permission}}** for the project **{{project_name}}**.",
