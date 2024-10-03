@@ -94,7 +94,7 @@
     "already_assigned_role": "La tarea ya está asignada al rol.",
     "task_assigned_user": "La tarea **{{id}}** {{title, length100}} ha sido asignada al usuario <@{{user_id}}>. Aparecerá en la lista de tareas («/task list») de este usuario.",
     "task_assigned_role": "La tarea **{{id}}** {{title, length100}} ha sido asignada al rol <@&{{role_id}}>. Aparecerá en la lista de tareas (\"/task list\") de todos los usuarios con este rol.",
-    "task_done": "La tarea **{{id}}}** {{title, length100}} ya está hecha.",
+    "task_done": "La tarea **{{id}}** {{title, length100}} ya está hecha.",
     "info": {
       "id_headline": "Id",
       "text_headline": "Text",
@@ -145,7 +145,7 @@
     "unassigned": "No asignado",
     "task_already_done": "La tarea {{id}} ya está marcada como realizada.",
     "now_in_progress": "La tarea **{{id}}** {{title, length100}} está ahora en curso.",
-    "now_todo": "La tarea **{{id}}}** {{title, length100}} está ahora configurada para hacer.",
+    "now_todo": "La tarea **{{id}}** {{title, length100}} está ahora configurada para hacer.",
     "not_assigned_user": "La tarea no está asignada al usuario.",
     "not_assigned_role": "La tarea no está asignada al rol.",
     "task_unassigned_user": "La tarea {{id}} ya no está asignada al usuario <@{{user}}>.",
