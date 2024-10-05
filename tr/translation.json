@@ -82,7 +82,7 @@
     "delete_cancel": "Söndürme işlemi iptal edildi.",
     "text_too_long": "Metin çok uzun. Lütfen en fazla {{max}} kadar kısaltın karakterler.",
     "task_created": "Görev, {{project_name}} projesinde **{{task_id}}** kimliği ile oluşturulmuştur. Görevin her detayını görmek için \"/task info\" kullanın.",
-    "task_created_no_assignee": "Görev {{project_name}} projesinde **{{task_id}} kimliği ile oluşturuldu, ancak atanan kişi belirlenmedi. Göreve bir kullanıcı veya rol atamak için \"/task assign\" kullanın.",
+    "task_created_no_assignee": "Görev {{project_name}} projesinde **{{task_id}}** kimliği ile oluşturuldu, ancak atanan kişi belirlenmedi. Göreve bir kullanıcı veya rol atamak için \"/task assign\" kullanın.",
     "delete_button": "Görevi sil",
     "cancel_button": "İptal",
     "deletion_confirmation": "**{{task_id}}** görevini çöp kutusuna taşımak istediğinizden emin misiniz ({{delete_in_days}} gün sonra silinir)? Görevi anında silmeyi seçerseniz, eylem geri alınamaz.",
