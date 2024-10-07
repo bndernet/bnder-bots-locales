@@ -39,7 +39,7 @@
     "project_delete_confirm": "¿Estás seguro de que quieres borrar el proyecto **{{name}}** y todas sus tareas? Cuando mueves un proyecto a la papelera, tienes {{days}} días para restaurarlo. Después, se eliminará permanentemente.",
     "delete_cancelled": "Se ha cancelado la eliminación.",
     "deleted_ephemeral_message": "El proyecto **{{project_name}}** ha sido marcado como eliminado. Se eliminará permanentemente en {{days}} días. Si desea restaurarlo, utilice el comando \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Se ha eliminado el proyecto **{{project_name}}** y todas sus tareas.",
+    "deleted_immediate_ephemeral_message": "El proyecto **{{project_name}}** y todas sus [tareas](<https://bnder.net/help/tasks>), [temas](<https://bnder.net/help/topics>) y [documentos](<https://bnder.net/help/documents>) fueron eliminados.",
     "delete_button": "Mover el proyecto a la papelera",
     "cancel_button": "Cancelar",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} días",
@@ -503,7 +503,7 @@
     "step_timezone_country": "## Paso 3/{{steps}}: Zona horaria\n\nSeleccione la región en la que se encuentra para establecer la zona horaria correcta. Después puede seleccionar la zona horaria exacta. Esto se puede cambiar en cualquier momento con el comando \"/settings timezone\".",
     "step_timezone": "## Paso 3/{{steps}}: Zona horaria\n\nSeleccione la zona horaria exacta en la que se encuentra. Debido a limitaciones en Discord, no todas las zonas horarias se muestran aquí. Si no encuentra su zona horaria, utilice el comando \"/settings timezone\" y sáltese este paso.",
     "step_auto_labeling": "## Paso 4/{{steps}}: Autoetiquetado ¿Desea activar el autoetiquetado? Esto añadirá automáticamente etiquetas a las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_labeling\".",
-    "set_auto_priority": "## Paso 5/{{steps}}: Prioridad automática ¿Desea activar la prioridad automática? Esto establecerá automáticamente una prioridad para las tareas en función de su texto. Esto se puede cambiar en cada momento con el comando \"/settings auto_priority\".",
+    "step_auto_priority": "## Paso 5/{{steps}}: Prioridad automática\n\n¿Desea habilitar la prioridad automática para los usuarios en [asientos premium](<https://bnder.net/pricing>)? Esto establecerá automáticamente una prioridad para las tareas en función de su texto. Esto se puede cambiar en cualquier momento con el comando \"/settings auto_priority\".",
     "step_week_start_day": "## Paso 4/{{steps}}: Día de inicio de la semana Por favor, seleccione el día en que desea que comience la semana. Esto se puede cambiar en cualquier momento con el comando \"/settings week_start_day\".",
     "setup_completed": "La configuración se ha completado. Ya puedes utilizar el bot. Si quieres cambiar la configuración, utiliza el comando \"/settings\".\n\nPara una experiencia completa de gestión de proyectos, echa un vistazo a otros Bots de bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) y [Calendar Manager](<https://bnder.net/calendar>)."
   },

@@ -39,7 +39,7 @@
     "project_delete_confirm": "Are you sure you want to delete the project **{{name}}** and all of its tasks? When you move a project to the bin, you have {{days}} days to restore it. After that, it will be permanently deleted.",
     "delete_cancelled": "The deletion was canceled.",
     "deleted_ephemeral_message": "The project **{{project_name}}** was marked as deleted. It will be permanently deleted in {{days}} days. If you want to restore it, use the command \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "The project **{{project_name}}** and all of its tasks were deleted.",
+    "deleted_immediate_ephemeral_message": "The project **{{project_name}}** and all of its [tasks](<https://bnder.net/help/tasks>), [topics](<https://bnder.net/help/topics>) and [documents](<https://bnder.net/help/documents>) were deleted.",
     "delete_button": "Move project to bin",
     "cancel_button": "Cancel",
     "delete_in_days": "🗑️{{days}} days",
@@ -503,7 +503,7 @@
     "step_timezone_country": "## Step 3/{{steps}}: Timezone\n\nPlease select the region you are in to set the correct timezone. Afterwards you can select the exact timezone. This can be changed at every time with the command \"/settings timezone\".",
     "step_timezone": "## Step 3/{{steps}}: Timezone\n\nPlease select the exact timezone you are in. Due to limitations in Discord, not all timezones are shown here. If you can't find your timezone, please use the command \"/settings timezone\" and skip this step.",
     "step_auto_labeling": "## Step 4/{{steps}}: Auto labeling\n\nDo you want to enable auto labeling? This will automatically add labels to tasks based on their text. This can be changed at every time with the command \"/settings auto_labeling\".",
-    "step_auto_priority": "## Step 5/{{steps}}: Auto priority\n\nDo you want to enable auto priority? This will automatically set a priority for tasks based on their text. This can be changed at every time with the command \"/settings auto_priority\".",
+    "step_auto_priority": "## Step 5/{{steps}}: Auto priority\n\nDo you want to enable auto priority for users in [premium seats](<https://bnder.net/pricing>)? This will automatically set a priority for tasks based on their text. This can be changed at every time with the command \"/settings auto_priority\".",
     "step_week_start_day": "## Step 4/{{steps}}: Week start day\n\nPlease select the day you want the week to start with. This can be changed at every time with the command \"/settings week_start_day\".",
     "setup_completed": "The setup has been completed. You can now use the bot. If you want to change the settings, use the command \"/settings\".\n\nFor the complete project management experience, checkout other Bots by bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) and [Calendar Manager](<https://bnder.net/calendar>)."
   },

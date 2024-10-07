@@ -39,7 +39,7 @@
     "project_delete_confirm": "Êtes-vous sûr de vouloir supprimer le projet **{{name}}** et toutes ses tâches ? Lorsque vous déplacez un projet dans la corbeille, vous disposez de {{days}} jours pour le restaurer. Passé ce délai, il sera définitivement supprimé.",
     "delete_cancelled": "La suppression a été annulée.",
     "deleted_ephemeral_message": "Le projet **{{project_name}}** a été marqué comme supprimé. Il sera définitivement supprimé dans {{days}} jours. Si vous souhaitez le restaurer, utilisez la commande \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Le projet **{{project_name}}** et toutes ses tâches ont été supprimés.",
+    "deleted_immediate_ephemeral_message": "Le projet **{{project_name}}** et toutes ses [tâches](<https://bnder.net/help/tasks>), [sujets](<https://bnder.net/help/topics>) et [documents](<https://bnder.net/help/documents>) ont été supprimés.",
     "delete_button": "Déplacer le projet dans la corbeille",
     "cancel_button": "Annuler",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} jours",
@@ -503,7 +503,7 @@
     "step_timezone_country": "## Étape 3/{{steps}}: Fuseau horaire\n\nVeuillez sélectionner la région dans laquelle vous vous trouvez pour définir le bon fuseau horaire. Vous pouvez ensuite sélectionner le fuseau horaire exact. Celui-ci peut être modifié à tout moment à l'aide de la commande \"/settings timezone\".",
     "step_timezone": "## Étape 3/{{steps}}: Fuseau horaire\n\nVeuillez sélectionner le fuseau horaire exact dans lequel vous vous trouvez. En raison des limitations de Discord, tous les fuseaux horaires ne sont pas affichés ici. Si vous ne trouvez pas votre fuseau horaire, utilisez la commande \"/settings timezone\" et sautez cette étape.",
     "step_auto_labeling": "## Étape 4/{{steps}}: Étiquetage automatique\n\nVoulez-vous activer l'étiquetage automatique ? Cela ajoutera automatiquement des étiquettes aux tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_labeling\".",
-    "step_auto_priority": "## Étape 5/{{steps}}: Priorité automatique\n\nVous souhaitez activer la priorité automatique ? Cela permettra de définir automatiquement une priorité pour les tâches en fonction de leur texte. Ceci peut être modifié à tout moment avec la commande \"/settings auto_priority\".",
+    "step_auto_priority": "## Étape 5/{{steps}}: Priorité automatique\n\nVoulez-vous activer la priorité automatique pour les utilisateurs dans [les sièges premium](<https://bnder.net/pricing>)? Cela définira automatiquement une priorité pour les tâches en fonction de leur texte. Cela peut être modifié à tout moment avec la commande \"/settings auto_priority\".",
     "step_week_start_day": "## Étape 4/{{steps}}: Jour de début de la semaine\n\nVeuillez sélectionner le jour par lequel vous souhaitez que la semaine commence. Ce jour peut être modifié à tout moment avec la commande \"/settings week_start_day\".",
     "setup_completed": "L'installation est terminée. Vous pouvez maintenant utiliser le robot. Si vous souhaitez modifier les paramètres, utilisez la commande \"/settings\".\n\nPour une expérience complète de la gestion de projet, consultez les autres bots de bnder : [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) et [Calendar Manager](<https://bnder.net/calendar>)."
   },

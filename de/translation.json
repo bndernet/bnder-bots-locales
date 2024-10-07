@@ -39,7 +39,7 @@
     "project_delete_confirm": "Sind Sie sicher, dass Sie das Projekt **{{name}}** und alle seine Aufgaben löschen wollen? Wenn Sie ein Projekt in den Papierkorb verschieben, haben Sie {{days}} Tage Zeit, es wiederherzustellen. Danach wird es endgültig gelöscht.",
     "delete_cancelled": "Der Löschvorgang wurde abgebrochen.",
     "deleted_ephemeral_message": "Das Projekt **{{project_name}}** wurde als gelöscht markiert. Es wird in {{days}} Tagen endgültig gelöscht. Wenn Sie es wiederherstellen möchten, verwenden Sie den Befehl \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Das Projekt **{{project_name}}** und alle seine Aufgaben wurden gelöscht.",
+    "deleted_immediate_ephemeral_message": "Das Projekt **{{project_name}}** und alle seine [Aufgaben](<https://bnder.net/help/tasks>), [Themen](<https://bnder.net/help/topics>) und [Dokumente](<https://bnder.net/help/documents>) wurden gelöscht.",
     "delete_button": "Projekt in den Papierkorb verschieben",
     "cancel_button": "Abbrechen",
     "delete_in_days": "🗑️{{days}} Tage",
@@ -503,7 +503,7 @@
     "step_timezone_country": "## Schritt 3/{{steps}}: Zeitzone\n\nBitte wählen Sie die Region, in der Sie sich befinden, um die richtige Zeitzone einzustellen. Danach können Sie die genaue Zeitzone auswählen. Diese kann jederzeit mit dem Befehl \"/settings timezone\" geändert werden.",
     "step_timezone": "## Schritt 3/{{steps}}: Zeitzone\n\nBitte wählen Sie die genaue Zeitzone aus, in der Sie sich befinden. Aufgrund von Einschränkungen in Discord werden hier nicht alle Zeitzonen angezeigt. Wenn Sie Ihre Zeitzone nicht finden können, verwenden Sie bitte den Befehl \"/settings timezone\" und überspringen Sie diesen Schritt.",
     "step_auto_labeling": "## Schritt 4/{{steps}}: Automatische Beschriftung\n\n Möchten Sie die automatische Beschriftung aktivieren? Dadurch werden den Aufgaben automatisch Beschriftungen auf der Grundlage ihres Textes hinzugefügt. Dies kann jederzeit mit dem Befehl \"/settings auto_labeling\" geändert werden.",
-    "step_auto_priority": "## Schritt 5/{{steps}}: Automatische Priorität\n\n Wollen Sie die automatische Priorität aktivieren? Dadurch wird automatisch eine Priorität für Aufgaben auf der Grundlage ihres Textes festgelegt. Dies kann jederzeit mit dem Befehl \"/settings auto_priority\" geändert werden.",
+    "step_auto_priority": "## Schritt 5/{{steps}}: Automatische Priorität\n\nMöchten Sie die automatische Priorität für Benutzer in [Premium-Plätzen](<https://bnder.net/pricing>) aktivieren? Dadurch wird automatisch eine Priorität für Aufgaben basierend auf ihrem Text festgelegt. Dies kann jederzeit mit dem Befehl \"/settings auto_priority\" geändert werden.",
     "step_week_start_day": "## Schritt 4/{{steps}}: Wochenstarttag\n\nBitte wählen Sie den Tag, mit dem die Woche beginnen soll. Dies kann jederzeit mit dem Befehl \"/settings week_start_day\" geändert werden.",
     "setup_completed": "Die Einrichtung ist abgeschlossen. Du kannst den Bot jetzt benutzen. Wenn Sie die Einstellungen ändern möchten, verwenden Sie den Befehl \"/settings\".\n\nFür eine vollständige Projektmanagement-Erfahrung sollten Sie sich andere Bots von bnder ansehen: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) und [Calendar Manager](<https://bnder.net/calendar>)."
   },
