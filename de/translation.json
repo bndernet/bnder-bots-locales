@@ -8,7 +8,7 @@
     "invite_text": "Du kannst den Bot über diesen Link zu deinem Server einladen:\n{{link}}",
     "button": "Einladen"
   },
-  "no_permission": "Ihnen fehlt die Berechtigung **{{permission}}**, um diesen Befehl auszuführen. Ein Serveradministrator kann die Berechtigung mit dem Befehl **/permission grant <@{{user_id}}> {{permission}}** erteilen oder einen Satz von Berechtigungen über „/permission preset“ anwenden.\n-# Erfahren Sie mehr über das [Berechtigungssystem](https://bnder.net/help/permissions).",
+  "no_permission": "Ihnen fehlt die Berechtigung **{{permission}}**, um diesen Befehl auszuführen. Ein Serveradministrator kann die Berechtigung mit dem Befehl **/permission grant <@{{user_id}}> {{permission}}** erteilen oder einen Satz von Berechtigungen über „/permission preset“ anwenden.\n-# Erfahren Sie mehr über das [Berechtigungssystem](<https://bnder.net/help/permissions>).",
   "permission": {
     "granted_user": "<@{{user_id}}> hat die Berechtigung **{{permission}}** für den globalen Bereich erhalten.",
     "granted_user_project": "<@{{user_id}}> hat die Berechtigung **{{permission}}** für das Projekt **{{project_name}}** erhalten.",
@@ -376,7 +376,8 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "Die eingegebene Webhook-URL ist ungültig. Bitte geben Sie eine gültige Discord-Webhook-URL ein, die mit \"https://discord.com/api/webhooks/\" beginnt.",
+      "invalid_url": "Die eingegebene Webhook-URL ist ungültig. Bitte geben Sie eine gültige Discord-Webhook-URL ein, die in einem gültigen URL-Format (https://...) beginnt.",
+      "url_set_non_discord_url": "Die Webhook-URL wurde festgelegt, aber es scheint sich nicht um eine Discord-Webhook-URL zu handeln. Wenn Sie Protokollnachrichten in Ihrem Discord-Kanal erhalten möchten, legen Sie bitte eine gültige Discord-Webhook-URL fest, andernfalls ignorieren Sie diese Nachricht.",
       "url_set": "Die Webhook-URL wurde festgelegt. Es wurde eine Testnachricht gesendet. Überprüfen Sie in Ihrem Discord-Kanal, ob sie funktioniert hat. Ansonsten finden Sie weitere Informationen auf unserer Hilfeseite unter https://bnder.net/help/advanced/logging.",
       "url_removed": "Die Webhook-URL wurde entfernt und die Protokollierung ist nun deaktiviert.",
       "test_title": "Testnachricht",

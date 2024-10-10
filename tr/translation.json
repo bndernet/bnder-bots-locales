@@ -8,7 +8,7 @@
     "invite_text": "Botu bu bağlantı üzerinden sunucunuza davet edebilirsiniz:\n{{link}}",
     "button": "Davetiye"
   },
-  "no_permission": "Bu komutu yürütmek için **{{permission}}** izniniz eksik. Bir sunucu yöneticisi **/permission grant <@{{user_id}}> {{permission}}** komutunu kullanarak izin verebilir veya \"/permission preset\" aracılığıyla bir dizi izin uygulayabilir.\n-# [İzin sistemi](https://bnder.net/help/permissions) hakkında daha fazla bilgi edinin.",
+  "no_permission": "Bu komutu yürütmek için **{{permission}}** izniniz eksik. Bir sunucu yöneticisi **/permission grant <@{{user_id}}> {{permission}}** komutunu kullanarak izin verebilir veya \"/permission preset\" aracılığıyla bir dizi izin uygulayabilir.\n-# [İzin sistemi](<https://bnder.net/help/permissions>) hakkında daha fazla bilgi edinin.",
   "permission": {
     "granted_user": "<@{{user_id}}>'e global kapsam için **{{permission}} izni verildi.",
     "granted_user_project": "<@{{user_id}}>'e **{{project_name}}** projesi için **{{permission}}** izni verildi.",
@@ -376,7 +376,8 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "Girilen web kancası URL'si geçersiz. Lütfen \"https://discord.com/api/webhooks/\" ile başlayan geçerli bir Discord webhook url'si girin.",
+      "invalid_url": "Girilen webhook URL'si geçersiz. Lütfen geçerli bir URL biçiminde (https://...) başlayan geçerli bir Discord webhook URL'si girin.",
+      "url_set_non_discord_url": "Webhook URL'si ayarlandı, ancak bir Discord webhook URL'si gibi görünmüyor. Discord kanalınızda günlük mesajları almak istiyorsanız lütfen geçerli bir Discord webhook URL'si ayarlayın, aksi takdirde bu mesajı yoksayın.",
       "url_set": "Webhook URL'si ayarlandı. Bir test mesajı gönderildi, çalışıp çalışmadığını görmek için Discord kanalınızı kontrol edin. Aksi takdirde, daha fazla bilgi için https://bnder.net/help/advanced/logging adresindeki yardım sayfamızı kontrol edin.",
       "url_removed": "Web kancası URL'si kaldırıldı ve günlük kaydı artık devre dışı bırakıldı.",
       "test_title": "Test mesajı",

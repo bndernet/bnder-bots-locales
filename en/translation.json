@@ -8,7 +8,7 @@
     "invite_text": "You can invite me to your server with this link:\n{{link}}",
     "button": "Invite"
   },
-  "no_permission": "You are missing permission **{{permission}}** to execute this command. A server administrator can grant permission by using the **/permission grant <@{{user_id}}> {{permission}}** command or apply a set of permissions via \"/permission preset\".\n-# Learn more about the [permissions system](https://bnder.net/help/permissions).",
+  "no_permission": "You are missing permission **{{permission}}** to execute this command. A server administrator can grant permission by using the **/permission grant <@{{user_id}}> {{permission}}** command or apply a set of permissions via \"/permission preset\".\n-# Learn more about the [permissions system](<https://bnder.net/help/permissions>).",
   "permission": {
     "granted_user": "<@{{user_id}}> has been granted the permission **{{permission}}** for the global scope.",
     "granted_user_project": "<@{{user_id}}> has been granted the permission **{{permission}}** for the project **{{project_name}}**.",
@@ -376,7 +376,8 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "The entered webhook url is invalid. Please enter a valid Discord webhook url, starting with \"https://discord.com/api/webhooks/\".",
+      "invalid_url": "The entered webhook url is invalid. Please enter a valid Discord webhook url, starting in a valid url format (https://...).",
+      "url_set_non_discord_url": "The webhook url has been set, but it does not seem to be a Discord webhook url. If you want to receive log messages in your Discord channel, please set a valid Discord webhook url, otherwise ignore this message.",
       "url_set": "The Webhook URL has been set. A test message has been sent, check your Discord channel to see if it worked. Otherwise, check our help page at https://bnder.net/help/advanced/logging for more information.",
       "url_removed": "The Webhook URL has been removed and logging is now disabled.",
       "test_title": "Test message",

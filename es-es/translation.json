@@ -8,7 +8,7 @@
     "invite_text": "Puedes invitar al bot a tu servidor a través de este enlace:\n{{link}}",
     "button": "Invite a"
   },
-  "no_permission": "No tiene el permiso **{{permission}}** para ejecutar este comando. Un administrador de servidor puede otorgar permisos mediante el comando **/permission grant <@{{user_id}}> {{permission}}** o aplicar un conjunto de permisos mediante \"/permission preset\".\n-# Obtenga más información sobre el [sistema de permisos](https://bnder.net/help/permissions).",
+  "no_permission": "No tiene el permiso **{{permission}}** para ejecutar este comando. Un administrador de servidor puede otorgar permisos mediante el comando **/permission grant <@{{user_id}}> {{permission}}** o aplicar un conjunto de permisos mediante \"/permission preset\".\n-# Obtenga más información sobre el [sistema de permisos](<https://bnder.net/help/permissions>).",
   "permission": {
     "granted_user": "Se ha concedido a <@{{user_id}}> el permiso **{{permission}}** para el ámbito global.",
     "granted_user_project": "Se ha concedido a <@{{user_id}}> el permiso **{{permission}}** para el proyecto **{{project_name}}**",
@@ -376,7 +376,8 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "La url del webhook introducida no es válida. Por favor, introduzca una url de webhook de Discord válida, que empiece por \"https://discord.com/api/webhooks/\".",
+      "invalid_url": "La URL del webhook ingresada no es válida. Ingrese una URL de webhook de Discord válida, comenzando con un formato de URL válido (https://...).",
+      "url_set_non_discord_url": "Se ha configurado la URL del webhook, pero no parece ser una URL de webhook de Discord. Si desea recibir mensajes de registro en su canal de Discord, configure una URL de webhook de Discord válida; de lo contrario, ignore este mensaje.",
       "url_set": "La URL del Webhook ha sido configurada. Se ha enviado un mensaje de prueba, comprueba tu canal de Discordia para ver si ha funcionado. Si no, consulta nuestra página de ayuda en https://bnder.net/help/advanced/logging para obtener más información.",
       "url_removed": "La URL Webhook ha sido eliminada y el registro está desactivado.",
       "test_title": "Mensaje de prueba",

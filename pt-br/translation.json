@@ -8,7 +8,7 @@
     "invite_text": "Você pode convidar o bot para seu servidor por meio deste link:\n{{link}}",
     "button": "Convite"
   },
-  "no_permission": "Falta a permissão **{{permission}}** para executar este comando. Um administrador de servidor pode conceder permissão usando o comando **/permission grant <@{{user_id}}> {{permission}}** ou aplicar um conjunto de permissões via \"/permission preset\".\n-# Saiba mais sobre o [sistema de permissões](https://bnder.net/help/permissions).",
+  "no_permission": "Falta a permissão **{{permission}}** para executar este comando. Um administrador de servidor pode conceder permissão usando o comando **/permission grant <@{{user_id}}> {{permission}}** ou aplicar um conjunto de permissões via \"/permission preset\".\n-# Saiba mais sobre o [sistema de permissões](<https://bnder.net/help/permissions>).",
   "permission": {
     "granted_user": "<@{{user_id}}> recebeu a permissão **{{permission}}** para o escopo global.",
     "granted_user_project": "<@{{user_id}}> recebeu a permissão **{{permission}}** para o projeto **{{project_name}}**.",
@@ -376,7 +376,8 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "O URL do webhook inserido é inválido. Digite um URL de webhook Discord válido, começando com \"https://discord.com/api/webhooks/\".",
+      "invalid_url": "A URL do webhook inserida é inválida. Insira uma URL válida do webhook do Discord, começando em um formato de URL válido (https://...).",
+      "url_set_non_discord_url": "A URL do webhook foi definida, mas não parece ser uma URL do webhook do Discord. Se você deseja receber mensagens de log no seu canal do Discord, defina uma URL válida do webhook do Discord, caso contrário, ignore esta mensagem.",
       "url_set": "O URL do webhook foi definido. Uma mensagem de teste foi enviada, verifique seu canal do Discord para ver se funcionou. Caso contrário, consulte nossa página de ajuda em https://bnder.net/help/advanced/logging para obter mais informações.",
       "url_removed": "O URL do webhook foi removido e o registro está desativado.",
       "test_title": "Mensagem de teste",
