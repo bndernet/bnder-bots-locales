@@ -52,7 +52,7 @@ export class TSLocalizations_en {
             deadline_field: "Deadline",
             assignees_field: "Assignees",
             status_field: "Status",
-            subtasks_field: "Subtasks",
+            todos_field: "Todos",
             delete_at_field: "Delete at",
             project_field: "Project",
             topic_field: "Topic",

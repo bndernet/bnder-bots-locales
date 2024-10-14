@@ -52,7 +52,7 @@ export class TSLocalizations_ru {
             deadline_field: "Крайний срок",
             assignees_field: "Назначенные",
             status_field: "Статус",
-            subtasks_field: "Подзадачи",
+            todos_field: "В дос",
             delete_at_field: "Удалить в",
             project_field: "Проект",
             topic_field: "Тема",

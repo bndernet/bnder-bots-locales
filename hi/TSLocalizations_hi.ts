@@ -52,7 +52,7 @@ export class TSLocalizations_hi {
             deadline_field: "समय सीमा",
             assignees_field: "असाइनी",
             status_field: "स्थिति",
-            subtasks_field: "उपकार्य",
+            todos_field: "क्या करें",
             delete_at_field: "पर हटाएँ",
             project_field: "परियोजना",
             topic_field: "विषय",
