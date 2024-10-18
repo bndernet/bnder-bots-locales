@@ -117,7 +117,8 @@
       "attachments_headline": "Archivos adjuntos",
       "open_attachments": "Abrir archivos adjuntos",
       "repeating_day_of_month_headline": "Día del mes",
-      "milestone_headline": "Hito"
+      "milestone_headline": "Hito",
+      "effort_headline": "Esfuerzo"
     },
     "todos": {
       "text_not_found": "Falta el texto de la tarea pendiente. Utilice el parámetro \"title\" para especificar el texto de la tarea pendiente.",
@@ -220,7 +221,8 @@
       "watcher_removed": "Observador {{watcher}} eliminado",
       "none": "Ninguno",
       "unknown": "Desconocido",
-      "milestone_changed": "El hito ha cambiado a {{milestone}}"
+      "milestone_changed": "El hito ha cambiado a {{milestone}}",
+      "effort_changed": "El esfuerzo ha cambiado a {{new_effort}} horas"
     },
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
@@ -257,7 +259,8 @@
     "milestone_not_in_project": "El hito **{{name}}** no está en el proyecto **{{project}}**, donde se encuentra la tarea. Utilice \"/milestone list\" para enumerar todos los hitos del proyecto o \"/milestone create\" para crear uno nuevo.",
     "milestone_not_set": "No se pudo eliminar el hito de la tarea **{{id}}**, porque no está configurado.",
     "milestone_removed": "Se eliminó el hito de la tarea **{{id}}**.",
-    "deadline_not_set": "No hay una fecha límite establecida para la tarea **{{id}}**. Utilice \"/task deadline\" para establecer una fecha límite proporcionándola en el comando."
+    "deadline_not_set": "No hay una fecha límite establecida para la tarea **{{id}}**. Utilice \"/task deadline\" para establecer una fecha límite proporcionándola en el comando.",
+    "effort_updated": "El esfuerzo para la tarea **{{id}}** {{title, length100}} se ha actualizado a {{effort}} horas."
   },
   "milestone": {
     "not_found": "No se pudo encontrar el hito **{{name}}**. Use \"/milestone list\" para listar todos los hitos.",

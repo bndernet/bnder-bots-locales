@@ -117,7 +117,8 @@
       "attachments_headline": "Pièces jointes",
       "open_attachments": "Ouvrir les pièces jointes",
       "repeating_day_of_month_headline": "Jour du mois",
-      "milestone_headline": "Jalon"
+      "milestone_headline": "Jalon",
+      "effort_headline": "Effort"
     },
     "todos": {
       "text_not_found": "Le texte de la tâche à faire est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la tâche à faire.",
@@ -220,7 +221,8 @@
       "watcher_removed": "Watcher {{watcher}} supprimé",
       "none": "Aucun",
       "unknown": "Inconnu",
-      "milestone_changed": "Jalon modifié en {{milestone}}"
+      "milestone_changed": "Jalon modifié en {{milestone}}",
+      "effort_changed": "Effort modifié à {{new_effort}} heures"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
@@ -257,7 +259,8 @@
     "milestone_not_in_project": "Le jalon **{{name}}** ne se trouve pas dans le projet **{{project}}**, où se trouve la tâche. Utilisez \"/milestone list\" pour répertorier tous les jalons du projet ou \"/milestone create\" pour en créer un nouveau.",
     "milestone_not_set": "Impossible de supprimer le jalon de la tâche **{{id}}**, car il n'est pas défini.",
     "milestone_removed": "Le jalon a été supprimé de la tâche **{{id}}**.",
-    "deadline_not_set": "Aucune date limite n'est définie pour la tâche **{{id}}**. Utilisez \"/task deadline\" pour définir une date limite en la fournissant dans la commande."
+    "deadline_not_set": "Aucune date limite n'est définie pour la tâche **{{id}}**. Utilisez \"/task deadline\" pour définir une date limite en la fournissant dans la commande.",
+    "effort_updated": "L'effort pour la tâche **{{id}}** {{title, length100}} a été mis à jour à {{effort}} heures."
   },
   "milestone": {
     "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",

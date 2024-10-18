@@ -108,7 +108,9 @@
     "watch_subcommand_description": "Watch a task",
     "unwatch_subcommand_description": "Unwatch a task",
     "milestone_subcommand_description": "Set the milestone of a task",
-    "milestone_option_description": "Milestone to set for the task"
+    "milestone_option_description": "Milestone to set for the task",
+    "effort_subcommand_description": "Set the effort of a task",
+    "effort_option_description": "Effort to set for the task in hours"
   },
   "milestone": {
     "command_description": "Manage milestones",

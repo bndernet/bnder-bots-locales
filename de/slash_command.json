@@ -108,7 +108,9 @@
     "watch_subcommand_description": "Eine Aufgabe beobachten",
     "unwatch_subcommand_description": "Eine Aufgabe nicht mehr beobachten",
     "milestone_subcommand_description": "Meilenstein einer Aufgabe festlegen",
-    "milestone_option_description": "Für die Aufgabe festzulegender Meilenstein"
+    "milestone_option_description": "Für die Aufgabe festzulegender Meilenstein",
+    "effort_subcommand_description": "Aufwand einer Aufgabe festlegen",
+    "effort_option_description": "Aufwand, der für die Aufgabe in Stunden festgelegt werden soll"
   },
   "milestone": {
     "command_description": "Meilensteine verwalten",

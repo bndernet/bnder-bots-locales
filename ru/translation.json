@@ -117,7 +117,8 @@
       "attachments_headline": "Вложения",
       "open_attachments": "Открыть вложения",
       "repeating_day_of_month_headline": "День месяца",
-      "milestone_headline": "Веха"
+      "milestone_headline": "Веха",
+      "effort_headline": "Усилие"
     },
     "todos": {
       "text_not_found": "Отсутствует текст задачи. Используйте параметр \"title\", чтобы указать текст задачи.",
@@ -220,7 +221,8 @@
       "watcher_removed": "Наблюдатель {{watcher}} удален",
       "none": "Нет",
       "unknown": "Неизвестно",
-      "milestone_changed": "Веха изменена на {{milestone}}"
+      "milestone_changed": "Веха изменена на {{milestone}}",
+      "effort_changed": "Усилия изменены на {{new_effort}} часов"
     },
     "description_too_long": "Описание слишком длинное. Пожалуйста, сократите его до {{max}} символов.",
     "comment_text_too_long": "Текст комментария слишком длинный. Пожалуйста, сократите его до {{max}} символов.",
@@ -257,7 +259,8 @@
     "milestone_not_in_project": "Веха **{{name}}** отсутствует в проекте **{{project}}**, в котором находится задача. Используйте \"/milestone list\" для вывода списка всех вех в проекте или \"/milestone create\" для создания новой.",
     "milestone_not_set": "Не удалось удалить веху из задачи **{{id}}**, так как она не установлена.",
     "milestone_removed": "Веха была удалена из задачи **{{id}}**.",
-    "deadline_not_set": "Для задачи **{{id}}** не установлен крайний срок. Используйте \"/task deadline\", чтобы установить крайний срок, указав его в команде."
+    "deadline_not_set": "Для задачи **{{id}}** не установлен крайний срок. Используйте \"/task deadline\", чтобы установить крайний срок, указав его в команде.",
+    "effort_updated": "Усилия по задаче **{{id}}** {{title, length100}} обновлены до {{effort}} часов."
   },
   "milestone": {
     "not_found": "Не удалось найти этап **{{name}}**. Используйте \"/milestone list\" для отображения списка всех этапов.",

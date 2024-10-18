@@ -117,7 +117,8 @@
       "attachments_headline": "Ekler",
       "open_attachments": "Ekleri aç",
       "repeating_day_of_month_headline": "Ayın günü",
-      "milestone_headline": "Kilometre taşı"
+      "milestone_headline": "Kilometre taşı",
+      "effort_headline": "Çaba"
     },
     "todos": {
       "text_not_found": "Yapılacak iş metni eksik. Lütfen yapılacak iş metnini belirtmek için \"title\" parametresini kullanın.",
@@ -220,7 +221,8 @@
       "watcher_removed": "Watcher {{watcher}} kaldırıldı",
       "none": "Hiçbiri",
       "unknown": "Bilinmiyor",
-      "milestone_changed": "Kilometre taşı {{milestone}} olarak değiştirildi"
+      "milestone_changed": "Kilometre taşı {{milestone}} olarak değiştirildi",
+      "effort_changed": "Efor {{new_effort}} saate değiştirildi"
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
@@ -257,7 +259,8 @@
     "milestone_not_in_project": "**{{name}}** kilometre taşı, görevin bulunduğu **{{project}}** projesinde değil. Projedeki tüm kilometre taşlarını listelemek için \"/milestone list\" veya yeni bir tane oluşturmak için \"/milestone create\" kullanın.",
     "milestone_not_set": "Belirlenmemiş olduğu için kilometre taşı **{{id}}** görevinden kaldırılamadı.",
     "milestone_removed": "Kilometre taşı **{{id}}** görevinden kaldırıldı.",
-    "deadline_not_set": "**{{id}}** görevi için belirlenmiş bir son tarih yok. Komutta belirterek bir son tarih belirlemek için \"/task deadline\" kullanın."
+    "deadline_not_set": "**{{id}}** görevi için belirlenmiş bir son tarih yok. Komutta belirterek bir son tarih belirlemek için \"/task deadline\" kullanın.",
+    "effort_updated": "**{{id}}** {{title, length100}} görevi için harcanan çaba {{effort}} saate güncellendi."
   },
   "milestone": {
     "not_found": "**{{name}}** kilometre taşı bulunamadı. Tüm kilometre taşlarını listelemek için \"/milestone list\" kullanın.",

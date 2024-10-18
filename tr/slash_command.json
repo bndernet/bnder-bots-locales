@@ -108,7 +108,9 @@
     "watch_subcommand_description": "Bir görevi izle",
     "unwatch_subcommand_description": "Bir görevi izlemeyi bırak",
     "milestone_subcommand_description": "Bir görevin kilometre taşını ayarlayın",
-    "milestone_option_description": "Görev için ayarlanacak kilometre taşı"
+    "milestone_option_description": "Görev için ayarlanacak kilometre taşı",
+    "effort_subcommand_description": "Bir görevin eforunu ayarlayın",
+    "effort_option_description": "Görev için saat cinsinden ayarlanacak efor"
   },
   "milestone": {
     "command_description": "Kilometre taşlarını yönet",

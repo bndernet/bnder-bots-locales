@@ -108,7 +108,9 @@
     "watch_subcommand_description": "Следете задача за промени",
     "unwatch_subcommand_description": "Прекратяване на следенето на задача за промени",
     "milestone_subcommand_description": "Задайте крайъгълен камък на задача",
-    "milestone_option_description": "Важен етап за задаване на задачата"
+    "milestone_option_description": "Важен етап за задаване на задачата",
+    "effort_subcommand_description": "Задайте усилието на задача",
+    "effort_option_description": "Усилие за задаване на задачата в часове"
   },
   "milestone": {
     "command_description": "Управление на важни етапи",

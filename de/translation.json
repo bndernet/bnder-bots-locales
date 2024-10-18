@@ -117,7 +117,8 @@
       "attachments_headline": "Anhänge",
       "open_attachments": "Anhänge anzeigen",
       "repeating_day_of_month_headline": "Wiederholungstag des Monats",
-      "milestone_headline": "Meilenstein"
+      "milestone_headline": "Meilenstein",
+      "effort_headline": "Aufwand"
     },
     "todos": {
       "text_not_found": "Der Aufgabentext fehlt. Bitte verwenden Sie den Parameter \"title\", um den Aufgabentext anzugeben.",
@@ -220,7 +221,8 @@
       "watcher_removed": "Beobachter {{watcher}} entfernt",
       "none": "Keine",
       "unknown": "Unbekannt",
-      "milestone_changed": "Meilenstein geändert zu {{milestone}}"
+      "milestone_changed": "Meilenstein geändert zu {{milestone}}",
+      "effort_changed": "Aufwand geändert auf {{new_effort}} Stunden"
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
@@ -257,7 +259,8 @@
     "milestone_not_in_project": "Der Meilenstein **{{name}}** befindet sich nicht im Projekt **{{project}}**, in dem sich die Aufgabe befindet. Verwenden Sie \"/milestone list\", um alle Meilensteine im Projekt aufzulisten, oder \"/milestone create\", um einen neuen zu erstellen.",
     "milestone_not_set": "Der Meilenstein konnte nicht aus der Aufgabe **{{id}}** entfernt werden, da er nicht festgelegt ist.",
     "milestone_removed": "Der Meilenstein wurde aus der Aufgabe **{{id}}** entfernt.",
-    "deadline_not_set": "Für die Aufgabe **{{id}}** ist keine Frist festgelegt. Verwenden Sie \"/task deadline\", um eine Frist festzulegen, indem Sie sie im Befehl angeben."
+    "deadline_not_set": "Für die Aufgabe **{{id}}** ist keine Frist festgelegt. Verwenden Sie \"/task deadline\", um eine Frist festzulegen, indem Sie sie im Befehl angeben.",
+    "effort_updated": "Der Aufwand für die Aufgabe **{{id}}** {{title, length100}} wurde auf {{effort}} Stunden aktualisiert."
   },
   "milestone": {
     "not_found": "Der Meilenstein **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/milestone list\", um alle Meilensteine aufzulisten.",

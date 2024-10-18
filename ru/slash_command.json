@@ -108,7 +108,9 @@
     "watch_subcommand_description": "Следить за задачей",
     "unwatch_subcommand_description": "Прекратить следить за задачей",
     "milestone_subcommand_description": "Установить веху задачи",
-    "milestone_option_description": "Веха, которую следует установить для задачи"
+    "milestone_option_description": "Веха, которую следует установить для задачи",
+    "effort_subcommand_description": "Установите усилие задачи",
+    "effort_option_description": "Усилие для установки для задачи в часах"
   },
   "milestone": {
     "command_description": "Управление вехами",
