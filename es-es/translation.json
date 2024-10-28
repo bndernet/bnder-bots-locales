@@ -259,6 +259,7 @@
     "milestone_not_in_project": "El hito **{{name}}** no está en el proyecto **{{project}}**, donde se encuentra la tarea. Utilice \"/milestone list\" para enumerar todos los hitos del proyecto o \"/milestone create\" para crear uno nuevo.",
     "milestone_not_set": "No se pudo eliminar el hito de la tarea **{{id}}**, porque no está configurado.",
     "milestone_removed": "Se eliminó el hito de la tarea **{{id}}**.",
+    "milestone_updated": "El hito de la tarea **{{id}}** se estableció en **{{milestone}}**.",
     "deadline_not_set": "No hay una fecha límite establecida para la tarea **{{id}}**. Utilice \"/task deadline\" para establecer una fecha límite proporcionándola en el comando.",
     "effort_updated": "El esfuerzo para la tarea **{{id}}** {{title, length100}} se ha actualizado a {{effort}} horas."
   },

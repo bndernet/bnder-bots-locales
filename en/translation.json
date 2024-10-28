@@ -259,6 +259,7 @@
     "milestone_not_in_project": "The milestone **{{name}}** is not in the project **{{project}}**, where the task is in. Use \"/milestone list\" to list all milestones in the project or \"/milestone create\" to create a new one.",
     "milestone_not_set": "Could not remove the milestone from the task **{{id}}**, because it is not set.",
     "milestone_removed": "The milestone was removed from the task **{{id}}**.",
+    "milestone_updated": "The milestone of task **{{id}}** was set to **{{milestone}}**.",
     "deadline_not_set": "There is no deadline set for the task **{{id}}**. Use \"/task deadline\" to set a deadline by providing it in the command.",
     "effort_updated": "The effort for the task **{{id}}** {{title, length100}} has been updated to {{effort}} hours."
   },

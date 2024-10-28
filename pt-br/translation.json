@@ -259,6 +259,7 @@
     "milestone_not_in_project": "O marco **{{name}}** não está no projeto **{{project}}**, onde a tarefa está. Use \"/milestone list\" para listar todos os marcos no projeto ou \"/milestone create\" para criar um novo.",
     "milestone_not_set": "Não foi possível remover o marco da tarefa **{{id}}**, porque ele não está definido.",
     "milestone_removed": "O marco foi removido da tarefa **{{id}}**.",
+    "milestone_updated": "O marco da tarefa **{{id}}** foi definido como **{{milestone}}**.",
     "deadline_not_set": "Não há prazo definido para a tarefa **{{id}}**. Use \"/task deadline\" para definir um prazo, fornecendo-o no comando.",
     "effort_updated": "O esforço para a tarefa **{{id}}** {{title, length100}} foi atualizado para {{effort}} horas."
   },

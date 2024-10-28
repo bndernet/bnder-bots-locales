@@ -259,6 +259,7 @@
     "milestone_not_in_project": "**{{name}}** kilometre taşı, görevin bulunduğu **{{project}}** projesinde değil. Projedeki tüm kilometre taşlarını listelemek için \"/milestone list\" veya yeni bir tane oluşturmak için \"/milestone create\" kullanın.",
     "milestone_not_set": "Belirlenmemiş olduğu için kilometre taşı **{{id}}** görevinden kaldırılamadı.",
     "milestone_removed": "Kilometre taşı **{{id}}** görevinden kaldırıldı.",
+    "milestone_updated": "**{{id}}** görevinin kilometre taşı **{{milestone}}** olarak ayarlandı.",
     "deadline_not_set": "**{{id}}** görevi için belirlenmiş bir son tarih yok. Komutta belirterek bir son tarih belirlemek için \"/task deadline\" kullanın.",
     "effort_updated": "**{{id}}** {{title, length100}} görevi için harcanan çaba {{effort}} saate güncellendi."
   },

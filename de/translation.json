@@ -259,6 +259,7 @@
     "milestone_not_in_project": "Der Meilenstein **{{name}}** befindet sich nicht im Projekt **{{project}}**, in dem sich die Aufgabe befindet. Verwenden Sie \"/milestone list\", um alle Meilensteine im Projekt aufzulisten, oder \"/milestone create\", um einen neuen zu erstellen.",
     "milestone_not_set": "Der Meilenstein konnte nicht aus der Aufgabe **{{id}}** entfernt werden, da er nicht festgelegt ist.",
     "milestone_removed": "Der Meilenstein wurde aus der Aufgabe **{{id}}** entfernt.",
+    "milestone_updated": "Der Meilenstein der Aufgabe **{{id}}** wurde auf **{{milestone}}** gesetzt.",
     "deadline_not_set": "Für die Aufgabe **{{id}}** ist keine Frist festgelegt. Verwenden Sie \"/task deadline\", um eine Frist festzulegen, indem Sie sie im Befehl angeben.",
     "effort_updated": "Der Aufwand für die Aufgabe **{{id}}** {{title, length100}} wurde auf {{effort}} Stunden aktualisiert."
   },

@@ -259,6 +259,7 @@
     "milestone_not_in_project": "Le jalon **{{name}}** ne se trouve pas dans le projet **{{project}}**, où se trouve la tâche. Utilisez \"/milestone list\" pour répertorier tous les jalons du projet ou \"/milestone create\" pour en créer un nouveau.",
     "milestone_not_set": "Impossible de supprimer le jalon de la tâche **{{id}}**, car il n'est pas défini.",
     "milestone_removed": "Le jalon a été supprimé de la tâche **{{id}}**.",
+    "milestone_updated": "Le jalon de la tâche **{{id}}** a été défini sur **{{milestone}}**.",
     "deadline_not_set": "Aucune date limite n'est définie pour la tâche **{{id}}**. Utilisez \"/task deadline\" pour définir une date limite en la fournissant dans la commande.",
     "effort_updated": "L'effort pour la tâche **{{id}}** {{title, length100}} a été mis à jour à {{effort}} heures."
   },
