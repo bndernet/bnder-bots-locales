@@ -499,7 +499,10 @@
     "max_events_reached": "Loncanız için maksimum etkinlik miktarına ({{max}}) ulaştınız. Daha fazla etkinlik oluşturmak için lütfen bazı etkinlikleri silin.",
     "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}.",
     "daily_repeating_not_allowed": "Ежедневно повторяющиеся события доступны только пользователям премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "Установка даты окончания повтора доступна только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing."
+    "repeat_end_not_allowed": "Установка даты окончания повтора доступна только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
+    "edited": "**{{id}}** etkinliği **{{name}}** başlığıyla {{start}}'dan {{end}}'e düzenlendi.",
+    "edit_no_changes": "**{{id}}** etkinliğinde hiçbir değişiklik yapılmadı. Lütfen bu etkinlikte değişiklik yapmak için komutta yeni bir ad, başlangıç ​​veya bitiş saati belirtin.",
+    "edit_creator_error": "Yalnızca yaratıcı bir etkinlikte değişiklik yapabilir!"
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

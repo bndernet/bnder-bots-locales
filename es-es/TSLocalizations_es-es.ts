@@ -253,6 +253,11 @@ export class TSLocalizations_es_es {
                 },
                 accept_button: "Aceptar",
                 deny_button: "Rechazar"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> actualizó el evento ${eventId}: **${eventName}** comenzando en ${start} y terminando en ${end}.`;
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {

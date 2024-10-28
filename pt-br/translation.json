@@ -499,7 +499,10 @@
     "max_events_reached": "Você atingiu a quantidade máxima ({{max}}) de eventos para sua guilda. Exclua alguns eventos para poder criar mais.",
     "remove_dm": "Você foi removido do evento **{{id}}**: {{name}}.",
     "daily_repeating_not_allowed": "Os eventos de repetição diária estão disponíveis apenas para usuários em assentos premium. Faça upgrade para um assento premium para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "A definição de uma data final de repetição só está disponível para usuários de assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing."
+    "repeat_end_not_allowed": "A definição de uma data final de repetição só está disponível para usuários de assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "edited": "O evento **{{id}}** foi editado com o título **{{name}}** de {{start}} a {{end}}.",
+    "edit_no_changes": "Nenhuma alteração foi feita no evento **{{id}}**. Especifique um novo nome, hora de início ou término no comando para fazer alterações neste evento.",
+    "edit_creator_error": "Somente o criador pode fazer alterações em um evento!"
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",

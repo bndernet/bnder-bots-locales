@@ -253,6 +253,11 @@ export class TSLocalizations_ru {
                 },
                 accept_button: "Принять",
                 deny_button: "Отклонить"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> обновил событие ${eventId}: **${eventName}**, начинающееся в ${start} и заканчивающееся в ${end}.`;
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {

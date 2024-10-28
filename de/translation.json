@@ -499,7 +499,10 @@
     "max_events_reached": "Du hast die maximale Anzahl ({{max}}) von Ereignissen für deine Gilde erreicht. Bitte lösche einige Ereignisse, um mehr zu erstellen.",
     "remove_dm": "Sie wurden von der Veranstaltung **{{id}}**: {{name}} entfernt.",
     "daily_repeating_not_allowed": "Täglich wiederkehrende Ereignisse sind nur für Benutzer mit Premium-Plätzen verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premiumplatz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "Das Festlegen eines Enddatums für die Wiederholung ist nur für Premium-Benutzer verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premiumplatz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing."
+    "repeat_end_not_allowed": "Das Festlegen eines Enddatums für die Wiederholung ist nur für Premium-Benutzer verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premiumplatz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
+    "edited": "Das Event **{{id}}** wurde mit dem Titel **{{name}}** von {{start}} bis {{end}} bearbeitet.",
+    "edit_no_changes": "Es wurden keine Änderungen am Event **{{id}}** vorgenommen. Bitte geben Sie im Befehl einen neuen Namen, eine neue Start- oder Endzeit an, um Änderungen an diesem Event vorzunehmen.",
+    "edit_creator_error": "Nur der Ersteller kann Änderungen an einem Event vornehmen!"
   },
   "setup": {
     "skip_button_label": "Diesen Schritt überspringen",

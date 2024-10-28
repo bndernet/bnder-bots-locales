@@ -499,7 +499,10 @@
     "max_events_reached": "Vous avez atteint le nombre maximum ({{max}}) d'événements pour votre guilde. Veuillez supprimer certains événements afin d'en créer d'autres.",
     "remove_dm": "Vous avez été supprimé de l'événement **{{id}}**: {{name}}.",
     "daily_repeating_not_allowed": "Les événements quotidiens répétitifs ne sont disponibles que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
-    "repeat_end_not_allowed": "La définition d'une date de fin de répétition n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing."
+    "repeat_end_not_allowed": "La définition d'une date de fin de répétition n'est disponible que pour les utilisateurs de sièges premium. [Pour utiliser cette fonctionnalité, il faut passer à un siège premium (<https://bnder.net/p/{{guildId}}>). Pour en savoir plus sur la fonction premium, consultez le site https://bnder.net/pricing.",
+    "edited": "L'événement **{{id}}** a été modifié avec le titre **{{name}}** du {{start}} au {{end}}.",
+    "edit_no_changes": "Aucune modification n'a été apportée à l'événement **{{id}}**. Veuillez spécifier un nouveau nom, une heure de début ou de fin dans la commande pour apporter des modifications à cet événement.",
+    "edit_creator_error": "Seul le créateur peut apporter des modifications à un événement!"
   },
   "setup": {
     "skip_button_label": "Sauter cette étape",

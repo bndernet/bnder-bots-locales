@@ -253,6 +253,11 @@ export class TSLocalizations_bg {
                 },
                 accept_button: "Приеми",
                 deny_button: "Откажи"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> актуализира събитието ${eventId}: **${eventName}**, започващо в ${start} и завършващо в ${end}.`;
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {

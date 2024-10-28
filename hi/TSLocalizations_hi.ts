@@ -253,6 +253,11 @@ export class TSLocalizations_hi {
                 },
                 accept_button: "स्वीकार करना",
                 deny_button: "अस्वीकार करना"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> ने ईवेंट ${eventId} को अपडेट किया: **${eventName}** जो ${start} से शुरू होकर ${end} पर समाप्त होता है।`;
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {

@@ -253,6 +253,11 @@ export class TSLocalizations_tr {
                 },
                 accept_button: "Kabul et",
                 deny_button: "Reddet"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}>, ${eventId} adlı etkinliği güncelledi: **${eventName}**, ${start}'ta başlayıp ${end}'te bitecek.`;
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {

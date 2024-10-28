@@ -249,10 +249,15 @@ export class TSLocalizations_en {
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}`;
+                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}.`;
                 },
                 accept_button: "Accept",
                 deny_button: "Deny"
+            },
+            edit_notification: {
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
+                    return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.`
+                }
             }
         },
         premium_granted_notification(guildId: string, guildName: string): string {
