@@ -118,7 +118,8 @@
       "open_attachments": "Anhänge anzeigen",
       "repeating_day_of_month_headline": "Wiederholungstag des Monats",
       "milestone_headline": "Meilenstein",
-      "effort_headline": "Aufwand"
+      "effort_headline": "Aufwand",
+      "dependencies_headline": "Abhängigkeiten"
     },
     "todos": {
       "text_not_found": "Der Aufgabentext fehlt. Bitte verwenden Sie den Parameter \"title\", um den Aufgabentext anzugeben.",
@@ -189,7 +190,6 @@
     "repeat_set": "Die Aufgabe **{{id}}** wird nun alle {{interval}} {{interval_unit}}, beginnend mit {{start_date}} und endend mit {{end_date}}. Wenn die Aufgabe als erledigt markiert ist, wird sie bei Erreichen des nächsten Wiederholungsdatums wieder auf todo gesetzt.",
     "repeat_days_out_of_range": "Das Intervall muss zwischen {{min}} und {{max}} Tagen liegen.",
     "repeat_cleared": "Die Aufgabe **{{id}}** wird nicht mehr wiederholt.",
-    "priority_changed": "Die Priorität der Aufgabe **{{id}}** wurde auf {{priority}} geändert.",
     "history": {
       "no_history": "Für diese Aufgabe gibt es keine Historie.",
       "created": "Aufgabe erstellt",
@@ -222,16 +222,16 @@
       "none": "Keine",
       "unknown": "Unbekannt",
       "milestone_changed": "Meilenstein geändert zu {{milestone}}",
-      "effort_changed": "Aufwand geändert auf {{new_effort}} Stunden"
+      "effort_changed": "Aufwand geändert auf {{new_effort}} Stunden",
+      "dependency_added": "Abhängigkeit {{dependency_id}} hinzugefügt",
+      "dependency_removed": "Abhängigkeit {{dependency_id}} entfernt"
     },
     "description_too_long": "Die Beschreibung ist zu lang. Bitte kürzen Sie sie auf {{max}} Zeichen.",
     "comment_text_too_long": "Der Kommentartext ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
     "task_commented": "Ihr Kommentar wurde zu der Aufgabe **{{id}}** hinzugefügt. Er wird im Befehl \"/task info\" und in der App sichtbar sein.",
     "max_amount_of_comments_per_task": "Sie können nicht mehr als {{max}} Kommentare zu einer Aufgabe hinzufügen, es sei denn, Sie haben ein [Upgrade auf einen Premium-Platz](<https://bnder.net/p/{{guildId}}>). Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
-    "task_edited_text_and_description": "Der Text und die Beschreibung der Aufgabe **{{id}}** wurden bearbeitet.",
-    "task_edited_text": "Der Text der Aufgabe **{{id}}** wurde bearbeitet.",
-    "task_edited_description": "Die Beschreibung der Aufgabe **{{id}}** wurde bearbeitet.",
-    "edit_no_changes": "Es wurden keine Änderungen an der Aufgabe **{{id}}** vorgenommen, da Sie keinen neuen Titel oder keine neue Beschreibung angegeben haben.",
+    "task_edited": "Die Aufgabe **{{id}}** wurde bearbeitet. Verwenden Sie \"/task info\", um die Änderungen anzuzeigen.",
+    "edit_no_changes": "An der Aufgabe **{{id}}** wurden keine Änderungen vorgenommen, da Sie keine Änderungen angegeben haben.",
     "comment_modal_title": "Einen Kommentar zur Aufgabe {{id}} hinzufügen",
     "comment_modal_placeholder": "Geben Sie Ihren Kommentar ein",
     "comment_modal_label": "Kommentar",
@@ -261,7 +261,15 @@
     "milestone_removed": "Der Meilenstein wurde aus der Aufgabe **{{id}}** entfernt.",
     "milestone_updated": "Der Meilenstein der Aufgabe **{{id}}** wurde auf **{{milestone}}** gesetzt.",
     "deadline_not_set": "Für die Aufgabe **{{id}}** ist keine Frist festgelegt. Verwenden Sie \"/task deadline\", um eine Frist festzulegen, indem Sie sie im Befehl angeben.",
-    "effort_updated": "Der Aufwand für die Aufgabe **{{id}}** {{title, length100}} wurde auf {{effort}} Stunden aktualisiert."
+    "dependencies_not_completed": "Möchten Sie den Status der Aufgabe **{{id}}** wirklich ändern? Eine (Aufgabe {{dependencyId}}**) oder mehrere Abhängigkeiten sind noch nicht abgeschlossen.",
+    "force_in_progress": "Auf in Bearbeitung gesetzt",
+    "force_done": "Auf erledigt gesetzt",
+    "dependencies_not_allowed": "Abhängigkeiten sind nur für Benutzer in Premium-Plätzen verfügbar. [Bitte upgraden Sie auf einen Premium-Plätz](<https://bnder.net/p/{{guildId}}>), um diese Funktion zu verwenden. Weitere Informationen zu Premium finden Sie unter https://bnder.net/pricing.",
+    "dependencies_cannot_be_same": "Die Aufgabe kann nicht von sich selbst abhängig sein. Bitte wählen Sie eine andere Aufgabe als Abhängigkeit.",
+    "dependencies_already_exists": "Die Aufgabe **{{id}}** ist bereits von der Aufgabe **{{dependencyId}}** abhängig. Verwenden Sie \"/task dependencies remove\", um die Abhängigkeit zu entfernen.",
+    "dependencies_added": "Aufgabe **{{dependencyId}}** wurde als Abhängigkeit zur Aufgabe **{{id}}** hinzugefügt. Wenn Aufgabe **{{id}}** ihren Status ändert, wird eine Warnung angezeigt, bevor Aufgabe **{{dependencyId}}** abgeschlossen ist.",
+    "dependencies_not_found": "Die Aufgabe **{{dependencyId}}** ist keine Abhängigkeit der Aufgabe **{{id}}**. Verwenden Sie \"/task dependencies add\", um sie als Abhängigkeit hinzuzufügen.",
+    "dependencies_removed": "Die Abhängigkeit zur Aufgabe **{{dependencyId}}** wurde aus Aufgabe **{{id}}** entfernt."
   },
   "milestone": {
     "not_found": "Der Meilenstein **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/milestone list\", um alle Meilensteine aufzulisten.",

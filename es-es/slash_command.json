@@ -92,7 +92,6 @@
     "label_option_description": "La Etiqueta asignada a una tarea o documento",
     "history_subcommand_description": "Mostrar el historial de una tarea",
     "priority_option_description": "La prioridad de una tarea",
-    "priority_subcommand_description": "Establecer la prioridad de una tarea",
     "show_option_description": "Si el mensaje debe mostrarse a todo el mundo",
     "todos_subcommand_description": "Agregar, eliminar, completar o desmarcar tareas pendientes",
     "todosaction_option_description": "La acción a realizar en las tareas pendientes",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "Listar todos los adjuntos de una tarea",
     "watch_subcommand_description": "Seguir o dejar de seguir una tarea",
     "unwatch_subcommand_description": "Dejar de seguir una tarea",
-    "milestone_subcommand_description": "Establecer el hito de una tarea",
     "milestone_option_description": "Hito que se establecerá para la tarea",
-    "effort_subcommand_description": "Establecer el esfuerzo de una tarea",
-    "effort_option_description": "Esfuerzo a establecer para la tarea en horas"
+    "effort_option_description": "Esfuerzo a establecer para la tarea en horas",
+    "dependency_subcommand_description": "Agregar o eliminar una dependencia a una tarea",
+    "dependency_action_option_description": "Acción a realizar en la dependencia",
+    "dependency_id_option_description": "ID de la dependencia"
   },
   "milestone": {
     "command_description": "Administrar hitos",

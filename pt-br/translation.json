@@ -118,7 +118,8 @@
       "open_attachments": "Abrir anexos",
       "repeating_day_of_month_headline": "Dia do mês",
       "milestone_headline": "Marco",
-      "effort_headline": "Esforço"
+      "effort_headline": "Esforço",
+      "dependencies_headline": "Dependências"
     },
     "todos": {
       "text_not_found": "O texto da tarefa está faltando. Use o parâmetro \"title\" para especificar o texto da tarefa.",
@@ -189,7 +190,6 @@
     "repeat_set": "A tarefa **{{id}}** agora se repetirá a cada {{interval}} {{interval_unit}} começando em {{start_date}} e terminando em {{end_date}}. Quando a tarefa for marcada como concluída, ela voltará a ser definida como todo quando a próxima data de repetição for atingida.",
     "repeat_days_out_of_range": "O intervalo deve estar entre {{min}} e {{max}} dias.",
     "repeat_cleared": "A tarefa **{{id}}** não será mais repetida.",
-    "priority_changed": "A prioridade da tarefa **{{id}}** foi alterada para {{priority}}.",
     "history": {
       "no_history": "Não há histórico para essa tarefa",
       "created": "Tarefa criada",
@@ -222,16 +222,16 @@
       "none": "Nenhum",
       "unknown": "Desconhecido",
       "milestone_changed": "Marco alterado para {{milestone}}",
-      "effort_changed": "Esforço alterado para {{new_effort}} horas"
+      "effort_changed": "Esforço alterado para {{new_effort}} horas",
+      "dependency_added": "Dependência {{dependency_id}} adicionada",
+      "dependency_removed": "Dependência {{dependency_id}} removida"
     },
     "description_too_long": "A descrição é muito longa. Reduza-a para um máximo de {{max}} caracteres.",
     "comment_text_too_long": "O texto do comentário é muito longo. Por favor, reduza-o para {{max}} caracteres.",
     "task_commented": "Seu comentário foi adicionado à tarefa **{{id}}**. Ele ficará visível no comando \"/task info\" e no aplicativo.",
     "max_amount_of_comments_per_task": "Não é possível adicionar mais do que {{max}} comentários a uma tarefa, a menos que você [faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>). Saiba mais sobre premium em https://bnder.net/pricing.",
-    "task_edited_text_and_description": "O texto e a descrição da tarefa **{{id}}** foram editados.",
-    "task_edited_text": "O texto da tarefa **{{id}}** foi editado.",
-    "task_edited_description": "A descrição da tarefa **{{id}}** foi editada.",
-    "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}** porque você não especificou um novo título ou descrição.",
+    "task_edited": "A tarefa **{{id}}** foi editada. Use \"/task info\" para ver as alterações.",
+    "edit_no_changes": "Nenhuma alteração foi feita na tarefa **{{id}}**, porque você não especificou nenhuma alteração.",
     "comment_modal_title": "Adicionar um comentário à tarefa {{id}}",
     "comment_modal_placeholder": "Digite seu comentário",
     "comment_modal_label": "Comentário",
@@ -261,7 +261,15 @@
     "milestone_removed": "O marco foi removido da tarefa **{{id}}**.",
     "milestone_updated": "O marco da tarefa **{{id}}** foi definido como **{{milestone}}**.",
     "deadline_not_set": "Não há prazo definido para a tarefa **{{id}}**. Use \"/task deadline\" para definir um prazo, fornecendo-o no comando.",
-    "effort_updated": "O esforço para a tarefa **{{id}}** {{title, length100}} foi atualizado para {{effort}} horas."
+    "dependencies_not_completed": "Tem certeza de que deseja alterar o estado da tarefa **{{id}}**? Uma (tarefa {{dependencyId}}**) ou mais dependências ainda não foram concluídas.",
+    "force_in_progress": "Definido como em andamento",
+    "force_done": "Definido como concluído",
+    "dependencies_not_allowed": "As dependências estão disponíveis apenas para usuários em assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar este recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
+    "dependencies_cannot_be_same": "A tarefa não pode depender de si mesma. Escolha outra tarefa como dependência.",
+    "dependencies_already_exists": "A tarefa **{{id}}** já depende da tarefa **{{dependencyId}}**. Use \"/task dependencies remove\" para remover a dependência.",
+    "dependencies_added": "A tarefa **{{dependencyId}}** foi adicionada como uma dependência à tarefa **{{id}}**. Quando a tarefa **{{id}}** mudar seu estado, antes que a tarefa **{{dependencyId}}** seja concluída, um aviso será exibido.",
+    "dependencies_not_found": "A tarefa **{{dependencyId}}** não é uma dependência da tarefa **{{id}}**. Use \"/task dependencies add\" para adicioná-la como uma dependência.",
+    "dependencies_removed": "A dependência da tarefa **{{dependencyId}}** foi removida da tarefa **{{id}}**."
   },
   "milestone": {
     "not_found": "O marco **{{name}}** não pôde ser encontrado. Use \"/milestone list\" para listar todos os marcos.",

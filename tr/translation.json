@@ -118,7 +118,8 @@
       "open_attachments": "Ekleri aç",
       "repeating_day_of_month_headline": "Ayın günü",
       "milestone_headline": "Kilometre taşı",
-      "effort_headline": "Çaba"
+      "effort_headline": "Çaba",
+      "dependencies_headline": "Bağımlılıklar"
     },
     "todos": {
       "text_not_found": "Yapılacak iş metni eksik. Lütfen yapılacak iş metnini belirtmek için \"title\" parametresini kullanın.",
@@ -189,7 +190,6 @@
     "repeat_set": "Görev **{{id}}** artık her {{interval}}'ta tekrarlanacaktır {{interval_unit}}, {{start_date}}'den başlar ve {{end_date}}'de sona erer. Görev tamamlandı olarak işaretlendiğinde, bir sonraki yinelenen tarihe ulaşıldığında görev tekrar yapılacak olarak ayarlanacaktır.",
     "repeat_days_out_of_range": "Aralık {{min}} ile {{max}} günleri arasında olmalıdır.",
     "repeat_cleared": "**{{id}}** görevi artık tekrarlanmayacak.",
-    "priority_changed": "**{{id}}** görevinin önceliği {{priority}} olarak değiştirildi.",
     "history": {
       "no_history": "Bu görev için bir geçmiş yok.",
       "created": "Görev oluşturuldu",
@@ -222,16 +222,16 @@
       "none": "Hiçbiri",
       "unknown": "Bilinmiyor",
       "milestone_changed": "Kilometre taşı {{milestone}} olarak değiştirildi",
-      "effort_changed": "Efor {{new_effort}} saate değiştirildi"
+      "effort_changed": "Efor {{new_effort}} saate değiştirildi",
+      "dependency_added": "Bağımlılık {{dependency_id}} eklendi",
+      "dependency_removed": "Bağımlılık {{dependency_id}} kaldırıldı"
     },
     "description_too_long": "Açıklama çok uzun. Lütfen en fazla {{max}} karaktere kısaltın.",
     "comment_text_too_long": "Yorum metni çok uzun. Lütfen {{max}} karaktere kısaltın.",
     "task_commented": "Yorumunuz **{{id}}** görevine eklendi. Bu yorum \"/task info\" komutunda ve uygulamada görülebilir.",
     "max_amount_of_comments_per_task": "Вы не можете добавить к заданию больше {{max}} комментариев, если только вы не [перешли на премиум-место](<https://bnder.net/p/{{guildId}}>). Подробнее о премиуме можно узнать на https://bnder.net/pricing.",
-    "task_edited_text_and_description": "**{{id}}** görevinin metni ve açıklaması düzenlendi.",
-    "task_edited_text": "**{{id}}** görevinin metni düzenlendi.",
-    "task_edited_description": "**{{id}}** görevinin açıklaması düzenlendi.",
-    "edit_no_changes": "Yeni bir başlık veya açıklama belirtmediğiniz için **{{id}}** görevinde herhangi bir değişiklik yapılmadı.",
+    "task_edited": "Görev **{{id}}** düzenlendi. Değişiklikleri görmek için \"/task info\" kullanın.",
+    "edit_no_changes": "Görev **{{id}}**'de hiçbir değişiklik yapılmadı, çünkü herhangi bir değişiklik belirtmediniz.",
     "comment_modal_title": "{{id}} görevine yorum ekle",
     "comment_modal_placeholder": "Yorumunuzu girin",
     "comment_modal_label": "Yorum",
@@ -261,7 +261,15 @@
     "milestone_removed": "Kilometre taşı **{{id}}** görevinden kaldırıldı.",
     "milestone_updated": "**{{id}}** görevinin kilometre taşı **{{milestone}}** olarak ayarlandı.",
     "deadline_not_set": "**{{id}}** görevi için belirlenmiş bir son tarih yok. Komutta belirterek bir son tarih belirlemek için \"/task deadline\" kullanın.",
-    "effort_updated": "**{{id}}** {{title, length100}} görevi için harcanan çaba {{effort}} saate güncellendi."
+    "dependencies_not_completed": "Görevin durumunu **{{id}}** değiştirmek istediğinizden emin misiniz? Bir (görev {{dependencyId}}**) veya daha fazla bağımlılık henüz tamamlanmadı.",
+    "force_in_progress": "Devam ediyor olarak ayarlandı",
+    "force_done": "Tamamlandı olarak ayarlandı",
+    "dependencies_not_allowed": "Bağımlılıklar yalnızca premium koltuklardaki kullanıcılar için kullanılabilir. Bu özelliği kullanmak için [Lütfen premium koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Premium hakkında daha fazla bilgi edinmek için https://bnder.net/pricing adresini ziyaret edin.",
+    "dependencies_cannot_be_same": "Görev kendisine bağlı olamaz. Lütfen bağımlılık olarak başka bir görev seçin.",
+    "dependencies_already_exists": "Görev **{{id}}** zaten göreve bağlı **{{dependencyId}}**. Bağımlılığı kaldırmak için \"/task dependencies remove\" komutunu kullanın.",
+    "dependencies_added": "Görev **{{dependencyId}}**, görev **{{id}}**'ye bağımlılık olarak eklendi. Görev **{{id}}** durumunu değiştirdiğinde, görev **{{dependencyId}}** tamamlanmadan önce bir uyarı gösterilecektir.",
+    "dependencies_not_found": "Görev **{{dependencyId}}**, görev **{{id}}**'nin bir bağımlılığı değildir. Bağımlılık olarak eklemek için \"/task dependencies add\" komutunu kullanın.",
+    "dependencies_removed": "Görev **{{dependencyId}}**'ye olan bağımlılık görev **{{id}}**'den kaldırıldı."
   },
   "milestone": {
     "not_found": "**{{name}}** kilometre taşı bulunamadı. Tüm kilometre taşlarını listelemek için \"/milestone list\" kullanın.",

@@ -118,7 +118,8 @@
       "open_attachments": "Open attachments",
       "repeating_day_of_month_headline": "Repeating day of month",
       "milestone_headline": "Milestone",
-      "effort_headline": "Effort"
+      "effort_headline": "Effort",
+      "dependencies_headline": "Dependencies"
     },
     "todos": {
       "text_not_found": "The to do text is missing. Please use the \"title\" parameter to specify the to do text.",
@@ -189,7 +190,6 @@
     "repeat_set": "The task **{{id}}** will now repeat every {{interval}} {{interval_unit}} starting from {{start_date}} and ending at {{end_date}}. When the task is marked as done, the task will be set back to to do when the next repeating date is reached.",
     "repeat_days_out_of_range": "The interval must be between {{min}} and {{max}} days.",
     "repeat_cleared": "The task **{{id}}** will no longer repeat.",
-    "priority_changed": "The priority of task **{{id}}** has been changed to {{priority}}.",
     "history": {
       "no_history": "There is no history for this task.",
       "created": "Task created",
@@ -222,16 +222,16 @@
       "none": "None",
       "unknown": "Unknown",
       "milestone_changed": "Milestone changed to {{milestone}}",
-      "effort_changed": "Effort changed to {{new_effort}} hours"
+      "effort_changed": "Effort changed to {{new_effort}} hours",
+      "dependency_added": "Dependency {{dependency_id}} added",
+      "dependency_removed": "Dependency {{dependency_id}} removed"
     },
     "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
     "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",
     "task_commented": "Your comment was added to the task **{{id}}**. It will be visible in the \"/task info\" command and in the app.",
     "max_amount_of_comments_per_task": "You can't add more than {{max}} comments to a task, unless you [upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>). Learn more about premium at https://bnder.net/pricing.",
-    "task_edited_text_and_description": "The text and description of task **{{id}}** have been edited.",
-    "task_edited_text": "The text of task **{{id}}** has been edited.",
-    "task_edited_description": "The description of task **{{id}}** has been edited.",
-    "edit_no_changes": "No changes were made to the task **{{id}}**, because you didn't specify a new title or description.",
+    "task_edited": "The task **{{id}}** has been edited. Use \"/task info\" to see the changes.",
+    "edit_no_changes": "No changes were made to the task **{{id}}**, because you didn't specify any changes.",
     "comment_modal_title": "Add a comment to task {{id}}",
     "comment_modal_placeholder": "Enter your comment",
     "comment_modal_label": "Comment",
@@ -261,7 +261,15 @@
     "milestone_removed": "The milestone was removed from the task **{{id}}**.",
     "milestone_updated": "The milestone of task **{{id}}** was set to **{{milestone}}**.",
     "deadline_not_set": "There is no deadline set for the task **{{id}}**. Use \"/task deadline\" to set a deadline by providing it in the command.",
-    "effort_updated": "The effort for the task **{{id}}** {{title, length100}} has been updated to {{effort}} hours."
+    "dependencies_not_completed": "Are you sure you want to change the state of the task **{{id}}**? One (task {{dependencyId}}**) or more dependencies are not completed yet.",
+    "force_in_progress": "Set to in progress",
+    "force_done": "Set to done",
+    "dependencies_not_allowed": "Dependencies are only available to users in premium seats. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about premium at https://bnder.net/pricing.",
+    "dependencies_cannot_be_same": "The task can't depend on itself. Please choose another task as a dependency.",
+    "dependencies_already_exists": "The task **{{id}}** is already dependent on the task **{{dependencyId}}**. Use \"/task dependencies remove\" to remove the dependency.",
+    "dependencies_added": "Task **{{dependencyId}}** was added as a dependency to task **{{id}}**. When task **{{id}}** changes its state, before task **{{dependencyId}}** is completed, a warning will be shown.",
+    "dependencies_not_found": "The task **{{dependencyId}}** is not a dependency of the task **{{id}}**. Use \"/task dependencies add\" to add it as a dependency.",
+    "dependencies_removed": "The dependency to task **{{dependencyId}}** was removed from task **{{id}}**."
   },
   "milestone": {
     "not_found": "The milestone **{{name}}** could not be found. Use \"/milestone list\" to list all milestones.",

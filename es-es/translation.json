@@ -118,7 +118,8 @@
       "open_attachments": "Abrir archivos adjuntos",
       "repeating_day_of_month_headline": "Día del mes",
       "milestone_headline": "Hito",
-      "effort_headline": "Esfuerzo"
+      "effort_headline": "Esfuerzo",
+      "dependencies_headline": "Dependencias"
     },
     "todos": {
       "text_not_found": "Falta el texto de la tarea pendiente. Utilice el parámetro \"title\" para especificar el texto de la tarea pendiente.",
@@ -189,7 +190,6 @@
     "repeat_set": "La tarea **{{id}}** se repetirá ahora cada {{interval}} {{interval_unit}} comenzando en {{start_date}} y terminando en {{end_date}}. Cuando la tarea se marque como realizada, la tarea se pondrá de nuevo en todo cuando se alcance la siguiente fecha de repetición.",
     "repeat_days_out_of_range": "El intervalo debe estar entre {{min}} y {{max}} días",
     "repeat_cleared": "La tarea **{{id}}** ya no se repetirá.",
-    "priority_changed": "La prioridad de la tarea **{{id}}** se ha cambiado a {{priority}}",
     "history": {
       "no_history": "No hay historial para esta tarea",
       "created": "Tarea creada",
@@ -222,16 +222,16 @@
       "none": "Ninguno",
       "unknown": "Desconocido",
       "milestone_changed": "El hito ha cambiado a {{milestone}}",
-      "effort_changed": "El esfuerzo ha cambiado a {{new_effort}} horas"
+      "effort_changed": "El esfuerzo ha cambiado a {{new_effort}} horas",
+      "dependency_added": "Dependencia {{dependency_id}} añadida",
+      "dependency_removed": "Dependencia {{dependency_id}} eliminada"
     },
     "description_too_long": "La descripción es demasiado larga. Por favor, acórtela a un máximo de {{max}} caracteres.",
     "comment_text_too_long": "El texto del comentario es demasiado largo. Por favor, acórtalo a {{max}} caracteres",
     "task_commented": "Tu comentario se ha añadido a la tarea **{{id}}**. Será visible en el comando \"/task info\" y en la app.",
     "max_amount_of_comments_per_task": "No puedes añadir más de {{max}} comentarios a una tarea, a menos que [pases a un asiento premium](<https://bnder.net/p/{{guildId}}>). Más información sobre Premium en https://bnder.net/pricing.",
-    "task_edited_text_and_description": "El texto y la descripción de la tarea **{{id}}** han sido editados.",
-    "task_edited_text": "El texto de la tarea **{{id}}** ha sido editado.",
-    "task_edited_description": "La descripción de la tarea **{{id}}** ha sido editada.",
-    "edit_no_changes": "No se realizaron cambios en la tarea **{{id}}** porque no especificaste un nuevo título o descripción.",
+    "task_edited": "Se ha editado la tarea **{{id}}**. Utilice \"/task info\" para ver los cambios.",
+    "edit_no_changes": "No se realizaron cambios en la tarea **{{id}}**, porque no especificó ningún cambio.",
     "comment_modal_title": "Añade un comentario a la tarea {{id}}",
     "comment_modal_placeholder": "Introduce tu comentario",
     "comment_modal_label": "Comentario",
@@ -261,7 +261,15 @@
     "milestone_removed": "Se eliminó el hito de la tarea **{{id}}**.",
     "milestone_updated": "El hito de la tarea **{{id}}** se estableció en **{{milestone}}**.",
     "deadline_not_set": "No hay una fecha límite establecida para la tarea **{{id}}**. Utilice \"/task deadline\" para establecer una fecha límite proporcionándola en el comando.",
-    "effort_updated": "El esfuerzo para la tarea **{{id}}** {{title, length100}} se ha actualizado a {{effort}} horas."
+    "dependencies_not_completed": "¿Está seguro de que desea cambiar el estado de la tarea **{{id}}**? Una (tarea {{dependencyId}}**) o más dependencias aún no se han completado.",
+    "force_in_progress": "Establecer en progreso",
+    "force_done": "Establecer en finalizado",
+    "dependencies_not_allowed": "Las dependencias solo están disponibles para usuarios con licencias premium. [Actualice a una licencia premium](<https://bnder.net/p/{{guildId}}>) para usar esta función. Obtenga más información sobre la licencia premium en https://bnder.net/pricing.",
+    "dependencies_cannot_be_same": "La tarea no puede depender de sí misma. Elija otra tarea como dependencia.",
+    "dependencies_already_exists": "La tarea **{{id}}** ya depende de la tarea **{{dependencyId}}**. Use \"/task dependencies remove\" para eliminar la dependencia.",
+    "dependencies_added": "La tarea **{{dependencyId}}** se agregó como una dependencia a la tarea **{{id}}**. Cuando la tarea **{{id}}** cambie su estado, antes de que la tarea **{{dependencyId}}** se complete, se mostrará una advertencia.",
+    "dependencies_not_found": "La tarea **{{dependencyId}}** no es una dependencia de la tarea **{{id}}**. Use \"/task dependencies add\" para agregarla como una dependencia.",
+    "dependencies_removed": "La dependencia a la tarea **{{dependencyId}}** se eliminó de la tarea **{{id}}**."
   },
   "milestone": {
     "not_found": "No se pudo encontrar el hito **{{name}}**. Use \"/milestone list\" para listar todos los hitos.",

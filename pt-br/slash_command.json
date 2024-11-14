@@ -92,7 +92,6 @@
     "label_option_description": "O rótulo atribuído a uma tarefa ou documento",
     "history_subcommand_description": "Mostrar o histórico de uma tarefa",
     "priority_option_description": "A prioridade de uma tarefa",
-    "priority_subcommand_description": "Definir a prioridade de uma tarefa",
     "show_option_description": "Se a mensagem deve ser exibida para todos",
     "todos_subcommand_description": "Adicionar, remover, completar ou desmarcar todos",
     "todosaction_option_description": "A ação a ser executada nos todos",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "Listar todos os anexos de uma tarefa",
     "watch_subcommand_description": "Assistir a uma tarefa",
     "unwatch_subcommand_description": "Parar de assistir a uma tarefa",
-    "milestone_subcommand_description": "Defina o marco de uma tarefa",
     "milestone_option_description": "Marco a ser definido para a tarefa",
-    "effort_subcommand_description": "Defina o esforço de uma tarefa",
-    "effort_option_description": "Esforço a ser definido para a tarefa em horas"
+    "effort_option_description": "Esforço a ser definido para a tarefa em horas",
+    "dependency_subcommand_description": "Adicionar ou remover uma dependência de uma tarefa",
+    "dependency_action_option_description": "Ação a ser executada na dependência",
+    "dependency_id_option_description": "ID da dependência"
   },
   "milestone": {
     "command_description": "Gerenciar marcos",

@@ -92,7 +92,6 @@
     "label_option_description": "Bir göreve veya belgeye atanan Etiket",
     "history_subcommand_description": "Bir görevin geçmişini göster",
     "priority_option_description": "Bir görevin önceliği",
-    "priority_subcommand_description": "Bir görevin önceliğini ayarla",
     "show_option_description": "Mesajın herkese gösterilip gösterilmeyeceği",
     "todos_subcommand_description": "Yapılacakları ekle, kaldır, tamamla veya işaretini kaldır",
     "todosaction_option_description": "Yapılacaklar üzerinde gerçekleştirilecek eylem",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "Bir görevin tüm eklerini listele",
     "watch_subcommand_description": "Bir görevi izle",
     "unwatch_subcommand_description": "Bir görevi izlemeyi bırak",
-    "milestone_subcommand_description": "Bir görevin kilometre taşını ayarlayın",
     "milestone_option_description": "Görev için ayarlanacak kilometre taşı",
-    "effort_subcommand_description": "Bir görevin eforunu ayarlayın",
-    "effort_option_description": "Görev için saat cinsinden ayarlanacak efor"
+    "effort_option_description": "Görev için saat cinsinden ayarlanacak efor",
+    "dependency_subcommand_description": "Bir göreve bağımlılık ekle veya kaldır",
+    "dependency_action_option_description": "Bağımlılık üzerinde gerçekleştirilecek eylem",
+    "dependency_id_option_description": "Bağımlılığın kimliği"
   },
   "milestone": {
     "command_description": "Kilometre taşlarını yönet",

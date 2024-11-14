@@ -118,7 +118,8 @@
       "open_attachments": "Ouvrir les pièces jointes",
       "repeating_day_of_month_headline": "Jour du mois",
       "milestone_headline": "Jalon",
-      "effort_headline": "Effort"
+      "effort_headline": "Effort",
+      "dependencies_headline": "Dépendances"
     },
     "todos": {
       "text_not_found": "Le texte de la tâche à faire est manquant. Veuillez utiliser le paramètre \"title\" pour spécifier le texte de la tâche à faire.",
@@ -189,7 +190,6 @@
     "repeat_set": "La tâche **{{id}}** se répétera désormais tous les {{interval}} {{interval_unit}} à partir de {{start_date}} et jusqu'à {{end_date}}. Lorsque la tâche est marquée comme accomplie, elle sera remise dans la liste des tâches à accomplir lorsque la prochaine date de répétition sera atteinte.",
     "repeat_days_out_of_range": "L'intervalle doit être compris entre {{min}} et {{max}} jours",
     "repeat_cleared": "La tâche **{{id}}** ne se répétera plus.",
-    "priority_changed": "La priorité de la tâche **{{id}}** a été modifiée en {{priority}}",
     "history": {
       "no_history": "Il n'y a pas d'historique pour cette tâche",
       "created": "Tâche créée",
@@ -222,16 +222,16 @@
       "none": "Aucun",
       "unknown": "Inconnu",
       "milestone_changed": "Jalon modifié en {{milestone}}",
-      "effort_changed": "Effort modifié à {{new_effort}} heures"
+      "effort_changed": "Effort modifié à {{new_effort}} heures",
+      "dependency_added": "Dépendance {{dependency_id}} ajoutée",
+      "dependency_removed": "Dépendance {{dependency_id}} supprimée"
     },
     "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères.",
     "comment_text_too_long": "Le texte du commentaire est trop long. Veuillez le raccourcir à {{max}} caractères",
     "task_commented": "Votre commentaire a été ajouté à la tâche **{{id}}**. Il sera visible dans la commande \"/task info\" et dans l'application.",
     "max_amount_of_comments_per_task": "Vous ne pouvez pas ajouter plus de {{max}} commentaires à une tâche, à moins que vous n'obteniez une place Premium. Pour en savoir plus sur la prime, consultez le site https://bnder.net/pricing.",
-    "task_edited_text_and_description": "Le texte et la description de la tâche **{{id}}** ont été modifiés.",
-    "task_edited_text": "Le texte de la tâche **{{id}}** a été modifié.",
-    "task_edited_description": "La description de la tâche **{{id}}** a été modifiée.",
-    "edit_no_changes": "Aucune modification n'a été apportée à la tâche **{{id}}**, car vous n'avez pas spécifié de nouveau titre ou de nouvelle description.",
+    "task_edited": "La tâche **{{id}}** a été modifiée. Utilisez \"/task info\" pour voir les modifications.",
+    "edit_no_changes": "Aucune modification n'a été apportée à la tâche **{{id}}**, car vous n'avez spécifié aucune modification.",
     "comment_modal_title": "Ajouter un commentaire à la tâche {{id}}",
     "comment_modal_placeholder": "Entrez votre commentaire",
     "comment_modal_label": "Commentaire",
@@ -261,7 +261,15 @@
     "milestone_removed": "Le jalon a été supprimé de la tâche **{{id}}**.",
     "milestone_updated": "Le jalon de la tâche **{{id}}** a été défini sur **{{milestone}}**.",
     "deadline_not_set": "Aucune date limite n'est définie pour la tâche **{{id}}**. Utilisez \"/task deadline\" pour définir une date limite en la fournissant dans la commande.",
-    "effort_updated": "L'effort pour la tâche **{{id}}** {{title, length100}} a été mis à jour à {{effort}} heures."
+    "dependencies_not_completed": "Êtes-vous sûr de vouloir modifier l'état de la tâche **{{id}}** ? Une (tâche {{dependencyId}}**) ou plusieurs dépendances ne sont pas encore terminées.",
+    "force_in_progress": "Définir comme en cours",
+    "force_done": "Définir comme terminé",
+    "dependencies_not_allowed": "Les dépendances ne sont disponibles que pour les utilisateurs disposant de sièges premium. [Veuillez passer à un siège premium](<https://bnder.net/p/{{guildId}}>) pour utiliser cette fonctionnalité. Pour en savoir plus sur le premium, consultez https://bnder.net/pricing.",
+    "dependencies_cannot_be_same": "La tâche ne peut pas dépendre d'elle-même. Veuillez choisir une autre tâche comme dépendance.",
+    "dependencies_already_exists": "La tâche **{{id}}** dépend déjà de la tâche **{{dependencyId}}**. Utilisez \"/task dependencies remove\" pour supprimer la dépendance.",
+    "dependencies_added": "La tâche **{{dependencyId}}** a été ajoutée en tant que dépendance à la tâche **{{id}}**. Lorsque la tâche **{{id}}** change d'état, avant que la tâche **{{dependencyId}}** ne soit terminée, un avertissement s'affiche.",
+    "dependencies_not_found": "La tâche **{{dependencyId}}** n'est pas une dépendance de la tâche **{{id}}**. Utilisez \"/task dependencies add\" pour l'ajouter en tant que dépendance.",
+    "dependencies_removed": "La dépendance à la tâche **{{dependencyId}}** a été supprimée de la tâche **{{id}}**."
   },
   "milestone": {
     "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",

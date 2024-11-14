@@ -92,7 +92,6 @@
     "label_option_description": "Метка, присвоенная задаче или документу",
     "history_subcommand_description": "Показать историю задачи",
     "priority_option_description": "Приоритет задачи",
-    "priority_subcommand_description": "Установить приоритет задачи",
     "show_option_description": "Должно ли сообщение показываться всем",
     "todos_subcommand_description": "Добавить, удалить, завершить или снять отметку с задач",
     "todosaction_option_description": "Действие, которое нужно выполнить с задачами",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "Перечислить все вложения задачи",
     "watch_subcommand_description": "Следить за задачей",
     "unwatch_subcommand_description": "Прекратить следить за задачей",
-    "milestone_subcommand_description": "Установить веху задачи",
     "milestone_option_description": "Веха, которую следует установить для задачи",
-    "effort_subcommand_description": "Установите усилие задачи",
-    "effort_option_description": "Усилие для установки для задачи в часах"
+    "effort_option_description": "Усилие для установки для задачи в часах",
+    "dependency_subcommand_description": "Добавить или удалить зависимость к задаче",
+    "dependency_action_option_description": "Действие, которое нужно выполнить над зависимостью",
+    "dependency_id_option_description": "ID зависимости"
   },
   "milestone": {
     "command_description": "Управление вехами",

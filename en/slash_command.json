@@ -92,7 +92,6 @@
     "label_option_description": "The Label assigned to a task or document",
     "history_subcommand_description": "Show the history of a task",
     "priority_option_description": "The priority of a task",
-    "priority_subcommand_description": "Set the priority of a task",
     "show_option_description": "Whether the message should be shown to everyone",
     "todos_subcommand_description": "Add, remove, complete or uncheck todos",
     "todosaction_option_description": "The action to perform on the todos",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "List all attachments of a task",
     "watch_subcommand_description": "Watch a task",
     "unwatch_subcommand_description": "Unwatch a task",
-    "milestone_subcommand_description": "Set the milestone of a task",
     "milestone_option_description": "Milestone to set for the task",
-    "effort_subcommand_description": "Set the effort of a task",
-    "effort_option_description": "Effort to set for the task in hours"
+    "effort_option_description": "Effort to set for the task in hours",
+    "dependency_subcommand_description": "Add or remove a dependency to a task",
+    "dependency_action_option_description": "Action to perform on the dependency",
+    "dependency_id_option_description": "ID of the dependency"
   },
   "milestone": {
     "command_description": "Manage milestones",

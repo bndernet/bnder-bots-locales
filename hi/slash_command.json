@@ -92,7 +92,6 @@
     "label_option_description": "किसी कार्य या दस्तावेज़ को सौंपा गया लेबल",
     "history_subcommand_description": "किसी कार्य का इतिहास दिखाएँ",
     "priority_option_description": "किसी कार्य की प्राथमिकता",
-    "priority_subcommand_description": "किसी कार्य की प्राथमिकता निर्धारित करें",
     "show_option_description": "क्या संदेश सभी को दिखाया जाना चाहिए",
     "todos_subcommand_description": "टोडो जोड़ें, हटाएं, पूरा करें या अनचेक करें",
     "todosaction_option_description": "टोडो पर की जाने वाली कार्रवाई",
@@ -107,10 +106,11 @@
     "attachments_subcommand_description": "किसी कार्य के सभी अनुलग्नकों की सूची बनाएं",
     "watch_subcommand_description": "किसी कार्य को देखना शुरू करें",
     "unwatch_subcommand_description": "किसी कार्य को देखना बंद करें",
-    "milestone_subcommand_description": "किसी कार्य का माइलस्टोन सेट करें",
     "milestone_option_description": "कार्य के लिए निर्धारित किया जाने वाला माइलस्टोन",
-    "effort_subcommand_description": "किसी कार्य के लिए प्रयास निर्धारित करें",
-    "effort_option_description": "कार्य के लिए घंटों में निर्धारित करने का प्रयास"
+    "effort_option_description": "कार्य के लिए घंटों में निर्धारित करने का प्रयास",
+    "dependency_subcommand_description": "किसी कार्य में निर्भरता जोड़ें या निकालें",
+    "dependency_action_option_description": "निर्भरता पर की जाने वाली कार्रवाई",
+    "dependency_id_option_description": "निर्भरता की आईडी"
   },
   "milestone": {
     "command_description": "मील का पत्थर प्रबंधित करें",
