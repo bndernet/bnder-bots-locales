@@ -261,7 +261,7 @@
     "milestone_removed": "Kilometre taşı **{{id}}** görevinden kaldırıldı.",
     "milestone_updated": "**{{id}}** görevinin kilometre taşı **{{milestone}}** olarak ayarlandı.",
     "deadline_not_set": "**{{id}}** görevi için belirlenmiş bir son tarih yok. Komutta belirterek bir son tarih belirlemek için \"/task deadline\" kullanın.",
-    "dependencies_not_completed": "Görevin durumunu **{{id}}** değiştirmek istediğinizden emin misiniz? Bir (görev {{dependencyId}}**) veya daha fazla bağımlılık henüz tamamlanmadı.",
+    "dependencies_not_completed": "Görevin durumunu **{{id}}** değiştirmek istediğinizden emin misiniz? Bir (görev {{dependencyId}}) veya daha fazla bağımlılık henüz tamamlanmadı.",
     "force_in_progress": "Devam ediyor olarak ayarlandı",
     "force_done": "Tamamlandı olarak ayarlandı",
     "dependencies_not_allowed": "Bağımlılıklar yalnızca premium koltuklardaki kullanıcılar için kullanılabilir. Bu özelliği kullanmak için [Lütfen premium koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Premium hakkında daha fazla bilgi edinmek için https://bnder.net/pricing adresini ziyaret edin.",

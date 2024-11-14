@@ -261,7 +261,7 @@
     "milestone_removed": "Der Meilenstein wurde aus der Aufgabe **{{id}}** entfernt.",
     "milestone_updated": "Der Meilenstein der Aufgabe **{{id}}** wurde auf **{{milestone}}** gesetzt.",
     "deadline_not_set": "Für die Aufgabe **{{id}}** ist keine Frist festgelegt. Verwenden Sie \"/task deadline\", um eine Frist festzulegen, indem Sie sie im Befehl angeben.",
-    "dependencies_not_completed": "Möchten Sie den Status der Aufgabe **{{id}}** wirklich ändern? Eine (Aufgabe {{dependencyId}}**) oder mehrere Abhängigkeiten sind noch nicht abgeschlossen.",
+    "dependencies_not_completed": "Möchten Sie den Status der Aufgabe **{{id}}** wirklich ändern? Eine (Aufgabe {{dependencyId}}) oder mehrere Abhängigkeiten sind noch nicht abgeschlossen.",
     "force_in_progress": "Auf in Bearbeitung gesetzt",
     "force_done": "Auf erledigt gesetzt",
     "dependencies_not_allowed": "Abhängigkeiten sind nur für Benutzer in Premium-Plätzen verfügbar. [Bitte upgraden Sie auf einen Premium-Plätz](<https://bnder.net/p/{{guildId}}>), um diese Funktion zu verwenden. Weitere Informationen zu Premium finden Sie unter https://bnder.net/pricing.",

@@ -261,7 +261,7 @@
     "milestone_removed": "The milestone was removed from the task **{{id}}**.",
     "milestone_updated": "The milestone of task **{{id}}** was set to **{{milestone}}**.",
     "deadline_not_set": "There is no deadline set for the task **{{id}}**. Use \"/task deadline\" to set a deadline by providing it in the command.",
-    "dependencies_not_completed": "Are you sure you want to change the state of the task **{{id}}**? One (task {{dependencyId}}**) or more dependencies are not completed yet.",
+    "dependencies_not_completed": "Are you sure you want to change the state of the task **{{id}}**? One (task {{dependencyId}}) or more dependencies are not completed yet.",
     "force_in_progress": "Set to in progress",
     "force_done": "Set to done",
     "dependencies_not_allowed": "Dependencies are only available to users in premium seats. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about premium at https://bnder.net/pricing.",

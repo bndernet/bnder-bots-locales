@@ -261,7 +261,7 @@
     "milestone_removed": "Se eliminó el hito de la tarea **{{id}}**.",
     "milestone_updated": "El hito de la tarea **{{id}}** se estableció en **{{milestone}}**.",
     "deadline_not_set": "No hay una fecha límite establecida para la tarea **{{id}}**. Utilice \"/task deadline\" para establecer una fecha límite proporcionándola en el comando.",
-    "dependencies_not_completed": "¿Está seguro de que desea cambiar el estado de la tarea **{{id}}**? Una (tarea {{dependencyId}}**) o más dependencias aún no se han completado.",
+    "dependencies_not_completed": "¿Está seguro de que desea cambiar el estado de la tarea **{{id}}**? Una (tarea {{dependencyId}}) o más dependencias aún no se han completado.",
     "force_in_progress": "Establecer en progreso",
     "force_done": "Establecer en finalizado",
     "dependencies_not_allowed": "Las dependencias solo están disponibles para usuarios con licencias premium. [Actualice a una licencia premium](<https://bnder.net/p/{{guildId}}>) para usar esta función. Obtenga más información sobre la licencia premium en https://bnder.net/pricing.",

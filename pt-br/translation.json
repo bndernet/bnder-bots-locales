@@ -261,7 +261,7 @@
     "milestone_removed": "O marco foi removido da tarefa **{{id}}**.",
     "milestone_updated": "O marco da tarefa **{{id}}** foi definido como **{{milestone}}**.",
     "deadline_not_set": "Não há prazo definido para a tarefa **{{id}}**. Use \"/task deadline\" para definir um prazo, fornecendo-o no comando.",
-    "dependencies_not_completed": "Tem certeza de que deseja alterar o estado da tarefa **{{id}}**? Uma (tarefa {{dependencyId}}**) ou mais dependências ainda não foram concluídas.",
+    "dependencies_not_completed": "Tem certeza de que deseja alterar o estado da tarefa **{{id}}**? Uma (tarefa {{dependencyId}}) ou mais dependências ainda não foram concluídas.",
     "force_in_progress": "Definido como em andamento",
     "force_done": "Definido como concluído",
     "dependencies_not_allowed": "As dependências estão disponíveis apenas para usuários em assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar este recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
