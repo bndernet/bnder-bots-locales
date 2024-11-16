@@ -245,18 +245,18 @@ export class TSLocalizations_bg {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Предстоящо събитие (${id}: ${name}) започва след ${durationTillEventMinutes} минути в [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Предстоящото събитие (${id}) **${name}** започва след ${durationTillEventMinutes} минути в ${startTime} в [${guildName}](https://discord.com/channels/${ guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `Покана за събитие **${eventId}** от <@${inviterId}>: ${eventName} от ${start} до ${end}`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `Поканени сте на събитие ${eventId} от <@${inviterId}>: **${eventName}**, започващо в ${start} и завършващо в ${end}.\n-# Всички дати са изчислени в ${timezone}. Използвайте \"/settings timezone\", за да промените часовата зона за целия сървър, или \"/preferences timezone\", за да промените своя собствена.`;
                 },
                 accept_button: "Приеми",
                 deny_button: "Откажи"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> актуализира събитието ${eventId}: **${eventName}**, започващо в ${start} и завършващо в ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> актуализира събитието ${eventId}: **${eventName}**, започващо в ${start} и завършващо в ${end}.\n-# Всички дати се изчисляват в ${timezone}. Използвайте \"/settings timezone\", за да промените часовата зона за целия сървър, или \"/preferences timezone\", за да промените своя собствена.`;
                 }
             }
         },

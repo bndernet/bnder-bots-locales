@@ -245,18 +245,18 @@ export class TSLocalizations_ru {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Предстоящее событие (${id}: ${name}) начнется через ${durationTillEventMinutes} минут в [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Предстоящее событие (${id}) **${name}** начнется через ${durationTillEventMinutes} минут в ${startTime} в [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `Пользователь <@${inviterId}> пригласил вас на событие **${eventName}** (${eventId}) с ${start} по ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `Вы приглашены на мероприятие ${eventId} пользователем <@${inviterId}>: **${eventName}**, начинающееся в ${start} и заканчивающееся в ${end}.\n-# Все даты рассчитываются в ${timezone}. Используйте \"/settings timezone\", чтобы изменить часовой пояс для всего сервера, или \"/preferences timezone\", чтобы изменить свой собственный.`;
                 },
                 accept_button: "Принять",
                 deny_button: "Отклонить"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> обновил событие ${eventId}: **${eventName}**, начинающееся в ${start} и заканчивающееся в ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> обновил событие ${eventId}: **${eventName}**, начинающееся в ${start} и заканчивающееся в ${end}.\n-# Все даты рассчитываются в ${timezone}. Используйте \"/settings timezone\", чтобы изменить часовой пояс для всего сервера, или \"/preferences timezone\", чтобы изменить свой собственный.`;
                 }
             }
         },

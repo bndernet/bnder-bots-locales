@@ -244,19 +244,19 @@ export class TSLocalizations_en {
             },
         },
         event: {
-            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
+            reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
                 return `Upcoming event (${id}) **${name}** is starting in ${durationTillEventMinutes} minutes at ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.`;
                 },
                 accept_button: "Accept",
                 deny_button: "Deny"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.`
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.`
                 }
             }
         },

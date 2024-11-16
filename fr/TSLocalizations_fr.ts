@@ -245,18 +245,18 @@ export class TSLocalizations_fr {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `L'événement à venir (${id}: ${name}) commence dans ${durationTillEventMinutes} minutes dans [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `L'événement à venir (${id}) **${name}** commence dans ${durationTillEventMinutes} minutes à ${startTime} dans [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `Vous avez été invité à l'événement ${eventId} par <@${inviterId}>: ${eventName} de ${start} à ${end}`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `Vous avez été invité à l'événement ${eventId} par <@${inviterId}>: **${eventName}** commençant à ${start} et se terminant à ${end}.\n-# Toutes les dates sont calculées dans ${timezone}. Utilisez \"/settings timezone\" pour modifier le fuseau horaire de l'ensemble du serveur, ou \"/preferences timezone\" pour modifier le vôtre.`;
                 },
                 accept_button: "Accepter",
                 deny_button: "Refuser"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> a mis à jour l'événement ${eventId}: **${eventName}** commençant à ${start} et se terminant à ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> a mis à jour l'événement ${eventId}: **${eventName}** commençant à ${start} et se terminant à ${end}.\n-# Toutes les dates sont calculées dans ${timezone}. Utilisez \"/settings timezone\" pour modifier le fuseau horaire de l'ensemble du serveur, ou \"/preferences timezone\" pour modifier le vôtre.`;
                 }
             }
         },

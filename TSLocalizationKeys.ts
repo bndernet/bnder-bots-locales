@@ -162,12 +162,12 @@ export interface TSLocalizationKeys {
     event: {
         reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string;
         invite_notification: {
-            content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string,
+            content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string,
             accept_button: string,
             deny_button: string,
         },
         edit_notification: {
-            content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string,
+            content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string,
         }
     },
     premium_granted_notification(guildId: string, guildName: string): string;

@@ -476,7 +476,7 @@
     "not_found": "**{{id}}** kimliğine sahip etkinlik bulunamadı. Tüm olayları listelemek için \"/event list\" kullanın veya \"/event create\" ile yeni bir tane oluşturun.",
     "invalid_date": "Tarih geçersiz. Lütfen **{{format}} biçimini kullanın (örneğin {{example_date}}) veya **1 week 3 days** gibi göreli bir tarih kullanın. Tarih biçimini `/settings dateformat` komutu ile yapılandırabilirsiniz.",
     "start_after_end": "Başlangıç tarihi bitiş tarihinden önce olmalıdır.",
-    "created": "Etkinlik **{{name}}**, {{start}} ile {{end}} arasında id **{{id}} ile oluşturulmuştur. Başkalarını bu etkinliğe davet etmek için “/event invite” kullanın.",
+    "created": "**{{name}}** etkinliği **{{id}}** kimliğiyle {{start}} ile {{end}} tarihleri arasında oluşturuldu. Başkalarını bu etkinliğe davet etmek için \"/event invite\" öğesini kullanın.\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
     "accept_not_invited": "Davet edilmediğiniz için **{{id}}** etkinliği kabul edilemedi. Tüm etkinlikleri listelemek için “/event list” kullanın veya “/event create” ile yeni bir etkinlik oluşturun.",
     "not_invited": "Siz **{{id}}** etkinliğine davet edilmediniz. Etkinliği siz oluşturuyorsanız, etkinliği silmek için “/event delete” kullanın.",
     "accepted": "**{{id}}** {{title}} etkinliğine daveti kabul ettiniz.",
@@ -485,7 +485,7 @@
     "delete_confirm": "**{{id}}** etkinliğini silmek istediğinizden emin misiniz?",
     "invite_denied": "**{{id}}** {{title}} etkinliğine daveti reddettiniz.",
     "deny_dm": "<@{{invitee}}> **{{id}}** {{title}} etkinliğine davetinizi reddetti.",
-    "info": "# **{{id}}** olayı hakkında bilgi:\nİsim: {{name}}\nKonum: {{location}}\nBaşla: {{start}}\nBitiş: {{end}}\nYaratıcı: <@{{creator}}>\nTekrar aralığı: {{repeat_interval}} gün\nKadar tekrarlanır: {{repeat_until}}\nDavetliler: {{invitees}}",
+    "info": "# Etkinlik hakkında bilgi **{{id}}**:\nAd: {{name}}\nKonum: {{location}}\nBaşlangıç: {{start}}\nBitiş: {{end}}\nOluşturucu: <@{{creator}}>\nTekrarlama aralığı: {{repeat_interval}} gün\nTekrarlama bitiş tarihi: {{repeat_until}}\nDavetliler: {{invitees}}\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
     "invite_creator_error": "Yaratıcısı olmadığınız bir etkinliğe kullanıcı davet edemezsiniz.",
     "invite_self_creator_error": "Yaratıcısı olduğunuz bir etkinliğe kendinizi davet edemezsiniz.",
     "invite_already_invited": "<@{{user}}> kullanıcısı **{{id}}** etkinliğine zaten davet edildi.",
@@ -508,8 +508,8 @@
     "remove_dm": "Etkinlikten çıkarıldınız **{{id}}**: {{name}}.",
     "daily_repeating_not_allowed": "Ежедневно повторяющиеся события доступны только пользователям премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
     "repeat_end_not_allowed": "Установка даты окончания повтора доступна только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
-    "edited": "**{{id}}** etkinliği **{{name}}** başlığıyla {{start}}'dan {{end}}'e düzenlendi.",
-    "edit_no_changes": "**{{id}}** etkinliğinde hiçbir değişiklik yapılmadı. Lütfen bu etkinlikte değişiklik yapmak için komutta yeni bir ad, başlangıç ​​veya bitiş saati belirtin.",
+    "düzenlendi": "**{{id}}** etkinliği **{{name}}** başlığıyla {{start}} tarihinden {{end}} tarihine kadar düzenlendi.\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucu için saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
+    "edit_no_changes": "**{{id}}** etkinliğinde hiçbir değişiklik yapılmadı. Lütfen bu etkinlikte değişiklik yapmak için komutta yeni bir ad, başlangıç veya bitiş saati belirtin.",
     "edit_creator_error": "Yalnızca yaratıcı bir etkinlikte değişiklik yapabilir!"
   },
   "setup": {

@@ -245,18 +245,18 @@ export class TSLocalizations_de {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Bevorstehend Ereignis (${id}: ${name}) beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Das bevorstehende Event (${id}) **${name}** beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `Sie wurden zu einem Ereignis eingeladen von <@${inviterId}> (${eventId}) **${eventName}** von ${start} bis ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `Sie wurden von <@${inviterId}> zum Event ${eventId} eingeladen: **${eventName}**, das um ${start} beginnt und um ${end} endet.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
                 },
                 accept_button: "Akzeptieren",
                 deny_button: "Ablehnen"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> hat das Ereignis ${eventId}: **${eventName}** aktualisiert, beginnend um ${start} und endend um ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> hat das Event ${eventId}: **${eventName}** aktualisiert, beginnend um ${start} und endend um ${end}.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
                 }
             }
         },

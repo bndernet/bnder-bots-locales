@@ -245,18 +245,18 @@ export class TSLocalizations_tr {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Yaklaşan etkinlik (${id}: ${name}) ${durationTillEventMinutes} dakika içinde [${guildName}](https://discord.com/channels/${guildId}) sunucusunda başlayacak.`;
+                return `Yaklaşan etkinlik (${id}) **${name}** ${durationTillEventMinutes} dakika içinde, ${startTime} saatinde [${guildName}](https://discord.com/channels/${guildId}) başlayacak.`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> sizi **${eventId}** etkinliğine davet etti: **${eventName}** (${start} - ${end})`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `${eventId} adlı etkinliğe <@${inviterId}> tarafından davet edildiniz: **${eventName}**, ${start}'da başlayıp ${end}'de bitiyor.\n-# Tüm tarihler ${timezone}'da hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" kullanın.`;
                 },
                 accept_button: "Kabul et",
                 deny_button: "Reddet"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}>, ${eventId} adlı etkinliği güncelledi: **${eventName}**, ${start}'ta başlayıp ${end}'te bitecek.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> ${eventId} etkinliğini güncelledi: **${eventName}** ${start}'da başlayıp ${end}'de bitiyor.\n-# Tüm tarihler ${timezone}'da hesaplanır. Tüm sunucu için saat dilimini değiştirmek için \"/settings timezone\" veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" kullanın.`;
                 }
             }
         },

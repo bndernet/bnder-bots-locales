@@ -245,18 +245,18 @@ export class TSLocalizations_pt_br {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `O próximo evento (${id}: ${name}) começará em ${durationTillEventMinutes} minutos em [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `O próximo evento (${id}) **${name}** começará em ${durationTillEventMinutes} minutos às ${startTime} em [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `Você foi convidado para o evento ${eventName} por <@${inviterId}>. O evento ocorrerá de ${start} a ${end}`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `Você foi convidado para o evento ${eventId} por <@${inviterId}>: **${eventName}** começando em ${start} e terminando em ${end}.\n-# Todas as datas são calculadas em ${timezone}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio.`;
                 },
                 accept_button: "Aceitar",
                 deny_button: "Recusar"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> atualizou o evento ${eventId}: **${eventName}** começando em ${start} e terminando em ${end}.`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> atualizou o evento ${eventId}: **${eventName}** começando em ${start} e terminando em ${end}.\n-# Todas as datas são calculadas em ${timezone}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio.`;
                 }
             }
         },

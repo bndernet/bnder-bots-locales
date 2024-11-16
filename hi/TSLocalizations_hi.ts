@@ -245,18 +245,18 @@ export class TSLocalizations_hi {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} में [${guildName}](https://discord.com/channels/${guildId}) में शुरू हो रहा है।`;
+                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} पर [${guildName}](https://discord.com/channels/${guildId}) में शुरू हो रहा है।`;
             },
             invite_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `आपको <@${inviterId}> द्वारा इवेंट ${eventId} के लिए आमंत्रित किया गया है: **${eventName}** ${start} से शुरू होकर ${end} पर ख़त्म होगा`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `आपको <@${inviterId}> द्वारा इवेंट ${eventId} में आमंत्रित किया गया है: **${eventName}** जो ${start} से शुरू होकर ${end} पर समाप्त होगा.\n-# सभी तिथियों की गणना ${timezone} में की जाती है। पूरे सर्वर के लिए समय क्षेत्र बदलने के लिए \"/settings timezone\" का उपयोग करें, या अपना खुद का समय क्षेत्र बदलने के लिए \"/preferences timezone\" का उपयोग करें।`;
                 },
                 accept_button: "स्वीकार करना",
                 deny_button: "अस्वीकार करना"
             },
             edit_notification: {
-                content(inviterId: string, eventId: string, eventName: string, start: string, end: string): string {
-                    return `<@${inviterId}> ने ईवेंट ${eventId} को अपडेट किया: **${eventName}** जो ${start} से शुरू होकर ${end} पर समाप्त होता है।`;
+                content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
+                    return `<@${inviterId}> ने ईवेंट ${eventId} को अपडेट किया: **${eventName}** जो ${start} से शुरू होकर ${end} पर समाप्त होता है.\n-# सभी तिथियों की गणना ${timezone} में की जाती है। पूरे सर्वर के लिए समय क्षेत्र बदलने के लिए \"/settings timezone\" का उपयोग करें, या अपना स्वयं का समय क्षेत्र बदलने के लिए \"/preferences timezone\" का उपयोग करें।`;
                 }
             }
         },
