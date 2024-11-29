@@ -110,7 +110,9 @@
     "effort_option_description": "Усилие для установки для задачи в часах",
     "dependency_subcommand_description": "Добавить или удалить зависимость к задаче",
     "dependency_action_option_description": "Действие, которое нужно выполнить над зависимостью",
-    "dependency_id_option_description": "ID зависимости"
+    "dependency_id_option_description": "ID зависимости",
+    "status_subcommand_description": "Установить статус задачи",
+    "status_option_description": "Статус для установки для задачи"
   },
   "milestone": {
     "command_description": "Управление вехами",

@@ -110,7 +110,9 @@
     "effort_option_description": "Esforço a ser definido para a tarefa em horas",
     "dependency_subcommand_description": "Adicionar ou remover uma dependência de uma tarefa",
     "dependency_action_option_description": "Ação a ser executada na dependência",
-    "dependency_id_option_description": "ID da dependência"
+    "dependency_id_option_description": "ID da dependência",
+    "status_subcommand_description": "Defina o status de uma tarefa",
+    "status_option_description": "Status a ser definido para a tarefa"
   },
   "milestone": {
     "command_description": "Gerenciar marcos",

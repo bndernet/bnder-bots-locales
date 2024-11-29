@@ -110,7 +110,9 @@
     "effort_option_description": "Усилие за задаване на задачата в часове",
     "dependency_subcommand_description": "Добавяне или премахване на зависимост към задача",
     "dependency_action_option_description": "Действие за извършване на зависимостта",
-    "dependency_id_option_description": "ID на зависимостта"
+    "dependency_id_option_description": "ID на зависимостта",
+    "status_subcommand_description": "Задайте състоянието на задача",
+    "status_option_description": "Статус за задаване на задачата"
   },
   "milestone": {
     "command_description": "Управление на важни етапи",

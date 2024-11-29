@@ -110,7 +110,9 @@
     "effort_option_description": "Görev için saat cinsinden ayarlanacak efor",
     "dependency_subcommand_description": "Bir göreve bağımlılık ekle veya kaldır",
     "dependency_action_option_description": "Bağımlılık üzerinde gerçekleştirilecek eylem",
-    "dependency_id_option_description": "Bağımlılığın kimliği"
+    "dependency_id_option_description": "Bağımlılığın kimliği",
+    "status_subcommand_description": "Bir görevin durumunu ayarlayın",
+    "status_option_description": "Görev için ayarlanacak durum"
   },
   "milestone": {
     "command_description": "Kilometre taşlarını yönet",

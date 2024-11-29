@@ -110,7 +110,9 @@
     "effort_option_description": "Effort à définir pour la tâche en heures",
     "dependency_subcommand_description": "Ajouter ou supprimer une dépendance à une tâche",
     "dependency_action_option_description": "Action à effectuer sur la dépendance",
-    "dependency_id_option_description": "ID de la dépendance"
+    "dependency_id_option_description": "ID de la dépendance",
+    "status_subcommand_description": "Définir le statut d'une tâche",
+    "status_option_description": "Statut à définir pour la tâche"
   },
   "milestone": {
     "command_description": "Gérer les jalons",

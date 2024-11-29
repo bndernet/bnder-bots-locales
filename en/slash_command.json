@@ -110,7 +110,9 @@
     "effort_option_description": "Effort to set for the task in hours",
     "dependency_subcommand_description": "Add or remove a dependency to a task",
     "dependency_action_option_description": "Action to perform on the dependency",
-    "dependency_id_option_description": "ID of the dependency"
+    "dependency_id_option_description": "ID of the dependency",
+    "status_subcommand_description": "Set the status of a task",
+    "status_option_description": "Status to set for the task"
   },
   "milestone": {
     "command_description": "Manage milestones",

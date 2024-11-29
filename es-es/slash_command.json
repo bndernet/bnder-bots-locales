@@ -110,7 +110,9 @@
     "effort_option_description": "Esfuerzo a establecer para la tarea en horas",
     "dependency_subcommand_description": "Agregar o eliminar una dependencia a una tarea",
     "dependency_action_option_description": "Acción a realizar en la dependencia",
-    "dependency_id_option_description": "ID de la dependencia"
+    "dependency_id_option_description": "ID de la dependencia",
+    "status_subcommand_description": "Establecer el estado de una tarea",
+    "status_option_description": "Estado que se establecerá para la tarea"
   },
   "milestone": {
     "command_description": "Administrar hitos",

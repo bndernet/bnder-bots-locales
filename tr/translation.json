@@ -269,7 +269,8 @@
     "dependencies_already_exists": "Görev **{{id}}** zaten göreve bağlı **{{dependencyId}}**. Bağımlılığı kaldırmak için \"/task dependencies remove\" komutunu kullanın.",
     "dependencies_added": "Görev **{{dependencyId}}**, görev **{{id}}**'ye bağımlılık olarak eklendi. Görev **{{id}}** durumunu değiştirdiğinde, görev **{{dependencyId}}** tamamlanmadan önce bir uyarı gösterilecektir.",
     "dependencies_not_found": "Görev **{{dependencyId}}**, görev **{{id}}**'nin bir bağımlılığı değildir. Bağımlılık olarak eklemek için \"/task dependencies add\" komutunu kullanın.",
-    "dependencies_removed": "Görev **{{dependencyId}}**'ye olan bağımlılık görev **{{id}}**'den kaldırıldı."
+    "dependencies_removed": "Görev **{{dependencyId}}**'ye olan bağımlılık görev **{{id}}**'den kaldırıldı.",
+    "new_command_status_notice": "\n#- Bu işlevsellik yeni \"/task status\" komutuyla değiştirildi. Lütfen bir görevin durumunu değiştirmek için bu komutu kullanın."
   },
   "milestone": {
     "not_found": "**{{name}}** kilometre taşı bulunamadı. Tüm kilometre taşlarını listelemek için \"/milestone list\" kullanın.",

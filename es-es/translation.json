@@ -269,7 +269,8 @@
     "dependencies_already_exists": "La tarea **{{id}}** ya depende de la tarea **{{dependencyId}}**. Use \"/task dependencies remove\" para eliminar la dependencia.",
     "dependencies_added": "La tarea **{{dependencyId}}** se agregó como una dependencia a la tarea **{{id}}**. Cuando la tarea **{{id}}** cambie su estado, antes de que la tarea **{{dependencyId}}** se complete, se mostrará una advertencia.",
     "dependencies_not_found": "La tarea **{{dependencyId}}** no es una dependencia de la tarea **{{id}}**. Use \"/task dependencies add\" para agregarla como una dependencia.",
-    "dependencies_removed": "La dependencia a la tarea **{{dependencyId}}** se eliminó de la tarea **{{id}}**."
+    "dependencies_removed": "La dependencia a la tarea **{{dependencyId}}** se eliminó de la tarea **{{id}}**.",
+    "new_command_status_notice": "\n#- Esta funcionalidad ha sido reemplazada por el nuevo comando \"/task status\". Utilice este comando para cambiar el estado de una tarea."
   },
   "milestone": {
     "not_found": "No se pudo encontrar el hito **{{name}}**. Use \"/milestone list\" para listar todos los hitos.",

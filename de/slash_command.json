@@ -110,7 +110,9 @@
     "effort_option_description": "Aufwand, der für die Aufgabe in Stunden festgelegt werden soll",
     "dependency_subcommand_description": "Eine Abhängigkeit zu einer Aufgabe hinzufügen oder entfernen",
     "dependency_action_option_description": "Für die Abhängigkeit auszuführende Aktion",
-    "dependency_id_option_description": "ID der Abhängigkeit"
+    "dependency_id_option_description": "ID der Abhängigkeit",
+    "status_subcommand_description": "Status einer Aufgabe festlegen",
+    "status_option_description": "Für die Aufgabe festzulegender Status"
   },
   "milestone": {
     "command_description": "Meilensteine verwalten",

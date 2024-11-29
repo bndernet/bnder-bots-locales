@@ -110,7 +110,9 @@
     "effort_option_description": "कार्य के लिए घंटों में निर्धारित करने का प्रयास",
     "dependency_subcommand_description": "किसी कार्य में निर्भरता जोड़ें या निकालें",
     "dependency_action_option_description": "निर्भरता पर की जाने वाली कार्रवाई",
-    "dependency_id_option_description": "निर्भरता की आईडी"
+    "dependency_id_option_description": "निर्भरता की आईडी",
+    "status_subcommand_description": "किसी कार्य की स्थिति सेट करें",
+    "status_option_description": "कार्य के लिए सेट की जाने वाली स्थिति"
   },
   "milestone": {
     "command_description": "मील का पत्थर प्रबंधित करें",
