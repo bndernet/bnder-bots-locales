@@ -262,6 +262,14 @@ export class TSLocalizations_ru {
         },
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Поздравляем! Вы заняли премиум-место на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это означает, что теперь у вас есть доступ к [премиум-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
+        },
+        files: {
+            file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
+                return `Файл **${fileName}** был загружен на сервер [${guildName}](https://discord.com/channels/${guildId}) пользователем <@${userId}>.`;
+            },
+            folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
+                return `Папка **${folderName}** была загружена на сервер [${guildName}](https://discord.com/channels/${guildId}) пользователем <@${userId}>.`;
+            }
         }
     }
 }

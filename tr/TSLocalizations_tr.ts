@@ -262,6 +262,14 @@ export class TSLocalizations_tr {
         },
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Tebrikler! Sunucu [${guildName}](<https://discord.com/channels/${guildId}>)'de premium bir koltuğa yerleştirildiniz. Bu, artık [premium özelliklere](<https://bnder.net/pricing>) erişiminiz olduğu anlamına gelir. Keyfini çıkarın!`;
+        },
+        files: {
+            file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
+                return `**${fileName}** dosyası [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
+            },
+            folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
+                return `**${folderName}** klasörü [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
+            }
         }
     }
 }

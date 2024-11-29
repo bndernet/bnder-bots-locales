@@ -170,7 +170,11 @@ export interface TSLocalizationKeys {
             content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string,
         }
     },
-    premium_granted_notification(guildId: string, guildName: string): string;
+    premium_granted_notification(guildId: string, guildName: string): string,
+    files:{
+        file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string,
+        folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string,
+    }
 }
 
 export class Localizations {

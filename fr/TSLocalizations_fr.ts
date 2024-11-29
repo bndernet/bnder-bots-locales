@@ -262,6 +262,14 @@ export class TSLocalizations_fr {
         },
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Félicitations ! Vous avez été placé dans un siège premium sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>). Cela signifie que vous avez maintenant accès aux [fonctionnalités premium](<https://bnder.net/pricing>). Profitez-en!`;
+        },
+        files: {
+            file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
+                return `Le fichier **${fileName}** a été partagé avec vous sur le serveur [${guildName}](https://discord.com/channels/${guildId}) par <@${userId}>`;
+            },
+            folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
+                return `Le dossier **${folderName}** a été partagé avec vous sur le serveur [${guildName}](https://discord.com/channels/${guildId}) par <@${userId}>`;
+            }
         }
     }
 }
