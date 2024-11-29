@@ -270,7 +270,7 @@
     "dependencies_added": "Aufgabe **{{dependencyId}}** wurde als Abhängigkeit zur Aufgabe **{{id}}** hinzugefügt. Wenn Aufgabe **{{id}}** ihren Status ändert, wird eine Warnung angezeigt, bevor Aufgabe **{{dependencyId}}** abgeschlossen ist.",
     "dependencies_not_found": "Die Aufgabe **{{dependencyId}}** ist keine Abhängigkeit der Aufgabe **{{id}}**. Verwenden Sie \"/task dependencies add\", um sie als Abhängigkeit hinzuzufügen.",
     "dependencies_removed": "Die Abhängigkeit zur Aufgabe **{{dependencyId}}** wurde aus Aufgabe **{{id}}** entfernt.",
-    "new_command_status_notice": "\n#- Diese Funktionalität wurde durch den neuen Befehl \"/task status\" ersetzt. Bitte verwenden Sie diesen Befehl, um den Status einer Aufgabe zu ändern."
+    "new_command_status_notice": "\n-# Diese Funktionalität wurde durch den neuen Befehl \"/task status\" ersetzt. Bitte verwenden Sie diesen Befehl, um den Status einer Aufgabe zu ändern."
   },
   "milestone": {
     "not_found": "Der Meilenstein **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/milestone list\", um alle Meilensteine aufzulisten.",

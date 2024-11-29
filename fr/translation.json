@@ -270,7 +270,7 @@
     "dependencies_added": "La tâche **{{dependencyId}}** a été ajoutée en tant que dépendance à la tâche **{{id}}**. Lorsque la tâche **{{id}}** change d'état, avant que la tâche **{{dependencyId}}** ne soit terminée, un avertissement s'affiche.",
     "dependencies_not_found": "La tâche **{{dependencyId}}** n'est pas une dépendance de la tâche **{{id}}**. Utilisez \"/task dependencies add\" pour l'ajouter en tant que dépendance.",
     "dependencies_removed": "La dépendance à la tâche **{{dependencyId}}** a été supprimée de la tâche **{{id}}**.",
-    "new_command_status_notice": "\n#- Cette fonctionnalité a été remplacée par la nouvelle commande \"/task status\". Veuillez utiliser cette commande pour modifier le statut d'une tâche."
+    "new_command_status_notice": "\n-# Cette fonctionnalité a été remplacée par la nouvelle commande \"/task status\". Veuillez utiliser cette commande pour modifier le statut d'une tâche."
   },
   "milestone": {
     "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",
