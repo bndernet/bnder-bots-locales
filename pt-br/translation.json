@@ -514,13 +514,13 @@
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",
-    "step_language": "## Step 1/{{steps}}: Language\n\nPor favor, selecione o idioma que você deseja usar no bot. Isso pode ser alterado a qualquer momento com o comando \"/settings language\".",
-    "step_dateformat": "## Step 2/{{steps}}: Date format\n\nPor favor, selecione o formato de data que você deseja usar para o bot. Isso pode ser alterado a qualquer momento com o comando \"/settings dateformat\".",
+    "step_language": "## Etapa 1/{{steps}}: Linguagem\n\nPor favor, selecione o idioma que você deseja usar no bot. Isso pode ser alterado a qualquer momento com o comando \"/settings language\".",
+    "step_dateformat": "## Etapa 2/{{steps}}: Formato de data\n\nPor favor, selecione o formato de data que você deseja usar para o bot. Isso pode ser alterado a qualquer momento com o comando \"/settings dateformat\".",
     "step_timezone_country": "## Etapa 3/{{steps}}: Fuso horário\n\nSelecione a região em que você está para definir o fuso horário correto. Depois disso, você pode selecionar o fuso horário exato. Isso pode ser alterado a qualquer momento com o comando \"/settings timezone\".",
     "step_timezone": "## Etapa 3/{{steps}}: Fuso horário\n\nSelecione o fuso horário exato em que você está. Devido às limitações do Discord, nem todos os fusos horários são mostrados aqui. Se não conseguir encontrar seu fuso horário, use o comando \"/settings timezone\" e pule esta etapa.",
-    "step_auto_labeling": "## Step 4/{{steps}}: Auto labeling\n\nDo you want to enable auto labeling? Isso adicionará automaticamente rótulos às tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_labeling\".",
+    "step_auto_labeling": "## Etapa 4/{{steps}}: Etiquetagem automática\n\nVocê deseja habilitar a rotulagem automática? Isso adicionará automaticamente rótulos às tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_labeling\".",
     "step_auto_priority": "## Etapa 5/{{steps}}: Prioridade automática\n\nVocê quer habilitar a prioridade automática para usuários em [assentos premium](<https://bnder.net/pricing>)? Isso definirá automaticamente uma prioridade para tarefas com base em seu texto. Isso pode ser alterado a qualquer momento com o comando \"/settings auto_priority\".",
-    "step_week_start_day": "## Step 4/{{steps}}: Week start day\n\nPor favor, selecione o dia em que você deseja que a semana comece. Isso pode ser alterado a qualquer momento com o comando \"/settings week_start_day\".",
+    "step_week_start_day": "## Etapa 4/{{steps}}: Dia de início da semana\n\nPor favor, selecione o dia em que você deseja que a semana comece. Isso pode ser alterado a qualquer momento com o comando \"/settings week_start_day\".",
     "setup_completed": "A configuração foi concluída. Agora você pode usar o bot. Se você quiser alterar as configurações, use o comando \"/settings\".\n\nPara obter uma experiência completa de gerenciamento de projetos, confira outros bots da bnder: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) e [Calendar Manager](<https://bnder.net/calendar>)."
   },
   "integration": {
