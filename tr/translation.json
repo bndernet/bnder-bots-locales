@@ -522,7 +522,7 @@
     "step_auto_labeling": "## Adım 4/{{steps}}: Otomatik etiketleme\n\nOtomatik etiketlemeyi etkinleştirmek istiyor musunuz? Bu, görevlere metinlerine göre otomatik olarak etiket ekleyecektir. Bu her zaman \"/settings auto_labeling\" komutu ile değiştirilebilir.",
     "step_auto_priority": "## Adım 5/{{steps}}: Otomatik öncelik\n\n[Premium koltuklardaki](<https://bnder.net/pricing>) kullanıcılar için otomatik önceliği etkinleştirmek ister misiniz? Bu, metinlerine göre görevler için otomatik olarak bir öncelik belirleyecektir. Bu, her zaman \"/settings auto_priority\" komutuyla değiştirilebilir.",
     "step_week_start_day": "## Adım 4/{{steps}}: Hafta başlangıç günü\n\nLütfen haftanın başlamasını istediğiniz günü seçin. Bu her zaman \"/settings week_start_day\" komutu ile değiştirilebilir.",
-    "setup_completed": "Kurulum tamamlandı. Artık botu kullanabilirsiniz. Ayarları değiştirmek isterseniz, \"/settings\" komutunu kullanın.\n\nTam bir proje yönetimi deneyimi için bnder'in diğer botlarına göz atın: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) ve [Calendar Manager](<https://bnder.net/calendar>)."
+    "setup_completed": "Kurulum tamamlandı. Artık botu kullanabilirsiniz. Ayarları değiştirmek isterseniz, \"/settings\" komutunu kullanın.\n\nTam bir proje yönetimi deneyimi için bnder'in diğer botlarına göz atın: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) ve [Calendar Manager](<https://bnder.net/calendar>).\n\n**Lütfen dikkat: Botu tekmelemek tüm ayarları ve verileri silecektir.**"
   },
   "integration": {
     "github": {
