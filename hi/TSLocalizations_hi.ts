@@ -263,6 +263,9 @@ export class TSLocalizations_hi {
         premium_granted_notification(guildId: string, guildName: string): string {
             return `बधाई हो! आपको सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में प्रीमियम सीट पर रखा गया है। इसका मतलब है कि अब आपके पास [प्रीमियम सुविधाओं](<https://bnder.net/pricing>) तक पहुँच है। आनंद लें!`;
         },
+        payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
+            return `सर्वर [${guildName}](https://discord.com/channels/${guildId}) पर एक या अधिक प्रीमियम सीटों के लिए भुगतान विफल रहा। कृपया भुगतान जानकारी सत्यापित करने और भुगतान का पुनः प्रयास करने के लिए [यहां क्लिक करें](${customerPortalLink}) करें।`;
+        },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
                 return `फ़ाइल **${fileName}** को सर्वर [${guildName}](https://discord.com/channels/${guildId}) में उपयोगकर्ता <@${userId}> द्वारा साझा किया गया है।`;

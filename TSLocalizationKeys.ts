@@ -171,6 +171,7 @@ export interface TSLocalizationKeys {
         }
     },
     premium_granted_notification(guildId: string, guildName: string): string,
+    payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string,
     files:{
         file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string,
         folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string,

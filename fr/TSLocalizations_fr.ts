@@ -263,6 +263,9 @@ export class TSLocalizations_fr {
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Félicitations ! Vous avez été placé dans un siège premium sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>). Cela signifie que vous avez maintenant accès aux [fonctionnalités premium](<https://bnder.net/pricing>). Profitez-en!`;
         },
+        payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
+            return `Le paiement d'un ou plusieurs sièges premium sur le serveur [${guildName}](https://discord.com/channels/${guildId}) a échoué. Veuillez [cliquer ici](${customerPortalLink}) pour vérifier les informations de paiement et réessayer le paiement.`;
+        },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
                 return `Le fichier **${fileName}** a été partagé avec vous sur le serveur [${guildName}](https://discord.com/channels/${guildId}) par <@${userId}>`;

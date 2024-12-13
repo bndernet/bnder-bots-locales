@@ -263,6 +263,9 @@ export class TSLocalizations_tr {
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Tebrikler! Sunucu [${guildName}](<https://discord.com/channels/${guildId}>)'de premium bir koltuğa yerleştirildiniz. Bu, artık [premium özelliklere](<https://bnder.net/pricing>) erişiminiz olduğu anlamına gelir. Keyfini çıkarın!`;
         },
+        payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
+            return `[${guildName}](https://discord.com/channels/${guildId}) sunucusundaki bir veya daha fazla premium koltuk için ödeme başarısız oldu. Ödeme bilgilerini doğrulamak ve ödemeyi yeniden denemek için lütfen [burayı tıklayın](${customerPortalLink}).`;
+        },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
                 return `**${fileName}** dosyası [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;

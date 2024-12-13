@@ -263,6 +263,9 @@ export class TSLocalizations_ru {
         premium_granted_notification(guildId: string, guildName: string): string {
             return `Поздравляем! Вы заняли премиум-место на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это означает, что теперь у вас есть доступ к [премиум-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
         },
+        payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
+            return `Не удалось оплатить одно или несколько премиальных мест на сервере [${guildName}](https://discord.com/channels/${guildId}). Пожалуйста, [нажмите здесь](${customerPortalLink}), чтобы проверить платежную информацию и повторить попытку оплаты.`;
+        },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
                 return `Файл **${fileName}** был загружен на сервер [${guildName}](https://discord.com/channels/${guildId}) пользователем <@${userId}>.`;
