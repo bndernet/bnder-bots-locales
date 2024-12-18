@@ -270,7 +270,9 @@
     "dependencies_added": "Task **{{dependencyId}}** was added as a dependency to task **{{id}}**. When task **{{id}}** changes its state, before task **{{dependencyId}}** is completed, a warning will be shown.",
     "dependencies_not_found": "The task **{{dependencyId}}** is not a dependency of the task **{{id}}**. Use \"/task dependencies add\" to add it as a dependency.",
     "dependencies_removed": "The dependency to task **{{dependencyId}}** was removed from task **{{id}}**.",
-    "new_command_status_notice": "\n-# This functionality has been replaced by the new command \"/task status\". Please use this command to change the status of a task."
+    "new_command_status_notice": "\n-# This functionality has been replaced by the new command \"/task status\". Please use this command to change the status of a task.",
+    "status_changed": "The status of the task **{{id}}** {{title, length100}} has been changed to **{{status}}**.",
+    "force_update_status": "Force {{status}}"
   },
   "milestone": {
     "not_found": "The milestone **{{name}}** could not be found. Use \"/milestone list\" to list all milestones.",

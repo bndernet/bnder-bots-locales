@@ -45,7 +45,10 @@ export class TSLocalizations_pt_br {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `O marco **${milestoneName}** deve ser entregue em menos de 6 horas no servidor [${guildName}](https://discord.com/channels/${guildId}) e tem tarefas que precisam ser concluídas.`;
-            }
+            },
+            status_todo: "Para fazer",
+            status_in_progress: "Em progresso",
+            status_done: "Feito",
         },
         webhookLogging: {
             id_field: "Id",

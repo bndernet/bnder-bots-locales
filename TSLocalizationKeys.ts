@@ -31,6 +31,9 @@ export interface TSLocalizationKeys {
         watcher_notification_footer: string;
         watcher_embed_title(id: string): string;
         milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string;
+        status_todo: string;
+        status_in_progress: string;
+        status_done: string;
     },
     webhookLogging: {
         id_field: string,

@@ -45,7 +45,10 @@ export class TSLocalizations_en {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `The milestone **${milestoneName}** is due in less than 6 hours in server [${guildName}](https://discord.com/channels/${guildId}) and has tasks that need to be completed.`;
-            }
+            },
+            status_todo: "Todo",
+            status_in_progress: "In Progress",
+            status_done: "Done"
         },
         webhookLogging: {
             id_field: "Id",

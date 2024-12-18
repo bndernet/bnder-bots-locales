@@ -45,7 +45,10 @@ export class TSLocalizations_es_es {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `El hito **${milestoneName}** vence en menos de 6 horas en el servidor [${guildName}](https://discord.com/channels/${guildId}) y tiene tareas que deben completarse.`;
-            }
+            },
+            status_todo: "Todo",
+            status_in_progress: "En progreso",
+            status_done: "Hecho",
         },
         webhookLogging: {
             id_field: "Id",

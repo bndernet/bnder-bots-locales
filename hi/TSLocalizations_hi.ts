@@ -45,7 +45,10 @@ export class TSLocalizations_hi {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `माइलस्टोन **${milestoneName}** सर्वर [${guildName}](https://discord.com/channels/${guildId}) पर 6 घंटे से भी कम समय में पूरा होने वाला है और इसमें ऐसे कार्य हैं जिन्हें पूरा करने की आवश्यकता है।`;
-            }
+            },
+            status_todo: "करने के लिए",
+            status_in_progress: "प्रगति पर है",
+            status_done: "हो गया"
         },
         webhookLogging: {
             id_field: "पहचान",

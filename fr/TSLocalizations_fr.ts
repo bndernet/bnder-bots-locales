@@ -45,7 +45,10 @@ export class TSLocalizations_fr {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Le jalon **${milestoneName}** doit être atteint dans moins de 6 heures sur le serveur [${guildName}](https://discord.com/channels/${guildId}) et comporte des tâches à accomplir.`;
-            }
+            },
+            status_todo: "À faire",
+            status_in_progress: "En cours",
+            status_done: "Fait"
         },
         webhookLogging: {
             id_field: "Id",

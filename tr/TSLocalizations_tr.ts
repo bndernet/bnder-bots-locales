@@ -45,7 +45,10 @@ export class TSLocalizations_tr {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `**${milestoneName}** kilometre taşı, 6 saatten az bir süre içinde [${guildName}](https://discord.com/channels/${guildId}) sunucusunda yayınlanacak ve tamamlanması gereken görevler içeriyor.`;
-            }
+            },
+            status_todo: "Yapılacak",
+            status_in_progress: "Devam ediyor",
+            status_done: "Yapıldı"
         },
         webhookLogging: {
             id_field: "Id",

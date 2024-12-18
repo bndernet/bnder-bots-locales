@@ -45,7 +45,10 @@ export class TSLocalizations_de {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](https://discord.com/channels/${guildId}) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
-            }
+            },
+            status_todo: "Todo",
+            status_in_progress: "In Bearbeitung",
+            status_done: "Erledigt"
         },
         webhookLogging: {
             id_field: "Id",

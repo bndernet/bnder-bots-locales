@@ -45,7 +45,10 @@ export class TSLocalizations_ru {
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Достижение этапа **${milestoneName}** на сервере [${guildName}](https://discord.com/channels/${guildId}) запланировано менее чем на 6 часов, и в нем есть задания, которые необходимо выполнить.`;
-            }
+            },
+            status_todo: "Todo",
+            status_in_progress: "В процессе",
+            status_done: "Сделано",
         },
         webhookLogging: {
             id_field: "Id",
