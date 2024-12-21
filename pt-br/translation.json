@@ -71,7 +71,8 @@
     "manager_info": "O gerente de projeto do projeto **{{project}}** é <@{{manager}}>.",
     "manager_removed": "O gerente de projeto do projeto **{{project}}** foi removido.",
     "remove_manager_action": "Remover gerente",
-    "hidden_due_to_permission": "Oculto devido a permissões"
+    "hidden_due_to_permission": "Oculto devido a permissões",
+    "columns_link_app": "Você pode configurar as colunas para todas as tarefas no projeto **{{name}}** nas [configurações do projeto de aplicativos](<{{link}}>)."
   },
   "error": {
     "unknown": "Ocorreu um erro desconhecido. Tente novamente mais tarde."

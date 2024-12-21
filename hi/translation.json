@@ -71,7 +71,8 @@
     "manager_info": "प्रोजेक्ट **{{project}}** के लिए प्रोजेक्ट मैनेजर <@{{manager}}> है।",
     "manager_removed": "प्रोजेक्ट **{{project}}** के प्रोजेक्ट मैनेजर को हटा दिया गया है।",
     "remove_manager_action": "प्रबंधक को हटाएँ",
-    "hidden_due_to_permission": "अनुमति के कारण छिपाया गया"
+    "hidden_due_to_permission": "अनुमति के कारण छिपाया गया",
+    "columns_link_app": "आप [apps project settings](<{{link}}>) में प्रोजेक्ट **{{name}}** में सभी कार्यों के लिए कॉलम कॉन्फ़िगर कर सकते हैं।"
   },
   "error": {
     "unknown": "एक अज्ञात त्रुटि हुई। कृपया बाद में पुन: प्रयास करें।"

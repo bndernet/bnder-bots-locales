@@ -62,7 +62,8 @@
     "restore_subcommand_description": "Възстановяване на изтрит проект и всички негови задачи",
     "create_personal_subcommand_description": "Създаване на личен проект, за който имате всички разрешения",
     "manager_subcommand_description": "Задаване на мениджър на проект",
-    "manager_option_description": "Потребител, който да се зададе като мениджър"
+    "manager_option_description": "Потребител, който да се зададе като мениджър",
+    "columns_subcommand_description": "Вземете връзката за управление на колони на проект"
   },
   "task": {
     "command_description": "Създаване, редактиране и изтриване на задачи",

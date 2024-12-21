@@ -71,7 +71,8 @@
     "manager_info": "El gestor del proyecto **{{project}}** es <@{{manager}}>",
     "manager_removed": "El gestor del proyecto **{{project}}** ha sido eliminado",
     "remove_manager_action": "Eliminar gestor",
-    "hidden_due_to_permission": "Oculto debido a la falta de permiso"
+    "hidden_due_to_permission": "Oculto debido a la falta de permiso",
+    "columns_link_app": "Puede configurar las columnas para todas las tareas en el proyecto **{{name}}** en la [configuración del proyecto de aplicaciones](<{{link}}>)."
   },
   "error": {
     "unknown": "Se ha producido un error desconocido. Vuelva a intentarlo más tarde."

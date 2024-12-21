@@ -71,7 +71,8 @@
     "manager_info": "**{{project}}** projesinin proje yöneticisi <@{{manager}}>'dır.",
     "manager_removed": "**{{project}}** projesinin proje yöneticisi kaldırıldı.",
     "remove_manager_action": "Yöneticiyi kaldır",
-    "hidden_due_to_permission": "İzinler nedeniyle gizli"
+    "hidden_due_to_permission": "İzinler nedeniyle gizli",
+    "columns_link_app": "Proje **{{name}}**'deki tüm görevler için sütunları [uygulamalar proje ayarlarında](<{{link}}>) yapılandırabilirsiniz."
   },
   "error": {
     "unknown": "Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin."

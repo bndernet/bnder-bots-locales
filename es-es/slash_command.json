@@ -62,7 +62,8 @@
     "restore_subcommand_description": "Restaurar un proyecto eliminado y todas sus tareas",
     "create_personal_subcommand_description": "Crea un proyecto personal en el que tengas todos los permisos",
     "manager_subcommand_description": "Establecer el gestor de un proyecto",
-    "manager_option_description": "Usuario a establecer como gestor"
+    "manager_option_description": "Usuario a establecer como gestor",
+    "columns_subcommand_description": "Obtener el enlace para administrar las columnas de un proyecto"
   },
   "task": {
     "command_description": "Crear, editar y eliminar tareas",

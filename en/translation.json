@@ -71,7 +71,8 @@
     "manager_info": "The project manager for the project **{{project}}** is <@{{manager}}>.",
     "manager_removed": "The project manager for the project **{{project}}** has been removed.",
     "remove_manager_action": "Remove manager",
-    "hidden_due_to_permission": "Hidden due to permission"
+    "hidden_due_to_permission": "Hidden due to permission",
+    "columns_link_app": "You can configure the columns for all tasks in project **{{name}}** in the [apps project settings](<{{link}}>)."
   },
   "error": {
     "unknown": "An unknown error occurred. Please try again later."
