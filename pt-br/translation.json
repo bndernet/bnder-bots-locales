@@ -270,7 +270,10 @@
     "dependencies_added": "A tarefa **{{dependencyId}}** foi adicionada como uma dependência à tarefa **{{id}}**. Quando a tarefa **{{id}}** mudar seu estado, antes que a tarefa **{{dependencyId}}** seja concluída, um aviso será exibido.",
     "dependencies_not_found": "A tarefa **{{dependencyId}}** não é uma dependência da tarefa **{{id}}**. Use \"/task dependencies add\" para adicioná-la como uma dependência.",
     "dependencies_removed": "A dependência da tarefa **{{dependencyId}}** foi removida da tarefa **{{id}}**.",
-    "new_command_status_notice": "\n-# Esta funcionalidade foi substituída pelo novo comando \"/task status\". Use este comando para alterar o status de uma tarefa."
+    "new_command_status_notice": "\n-# Esta funcionalidade foi substituída pelo novo comando \"/task status\". Use este comando para alterar o status de uma tarefa.",
+    "status_changed": "O status da tarefa **{{id}}** {{title, length100}} foi alterado para **{{status}}**.",
+    "force_update_status": "Forçar {{status}}",
+    "invalid_status": "O status **{{status}}** é inválido. Use um dos seguintes: {{statuses}}"
   },
   "milestone": {
     "not_found": "O marco **{{name}}** não pôde ser encontrado. Use \"/milestone list\" para listar todos os marcos.",
