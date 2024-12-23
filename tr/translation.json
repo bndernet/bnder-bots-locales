@@ -463,10 +463,12 @@
     "language": {
       "language_server_default": "Diliniz sunucu varsayılanlarına ayarlandı.",
       "language_changed": "Dil değiştirildi.",
-      "language_not_found": "{{languageTag}} dili mevcut değil."
+      "language_not_found": "{{languageTag}} dili mevcut değil.",
+      "language_changed_but_disabled_by_server": "Diliniz değiştirildi, ancak sunucu kendi dilinizi ayarlama seçeneğini devre dışı bıraktı. Sunucu dili kullanılacak."
     },
     "timezone": {
-      "timezone_set": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı."
+      "timezone_set": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı.",
+      "timezone_set_but_disabled_by_server": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı, ancak sunucu kendi saat diliminizi ayarlama seçeneğini devre dışı bıraktı. Sunucu saat dilimi kullanılacak (şu anda **{{server_timezone}}**)."
     },
     "event_reminders": {
       "enabled": "Etkinlik hatırlatıcıları artık etkin. Bir etkinlik başlamadan 30 dakika öncesine kadar bir hatırlatma alacaksınız.",
@@ -474,7 +476,8 @@
     },
     "direct_messages": {
       "enabled": "Doğrudan mesajlar artık etkin. Bir göreve atandığınızda doğrudan bir mesaj alacaksınız.",
-      "disabled": "Doğrudan mesajlar artık devre dışı. Bir göreve atandığınızda doğrudan mesaj almayacaksınız."
+      "disabled": "Doğrudan mesajlar artık devre dışı. Bir göreve atandığınızda doğrudan mesaj almayacaksınız.",
+      "enabled_but_disabled_by_server": "Doğrudan mesajlar tercihlerinizde etkindir, ancak sunucu tarafından devre dışı bırakılmıştır. Bir göreve atandığınızda veya etkinlik hatırlatıcıları için doğrudan mesaj almayacaksınız."
     }
   },
   "event": {

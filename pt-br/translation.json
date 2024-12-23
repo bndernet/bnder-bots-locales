@@ -463,10 +463,12 @@
     "language": {
       "language_server_default": "Seu idioma foi definido para os padrões do servidor",
       "language_changed": "O idioma foi alterado.",
-      "language_not_found": "O idioma {{languageTag}} não está disponível."
+      "language_not_found": "O idioma {{languageTag}} não está disponível.",
+      "language_changed_but_disabled_by_server": "Seu idioma foi alterado, mas o servidor desabilitou a opção de definir seu próprio idioma. O idioma do servidor será usado."
     },
     "timezone": {
-      "timezone_set": "Seu fuso horário pessoal foi definido como **{{timezone}}**."
+      "timezone_set": "Seu fuso horário pessoal foi definido como **{{timezone}}**.",
+      "timezone_set_but_disabled_by_server": "Seu fuso horário pessoal foi definido como **{{timezone}}**, mas o servidor desabilitou a opção de definir seu próprio fuso horário. O fuso horário do servidor será usado (atualmente **{{server_timezone}}**)."
     },
     "event_reminders": {
       "enabled": "Os lembretes de eventos agora estão ativados. Você receberá um lembrete até 30 minutos antes do início de um evento.",
@@ -474,7 +476,8 @@
     },
     "direct_messages": {
       "enabled": "As mensagens diretas agora estão ativadas. Você receberá uma mensagem direta quando for atribuído a uma tarefa.",
-      "disabled": "As mensagens diretas agora estão desativadas. Você não receberá uma mensagem direta quando for atribuído a uma tarefa."
+      "disabled": "As mensagens diretas agora estão desativadas. Você não receberá uma mensagem direta quando for atribuído a uma tarefa.",
+      "enabled_but_disabled_by_server": "Mensagens diretas são habilitadas em suas preferências, mas desabilitadas pelo servidor. Você não receberá uma mensagem direta quando for atribuído a uma tarefa ou para lembretes de eventos."
     }
   },
   "event": {

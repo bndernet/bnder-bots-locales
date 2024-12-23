@@ -463,10 +463,12 @@
     "language": {
       "language_server_default": "Tu idioma se ha ajustado a los valores predeterminados del servidor",
       "language_changed": "Se ha cambiado el idioma",
-      "language_not_found": "El idioma {{languageTag}} no está disponible"
+      "language_not_found": "El idioma {{languageTag}} no está disponible",
+      "language_changed_but_disabled_by_server": "Se ha cambiado su idioma, pero el servidor ha desactivado la opción de configurar su propio idioma. Se utilizará el idioma del servidor."
     },
     "timezone": {
-      "timezone_set": "Su zona horaria personal se ha establecido en **{{timezone}}**."
+      "timezone_set": "Su zona horaria personal se ha establecido en **{{timezone}}**.",
+      "timezone_set_but_disabled_by_server": "Su zona horaria personal se ha establecido en **{{timezone}}**, pero el servidor ha deshabilitado la opción de establecer su propia zona horaria. Se utilizará la zona horaria del servidor (actualmente **{{server_timezone}}**)."
     },
     "event_reminders": {
       "enabled": "Los recordatorios de eventos ahora están habilitados. Recibirás un recordatorio hasta 30 minutos antes de que comience un evento",
@@ -474,7 +476,8 @@
     },
     "direct_messages": {
       "enabled": "Los mensajes directos están ahora habilitados. Recibirás un mensaje directo cuando se te asigne una tarea",
-      "disabled": "Los mensajes directos están ahora deshabilitados. No recibirás un mensaje directo cuando estés asignado a una tarea."
+      "disabled": "Los mensajes directos están ahora deshabilitados. No recibirás un mensaje directo cuando estés asignado a una tarea.",
+      "enabled_but_disabled_by_server": "Los mensajes directos están habilitados en tus preferencias, pero deshabilitados por el servidor. No recibirás un mensaje directo cuando se te asigne una tarea o para recordatorios de eventos".
     }
   },
   "event": {

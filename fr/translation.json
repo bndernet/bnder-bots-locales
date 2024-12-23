@@ -463,10 +463,12 @@
     "language": {
       "language_server_default": "Votre langue a été réglée sur les valeurs par défaut du serveur",
       "language_changed": "La langue a été modifiée",
-      "language_not_found": "La langue {{languageTag}} n'est pas disponible."
+      "language_not_found": "La langue {{languageTag}} n'est pas disponible.",
+      "language_changed_but_disabled_by_server": "Votre langue a été modifiée, mais le serveur a désactivé l'option permettant de définir votre propre langue. La langue du serveur sera utilisée."
     },
     "timezone": {
-      "timezone_set": "Votre fuseau horaire personnel a été réglé sur **{{timezone}}**."
+      "timezone_set": "Votre fuseau horaire personnel a été réglé sur **{{timezone}}**.",
+      "timezone_set_but_disabled_by_server": "Votre fuseau horaire personnel a été défini sur **{{timezone}}**, mais le serveur a désactivé l'option permettant de définir votre propre fuseau horaire. Le fuseau horaire du serveur sera utilisé (actuellement **{{server_timezone}}**)."
     },
     "event_reminders": {
       "enabled": "Les rappels d'événements sont désormais activés. Vous recevrez un rappel jusqu'à 30 minutes avant le début d'un événement",
@@ -474,7 +476,8 @@
     },
     "direct_messages": {
       "enabled": "Les messages directs sont désormais activés. Vous recevrez un message direct lorsque vous serez affecté à une tâche",
-      "disabled": "Les messages directs sont désormais désactivés. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche."
+      "disabled": "Les messages directs sont désormais désactivés. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche.",
+      "enabled_but_disabled_by_server": "Les messages directs sont activés dans vos préférences, mais désactivés par le serveur. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche ou pour des rappels d'événements."
     }
   },
   "event": {

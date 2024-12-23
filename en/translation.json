@@ -463,10 +463,12 @@
     "language": {
       "language_server_default": "Your language has been set to the server defaults.",
       "language_changed": "The language has been changed.",
-      "language_not_found": "The {{languageTag}} language is not available."
+      "language_not_found": "The {{languageTag}} language is not available.",
+      "language_changed_but_disabled_by_server": "Your language has been changed, but the server has disabled the option to set your own language. The server language will be used."
     },
     "timezone": {
-      "timezone_set": "Your personal timezone has been set to **{{timezone}}**."
+      "timezone_set": "Your personal timezone has been set to **{{timezone}}**.",
+      "timezone_set_but_disabled_by_server": "Your personal timezone has been set to **{{timezone}}**, but the server has disabled the option to set your own timezone. The server timezone will be used (currently **{{server_timezone}}**)."
     },
     "event_reminders": {
       "enabled": "Event reminders are now enabled. You will receive a reminder up to 30 minutes before an event starts.",
@@ -474,7 +476,8 @@
     },
     "direct_messages": {
       "enabled": "Direct messages are now enabled. You will receive a direct message when you are assigned to a task.",
-      "disabled": "Direct messages are now disabled. You will not receive a direct message when you are assigned to a task."
+      "disabled": "Direct messages are now disabled. You will not receive a direct message when you are assigned to a task.",
+      "enabled_but_disabled_by_server": "Direct messages are enabled in your preferences, but disabled by the server. You will not receive a direct message when you are assigned to a task or for event reminders."
     }
   },
   "event": {
