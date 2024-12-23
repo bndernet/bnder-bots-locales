@@ -477,7 +477,7 @@
     "direct_messages": {
       "enabled": "Los mensajes directos están ahora habilitados. Recibirás un mensaje directo cuando se te asigne una tarea",
       "disabled": "Los mensajes directos están ahora deshabilitados. No recibirás un mensaje directo cuando estés asignado a una tarea.",
-      "enabled_but_disabled_by_server": "Los mensajes directos están habilitados en tus preferencias, pero deshabilitados por el servidor. No recibirás un mensaje directo cuando se te asigne una tarea o para recordatorios de eventos".
+      "enabled_but_disabled_by_server": "Los mensajes directos están habilitados en tus preferencias, pero deshabilitados por el servidor. No recibirás un mensaje directo cuando se te asigne una tarea o para recordatorios de eventos."
     }
   },
   "event": {
