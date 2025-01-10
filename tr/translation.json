@@ -1,6 +1,6 @@
 {
   "support": {
-    "support_text": "Herhangi bir yardıma ihtiyacınız veya sorunuz varsa, aşağıdaki düğmeye tıklayarak destek sunucumuza katılmaktan çekinmeyin. Ayrıca https://bnder.net/help adresindeki yardım sayfamızı da ziyaret edebilirsiniz. Bir şirket veya kuruluş iseniz, siz ve ekibiniz için özel bir destek kanalı ile kurumsal destek sunuyoruz. Daha fazla bilgi için lütfen bizimle iletişime geçin.",
+    "support_text": "Herhangi bir yardıma ihtiyacınız varsa veya herhangi bir sorunuz varsa, aşağıdaki düğmeye tıklayarak bnder destek sunucusuna katılmaktan çekinmeyin. Ayrıca https://bnder.net/help adresindeki yardım sayfamızı da ziyaret edebilirsiniz. Bir şirket veya kuruluşsanız, sizin ve ekibiniz için özel bir destek kanalıyla ücretsiz bir kurumsal destek sunuyoruz. Daha fazla bilgi için lütfen bizimle iletişime geçin.\n\nBu bot için kurulumu henüz çalıştırmadıysanız, lütfen `/setup` komutunu kullanarak yapın.",
     "join_discord_button": "Resmi Discord sunucusuna katıl",
     "documentation_button": "Yardım sayfası"
   },

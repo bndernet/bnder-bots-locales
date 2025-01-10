@@ -1,6 +1,6 @@
 {
   "support": {
-    "support_text": "Wenn Sie Hilfe benötigen oder Fragen haben, können Sie unserem Support-Server beitreten, indem Sie auf die Schaltfläche unten klicken. Sie können auch unsere Hilfeseite unter https://bnder.net/help besuchen. Wenn Sie ein Unternehmen oder eine Organisation sind, bieten wir einen Unternehmens-Support mit einem speziellen Support-Kanal für Sie und Ihr Team. Für weitere Informationen kontaktieren Sie uns bitte.",
+    "support_text": "Wenn Sie Hilfe benötigen oder Fragen haben, können Sie sich gerne dem Bnder-Supportserver anschließen, indem Sie auf die Schaltfläche unten klicken. Sie können auch unsere Hilfeseite unter https://bnder.net/help besuchen. Wenn Sie ein Unternehmen oder eine Organisation sind, bieten wir einen kostenlosen Enterprise-Support mit einem dedizierten Support-Kanal für Sie und Ihr Team. Für weitere Informationen kontaktieren Sie uns bitte.\n\nWenn Sie das Setup für diesen Bot noch nicht ausgeführt haben, tun Sie dies bitte mit dem Befehl `/setup`.",
     "join_discord_button": "Dem offiziellen Discord-Server beitreten",
     "documentation_button": "Hilfeseite"
   },
