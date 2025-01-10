@@ -276,6 +276,7 @@ export class TSLocalizations_hi {
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
                 return `फ़ोल्डर **${folderName}** को सर्वर [${guildName}](https://discord.com/channels/${guildId}) में उपयगकर्ता <@${userId}> द्वारा साझा किया गया है।`;
             }
-        }
+        },
+        self_data_download_ready: "आपका डेटा डाउनलोड के लिए तैयार है। आप इसे [हमारे ऐप](<https://bnder.net/app/>) में डाउनलोड कर सकते हैं। डाउनलोड लिंक दो सप्ताह के लिए उपलब्ध है।"
     }
 }

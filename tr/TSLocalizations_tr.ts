@@ -276,6 +276,7 @@ export class TSLocalizations_tr {
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
                 return `**${folderName}** klasörü [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
             }
-        }
+        },
+        self_data_download_ready: "Verileriniz indirilmeye hazır. Bunu [uygulamamızdan](<https://bnder.net/app/>) indirebilirsiniz. İndirme bağlantısı iki hafta boyunca kullanılabilir."
     }
 }

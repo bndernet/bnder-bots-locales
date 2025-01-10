@@ -276,6 +276,7 @@ export class TSLocalizations_ru {
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
                 return `Папка **${folderName}** была загружена на сервер [${guildName}](https://discord.com/channels/${guildId}) пользователем <@${userId}>.`;
             }
-        }
+        },
+        self_data_download_ready: "Ваши данные готовы к загрузке. Вы можете загрузить их в [нашем приложении](<https://bnder.net/app/>). Ссылка на загрузку доступна в течение двух недель."
     }
 }

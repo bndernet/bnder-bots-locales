@@ -178,7 +178,8 @@ export interface TSLocalizationKeys {
     files:{
         file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string,
         folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string,
-    }
+    },
+    self_data_download_ready: string,
 }
 
 export class Localizations {

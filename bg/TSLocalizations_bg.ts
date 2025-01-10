@@ -276,6 +276,7 @@ export class TSLocalizations_bg {
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
                 return `Папката **${folderName}** беше споделена в сървъра [${guildName}](https://discord.com/channels/${guildId}) от <@${userId}>`;
             }
-        }
+        },
+        self_data_download_ready: "Вашите данни са готови за изтегляне. Можете да го изтеглите в [нашето приложение](<https://bnder.net/app/>). Връзката за изтегляне е достъпна за две седмици."
     }
 }

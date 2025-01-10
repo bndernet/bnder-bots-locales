@@ -276,6 +276,7 @@ export class TSLocalizations_fr {
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
                 return `Le dossier **${folderName}** a été partagé avec vous sur le serveur [${guildName}](https://discord.com/channels/${guildId}) par <@${userId}>`;
             }
-        }
+        },
+        self_data_download_ready: "Vos données sont prêtes à être téléchargées. Vous pouvez les télécharger dans [notre application](<https://bnder.net/app/>). Le lien de téléchargement est disponible pendant deux semaines."
     }
 }
