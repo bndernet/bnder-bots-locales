@@ -347,7 +347,7 @@
   "specified_object_is_document": "L'identifiant que vous avez indiqué est l'identifiant d'un document. Pour accéder à la fonctionnalité de document, utilisez le bot du gestionnaire de documents. Sinon, indiquez un autre identifiant appartenant à une tâche.",
   "specified_object_is_task": "L'identifiant que vous avez indiqué est l'identifiant d'une tâche. Pour accéder à la fonctionnalité de document, utilisez le bot du gestionnaire de tâches. Sinon, indiquez un autre identifiant appartenant à une tâche.",
   "specified_object_is_event": "L'ID que vous avez indiqué est l'ID d'un événement. Pour accéder à la fonctionnalité d'événement, utilisez le bot Calendar Manager. Sinon, indiquez un autre ID appartenant à une tâche ou à un document",
-  "object_not_found": "L'objet avec l'identifiant **{{id}}** n'a pas pu être trouvé",
+  "object_not_found": "L'objet avec l'ID **{{id}}** n'a pas pu être trouvé. Vous pouvez utiliser `/task project`, `/document list` ou `/event list` pour répertorier tous les objets de nos services.",
   "resolved_document": "Document lié {{id}}",
   "resolved_task": "Tâche liée {{id}}",
   "invalid_id_format": "L'identifiant saisi n'est pas valide. Les identifiants des [tâches](<https://bnder.net/help/tasks>), [documents](<https://bnder.net/help/documents>) et [événements](<https://bnder.net/help/events>) ne doivent contenir que des chiffres.",

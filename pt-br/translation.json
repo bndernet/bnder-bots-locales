@@ -347,7 +347,7 @@
   "specified_object_is_document": "O ID que você forneceu é o ID de um documento. Para acessar a funcionalidade do documento, use o Bot do Gerenciador de Documentos. Caso contrário, especifique outro ID pertencente a uma tarefa.",
   "specified_object_is_task": "O ID que você forneceu é o ID de uma tarefa. Para acessar a funcionalidade do documento, use o Bot do Gerenciador de Tarefas. Caso contrário, especifique outro ID pertencente a uma tarefa.",
   "specified_object_is_event": "A ID que você especificou é a ID de um evento. Para acessar a funcionalidade do evento, use o Calendar Manager Bot. Caso contrário, especifique um ID diferente que pertença a uma tarefa ou documento.",
-  "object_not_found": "O objeto com o id **{{id}}** não pôde ser encontrado.",
+  "object_not_found": "O objeto com o id **{{id}}** não pôde ser encontrado. Você pode usar `/task project`, `/document list` ou `/event list` para listar todos os objetos em nossos serviços.",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarefa vinculada {{id}}",
   "invalid_id_format": "O ID inserido é inválido. Os ids para [Tarefas](<https://bnder.net/help/tasks>), [documentos](<https://bnder.net/help/documents>) e [eventos](<https://bnder.net/help/events>) devem conter apenas números.",

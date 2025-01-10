@@ -347,7 +347,7 @@
   "specified_object_is_document": "The Id you have given is the id of a document. To access the document functionality use the Document Manager Bot. Otherwise specify another id belonging to a task or event.",
   "specified_object_is_task": "The Id you have given is the id of a task. To access the document functionality use the Task Manager Bot. Otherwise specify another id belonging to a document or event.",
   "specified_object_is_event": "The Id you have given is the id of an event. To access the event functionality use the Calendar Manager Bot. Otherwise specify another id belonging to a task or document.",
-  "object_not_found": "The object with the id **{{id}}** could not be found.",
+  "object_not_found": "The object with the id **{{id}}** could not be found. You can use `/task project`, `/document list` or `/event list` to list all objects across our services.",
   "resolved_document": "Linked Document {{id}}",
   "resolved_task": "Linked Task {{id}}",
   "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/tasks>), [documents](<https://bnder.net/help/documents>) and [events](<https://bnder.net/help/events>) should contain only numbers.",

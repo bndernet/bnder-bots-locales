@@ -347,7 +347,7 @@
   "specified_object_is_document": "Verdiğiniz Kimlik bir belgenin kimliğidir. Belge işlevselliğine erişmek için Belge Yöneticisi Botunu kullanın. Aksi takdirde bir göreve ait başka bir kimlik belirtin.",
   "specified_object_is_task": "Verdiğiniz kimlik bir görevin kimliğidir. Belge işlevselliğine erişmek için Görev Yöneticisi Botunu kullanın. Aksi takdirde bir göreve ait başka bir kimlik belirtin.",
   "specified_object_is_event": "Belirttiğiniz kimlik bir etkinliğin kimliğidir. Etkinlik işlevine erişmek için Takvim Yöneticisi Botunu kullanın. Aksi takdirde, bir göreve veya belgeye ait farklı bir kimlik belirtin.",
-  "object_not_found": "**{{id}}** kimliğine sahip nesne bulunamadı.",
+  "object_not_found": "**{{id}}** kimlikli nesne bulunamadı. Hizmetlerimizdeki tüm nesneleri listelemek için `/task project`, `/document list` veya `/event list` kullanabilirsiniz.",
   "resolved_document": "Bağlantılı Belge {{id}}",
   "resolved_task": "Bağlantılı Görev {{id}}",
   "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/tasks>), [belgeler](<https://bnder.net/help/documents>) ve [olaylar](<https://bnder.net/help/events>) için kimlikler yalnızca sayı içermelidir.",
