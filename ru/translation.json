@@ -415,7 +415,7 @@
     },
     "timezone": {
       "timezone_not_found": "Часовой пояс **{{timezone}}** не найден. Пожалуйста, используйте правильное имя часового пояса из списка по адресу https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
-      "timezone_set": "Часовой пояс был установлен на **{{timezone}}**."
+      "timezone_set": "Часовой пояс установлен на **{{timezone}}**. Текущая дата и время в **{{timezone}}** — **{{date}}**."
     },
     "dateformat": {
       "not_supported": "Формат даты **{{format}}** не поддерживается. Пожалуйста, используйте один из следующих: {{supported}}",

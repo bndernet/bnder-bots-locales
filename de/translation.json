@@ -415,7 +415,7 @@
     },
     "timezone": {
       "timezone_not_found": "Die Zeitzone **{{timezone}}** konnte nicht gefunden werden. Bitte verwenden Sie einen gültigen Zeitzonennamen aus der Liste unter https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
-      "timezone_set": "Die Zeitzone wurde auf **{{timezone}}** gesetzt."
+      "timezone_set": "Die Zeitzone wurde auf **{{timezone}}** eingestellt. Das aktuelle Datum und die aktuelle Uhrzeit in **{{timezone}}** sind **{{date}}**."
     },
     "dateformat": {
       "not_supported": "Das Datumsformat **{{format}}** wird nicht unterstützt. Bitte verwenden Sie eines der folgenden Formate: {{supported}}",

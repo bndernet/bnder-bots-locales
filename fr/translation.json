@@ -415,7 +415,7 @@
     },
     "timezone": {
       "timezone_not_found": "Le fuseau horaire **{{timezone}}** n'a pas été trouvé. Veuillez utiliser un nom de fuseau horaire valide dans la liste à l'adresse https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
-      "timezone_set": "Le fuseau horaire a été réglé sur **{{timezone}}**."
+      "timezone_set": "Le fuseau horaire a été défini sur **{{timezone}}**. La date et l'heure actuelles dans **{{timezone}}** sont **{{date}}**."
     },
     "dateformat": {
       "not_supported": "Le format de date **{{format}}** n'est pas pris en charge. Veuillez utiliser l'un des formats suivants: {{supported}}",

@@ -415,7 +415,7 @@
     },
     "timezone": {
       "timezone_not_found": "**{{timezone}}** zaman dilimi bulunamadı. Lütfen https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json adresindeki listeden geçerli bir zaman dilimi adı kullanın.",
-      "timezone_set": "Zaman dilimi **{{timezone}}** olarak ayarlandı."
+      "timezone_set": "Saat dilimi **{{timezone}}** olarak ayarlandı. **{{timezone}}**'daki geçerli tarih ve saat **{{date}}**'tir."
     },
     "dateformat": {
       "not_supported": "Tarih biçimi **{{format}} desteklenmiyor. Lütfen aşağıdakilerden birini kullanın: {{supported}}",
