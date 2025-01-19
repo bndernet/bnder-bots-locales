@@ -38,3 +38,4 @@ To contribute, simply create a pull request with your changes. The changes will 
 - Portuguese (brazilian) (pt-br)
 - Russian (ru)
 - Turkish (tr)
+- Japanese (ja)
