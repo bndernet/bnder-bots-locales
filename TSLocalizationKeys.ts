@@ -8,6 +8,7 @@ import { TSLocalizations_ru } from "./ru/TSLocalizations_ru";
 import { TSLocalizations_tr } from "./tr/TSLocalizations_tr";
 import { TSLocalizations_hi } from "./hi/TSLocalizations_hi";
 import { TSLocalizations_ja } from "./ja/TSLocalizations_ja";
+import { TSLocalizations_zh_cn } from "./zh-cn/TSLocalizations_zh_cn";
 
 export interface TSLocalizationKeys {
     task: {
@@ -198,5 +199,6 @@ export class Localizations {
         "ru": TSLocalizations_ru.Localizations,
         "tr": TSLocalizations_tr.Localizations,
         "ja": TSLocalizations_ja.Localizations,
+        "zh-cn": TSLocalizations_zh_cn.Localizations,
     }
 }
