@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "Установка даты окончания повтора доступна только для пользователей премиум-мест. [Чтобы воспользоваться этой функцией, перейдите на премиум-место](<https://bnder.net/p/{{guildId}}>). Узнайте больше о премиуме на https://bnder.net/pricing.",
     "düzenlendi": "**{{id}}** etkinliği **{{name}}** başlığıyla {{start}} tarihinden {{end}} tarihine kadar düzenlendi.\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucu için saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
     "edit_no_changes": "**{{id}}** etkinliğinde hiçbir değişiklik yapılmadı. Lütfen bu etkinlikte değişiklik yapmak için komutta yeni bir ad, başlangıç veya bitiş saati belirtin.",
-    "edit_creator_error": "Yalnızca yaratıcı bir etkinlikte değişiklik yapabilir!"
+    "edit_creator_error": "Yalnızca yaratıcı bir etkinlikte değişiklik yapabilir!",
+    "used_timezone_notice": "Tüm tarihler {{timezone}}'da hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın."
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

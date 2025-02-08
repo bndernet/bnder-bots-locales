@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "Impostare una data di fine ripetizione è disponibile solo per gli utenti con un posto premium. [Per favore, aggiorna a un posto premium](<https://bnder.net/p/{{guildId}}>) per usare questa funzionalità. Scopri di più su premium su https://bnder.net/pricing.",
     "edited": "L'evento **{{id}}** è stato modificato con il titolo **{{name}}** da {{start}} a {{end}}.\n-# Tutte le date sono calcolate in {{timezone}}. Usa \"/settings timezone\" per cambiare il fuso orario per tutto il server, o \"/preferences timezone\" per cambiare il tuo.",
     "edit_no_changes": "Non sono state apportate modifiche all'evento **{{id}}**. Si prega di specificare un nuovo nome, orario di inizio o di fine nel comando per modificare questo evento.",
-    "edit_creator_error": "Solo il creatore può apportare modifiche a un evento!"
+    "edit_creator_error": "Solo il creatore può apportare modifiche a un evento!",
+    "used_timezone_notice": "Tutte le date sono calcolate in {{timezone}}. Utilizza \"/settings timezone\" per modificare il fuso orario per l'intero server oppure \"/preferences timezone\" per modificarne uno tuo."
   },
   "setup": {
     "skip_button_label": "Salta questo passaggio",

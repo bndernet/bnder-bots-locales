@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "Setting a repeat end date is only available to users in premium seats. [Please upgrade to a premium seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about premium at https://bnder.net/pricing.",
     "edited": "The event **{{id}}** has been edited with title **{{name}}** from {{start}} to {{end}}.\n-# All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.",
     "edit_no_changes": "No changes were made to event **{{id}}**. Please specify a new name, start or end time in the command to make changes to this event.",
-    "edit_creator_error": "Only the creator can make changes to an event!"
+    "edit_creator_error": "Only the creator can make changes to an event!",
+    "used_timezone_notice": "All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own."
   },
   "setup": {
     "skip_button_label": "Skip this step",

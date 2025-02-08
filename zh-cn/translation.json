@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "设置重复结束日期仅适用于高级席位用户。[请升级到高级席位](<https://bnder.net/p/{{guildId}}>) 使用此功能。了解更多高级功能，访问 https://bnder.net/pricing。",
     "edited": "事件 **{{id}}** 已编辑，标题为 **{{name}}**，时间从 {{start}} 到 {{end}}。\n-# 所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您的个人时区。",
     "edit_no_changes": "事件 **{{id}}** 未做任何更改。请在命令中指定新的名称、开始或结束时间，以对该事件进行更改。",
-    "edit_creator_error": "只有创建者才能对事件进行更改！"
+    "edit_creator_error": "只有创建者才能对事件进行更改！",
+    "used_timezone_notice": "所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您自己的时区。"
   },
   "setup": {
     "skip_button_label": "跳过此步骤",

@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "Das Festlegen eines Enddatums für die Wiederholung ist nur für Premium-Benutzer verfügbar. [Um diese Funktion nutzen zu können, müssen Sie ein Upgrade auf einen Premiumplatz (<https://bnder.net/p/{{guildId}}>) durchführen. Erfahren Sie mehr über Premium unter https://bnder.net/pricing.",
     "edited": "Das Ereignis **{{id}}** wurde mit dem Titel **{{name}}** von {{start}} bis {{end}} bearbeitet.\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
     "edit_no_changes": "Es wurden keine Änderungen am Event **{{id}}** vorgenommen. Bitte geben Sie im Befehl einen neuen Namen, eine neue Start- oder Endzeit an, um Änderungen an diesem Event vorzunehmen.",
-    "edit_creator_error": "Nur der Ersteller kann Änderungen an einem Event vornehmen!"
+    "edit_creator_error": "Nur der Ersteller kann Änderungen an einem Event vornehmen!",
+    "used_timezone_notice": "Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern."
   },
   "setup": {
     "skip_button_label": "Diesen Schritt überspringen",

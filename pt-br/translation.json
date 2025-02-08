@@ -518,7 +518,8 @@
     "repeat_end_not_allowed": "A definição de uma data final de repetição só está disponível para usuários de assentos premium. [Faça upgrade para um assento premium](<https://bnder.net/p/{{guildId}}>) para usar esse recurso. Saiba mais sobre premium em https://bnder.net/pricing.",
     "edited": "O evento **{{id}}** foi editado com o título **{{name}}** de {{start}} a {{end}}.\n-# Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio.",
     "edit_no_changes": "Nenhuma alteração foi feita no evento **{{id}}**. Especifique um novo nome, hora de início ou término no comando para fazer alterações neste evento.",
-    "edit_creator_error": "Somente o criador pode fazer alterações em um evento!"
+    "edit_creator_error": "Somente o criador pode fazer alterações em um evento!",
+    "used_timezone_notice": "Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio fuso horário."
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",
