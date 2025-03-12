@@ -406,7 +406,7 @@
       "url_remove_canceled": "Die Entfernung der Webhook-Url wurde abgebrochen."
     },
     "auto_labeling": {
-      "aktiviert": "Auto labeling ist jetzt aktiviert. Um ein neues Label zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels.",
+      "enabled": "Auto labeling ist jetzt aktiviert. Um ein neues Label zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels.",
       "disabled": "Auto labeling ist jetzt deaktiviert."
     },
     "language": {
