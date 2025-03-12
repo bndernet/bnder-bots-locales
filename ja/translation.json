@@ -157,7 +157,7 @@
     "task_moved": "タスク **{{id}}** はプロジェクト **{{project_name}}** に移動されました。",
     "max_tasks_reached": "サーバーで作成できるタスク数が {{max}} を超えています。一部のタスクを削除して、新しいタスクを作成してください。",
     "max_assignees_reached": "タスクに割り当てられるユーザーや役割の数は {{max}} を超えることはできません。一部のユーザーや役割の割り当てを解除してください。",
-    "task_assigned_dm": "あなたにタスク [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) が割り当てられました。期限は {{deadline}} です：{{text}}",
+    "task_assigned_dm": "タスク [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) が割り当てられました。期限は {{deadline}} に設定されています: {{text}}",
     "deadline_set": "タスク **{{id}}** の期限が {{- deadline}} に設定されました。カレンダーで期限を確認するには、[カレンダーマネージャーボット](<https://bnder.net/calendar>) を確認してください。\n-# すべての日付は {{timezone}} で計算されます。「/settings timezone」でサーバー全体のタイムゾーンを変更するか、「/preferences timezone」で個人用のタイムゾーンを変更してください。",
     "deadline_removed": "タスク **{{id}}** の期限が削除されました。",
     "deadline_due": "タスク **{{id}}** の期限が {{deadline}} に迫っています：{{taskText}}",

@@ -157,7 +157,7 @@
     "task_moved": "Die Aufgabe {{id}} wurde in das Projekt \"{{project_name}}\" verschoben.",
     "max_tasks_reached": "Sie können nicht mehr Aufgaben als {{max}} auf Ihrem Server erstellen. Bitte löschen Sie einige Aufgaben, um mehr erstellen zu können.",
     "max_assignees_reached": "Die Aufgabe hat bereits die maximale Anzahl von {{max}} zugewiesenen Nutzern oder Rollen erreicht.",
-    "task_assigned_dm": "Sie wurden der Aufgabe **{{id}}** zugewiesen, deren Frist auf {{deadline}} gesetzt wurde: {{text}}",
+    "task_assigned_dm": "Ihnen wurde die Aufgabe [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) mit der Frist {{deadline}} zugewiesen: {{text}}",
     "deadline_set": "Die Deadline für die Aufgabe **{{id}}** wurde auf {{- deadline}} gesetzt. Wenn Sie die Deadline in Ihrem Kalender sehen möchten, sehen Sie sich unseren [Calendar Manager Bot](<https://bnder.net/calendar>) an.\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
     "deadline_removed": "Die Deadline für die Aufgabe {{id}} wurde entfernt.",
     "deadline_due": "Aufgabe **{{id}}** ist fällig am {{deadline}}: {{taskText}}",

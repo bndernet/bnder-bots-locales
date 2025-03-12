@@ -157,7 +157,7 @@
     "task_moved": "{{id}} görevi \"{{project_name}}\" proje taşındı.",
     "max_tasks_reached": "Sunucunuzda {{max}} değerinden daha fazla görev oluşturamazsınız. Daha fazla görev oluşturabilmek için lütfen bazı görevleri silin.",
     "max_assignees_reached": "Görev, atanan maksimum {{max}} kullanıcı veya rol sayısına zaten ulaştı.",
-    "task_assigned_dm": "Son teslim tarihi {{deadline}} olarak ayarlanmış **{{id}}** görevine atandınız: {{text}}",
+    "task_assigned_dm": "[**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) görevine atandınız ve son tarihi {{deadline}} olarak belirlendi: {{text}}",
     "deadline_set": "**{{id}}** görevinin son tarihi {{- deadline}} olarak ayarlandı. Son tarihi takviminizde görmek istiyorsanız, [Takvim Yöneticisi Botumuzu](<https://bnder.net/calendar>) inceleyin.\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" kullanın.",
     "deadline_removed": "{{id}} görevi için son tarih kaldırıldı.",
     "deadline_due": "Görev **{{id}}** {{deadline}} de sona erecek: {{taskText}}",

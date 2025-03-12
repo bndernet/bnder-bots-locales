@@ -157,7 +157,7 @@
     "task_moved": "L'attività **{{id}}** è stata spostata nel progetto **{{project_name}}**.",
     "max_tasks_reached": "Non puoi creare più di {{max}} attività sul tuo server. Per favore, elimina alcune attività per crearne di nuove.",
     "max_assignees_reached": "Non puoi assegnare più di {{max}} utenti o ruoli a un'attività. Per favore, rimuovi alcune assegnazioni.",
-    "task_assigned_dm": "Ti è stata assegnata l'attività [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) con scadenza impostata a {{deadline}}: {{text}}",
+    "task_assigned_dm": "Ti è stato assegnato il compito [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) con scadenza impostata su {{deadline}}: {{text}}",
     "deadline_set": "La scadenza per l'attività **{{id}}** è stata impostata a {{- deadline}}. Se vuoi vedere la scadenza nel tuo calendario, controlla il nostro [Calendar Manager Bot](<https://bnder.net/calendar>).\n-# Tutte le date sono calcolate in {{timezone}}. Usa \"/settings timezone\" per cambiare il fuso orario per l'intero server, oppure \"/preferences timezone\" per cambiare il tuo personale.",
     "deadline_removed": "La scadenza dell'attività **{{id}}** è stata rimossa.",
     "deadline_due": "L'attività **{{id}}** scade il {{deadline}}: {{taskText}}",

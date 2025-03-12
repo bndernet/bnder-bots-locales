@@ -157,7 +157,7 @@
     "task_moved": "La tâche {{id}} a été déplacée dans le projet \"{{project_name}}\".",
     "max_tasks_reached": "Vous ne pouvez pas créer plus de tâches que {{max}} dans votre serveur. Veuillez supprimer certaines tâches pour pouvoir en créer d'autres.",
     "max_assignees_reached": "La tâche a déjà atteint le nombre maximal {{max}} d'utilisateurs ou de rôles attribués.",
-    "task_assigned_dm": "Vous avez été affecté à la tâche **{{id}}** dont l'échéance est fixée à {{deadline}}: {{text}}",
+    "task_assigned_dm": "Vous avez été affecté à la tâche [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) avec une date limite fixée à {{deadline}}: {{text}}",
     "deadline_set": "La date limite de la tâche **{{id}}** a été fixée à {{- deadline}}. Si vous souhaitez voir la date limite dans votre calendrier, consultez notre [Calendar Manager Bot](<https://bnder.net/calendar>).\n-# Toutes les dates sont calculées dans {{timezone}}. Utilisez \"/settings timezone\" pour modifier le fuseau horaire de l'ensemble du serveur, ou \"/preferences timezone\" pour modifier le vôtre.",
     "deadline_removed": "La date limite pour la tâche {{id}} a été supprimée.",
     "deadline_due": "La tâche **{{id}}** est due à {{deadline}} : {{taskText}}",

@@ -157,7 +157,7 @@
     "task_moved": "La tarea {{id}} se ha movido al proyecto \"{{project_name}}\".",
     "max_tasks_reached": "No puede crear más tareas que {{max}} en su servidor. Por favor, elimine algunas tareas para poder crear más.",
     "max_assignees_reached": "La tarea ya ha alcanzado el número máximo de {{max}} usuarios o roles asignados.",
-    "task_assigned_dm": "Te asignaron a la tarea **{{id}}** con fecha límite establecida en {{deadline}}: {{text}}",
+    "task_assigned_dm": "Se le asignó la tarea [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>) con fecha límite establecida en {{deadline}}: {{text}}",
     "deadline_set": "La fecha límite para la tarea **{{id}}** se ha establecido en {{- deadline}}. Si desea ver la fecha límite en su calendario, consulte nuestro [Bot de administración de calendario](<https://bnder.net/calendar>).\n-# Todas las fechas se calculan en {{timezone}}. Use \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
     "deadline_removed": "La fecha límite para la tarea {{id}} ha sido eliminada.",
     "deadline_due": "La tarea **{{id}}** vence en {{deadline}}: {{taskText}}",

@@ -157,7 +157,7 @@
     "task_moved": "任务 **{{id}}** 已被移动到项目 **{{project_name}}**。",
     "max_tasks_reached": "您在服务器中无法创建超过 {{max}} 个任务。请删除一些任务以创建更多任务。",
     "max_assignees_reached": "您无法为任务分配超过 {{max}} 名用户或角色。请取消一些分配的用户或角色。",
-    "task_assigned_dm": "您已被分配到任务 [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>)，截止日期为 {{deadline}}: {{text}}",
+    "task_assigned_dm": "您已被分配任务 [**{{id}}**](<https://bnder.net/t/{{guildId}}/{{id}}>)，截止日期为 {{deadline}}：{{text}}",
     "deadline_set": "任务 **{{id}}** 的截止日期已设置为 {{- deadline}}。如果您想在日历中查看截止日期，请查看我们的 [日历管理机器人](<https://bnder.net/calendar>)。\n-# 所有日期均以 {{timezone}} 计算。使用 `/settings timezone` 更改整个服务器的时区，或使用 `/preferences timezone` 更改您的时区。",
     "deadline_removed": "任务 **{{id}}** 的截止日期已被移除。",
     "deadline_due": "任务 **{{id}}** 的截止日期为 {{deadline}}: {{taskText}}",
