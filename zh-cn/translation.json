@@ -164,7 +164,7 @@
     "task_delete_could_not_send_message": "任务 **{{id}}** 已标记为删除，并将在 {{days}} 天内被永久删除。\n\n⚠️ 机器人尝试发送一条所有人可见的确认消息，但由于该频道缺少 Discord 消息发送权限而失败。请授予机器人发送消息的权限。",
     "task_delete_instantly_could_not_send_message": "任务 **{{id}}** 已被删除。\n\n⚠️ 机器人尝试发送一条所有人可见的确认消息，但由于该频道缺少 Discord 消息发送权限而失败。请授予机器人发送消息的权限。",
     "deleted_instantly_ephemeral_message": "任务 **{{id}}** 已被删除。",
-    "invalid_deadline_date": "日期无效。请使用格式 **{{format}}** (例如 {{example_date}})，或使用相对日期，如 **1 week 3 days**。您可以通过命令 `/settings dateformat` 配置日期格式。\n-# 所有日期均以 {{timezone}} 计算。使用 `/settings timezone` 更改整个服务器的时区，或使用 `/preferences timezone` 更改您的时区。",
+    "invalid_deadline_date": "无法将输入处理为日期。请使用格式 **{{format}}**（例如 {{example_date}}），或使用相对日期，如 **1 week 3 days**。您可以使用命令 `/settings dateformat` 配置日期格式。\n-# 所有日期均以 {{timezone}} 计算。使用“/settings timezone”更改整个服务器的时区，或使用“/preferences timezone”更改您自己的时区。",
     "more_assignees": "(+ {{count}} 更多)",
     "not_created_deleted_project": "任务无法创建，因为项目 **{{name}}** 已标记为删除。通过 \"/project restore\" 恢复项目或选择其他项目。",
     "not_moved_deleted_project": "任务无法移动，因为项目 **{{name}}** 已标记为删除。通过 \"/project restore\" 恢复项目或选择其他项目。",
@@ -482,7 +482,7 @@
   },
   "event": {
     "not_found": "未找到 ID 为 **{{id}}** 的事件。使用 \"/event list\" 查看所有事件，或使用 \"/event create\" 创建新事件。",
-    "invalid_date": "日期无效。请使用格式 **{{format}}**（例如 {{example_date}}），或使用相对日期如 **1 week 3 days**。您可以使用命令 `/settings dateformat` 配置日期格式。",
+    "invalid_date": "无法将输入处理为日期。请使用格式 **{{format}}**（例如 {{example_date}}），或使用相对日期，如 **1 week 3 days**。您可以使用命令 `/settings dateformat` 配置日期格式。\n-# 所有日期均以 {{timezone}} 计算。使用“/settings timezone”更改整个服务器的时区，或使用“/preferences timezone”更改您自己的时区。",
     "start_after_end": "开始日期必须在结束日期之前。",
     "created": "事件 **{{name}}** 已创建，ID 为 **{{id}}**，时间从 {{start}} 到 {{end}}。使用 \"/event invite\" 邀请他人参加此事件。\n-# 所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您的个人时区。",
     "accept_not_invited": "无法接受 ID 为 **{{id}}** 的事件，因为您未被邀请。使用 \"/event list\" 查看所有事件，或使用 \"/event create\" 创建新事件。",
