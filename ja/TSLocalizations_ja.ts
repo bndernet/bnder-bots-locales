@@ -263,8 +263,8 @@ export class TSLocalizations_ja {
                 }
             }
         },
-        premium_granted_notification(guildId: string, guildName: string): string {
-            return `おめでとうございます！サーバー [${guildName}](<https://discord.com/channels/${guildId}>) のプレミアム席に配置されました。これにより、[プレミアム機能](<https://bnder.net/pricing>) にアクセスできるようになりました。楽しんでください！`;
+        pro_granted_notification(guildId: string, guildName: string): string {
+            return `おめでとうございます！サーバー [${guildName}](<https://discord.com/channels/${guildId}>) のプロ シートに配置されました。つまり、[プロ機能](<https://bnder.net/pricing>) にアクセスできるようになりました。お楽しみください！`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `サーバー [${guildName}](https://discord.com/channels/${guildId}) の1つ以上のプレミアム席の支払いに失敗しました。支払い情報を確認し、再度支払いを試みるには、[こちらをクリック](${customerPortalLink})してください。`;

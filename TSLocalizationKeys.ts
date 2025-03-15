@@ -176,7 +176,7 @@ export interface TSLocalizationKeys {
             content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string,
         }
     },
-    premium_granted_notification(guildId: string, guildName: string): string,
+    pro_granted_notification(guildId: string, guildName: string): string,
     payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string,
     files:{
         file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string,

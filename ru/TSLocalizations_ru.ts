@@ -263,8 +263,8 @@ export class TSLocalizations_ru {
                 }
             }
         },
-        premium_granted_notification(guildId: string, guildName: string): string {
-            return `Поздравляем! Вы заняли премиум-место на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это означает, что теперь у вас есть доступ к [премиум-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
+        pro_granted_notification(guildId: string, guildName: string): string {
+            return `Поздравляем! Вы получили место pro на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это значит, что теперь у вас есть доступ к [pro-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `Не удалось оплатить одно или несколько премиальных мест на сервере [${guildName}](https://discord.com/channels/${guildId}). Пожалуйста, [нажмите здесь](${customerPortalLink}), чтобы проверить платежную информацию и повторить попытку оплаты.`;

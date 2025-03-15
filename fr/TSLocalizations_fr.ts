@@ -263,8 +263,8 @@ export class TSLocalizations_fr {
                 }
             }
         },
-        premium_granted_notification(guildId: string, guildName: string): string {
-            return `Félicitations ! Vous avez été placé dans un siège premium sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>). Cela signifie que vous avez maintenant accès aux [fonctionnalités premium](<https://bnder.net/pricing>). Profitez-en!`;
+        pro_granted_notification(guildId: string, guildName: string): string {
+            return `Félicitations! Vous avez obtenu une place pro sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>). Vous avez désormais accès aux [fonctionnalités pro](<https://bnder.net/pricing>). Profitez-en!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `Le paiement d'un ou plusieurs sièges premium sur le serveur [${guildName}](https://discord.com/channels/${guildId}) a échoué. Veuillez [cliquer ici](${customerPortalLink}) pour vérifier les informations de paiement et réessayer le paiement.`;

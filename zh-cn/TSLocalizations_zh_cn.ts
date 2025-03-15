@@ -263,8 +263,8 @@ export class TSLocalizations_zh_cn {
                 }
             }
         },
-        premium_granted_notification(guildId: string, guildName: string): string {
-            return `恭喜！你已被加入服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 的高级席位。这意味着你现在可以访问 [高级功能](<https://bnder.net/pricing>)。祝你使用愉快！`;
+        pro_granted_notification(guildId: string, guildName: string): string {
+            return `恭喜！您已在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中被安排到专业席位。这意味着您现在可以使用 [专业功能](<https://bnder.net/pricing>)。尽情享受吧！`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `服务器 [${guildName}](https://discord.com/channels/${guildId}) 上一个或多个高级席位的支付失败。请 [点击这里](${customerPortalLink}) 验证支付信息并重新尝试支付。`;
