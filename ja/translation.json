@@ -49,7 +49,7 @@
     "project_marked_deleted": "プロジェクト **{{name}}** は削除済みとしてマークされています。`/project restore` コマンドを使用して復元してください。",
     "project_name_default_cant_deleted": "プロジェクト **default** はデフォルトプロジェクトのため削除できません。`/project rename` コマンドを使用して名前を変更できます。",
     "project_selected": "プロジェクト **{{name}}** が選択されました。すべてのコマンドは、このプロジェクトに対して実行されます。別のプロジェクトに切り替えるには、`/project select` コマンドを使用してください。",
-    "project_renamed": "プロジェクトが **{{name}}** に名前が変更されました。",
+    "project_renamed": "プロジェクト {{old_name}} の名前が **{{name}}** に変更されました。",
     "project_name_default_cant_renamed": "プロジェクト **default** はデフォルトプロジェクトのため名前を変更できません。",
     "switch_project_button_label": "プロジェクトに切り替える",
     "project_name_too_long": "プロジェクト名が長すぎます。{{max}} 文字以内に短縮してください。",

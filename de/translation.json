@@ -49,7 +49,7 @@
     "project_marked_deleted": "Das Projekt **{{name}}** ist als gelöscht markiert. Stellen Sie es mit dem Befehl \"/project restore\" wieder her.",
     "project_name_default_cant_deleted": "Das Projekt **default** kann nicht gelöscht werden, da es das Standardprojekt ist. Du kannst es mit dem Befehl \"/project rename\" umbenennen.",
     "project_selected": "Das Projekt **{{name}}** wurde ausgewählt. Jeder Befehl wird nun auf diesem Projekt ausgeführt, wenn kein anderes Projekt im Befehl angegeben ist. Um zu einem anderen Projekt zu wechseln, verwenden Sie den Befehl \"/project select\".",
-    "project_renamed": "Das Projekt wurde in **{{name}}** umbenannt.",
+    "project_renamed": "Das Projekt {{old_name}} wurde in **{{name}}** umbenannt.",
     "project_name_default_cant_renamed": "Das Projekt **default** kann nicht umbenannt werden, da es das Standardprojekt ist.",
     "switch_project_button_label": "Zum Projekt wechseln",
     "project_name_too_long": "Der Projektname ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",

@@ -49,7 +49,7 @@
     "project_marked_deleted": "The project **{{name}}** is marked as deleted. Restore it with the command \"/project restore\".",
     "project_name_default_cant_deleted": "The project **default** can not be deleted, because it is the default project. You can rename it with the command \"/project rename\".",
     "project_selected": "The project **{{name}}** has been selected. Every command will now be executed on this project, if no other project is specified in the command. To switch to another project, use the command \"/project select\".",
-    "project_renamed": "The project was renamed to **{{name}}**.",
+    "project_renamed": "The project {{old_name}} was renamed to **{{name}}**.",
     "project_name_default_cant_renamed": "The project **default** can not be renamed, because it is the default project.",
     "switch_project_button_label": "Switch to project",
     "project_name_too_long": "The project name is too long. Please shorten it to {{max}} characters.",

@@ -49,7 +49,7 @@
     "project_marked_deleted": "Proje **{{name}}** silinmiş olarak işaretlendi. \"/project restore\" komutu ile geri yükleyin.",
     "project_name_default_cant_deleted": "**default** proje silinemez, çünkü varsayılan projedir. \"/project rename\" komutuyla adını değiştirebilirsiniz.",
     "project_selected": "Proje **{{name}}** seçildi. Komutta başka bir proje belirtilmemişse, artık her komut bu proje üzerinde yürütülecektir. Başka bir projeye geçmek için \"/project select\" komutunu kullanın.",
-    "project_renamed": "Projenin adı **{{name}}** olarak değiştirildi.",
+    "project_renamed": "{{old_name}} projesinin adı **{{name}}** olarak değiştirildi.",
     "project_name_default_cant_renamed": "Varsayılan proje olduğu için **default** projesi yeniden adlandırılamaz.",
     "switch_project_button_label": "Projeye geç",
     "project_name_too_long": "Proje adı çok uzun. Lütfen {{max}} karaktere kısaltın.",

@@ -49,7 +49,7 @@
     "project_marked_deleted": "Il progetto **{{name}}** è contrassegnato come eliminato. Ripristinalo con il comando \"/project restore\".",
     "project_name_default_cant_deleted": "Il progetto **default** non può essere eliminato, perché è il progetto predefinito. Puoi rinominarlo con il comando \"/project rename\".",
     "project_selected": "Il progetto **{{name}}** è stato selezionato. Ogni comando sarà ora eseguito su questo progetto, a meno che non sia specificato un altro progetto nel comando. Per passare a un altro progetto, usa il comando \"/project select\".",
-    "project_renamed": "Il progetto è stato rinominato in **{{name}}**.",
+    "project_renamed": "Il progetto {{old_name}} è stato rinominato **{{name}}**.",
     "project_name_default_cant_renamed": "Il progetto **default** non può essere rinominato, perché è il progetto predefinito.",
     "switch_project_button_label": "Passa al progetto",
     "project_name_too_long": "Il nome del progetto è troppo lungo. Per favore accorcialo a {{max}} caratteri.",
