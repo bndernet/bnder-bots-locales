@@ -39,7 +39,7 @@
     "project_delete_confirm": "¿Estás seguro de que quieres borrar el proyecto **{{name}}** y todas sus tareas? Cuando mueves un proyecto a la papelera, tienes {{days}} días para restaurarlo. Después, se eliminará permanentemente.",
     "delete_cancelled": "Se ha cancelado la eliminación.",
     "deleted_ephemeral_message": "El proyecto **{{project_name}}** ha sido marcado como eliminado. Se eliminará permanentemente en {{days}} días. Si desea restaurarlo, utilice el comando \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "El proyecto **{{project_name}}** y todas sus [tareas](<https://bnder.net/help/tasks>), [temas](<https://bnder.net/help/topics>) y [documentos](<https://bnder.net/help/documents>) fueron eliminados.",
+    "deleted_immediate_ephemeral_message": "El proyecto **{{project_name}}** y todas sus [tareas](<https://bnder.net/help/tasks/tasks-overview>), [temas](<https://bnder.net/help/topics>) y [documentos](<https://bnder.net/help/documents>) fueron eliminados.",
     "delete_button": "Mover el proyecto a la papelera",
     "cancel_button": "Cancelar",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} días",
@@ -350,7 +350,7 @@
   "object_not_found": "No se pudo encontrar el objeto con el id **{{id}}**. Puede utilizar `/task project`, `/document list` o `/event list` para enumerar todos los objetos de nuestros servicios.",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarea vinculada {{id}}",
-  "invalid_id_format": "El identificador introducido no es válido. Los identificadores de [tareas](<https://bnder.net/help/tasks>), [documentos](<https://bnder.net/help/documents>) y [eventos](<https://bnder.net/help/events>) sólo deben contener números.",
+  "invalid_id_format": "El identificador introducido no es válido. Los identificadores de [tareas](<https://bnder.net/help/tasks/tasks-overview>), [documentos](<https://bnder.net/help/documents>) y [eventos](<https://bnder.net/help/events>) sólo deben contener números.",
   "delete_instantly_button": "Borrar inmediatamente",
   "times": {
     "singleMinute": "minuto",

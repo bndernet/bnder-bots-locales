@@ -39,7 +39,7 @@
     "project_delete_confirm": "Are you sure you want to delete the project **{{name}}** and all of its tasks? When you move a project to the bin, you have {{days}} days to restore it. After that, it will be permanently deleted.",
     "delete_cancelled": "The deletion was canceled.",
     "deleted_ephemeral_message": "The project **{{project_name}}** was marked as deleted. It will be permanently deleted in {{days}} days. If you want to restore it, use the command \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "The project **{{project_name}}** and all of its [tasks](<https://bnder.net/help/tasks>), [topics](<https://bnder.net/help/topics>) and [documents](<https://bnder.net/help/documents>) were deleted.",
+    "deleted_immediate_ephemeral_message": "The project **{{project_name}}** and all of its [tasks](<https://bnder.net/help/tasks/tasks-overview>), [topics](<https://bnder.net/help/topics>) and [documents](<https://bnder.net/help/documents>) were deleted.",
     "delete_button": "Move project to bin",
     "cancel_button": "Cancel",
     "delete_in_days": "🗑️{{days}} days",
@@ -350,7 +350,7 @@
   "object_not_found": "The object with the id **{{id}}** could not be found. You can use `/task project`, `/document list` or `/event list` to list all objects across our services.",
   "resolved_document": "Linked Document {{id}}",
   "resolved_task": "Linked Task {{id}}",
-  "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/tasks>), [documents](<https://bnder.net/help/documents>) and [events](<https://bnder.net/help/events>) should contain only numbers.",
+  "invalid_id_format": "The entered id is invalid. Ids for [tasks](<https://bnder.net/help/tasks/tasks-overview>), [documents](<https://bnder.net/help/documents>) and [events](<https://bnder.net/help/events>) should contain only numbers.",
   "delete_instantly_button": "Delete immediately",
   "times": {
     "singleMinute": "minute",

@@ -39,7 +39,7 @@
     "project_delete_confirm": "Сигурни ли сте, че искате да изтриете проекта **{{name}}** и всички негови задачи? Когато преместите проект в кошчето, разполагате с {{days}} дни, за да го възстановите. След това той ще бъде изтрит окончателно.",
     "delete_cancelled": "Изтриването беше отменено.",
     "deleted_ephemeral_message": "Проектът **{{project_name}}** е отбелязан като изтрит. Той ще бъде окончателно изтрит след {{days}} дни. Ако искате да го възстановите, използвайте командата \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Проектът **{{project_name}}** и всички негови [задачи](<https://bnder.net/help/tasks>), [теми](<https://bnder.net/help/topics>) и [документи](<https://bnder.net/help/documents>) бяха изтрити.",
+    "deleted_immediate_ephemeral_message": "Проектът **{{project_name}}** и всички негови [задачи](<https://bnder.net/help/tasks/tasks-overview>), [теми](<https://bnder.net/help/topics>) и [документи](<https://bnder.net/help/documents>) бяха изтрити.",
     "delete_button": "Преместване на проекта в кошчето",
     "cancel_button": "Отмяна на",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} дни",
@@ -350,7 +350,7 @@
   "object_not_found": "Обектът с идентификатор **{{id}}** не може да бъде намерен. Можете да използвате `/task project`, `/document list` или `/event list`, за да изброите всички обекти в нашите услуги.",
   "resolved_document": "Свързан документ {{id}}",
   "resolved_task": "Свързана задача {{id}}",
-  "invalid_id_format": "Въведеният идентификатор е невалиден. Идентификаторите за [задачи](<https://bnder.net/help/tasks>), [документи](<https://bnder.net/help/documents>) и [събития](<https://bnder.net/help/events>) трябва да съдържат само числа.",
+  "invalid_id_format": "Въведеният идентификатор е невалиден. Идентификаторите за [задачи](<https://bnder.net/help/tasks/tasks-overview>), [документи](<https://bnder.net/help/documents>) и [събития](<https://bnder.net/help/events>) трябва да съдържат само числа.",
   "delete_instantly_button": "Изтрий незабавно",
   "times": {
     "singleMinute": "минута",

@@ -39,7 +39,7 @@
     "project_delete_confirm": "您确定要删除项目 **{{name}}** 及其所有任务吗？当您将项目移至回收站时，您有 {{days}} 天的时间进行恢复。之后，它将被永久删除。",
     "delete_cancelled": "删除已取消。",
     "deleted_ephemeral_message": "项目 **{{project_name}}** 已被标记为已删除，将在 {{days}} 天后永久删除。如果您想恢复，请使用命令 \"/project restore\"。",
-    "deleted_immediate_ephemeral_message": "项目 **{{project_name}}** 及其所有 [任务](<https://bnder.net/help/tasks>)、[主题](<https://bnder.net/help/topics>) 和 [文档](<https://bnder.net/help/documents>) 已被删除。",
+    "deleted_immediate_ephemeral_message": "项目 **{{project_name}}** 及其所有 [任务](<https://bnder.net/help/tasks/tasks-overview>)、[主题](<https://bnder.net/help/topics>) 和 [文档](<https://bnder.net/help/documents>) 已被删除。",
     "delete_button": "将项目移至回收站",
     "cancel_button": "取消",
     "delete_in_days": "🗑️{{days}} 天",
@@ -350,7 +350,7 @@
   "object_not_found": "未找到 ID 为 **{{id}}** 的对象。您可以使用 `/task project`、`/document list` 或 `/event list` 列出我们服务中的所有对象。",
   "resolved_document": "关联文档 {{id}}",
   "resolved_task": "关联任务 {{id}}",
-  "invalid_id_format": "输入的 ID 无效。[任务](<https://bnder.net/help/tasks>)、[文档](<https://bnder.net/help/documents>) 和 [事件](<https://bnder.net/help/events>) 的 ID 应仅包含数字。",
+  "invalid_id_format": "输入的 ID 无效。[任务](<https://bnder.net/help/tasks/tasks-overview>)、[文档](<https://bnder.net/help/documents>) 和 [事件](<https://bnder.net/help/events>) 的 ID 应仅包含数字。",
   "delete_instantly_button": "立即删除",
   "times": {
     "singleMinute": "分钟",

@@ -39,7 +39,7 @@
     "project_delete_confirm": "Вы уверены, что хотите удалить проект **{{name}}** и все его задачи? Когда вы перемещаете проект в корзину, у вас есть {{days}} дней, чтобы восстановить его. После этого он будет удален безвозвратно.",
     "delete_cancelled": "Удаление было отменено.",
     "deleted_ephemeral_message": "Проект **{{project_name}}** был помечен как удаленный. Он будет окончательно удален через {{days}} дней. Если вы хотите восстановить его, используйте команду \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Проект **{{project_name}}** и все его [задачи](<https://bnder.net/help/tasks>), [темы](<https://bnder.net/help/topics>) и [документы](<https://bnder.net/help/documents>) были удалены.",
+    "deleted_immediate_ephemeral_message": "Проект **{{project_name}}** и все его [задачи](<https://bnder.net/help/tasks/tasks-overview>), [темы](<https://bnder.net/help/topics>) и [документы](<https://bnder.net/help/documents>) были удалены.",
     "delete_button": "Переместить проект в корзину",
     "cancel_button": "Отмена",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} дней",
@@ -350,7 +350,7 @@
   "object_not_found": "Объект с идентификатором **{{id}}** не найден. Вы можете использовать `/task project`, `/document list` или `/event list` для перечисления всех объектов в наших сервисах.",
   "resolved_document": "Связанный документ {{id}}",
   "resolved_task": "Связанная задача {{id}}",
-  "invalid_id_format": "Введенный идентификатор недействителен. Идентификаторы для [задач](<https://bnder.net/help/tasks>), [документов](<https://bnder.net/help/documents>) и [событий](<https://bnder.net/help/events>) должны содержать только цифры.",
+  "invalid_id_format": "Введенный идентификатор недействителен. Идентификаторы для [задач](<https://bnder.net/help/tasks/tasks-overview>), [документов](<https://bnder.net/help/documents>) и [событий](<https://bnder.net/help/events>) должны содержать только цифры.",
   "delete_instantly_button": "Удалить немедленно",
   "times": {
     "singleMinute": "минута",

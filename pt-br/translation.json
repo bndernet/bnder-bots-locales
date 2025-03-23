@@ -39,7 +39,7 @@
     "project_delete_confirm": "Tem certeza de que deseja excluir o projeto **{{name}}** e todas as suas tarefas? Quando você move um projeto para a lixeira, tem {{days}} dias para restaurá-lo. Depois disso, ele será excluído permanentemente. Depois disso, ele será excluído permanentemente.",
     "delete_cancelled": "A exclusão foi cancelada.",
     "deleted_ephemeral_message": "O projeto **{{project_name}}** foi marcado como excluído. Ele será excluído permanentemente em {{days}} dias. Se você quiser restaurá-lo, use o comando \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "O projeto **{{project_name}}** e todas as suas [tarefas](<https://bnder.net/help/tasks>), [tópicos](<https://bnder.net/help/topics>) e [documentos](<https://bnder.net/help/documents>) foram excluídos.",
+    "deleted_immediate_ephemeral_message": "O projeto **{{project_name}}** e todas as suas [tarefas](<https://bnder.net/help/tasks/tasks-overview>), [tópicos](<https://bnder.net/help/topics>) e [documentos](<https://bnder.net/help/documents>) foram excluídos.",
     "delete_button": "Mover o projeto para a lixeira",
     "cancel_button": "Cancelar",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} dias",
@@ -350,7 +350,7 @@
   "object_not_found": "O objeto com o id **{{id}}** não pôde ser encontrado. Você pode usar `/task project`, `/document list` ou `/event list` para listar todos os objetos em nossos serviços.",
   "resolved_document": "Documento vinculado {{id}}",
   "resolved_task": "Tarefa vinculada {{id}}",
-  "invalid_id_format": "O ID inserido é inválido. Os ids para [Tarefas](<https://bnder.net/help/tasks>), [documentos](<https://bnder.net/help/documents>) e [eventos](<https://bnder.net/help/events>) devem conter apenas números.",
+  "invalid_id_format": "O ID inserido é inválido. Os ids para [Tarefas](<https://bnder.net/help/tasks/tasks-overview>), [documentos](<https://bnder.net/help/documents>) e [eventos](<https://bnder.net/help/events>) devem conter apenas números.",
   "delete_instantly_button": "Excluir imediatamente",
   "times": {
     "singleMinute": "minuto",

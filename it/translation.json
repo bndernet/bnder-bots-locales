@@ -39,7 +39,7 @@
     "project_delete_confirm": "Sei sicuro di voler eliminare il progetto **{{name}}** e tutte le sue attività? Quando sposti un progetto nel cestino, hai {{days}} giorni per ripristinarlo. Dopo di che sarà eliminato definitivamente.",
     "delete_cancelled": "L'eliminazione è stata annullata.",
     "deleted_ephemeral_message": "Il progetto **{{project_name}}** è stato contrassegnato come eliminato. Sarà eliminato definitivamente in {{days}} giorni. Se desideri ripristinarlo, utilizza il comando \"/project restore\".",
-    "deleted_immediate_ephemeral_message": "Il progetto **{{project_name}}** e tutte le sue [attività](<https://bnder.net/help/tasks>), [argomenti](<https://bnder.net/help/topics>) e [documenti](<https://bnder.net/help/documents>) sono stati eliminati.",
+    "deleted_immediate_ephemeral_message": "Il progetto **{{project_name}}** e tutte le sue [attività](<https://bnder.net/help/tasks/tasks-overview>), [argomenti](<https://bnder.net/help/topics>) e [documenti](<https://bnder.net/help/documents>) sono stati eliminati.",
     "delete_button": "Sposta il progetto nel cestino",
     "cancel_button": "Annulla",
     "delete_in_days": "🗑️{{days}} giorni",
@@ -350,7 +350,7 @@
   "object_not_found": "L'oggetto con l'id **{{id}}** non è stato trovato. Puoi usare \"/task project\", \"/document list\" o \"/event list\" per elencare tutti gli oggetti disponibili nei nostri servizi.",
   "resolved_document": "Documento collegato {{id}}",
   "resolved_task": "Attività collegata {{id}}",
-  "invalid_id_format": "L'id inserito non è valido. Gli id per [attività](<https://bnder.net/help/tasks>), [documenti](<https://bnder.net/help/documents>) e [eventi](<https://bnder.net/help/events>) devono contenere solo numeri.",
+  "invalid_id_format": "L'id inserito non è valido. Gli id per [attività](<https://bnder.net/help/tasks/tasks-overview>), [documenti](<https://bnder.net/help/documents>) e [eventi](<https://bnder.net/help/events>) devono contenere solo numeri.",
   "delete_instantly_button": "Elimina immediatamente",
   "times": {
     "singleMinute": "minuto",
