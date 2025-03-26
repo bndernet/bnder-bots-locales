@@ -39,7 +39,7 @@
     "project_delete_confirm": "Projeyi **{{name}}** ve tüm görevlerini silmek istediğinizden emin misiniz? Bir projeyi çöp kutusuna taşıdığınızda, geri yüklemek için {{days}} gün süreniz vardır. Bundan sonra kalıcı olarak silinecektir.",
     "delete_cancelled": "Silme işlemi iptal edildi.",
     "deleted_ephemeral_message": "Proje **{{project_name}}** silindi olarak işaretlendi. {{days}} gün içinde kalıcı olarak silinecektir. Geri yüklemek istiyorsanız, \"/project restore\" komutunu kullanın.",
-    "deleted_immediate_ephemeral_message": "Proje **{{project_name}}** ve tüm [görevleri](<https://bnder.net/help/tasks/tasks-overview>), [konuları](<https://bnder.net/help/topics>) ve [belgeleri](<https://bnder.net/help/documents>) silindi.",
+    "deleted_immediate_ephemeral_message": "Proje **{{project_name}}** ve tüm [görevleri](<https://bnder.net/help/tasks>), [konuları](<https://bnder.net/help/topics>) ve [belgeleri](<https://bnder.net/help/documents>) silindi.",
     "delete_button": "Projeyi çöp kutusuna taşı",
     "cancel_button": "İptal",
     "delete_in_days": "\uD83D\uDDD1\uFE0F{{days}} gün",
@@ -350,7 +350,7 @@
   "object_not_found": "**{{id}}** kimlikli nesne bulunamadı. Hizmetlerimizdeki tüm nesneleri listelemek için `/task project`, `/document list` veya `/event list` kullanabilirsiniz.",
   "resolved_document": "Bağlantılı Belge {{id}}",
   "resolved_task": "Bağlantılı Görev {{id}}",
-  "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/tasks/tasks-overview>), [belgeler](<https://bnder.net/help/documents>) ve [olaylar](<https://bnder.net/help/events>) için kimlikler yalnızca sayı içermelidir.",
+  "invalid_id_format": "Girilen kimlik geçersiz. [Görevler](<https://bnder.net/help/tasks>), [belgeler](<https://bnder.net/help/documents>) ve [olaylar](<https://bnder.net/help/events>) için kimlikler yalnızca sayı içermelidir.",
   "delete_instantly_button": "Hemen sil",
   "times": {
     "singleMinute": "dakika",

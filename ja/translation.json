@@ -39,7 +39,7 @@
     "project_delete_confirm": "プロジェクト **{{name}}** とそのすべてのタスクを削除してもよろしいですか？プロジェクトをゴミ箱に移動すると、{{days}} 日間は復元できます。その後、完全に削除されます。",
     "delete_cancelled": "削除がキャンセルされました。",
     "deleted_ephemeral_message": "プロジェクト **{{project_name}}** は削除済みとしてマークされました。{{days}} 日後に完全に削除されます。復元するには、`/project restore` コマンドを使用してください。",
-    "deleted_immediate_ephemeral_message": "プロジェクト **{{project_name}}** とそのすべての [タスク](<https://bnder.net/help/tasks/tasks-overview>)、[トピック](<https://bnder.net/help/topics>)、[ドキュメント](<https://bnder.net/help/documents>) が削除されました。",
+    "deleted_immediate_ephemeral_message": "プロジェクト **{{project_name}}** とそのすべての [タスク](<https://bnder.net/help/tasks>)、[トピック](<https://bnder.net/help/topics>)、[ドキュメント](<https://bnder.net/help/documents>) が削除されました。",
     "delete_button": "プロジェクトをゴミ箱に移動する",
     "cancel_button": "キャンセル",
     "delete_in_days": "🗑️{{days}} 日",
@@ -350,7 +350,7 @@
   "object_not_found": "ID **{{id}}** のオブジェクトが見つかりませんでした。「/task project」「/document list」「/event list」を使用して、すべてのオブジェクトを一覧表示できます。",
   "resolved_document": "リンクされたドキュメント {{id}}",
   "resolved_task": "リンクされたタスク {{id}}",
-  "invalid_id_format": "入力された ID は無効です。[タスク](<https://bnder.net/help/tasks/tasks-overview>)、[ドキュメント](<https://bnder.net/help/documents>)、[イベント](<https://bnder.net/help/events>) の ID は数字のみを含む必要があります。",
+  "invalid_id_format": "入力された ID は無効です。[タスク](<https://bnder.net/help/tasks>)、[ドキュメント](<https://bnder.net/help/documents>)、[イベント](<https://bnder.net/help/events>) の ID は数字のみを含む必要があります。",
   "delete_instantly_button": "即座に削除",
   "times": {
     "singleMinute": "分",
