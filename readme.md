@@ -39,3 +39,5 @@ To contribute, simply create a pull request with your changes. The changes will 
 - Russian (ru)
 - Turkish (tr)
 - Japanese (ja)
+- Chinese (simplified) (zh-cn)
+- Polish (pl)
