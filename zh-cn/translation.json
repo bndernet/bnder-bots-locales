@@ -530,7 +530,7 @@
     "step_auto_labeling": "## 第 4 步/{{steps}}: 自动标签\n\n您是否希望启用自动标签？这将根据任务的文本自动添加标签。此设置可以通过命令 \"/settings auto_labeling\" 随时更改。",
     "step_auto_priority": "## 步骤 5/{{steps}}：自动优先级\n\n您是否要为 [pro 席位](<https://bnder.net/pricing>) 中的用户启用自动优先级？这将根据任务的文本自动为其设置优先级。每次都可以使用命令“/settings auto_priority”进行更改。",
     "step_week_start_day": "## 第 4 步/{{steps}}: 周起始日\n\n请选择您希望周开始的日期。此设置可以通过命令 \"/settings week_start_day\" 随时更改。",
-    "setup_completed": "设置已完成。您现在可以使用机器人。如果您想更改设置，请使用命令 \"/settings\"。\n\n要体验完整的项目管理功能，请查看 bnder 的其他机器人：[任务管理器](<https://bnder.net/task>)、[知识管理器](<https://bnder.net/knowledge>) 和 [日历管理器](<https://bnder.net/calendar>)。\n\n**请注意：踢出机器人将删除所有设置和数据。**"
+    "setup_completed": "设置已完成。您现在可以使用该机器人了。[请参阅此处](<https://bnder.net/help?bot={{bot}}>) 了解如何开始使用。如果您想要更改设置，请使用命令“/settings”。\n\n如需完整的项目管理体验，请查看 bnder 的其他机器人：[Task Manager](<https://bnder.net/task>)、[Knowledge Manager](<https://bnder.net/knowledge>) 和 [Calendar Manager](<https://bnder.net/calendar>)。\n\n**请注意：从服务器中删除机器人将删除所有设置和数据。**"
   },
   "integration": {
     "github": {

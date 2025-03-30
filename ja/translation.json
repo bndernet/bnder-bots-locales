@@ -530,7 +530,7 @@
     "step_auto_labeling": "## ステップ 4/{{steps}}: 自動ラベリング\n\n自動ラベリングを有効にしますか？これにより、タスクのテキストに基づいて自動的にラベルが追加されます。これはいつでも \"/settings auto_labeling\" コマンドで変更できます。",
     "step_auto_priority": "## ステップ 5/{{steps}}: 自動優先度\n\n[プロ シート](<https://bnder.net/pricing>) のユーザーに対して自動優先度を有効にしますか? これにより、テキストに基づいてタスクの優先度が自動的に設定されます。これは、コマンド \"/settings auto_priority\" を使用していつでも変更できます。",
     "step_week_start_day": "## ステップ 4/{{steps}}: 週の開始日\n\n週の開始日を選択してください。これはいつでも \"/settings week_start_day\" コマンドで変更できます。",
-    "setup_completed": "設定が完了しました。これでボットを使用できます。設定を変更する場合は、\"/settings\" コマンドを使用してください。\n\n完全なプロジェクト管理体験のために、bnderの他のボットもチェックしてください: [Task Manager](<https://bnder.net/task>), [Knowledge Manager](<https://bnder.net/knowledge>) と [Calendar Manager](<https://bnder.net/calendar>)。\n\n**ご注意: ボットをキックすると、すべての設定とデータが削除されます。**"
+    "setup_completed": "セットアップが完了しました。これでボットを使用できます。開始方法については、[こちら](<https://bnder.net/help?bot={{bot}}>) を参照してください。設定を変更する場合は、コマンド「/settings」を使用します。\n\n完全なプロジェクト管理エクスペリエンスを得るには、bnder の他のボットを確認してください: [Task Manager](<https://bnder.net/task>)、[Knowledge Manager](<https://bnder.net/knowledge>)、[Calendar Manager](<https://bnder.net/calendar>)。\n\n**注意: ボットをサーバーから削除すると、すべての設定とデータが削除されます。**"
   },
   "integration": {
     "github": {
