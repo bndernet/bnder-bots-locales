@@ -374,19 +374,19 @@
     "sunday_short": "So"
   },
   "label": {
-    "name_too_long": "Der Name des Etiketts ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
+    "name_too_long": "Der Name des Labels ist zu lang. Bitte kürzen Sie ihn auf {{max}} Zeichen.",
     "max_amount_of_labels_reached": "Dir geht der Platz für Labels aus! \uD83C\uDFF7\uFE0F\nDu hast das Limit von **{{max}} Labels** in deinem Arbeitsbereich erreicht. [Füge einen Pro-Platz hinzu](<https://bnder.net/p/{{guildId}}>), um weitere Labels freizuschalten und deinen Workflow grenzenlos zu organisieren. Jetzt upgraden und deinen Arbeitsbereich erweitern! Mehr Informationen zu Pro-Plätzen findest du unter https://bnder.net/pricing.",
     "already_exists": "Ein Label mit dem Namen **{{name}}** existiert bereits.",
     "color_not_supported": "Die Farbe **{{color}}** wird nicht unterstützt. Bitte verwenden Sie eine der folgenden Farben: {{colors}}",
-    "created": "Das Label **{{name}}** wurde erstellt. Sie können es jetzt mit dem Befehl \"/label add\" zu Objekten hinzufügen.",
+    "created": "Das Label **{{name}}** wurde erstellt. Sie können es nun mit dem Befehl \"/label add\" zu [Aufgaben](<https://bnder.net/task>) und [Dokumenten](<https://bnder.net/knowledge>) hinzufügen.",
     "not_found": "Das Etikett **{{name}}** konnte nicht gefunden werden. Verwenden Sie \"/label list\", um alle Labels aufzulisten, oder erstellen Sie ein neues Label mit \"/label create\".",
     "too_many_labels": "Das Objekt hat bereits die maximale Anzahl an Labels ({{max}}). Um ein weiteres Label hinzuzufügen, [aktualisieren Sie bitte auf einen Pro-Platz](<https://bnder.net/p/{{guildId}}>). Weitere Informationen zu Pro-Plätzen finden Sie unter https://bnder.net/pricing.",
     "already_added": "Das Label **{{name}}** ist dem Objekt bereits hinzugefügt.",
     "added_to_task": "Die Bezeichnung **{{name}}** wurde der Aufgabe **{{id}}** hinzugefügt.",
     "added_to_document": "Das Label **{{name}}** wurde dem Dokument **{{id}}** hinzugefügt.",
-    "deleted": "Das Label **{{name}}** wurde gelöscht und von allen Objekten entfernt.",
+    "deleted": "Das Label **{{name}}** wurde gelöscht und aus allen [Aufgaben](<https://bnder.net/task>) und [Dokumenten](<https://bnder.net/knowledge>) entfernt.",
     "no_labels": "Es sind keine Labels vorhanden. Verwenden Sie den Befehl \"/label create\", um ein neues Etikett zu erstellen.",
-    "not_added": "Das Etikett **{{name}}** ist dem Objekt nicht hinzugefügt.",
+    "not_added": "Das Label **{{name}}** befindet sich nicht auf dem Objekt. Verwenden Sie \"/label add\", um es hinzuzufügen.",
     "removed_from_task": "Das Label **{{name}}** wurde aus der Aufgabe **{{id}}** entfernt.",
     "removed_from_document": "Das Label **{{name}}** wurde aus dem Dokument **{{id}}** entfernt.",
     "edited": "Das Label **{{old_name}}** wurde bearbeitet."
