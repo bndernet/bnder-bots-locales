@@ -240,7 +240,6 @@
     "max_assignees_reached_buy_pro": "もっと人手が必要ですか? \uD83D\uDC65\nこのタスクにはすでに最大数の **{{max}} 人の担当者** がいます。[プロ シートを追加](<https://bnder.net/p/{{guildId}}>)して、チーム メンバーをさらに割り当て、コラボレーションを強化しましょう。今すぐアップグレードして、チームを前進させましょう。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "daily_repeat_not_allowed": "毎日繰り返すタスクは、プロ シートのユーザーのみが利用できます。この機能を使用するには、[プロ シートにアップグレードしてください](<https://bnder.net/p/{{guildId}}>)。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "todos_not_allowed": "Todos で生産性を向上しましょう! ✅\nTodos は、タスクを実行可能なステップに分割するのに役立つ Pro 機能です。今すぐ Pro シートにアップグレードして、この強力なツールをアンロックしましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
-    "attachments_not_allowed": "ファイル添付のロックを解除しましょう! \uD83D\uDCCE\n添付の追加は Pro 機能です。Pro シートにアップグレードすると、ファイルをアップロードしたり、リソースを共有したり、すべてを 1 か所にまとめたりできます。[今すぐアップグレード](<https://bnder.net/p/{{guildId}}>)してワークフローを効率化しましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "attachments_storage_limit_reached": "このサーバーのストレージ上限に達しました。ストレージ上限を増やすには、[プロ シートにアップグレード](<https://bnder.net/p/{{guildId}}>)してください。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "attachment_added": "タスク **{{id}}** に添付ファイル **{{file_name}}** が追加されました。「/task attachments」コマンドを使用して表示できます。",
     "deadline_extended": "タスク **{{id}}** の期限が {{deadline}} に延長されました。",
