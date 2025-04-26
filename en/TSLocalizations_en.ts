@@ -36,6 +36,10 @@ export class TSLocalizations_en {
             extend_deadline_by_one_day_button: "Extend deadline by 1 day",
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+              return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId}) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Unsubscribe",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `The task **${id}** ${taskTitle} you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
             },

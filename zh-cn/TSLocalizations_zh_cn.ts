@@ -36,6 +36,10 @@ export class TSLocalizations_zh_cn {
             extend_deadline_by_one_day_button: "延长截止日期 1 天",
             extend_deadline_by_two_days_button: "延长截止日期 2 天",
             extend_deadline_by_one_week_button: "延长截止日期 1 周",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `您已被 <@${addedBy}> 添加为服务器 [${guildName}](https://discord.com/channels/${guildId}) 中任务 **${id}** ${taskText} 的观察者。当此任务发生任何变化时，您将收到通知。如果您想停止接收通知，请点击下方按钮。`;
+            },
+            watcher_added_notification_unsubscribe_button: "取消订阅",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `您在服务器 [${guildName}](https://discord.com/channels/${guildId}) 观看的任务 **${id}** ${taskTitle} 已更新：`;
             },

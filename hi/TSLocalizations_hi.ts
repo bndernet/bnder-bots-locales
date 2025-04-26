@@ -36,6 +36,10 @@ export class TSLocalizations_hi {
             extend_deadline_by_one_day_button: "समय सीमा 1 दिन बढ़ाएँ",
             extend_deadline_by_two_days_button: "समय सीमा 2 दिन बढ़ाएँ",
             extend_deadline_by_one_week_button: "समय सीमा 1 सप्ताह बढ़ाएँ",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `आपको <@${addedBy}> द्वारा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में टास्क **${id}** ${taskText} में वॉचर के रूप में जोड़ा गया है। जब इस टास्क में कुछ बदलाव होगा तो आपको नोटिफिकेशन प्राप्त होंगे। यदि आप नोटिफिकेशन प्राप्त करना बंद करना चाहते हैं, तो आप नीचे दिए गए बटन पर क्लिक कर सकते हैं।`;
+            },
+            watcher_added_notification_unsubscribe_button: "सदस्यता रद्द",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `सर्वर [${guildName}](https://discord.com/channels/${guildId}) में आप जो कार्य **${id}** ${taskTitle} देख रहे हैं, वह बदल गया है:`;
             },

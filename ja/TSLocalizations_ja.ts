@@ -36,6 +36,10 @@ export class TSLocalizations_ja {
             extend_deadline_by_one_day_button: "期限を1日延長",
             extend_deadline_by_two_days_button: "期限を2日延長",
             extend_deadline_by_one_week_button: "期限を1週間延長",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `あなたは、<@${addedBy}>によってサーバー[${guildName}](https://discord.com/channels/${guildId})のタスク**${id}** ${taskText}のウォッチャーとして追加されました。このタスクに変更があった際に通知が届きます。通知の受信を停止したい場合は、以下のボタンをクリックしてください。`;
+            },
+            watcher_added_notification_unsubscribe_button: "購読解除",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `あなたがウォッチしているタスク **${id}** ${taskTitle} が更新されました。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
             },

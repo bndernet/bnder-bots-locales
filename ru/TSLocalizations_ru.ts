@@ -36,6 +36,10 @@ export class TSLocalizations_ru {
             extend_deadline_by_one_day_button: "Продлить срок на 1 день",
             extend_deadline_by_two_days_button: "Продлить срок на 2 дня",
             extend_deadline_by_one_week_button: "Продлить срок на 1 неделю",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Вы были добавлены в качестве наблюдателя к задаче **${id}** ${taskText} на сервере [${guildName}](https://discord.com/channels/${guildId}) пользователем <@${addedBy}>. Вы будете получать уведомления, когда что-то изменится в этой задаче. Если вы хотите прекратить получать уведомления, вы можете нажать кнопку ниже.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Отписаться",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `Задание **${id}** ${taskTitle} за которым вы следите на сервере [${guildName}](https://discord.com/channels/${guildId}), изменилось:`;
             },

@@ -31,6 +31,8 @@ export interface TSLocalizationKeys {
         extend_deadline_by_one_day_button: string;
         extend_deadline_by_two_days_button: string;
         extend_deadline_by_one_week_button: string;
+        watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string;
+        watcher_added_notification_unsubscribe_button: string;
         watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
         watcher_notification_footer: string;
         watcher_embed_title(id: string): string;

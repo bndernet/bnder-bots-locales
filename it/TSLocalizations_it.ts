@@ -36,6 +36,10 @@ export class TSLocalizations_it {
             extend_deadline_by_one_day_button: "Estendi la scadenza di 1 giorno",
             extend_deadline_by_two_days_button: "Estendi la scadenza di 2 giorni",
             extend_deadline_by_one_week_button: "Estendi la scadenza di 1 settimana",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Sei stato aggiunto come osservatore all'attività **${id}** ${taskText} sul server [${guildName}](https://discord.com/channels/${guildId}) da <@${addedBy}>. Riceverai notifiche ogni volta che qualcosa cambia in questa attività. Se vuoi interrompere la ricezione delle notifiche, puoi cliccare sul pulsante qui sotto.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Annulla iscrizione",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `Il compito **${id}** ${taskTitle} che stai monitorando nel server [${guildName}](https://discord.com/channels/${guildId}) è stato aggiornato:`
             },

@@ -36,6 +36,10 @@ export class TSLocalizations_tr {
             extend_deadline_by_one_day_button: "Son teslim tarihini 1 gün uzatın",
             extend_deadline_by_two_days_button: "Son teslim tarihini 2 gün uzatın",
             extend_deadline_by_one_week_button: "Son teslim tarihini 1 hafta uzatın",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `<@${addedBy}> tarafından [${guildName}](https://discord.com/channels/${guildId}) sunucusundaki **${id}** ${taskText} görevine gözlemci olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirimler alacaksınız. Bildirimleri almayı durdurmak istiyorsanız, aşağıdaki düğmeye tıklayabilirsiniz.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Abonelikten çık",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `Görev **${id}** ${taskTitle} sunucuda izlediğiniz [${guildName}](https://discord.com/channels/${guildId}) değişti:`;
             },

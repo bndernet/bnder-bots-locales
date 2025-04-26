@@ -36,6 +36,10 @@ export class TSLocalizations_de {
             extend_deadline_by_one_day_button: "Frist um 1 Tag verlängern",
             extend_deadline_by_two_days_button: "Frist um 2 Tage verlängern",
             extend_deadline_by_one_week_button: "Frist um 1 Woche verlängern",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Du wurdest von <@${addedBy}> als Beobachter zur Aufgabe **${id}** ${taskText} auf Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt. Du erhältst Benachrichtigungen, sobald sich an dieser Aufgabe etwas ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, klicke auf die Schaltfläche unten.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Abbestellen",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `Die Aufgabe **${id}** ${taskTitle} die Sie auf dem Server [${guildName}](https://discord.com/channels/${guildId}) beobachten, wurde geändert:`;
             },

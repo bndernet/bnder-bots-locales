@@ -36,6 +36,10 @@ export class TSLocalizations_pl {
             extend_deadline_by_one_day_button: "Przedłuż termin o 1 dzień",
             extend_deadline_by_two_days_button: "Przedłuż termin o 2 dni",
             extend_deadline_by_one_week_button: "Przedłuż termin o 1 tydzień",
+            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Zostałeś dodany jako obserwator do zadania **${id}** ${taskText} na serwerze [${guildName}](https://discord.com/channels/${guildId}) przez <@${addedBy}>. Otrzymasz powiadomienia, gdy coś zmieni się w tym zadaniu. Jeśli chcesz przestać otrzymywać powiadomienia, kliknij poniższy przycisk.`;
+            },
+            watcher_added_notification_unsubscribe_button: "Wypisz się",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
                 return `Zadanie **${id}** ${taskTitle}, które obserwujesz na serwerze [${guildName}](https://discord.com/channels/${guildId}), zostało zmienione:`
             },
