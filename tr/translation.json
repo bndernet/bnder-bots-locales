@@ -129,7 +129,8 @@
       "number_not_a_number": "Yapılacak iş numarası pozitif bir sayı olmalıdır.",
       "removed": "Yapılacak iş **{{number}}** görevden kaldırıldı **{{id}}**.",
       "completed": "Yapılacak iş **{{id}}** görevi için **{{number}}** tamamlandı olarak işaretlendi.",
-      "uncompleted": "Yapılacak iş **{{number}}** görev için **{{id}}** tamamlanmamış olarak işaretlendi."
+      "uncompleted": "Yapılacak iş **{{number}}** görev için **{{id}}** tamamlanmamış olarak işaretlendi.",
+      "todo_not_found": "Görevin belirttiğiniz numara ile bir yapılacak işi yok. **{{id}}** görevinin toplam {{todos}} yapılacak işi var. Bir görevin yapılacak iş numaralarını görmek için \"/task info\" komutunu kullanın."
     },
     "list_tasks_for_user": "# <@{{user_id}}> için {{project_name}} proje proje ({{count}} Görev):",
     "list_tasks_for_role": "# Proje {{project_name}}'ndaki <@&{{role_id}}> rolü için proje ({{count}} Görev):",

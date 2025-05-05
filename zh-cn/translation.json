@@ -129,7 +129,8 @@
       "number_not_a_number": "待办事项编号必须是正数。",
       "removed": "待办事项 **{{number}}** 已从任务 **{{id}}** 中移除。",
       "completed": "任务 **{{id}}** 的待办事项 **{{number}}** 已标记为完成。",
-      "uncompleted": "任务 **{{id}}** 的待办事项 **{{number}}** 已标记为未完成。"
+      "uncompleted": "任务 **{{id}}** 的待办事项 **{{number}}** 已标记为未完成。",
+      "todo_not_found": "该任务没有您指定编号的待办事项。任务 **{{id}}** 共有 {{todos}} 个待办事项。使用 \"/task info\" 查看任务的待办事项编号。"
     },
     "list_tasks_for_user": "# 分配给 <@{{user_id}}> 的任务在项目 **{{project_name}}** 中 ({{count}} 个任务):",
     "no_tasks_role": "未找到分配给角色 <@&{{role_id}}> 的任务在项目 **{{project_name}}** 中。使用 `/task project` 命令查看项目中的所有任务。",

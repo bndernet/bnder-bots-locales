@@ -129,7 +129,8 @@
       "number_not_a_number": "Il numero del to-do deve essere un numero positivo.",
       "removed": "Il to-do **{{number}}** è stato rimosso dal task **{{id}}**.",
       "completed": "Il to-do **{{number}}** del task **{{id}}** è stato contrassegnato come completato.",
-      "uncompleted": "Il to-do **{{number}}** del task **{{id}}** è stato contrassegnato come non completato."
+      "uncompleted": "Il to-do **{{number}}** del task **{{id}}** è stato contrassegnato come non completato.",
+      "todo_not_found": "L'attività non ha un'attività con il numero specificato. L'attività **{{id}}** ha un numero totale di {{todos}} attività. Usa \"/task info\" per visualizzare i numeri delle attività di un'attività."
     },
     "list_tasks_for_user": "# Attività assegnate a <@{{user_id}}> nel progetto **{{project_name}}** ({{count}} attività):",
     "no_tasks_role": "Non sono state trovate attività assegnate al ruolo <@&{{role_id}}> nel progetto **{{project_name}}**. Usa il comando `/task project` per vedere tutte le attività di un progetto.",

@@ -129,7 +129,8 @@
       "number_not_a_number": "Die Aufgabennummer muss eine positive Zahl sein.",
       "removed": "Die Aufgabe **{{number}}** wurde aus der Aufgabe **{{id}}** entfernt.",
       "completed": "Die Aufgabe **{{number}}** für Aufgabe **{{id}}** wurde als erledigt markiert.",
-      "uncompleted": "Die Aufgabe **{{number}}** für Aufgabe **{{id}}** wurde als nicht erledigt markiert."
+      "uncompleted": "Die Aufgabe **{{number}}** für Aufgabe **{{id}}** wurde als nicht erledigt markiert.",
+      "todo_not_found": "Die Aufgabe hat kein To-do mit der von Ihnen angegebenen Nummer. Die Aufgabe **{{id}}** hat insgesamt {{todos}} To-dos. Verwenden Sie \"/task info\", um die To-do-Nummern einer Aufgabe anzuzeigen."
     },
     "list_tasks_for_user": "# Aufgaben für <@{{user_id}}> im Projekt {{project_name}} ({{count}} Aufgaben):",
     "list_tasks_for_role": "# Aufgaben für Rolle <@&{{role_id}}> im Projekt {{project_name}} ({{count}} Aufgaben):",

@@ -129,7 +129,8 @@
       "number_not_a_number": "O número da tarefa deve ser um número positivo.",
       "removed": "A tarefa **{{number}}** foi removida da tarefa **{{id}}**.",
       "completed": "A tarefa **{{number}}** para a tarefa **{{id}}** foi marcada como concluída.",
-      "uncompleted": "A tarefa **{{number}}** para a tarefa **{{id}}** foi marcada como não concluída."
+      "uncompleted": "A tarefa **{{number}}** para a tarefa **{{id}}** foi marcada como não concluída.",
+      "todo_not_found": "A tarefa não possui uma tarefa com o número que você especificou. A tarefa **{{id}}** tem um total de {{todos}} tarefas. Use \"/task info\" para ver os números de tarefas de uma tarefa."
     },
     "list_tasks_for_user": "# Tarefas para <@{{user_id}}> no projeto {{project_name}} ({{count}} tarefas):",
     "list_tasks_for_role": "# Tarefas para a função <@&{{role_id}}> no projeto {{project_name}} ({{count}} tarefas):",

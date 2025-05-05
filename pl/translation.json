@@ -129,7 +129,8 @@
       "number_not_a_number": "Numer zadania do zrobienia musi być liczbą dodatnią.",
       "removed": "Zadanie do zrobienia **{{number}}** zostało usunięte z zadania **{{id}}**.",
       "completed": "Zadanie do zrobienia **{{number}}** dla zadania **{{id}}** zostało oznaczone jako wykonane.",
-      "uncompleted": "Zadanie do zrobienia **{{number}}** dla zadania **{{id}}** zostało oznaczone jako niewykonane."
+      "uncompleted": "Zadanie do zrobienia **{{number}}** dla zadania **{{id}}** zostało oznaczone jako niewykonane.",
+      "todo_not_found": "Zadanie nie ma todo o podanej liczbie. Zadanie **{{id}}** ma łącznie {{todos}} todos. Użyj \"/task info\", aby zobaczyć numery todo zadania."
     },
     "list_tasks_for_user": "# Zadania przypisane do <@{{user_id}}> w projekcie **{{project_name}}** ({{count}} zadań):",
     "no_tasks_role": "Nie znaleziono zadań przypisanych do <@&{{role_id}}> w projekcie **{{project_name}}**. Użyj polecenia `/task project`, aby zobaczyć wszystkie zadania projektu.",

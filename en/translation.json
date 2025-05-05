@@ -129,7 +129,8 @@
       "number_not_a_number": "The to do number must be a positive number.",
       "removed": "The to do **{{number}}** was removed from the task **{{id}}**.",
       "completed": "The to do **{{number}}** for task **{{id}}** was marked as completed.",
-      "uncompleted": "The to do **{{number}}** for task **{{id}}** was marked as uncompleted."
+      "uncompleted": "The to do **{{number}}** for task **{{id}}** was marked as uncompleted.",
+      "todo_not_found": "The task does not have a todo with the number you specified. The task **{{id}}** has a total amount of {{todos}} todos. Use \"/task info\" to see the todo numbers of a task."
     },
     "list_tasks_for_user": "# Tasks assigned to <@{{user_id}}> in project **{{project_name}}** ({{count}} tasks):",
     "no_tasks_role": "There were no tasks found assigned to <@&{{role_id}}> in the project **{{project_name}}**. Use `/task project` command to see all tasks of a project.",

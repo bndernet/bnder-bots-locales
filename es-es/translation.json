@@ -129,7 +129,8 @@
       "number_not_a_number": "El número de la tarea pendiente debe ser un número positivo.",
       "removed": "La tarea pendiente **{{number}}** se eliminó de la tarea **{{id}}**.",
       "completed": "La tarea pendiente **{{number}}** de la tarea **{{id}}** se marcó como completada.",
-      "uncompleted": "La tarea pendiente **{{number}}** de la tarea **{{id}}** se marcó como incompleta."
+      "uncompleted": "La tarea pendiente **{{number}}** de la tarea **{{id}}** se marcó como incompleta.",
+      "todo_not_found": "La tarea no tiene una tarea con el número especificado. La tarea **{{id}}** tiene un total de {{todos}} tareas. Use \"/task info\" para ver la cantidad de tareas de una tarea."
     },
     "list_tasks_for_user": "# Tareas para <@{{user_id}}> en el proyecto {{project_name}} ({{count}} Tareas):",
     "list_tasks_for_role": "# Tareas para el rol <@&{{role_id}}> en el proyecto {{project_name}} ({{count}} Tareas):",

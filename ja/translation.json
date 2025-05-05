@@ -129,7 +129,8 @@
       "number_not_a_number": "ToDo番号は正の数である必要があります。",
       "removed": "タスク **{{id}}** のToDo **{{number}}** が削除されました。",
       "completed": "タスク **{{id}}** のToDo **{{number}}** が完了としてマークされました。",
-      "uncompleted": "タスク **{{id}}** のToDo **{{number}}** が未完了としてマークされました。"
+      "uncompleted": "タスク **{{id}}** のToDo **{{number}}** が未完了としてマークされました。",
+      "todo_not_found": "タスクには指定した番号のToDoがありません。タスク**{{id}}**には合計{{todos}}件のToDoがあります。タスクのToDo番号を確認するには、「/task info」を使用してください。"
     },
     "list_tasks_for_user": "# プロジェクト **{{project_name}}** 内で <@{{user_id}}> に割り当てられたタスク（{{count}} 件）：",
     "no_tasks_role": "プロジェクト **{{project_name}}** において、役割 <@&{{role_id}}> に割り当てられたタスクは見つかりませんでした。「/task project」コマンドを使用してプロジェクトのすべてのタスクを確認してください。",

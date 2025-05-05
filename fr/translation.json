@@ -129,7 +129,8 @@
       "number_not_a_number": "Le numéro de la tâche à faire doit être un nombre positif.",
       "removed": "La tâche à faire **{{number}}** a été supprimée de la tâche **{{id}}**.",
       "completed": "La tâche à faire **{{number}}** pour la tâche **{{id}}** a été marquée comme terminée.",
-      "uncompleted": "La tâche à faire **{{number}}** pour la tâche **{{id}}** a été marquée comme inachevée."
+      "uncompleted": "La tâche à faire **{{number}}** pour la tâche **{{id}}** a été marquée comme inachevée.",
+      "todo_not_found": "La tâche ne correspond pas au numéro spécifié. La tâche **{{id}}** comporte un total de {{todos}} tâches. Utilisez \"/task info\" pour afficher les numéros de tâches d'une tâche."
     },
     "list_tasks_for_user": "# Tâches pour <@{{user_id}}> sur le projet {{project_name}} ({{count}} tâches):",
     "list_tasks_for_role": "# Tâches pour le rôle <@&{{role_id}}> dans le projet {{project_name}} ({{count}} tâches):",
