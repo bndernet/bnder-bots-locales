@@ -248,7 +248,7 @@
     "attachment_remove_error": "The attachment **{{file_name}}** could not be removed from the task **{{id}}**. Please try again later.",
     "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
-    "no_attachments": "There are no attachments for the task **{{id}}**.",
+    "no_attachments": "There are no attachments for the task **{{id}}**. Use the command \"/task attach\" to add an attachment to the task.",
     "attachment_discord_download_error": "The attachment could not be downloaded from Discord. Please try again later.",
     "attachment_cdn_upload_error": "The attachment could not be uploaded to the CDN. Please try again later.",
     "already_watching": "You are already watching the task **{{id}}**.",

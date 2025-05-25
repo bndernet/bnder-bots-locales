@@ -248,7 +248,7 @@
     "attachment_remove_error": "Nie można usunąć załącznika **{{file_name}}** z zadania **{{id}}**. Spróbuj ponownie później.",
     "attachment_not_found": "Nie znaleziono załącznika **{{file_name}}** w zadaniu **{{id}}**. Użyj \"/task info\", aby zobaczyć wszystkie załączniki.",
     "attachments_list_title": "# Załączniki zadania **{{id}}** ({{count}} załączników):",
-    "no_attachments": "Brak załączników dla zadania **{{id}}**.",
+    "no_attachments": "Brak załączników do zadania **{{id}}**. Użyj polecenia \"/task attach\", aby dodać załącznik do zadania.",
     "attachment_discord_download_error": "Nie można pobrać załącznika z Discorda. Spróbuj ponownie później.",
     "attachment_cdn_upload_error": "Nie można przesłać załącznika do CDN. Spróbuj ponownie później.",
     "already_watching": "Już obserwujesz zadanie **{{id}}**.",

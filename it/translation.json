@@ -248,7 +248,7 @@
     "attachment_remove_error": "L'allegato **{{file_name}}** non è stato rimosso dall'attività **{{id}}**. Riprova più tardi.",
     "attachment_not_found": "L'allegato **{{file_name}}** non è stato trovato nell'attività **{{id}}**. Usa \"/task info\" per vedere tutti gli allegati.",
     "attachments_list_title": "# Allegati dell'attività **{{id}}** ({{count}} allegati):",
-    "no_attachments": "Non ci sono allegati per l'attività **{{id}}**.",
+    "no_attachments": "Non ci sono allegati per l'attività **{{id}}**. Usa il comando \"/task attach\" per aggiungere un allegato all'attività.",
     "attachment_discord_download_error": "Impossibile scaricare l'allegato da Discord. Riprova più tardi.",
     "attachment_cdn_upload_error": "Impossibile caricare l'allegato nel CDN. Riprova più tardi.",
     "already_watching": "Stai già osservando l'attività **{{id}}**.",

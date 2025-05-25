@@ -248,7 +248,7 @@
     "attachment_remove_error": "タスク **{{id}}** から添付ファイル **{{file_name}}** を削除できませんでした。後でもう一度お試しください。",
     "attachment_not_found": "タスク **{{id}}** に添付ファイル **{{file_name}}** が見つかりません。「/task info」を使用してすべての添付ファイルを確認してください。",
     "attachments_list_title": "# タスク **{{id}}** の添付ファイル ({{count}} 件):",
-    "no_attachments": "タスク **{{id}}** には添付ファイルがありません。",
+    "no_attachments": "タスク**{{id}}**には添付ファイルがありません。タスクに添付ファイルを追加するには、コマンド「/task attach」を使用してください。",
     "attachment_discord_download_error": "Discordから添付ファイルをダウンロードできませんでした。後でもう一度お試しください。",
     "attachment_cdn_upload_error": "添付ファイルをCDNにアップロードできませんでした。後でもう一度お試しください。",
     "already_watching": "すでにタスク **{{id}}** をウォッチしています。",

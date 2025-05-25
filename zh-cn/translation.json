@@ -248,7 +248,7 @@
     "attachment_remove_error": "附件 **{{file_name}}** 无法从任务 **{{id}}** 中移除。请稍后再试。",
     "attachment_not_found": "在任务 **{{id}}** 中找不到附件 **{{file_name}}**。使用“/task info”查看所有附件。",
     "attachments_list_title": "# 任务 **{{id}}** 的附件 (共 {{count}} 个附件)：",
-    "no_attachments": "任务 **{{id}}** 没有附件。",
+    "no_attachments": "任务 **{{id}}** 没有附件。请使用命令 \"/task attachment\" 为该任务添加附件。",
     "attachment_discord_download_error": "无法从 Discord 下载附件。请稍后再试。",
     "attachment_cdn_upload_error": "附件无法上传到 CDN。请稍后再试。",
     "already_watching": "您已经在关注任务 **{{id}}**。",

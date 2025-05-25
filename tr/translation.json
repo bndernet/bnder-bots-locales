@@ -248,7 +248,7 @@
     "attachment_remove_error": "**{{file_name}}** eki **{{id}}** görevinden kaldırılamadı. Lütfen daha sonra tekrar deneyin.",
     "attachment_not_found": "**{{file_name}}** eki **{{id}}** görevinde bulunamadı. Tüm ekleri görmek için \"/task info\" kullanın.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
-    "no_attachments": "**{{id}}** görevi için hiçbir ek yok.",
+    "no_attachments": "**{{id}}** görevi için hiçbir ek yok. Göreve bir ek eklemek için \"/task attach\" komutunu kullanın.",
     "attachment_discord_download_error": "Discord'dan dosya indirilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
     "attachment_cdn_upload_error": "Dosya yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
     "already_watching": "**{{id}}** görevini zaten izliyorsunuz.",

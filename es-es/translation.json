@@ -248,7 +248,7 @@
     "attachment_remove_error": "El archivo adjunto **{{file_name}}** no se ha podido eliminar de la tarea **{{id}}**. Vuelva a intentarlo más tarde.",
     "attachment_not_found": "No se ha podido encontrar el archivo adjunto **{{file_name}}** en la tarea **{{id}}**. Utilice \"/task info\" para ver todos los archivos adjuntos.",
     "attachments_list_title": "# Adjuntos de la tarea **{{id}}** ({{count}} adjuntos):",
-    "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**.",
+    "no_attachments": "No hay archivos adjuntos para la tarea **{{id}}**. Use el comando \"/task attached\" para agregar un archivo adjunto a la tarea.",
     "attachment_discord_download_error": "No se ha podido descargar el archivo adjunto. Por favor, inténtelo de nuevo más tarde.",
     "attachment_cdn_upload_error": "No se ha podido subir el archivo adjunto. Por favor, inténtelo de nuevo más tarde.",
     "already_watching": "Ya estás vigilando la tarea **{{id}}**",

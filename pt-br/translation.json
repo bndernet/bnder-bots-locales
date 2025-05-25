@@ -248,7 +248,7 @@
     "attachment_remove_error": "O anexo **{{file_name}}** não pôde ser removido da tarefa **{{id}}**. Por favor, tente novamente mais tarde.",
     "attachment_not_found": "O anexo **{{file_name}}** não pôde ser encontrado na tarefa **{{id}}**. Use \"/task info\" para ver todos os anexos.",
     "attachments_list_title": "# Anexos da tarefa **{{id}}** ({{count}} anexos):",
-    "no_attachments": "Não há anexos para a tarefa **{{id}}**.",
+    "no_attachments": "Não há anexos para a tarefa **{{id}}**. Use o comando \"/task attach\" para adicionar um anexo à tarefa.",
     "attachment_discord_download_error": "Ocorreu um erro ao tentar baixar o anexo. Por favor, tente novamente mais tarde.",
     "attachment_cdn_upload_error": "Ocorreu um erro ao tentar fazer upload do anexo. Por favor, tente novamente mais tarde.",
     "already_watching": "Você já está observando a tarefa **{{id}}**.",
