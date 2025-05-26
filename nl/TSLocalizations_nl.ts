@@ -271,7 +271,7 @@ export class TSLocalizations_nl {
             return `Gefeliciteerd! Je bent in een pro-plek geplaatst in server [${guildName}](<https://discord.com/channels/${guildId}>). Dit betekent dat je nu toegang hebt tot [pro-functies](<https://bnder.net/pricing>). Veel plezier!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `De betaling voor één of meer pro-plekken op server [${guildName}](https://discord.com/channels/${guildId}) is mislukt. Klik [hier](${customerPortalLink}) om de betalingsinformatie te verifiëren en de betaling opnieuw te proberen.`;
+            return `Betaling voor een of meer pro-gebruikers op server [${guildName}](https://discord.com/channels/${guildId}) is mislukt. [Klik hier](${customerPortalLink}) om je factuur te betalen. Anders verlies je de toegang tot pro-functies. Neem bij vragen contact op met de support.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

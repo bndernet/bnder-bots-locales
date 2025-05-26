@@ -271,7 +271,7 @@ export class TSLocalizations_en {
             return `Congratulations! You have been placed in a pro seat in server [${guildName}](<https://discord.com/channels/${guildId}>). This means you now have access to [pro features](<https://bnder.net/pricing>). Enjoy!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `Payment for one or more pro seats on server [${guildName}](https://discord.com/channels/${guildId}) failed. Please [click here](${customerPortalLink}) to verify payment information and attempt payment again.`;
+            return `Payment for one or more pro seats on server [${guildName}](https://discord.com/channels/${guildId}) failed. Please [click here](${customerPortalLink}) to pay your invoice. Otherwise, you will lose access to pro features. If you have any questions, please contact support.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

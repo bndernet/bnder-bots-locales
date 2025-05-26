@@ -271,7 +271,7 @@ export class TSLocalizations_pl {
             return `Gratulacje! Zostałeś umieszczony na miejscu pro na serwerze [${guildName}](<https://discord.com/channels/${guildId}>). Oznacza to, że masz teraz dostęp do [funkcji pro](<https://bnder.net/pricing>). Miłego korzystania!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `Płatność za jedno lub więcej miejsc pro na serwerze [${guildName}](https://discord.com/channels/${guildId}) nie powiodła się. Proszę [kliknąć tutaj](${customerPortalLink}), aby zweryfikować informacje o płatności i spróbować ponownie.`;
+            return `Płatność za jedno lub więcej miejsc pro na serwerze [${guildName}](https://discord.com/channels/${guildId}) nie powiodła się. Proszę [kliknąć tutaj](${customerPortalLink}), aby zapłacić fakturę. W przeciwnym razie utracisz dostęp do funkcji pro. W razie pytań skontaktuj się z pomocą techniczną.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

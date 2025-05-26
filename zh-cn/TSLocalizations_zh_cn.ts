@@ -271,7 +271,7 @@ export class TSLocalizations_zh_cn {
             return `恭喜！您已在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中被安排到专业席位。这意味着您现在可以使用 [专业功能](<https://bnder.net/pricing>)。尽情享受吧！`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `服务器 [${guildName}](https://discord.com/channels/${guildId}) 上一个或多个高级席位的支付失败。请 [点击这里](${customerPortalLink}) 验证支付信息并重新尝试支付。`;
+            return `服务器 [${guildName}](https://discord.com/channels/${guildId}) 上的一个或多个专业席位付款失败。请[点击此处](${customerPortalLink}) 支付您的账单。否则，您将无法使用专业功能。如有任何疑问，请联系客服。`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
