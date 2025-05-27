@@ -389,7 +389,8 @@
     "not_added": "**{{name}}** etiketi nesnede değil. Eklemek için \"/label add\" kullanın.",
     "removed_from_task": "**{{name}} etiketi **{{id}} görevinden kaldırıldı.",
     "removed_from_document": "**{{name}} etiketi **{{id}} belgesinden kaldırılmıştır.",
-    "edited": "**{{old_name}}** etiketi düzenlendi."
+    "edited": "**{{old_name}}** etiketi düzenlendi.",
+    "list": "# Etiket ({{count}} etiket):\n{{labels}}\n\nYeni bir etiket oluşturmak için \"/label create\" komutunu kullanın."
   },
   "settings": {
     "logging_webhook": {

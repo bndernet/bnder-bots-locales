@@ -389,7 +389,8 @@
     "not_added": "Etykieta **{{name}}** nie znajduje się na obiekcie. Użyj „/label add”, aby ją dodać.",
     "removed_from_task": "Etykieta **{{name}}** została usunięta z zadania **{{id}}**.",
     "removed_from_document": "Etykieta **{{name}}** została usunięta z dokumentu **{{id}}**.",
-    "edited": "Etykieta **{{old_name}}** została edytowana."
+    "edited": "Etykieta **{{old_name}}** została edytowana.",
+    "list": "# Etykiety ({{count}} etykiet):\n{{labels}}\n\nUżyj polecenia \"/label create\", aby utworzyć nową etykietę."
   },
   "settings": {
     "logging_webhook": {

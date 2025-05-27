@@ -389,7 +389,8 @@
     "not_added": "标签 **{{name}}** 不在对象上。使用“/label add”添加。",
     "removed_from_task": "标签 **{{name}}** 已从任务 **{{id}}** 中移除。",
     "removed_from_document": "标签 **{{name}}** 已从文档 **{{id}}** 中移除。",
-    "edited": "标签 **{{old_name}}** 已被编辑。"
+    "edited": "标签 **{{old_name}}** 已被编辑。",
+    "list": "# 个标签 ({{count}} 个标签):\n{{labels}}\n\n使用命令 \"/label create\" 创建新标签。"
   },
   "settings": {
     "logging_webhook": {

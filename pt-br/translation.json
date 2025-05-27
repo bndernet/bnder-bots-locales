@@ -389,7 +389,8 @@
     "not_added": "O rótulo **{{name}}** não está no objeto. Use \"/label add\" para adicioná-lo.",
     "removed_from_task": "O rótulo **{{name}}** foi removido da tarefa **{{id}}**.",
     "removed_from_document": "O rótulo **{{name}}** foi removido do documento **{{id}}**.",
-    "edited": "O rótulo **{{old_name}}** foi editado."
+    "edited": "O rótulo **{{old_name}}** foi editado.",
+    "list": "# Rótulos ({{count}} rótulos):\n{{labels}}\n\nUse o comando \"/label create\" para criar um novo rótulo."
   },
   "settings": {
     "logging_webhook": {

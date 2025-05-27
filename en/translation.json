@@ -389,7 +389,8 @@
     "not_added": "The label **{{name}}** is not on the object. Use \"/label add\" to add it.",
     "removed_from_task": "The label **{{name}}** has been removed from the task **{{id}}**.",
     "removed_from_document": "The label **{{name}}** has been removed from the document **{{id}}**.",
-    "edited": "The label **{{old_name}}** has been edited."
+    "edited": "The label **{{old_name}}** has been edited.",
+    "list": "# Labels ({{count}} labels):\n{{labels}}\n\nUse the command \"/label create\" to create a new label."
   },
   "settings": {
     "logging_webhook": {

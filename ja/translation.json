@@ -389,7 +389,8 @@
     "not_added": "ラベル **{{name}}** はオブジェクト上にありません。追加するには、「/label add」を使用してください。",
     "removed_from_task": "ラベル **{{name}}** はタスク **{{id}}** から削除されました。",
     "removed_from_document": "ラベル **{{name}}** はドキュメント **{{id}}** から削除されました。",
-    "edited": "ラベル **{{old_name}}** が編集されました。"
+    "edited": "ラベル **{{old_name}}** が編集されました。",
+    "list": "# ラベル ({{count}} 個のラベル):\n{{labels}}\n\n新しいラベルを作成するには、コマンド \"/label create\" を使用します。"
   },
   "settings": {
     "logging_webhook": {
