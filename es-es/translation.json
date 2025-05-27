@@ -427,7 +427,7 @@
     "private_responses": {
       "enabled": "Las respuestas privadas están ahora habilitadas. Algunos mensajes no se mostrarán a todo el mundo, si no se especifica lo contrario mediante una opción de comando",
       "disabled": "Las respuestas privadas están ahora deshabilitadas. Todos los mensajes se mostrarán a todo el mundo.",
-      "already_enabled": "Las respuestas privadas ya están habilitadas. Algunos mensajes no se mostrarán a todos, a menos que se especifique lo contrario mediante una opción de comando."
+      "already_enabled": "Las respuestas privadas ya están habilitadas. Algunos mensajes no se mostrarán a todos, a menos que se especifique lo contrario mediante una opción de comando.",
       "already_disabled": "Las respuestas privadas ya están deshabilitadas. Todos los mensajes se mostrarán a todos."
     },
     "auto_priority": {
