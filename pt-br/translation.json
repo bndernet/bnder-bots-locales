@@ -439,8 +439,8 @@
     "user_languages": {
       "enabled": "Os usuários agora podem definir seu próprio idioma usando \"/preferences language\". Isso fará com que o site responda a eles em seu idioma configurado.",
       "disabled": "Os usuários não podem mais definir seu próprio idioma. O bot usará o idioma do servidor configurado. Você pode alterar o idioma em \"/settings language\".",
-      "already_enabled": "Os idiomas do usuário já estão habilitados. Você pode alterá-los em \"/preferences\idioma\"",
-      "alread_disabled": "Os idiomas do usuário já estão desabilitados. O bot usará o idioma configurado no servidor. Você pode alterá-lo em \"/settings\idioma\"."
+      "already_enabled": "Os idiomas do usuário já estão habilitados. Você pode alterá-los em \"/preferences language\"",
+      "alread_disabled": "Os idiomas do usuário já estão desabilitados. O bot usará o idioma configurado no servidor. Você pode alterá-lo em \"/settings language\"."
     },
     "default_assignee": {
       "success": "O responsável padrão para novas tarefas foi alterado."
