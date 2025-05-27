@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "Auto labeling ist jetzt aktiviert. Um ein neues Label zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels.",
-      "disabled": "Auto labeling ist jetzt deaktiviert."
+      "disabled": "Auto labeling ist jetzt deaktiviert.",
+      "already_enabled": "Die automatische Beschriftung ist bereits aktiviert. Um eine neue Beschriftung zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels.",
+      "already_disabled": "Die automatische Beschriftung ist bereits deaktiviert. Um eine neue Beschriftung zu erstellen, verwenden Sie den Befehl \"/label create\". Weitere Informationen zur automatischen Beschriftung finden Sie unter https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "Die Sprache wurde geändert",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Private Antworten sind jetzt aktiviert. Einige Nachrichten werden nicht für alle angezeigt, wenn nicht anders über eine Befehlsoption angegeben.",
-      "disabled": "Private Antworten sind jetzt deaktiviert. Alle Nachrichten werden für alle angezeigt."
+      "disabled": "Private Antworten sind jetzt deaktiviert. Alle Nachrichten werden für alle angezeigt.",
+      "already_enabled": "Private Antworten sind bereits aktiviert. Einige Nachrichten werden nicht allen angezeigt, sofern nicht anders über eine Befehlsoption angegeben.",
+      "already_disabled": "Private Antworten sind bereits deaktiviert. Alle Nachrichten werden allen angezeigt."
     },
     "auto_priority": {
       "enabled": "Automatische Priorität ist jetzt aktiviert. Aufgaben erhalten nun automatisch eine Priorität basierend auf ihrem Text.",
-      "disabled": "Die automatische Priorität ist jetzt deaktiviert."
+      "disabled": "Die automatische Priorität ist jetzt deaktiviert.",
+      "already_enabled": "Die automatische Priorität ist bereits aktiviert. Aufgaben erhalten nun automatisch eine Priorität basierend auf ihrem Text.",
+      "already_disabled": "Die automatische Priorität ist bereits deaktiviert. Aufgaben erhalten nicht automatisch eine Priorität basierend auf ihrem Text."
     },
     "user_languages": {
       "enabled": "Benutzer können jetzt ihre eigene Sprache über \"/preferences language\" einstellen. Dadurch wird ihnen in der eingestellten Sprache geantwortet.",
-      "disabled": "Benutzer können nicht mehr ihre eigene Sprache einstellen. Der Bot wird die konfigurierte Server-Sprache verwenden. Sie können die Sprache über \"/settings language\" ändern."
+      "disabled": "Benutzer können nicht mehr ihre eigene Sprache einstellen. Der Bot wird die konfigurierte Server-Sprache verwenden. Sie können die Sprache über \"/settings language\" ändern.",
+      "already_enabled": "Benutzersprachen sind bereits aktiviert. Sie können Ihre Sprache über \"/preferences language\" ändern.",
+      "already_disabled": "Benutzersprachen sind bereits deaktiviert. Der Bot verwendet die konfigurierte Serversprache. Sie können die Sprache über \"/settings language\" ändern."
     },
     "default_assignee": {
       "success": "Der Standard-Zuweiser für neue Aufgaben wurde geändert."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Benutzer können jetzt ihre eigene Zeitzone mit \"/preferences timezone\" einstellen. Dadurch wird der Bot in der eingestellten Zeitzone antworten.",
-      "disabled": "Benutzer können nicht mehr ihre eigene Zeitzone einstellen. Der Bot wird die konfigurierte Serverzeitzone verwenden. Sie können die Zeitzone über \"/settings timezone\" ändern."
+      "disabled": "Benutzer können nicht mehr ihre eigene Zeitzone einstellen. Der Bot wird die konfigurierte Serverzeitzone verwenden. Sie können die Zeitzone über \"/settings timezone\" ändern.",
+      "already_enabled": "Benutzerzeitzonen sind bereits aktiviert. Sie können Ihre Zeitzone über \"/preferences timezone\" ändern.",
+      "already_disabled": "Benutzerzeitzonen sind bereits deaktiviert. Der Bot verwendet die konfigurierte Serverzeitzone. Sie können die Zeitzone über \"/settings timezone\" ändern."
     },
     "private_messages": {
       "enabled": "Private Nachrichten sind jetzt aktiviert. Benutzer erhalten eine Benachrichtigung per Direktnachricht, wenn sie oder eine ihrer Rollen einer Aufgabe zugewiesen werden.",
-      "disabled": "Private Nachrichten sind jetzt deaktiviert."
+      "disabled": "Private Nachrichten sind deaktiviert. Nutzer erhalten keine Direktnachricht, wenn ihnen oder einer ihrer Rollen eine Aufgabe zugewiesen wird.",
+      "already_enabled": "Private Nachrichten sind bereits aktiviert. Nutzer erhalten eine Direktnachricht, wenn ihnen oder einer ihrer Rollen eine Aufgabe zugewiesen wird.",
+      "already_disabled": "Private Nachrichten sind deaktiviert. Nutzer erhalten keine Direktnachricht, wenn ihnen oder einer ihrer Rollen eine Aufgabe zugewiesen wird."
     },
     "loglevel": {
       "changed_but_no_webhook": "Der Loglevel wurde geändert, aber es ist keine Webhook-URL gesetzt. Bitte setzen Sie eine Webhook-Url, um Logmeldungen zu erhalten. Erfahren Sie mehr, indem Sie auf die Schaltfläche unten klicken.",

@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "L'étiquetage automatique est maintenant activé. Pour créer une nouvelle étiquette, utilisez la commande \"/label create\". Pour en savoir plus sur l'étiquetage automatique, consultez le site https://bnder.net/help/labels.",
-      "disabled": "L'étiquetage automatique est maintenant désactivé."
+      "disabled": "L'étiquetage automatique est maintenant désactivé.",
+      "already_enabled": "L'étiquetage automatique est déjà activé. Pour créer un nouveau libellé, utilisez la commande «/label create». Pour en savoir plus sur l'étiquetage automatique, consultez https://bnder.net/help/labels.",
+      "already_disabled": "L'étiquetage automatique est déjà désactivé. Pour créer un nouveau libellé, utilisez la commande «/label create». Pour en savoir plus sur l'étiquetage automatique, consultez https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "La langue a été modifiée",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Les réponses privées sont désormais activées. Certains messages ne seront pas montrés à tout le monde, si ce n'est pas spécifié autrement via une option de commande",
-      "disabled": "Les réponses privées sont désormais désactivées. Tous les messages seront affichés à tout le monde."
+      "disabled": "Les réponses privées sont désormais désactivées. Tous les messages seront affichés à tout le monde.",
+      "already_enabled": "Les réponses privées sont déjà activées. Certains messages ne seront pas visibles par tous, sauf indication contraire via une option de commande.",
+      "already_disabled": "Les réponses privées sont déjà désactivées. Tous les messages seront visibles par tous."
     },
     "auto_priority": {
       "enabled": "La priorité automatique est maintenant activée. Les tâches auront désormais automatiquement une priorité basée sur leur texte.",
-      "disabled": "La priorité automatique est maintenant désactivée."
+      "disabled": "La priorité automatique est maintenant désactivée.",
+      "already_enabled": "La priorité automatique est déjà activée. Les tâches recevront désormais automatiquement une priorité en fonction de leur texte.",
+      "already_disabled": "La priorité automatique est déjà désactivée. Les tâches ne recevront pas automatiquement une priorité en fonction de leur texte."
     },
     "user_languages": {
       "enabled": "Les utilisateurs peuvent désormais définir leur propre langue en utilisant \"/preferences language\". Cela permettra au site de leur répondre dans la langue qu'ils auront configurée",
-      "disabled": "Les utilisateurs ne peuvent plus définir leur propre langue. Le robot utilisera la langue configurée du serveur. Vous pouvez changer la langue via \"/settings language\"."
+      "disabled": "Les utilisateurs ne peuvent plus définir leur propre langue. Le robot utilisera la langue configurée du serveur. Vous pouvez changer la langue via \"/settings language\".",
+      "already_enabled": "Les langues utilisateur sont déjà activées. Vous pouvez modifier votre langue via «/preferences language».",
+      "already_disabled": "Les langues utilisateur sont déjà désactivées. Le bot utilisera la langue configurée du serveur. Vous pouvez modifier la langue via «/settings language»."
     },
     "default_assignee": {
       "success": "Le destinataire par défaut des nouvelles tâches a été modifié."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Les utilisateurs peuvent désormais définir leur propre fuseau horaire en utilisant \"/preferences timezone\". Le bot leur répondra alors dans le fuseau horaire qu'ils auront configuré",
-      "disabled": "Les utilisateurs ne peuvent plus définir leur propre fuseau horaire. Le bot utilisera le fuseau horaire configuré du serveur. Vous pouvez modifier le fuseau horaire via \"/settings timezone\"."
+      "disabled": "Les utilisateurs ne peuvent plus définir leur propre fuseau horaire. Le bot utilisera le fuseau horaire configuré du serveur. Vous pouvez modifier le fuseau horaire via \"/settings timezone\".",
+      "already_enabled": "Les fuseaux horaires utilisateur sont déjà activés. Vous pouvez modifier votre fuseau horaire via \"/preferences timezone\".",
+      "already_disabled": "Les fuseaux horaires utilisateur sont déjà désactivés. Le bot utilisera le fuseau horaire configuré du serveur. Vous pouvez modifier le fuseau horaire via \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "Les messages privés sont désormais activés. Les utilisateurs recevront une notification par message direct lorsqu'eux-mêmes ou l'un de leurs rôles seront affectés à une tâche.",
-      "disabled": "Les messages privés sont désormais désactivés."
+      "disabled": "Les messages privés sont désormais désactivés. Les utilisateurs ne recevront pas de notification par message direct lorsqu'une tâche leur est attribuée, ou qu'un de leurs rôles est affecté à une tâche.",
+      "already_enabled": "Les messages privés sont déjà activés. Les utilisateurs recevront une notification par message direct lorsqu'une tâche leur est attribuée, ou qu'un de leurs rôles est affecté à une tâche.",
+      "already_disabled": "Les messages privés sont déjà désactivés. Les utilisateurs ne recevront pas de notification par message direct lorsqu'une tâche leur est attribuée, ou qu'un de leurs rôles est affecté à une tâche."
     },
     "loglevel": {
       "changed_but_no_webhook": "Le niveau de journalisation a été modifié, mais aucune URL de webhook n'a été définie. Veuillez définir une url de webhook pour recevoir les messages du journal. Pour en savoir plus, cliquez sur le bouton ci-dessous",

@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "自动标签功能已启用。要创建新标签，请使用命令 \"/label create\"。要了解更多有关自动标签的信息，请访问 https://bnder.net/help/labels。",
-      "disabled": "自动标签功能已禁用。"
+      "disabled": "自动标签功能已禁用。",
+      "already_enabled": "自动标记功能已启用。要创建新标签，请使用命令“/label create”。要了解更多关于自动标记的信息，请访问 https://bnder.net/help/labels。",
+      "already_disabled": "自动标记功能已禁用。要创建新标签，请使用命令“/label create”。要了解更多关于自动标记的信息，请访问 https://bnder.net/help/labels。"
     },
     "language": {
       "language_changed": "语言已更改。",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "私人回应已启用。某些消息将不会显示给所有人，除非通过命令选项另行指定。",
-      "disabled": "私人回应已禁用。所有消息将显示给所有人。"
+      "disabled": "私人回应已禁用。所有消息将显示给所有人。",
+      "already_enabled": "私人回复已启用。如果未通过命令选项另行指定，某些消息将不会向所有人显示。",
+      "already_disabled": "私人回复已禁用。所有消息将向所有人显示。"
     },
     "auto_priority": {
       "enabled": "自动优先级已启用。任务将根据其文本自动获取优先级。",
-      "disabled": "自动优先级已禁用。"
+      "disabled": "自动优先级已禁用。",
+      "already_enabled": "自动优先级已启用。任务现在将根据其文本自动获得优先级。",
+      "already_disabled": "自动优先级已禁用。任务将不会根据其文本自动获得优先级。"
     },
     "user_languages": {
       "enabled": "用户现在可以通过 \"/preferences language\" 设置自己的语言。这将使机器人以他们配置的语言回复他们。",
-      "disabled": "用户不再能设置自己的语言。机器人将使用配置的服务器语言。您可以通过 \"/settings language\" 更改语言。"
+      "disabled": "用户不再能设置自己的语言。机器人将使用配置的服务器语言。您可以通过 \"/settings language\" 更改语言。",
+      "already_enabled": "用户语言已启用。您可以通过“/preferences language”更改语言。",
+      "already_disabled": "用户语言已禁用。机器人将使用已配置的服务器语言。您可以通过“/settings language”更改语言。"
     },
     "default_assignee": {
       "success": "新任务的默认负责人已更改。"
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "用户现在可以通过 \"/preferences timezone\" 设置自己的时区。这将使机器人以他们配置的时区回复他们。",
-      "disabled": "用户不再能设置自己的时区。机器人将使用配置的服务器时区。您可以通过 \"/settings timezone\" 更改时区。"
+      "disabled": "用户不再能设置自己的时区。机器人将使用配置的服务器时区。您可以通过 \"/settings timezone\" 更改时区。",
+      "already_enabled": "用户时区已启用。您可以通过“/preferences timezone”更改您的时区。",
+      "already_disabled": "用户时区已禁用。机器人将使用已配置的服务器时区。您可以通过“/settings timezone”更改时区。"
     },
     "private_messages": {
       "enabled": "私人消息已启用。用户在被分配任务时，或其角色被分配任务时，将通过直接消息接收到通知。",
-      "disabled": "私人消息已禁用。"
+      "disabled": "私人消息现已禁用。当用户或其角色之一被分配到任务时，将不会通过私信收到通知。",
+      "already_enabled": "私人消息已启用。当用户或其角色之一被分配到任务时，将通过私信收到通知。",
+      "already_disabled": "私人消息现已禁用。当用户或其角色之一被分配到任务时，将不会通过私信收到通知。"
     },
     "loglevel": {
       "changed_but_no_webhook": "日志级别已更改，但未设置 webhook URL。请设置 webhook URL 以接收日志消息。通过点击下面的按钮了解更多信息。",

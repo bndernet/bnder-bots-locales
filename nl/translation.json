@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "Automatisch labelen is nu ingeschakeld. Gebruik het commando \"/label create\" om een nieuw label aan te maken. Ga naar https://bnder.net/help/labels voor meer informatie over automatisch labelen.",
-      "disabled": "Automatisch labelen is nu uitgeschakeld."
+      "disabled": "Automatisch labelen is nu uitgeschakeld.",
+      "already_enabled": "Automatische labeling is al ingeschakeld. Gebruik de opdracht \"/label create\" om een nieuw label te maken. Ga naar https://bnder.net/help/labels voor meer informatie over automatische labeling.",
+      "already_disabled": "Automatische labeling is al uitgeschakeld. Gebruik de opdracht \"/label create\" om een nieuw label te maken. Ga naar https://bnder.net/help/labels voor meer informatie over automatische labeling."
     },
     "language": {
       "language_changed": "De taal is gewijzigd.",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Privéreacties zijn nu ingeschakeld. Sommige berichten worden niet aan iedereen getoond, tenzij anders gespecificeerd via een commando-optie.",
-      "disabled": "Privéreacties zijn nu uitgeschakeld. Alle berichten worden aan iedereen getoond."
+      "disabled": "Privéreacties zijn nu uitgeschakeld. Alle berichten worden aan iedereen getoond.",
+      "already_enabled": "Privéreacties zijn al ingeschakeld. Sommige berichten worden niet aan iedereen getoond, tenzij anders aangegeven via een opdrachtoptie.",
+      "already_disabled": "Privéreacties zijn al uitgeschakeld. Alle berichten worden aan iedereen getoond."
     },
     "auto_priority": {
       "enabled": "Automatische prioriteit is nu ingeschakeld. Taken krijgen nu automatisch een prioriteit op basis van hun tekst.",
-      "disabled": "Automatische prioriteit is nu uitgeschakeld."
+      "disabled": "Automatische prioriteit is nu uitgeschakeld.",
+      "already_enabled": "Automatische prioriteit is al ingeschakeld. Taken krijgen nu automatisch prioriteit op basis van hun tekst.",
+      "already_disabled": "Automatische prioriteit is al uitgeschakeld. Taken krijgen niet automatisch prioriteit op basis van hun tekst."
     },
     "user_languages": {
       "enabled": "Gebruikers kunnen nu hun eigen taal instellen via \"/preferences language\". De bot zal dan in hun geconfigureerde taal reageren.",
-      "disabled": "Gebruikers kunnen hun eigen taal niet langer instellen. De bot gebruikt de geconfigureerde servertaal. Je kunt de taal wijzigen via \"/settings language\"."
+      "disabled": "Gebruikers kunnen hun eigen taal niet langer instellen. De bot gebruikt de geconfigureerde servertaal. Je kunt de taal wijzigen via \"/settings language\".",
+      "already_enabled": "Gebruikerstalen zijn al ingeschakeld. U kunt uw taal wijzigen via \"/preferences language\".",
+      "already_disabled": "Gebruikerstalen zijn al uitgeschakeld. De bot gebruikt de geconfigureerde servertaal. U kunt de taal wijzigen via \"/settings language\"."
     },
     "default_assignee": {
       "success": "De standaard toegewezen persoon voor nieuwe taken is gewijzigd."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Gebruikers kunnen nu hun eigen tijdzone instellen via \"/preferences timezone\". De bot zal dan in hun geconfigureerde tijdzone reageren.",
-      "disabled": "Gebruikers kunnen hun eigen tijdzone niet langer instellen. De bot gebruikt de geconfigureerde server-tijdzone. Je kunt de tijdzone wijzigen via \"/settings timezone\"."
+      "disabled": "Gebruikers kunnen hun eigen tijdzone niet langer instellen. De bot gebruikt de geconfigureerde server-tijdzone. Je kunt de tijdzone wijzigen via \"/settings timezone\".",
+      "already_enabled": "De tijdzones van de gebruiker zijn al ingeschakeld. U kunt uw tijdzone wijzigen via \"/preferences timezone\".",
+      "already_disabled": "De tijdzones van de gebruiker zijn al uitgeschakeld. De bot gebruikt de geconfigureerde servertijdzone. U kunt de tijdzone wijzigen via \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "Privéberichten zijn nu ingeschakeld. Gebruikers ontvangen een melding via een direct bericht wanneer zij of een van hun rollen aan een taak worden toegewezen.",
-      "disabled": "Privéberichten zijn nu uitgeschakeld."
+      "disabled": "Privéberichten zijn nu uitgeschakeld. Gebruikers ontvangen geen melding via een direct bericht wanneer zij of een van hun rollen aan een taak is toegewezen.",
+      "already_enabled": "Privéberichten zijn al ingeschakeld. Gebruikers ontvangen een melding via een direct bericht wanneer zij of een van hun rollen aan een taak is toegewezen.",
+      "already_disabled": "Privéberichten zijn al uitgeschakeld. Gebruikers ontvangen geen melding via een direct bericht wanneer zij of een van hun rollen aan een taak is toegewezen."
     },
     "loglevel": {
       "changed_but_no_webhook": "Het logniveau is gewijzigd, maar er is geen webhook-URL ingesteld. Stel een webhook-URL in om logberichten te ontvangen. Meer informatie vind je via de onderstaande knop.",

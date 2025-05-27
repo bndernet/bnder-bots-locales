@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "El etiquetado automático ya está habilitado. Para crear una nueva etiqueta, utilice el comando \"/label create\". Para obtener más información sobre el etiquetado automático, visite https://bnder.net/help/labels.",
-      "disabled": "El etiquetado automático está ahora deshabilitado."
+      "disabled": "El etiquetado automático está ahora deshabilitado.",
+      "already_enabled": "El etiquetado automático ya está habilitado. Para crear una nueva etiqueta, use el comando \"/label create\". Para obtener más información sobre el etiquetado automático, visite https://bnder.net/help/labels.",
+      "already_disabled": "El etiquetado automático ya está deshabilitado. Para crear una nueva etiqueta, use el comando \"/label create\". Para obtener más información sobre el etiquetado automático, visite https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "Se ha modificado la redacción",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Las respuestas privadas están ahora habilitadas. Algunos mensajes no se mostrarán a todo el mundo, si no se especifica lo contrario mediante una opción de comando",
-      "disabled": "Las respuestas privadas están ahora deshabilitadas. Todos los mensajes se mostrarán a todo el mundo."
+      "disabled": "Las respuestas privadas están ahora deshabilitadas. Todos los mensajes se mostrarán a todo el mundo.",
+      "already_enabled": "Las respuestas privadas ya están habilitadas. Algunos mensajes no se mostrarán a todos, a menos que se especifique lo contrario mediante una opción de comando."
+      "already_disabled": "Las respuestas privadas ya están deshabilitadas. Todos los mensajes se mostrarán a todos."
     },
     "auto_priority": {
       "enabled": "La prioridad automática está ahora habilitada. Las tareas ahora obtendrán automáticamente una prioridad basada en su texto",
-      "disabled": "La prioridad automática está ahora deshabilitada."
+      "disabled": "La prioridad automática está ahora deshabilitada.",
+      "already_enabled": "La prioridad automática ya está habilitada. Las tareas ahora tendrán prioridad automáticamente según su texto.",
+      "already_disabled": "La prioridad automática ya está deshabilitada. Las tareas no tendrán prioridad automática según su texto."
     },
     "user_languages": {
       "enabled": "Ahora los usuarios pueden configurar su propio idioma mediante \"/preferences language\". Esto hará que se les responda en su idioma configurado",
-      "disabled": "Los usuarios ya no pueden configurar su propio idioma. El bot utilizará el idioma configurado del servidor. Puedes cambiar el idioma a través de \"/settings language\"."
+      "disabled": "Los usuarios ya no pueden configurar su propio idioma. El bot utilizará el idioma configurado del servidor. Puedes cambiar el idioma a través de \"/settings language\".",
+      "already_enabled": "Los idiomas de usuario ya están habilitados. Puedes cambiar tu idioma en \"/preferences language\".",
+      "already_disabled": "Los idiomas de usuario ya están deshabilitados. El bot usará el idioma del servidor configurado. Puedes cambiarlo en \"/settings language\"."
     },
     "default_assignee": {
       "success": "Se ha cambiado el asignatario predeterminado para las nuevas tareas."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Ahora los usuarios pueden configurar su propia zona horaria usando \"/preferences timezone\". Esto hará que el bot les responda en su zona horaria configurada",
-      "disabled": "Los usuarios ya no pueden configurar su propia zona horaria. El bot utilizará la zona horaria configurada del servidor. Puedes cambiar la zona horaria a través de \"/settings timezone\"."
+      "disabled": "Los usuarios ya no pueden configurar su propia zona horaria. El bot utilizará la zona horaria configurada del servidor. Puedes cambiar la zona horaria a través de \"/settings timezone\".",
+      "already_enabled": "Las zonas horarias del usuario ya están habilitadas. Puedes cambiar tu zona horaria en \"/preferences timezone\".",
+      "already_disabled": "Las zonas horarias del usuario ya están deshabilitadas. El bot usará la zona horaria del servidor configurada. Puedes cambiar la zona horaria en \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "Los mensajes privados están ahora habilitados. Los usuarios recibirán una notificación por mensaje directo cuando ellos o uno de sus roles sea asignado a una tarea.",
-      "disabled": "Los mensajes privados están ahora deshabilitados."
+      "disabled": "Los mensajes privados están deshabilitados. Los usuarios no recibirán notificaciones por mensaje directo cuando ellos o uno de sus roles estén asignados a una tarea.",
+      "already_enabled": "Los mensajes privados ya están habilitados. Los usuarios recibirán notificaciones por mensaje directo cuando ellos o uno de sus roles estén asignados a una tarea.",
+      "already_disabled": "Los mensajes privados están deshabilitados. Los usuarios no recibirán notificaciones por mensaje directo cuando ellos o uno de sus roles estén asignados a una tarea."
     },
     "loglevel": {
       "changed_but_no_webhook": "Se ha cambiado el nivel de registro, pero no se ha establecido ninguna url de webhook. Por favor, establece una url webhook para recibir mensajes de registro. Obtén más información pulsando el botón de abajo",

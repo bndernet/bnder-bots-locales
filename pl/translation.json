@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "Automatyczne etykietowanie jest teraz włączone. Aby utworzyć nową etykietę, użyj polecenia \"/label create\". Aby dowiedzieć się więcej o automatycznym etykietowaniu, odwiedź https://bnder.net/help/labels.",
-      "disabled": "Automatyczne etykietowanie jest teraz wyłączone."
+      "disabled": "Automatyczne etykietowanie jest teraz wyłączone.",
+      "already_enabled": "Automatyczne etykietowanie jest już włączone. Aby utworzyć nową etykietę, użyj polecenia \"/label create\". Aby dowiedzieć się więcej o automatycznym etykietowaniu, odwiedź https://bnder.net/help/labels.",
+      "already_disabled": "Automatyczne etykietowanie jest już wyłączone. Aby utworzyć nową etykietę, użyj polecenia \"/label create\". Aby dowiedzieć się więcej o automatycznym etykietowaniu, odwiedź https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "Język został zmieniony.",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Prywatne odpowiedzi są teraz włączone. Niektóre wiadomości nie będą wyświetlane wszystkim, jeśli nie określono inaczej za pomocą opcji polecenia.",
-      "disabled": "Prywatne odpowiedzi są teraz wyłączone. Wszystkie wiadomości będą wyświetlane wszystkim."
+      "disabled": "Prywatne odpowiedzi są teraz wyłączone. Wszystkie wiadomości będą wyświetlane wszystkim.",
+      "already_enabled": "Prywatne odpowiedzi są już włączone. Niektóre wiadomości nie będą wyświetlane wszystkim, jeśli nie określono inaczej za pomocą opcji polecenia.",
+      "already_disabled": "Prywatne odpowiedzi są już wyłączone. Wszystkie wiadomości będą wyświetlane wszystkim."
     },
     "auto_priority": {
       "enabled": "Automatyczny priorytet jest teraz włączony. Zadania będą teraz automatycznie otrzymywać priorytet na podstawie ich tekstu.",
-      "disabled": "Automatyczny priorytet jest teraz wyłączony."
+      "disabled": "Automatyczny priorytet jest teraz wyłączony.",
+      "already_enabled": "Automatyczne priorytety są już włączone. Zadania będą teraz automatycznie otrzymywać priorytet na podstawie ich tekstu.",
+      "already_disabled": "Automatyczne priorytety są już wyłączone. Zadania nie będą automatycznie otrzymywać priorytetu na podstawie ich tekstu."
     },
     "user_languages": {
       "enabled": "Użytkownicy mogą teraz ustawić własny język za pomocą \"/preferences language\". Spowoduje to, że odpowiedzi będą udzielane w ich skonfigurowanym języku.",
-      "disabled": "Użytkownicy nie mogą już ustawiać własnego języka. Bot będzie używał skonfigurowanego języka serwera. Możesz zmienić język za pomocą \"/settings language\"."
+      "disabled": "Użytkownicy nie mogą już ustawiać własnego języka. Bot będzie używał skonfigurowanego języka serwera. Możesz zmienić język za pomocą \"/settings language\".",
+      "already_enabled": "Języki użytkownika są już włączone. Możesz zmienić swój język za pomocą \"/preferences language\".",
+      "already_disabled": "Języki użytkownika są już wyłączone. Bot będzie używał skonfigurowanego języka serwera. Możesz zmienić język za pomocą \"/settings language\"."
     },
     "default_assignee": {
       "success": "Domyślna osoba przypisana do nowych zadań została zmieniona."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Użytkownicy mogą teraz ustawić własną strefę czasową za pomocą \"/preferences timezone\". Spowoduje to, że bot będzie im odpowiadał w ich skonfigurowanej strefie czasowej.",
-      "disabled": "Użytkownicy nie mogą już ustawiać własnej strefy czasowej. Bot będzie używał skonfigurowanej strefy czasowej serwera. Możesz zmienić strefę czasową za pomocą \"/settings timezone\"."
+      "disabled": "Użytkownicy nie mogą już ustawiać własnej strefy czasowej. Bot będzie używał skonfigurowanej strefy czasowej serwera. Możesz zmienić strefę czasową za pomocą \"/settings timezone\".",
+      "already_enabled": "Strefy czasowe użytkowników są już włączone. Możesz zmienić swoją strefę czasową za pomocą \"/preferences timezone\".",
+      "already_disabled": "Strefy czasowe użytkowników są już wyłączone. Bot użyje skonfigurowanej strefy czasowej serwera. Możesz zmienić strefę czasową za pomocą \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "Prywatne wiadomości są teraz włączone. Użytkownicy otrzymają powiadomienie przez wiadomość bezpośrednią, gdy oni lub jedna z ich ról zostanie przypisana do zadania.",
-      "disabled": "Prywatne wiadomości są teraz wyłączone."
+      "disabled": "Prywatne wiadomości są teraz wyłączone. Użytkownicy nie otrzymają powiadomienia za pośrednictwem wiadomości bezpośredniej, gdy oni lub jedna z ich ról zostanie przypisana do zadania.",
+      "already_enabled": "Prywatne wiadomości są już włączone. Użytkownicy otrzymają powiadomienie za pośrednictwem wiadomości bezpośredniej, gdy oni lub jedna z ich ról zostanie przypisana do zadania.",
+      "already_disabled": "Prywatne wiadomości są już wyłączone. Użytkownicy nie otrzymają powiadomienia za pośrednictwem wiadomości bezpośredniej, gdy oni lub jedna z ich ról zostanie przypisana do zadania."
     },
     "loglevel": {
       "changed_but_no_webhook": "Poziom logowania został zmieniony, ale nie ustawiono adresu URL webhooka. Ustaw adres URL webhooka, aby otrzymywać wiadomości z logów. Dowiedz się więcej, naciskając przycisk poniżej.",

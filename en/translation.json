@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "Auto labeling is now enabled. To create a new label, use the command \"/label create\". To learn more about auto labeling, visit https://bnder.net/help/labels.",
-      "disabled": "Auto labeling is now disabled."
+      "disabled": "Auto labeling is now disabled.",
+      "already_enabled": "Auto labeling is already enabled. To create a new label, use the command \"/label create\". To learn more about auto labeling, visit https://bnder.net/help/labels.",
+      "already_disabled": "Auto labeling is already disabled. To create a new label, use the command \"/label create\". To learn more about auto labeling, visit https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "The language has been changed.",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Private responses are now enabled. Some messages will not be shown to everyone, if not otherwise specified via a command option.",
-      "disabled": "Private responses are now disabled. All messages will be shown to everyone."
+      "disabled": "Private responses are now disabled. All messages will be shown to everyone.",
+      "already_enabled": "Private responses are already enabled. Some messages will not be shown to everyone, if not otherwise specified via a command option.",
+      "already_disabled": "Private responses are already disabled. All messages will be shown to everyone."
     },
     "auto_priority": {
       "enabled": "Auto priority is now enabled. Tasks will now automatically get a priority based on their text.",
-      "disabled": "Auto priority is now disabled."
+      "disabled": "Auto priority is now disabled.",
+      "already_enabled": "Auto priority is already enabled. Tasks will now automatically get a priority based on their text.",
+      "already_disabled": "Auto priority is already disabled. Tasks will not automatically get a priority based on their text."
     },
     "user_languages": {
       "enabled": "Users can now set their own language using \"/preferences language\". This will make the respond to them in their configured language.",
-      "disabled": "Users can no longer set their own language. The bot will use the configured server language. You can change the language via \"/settings language\"."
+      "disabled": "Users can no longer set their own language. The bot will use the configured server language. You can change the language via \"/settings language\".",
+      "already_enabled": "User languages are already enabled. You can change your language via \"/preferences language\".",
+      "already_disabled": "User languages are already disabled. The bot will use the configured server language. You can change the language via \"/settings language\"."
     },
     "default_assignee": {
       "success": "The default assignee for new tasks has been changed."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Users can now set their own timezone using \"/preferences timezone\". This will make the bot respond to them in their configured timezone.",
-      "disabled": "Users can no longer set their own timezone. The bot will use the configured server timezone. You can change the timezone via \"/settings timezone\"."
+      "disabled": "Users can no longer set their own timezone. The bot will use the configured server timezone. You can change the timezone via \"/settings timezone\".",
+      "already_enabled": "User timezones are already enabled. You can change your timezone via \"/preferences timezone\".",
+      "already_disabled": "User timezones are already disabled. The bot will use the configured server timezone. You can change the timezone via \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "Private messages are now enabled. Users will receive a notification via direct message when they or one of their role is assigned to a task.",
-      "disabled": "Private messages are now disabled."
+      "disabled": "Private messages are now disabled. Users will not receive a notification via direct message when they or one of their role is assigned to a task.",
+      "already_enabled": "Private messages are already enabled. Users will receive a notification via direct message when they or one of their role is assigned to a task.",
+      "already_disabled": "Private messages are already disabled. Users will not receive a notification via direct message when they or one of their role is assigned to a task."
     },
     "loglevel": {
       "changed_but_no_webhook": "The log level has been changed, but no webhook url is set. Please set a webhook url to receive log messages. Learn more by pressing the button below.",

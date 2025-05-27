@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "L'etichettatura automatica è ora abilitata. Per creare una nuova etichetta, usa il comando \"/label create\". Per saperne di più sull'etichettatura automatica, visita https://bnder.net/help/labels.",
-      "disabled": "L'etichettatura automatica è ora disabilitata."
+      "disabled": "L'etichettatura automatica è ora disabilitata.",
+      "already_enabled": "L'etichettatura automatica è già abilitata. Per creare una nuova etichetta, utilizzare il comando \"/label create\". Per ulteriori informazioni sull'etichettatura automatica, visitare https://bnder.net/help/labels.",
+      "already_disabled": "L'etichettatura automatica è già disabilitata. Per creare una nuova etichetta, utilizzare il comando \"/label create\". Per ulteriori informazioni sull'etichettatura automatica, visitare https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "La lingua è stata cambiata.",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Le risposte private sono ora abilitate. Alcuni messaggi non saranno visibili a tutti, salvo diversamente specificato tramite un'opzione del comando.",
-      "disabled": "Le risposte private sono ora disabilitate. Tutti i messaggi saranno visibili a tutti."
+      "disabled": "Le risposte private sono ora disabilitate. Tutti i messaggi saranno visibili a tutti.",
+      "already_enabled": "Le risposte private sono già abilitate. Alcuni messaggi non verranno mostrati a tutti, se non diversamente specificato tramite un'opzione di comando.",
+      "already_disabled": "Le risposte private sono già disabilitate. Tutti i messaggi verranno mostrati a tutti."
     },
     "auto_priority": {
       "enabled": "La priorità automatica è ora abilitata. Le attività avranno automaticamente una priorità basata sul loro testo.",
-      "disabled": "La priorità automatica è ora disabilitata."
+      "disabled": "La priorità automatica è ora disabilitata.",
+      "already_enabled": "La priorità automatica è già abilitata. Le attività riceveranno automaticamente una priorità in base al testo.",
+      "already_disabled": "La priorità automatica è già disabilitata. Le attività non riceveranno automaticamente una priorità in base al testo."
     },
     "user_languages": {
       "enabled": "Gli utenti possono ora impostare la propria lingua usando \"/preferences language\". Questo permetterà al bot di rispondere nella lingua configurata.",
-      "disabled": "Gli utenti non possono più impostare la propria lingua. Il bot utilizzerà la lingua configurata per il server. Puoi cambiare la lingua tramite \"/settings language\"."
+      "disabled": "Gli utenti non possono più impostare la propria lingua. Il bot utilizzerà la lingua configurata per il server. Puoi cambiare la lingua tramite \"/settings language\".",
+      "already_enabled": "Le lingue utente sono già abilitate. Puoi cambiare la lingua tramite \"/preferences language\".",
+      "already_disabled": "Le lingue utente sono già disabilitate. Il bot utilizzerà la lingua del server configurata. Puoi cambiare la lingua tramite \"/settings language\"."
     },
     "default_assignee": {
       "success": "L'assegnatario predefinito per le nuove attività è stato modificato."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Gli utenti possono ora impostare il proprio fuso orario usando \"/preferences timezone\". Questo permetterà al bot di rispondere nel fuso orario configurato.",
-      "disabled": "Gli utenti non possono più impostare il proprio fuso orario. Il bot utilizzerà il fuso orario configurato per il server. Puoi cambiare il fuso orario tramite \"/settings timezone\"."
+      "disabled": "Gli utenti non possono più impostare il proprio fuso orario. Il bot utilizzerà il fuso orario configurato per il server. Puoi cambiare il fuso orario tramite \"/settings timezone\".",
+      "already_enabled": "I fusi orari utente sono già abilitati. Puoi cambiare il fuso orario tramite \"/preferences timezone\".",
+      "already_disabled": "I fusi orari utente sono già disabilitati. Il bot utilizzerà il fuso orario del server configurato. Puoi cambiare il fuso orario tramite \"/settings timezone\"."
     },
     "private_messages": {
       "enabled": "I messaggi privati sono ora abilitati. Gli utenti riceveranno una notifica tramite messaggio diretto quando loro o un loro ruolo vengono assegnati a un'attività.",
-      "disabled": "I messaggi privati sono ora disabilitati."
+      "disabled": "I messaggi privati sono ora disabilitati. Gli utenti non riceveranno una notifica tramite messaggio diretto quando a loro o a uno dei loro ruoli viene assegnato un'attività.",
+      "already_enabled": "I messaggi privati sono già abilitati. Gli utenti riceveranno una notifica tramite messaggio diretto quando a loro o a uno dei loro ruoli viene assegnato un'attività.",
+      "already_disabled": "I messaggi privati sono già disabilitati. Gli utenti non riceveranno una notifica tramite messaggio diretto quando a loro o a uno dei loro ruoli viene assegnato un'attività."
     },
     "loglevel": {
       "changed_but_no_webhook": "Il livello di log è stato modificato, ma non è impostato alcun URL webhook. Imposta un URL webhook per ricevere i messaggi di log. Scopri di più premendo il pulsante qui sotto.",

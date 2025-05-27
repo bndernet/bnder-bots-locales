@@ -408,7 +408,9 @@
     },
     "auto_labeling": {
       "enabled": "Otomatik etiketleme artık etkin. Yeni bir etiket oluşturmak için \"/label create\" komutunu kullanın. Otomatik etiketleme hakkında daha fazla bilgi edinmek için https://bnder.net/help/labels adresini ziyaret edin.",
-      "disabled": "Otomatik etiketleme artık devre dışı."
+      "disabled": "Otomatik etiketleme artık devre dışı.",
+      "already_enabled": "Otomatik etiketleme zaten etkin. Yeni bir etiket oluşturmak için \"/label create\" komutunu kullanın. Otomatik etiketleme hakkında daha fazla bilgi edinmek için https://bnder.net/help/labels adresini ziyaret edin.",
+      "already_disabled": "Otomatik etiketleme zaten devre dışı. Yeni bir etiket oluşturmak için \"/label create\" komutunu kullanın. Otomatik etiketleme hakkında daha fazla bilgi edinmek için https://bnder.net/help/labels adresini ziyaret edin."
     },
     "language": {
       "language_changed": "Dil değiştirildi",
@@ -424,15 +426,21 @@
     },
     "private_responses": {
       "enabled": "Özel yanıtlar artık etkin. Aksi bir komut seçeneği ile belirtilmediği takdirde bazı mesajlar herkese gösterilmeyecektir.",
-      "disabled": "Özel yanıtlar artık devre dışı. Tüm mesajlar herkese gösterilecektir."
+      "disabled": "Özel yanıtlar artık devre dışı. Tüm mesajlar herkese gösterilecektir.",
+      "already_enabled": "Özel yanıtlar zaten etkinleştirildi. Aksi bir komut seçeneğiyle belirtilmediği takdirde bazı mesajlar herkese gösterilmeyecek.",
+      "already_disabled": "Özel yanıtlar zaten devre dışı bırakıldı. Tüm mesajlar herkese gösterilecek."
     },
     "auto_priority": {
       "enabled": "Otomatik öncelik şimdi etkinleştirildi. Görevler artık metinlerine göre otomatik olarak bir öncelik alacak.",
-      "disabled": "Otomatik öncelik artık devre dışı."
+      "disabled": "Otomatik öncelik artık devre dışı.",
+      "already_enabled": "Otomatik öncelik zaten etkin. Görevler artık metinlerine göre otomatik olarak bir öncelik alacak.",
+      "already_disabled": "Otomatik öncelik zaten devre dışı. Görevler metinlerine göre otomatik olarak bir öncelik almayacak."
     },
     "user_languages": {
       "enabled": "Kullanıcılar artık \"/preferences language\" kullanarak kendi dillerini ayarlayabilirler. Bu, onlara yapılandırdıkları dilde yanıt verilmesini sağlayacaktır.",
-      "disabled": "Kullanıcılar artık kendi dillerini ayarlayamazlar. Bot yapılandırılmış sunucu dilini kullanacaktır. Dili \"/settings language\" aracılığıyla değiştirebilirsiniz."
+      "disabled": "Kullanıcılar artık kendi dillerini ayarlayamazlar. Bot yapılandırılmış sunucu dilini kullanacaktır. Dili \"/settings language\" aracılığıyla değiştirebilirsiniz.",
+      "already_enabled": "Kullanıcı dilleri zaten etkinleştirildi. Dilinizi \"/preferences language\" üzerinden değiştirebilirsiniz.",
+      "already_disabled": "Kullanıcı dilleri zaten devre dışı bırakıldı. Bot, yapılandırılmış sunucu dilini kullanacak. Dili \"/settings language\" üzerinden değiştirebilirsiniz."
     },
     "default_assignee": {
       "success": "Yeni görevler için varsayılan atanan kişi değiştirildi."
@@ -442,11 +450,15 @@
     },
     "user_timezones": {
       "enabled": "Kullanıcılar artık \"/preferences timezone\" kullanarak kendi saat dilimlerini ayarlayabilirler. Bu, botun onlara yapılandırılmış zaman diliminde yanıt vermesini sağlayacaktır.",
-      "disabled": "Kullanıcılar artık kendi saat dilimlerini ayarlayamazlar. Bot, yapılandırılmış sunucu saat dilimini kullanacaktır. Saat dilimini \"/settings timezone\" aracılığıyla değiştirebilirsiniz."
+      "disabled": "Kullanıcılar artık kendi saat dilimlerini ayarlayamazlar. Bot, yapılandırılmış sunucu saat dilimini kullanacaktır. Saat dilimini \"/settings timezone\" aracılığıyla değiştirebilirsiniz.",
+      "already_enabled": "Kullanıcı saat dilimleri zaten etkin. Saat diliminizi \"/preferences timezone\" üzerinden değiştirebilirsiniz.",
+      "already_disabled": "Kullanıcı saat dilimleri zaten devre dışı. Bot yapılandırılmış sunucu saat dilimini kullanacak. Saat dilimini \"/settings timezone\" üzerinden değiştirebilirsiniz."
     },
     "private_messages": {
       "enabled": "Özel mesajlar artık etkin. Kullanıcılar, kendileri veya rollerinden biri bir göreve atandığında doğrudan mesaj yoluyla bir bildirim alacaklar.",
-      "disabled": "Özel mesajlar artık devre dışı."
+      "disabled": "Özel mesajlar artık devre dışı. Kullanıcılar, kendileri veya rollerinden biri bir göreve atandığında doğrudan mesaj yoluyla bildirim almayacak.",
+      "already_enabled": "Özel mesajlar zaten etkin. Kullanıcılar, kendileri veya rollerinden biri bir göreve atandığında doğrudan mesaj yoluyla bildirim almayacak.",
+      "already_disabled": "Özel mesajlar zaten devre dışı. Kullanıcılar, kendileri veya rollerinden biri bir göreve atandığında doğrudan mesaj yoluyla bildirim almayacak."
     },
     "loglevel": {
       "changed_but_no_webhook": "Günlük düzeyi değiştirildi, ancak webhook url'si ayarlanmadı. Günlük mesajlarını almak için lütfen bir webhook url'si ayarlayın. Aşağıdaki düğmeye basarak daha fazla bilgi edinin.",
