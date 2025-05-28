@@ -379,7 +379,7 @@
     "already_exists": "Ya existe una etiqueta con el nombre **{{name}}**",
     "color_not_supported": "El color **{{color}}** no es compatible. Utilice uno de los siguientes: {{colors}}",
     "created": "Se ha creado la etiqueta **{{name}}**. Ahora puede agregarla a [tareas](<https://bnder.net/task>) y [documentos](<https://bnder.net/knowledge>) con el comando \"/label add\".",
-    "not_found": "No se ha encontrado la etiqueta **{{name}}. Utilice \"/label list\" para listar todas las etiquetas o cree una nueva con \"/label create\".",
+    "not_found": "No se ha encontrado la etiqueta **{{name}}**. Utilice \"/label list\" para listar todas las etiquetas o cree una nueva con \"/label create\".",
     "too_many_labels": "El objeto ya tiene la cantidad máxima de etiquetas ({{max}}). Para agregar otra etiqueta, [actualice a una cuenta Pro](<https://bnder.net/p/{{guildId}}>). Obtenga más información sobre las cuentas Pro en https://bnder.net/pricing.",
     "already_added": "La etiqueta **{{name}}** ya está añadida al objeto",
     "added_to_task": "La etiqueta **{{name}}** se ha añadido a la tarea **{{id}}**",
