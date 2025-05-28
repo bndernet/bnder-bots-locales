@@ -389,7 +389,7 @@
     "not_added": "La etiqueta **{{name}}** no está en el objeto. Usa \"/label add\" para agregarla.",
     "removed_from_task": "La etiqueta **{{name}}** se ha eliminado de la tarea **{{id}}**",
     "removed_from_document": "La etiqueta **{{name}}** ha sido eliminada del documento **{{id}}**.",
-    "edited": "La etiqueta **{{old_name}} ha sido editada.",
+    "edited": "La etiqueta **{{old_name}}** ha sido editada.",
     "list": "# Etiquetas ({{count}} etiquetas):\n{{labels}}\n\nUse el comando \"/label create\" para crear una nueva etiqueta."
   },
   "settings": {

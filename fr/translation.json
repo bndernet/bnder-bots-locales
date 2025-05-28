@@ -262,7 +262,7 @@
     "milestone_removed": "Le jalon a été supprimé de la tâche **{{id}}**.",
     "milestone_updated": "Le jalon de la tâche **{{id}}** a été défini sur **{{milestone}}**.",
     "deadline_not_set": "Aucune date limite n'est définie pour la tâche **{{id}}**. Utilisez \"/task deadline\" pour définir une date limite en la fournissant dans la commande.",
-    "dependencies_not_completed": "Êtes-vous sûr de vouloir modifier l'état de la tâche **{{id}}? Une (tâche {{dependencyId}}) ou plusieurs dépendances ne sont pas encore terminées.",
+    "dependencies_not_completed": "Êtes-vous sûr de vouloir modifier l'état de la tâche **{{id}}**? Une (tâche {{dependencyId}}) ou plusieurs dépendances ne sont pas encore terminées.",
     "force_in_progress": "Définir comme en cours",
     "force_done": "Définir comme terminé",
     "dependencies_not_allowed": "Les dépendances sont réservées aux utilisateurs disposant d'un compte pro. Pour utiliser cette fonctionnalité, veuillez passer à un compte pro. Pour en savoir plus sur les comptes pro, rendez-vous sur https://bnder.net/pricing.",
