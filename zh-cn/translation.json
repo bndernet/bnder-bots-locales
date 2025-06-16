@@ -417,7 +417,7 @@
       "language_not_found": "语言 {{languageTag}} 不可用。"
     },
     "timezone": {
-      "timezone_not_found": "未找到时区 **{{timezone}}**。请使用有效的时区名称，您可以从 https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json 获取时区列表。",
+      "timezone_not_found": "未找到时区 **{{timezone}}**。请使用有效的时区名称，您可以从 https://bnder.net/help/timezones 获取时区列表。",
       "timezone_set": "时区已设置为 **{{timezone}}**。当前 **{{timezone}}** 的日期和时间为 **{{date}}**。"
     },
     "dateformat": {

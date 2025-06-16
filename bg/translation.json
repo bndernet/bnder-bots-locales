@@ -417,7 +417,7 @@
       "language_not_found": "Езикът {{languageTag}} не е наличен."
     },
     "timezone": {
-      "timezone_not_found": "Часовата зона **{{timezone}}** не може да бъде намерена. Моля, използвайте валидно име на часова зона от списъка на адрес https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
+      "timezone_not_found": "Часовата зона **{{timezone}}** не може да бъде намерена. Моля, използвайте валидно име на часова зона от списъка на адрес https://bnder.net/help/timezones.",
       "timezone_set": "Часовата зона е зададена на **{{timezone}}**. Текущата дата и час в **{{timezone}}** са **{{date}}**."
     },
     "dateformat": {

@@ -417,7 +417,7 @@
       "language_not_found": "De taal {{languageTag}} is niet beschikbaar."
     },
     "timezone": {
-      "timezone_not_found": "De tijdzone **{{timezone}}** kon niet worden gevonden. Gebruik een geldige tijdzone naam uit de lijst op https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
+      "timezone_not_found": "De tijdzone **{{timezone}}** kon niet worden gevonden. Gebruik een geldige tijdzone naam uit de lijst op https://bnder.net/help/timezones.",
       "timezone_set": "De tijdzone is ingesteld op **{{timezone}}**. De huidige datum en tijd in **{{timezone}}** is **{{date}}**."
     },
     "dateformat": {

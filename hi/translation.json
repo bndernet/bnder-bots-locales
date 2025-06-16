@@ -417,7 +417,7 @@
       "language_not_found": "{{languageTag}} भाषा उपलब्ध नहीं है।"
     },
     "timezone": {
-      "timezone_not_found": "समय क्षेत्र **{{timezone}}** नहीं मिला। कृपया https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json पर सूची से एक मान्य समय क्षेत्र नाम का उपयोग करें।",
+      "timezone_not_found": "समय क्षेत्र **{{timezone}}** नहीं मिला। कृपया https://bnder.net/help/timezones पर सूची से एक मान्य समय क्षेत्र नाम का उपयोग करें।",
       "timezone_set": "समय क्षेत्र को **{{timezone}}** पर सेट किया गया है। **{{timezone}}** में वर्तमान दिनांक और समय **{{date}}** है।"
     },
     "dateformat": {

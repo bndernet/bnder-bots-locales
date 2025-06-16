@@ -417,7 +417,7 @@
       "language_not_found": "言語 {{languageTag}} は利用できません。"
     },
     "timezone": {
-      "timezone_not_found": "タイムゾーン **{{timezone}}** は見つかりませんでした。https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json にあるリストから有効なタイムゾーン名を使用してください。",
+      "timezone_not_found": "タイムゾーン **{{timezone}}** は見つかりませんでした。https://bnder.net/help/timezones にあるリストから有効なタイムゾーン名を使用してください。",
       "timezone_set": "タイムゾーンが **{{timezone}}** に設定されました。現在の日時は **{{timezone}}** の **{{date}}** です。"
     },
     "dateformat": {

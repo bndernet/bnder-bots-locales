@@ -417,7 +417,7 @@
       "language_not_found": "Język {{languageTag}} jest niedostępny."
     },
     "timezone": {
-      "timezone_not_found": "Nie znaleziono strefy czasowej **{{timezone}}**. Użyj poprawnej nazwy strefy czasowej z listy na https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
+      "timezone_not_found": "Nie znaleziono strefy czasowej **{{timezone}}**. Użyj poprawnej nazwy strefy czasowej z listy na https://bnder.net/help/timezones.",
       "timezone_set": "Strefa czasowa została ustawiona na **{{timezone}}**. Aktualna data i godzina w **{{timezone}}** to **{{date}}**."
     },
     "dateformat": {

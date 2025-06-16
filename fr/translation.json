@@ -417,7 +417,7 @@
       "language_not_found": "La langue {{languageTag}} n'est pas disponible."
     },
     "timezone": {
-      "timezone_not_found": "Le fuseau horaire **{{timezone}}** n'a pas été trouvé. Veuillez utiliser un nom de fuseau horaire valide dans la liste à l'adresse https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json.",
+      "timezone_not_found": "Le fuseau horaire **{{timezone}}** n'a pas été trouvé. Veuillez utiliser un nom de fuseau horaire valide dans la liste à l'adresse https://bnder.net/help/timezones.",
       "timezone_set": "Le fuseau horaire a été défini sur **{{timezone}}**. La date et l'heure actuelles dans **{{timezone}}** sont **{{date}}**."
     },
     "dateformat": {

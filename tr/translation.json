@@ -417,7 +417,7 @@
       "language_not_found": "{{languageTag}} dili mevcut değil."
     },
     "timezone": {
-      "timezone_not_found": "**{{timezone}}** zaman dilimi bulunamadı. Lütfen https://github.com/omsrivastava/timezones-list/blob/master/src/timezones.json adresindeki listeden geçerli bir zaman dilimi adı kullanın.",
+      "timezone_not_found": "**{{timezone}}** zaman dilimi bulunamadı. Lütfen https://bnder.net/help/timezones adresindeki listeden geçerli bir zaman dilimi adı kullanın.",
       "timezone_set": "Saat dilimi **{{timezone}}** olarak ayarlandı. **{{timezone}}**'daki geçerli tarih ve saat **{{date}}**'tir."
     },
     "dateformat": {
