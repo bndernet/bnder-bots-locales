@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "Tu idioma se ha ajustado a los valores predeterminados del servidor",
-      "language_changed": "Se ha cambiado el idioma",
+      "language_changed": "Se ha cambiado el idioma. Esto solo te afecta a ti, no a todo el servidor. Puedes cambiar el idioma del servidor con el comando \"/settings language\".",
       "language_not_found": "El idioma {{languageTag}} no está disponible",
       "language_changed_but_disabled_by_server": "Se ha cambiado su idioma, pero el servidor ha desactivado la opción de configurar su propio idioma. Se utilizará el idioma del servidor."
     },
     "timezone": {
-      "timezone_set": "Su zona horaria personal se ha establecido en **{{timezone}}**.",
+      "timezone_set": "Tu zona horaria personal se ha establecido en **{{timezone}}**. Esto solo te afecta a ti, no a todo el servidor. Puedes cambiar la zona horaria del servidor con el comando \"/settings timezone\".",
       "timezone_set_but_disabled_by_server": "Su zona horaria personal se ha establecido en **{{timezone}}**, pero el servidor ha deshabilitado la opción de establecer su propia zona horaria. Se utilizará la zona horaria del servidor (actualmente **{{server_timezone}}**)."
     },
     "event_reminders": {

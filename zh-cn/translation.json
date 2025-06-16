@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "您的语言已设置为服务器默认语言。",
-      "language_changed": "语言已更改。",
+      "language_changed": "语言已更改。这仅影响您，不影响整个服务器。您可以使用命令“/settings language”更改服务器语言。",
       "language_not_found": "语言 {{languageTag}} 不可用。",
       "language_changed_but_disabled_by_server": "您的语言已更改，但服务器已禁用设置自己语言的选项。将使用服务器语言。"
     },
     "timezone": {
-      "timezone_set": "您的个人时区已设置为 **{{timezone}}**。",
+      "timezone_set": "您的个人时区已设置为 **{{timezone}}**。这仅影响您本人，不影响整个服务器。您可以使用命令“/settings timezone”更改服务器时区。",
       "timezone_set_but_disabled_by_server": "您的个人时区已设置为 **{{timezone}}**，但服务器已禁用设置自己时区的选项。将使用服务器时区（当前 **{{server_timezone}}**）。"
     },
     "event_reminders": {

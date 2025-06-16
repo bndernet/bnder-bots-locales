@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "あなたの言語はサーバーのデフォルトに設定されました。",
-      "language_changed": "言語が変更されました。",
+      "language_changed": "言語が変更されました。これはサーバー全体ではなく、あなただけに影響します。サーバーの言語は「/settings language」コマンドで変更できます。",
       "language_not_found": "指定された言語 {{languageTag}} は利用できません。",
       "language_changed_but_disabled_by_server": "言語は変更されましたが、サーバーにより自分の言語を設定するオプションが無効にされました。サーバーの言語が使用されます。"
     },
     "timezone": {
-      "timezone_set": "あなたの個人タイムゾーンは **{{timezone}}** に設定されました。",
+      "timezone_set": "個人タイムゾーンが**{{timezone}}**に設定されました。これはサーバー全体ではなく、あなただけに影響します。サーバーのタイムゾーンは「/settings timezone」コマンドで変更できます。",
       "timezone_set_but_disabled_by_server": "あなたの個人タイムゾーンは **{{timezone}}** に設定されましたが、サーバーにより自分のタイムゾーンを設定するオプションが無効にされました。サーバーのタイムゾーンが使用されます（現在 **{{server_timezone}}**）。"
     },
     "event_reminders": {

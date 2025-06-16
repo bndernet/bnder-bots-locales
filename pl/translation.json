@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "Twój język został ustawiony na domyślny język serwera.",
-      "language_changed": "Język został zmieniony.",
+      "language_changed": "Język został zmieniony. Dotyczy to tylko Ciebie, nie całego serwera. Język serwera można zmienić za pomocą polecenia „/settings language”.",
       "language_not_found": "Język {{languageTag}} jest niedostępny.",
       "language_changed_but_disabled_by_server": "Twój język został zmieniony, ale serwer wyłączył opcję ustawiania własnego języka. Będzie używany język serwera."
     },
     "timezone": {
-      "timezone_set": "Twoja osobista strefa czasowa została ustawiona na **{{timezone}}**.",
+      "timezone_set": "Twoja osobista strefa czasowa została ustawiona na **{{timezone}}**. Dotyczy to tylko Ciebie, a nie całego serwera. Strefę czasową serwera można zmienić za pomocą polecenia „/settings timezone”.",
       "timezone_set_but_disabled_by_server": "Twoja osobista strefa czasowa została ustawiona na **{{timezone}}**, ale serwer wyłączył opcję ustawiania własnej strefy czasowej. Będzie używana strefa czasowa serwera (obecnie **{{server_timezone}}**)."
     },
     "event_reminders": {

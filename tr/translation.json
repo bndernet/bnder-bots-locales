@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "Diliniz sunucu varsayılanlarına ayarlandı.",
-      "language_changed": "Dil değiştirildi.",
+      "language_changed": "Dil değiştirildi. Bu yalnızca sizi etkiler, tüm sunucuyu değil. Sunucunun dili \"/settings language\" komutuyla değiştirilebilir.",
       "language_not_found": "{{languageTag}} dili mevcut değil.",
       "language_changed_but_disabled_by_server": "Diliniz değiştirildi, ancak sunucu kendi dilinizi ayarlama seçeneğini devre dışı bıraktı. Sunucu dili kullanılacak."
     },
     "timezone": {
-      "timezone_set": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı.",
+      "timezone_set": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı. Bu yalnızca sizi etkiler, tüm sunucuyu değil. Sunucu saat dilimi \"/settings timezone\" komutuyla değiştirilebilir.",
       "timezone_set_but_disabled_by_server": "Kişisel saat diliminiz **{{timezone}}** olarak ayarlandı, ancak sunucu kendi saat diliminizi ayarlama seçeneğini devre dışı bıraktı. Sunucu saat dilimi kullanılacak (şu anda **{{server_timezone}}**)."
     },
     "event_reminders": {

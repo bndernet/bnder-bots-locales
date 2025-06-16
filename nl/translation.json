@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "Je taal is ingesteld op de serverstandaard.",
-      "language_changed": "De taal is gewijzigd.",
+      "language_changed": "De taal is gewijzigd. Dit heeft alleen invloed op jou, niet op de hele server. De taal voor de server kan worden gewijzigd met het commando \"/settings language\".",
       "language_not_found": "De taal {{languageTag}} is niet beschikbaar.",
       "language_changed_but_disabled_by_server": "Je taal is gewijzigd, maar de server heeft de optie om je eigen taal in te stellen uitgeschakeld. De servertaal wordt gebruikt."
     },
     "timezone": {
-      "timezone_set": "Je persoonlijke tijdzone is ingesteld op **{{timezone}}**.",
+      "timezone_set": "Je persoonlijke tijdzone is ingesteld op **{{timezone}}**. Dit heeft alleen invloed op jou, niet op de hele server. De tijdzone van de server kan worden gewijzigd met de opdracht \"/settings timezone\".",
       "timezone_set_but_disabled_by_server": "Je persoonlijke tijdzone is ingesteld op **{{timezone}}**, maar de server heeft de optie om je eigen tijdzone in te stellen uitgeschakeld. De server-tijdzone wordt gebruikt (momenteel **{{server_timezone}}**)."
     },
     "event_reminders": {

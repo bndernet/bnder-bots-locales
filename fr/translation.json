@@ -475,12 +475,12 @@
   "preferences": {
     "language": {
       "language_server_default": "Votre langue a été réglée sur les valeurs par défaut du serveur",
-      "language_changed": "La langue a été modifiée",
+      "language_changed": "La langue a été modifiée. Cela n'affecte que vous, et non l'ensemble du serveur. La langue du serveur peut être modifiée avec la commande «/settings language».",
       "language_not_found": "La langue {{languageTag}} n'est pas disponible.",
       "language_changed_but_disabled_by_server": "Votre langue a été modifiée, mais le serveur a désactivé l'option permettant de définir votre propre langue. La langue du serveur sera utilisée."
     },
     "timezone": {
-      "timezone_set": "Votre fuseau horaire personnel a été réglé sur **{{timezone}}**.",
+      "timezone_set": "Votre fuseau horaire personnel a été défini sur **{{timezone}}**. Ceci n'affecte que vous, et non l'ensemble du serveur. Vous pouvez modifier le fuseau horaire du serveur avec la commande «/settings timezone».",
       "timezone_set_but_disabled_by_server": "Votre fuseau horaire personnel a été défini sur **{{timezone}}**, mais le serveur a désactivé l'option permettant de définir votre propre fuseau horaire. Le fuseau horaire du serveur sera utilisé (actuellement **{{server_timezone}}**)."
     },
     "event_reminders": {
