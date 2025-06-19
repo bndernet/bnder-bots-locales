@@ -239,7 +239,7 @@
     "comment_modal_label": "评论",
     "followup_reminder_stopped": "任务 **{{id}}** 的后续提醒已停止。",
     "max_assignees_reached_buy_pro": "需要更多人手吗？\uD83D\uDC65\n此任务已拥有最大 **{{max}} 受让人**。[添加专业席位](<https://bnder.net/p/{{guildId}}>) 以分配更多团队成员并促进协作。立即升级以让您的团队继续前进！了解有关专业席位的更多信息，请访问 https://bnder.net/pricing。",
-    "daily_repeat_not_allowed": "每日重复任务仅对专业席位用户开放。[请升级到专业席位](<https://bnder.net/p/{{guildId}}>) 才能使用此功能。有关专业席位的更多信息，请访问 https://bnder.net/pricing。",
+    "daily_repeat_not_allowed": "只有专业版用户才能将任务重复间隔设置为少于 7 天。[请升级到专业版](<https://bnder.net/p/{{guildId}}>) 才能使用此功能。访问 https://bnder.net/pricing 了解更多关于专业版的信息。",
     "todos_not_allowed": "使用 Todos 提高工作效率！✅\nTodos 是一项专业功能，可帮助您将任务分解为可操作的步骤。立即升级到专业席位即可解锁这一强大工具！了解有关专业席位的更多信息，请访问 https://bnder.net/pricing。",
     "attachments_storage_limit_reached": "您已达到此服务器的最大存储限制。要增加存储限制，请[升级到更多专业席位](<https://bnder.net/p/{{guildId}}>)。有关专业席位的更多信息，请访问 https://bnder.net/pricing。",
     "attachment_added": "附件 **{{file_name}}** 已添加到任务 **{{id}}**。您可以使用“/task attachments”命令查看。",
