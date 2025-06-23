@@ -271,7 +271,7 @@ export class TSLocalizations_fr {
             return `Félicitations! Vous avez obtenu une place pro sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>). Vous avez désormais accès aux [fonctionnalités pro](<https://bnder.net/pricing>). Profitez-en!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `Le paiement d'une ou plusieurs places pro sur le serveur [${guildName}](https://discord.com/channels/${guildId}) a échoué. Veuillez [cliquer ici](${customerPortalLink}) pour régler votre facture. Sinon, vous perdrez l'accès aux fonctionnalités pro. Pour toute question, veuillez contacter le support.`;
+            return `# 🚨 Action requise : Échec du paiement de l’abonnement Pro\nNous n’avons pas pu traiter le paiement d’un ou plusieurs abonnements Pro sur [${guildName}](<https://discord.com/channels/${guildId}>). Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez [mettre à jour vos informations de paiement et payer votre facture maintenant](<${customerPortalLink}>).\n\nVos fonctionnalités Pro seront bientôt désactivées si aucune mesure n’est prise.\n\nBesoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous sommes là pour vous.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

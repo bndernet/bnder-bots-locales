@@ -271,7 +271,7 @@ export class TSLocalizations_tr {
             return `Tebrikler! [${guildName}](<https://discord.com/channels/${guildId}>) sunucusunda profesyonel bir koltuğa yerleştirildiniz. Bu, artık [pro özelliklere](<https://bnder.net/pricing>) erişebileceğiniz anlamına geliyor. İyi eğlenceler!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `[${guildName}](https://discord.com/channels/${guildId}) sunucusunda bir veya daha fazla pro koltuk için ödeme başarısız oldu. Lütfen faturanızı ödemek için [buraya tıklayın](${customerPortalLink}). Aksi takdirde, pro özelliklerine erişiminizi kaybedersiniz. Herhangi bir sorunuz varsa lütfen destek ile iletişime geçin.`;
+            return `# 🚨 İşlem Gerekli: Pro Aboneliği için Ödeme Başarısız Oldu\n[${guildName}](<https://discord.com/channels/${guildId}>) üzerinde bir veya daha fazla Pro koltuğu için ödemeyi işleme koyamadık. Pro özelliklerine erişiminizi kaybetmemek için lütfen [ödeme bilgilerinizi güncelleyin ve faturanızı hemen ödeyin](<${customerPortalLink}>).\n\nHerhangi bir işlem yapılmazsa Pro özellikleriniz yakında devre dışı bırakılacak.\n\nYardıma mı ihtiyacınız var? [Destek ekibiyle iletişime geçin](https://bnder.net/discord) — sizin için buradayız.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

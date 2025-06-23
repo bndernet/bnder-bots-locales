@@ -271,7 +271,7 @@ export class TSLocalizations_ja {
             return `おめでとうございます！サーバー [${guildName}](<https://discord.com/channels/${guildId}>) のプロ シートに配置されました。つまり、[プロ機能](<https://bnder.net/pricing>) にアクセスできるようになりました。お楽しみください！`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `サーバー[${guildName}](https://discord.com/channels/${guildId})のプロシート1枚以上のお支払いに失敗しました。[こちらをクリック](${customerPortalLink})して請求書をお支払いください。お支払いいただけない場合、プロ機能をご利用いただけなくなります。ご不明な点がございましたら、サポートまでお問い合わせください。`;
+            return `# 🚨 必要な対応: Pro サブスクリプションの支払いに失敗しました\n[${guildName}](<https://discord.com/channels/${guildId}>) の 1 つ以上の Pro シートの支払いを処理できませんでした。Pro 機能へのアクセスを失うことを避けるため、[支払い情報を更新し、請求書を今すぐお支払いください](<${customerPortalLink}>)。\n\n何も対応しないと、Pro 機能はまもなく無効になります。\n\nお困りですか? [サポートにお問い合わせください](https://bnder.net/discord) — いつでもお手伝いいたします。`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
