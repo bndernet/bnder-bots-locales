@@ -292,6 +292,44 @@ export class TSLocalizations_pl {
             invite_team_members_description: "Zaproś członków swojego zespołu do dołączenia do twojej przestrzeni roboczej. Zobaczą zaproszenie w ustawieniach użytkownika.",
             explore_workspace_title: "Eksploruj przestrzeń roboczą",
             explore_workspace_description: "Eksploruj przestrzeń roboczą i zapoznaj się z funkcjami. Możesz tworzyć zadania, zarządzać członkami i więcej. Możesz także zajrzeć do ustawień, aby dostosować format daty, język i strefę czasową."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "z ograniczoną odpowiedzialnością",
+                company_address: "Im Flath 12 - 38542 Leiferde - Niemcy",
+                company_register_court: "Sąd Rejonowy Hildesheim - HRB 209373",
+                company_ceo: "Dyrektor zarządzający: Jan Brinkmann",
+                company_contact: "E-mail: contact@bnder.net - Telefon: +49 511 45032009",
+                legal_automated_email: "Ta wiadomość została wysłana automatycznie. Proszę na nią nie odpowiadać.",
+                legal_privacy_policy_prefix: "Naszą politykę prywatności znajdziesz pod",
+                legal_imprint: "Nota prawna",
+                legal_terms_of_use: "Warunki użytkowania",
+                legal_privacy_policy: "Polityka prywatności",
+            },
+            verify_email: {
+                headline: "Potwierdź swój adres e-mail",
+                text: "Potwierdź swój adres e-mail, klikając w poniższy link.",
+                primaryActionText: "Potwierdź adres e-mail",
+                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
+            },
+            password_changed: {
+                headline: "Hasło zostało zmienione",
+                text: "Twoje hasło zostało pomyślnie zmienione. Jeśli to nie Ty dokonałeś tej zmiany, skontaktuj się natychmiast z pomocą techniczną pod adresem contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Zresetuj hasło",
+                text: "Aby zresetować hasło, kliknij przycisk poniżej. Jeśli nie prosiłeś o reset hasła, zignoruj tę wiadomość.",
+                primaryActionText: "Zresetuj hasło",
+                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
+            },
+            workspace_invitation: {
+                headline: "Zaproszenie do przestrzeni roboczej",
+                text(workspaceName: string): string {
+                    return `Zostałeś zaproszony do przestrzeni roboczej ${workspaceName}. Kliknij przycisk poniżej, aby zaakceptować zaproszenie i dołączyć do przestrzeni.`;
+                },
+                primaryActionText: "Dołącz do przestrzeni roboczej",
+                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
+            },
         }
     }
 }

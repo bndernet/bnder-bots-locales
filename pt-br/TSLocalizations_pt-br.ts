@@ -292,6 +292,44 @@ export class TSLocalizations_pt_br {
             invite_team_members_description: "Convide os membros da sua equipe para entrar no seu espaço de trabalho. Eles verão o convite nas configurações do usuário.",
             explore_workspace_title: "Explore o espaço de trabalho",
             explore_workspace_description: "Explore o espaço de trabalho e familiarize-se com os recursos. Você pode criar tarefas, gerenciar membros e muito mais. Também pode dar uma olhada nas configurações para ajustar o formato da data, idioma e fuso horário."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "sociedade com responsabilidade limitada",
+                company_address: "Im Flath 12 - 38542 Leiferde - Alemanha",
+                company_register_court: "Tribunal de Registro de Hildesheim - HRB 209373",
+                company_ceo: "Diretor Executivo: Jan Brinkmann",
+                company_contact: "E-mail: contact@bnder.net - Telefone: +49 511 45032009",
+                legal_automated_email: "Este e-mail foi enviado automaticamente. Por favor, não responda.",
+                legal_privacy_policy_prefix: "Nossa política de privacidade está disponível em",
+                legal_imprint: "Informações legais",
+                legal_terms_of_use: "Termos de uso",
+                legal_privacy_policy: "Política de privacidade",
+            },
+            verify_email: {
+                headline: "Por favor, confirme seu endereço de e-mail",
+                text: "Confirme seu endereço de e-mail clicando no link abaixo.",
+                primaryActionText: "Confirmar e-mail",
+                primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
+            },
+            password_changed: {
+                headline: "Senha alterada",
+                text: "Sua senha foi alterada com sucesso. Caso você não tenha feito essa alteração, entre em contato imediatamente com o suporte em contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Redefinir senha",
+                text: "Para redefinir sua senha, clique no botão abaixo. Se você não solicitou a redefinição, ignore este e-mail.",
+                primaryActionText: "Redefinir senha",
+                primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
+            },
+            workspace_invitation: {
+                headline: "Convite para o workspace",
+                text(workspaceName: string): string {
+                    return `Você foi convidado para o workspace ${workspaceName}. Clique no botão abaixo para aceitar o convite e entrar no workspace.`;
+                },
+                primaryActionText: "Entrar no workspace",
+                primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
+            },
         }
     }
 }

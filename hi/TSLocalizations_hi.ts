@@ -292,6 +292,44 @@ export class TSLocalizations_hi {
             invite_team_members_description: "अपनी टीम के सदस्यों को अपने कार्यक्षेत्र में शामिल होने के लिए आमंत्रित करें। वे अपनी उपयोगकर्ता सेटिंग्स में यह निमंत्रण देखेंगे।",
             explore_workspace_title: "कार्यक्षेत्र का अन्वेषण करें",
             explore_workspace_description: "कार्यक्षेत्र का अन्वेषण करें और सुविधाओं से परिचित हों। आप कार्य बना सकते हैं, सदस्यों का प्रबंधन कर सकते हैं, और भी बहुत कुछ। आप दिनांक प्रारूप, भाषा, और समय क्षेत्र समायोजित करने के लिए सेटिंग्स भी देख सकते हैं।"
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "सीमित देयता",
+                company_address: "Im Flath 12 - 38542 Leiferde - जर्मनी",
+                company_register_court: "हिल्डेसहाइम जिला न्यायालय - HRB 209373",
+                company_ceo: "प्रबंध निदेशक: जान ब्रिंकमान",
+                company_contact: "ईमेल: contact@bnder.net - फोन: +49 511 45032009",
+                legal_automated_email: "यह ईमेल स्वचालित रूप से भेजा गया है। कृपया इसका उत्तर न दें।",
+                legal_privacy_policy_prefix: "हमारी गोपनीयता नीति उपलब्ध है:",
+                legal_imprint: "इंप्रेसम",
+                legal_terms_of_use: "उपयोग की शर्तें",
+                legal_privacy_policy: "गोपनीयता नीति",
+            },
+            verify_email: {
+                headline: "कृपया अपना ईमेल पता पुष्टि करें",
+                text: "कृपया नीचे दिए गए लिंक पर क्लिक करके अपना ईमेल पता पुष्टि करें।",
+                primaryActionText: "ईमेल पता पुष्टि करें",
+                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
+            },
+            password_changed: {
+                headline: "पासवर्ड बदला गया",
+                text: "आपका पासवर्ड सफलतापूर्वक बदल दिया गया है। यदि आपने यह परिवर्तन नहीं किया है, तो कृपया तुरंत contact@bnder.net पर सहायता टीम से संपर्क करें।",
+            },
+            reset_password: {
+                headline: "पासवर्ड रीसेट करें",
+                text: "अपना पासवर्ड रीसेट करने के लिए कृपया नीचे दिए गए बटन पर क्लिक करें। यदि आपने पासवर्ड रीसेट का अनुरोध नहीं किया है, तो इस ईमेल को अनदेखा करें।",
+                primaryActionText: "पासवर्ड रीसेट करें",
+                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
+            },
+            workspace_invitation: {
+                headline: "वर्कस्पेस निमंत्रण",
+                text(workspaceName: string): string {
+                    return `आपको वर्कस्पेस ${workspaceName} में आमंत्रित किया गया है। निमंत्रण स्वीकार करने और वर्कस्पेस से जुड़ने के लिए नीचे दिए गए बटन पर क्लिक करें।`;
+                },
+                primaryActionText: "वर्कस्पेस से जुड़ें",
+                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
+            },
         }
     }
 }

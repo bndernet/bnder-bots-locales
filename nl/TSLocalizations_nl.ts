@@ -292,6 +292,44 @@ export class TSLocalizations_nl {
             invite_team_members_description: "Nodig je teamleden uit om lid te worden van je werkruimte. Ze zullen de uitnodiging zien in hun gebruikersinstellingen.",
             explore_workspace_title: "Verken de werkruimte",
             explore_workspace_description: "Verken de werkruimte en raak vertrouwd met de functies. Je kunt taken aanmaken, leden beheren en meer. Je kunt ook de instellingen bekijken om het datumformaat, de taal en de tijdzone aan te passen."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "beperkte aansprakelijkheid",
+                company_address: "Im Flath 12 - 38542 Leiferde - Duitsland",
+                company_register_court: "Rechtbank Hildesheim - HRB 209373",
+                company_ceo: "Directeur: Jan Brinkmann",
+                company_contact: "E-mail: contact@bnder.net - Telefoon: +49 511 45032009",
+                legal_automated_email: "Deze e-mail is automatisch verzonden. Antwoord hier alstublieft niet op.",
+                legal_privacy_policy_prefix: "Onze privacyverklaring is te vinden op",
+                legal_imprint: "Colofon",
+                legal_terms_of_use: "Gebruiksvoorwaarden",
+                legal_privacy_policy: "Privacyverklaring",
+            },
+            verify_email: {
+                headline: "Bevestig je e-mailadres",
+                text: "Bevestig je e-mailadres door op de onderstaande link te klikken.",
+                primaryActionText: "Bevestig e-mailadres",
+                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
+            },
+            password_changed: {
+                headline: "Wachtwoord gewijzigd",
+                text: "Je wachtwoord is succesvol gewijzigd. Als je deze wijziging niet zelf hebt aangevraagd, neem dan onmiddellijk contact op met support via contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Wachtwoord opnieuw instellen",
+                text: "Klik op de onderstaande knop om je wachtwoord opnieuw in te stellen. Als je hier niet om hebt gevraagd, kun je deze e-mail negeren.",
+                primaryActionText: "Wachtwoord opnieuw instellen",
+                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
+            },
+            workspace_invitation: {
+                headline: "Workspace-uitnodiging",
+                text(workspaceName: string): string {
+                    return `Je bent uitgenodigd voor de workspace ${workspaceName}. Klik op de onderstaande knop om de uitnodiging te accepteren en deel te nemen aan de workspace.`;
+                },
+                primaryActionText: "Deelnemen aan workspace",
+                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
+            },
         }
     }
 }

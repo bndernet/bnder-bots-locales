@@ -292,6 +292,44 @@ export class TSLocalizations_tr {
             invite_team_members_description: "Takım üyelerinizi çalışma alanınıza katılmaları için davet edin. Daveti kullanıcı ayarlarında görecekler.",
             explore_workspace_title: "Çalışma alanını keşfedin",
             explore_workspace_description: "Çalışma alanını keşfedin ve özelliklere alışın. Görevler oluşturabilir, üyeleri yönetebilir ve daha fazlasını yapabilirsiniz. Ayrıca tarih formatı, dil ve zaman dilimini ayarlamak için ayarlara da göz atabilirsiniz."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "sınırlı sorumluluk",
+                company_address: "Im Flath 12 - 38542 Leiferde - Almanya",
+                company_register_court: "Amtsgericht Hildesheim - HRB 209373",
+                company_ceo: "Yönetici: Jan Brinkmann",
+                company_contact: "E-Posta: contact@bnder.net - Telefon: +49 511 45032009",
+                legal_automated_email: "Bu e-posta otomatik olarak gönderilmiştir. Lütfen yanıt vermeyin.",
+                legal_privacy_policy_prefix: "Gizlilik politikamızı aşağıda bulabilirsiniz",
+                legal_imprint: "Yasal Bilgiler",
+                legal_terms_of_use: "Kullanım Koşulları",
+                legal_privacy_policy: "Gizlilik Politikası",
+            },
+            verify_email: {
+                headline: "Lütfen e-posta adresinizi onaylayın",
+                text: "Lütfen aşağıdaki bağlantıya tıklayarak e-posta adresinizi onaylayın.",
+                primaryActionText: "E-posta adresini onayla",
+                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
+            },
+            password_changed: {
+                headline: "Şifre değiştirildi",
+                text: "Şifreniz başarıyla değiştirildi. Eğer bu değişikliği siz yapmadıysanız, lütfen hemen contact@bnder.net adresinden destek ile iletişime geçin.",
+            },
+            reset_password: {
+                headline: "Şifre sıfırlama",
+                text: "Şifrenizi sıfırlamak için lütfen aşağıdaki butona tıklayın. Şifre sıfırlama talebinde bulunmadıysanız, bu e-postayı dikkate almayın.",
+                primaryActionText: "Şifreyi sıfırla",
+                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
+            },
+            workspace_invitation: {
+                headline: "Workspace Daveti",
+                text(workspaceName: string): string {
+                    return `${workspaceName} workspace'ine davet edildiniz. Daveti kabul etmek ve workspace'e katılmak için aşağıdaki butona tıklayın.`;
+                },
+                primaryActionText: "Workspace'e katıl",
+                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
+            },
         }
     }
 }

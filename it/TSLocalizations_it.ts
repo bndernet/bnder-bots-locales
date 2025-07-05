@@ -292,6 +292,44 @@ export class TSLocalizations_it {
             invite_team_members_description: "Invita i membri del tuo team a unirsi al tuo workspace. Vedranno l'invito nelle impostazioni utente.",
             explore_workspace_title: "Esplora il workspace",
             explore_workspace_description: "Esplora il workspace e familiarizza con le funzionalità. Puoi creare compiti, gestire i membri e altro. Puoi anche dare un'occhiata alle impostazioni per modificare il formato della data, la lingua e il fuso orario."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "a responsabilità limitata",
+                company_address: "Im Flath 12 - 38542 Leiferde - Germania",
+                company_register_court: "Tribunale di Hildesheim - HRB 209373",
+                company_ceo: "Amministratore delegato: Jan Brinkmann",
+                company_contact: "E-mail: contact@bnder.net - Telefono: +49 511 45032009",
+                legal_automated_email: "Questa e-mail è stata inviata automaticamente. Si prega di non rispondere.",
+                legal_privacy_policy_prefix: "Puoi trovare la nostra informativa sulla privacy su",
+                legal_imprint: "Note legali",
+                legal_terms_of_use: "Termini di utilizzo",
+                legal_privacy_policy: "Informativa sulla privacy",
+            },
+            verify_email: {
+                headline: "Conferma il tuo indirizzo e-mail",
+                text: "Conferma il tuo indirizzo e-mail cliccando sul link qui sotto.",
+                primaryActionText: "Conferma indirizzo e-mail",
+                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
+            },
+            password_changed: {
+                headline: "Password modificata",
+                text: "La tua password è stata modificata con successo. Se non sei stato tu a richiederla, contatta immediatamente il supporto all’indirizzo contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Reimposta password",
+                text: "Per reimpostare la tua password, fai clic sul pulsante qui sotto. Se non hai richiesto la reimpostazione, ignora questa e-mail.",
+                primaryActionText: "Reimposta password",
+                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
+            },
+            workspace_invitation: {
+                headline: "Invito allo spazio di lavoro",
+                text(workspaceName: string): string {
+                    return `Sei stato invitato allo spazio di lavoro ${workspaceName}. Fai clic sul pulsante qui sotto per accettare l’invito e unirti allo spazio.`;
+                },
+                primaryActionText: "Unisciti allo spazio di lavoro",
+                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
+            },
         }
     }
 }

@@ -292,6 +292,44 @@ export class TSLocalizations_ru {
             invite_team_members_description: "Пригласите членов вашей команды присоединиться к вашему рабочему пространству. Они увидят приглашение в настройках пользователя.",
             explore_workspace_title: "Исследуйте рабочее пространство",
             explore_workspace_description: "Изучите рабочее пространство и познакомьтесь с функциями. Вы можете создавать задачи, управлять участниками и многое другое. Также можно заглянуть в настройки, чтобы изменить формат даты, язык и часовой пояс."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "с ограниченной ответственностью",
+                company_address: "Im Flath 12 - 38542 Leiferde - Германия",
+                company_register_court: "Amtsgericht Hildesheim - HRB 209373",
+                company_ceo: "Генеральный директор: Ян Бринкманн",
+                company_contact: "Эл. почта: contact@bnder.net - Телефон: +49 511 45032009",
+                legal_automated_email: "Это письмо было отправлено автоматически. Пожалуйста, не отвечайте на него.",
+                legal_privacy_policy_prefix: "Наша политика конфиденциальности доступна по адресу",
+                legal_imprint: "Выходные данные",
+                legal_terms_of_use: "Условия использования",
+                legal_privacy_policy: "Политика конфиденциальности",
+            },
+            verify_email: {
+                headline: "Пожалуйста, подтвердите ваш адрес электронной почты",
+                text: "Подтвердите ваш адрес электронной почты, кликнув по ссылке ниже.",
+                primaryActionText: "Подтвердить e-mail",
+                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
+            },
+            password_changed: {
+                headline: "Пароль изменён",
+                text: "Ваш пароль был успешно изменён. Если вы не делали это изменение, пожалуйста, немедленно свяжитесь со службой поддержки по адресу contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Сбросить пароль",
+                text: "Чтобы сбросить пароль, нажмите кнопку ниже. Если вы не запрашивали сброс пароля, проигнорируйте это письмо.",
+                primaryActionText: "Сбросить пароль",
+                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
+            },
+            workspace_invitation: {
+                headline: "Приглашение в рабочее пространство",
+                text(workspaceName: string): string {
+                    return `Вас пригласили в рабочее пространство ${workspaceName}. Нажмите кнопку ниже, чтобы принять приглашение и присоединиться к рабочему пространству.`;
+                },
+                primaryActionText: "Присоединиться к рабочему пространству",
+                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
+            },
         }
     }
 }

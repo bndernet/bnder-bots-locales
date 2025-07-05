@@ -292,6 +292,44 @@ export class TSLocalizations_ja {
             invite_team_members_description: "チームメンバーをワークスペースに招待しましょう。招待はユーザー設定で確認できます。",
             explore_workspace_title: "ワークスペースを探検する",
             explore_workspace_description: "ワークスペースを探検して機能に慣れましょう。タスクの作成、メンバーの管理などができます。日付形式、言語、タイムゾーンの設定も確認できます。"
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "有限責任",
+                company_address: "Im Flath 12 - 38542 Leiferde - ドイツ",
+                company_register_court: "ヒルデスハイム地方裁判所 - HRB 209373",
+                company_ceo: "代表取締役: Jan Brinkmann",
+                company_contact: "メール: contact@bnder.net - 電話: +49 511 45032009",
+                legal_automated_email: "このメールは自動送信されました。返信しないでください。",
+                legal_privacy_policy_prefix: "当社のプライバシーポリシーは以下でご覧いただけます",
+                legal_imprint: "会社概要",
+                legal_terms_of_use: "利用規約",
+                legal_privacy_policy: "プライバシーポリシー",
+            },
+            verify_email: {
+                headline: "メールアドレスの確認をお願いします",
+                text: "下のリンクをクリックして、メールアドレスの確認を完了してください。",
+                primaryActionText: "メールアドレスを確認",
+                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
+            },
+            password_changed: {
+                headline: "パスワードが変更されました",
+                text: "パスワードが正常に変更されました。もしこの変更に心当たりがない場合は、すぐに contact@bnder.net にご連絡ください。",
+            },
+            reset_password: {
+                headline: "パスワードをリセット",
+                text: "パスワードをリセットするには、下のボタンをクリックしてください。パスワードリセットをリクエストしていない場合は、このメールを無視してください。",
+                primaryActionText: "パスワードをリセット",
+                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
+            },
+            workspace_invitation: {
+                headline: "ワークスペースへの招待",
+                text(workspaceName: string): string {
+                    return `あなたはワークスペース「${workspaceName}」に招待されました。招待を受け入れて参加するには、下のボタンをクリックしてください。`;
+                },
+                primaryActionText: "ワークスペースに参加",
+                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
+            },
         }
     }
 }

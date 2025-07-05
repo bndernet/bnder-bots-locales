@@ -292,6 +292,44 @@ export class TSLocalizations_fr {
             invite_team_members_description: "Invitez vos membres d'équipe à rejoindre votre espace de travail. Ils verront l'invitation dans leurs paramètres utilisateur.",
             explore_workspace_title: "Explorez l'espace de travail",
             explore_workspace_description: "Explorez l'espace de travail et familiarisez-vous avec les fonctionnalités. Vous pouvez créer des tâches, gérer les membres, et plus encore. Vous pouvez également consulter les paramètres pour ajuster le format de date, la langue et le fuseau horaire."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "à responsabilité limitée",
+                company_address: "Im Flath 12 - 38542 Leiferde - Allemagne",
+                company_register_court: "Tribunal d’instance de Hildesheim - HRB 209373",
+                company_ceo: "Gérant : Jan Brinkmann",
+                company_contact: "E-mail : contact@bnder.net - Téléphone : +49 511 45032009",
+                legal_automated_email: "Cet e-mail a été envoyé automatiquement. Veuillez ne pas y répondre.",
+                legal_privacy_policy_prefix: "Notre politique de confidentialité est disponible sur",
+                legal_imprint: "Mentions légales",
+                legal_terms_of_use: "Conditions d’utilisation",
+                legal_privacy_policy: "Politique de confidentialité",
+            },
+            verify_email: {
+                headline: "Veuillez confirmer votre adresse e-mail",
+                text: "Veuillez confirmer votre adresse e-mail en cliquant sur le lien ci-dessous.",
+                primaryActionText: "Confirmer l’adresse e-mail",
+                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
+            },
+            password_changed: {
+                headline: "Mot de passe modifié",
+                text: "Votre mot de passe a été modifié avec succès. Si vous n’êtes pas à l’origine de ce changement, veuillez contacter immédiatement le support à contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Réinitialiser le mot de passe",
+                text: "Pour réinitialiser votre mot de passe, cliquez sur le bouton ci-dessous. Si vous n’avez pas demandé cette réinitialisation, ignorez cet e-mail.",
+                primaryActionText: "Réinitialiser le mot de passe",
+                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
+            },
+            workspace_invitation: {
+                headline: "Invitation à l’espace de travail",
+                text(workspaceName: string): string {
+                    return `Vous avez été invité à rejoindre l’espace de travail ${workspaceName}. Cliquez sur le bouton ci-dessous pour accepter l’invitation et rejoindre l’espace.`;
+                },
+                primaryActionText: "Rejoindre l’espace de travail",
+                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
+            },
         }
     }
 }

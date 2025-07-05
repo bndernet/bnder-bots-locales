@@ -197,6 +197,42 @@ export interface TSLocalizationKeys {
         invite_team_members_description: string,
         explore_workspace_title: string,
         explore_workspace_description: string,
+    },
+    mails: {
+        footer: {
+            company_limited_liability: string,
+            company_address: string,
+            company_register_court: string,
+            company_ceo: string,
+            company_contact: string,
+            legal_automated_email: string,
+            legal_privacy_policy_prefix: string,
+            legal_imprint: string,
+            legal_terms_of_use: string,
+            legal_privacy_policy: string,
+        },
+        verify_email: {
+            headline: string,
+            text: string,
+            primaryActionText: string,
+            primaryPasteActionLinkText: string,
+        },
+        password_changed: {
+            headline: string,
+            text: string,
+        },
+        reset_password: {
+            headline: string,
+            text: string,
+            primaryActionText: string,
+            primaryPasteActionLinkText: string,
+        },
+        workspace_invitation: {
+            headline: string,
+            text(workspaceName: string): string,
+            primaryActionText: string,
+            primaryPasteActionLinkText: string,
+        },
     }
 }
 

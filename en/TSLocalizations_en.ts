@@ -292,6 +292,44 @@ export class TSLocalizations_en {
             invite_team_members_description: "Invite your team members to join your workspace. They will see the invitation in their user settings.",
             explore_workspace_title: "Explore the workspace",
             explore_workspace_description: "Explore the workspace and familiarize yourself with the features. You can create tasks, manage members, and more. You may also take a look into the settings to adjust the date format, language, and timezone."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "limited liability company (UG)",
+                company_address: "Im Flath 12 - 38542 Leiferde - Germany",
+                company_register_court: "District Court of Hildesheim (Germany) - HRB 209373",
+                company_ceo: "CEO: Jan Brinkmann",
+                company_contact: "Mail: contact@bnder.net - Phone: +49 511 45032009",
+                legal_automated_email: "This is an automated email. Please do not reply to this email.",
+                legal_privacy_policy_prefix: "Please read our privacy policy at",
+                legal_imprint: "Imprint",
+                legal_terms_of_use: "Terms of Use",
+                legal_privacy_policy: "Privacy Policy",
+            },
+            verify_email: {
+                headline: "Verify your email address",
+                text: "Please confirm your email address by clicking the link below.",
+                primaryActionText: "Verify Email",
+                primaryPasteActionLinkText: "Or paste the link below into your browser:",
+            },
+            password_changed: {
+                headline: "Password Changed",
+                text: "Your password has been successfully changed. If you did not initiate this change, please contact support immediately at contact@bnder.net",
+            },
+            reset_password: {
+                headline: "Reset your password",
+                text: "To reset your password, please click the button below. If you did not request a password reset, please ignore this email.",
+                primaryActionText: "Reset Password",
+                primaryPasteActionLinkText: "Or paste the link below into your browser:",
+            },
+            workspace_invitation: {
+                headline: "Workspace Invitation",
+                text(workspaceName: string): string {
+                    return `You have been invited to join the workspace ${workspaceName}. Click the button below to accept the invitation and join the workspace.`;
+                },
+                primaryActionText: "Join Workspace",
+                primaryPasteActionLinkText: "Or paste the link below into your browser:",
+            },
         }
     }
 }

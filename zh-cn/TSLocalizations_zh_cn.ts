@@ -292,6 +292,44 @@ export class TSLocalizations_zh_cn {
             invite_team_members_description: "邀请你的团队成员加入你的工作区。他们会在用户设置中看到邀请。",
             explore_workspace_title: "探索工作区",
             explore_workspace_description: "探索工作区并熟悉功能。你可以创建任务，管理成员等。你也可以查看设置，调整日期格式、语言和时区。"
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "有限责任",
+                company_address: "Im Flath 12 - 38542 Leiferde - 德国",
+                company_register_court: "希尔德斯海姆地方法院 - HRB 209373",
+                company_ceo: "执行董事: Jan Brinkmann",
+                company_contact: "电子邮件: contact@bnder.net - 电话: +49 511 45032009",
+                legal_automated_email: "此电子邮件为自动发送，请勿回复。",
+                legal_privacy_policy_prefix: "我们的隐私政策见",
+                legal_imprint: "法律声明",
+                legal_terms_of_use: "使用条款",
+                legal_privacy_policy: "隐私政策",
+            },
+            verify_email: {
+                headline: "请确认您的电子邮件地址",
+                text: "请点击下面的链接确认您的电子邮件地址。",
+                primaryActionText: "确认电子邮件地址",
+                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
+            },
+            password_changed: {
+                headline: "密码已更改",
+                text: "您的密码已成功更改。如果这不是您本人操作，请立即联系 support: contact@bnder.net。",
+            },
+            reset_password: {
+                headline: "重置密码",
+                text: "要重置密码，请点击下面的按钮。如果您未请求密码重置，请忽略此邮件。",
+                primaryActionText: "重置密码",
+                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
+            },
+            workspace_invitation: {
+                headline: "工作区邀请",
+                text(workspaceName: string): string {
+                    return `您被邀请加入工作区 ${workspaceName}。点击下面的按钮接受邀请并加入工作区。`;
+                },
+                primaryActionText: "加入工作区",
+                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
+            },
         }
     }
 }

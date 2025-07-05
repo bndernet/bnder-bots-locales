@@ -292,6 +292,44 @@ export class TSLocalizations_de {
             invite_team_members_description: "Lade deine Teammitglieder ein, deinem Arbeitsbereich beizutreten. Sie sehen die Einladung in ihren Benutzereinstellungen.",
             explore_workspace_title: "Erkunde den Arbeitsbereich",
             explore_workspace_description: "Erkunde den Arbeitsbereich und mache dich mit den Funktionen vertraut. Du kannst Aufgaben erstellen, Mitglieder verwalten und mehr. Du kannst auch die Einstellungen ansehen, um das Datumsformat, die Sprache und die Zeitzone anzupassen."
+        },
+        mails: {
+            footer: {
+                company_limited_liability: "haftungsbeschränkt",
+                company_address: "Im Flath 12 - 38542 Leiferde - Deutschland",
+                company_register_court: "Amtsgericht Hildesheim - HRB 209373",
+                company_ceo: "Geschäftsführer: Jan Brinkmann",
+                company_contact: "E-Mail: contact@bnder.net - Telefon: +49 511 45032009",
+                legal_automated_email: "Diese E-Mail wurde automatisch versendet. Bitte antworte nicht darauf.",
+                legal_privacy_policy_prefix: "Unsere Datenschutzerklärung findest du unter",
+                legal_imprint: "Impressum",
+                legal_terms_of_use: "Nutzungsbedingungen",
+                legal_privacy_policy: "Datenschutzerklärung",
+            },
+            verify_email: {
+                headline: "Bitte bestätige deine E-Mail-Adresse",
+                text: "Bitte bestätige deine E-Mail-Adresse, indem du auf den Link unten klickst.",
+                primaryActionText: "E-Mail-Adresse bestätigen",
+                primaryPasteActionLinkText: "Oder füge den Link unten in deinen Browser ein:",
+            },
+            password_changed: {
+                headline: "Passwort geändert",
+                text: "Ihr Passwort wurde erfolgreich geändert. Sollten Sie diese Änderung nicht selbst veranlasst haben, wenden Sie sich bitte umgehend an den Support unter contact@bnder.net.",
+            },
+            reset_password: {
+                headline: "Passwort zurücksetzen",
+                text: "Um Ihr Passwort zurückzusetzen, klicken Sie bitte auf die Schaltfläche unten. Falls Sie keine Passwortzurücksetzung angefordert haben, ignorieren Sie diese E-Mail bitte.",
+                primaryActionText: "Passwort zurücksetzen",
+                primaryPasteActionLinkText: "Oder fügen Sie den untenstehenden Link in Ihren Browser ein:",
+            },
+            workspace_invitation: {
+                headline: "Workspace-Einladung",
+                text(workspaceName: string): string {
+                    return `Sie wurden zum Workspace ${workspaceName} eingeladen. Klicken Sie auf die Schaltfläche unten, um die Einladung anzunehmen und dem Workspace beizutreten.`;
+                },
+                primaryActionText: "Workspace beitreten",
+                primaryPasteActionLinkText: "Oder fügen Sie den untenstehenden Link in Ihren Browser ein:",
+            },
         }
     }
 }
