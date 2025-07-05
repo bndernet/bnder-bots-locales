@@ -281,6 +281,17 @@ export class TSLocalizations_tr {
                 return `**${folderName}** klasörü [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
             }
         },
-        self_data_download_ready: "Verileriniz indirilmeye hazır. Bunu [uygulamamızdan](<https://bnder.net/app/>) indirebilirsiniz. İndirme bağlantısı iki hafta boyunca kullanılabilir."
+        self_data_download_ready: "Verileriniz indirilmeye hazır. Bunu [uygulamamızdan](<https://bnder.net/app/>) indirebilirsiniz. İndirme bağlantısı iki hafta boyunca kullanılabilir.",
+        tutorial_tasks: {
+            tutorial_label_name: "Eğitim",
+            create_first_task_title: "İlk görevinizi oluşturun",
+            create_first_task_description: "Bir görev oluşturarak başlayın. Ona bir isim verin ve isteğe bağlı olarak bir açıklama ekleyin.",
+            change_task_status_title: "Görev durumunu değiştirin",
+            change_task_status_description: "Bir görevin durumunu 'Devam Ediyor' veya 'Tamamlandı' olarak değiştirmek için görevi ilgili sütuna sürükleyin.",
+            invite_team_members_title: "Takım üyelerinizi davet edin",
+            invite_team_members_description: "Takım üyelerinizi çalışma alanınıza katılmaları için davet edin. Daveti kullanıcı ayarlarında görecekler.",
+            explore_workspace_title: "Çalışma alanını keşfedin",
+            explore_workspace_description: "Çalışma alanını keşfedin ve özelliklere alışın. Görevler oluşturabilir, üyeleri yönetebilir ve daha fazlasını yapabilirsiniz. Ayrıca tarih formatı, dil ve zaman dilimini ayarlamak için ayarlara da göz atabilirsiniz."
+        }
     }
 }

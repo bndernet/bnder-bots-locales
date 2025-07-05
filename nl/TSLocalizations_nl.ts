@@ -281,6 +281,17 @@ export class TSLocalizations_nl {
                 return `De map **${folderName}** is met je gedeeld in server [${guildName}](https://discord.com/channels/${guildId}) door <@${userId}>`;
             }
         },
-        self_data_download_ready: "Je gegevens zijn klaar om te downloaden. Je kunt ze downloaden in [onze app](<https://bnder.net/app/>). De downloadlink is twee weken beschikbaar."
+        self_data_download_ready: "Je gegevens zijn klaar om te downloaden. Je kunt ze downloaden in [onze app](<https://bnder.net/app/>). De downloadlink is twee weken beschikbaar.",
+        tutorial_tasks: {
+            tutorial_label_name: "Tutorial",
+            create_first_task_title: "Maak je eerste taak aan",
+            create_first_task_description: "Begin met het aanmaken van een taak. Geef het een naam en optioneel een beschrijving.",
+            change_task_status_title: "Wijzig de status van een taak",
+            change_task_status_description: "Wijzig de status van een taak naar 'Bezig' of 'Klaar' door deze naar de juiste kolom te slepen.",
+            invite_team_members_title: "Nodig je teamleden uit",
+            invite_team_members_description: "Nodig je teamleden uit om lid te worden van je werkruimte. Ze zullen de uitnodiging zien in hun gebruikersinstellingen.",
+            explore_workspace_title: "Verken de werkruimte",
+            explore_workspace_description: "Verken de werkruimte en raak vertrouwd met de functies. Je kunt taken aanmaken, leden beheren en meer. Je kunt ook de instellingen bekijken om het datumformaat, de taal en de tijdzone aan te passen."
+        }
     }
 }

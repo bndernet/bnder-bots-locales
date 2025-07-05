@@ -281,6 +281,17 @@ export class TSLocalizations_pt_br {
                 return `A pasta **${folderName}** foi compartilhada no servidor [${guildName}](https://discord.com/channels/${guildId}) por <@${userId}>`;
             }
         },
-        self_data_download_ready: "Seus dados estão prontos para download. Você pode baixá-los em [nosso aplicativo](<https://bnder.net/app/>). O link para download fica disponível por duas semanas."
+        self_data_download_ready: "Seus dados estão prontos para download. Você pode baixá-los em [nosso aplicativo](<https://bnder.net/app/>). O link para download fica disponível por duas semanas.",
+        tutorial_tasks: {
+            tutorial_label_name: "Tutorial",
+            create_first_task_title: "Crie sua primeira tarefa",
+            create_first_task_description: "Comece criando uma tarefa. Dê um nome e, opcionalmente, uma descrição.",
+            change_task_status_title: "Alterar status da tarefa",
+            change_task_status_description: "Altere o status de uma tarefa para 'Em andamento' ou 'Concluída' arrastando-a para a coluna respectiva.",
+            invite_team_members_title: "Convide os membros da sua equipe",
+            invite_team_members_description: "Convide os membros da sua equipe para entrar no seu espaço de trabalho. Eles verão o convite nas configurações do usuário.",
+            explore_workspace_title: "Explore o espaço de trabalho",
+            explore_workspace_description: "Explore o espaço de trabalho e familiarize-se com os recursos. Você pode criar tarefas, gerenciar membros e muito mais. Também pode dar uma olhada nas configurações para ajustar o formato da data, idioma e fuso horário."
+        }
     }
 }

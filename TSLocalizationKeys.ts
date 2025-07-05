@@ -187,6 +187,17 @@ export interface TSLocalizationKeys {
         folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string,
     },
     self_data_download_ready: string,
+    tutorial_tasks: {
+        tutorial_label_name: string,
+        create_first_task_title: string,
+        create_first_task_description: string,
+        change_task_status_title: string,
+        change_task_status_description: string,
+        invite_team_members_title: string,
+        invite_team_members_description: string,
+        explore_workspace_title: string,
+        explore_workspace_description: string,
+    }
 }
 
 export class Localizations {

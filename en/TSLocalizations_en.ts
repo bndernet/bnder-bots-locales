@@ -37,7 +37,7 @@ export class TSLocalizations_en {
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-              return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId}) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
+                return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId}) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
             },
             watcher_added_notification_unsubscribe_button: "Unsubscribe",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
@@ -281,6 +281,17 @@ export class TSLocalizations_en {
                 return `The folder **${folderName}** was shared with you in server [${guildName}](https://discord.com/channels/${guildId}) by <@${userId}>`;
             }
         },
-        self_data_download_ready: "Your data is ready for download. You can download it in [our app](<https://bnder.net/app/>). The download link is available for two weeks."
+        self_data_download_ready: "Your data is ready for download. You can download it in [our app](<https://bnder.net/app/>). The download link is available for two weeks.",
+        tutorial_tasks: {
+            tutorial_label_name: "Tutorial",
+            create_first_task_title: "Create your first task",
+            create_first_task_description: "Start by creating a task. Give it a name and optionally a description.",
+            change_task_status_title: "Change task status",
+            change_task_status_description: "Change the status of a task to 'In Progress' or 'Done' by dragging it to the respective column.",
+            invite_team_members_title: "Invite your team members",
+            invite_team_members_description: "Invite your team members to join your workspace. They will see the invitation in their user settings.",
+            explore_workspace_title: "Explore the workspace",
+            explore_workspace_description: "Explore the workspace and familiarize yourself with the features. You can create tasks, manage members, and more. You may also take a look into the settings to adjust the date format, language, and timezone."
+        }
     }
 }

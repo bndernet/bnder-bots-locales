@@ -281,6 +281,17 @@ export class TSLocalizations_ja {
                 return `フォルダ **${folderName}** がサーバー [${guildName}](https://discord.com/channels/${guildId}) で <@${userId}> によって共有されました。`;
             }
         },
-        self_data_download_ready: "あなたのデータはダウンロード準備が整いました。[アプリ](<https://bnder.net/app/>) からダウンロードできます。ダウンロードリンクは2週間有効です。"
+        self_data_download_ready: "あなたのデータはダウンロード準備が整いました。[アプリ](<https://bnder.net/app/>) からダウンロードできます。ダウンロードリンクは2週間有効です。",
+        tutorial_tasks: {
+            tutorial_label_name: "チュートリアル",
+            create_first_task_title: "最初のタスクを作成する",
+            create_first_task_description: "タスクを作成して始めましょう。名前を付け、必要に応じて説明を追加してください。",
+            change_task_status_title: "タスクの状態を変更する",
+            change_task_status_description: "タスクの状態を「進行中」または「完了」に変更するには、該当する列にドラッグしてください。",
+            invite_team_members_title: "チームメンバーを招待する",
+            invite_team_members_description: "チームメンバーをワークスペースに招待しましょう。招待はユーザー設定で確認できます。",
+            explore_workspace_title: "ワークスペースを探検する",
+            explore_workspace_description: "ワークスペースを探検して機能に慣れましょう。タスクの作成、メンバーの管理などができます。日付形式、言語、タイムゾーンの設定も確認できます。"
+        }
     }
 }

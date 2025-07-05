@@ -281,6 +281,17 @@ export class TSLocalizations_zh_cn {
                 return `文件夹 **${folderName}** 已由 <@${userId}> 在服务器 [${guildName}](https://discord.com/channels/${guildId}) 与您共享。`;
             }
         },
-        self_data_download_ready: "您的数据已准备好下载。您可以在 [我们的应用](<https://bnder.net/app/>) 中下载。下载链接有效期为两周。"
+        self_data_download_ready: "您的数据已准备好下载。您可以在 [我们的应用](<https://bnder.net/app/>) 中下载。下载链接有效期为两周。",
+        tutorial_tasks: {
+            tutorial_label_name: "教程",
+            create_first_task_title: "创建你的第一个任务",
+            create_first_task_description: "从创建一个任务开始。为它命名，并可选择添加描述。",
+            change_task_status_title: "更改任务状态",
+            change_task_status_description: "通过将任务拖动到相应的列，将任务状态更改为“进行中”或“已完成”。",
+            invite_team_members_title: "邀请团队成员",
+            invite_team_members_description: "邀请你的团队成员加入你的工作区。他们会在用户设置中看到邀请。",
+            explore_workspace_title: "探索工作区",
+            explore_workspace_description: "探索工作区并熟悉功能。你可以创建任务，管理成员等。你也可以查看设置，调整日期格式、语言和时区。"
+        }
     }
 }
