@@ -328,6 +328,7 @@ export class TSLocalizations_es_es {
                 primaryActionText: "Unirse al espacio de trabajo",
             },
             task_assigned: {
+                subject: "Se le ha asignado una nueva tarea",
                 greeting(guildName: string): string {
                     return `Se le ha asignado una tarea en el espacio de trabajo ${guildName}.`;
                 },

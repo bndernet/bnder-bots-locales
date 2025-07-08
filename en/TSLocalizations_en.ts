@@ -328,6 +328,7 @@ export class TSLocalizations_en {
                 primaryActionText: "Join Workspace",
             },
             task_assigned: {
+                subject: "You have been assigned a new task",
                 greeting(guildName: string): string {
                   return `You have been assigned to a task in workspace ${guildName}.`;
                 },

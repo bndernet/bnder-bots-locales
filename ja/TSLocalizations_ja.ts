@@ -328,6 +328,7 @@ export class TSLocalizations_ja {
                 primaryActionText: "ワークスペースに参加",
             },
             task_assigned: {
+                subject: "新しいタスクが割り当てられました",
                 greeting(guildName: string): string {
                     return `ワークスペース ${guildName} のタスクが割り当てられました。`;
                 },

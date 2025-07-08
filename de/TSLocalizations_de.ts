@@ -328,6 +328,7 @@ export class TSLocalizations_de {
                 primaryActionText: "Workspace beitreten",
             },
             task_assigned: {
+                subject: "Ihnen wurde eine neue Aufgabe zugewiesen",
                 greeting(guildName: string): string {
                     return `Ihnen wurde eine Aufgabe im Arbeitsbereich ${guildName} zugewiesen.`;
                 },

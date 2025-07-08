@@ -1,6 +1,8 @@
 import { TSLocalizationKeys } from "../TSLocalizationKeys";
 
 export class TSLocalizations_zh_cn {
+    constructor() {
+    }
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
@@ -328,6 +330,7 @@ export class TSLocalizations_zh_cn {
                 primaryActionText: "加入工作区",
             },
             task_assigned: {
+                subject: "您已被分配一项新任务",
                 greeting(guildName: string): string {
                     return `您已被分配到工作区 ${guildName} 中的一项任务。`;
                 },

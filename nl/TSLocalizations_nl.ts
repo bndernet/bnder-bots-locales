@@ -328,6 +328,7 @@ export class TSLocalizations_nl {
                 primaryActionText: "Deelnemen aan workspace",
             },
             task_assigned: {
+                subject: "Er is een nieuwe taak aan je toegewezen",
                 greeting(guildName: string): string {
                     return `Er is een taak aan u toegewezen in werkruimte ${guildName}.`;
                 },

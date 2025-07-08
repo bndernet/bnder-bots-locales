@@ -328,6 +328,7 @@ export class TSLocalizations_pl {
                 primaryActionText: "Dołącz do przestrzeni roboczej",
             },
             task_assigned: {
+                subject: "Zostało Ci przydzielone nowe zadanie",
                 greeting(guildName: string): string {
                     return `Zostałeś przypisany do zadania w obszarze roboczym ${guildName}.`;
                 },

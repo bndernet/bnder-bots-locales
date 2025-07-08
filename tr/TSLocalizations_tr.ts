@@ -328,6 +328,7 @@ export class TSLocalizations_tr {
                 primaryActionText: "Workspace'e katıl",
             },
             task_assigned: {
+                subject: "Size yeni bir görev atandı",
                 greeting(guildName: string): string {
                     return `${guildName} çalışma alanında bir göreve atandınız.`;
                 },

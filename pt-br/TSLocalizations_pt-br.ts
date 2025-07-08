@@ -328,6 +328,7 @@ export class TSLocalizations_pt_br {
                 primaryActionText: "Entrar no workspace",
             },
             task_assigned: {
+                subject: "Você recebeu uma nova tarefa",
                 greeting(guildName: string): string {
                     return `Você foi designado para uma tarefa no espaço de trabalho ${guildName}.`;
                 },

@@ -328,6 +328,7 @@ export class TSLocalizations_hi {
                 primaryActionText: "वर्कस्पेस से जुड़ें",
             },
             task_assigned: {
+                subject: "आपको एक नया कार्य सौंपा गया है",
                 greeting(guildName: string): string {
                     return `आपको कार्यक्षेत्र ${guildName} में एक कार्य सौंपा गया है।`;
                 },

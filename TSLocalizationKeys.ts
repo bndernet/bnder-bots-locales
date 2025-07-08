@@ -231,6 +231,7 @@ export interface TSLocalizationKeys {
             primaryActionText: string,
         },
         task_assigned: {
+            subject: string,
             greeting(guildName: string): string,
             no_deadline: string,
             open_in_app: string,

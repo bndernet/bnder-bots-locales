@@ -328,6 +328,7 @@ export class TSLocalizations_bg {
                 primaryActionText: "Присъедини се към работното пространство",
             },
             task_assigned: {
+                subject: "Възложена ви е нова задача",
                 greeting(guildName: string): string {
                     return `Назначена ви е задача в работното пространство ${guildName}.`;
                 },
