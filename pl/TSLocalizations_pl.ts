@@ -330,6 +330,12 @@ export class TSLocalizations_pl {
                 primaryActionText: "Dołącz do przestrzeni roboczej",
                 primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Zostałeś przypisany do zadania w obszarze roboczym ${guildName}.`;
+                },
+                no_deadline: "Nie wyznaczono terminu ostatecznego dla tego zadania.",
+            }
         }
     }
 }

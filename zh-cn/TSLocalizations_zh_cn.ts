@@ -330,6 +330,12 @@ export class TSLocalizations_zh_cn {
                 primaryActionText: "加入工作区",
                 primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `您已被分配到工作区 ${guildName} 中的一项任务。`;
+                },
+                no_deadline: "此任务未设定截止日期。",
+            }
         }
     }
 }

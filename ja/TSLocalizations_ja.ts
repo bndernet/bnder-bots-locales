@@ -330,6 +330,12 @@ export class TSLocalizations_ja {
                 primaryActionText: "ワークスペースに参加",
                 primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `ワークスペース ${guildName} のタスクが割り当てられました。`;
+                },
+                no_deadline: "このタスクには期限が設定されていません。",
+            }
         }
     }
 }

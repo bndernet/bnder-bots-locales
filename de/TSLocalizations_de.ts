@@ -330,6 +330,12 @@ export class TSLocalizations_de {
                 primaryActionText: "Workspace beitreten",
                 primaryPasteActionLinkText: "Oder fügen Sie den untenstehenden Link in Ihren Browser ein:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Ihnen wurde eine Aufgabe im Arbeitsbereich ${guildName} zugewiesen.`;
+                },
+                no_deadline: "Für diese Aufgabe ist keine Frist festgelegt.",
+            }
         }
     }
 }

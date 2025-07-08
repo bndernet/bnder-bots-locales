@@ -330,6 +330,12 @@ export class TSLocalizations_fr {
                 primaryActionText: "Rejoindre l’espace de travail",
                 primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Une tâche vous a été attribuée dans l'espace de travail ${guildName}.`;
+                },
+                no_deadline: "Aucune date limite n'est fixée pour cette tâche.",
+            }
         }
     }
 }

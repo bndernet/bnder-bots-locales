@@ -330,6 +330,12 @@ export class TSLocalizations_bg {
                 primaryActionText: "Присъедини се към работното пространство",
                 primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Назначена ви е задача в работното пространство ${guildName}.`;
+                },
+                no_deadline: "Няма определен краен срок за тази задача.",
+            }
         }
     }
 }

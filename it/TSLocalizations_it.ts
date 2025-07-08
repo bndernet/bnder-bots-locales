@@ -330,6 +330,12 @@ export class TSLocalizations_it {
                 primaryActionText: "Unisciti allo spazio di lavoro",
                 primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Ti è stato assegnato un compito nell'area di lavoro ${guildName}.`;
+                },
+                no_deadline: "Non è stata fissata alcuna scadenza per questo compito.",
+            }
         }
     }
 }

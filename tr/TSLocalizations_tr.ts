@@ -330,6 +330,12 @@ export class TSLocalizations_tr {
                 primaryActionText: "Workspace'e katıl",
                 primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `${guildName} çalışma alanında bir göreve atandınız.`;
+                },
+                no_deadline: "Bu görev için belirlenmiş bir son tarih yok.",
+            }
         }
     }
 }

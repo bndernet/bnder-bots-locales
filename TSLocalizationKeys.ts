@@ -233,6 +233,10 @@ export interface TSLocalizationKeys {
             primaryActionText: string,
             primaryPasteActionLinkText: string,
         },
+        task_assigned: {
+            greeting(guildName: string): string,
+            no_deadline: string,
+        }
     }
 }
 

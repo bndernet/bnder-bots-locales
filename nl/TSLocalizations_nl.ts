@@ -330,6 +330,12 @@ export class TSLocalizations_nl {
                 primaryActionText: "Deelnemen aan workspace",
                 primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Er is een taak aan u toegewezen in werkruimte ${guildName}.`;
+                },
+                no_deadline: "Er is geen deadline vastgesteld voor deze taak.",
+            }
         }
     }
 }

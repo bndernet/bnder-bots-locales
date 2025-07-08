@@ -330,6 +330,12 @@ export class TSLocalizations_hi {
                 primaryActionText: "वर्कस्पेस से जुड़ें",
                 primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `आपको कार्यक्षेत्र ${guildName} में एक कार्य सौंपा गया है।`;
+                },
+                no_deadline: "इस कार्य के लिए कोई समय सीमा निर्धारित नहीं की गई है।",
+            }
         }
     }
 }

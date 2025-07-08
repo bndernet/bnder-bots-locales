@@ -330,6 +330,12 @@ export class TSLocalizations_pt_br {
                 primaryActionText: "Entrar no workspace",
                 primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                    return `Você foi designado para uma tarefa no espaço de trabalho ${guildName}.`;
+                },
+                no_deadline: "Não há prazo definido para esta tarefa.",
+            }
         }
     }
 }

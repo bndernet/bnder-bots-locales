@@ -330,6 +330,12 @@ export class TSLocalizations_en {
                 primaryActionText: "Join Workspace",
                 primaryPasteActionLinkText: "Or paste the link below into your browser:",
             },
+            task_assigned: {
+                greeting(guildName: string): string {
+                  return `You have been assigned to a task in workspace ${guildName}.`;
+                },
+                no_deadline: "No deadline set for this task.",
+            }
         }
     }
 }
