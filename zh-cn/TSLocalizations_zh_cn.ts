@@ -310,7 +310,6 @@ export class TSLocalizations_zh_cn {
                 headline: "请确认您的电子邮件地址",
                 text: "请点击下面的链接确认您的电子邮件地址。",
                 primaryActionText: "确认电子邮件地址",
-                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
             },
             password_changed: {
                 headline: "密码已更改",
@@ -320,7 +319,6 @@ export class TSLocalizations_zh_cn {
                 headline: "重置密码",
                 text: "要重置密码，请点击下面的按钮。如果您未请求密码重置，请忽略此邮件。",
                 primaryActionText: "重置密码",
-                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
             },
             workspace_invitation: {
                 headline: "工作区邀请",
@@ -328,14 +326,15 @@ export class TSLocalizations_zh_cn {
                     return `您被邀请加入工作区 ${workspaceName}。点击下面的按钮接受邀请并加入工作区。`;
                 },
                 primaryActionText: "加入工作区",
-                primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `您已被分配到工作区 ${guildName} 中的一项任务。`;
                 },
                 no_deadline: "此任务未设定截止日期。",
-            }
+                open_in_app: "在应用中打开",
+            },
+            primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
         }
     }
 }

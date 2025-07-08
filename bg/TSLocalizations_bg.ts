@@ -252,7 +252,7 @@ export class TSLocalizations_bg {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Предстоящото събитие (${id}) **${name}** започва след ${durationTillEventMinutes} минути в ${startTime} в [${guildName}](https://discord.com/channels/${ guildId}).`;
+                return `Предстоящото събитие (${id}) **${name}** започва след ${durationTillEventMinutes} минути в ${startTime} в [${guildName}](https://discord.com/channels/${guildId}).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -310,7 +310,6 @@ export class TSLocalizations_bg {
                 headline: "Моля, потвърди своя имейл адрес",
                 text: "Моля, потвърди своя имейл адрес, като кликнеш върху връзката по-долу.",
                 primaryActionText: "Потвърди имейл адрес",
-                primaryPasteActionLinkText: "Или постави връзката по-долу в своя браузър:",
             },
             password_changed: {
                 headline: "Паролата е променена",
@@ -320,7 +319,6 @@ export class TSLocalizations_bg {
                 headline: "Нулиране на парола",
                 text: "За да нулирате паролата си, моля кликнете върху бутона по-долу. Ако не сте заявили нулиране на паролата, игнорирайте този имейл.",
                 primaryActionText: "Нулирай паролата",
-                primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
             },
             workspace_invitation: {
                 headline: "Покана за работно пространство",
@@ -328,14 +326,15 @@ export class TSLocalizations_bg {
                     return `Бяхте поканени в работното пространство ${workspaceName}. Кликнете върху бутона по-долу, за да приемете поканата и да се присъедините.`;
                 },
                 primaryActionText: "Присъедини се към работното пространство",
-                primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Назначена ви е задача в работното пространство ${guildName}.`;
                 },
                 no_deadline: "Няма определен краен срок за тази задача.",
-            }
+                open_in_app: "Отвори в приложението",
+            },
+            primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
         }
     }
 }

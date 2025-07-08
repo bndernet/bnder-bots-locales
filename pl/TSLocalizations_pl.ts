@@ -310,7 +310,6 @@ export class TSLocalizations_pl {
                 headline: "Potwierdź swój adres e-mail",
                 text: "Potwierdź swój adres e-mail, klikając w poniższy link.",
                 primaryActionText: "Potwierdź adres e-mail",
-                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
             },
             password_changed: {
                 headline: "Hasło zostało zmienione",
@@ -320,7 +319,6 @@ export class TSLocalizations_pl {
                 headline: "Zresetuj hasło",
                 text: "Aby zresetować hasło, kliknij przycisk poniżej. Jeśli nie prosiłeś o reset hasła, zignoruj tę wiadomość.",
                 primaryActionText: "Zresetuj hasło",
-                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
             },
             workspace_invitation: {
                 headline: "Zaproszenie do przestrzeni roboczej",
@@ -328,14 +326,15 @@ export class TSLocalizations_pl {
                     return `Zostałeś zaproszony do przestrzeni roboczej ${workspaceName}. Kliknij przycisk poniżej, aby zaakceptować zaproszenie i dołączyć do przestrzeni.`;
                 },
                 primaryActionText: "Dołącz do przestrzeni roboczej",
-                primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Zostałeś przypisany do zadania w obszarze roboczym ${guildName}.`;
                 },
                 no_deadline: "Nie wyznaczono terminu ostatecznego dla tego zadania.",
-            }
+                open_in_app: "Zobacz w aplikacji",
+            },
+            primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
         }
     }
 }

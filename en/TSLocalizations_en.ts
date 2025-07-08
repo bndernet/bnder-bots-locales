@@ -310,7 +310,6 @@ export class TSLocalizations_en {
                 headline: "Verify your email address",
                 text: "Please confirm your email address by clicking the link below.",
                 primaryActionText: "Verify Email",
-                primaryPasteActionLinkText: "Or paste the link below into your browser:",
             },
             password_changed: {
                 headline: "Password Changed",
@@ -320,7 +319,6 @@ export class TSLocalizations_en {
                 headline: "Reset your password",
                 text: "To reset your password, please click the button below. If you did not request a password reset, please ignore this email.",
                 primaryActionText: "Reset Password",
-                primaryPasteActionLinkText: "Or paste the link below into your browser:",
             },
             workspace_invitation: {
                 headline: "Workspace Invitation",
@@ -328,14 +326,15 @@ export class TSLocalizations_en {
                     return `You have been invited to join the workspace ${workspaceName}. Click the button below to accept the invitation and join the workspace.`;
                 },
                 primaryActionText: "Join Workspace",
-                primaryPasteActionLinkText: "Or paste the link below into your browser:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                   return `You have been assigned to a task in workspace ${guildName}.`;
                 },
                 no_deadline: "No deadline set for this task.",
-            }
+                open_in_app: "Open in App",
+            },
+            primaryPasteActionLinkText: "Or paste the link below into your browser:",
         }
     }
 }

@@ -310,7 +310,6 @@ export class TSLocalizations_hi {
                 headline: "कृपया अपना ईमेल पता पुष्टि करें",
                 text: "कृपया नीचे दिए गए लिंक पर क्लिक करके अपना ईमेल पता पुष्टि करें।",
                 primaryActionText: "ईमेल पता पुष्टि करें",
-                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
             },
             password_changed: {
                 headline: "पासवर्ड बदला गया",
@@ -320,7 +319,6 @@ export class TSLocalizations_hi {
                 headline: "पासवर्ड रीसेट करें",
                 text: "अपना पासवर्ड रीसेट करने के लिए कृपया नीचे दिए गए बटन पर क्लिक करें। यदि आपने पासवर्ड रीसेट का अनुरोध नहीं किया है, तो इस ईमेल को अनदेखा करें।",
                 primaryActionText: "पासवर्ड रीसेट करें",
-                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
             },
             workspace_invitation: {
                 headline: "वर्कस्पेस निमंत्रण",
@@ -328,14 +326,15 @@ export class TSLocalizations_hi {
                     return `आपको वर्कस्पेस ${workspaceName} में आमंत्रित किया गया है। निमंत्रण स्वीकार करने और वर्कस्पेस से जुड़ने के लिए नीचे दिए गए बटन पर क्लिक करें।`;
                 },
                 primaryActionText: "वर्कस्पेस से जुड़ें",
-                primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `आपको कार्यक्षेत्र ${guildName} में एक कार्य सौंपा गया है।`;
                 },
                 no_deadline: "इस कार्य के लिए कोई समय सीमा निर्धारित नहीं की गई है।",
-            }
+                open_in_app: "कार्य को ऐप में खोलें",
+            },
+            primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
         }
     }
 }

@@ -310,7 +310,6 @@ export class TSLocalizations_it {
                 headline: "Conferma il tuo indirizzo e-mail",
                 text: "Conferma il tuo indirizzo e-mail cliccando sul link qui sotto.",
                 primaryActionText: "Conferma indirizzo e-mail",
-                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
             },
             password_changed: {
                 headline: "Password modificata",
@@ -320,7 +319,6 @@ export class TSLocalizations_it {
                 headline: "Reimposta password",
                 text: "Per reimpostare la tua password, fai clic sul pulsante qui sotto. Se non hai richiesto la reimpostazione, ignora questa e-mail.",
                 primaryActionText: "Reimposta password",
-                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
             },
             workspace_invitation: {
                 headline: "Invito allo spazio di lavoro",
@@ -328,14 +326,15 @@ export class TSLocalizations_it {
                     return `Sei stato invitato allo spazio di lavoro ${workspaceName}. Fai clic sul pulsante qui sotto per accettare l’invito e unirti allo spazio.`;
                 },
                 primaryActionText: "Unisciti allo spazio di lavoro",
-                primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Ti è stato assegnato un compito nell'area di lavoro ${guildName}.`;
                 },
                 no_deadline: "Non è stata fissata alcuna scadenza per questo compito.",
-            }
+                open_in_app: "Apri nell'app",
+            },
+            primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
         }
     }
 }

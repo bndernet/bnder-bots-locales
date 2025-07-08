@@ -215,7 +215,6 @@ export interface TSLocalizationKeys {
             headline: string,
             text: string,
             primaryActionText: string,
-            primaryPasteActionLinkText: string,
         },
         password_changed: {
             headline: string,
@@ -225,18 +224,18 @@ export interface TSLocalizationKeys {
             headline: string,
             text: string,
             primaryActionText: string,
-            primaryPasteActionLinkText: string,
         },
         workspace_invitation: {
             headline: string,
             text(workspaceName: string): string,
             primaryActionText: string,
-            primaryPasteActionLinkText: string,
         },
         task_assigned: {
             greeting(guildName: string): string,
             no_deadline: string,
-        }
+            open_in_app: string,
+        },
+        primaryPasteActionLinkText: string,
     }
 }
 

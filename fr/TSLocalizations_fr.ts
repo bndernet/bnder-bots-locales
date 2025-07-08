@@ -310,7 +310,6 @@ export class TSLocalizations_fr {
                 headline: "Veuillez confirmer votre adresse e-mail",
                 text: "Veuillez confirmer votre adresse e-mail en cliquant sur le lien ci-dessous.",
                 primaryActionText: "Confirmer l’adresse e-mail",
-                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
             },
             password_changed: {
                 headline: "Mot de passe modifié",
@@ -320,7 +319,6 @@ export class TSLocalizations_fr {
                 headline: "Réinitialiser le mot de passe",
                 text: "Pour réinitialiser votre mot de passe, cliquez sur le bouton ci-dessous. Si vous n’avez pas demandé cette réinitialisation, ignorez cet e-mail.",
                 primaryActionText: "Réinitialiser le mot de passe",
-                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
             },
             workspace_invitation: {
                 headline: "Invitation à l’espace de travail",
@@ -328,14 +326,15 @@ export class TSLocalizations_fr {
                     return `Vous avez été invité à rejoindre l’espace de travail ${workspaceName}. Cliquez sur le bouton ci-dessous pour accepter l’invitation et rejoindre l’espace.`;
                 },
                 primaryActionText: "Rejoindre l’espace de travail",
-                primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Une tâche vous a été attribuée dans l'espace de travail ${guildName}.`;
                 },
                 no_deadline: "Aucune date limite n'est fixée pour cette tâche.",
-            }
+                open_in_app: "Ouvrir dans l'application",
+            },
+            primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
         }
     }
 }

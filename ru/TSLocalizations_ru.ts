@@ -310,7 +310,6 @@ export class TSLocalizations_ru {
                 headline: "Пожалуйста, подтвердите ваш адрес электронной почты",
                 text: "Подтвердите ваш адрес электронной почты, кликнув по ссылке ниже.",
                 primaryActionText: "Подтвердить e-mail",
-                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
             },
             password_changed: {
                 headline: "Пароль изменён",
@@ -320,7 +319,6 @@ export class TSLocalizations_ru {
                 headline: "Сбросить пароль",
                 text: "Чтобы сбросить пароль, нажмите кнопку ниже. Если вы не запрашивали сброс пароля, проигнорируйте это письмо.",
                 primaryActionText: "Сбросить пароль",
-                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
             },
             workspace_invitation: {
                 headline: "Приглашение в рабочее пространство",
@@ -328,14 +326,15 @@ export class TSLocalizations_ru {
                     return `Вас пригласили в рабочее пространство ${workspaceName}. Нажмите кнопку ниже, чтобы принять приглашение и присоединиться к рабочему пространству.`;
                 },
                 primaryActionText: "Присоединиться к рабочему пространству",
-                primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Вам назначена задача в рабочей области ${guildName}.`;
                 },
                 no_deadline: "Крайний срок для этой задачи не установлен.",
-            }
+                open_in_app: "Открыть в приложении",
+            },
+            primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
         }
     }
 }

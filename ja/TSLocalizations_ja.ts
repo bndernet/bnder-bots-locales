@@ -310,7 +310,6 @@ export class TSLocalizations_ja {
                 headline: "メールアドレスの確認をお願いします",
                 text: "下のリンクをクリックして、メールアドレスの確認を完了してください。",
                 primaryActionText: "メールアドレスを確認",
-                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
             },
             password_changed: {
                 headline: "パスワードが変更されました",
@@ -320,7 +319,6 @@ export class TSLocalizations_ja {
                 headline: "パスワードをリセット",
                 text: "パスワードをリセットするには、下のボタンをクリックしてください。パスワードリセットをリクエストしていない場合は、このメールを無視してください。",
                 primaryActionText: "パスワードをリセット",
-                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
             },
             workspace_invitation: {
                 headline: "ワークスペースへの招待",
@@ -328,14 +326,15 @@ export class TSLocalizations_ja {
                     return `あなたはワークスペース「${workspaceName}」に招待されました。招待を受け入れて参加するには、下のボタンをクリックしてください。`;
                 },
                 primaryActionText: "ワークスペースに参加",
-                primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `ワークスペース ${guildName} のタスクが割り当てられました。`;
                 },
                 no_deadline: "このタスクには期限が設定されていません。",
-            }
+                open_in_app: "アプリでタスクを開く",
+            },
+            primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
         }
     }
 }

@@ -310,7 +310,6 @@ export class TSLocalizations_nl {
                 headline: "Bevestig je e-mailadres",
                 text: "Bevestig je e-mailadres door op de onderstaande link te klikken.",
                 primaryActionText: "Bevestig e-mailadres",
-                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
             },
             password_changed: {
                 headline: "Wachtwoord gewijzigd",
@@ -320,7 +319,6 @@ export class TSLocalizations_nl {
                 headline: "Wachtwoord opnieuw instellen",
                 text: "Klik op de onderstaande knop om je wachtwoord opnieuw in te stellen. Als je hier niet om hebt gevraagd, kun je deze e-mail negeren.",
                 primaryActionText: "Wachtwoord opnieuw instellen",
-                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
             },
             workspace_invitation: {
                 headline: "Workspace-uitnodiging",
@@ -328,14 +326,15 @@ export class TSLocalizations_nl {
                     return `Je bent uitgenodigd voor de workspace ${workspaceName}. Klik op de onderstaande knop om de uitnodiging te accepteren en deel te nemen aan de workspace.`;
                 },
                 primaryActionText: "Deelnemen aan workspace",
-                primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `Er is een taak aan u toegewezen in werkruimte ${guildName}.`;
                 },
                 no_deadline: "Er is geen deadline vastgesteld voor deze taak.",
-            }
+                open_in_app: "Open in de app",
+            },
+            primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
         }
     }
 }

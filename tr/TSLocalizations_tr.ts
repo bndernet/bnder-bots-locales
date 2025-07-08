@@ -310,7 +310,6 @@ export class TSLocalizations_tr {
                 headline: "Lütfen e-posta adresinizi onaylayın",
                 text: "Lütfen aşağıdaki bağlantıya tıklayarak e-posta adresinizi onaylayın.",
                 primaryActionText: "E-posta adresini onayla",
-                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
             },
             password_changed: {
                 headline: "Şifre değiştirildi",
@@ -320,7 +319,6 @@ export class TSLocalizations_tr {
                 headline: "Şifre sıfırlama",
                 text: "Şifrenizi sıfırlamak için lütfen aşağıdaki butona tıklayın. Şifre sıfırlama talebinde bulunmadıysanız, bu e-postayı dikkate almayın.",
                 primaryActionText: "Şifreyi sıfırla",
-                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
             },
             workspace_invitation: {
                 headline: "Workspace Daveti",
@@ -328,14 +326,15 @@ export class TSLocalizations_tr {
                     return `${workspaceName} workspace'ine davet edildiniz. Daveti kabul etmek ve workspace'e katılmak için aşağıdaki butona tıklayın.`;
                 },
                 primaryActionText: "Workspace'e katıl",
-                primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
             },
             task_assigned: {
                 greeting(guildName: string): string {
                     return `${guildName} çalışma alanında bir göreve atandınız.`;
                 },
                 no_deadline: "Bu görev için belirlenmiş bir son tarih yok.",
-            }
+                open_in_app: "Uygulamada aç",
+            },
+            primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
         }
     }
 }
