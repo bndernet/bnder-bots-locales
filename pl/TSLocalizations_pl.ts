@@ -335,6 +335,16 @@ export class TSLocalizations_pl {
                 open_in_app: "Zobacz w aplikacji",
             },
             primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
+            task_watcher: {
+                added_subject: "Zostałeś dodany jako obserwator zadania",
+                watcher_added(guildName: string): string {
+                    return `Zostałeś dodany jako obserwator zadania w przestrzeni roboczej ${guildName}. Będziesz otrzymywać powiadomienia, gdy coś się zmieni w tym zadaniu.`;
+                },
+                subject: "Powiadomienie o zmianie w zadaniu",
+                activity(guildName: string): string {
+                    return `Zadanie, które obserwujesz w przestrzeni roboczej ${guildName}, zostało zmienione.`;
+                }
+            }
         }
     }
 }

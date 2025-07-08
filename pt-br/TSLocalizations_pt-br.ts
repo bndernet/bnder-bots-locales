@@ -335,6 +335,16 @@ export class TSLocalizations_pt_br {
                 open_in_app: "Abra a tarefa no aplicativo",
             },
             primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
+            task_watcher: {
+                added_subject: "Você foi adicionado como observador de uma tarefa",
+                watcher_added(guildName: string): string {
+                    return `Você foi adicionado como observador de uma tarefa no espaço de trabalho ${guildName}. Você receberá notificações quando algo mudar nessa tarefa.`;
+                },
+                subject: "Notificação de atualização de tarefa",
+                activity(guildName: string): string {
+                    return `Uma tarefa que você está observando no espaço de trabalho ${guildName} foi alterada.`;
+                }
+            }
         }
     }
 }

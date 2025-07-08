@@ -335,6 +335,16 @@ export class TSLocalizations_it {
                 open_in_app: "Apri nell'app",
             },
             primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
+            task_watcher: {
+                added_subject: "Sei stato aggiunto come osservatore a un'attività",
+                watcher_added(guildName: string): string {
+                    return `Sei stato aggiunto come osservatore a un'attività nello spazio di lavoro ${guildName}. Riceverai notifiche quando ci saranno cambiamenti in questa attività.`;
+                },
+                subject: "Notifica di aggiornamento attività",
+                activity(guildName: string): string {
+                    return `Un'attività che stai osservando nello spazio di lavoro ${guildName} è stata modificata.`;
+                }
+            }
         }
     }
 }

@@ -335,6 +335,16 @@ export class TSLocalizations_de {
                 open_in_app: "Öffne die Aufgabe in der App",
             },
             primaryPasteActionLinkText: "Oder fügen Sie den untenstehenden Link in Ihren Browser ein:",
+            task_watcher: {
+                added_subject: "Du wurdest als Beobachter für eine Aufgabe hinzugefügt",
+                watcher_added(guildName: string): string {
+                    return `Du wurdest als Beobachter für eine Aufgabe im Arbeitsbereich ${guildName} hinzugefügt. Du wirst Benachrichtigungen erhalten, wenn sich etwas an dieser Aufgabe ändert.`;
+                },
+                subject: "Benachrichtigung über Aufgabenänderung",
+                activity(guildName: string): string {
+                    return `Eine Aufgabe, die du im Arbeitsbereich ${guildName} beobachtest, wurde geändert.`;
+                }
+            }
         }
     }
 }

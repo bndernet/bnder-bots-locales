@@ -335,6 +335,16 @@ export class TSLocalizations_hi {
                 open_in_app: "कार्य को ऐप में खोलें",
             },
             primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
+            task_watcher: {
+                added_subject: "आपको एक कार्य का पर्यवेक्षक बनाया गया है",
+                watcher_added(guildName: string): string {
+                    return `आपको कार्यक्षेत्र ${guildName} में एक कार्य का पर्यवेक्षक बनाया गया है। जब भी इस कार्य में कोई बदलाव होगा, आपको सूचनाएँ प्राप्त होंगी।`;
+                },
+                subject: "कार्य अपडेट सूचना",
+                activity(guildName: string): string {
+                    return `कार्यक्षेत्र ${guildName} में जिस कार्य को आप देख रहे हैं, उसमें बदलाव हुआ है।`;
+                }
+            }
         }
     }
 }

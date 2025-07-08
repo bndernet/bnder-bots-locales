@@ -236,6 +236,12 @@ export interface TSLocalizationKeys {
             open_in_app: string,
         },
         primaryPasteActionLinkText: string,
+        task_watcher: {
+            added_subject: string,
+            watcher_added(guildName: string): string,
+            subject: string,
+            activity(guildName: string): string,
+        }
     }
 }
 

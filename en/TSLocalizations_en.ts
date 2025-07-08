@@ -335,6 +335,16 @@ export class TSLocalizations_en {
                 open_in_app: "Open in App",
             },
             primaryPasteActionLinkText: "Or paste the link below into your browser:",
+            task_watcher: {
+                added_subject: "You have been added as a watcher to a task",
+                watcher_added(guildName: string): string {
+                    return `You have been added as a watcher to a task in workspace ${guildName}. You will receive notifications when something changes in this task.`;
+                },
+                subject: "Task update notification",
+                activity(guildName: string): string {
+                    return `A task you are watching in workspace ${guildName} has changed.`;
+                }
+            }
         }
     }
 }

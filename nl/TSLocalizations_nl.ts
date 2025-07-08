@@ -335,6 +335,16 @@ export class TSLocalizations_nl {
                 open_in_app: "Open in de app",
             },
             primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
+            task_watcher: {
+                added_subject: "Je bent toegevoegd als volger van een taak",
+                watcher_added(guildName: string): string {
+                    return `Je bent toegevoegd als volger van een taak in de werkruimte ${guildName}. Je ontvangt meldingen wanneer er iets in deze taak verandert.`;
+                },
+                subject: "Taakupdate-melding",
+                activity(guildName: string): string {
+                    return `Een taak die je volgt in de werkruimte ${guildName} is gewijzigd.`;
+                }
+            }
         }
     }
 }

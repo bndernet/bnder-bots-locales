@@ -335,6 +335,16 @@ export class TSLocalizations_ru {
                 open_in_app: "Открыть в приложении",
             },
             primaryPasteActionLinkText: "Или вставьте ссылку ниже в ваш браузер:",
+            task_watcher: {
+                added_subject: "Вы были добавлены в наблюдатели задачи",
+                watcher_added(guildName: string): string {
+                    return `Вы были добавлены в наблюдатели задачи в рабочем пространстве ${guildName}. Вы будете получать уведомления при изменениях в этой задаче.`;
+                },
+                subject: "Уведомление об обновлении задачи",
+                activity(guildName: string): string {
+                    return `Задача, которую вы наблюдаете в рабочем пространстве ${guildName}, была изменена.`;
+                }
+            }
         }
     }
 }

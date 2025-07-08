@@ -335,6 +335,16 @@ export class TSLocalizations_ja {
                 open_in_app: "アプリでタスクを開く",
             },
             primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
+            task_watcher: {
+                added_subject: "タスクのウォッチャーとして追加されました",
+                watcher_added(guildName: string): string {
+                    return `ワークスペース「${guildName}」のタスクにウォッチャーとして追加されました。このタスクに変更があった場合、通知が届きます。`;
+                },
+                subject: "タスク更新の通知",
+                activity(guildName: string): string {
+                    return `あなたがウォッチしているワークスペース「${guildName}」のタスクが変更されました。`;
+                }
+            }
         }
     }
 }

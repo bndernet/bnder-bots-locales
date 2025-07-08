@@ -335,6 +335,16 @@ export class TSLocalizations_zh_cn {
                 open_in_app: "在应用中打开",
             },
             primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
+            task_watcher: {
+                added_subject: "您已被添加为任务的观察者",
+                watcher_added(guildName: string): string {
+                    return `您已被添加为工作区 ${guildName} 中某个任务的观察者。当该任务发生变化时，您将收到通知。`;
+                },
+                subject: "任务更新通知",
+                activity(guildName: string): string {
+                    return `您正在关注的工作区 ${guildName} 中的任务已发生变化。`;
+                }
+            }
         }
     }
 }

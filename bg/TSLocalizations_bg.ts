@@ -335,6 +335,16 @@ export class TSLocalizations_bg {
                 open_in_app: "Отвори в приложението",
             },
             primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
+            task_watcher: {
+                added_subject: "Бяхте добавен като наблюдател към задача",
+                watcher_added(guildName: string): string {
+                    return `Бяхте добавен като наблюдател към задача в работното пространство ${guildName}. Ще получавате известия, когато има промени по тази задача.`;
+                },
+                subject: "Известие за промяна по задача",
+                activity(guildName: string): string {
+                    return `Задача, която наблюдавате в работното пространство ${guildName}, беше променена.`;
+                }
+            }
         }
     }
 }

@@ -335,6 +335,16 @@ export class TSLocalizations_tr {
                 open_in_app: "Uygulamada aç",
             },
             primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
+            task_watcher: {
+                added_subject: "Bir görevin izleyicisi olarak eklendiniz",
+                watcher_added(guildName: string): string {
+                    return `${guildName} çalışma alanındaki bir görevin izleyicisi olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirim alacaksınız.`;
+                },
+                subject: "Görev güncelleme bildirimi",
+                activity(guildName: string): string {
+                    return `${guildName} çalışma alanında izlediğiniz bir görev değişti.`;
+                }
+            }
         }
     }
 }
