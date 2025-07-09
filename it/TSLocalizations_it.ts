@@ -345,7 +345,12 @@ export class TSLocalizations_it {
                 activity(guildName: string): string {
                     return `Un'attività che stai osservando nello spazio di lavoro ${guildName} è stata modificata.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "I tuoi dati sono pronti per il download",
+                text: "Abbiamo preparato i tuoi dati per il download. Puoi accedervi nell'app. Il link per il download sarà disponibile per due settimane.",
+            },
+            open_app: "Apri l'app",
         }
     }
 }

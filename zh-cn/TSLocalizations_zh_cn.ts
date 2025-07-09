@@ -347,7 +347,12 @@ export class TSLocalizations_zh_cn {
                 activity(guildName: string): string {
                     return `您正在关注的工作区 ${guildName} 中的任务已发生变化。`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "您的数据已准备好下载",
+                text: "我们已为您准备好数据，您可以在应用中访问。下载链接有效期为两周。",
+            },
+            open_app: "打开应用",
         }
     }
 }

@@ -345,7 +345,12 @@ export class TSLocalizations_en {
                 activity(guildName: string): string {
                     return `A task you are watching in workspace ${guildName} has changed.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "Your data is ready for download",
+                text: "We've prepared your data for download. You can access it in the app. The download link is available for two weeks.",
+            },
+            open_app: "Open App",
         }
     }
 }

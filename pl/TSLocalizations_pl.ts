@@ -345,7 +345,12 @@ export class TSLocalizations_pl {
                 activity(guildName: string): string {
                     return `Zadanie, które obserwujesz w przestrzeni roboczej ${guildName}, zostało zmienione.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "Twoje dane są gotowe do pobrania",
+                text: "Przygotowaliśmy Twoje dane do pobrania. Możesz uzyskać do nich dostęp w aplikacji. Link do pobrania będzie dostępny przez dwa tygodnie.",
+            },
+            open_app: "Otwórz aplikację",
         }
     }
 }

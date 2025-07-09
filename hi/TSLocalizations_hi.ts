@@ -345,7 +345,12 @@ export class TSLocalizations_hi {
                 activity(guildName: string): string {
                     return `कार्यक्षेत्र ${guildName} में जिस कार्य को आप देख रहे हैं, उसमें बदलाव हुआ है।`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "आपका डेटा डाउनलोड के लिए तैयार है",
+                text: "हमने आपका डेटा डाउनलोड के लिए तैयार कर लिया है। आप इसे ऐप में एक्सेस कर सकते हैं। डाउनलोड लिंक दो हफ्तों तक उपलब्ध रहेगा।",
+            },
+            open_app: "ऐप खोलें",
         }
     }
 }

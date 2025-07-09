@@ -345,7 +345,12 @@ export class TSLocalizations_ja {
                 activity(guildName: string): string {
                     return `あなたがウォッチしているワークスペース「${guildName}」のタスクが変更されました。`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "データのダウンロード準備ができました",
+                text: "あなたのデータをダウンロード用に準備しました。アプリ内でアクセスできます。ダウンロードリンクは2週間有効です。",
+            },
+            open_app: "アプリを開く",
         }
     }
 }

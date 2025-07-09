@@ -345,7 +345,12 @@ export class TSLocalizations_tr {
                 activity(guildName: string): string {
                     return `${guildName} çalışma alanında izlediğiniz bir görev değişti.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "Verileriniz indirilmeye hazır",
+                text: "Verileriniz indirilmeye hazırlandı. Uygulamada erişebilirsiniz. İndirme bağlantısı iki hafta boyunca geçerlidir.",
+            },
+            open_app: "Uygulamayı Aç",
         }
     }
 }

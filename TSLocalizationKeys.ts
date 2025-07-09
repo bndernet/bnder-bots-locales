@@ -242,7 +242,12 @@ export interface TSLocalizationKeys {
             watcher_added(guildName: string): string,
             subject: string,
             activity(guildName: string): string,
-        }
+        },
+        self_data_download_ready: {
+            headline: string,
+            text: string,
+        },
+        open_app: string,
     }
 }
 

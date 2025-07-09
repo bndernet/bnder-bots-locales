@@ -345,7 +345,12 @@ export class TSLocalizations_nl {
                 activity(guildName: string): string {
                     return `Een taak die je volgt in de werkruimte ${guildName} is gewijzigd.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "Je gegevens zijn klaar om te downloaden",
+                text: "We hebben je gegevens klaargezet voor download. Je kunt er toegang toe krijgen in de app. De downloadlink is twee weken beschikbaar.",
+            },
+            open_app: "App openen",
         }
     }
 }

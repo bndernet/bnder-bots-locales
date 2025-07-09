@@ -345,7 +345,12 @@ export class TSLocalizations_de {
                 activity(guildName: string): string {
                     return `Eine Aufgabe, die du im Arbeitsbereich ${guildName} beobachtest, wurde geändert.`;
                 }
-            }
+            },
+            self_data_download_ready: {
+                headline: "Deine Daten stehen zum Download bereit",
+                text: "Wir haben deine Daten für den Download vorbereitet. Du kannst sie in der App abrufen. Der Download-Link ist zwei Wochen lang verfügbar.",
+            },
+            open_app: "App öffnen",
         }
     }
 }
