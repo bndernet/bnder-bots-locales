@@ -506,7 +506,7 @@
     "delete_confirm": "您确定要删除事件 **{{id}}** 吗？",
     "invite_denied": "您已拒绝事件 **{{id}}** 的邀请。",
     "deny_dm": "<@{{invitee}}> 已拒绝您对事件 **{{id}}** 的邀请。",
-    "info": "# 关于事件 **{{id}}** 的信息：\n名称：{{name}}\n地点：{{location}}\n开始时间：{{start}}\n结束时间：{{end}}\n创建者：<@{{creator}}>\n重复间隔：{{repeat_interval}} 天\n重复到：{{repeat_until}}\n邀请人：{{invitees}}\n-# 所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您的个人时区。",
+    "info": "# 关于事件 **{{id}}** 的信息：\n名称：{{name}}\n地点：{{location}}\n开始时间：{{start}}\n结束时间：{{end}}\n创建者：<@{{creator}}>\n重复间隔：{{repeat_interval}} 天\n重复直到：{{repeat_until}}\n受邀者：{{invitees}}\n类型：{{type}}\n-# 所有日期均按 {{timezone}} 时区计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您自己的时区。",
     "invite_creator_error": "您无法邀请用户参加您不是其创建者的活动。使用“/event list”列出所有活动或使用“/event create”创建新活动。",
     "invite_self_creator_error": "您无法邀请自己参加您创建的活动。请选择其他用户来邀请参加活动。",
     "invite_already_invited": "用户 <@{{user}}> 已被邀请参加事件 **{{id}}**。",
@@ -532,7 +532,12 @@
     "edited": "事件 **{{id}}** 已编辑，标题为 **{{name}}**，时间从 {{start}} 到 {{end}}。\n-# 所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您的个人时区。",
     "edit_no_changes": "事件 **{{id}}** 未做任何更改。请在命令中指定新的名称、开始或结束时间，以对该事件进行更改。",
     "edit_creator_error": "只有创建者才能对事件进行更改！",
-    "used_timezone_notice": "所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您自己的时区。"
+    "used_timezone_notice": "所有日期均以 {{timezone}} 计算。使用 \"/settings timezone\" 更改整个服务器的时区，或使用 \"/preferences timezone\" 更改您自己的时区。",
+    "type": {
+      "task": "任务",
+      "birthday": "生日",
+      "out_of_office": "离开办公室"
+    }
   },
   "setup": {
     "skip_button_label": "跳过此步骤",

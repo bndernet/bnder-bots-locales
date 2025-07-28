@@ -330,7 +330,7 @@ export class TSLocalizations_en {
             task_assigned: {
                 subject: "You have been assigned a new task",
                 greeting(guildName: string): string {
-                  return `You have been assigned to a task in workspace ${guildName}.`;
+                    return `You have been assigned to a task in workspace ${guildName}.`;
                 },
                 no_deadline: "No deadline set for this task.",
                 open_in_app: "Open in App",

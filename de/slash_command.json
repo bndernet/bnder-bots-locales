@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Den Abonnement-Link für Ihren Kalender abrufen",
     "repeat_interval_option_description": "Intervall, in dem das Ereignis wiederholt werden soll",
     "repeat_until_option_description": "Datum, bis zu dem das Ereignis wiederholt werden soll",
-    "all_day_option_description": "Ob das Ereignis ein ganztägiges Ereignis ist"
+    "all_day_option_description": "Ob das Ereignis ein ganztägiges Ereignis ist",
+    "type_option_description": "Veranstaltungsart",
+    "type_option_event": "Veranstaltung",
+    "type_option_out_of_office": "Abwesend",
+    "type_option_birthday": "Geburtstag"
   }
 }

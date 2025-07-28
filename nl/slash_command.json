@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Krijg de abonnementslink voor je kalender",
     "repeat_interval_option_description": "Interval waarmee het evenement moet herhalen",
     "repeat_until_option_description": "Datum tot wanneer het evenement moet herhalen",
-    "all_day_option_description": "Of het evenement een hele dag duurt"
+    "all_day_option_description": "Of het evenement een hele dag duurt",
+    "type_option_description": "Type gebeurtenis",
+    "type_option_event": "Gebeurtenis",
+    "type_option_out_of_office": "Afwezig",
+    "type_option_birthday": "Verjaardag"
   }
 }

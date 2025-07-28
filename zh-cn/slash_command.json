@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "获取您的日历订阅链接",
     "repeat_interval_option_description": "事件重复的时间间隔",
     "repeat_until_option_description": "事件重复的截止日期",
-    "all_day_option_description": "事件是否为全天事件"
+    "all_day_option_description": "事件是否为全天事件",
+    "type_option_description": "活动类型",
+    "type_option_event": "活动",
+    "type_option_out_of_office": "外出",
+    "type_option_birthday": "生日"
   }
 }

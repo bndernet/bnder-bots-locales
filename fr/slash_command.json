@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Obtenir le lien d'abonnement à votre calendrier",
     "repeat_interval_option_description": "Intervalle auquel l'événement doit se répéter",
     "repeat_until_option_description": "Date jusqu'à laquelle l'événement doit se répéter",
-    "all_day_option_description": "Si l'événement est un événement d'une journée entière"
+    "all_day_option_description": "Si l'événement est un événement d'une journée entière",
+    "type_option_description": "Type d'événement",
+    "type_option_event": "Événement",
+    "type_option_out_of_office": "Absent du bureau",
+    "type_option_birthday": "Anniversaire"
   }
 }

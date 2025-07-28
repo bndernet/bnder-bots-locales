@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Получить ссылку на подписку для вашего календаря",
     "repeat_interval_option_description": "Интервал, через который событие должно повторяться",
     "repeat_until_option_description": "Дата, до которой событие должно повторяться",
-    "all_day_option_description": "Является ли данное мероприятие мероприятием на весь день"
+    "all_day_option_description": "Является ли данное мероприятие мероприятием на весь день",
+    "type_option_description": "Тип события",
+    "type_option_event": "Событие",
+    "type_option_out_of_office": "Нет на месте",
+    "type_option_birthday": "День рождения"
   }
 }

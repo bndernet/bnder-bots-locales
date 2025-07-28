@@ -506,7 +506,7 @@
     "delete_confirm": "**{{id}}** etkinliğini silmek istediğinizden emin misiniz?",
     "invite_denied": "**{{id}}** {{title}} etkinliğine daveti reddettiniz.",
     "deny_dm": "<@{{invitee}}> **{{id}}** {{title}} etkinliğine davetinizi reddetti.",
-    "info": "# Etkinlik hakkında bilgi **{{id}}**:\nAd: {{name}}\nKonum: {{location}}\nBaşlangıç: {{start}}\nBitiş: {{end}}\nOluşturucu: <@{{creator}}>\nTekrarlama aralığı: {{repeat_interval}} gün\nTekrarlama bitiş tarihi: {{repeat_until}}\nDavetliler: {{invitees}}\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
+    "info": "# **{{id}}** etkinliği hakkında bilgi:\nİsim: {{name}}\nKonum: {{location}}\nBaşlangıç: {{start}}\nBitiş: {{end}}\nOluşturan: <@{{creator}}>\nTekrar aralığı: {{repeat_interval}} gün\nTekrar edilme süresi: {{repeat_until}}\nDavetliler: {{invitees}}\nTür: {{type}}\n-# Tüm tarihler {{timezone}} saat diliminde hesaplanır. Tüm sunucu için saat dilimini değiştirmek için \"/settings timezone\" komutunu, kendi saat diliminizi değiştirmek için ise \"/preferences timezone\" komutunu kullanın.",
     "invite_creator_error": "Oluşturucusu olmadığınız bir etkinliğe kullanıcıları davet edemezsiniz. Tüm etkinlikleri listelemek için \"/event list\" kullanın veya \"/event create\" ile yeni bir etkinlik oluşturun.",
     "invite_self_creator_error": "Yaratıcısı olduğunuz bir etkinliğe kendinizi davet edemezsiniz. Etkinliğe davet etmek için başka bir kullanıcı seçin.",
     "invite_already_invited": "<@{{user}}> kullanıcısı **{{id}}** etkinliğine zaten davet edildi.",
@@ -532,7 +532,12 @@
     "düzenlendi": "**{{id}}** etkinliği **{{name}}** başlığıyla {{start}} tarihinden {{end}} tarihine kadar düzenlendi.\n-# Tüm tarihler {{timezone}} olarak hesaplanır. Tüm sunucu için saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
     "edit_no_changes": "**{{id}}** etkinliğinde hiçbir değişiklik yapılmadı. Lütfen bu etkinlikte değişiklik yapmak için komutta yeni bir ad, başlangıç veya bitiş saati belirtin.",
     "edit_creator_error": "Yalnızca yaratıcı bir etkinlikte değişiklik yapabilir!",
-    "used_timezone_notice": "Tüm tarihler {{timezone}}'da hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın."
+    "used_timezone_notice": "Tüm tarihler {{timezone}}'da hesaplanır. Tüm sunucunun saat dilimini değiştirmek için \"/settings timezone\" öğesini veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" öğesini kullanın.",
+    "type": {
+      "task": "Görev",
+      "birthday": "Doğum günü",
+      "out_of_office": "Ofis dışında"
+    }
   },
   "setup": {
     "skip_button_label": "Bu adımı atla",

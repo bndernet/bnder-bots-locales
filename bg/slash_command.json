@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Получаване на връзката за абонамент за вашия календар",
     "repeat_interval_option_description": "Интервал, през който събитието трябва да се повтаря",
     "repeat_until_option_description": "Дата, до която събитието трябва да се повтаря",
-    "all_day_option_description": "Дали събитието е целодневно"
+    "all_day_option_description": "Дали събитието е целодневно",
+    "type_option_description": "Тип събитие",
+    "type_option_event": "Събитие",
+    "type_option_out_of_office": "Извън офиса",
+    "type_option_birthday": "Рожден ден"
   }
 }

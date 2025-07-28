@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Uzyskaj link subskrypcji do twojego kalendarza",
     "repeat_interval_option_description": "Interwał, w którym wydarzenie powinno się powtarzać",
     "repeat_until_option_description": "Data, do której wydarzenie powinno się powtarzać",
-    "all_day_option_description": "Czy wydarzenie trwa cały dzień"
+    "all_day_option_description": "Czy wydarzenie trwa cały dzień",
+    "type_option_description": "Rodzaj zdarzenia",
+    "type_option_event": "Zdarzenie",
+    "type_option_out_of_office": "Poza biurem",
+    "type_option_birthday": "Urodziny"
   }
 }

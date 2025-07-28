@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "カレンダーの購読リンクを取得する",
     "repeat_interval_option_description": "イベントを繰り返す間隔",
     "repeat_until_option_description": "イベントが繰り返される終了日",
-    "all_day_option_description": "イベントが終日のイベントであるかどうか"
+    "all_day_option_description": "イベントが終日のイベントであるかどうか",
+    "type_option_description": "イベントの種類",
+    "type_option_event": "イベント",
+    "type_option_out_of_office": "不在",
+    "type_option_birthday": "誕生日"
   }
 }

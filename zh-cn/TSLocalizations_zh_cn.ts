@@ -1,8 +1,6 @@
 import { TSLocalizationKeys } from "../TSLocalizationKeys";
 
 export class TSLocalizations_zh_cn {
-    constructor() {
-    }
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
@@ -354,5 +352,8 @@ export class TSLocalizations_zh_cn {
             },
             open_app: "打开应用",
         }
+    }
+
+    constructor() {
     }
 }

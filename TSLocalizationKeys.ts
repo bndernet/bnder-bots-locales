@@ -180,9 +180,7 @@ export interface TSLocalizationKeys {
             content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string,
         }
     },
-    pro_granted_notification(guildId: string, guildName: string): string,
-    payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string,
-    files:{
+    files: {
         file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string,
         folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string,
     },
@@ -249,6 +247,10 @@ export interface TSLocalizationKeys {
         },
         open_app: string,
     }
+
+    pro_granted_notification(guildId: string, guildName: string): string,
+
+    payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string,
 }
 
 export class Localizations {

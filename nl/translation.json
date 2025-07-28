@@ -506,7 +506,7 @@
     "delete_confirm": "Weet je zeker dat je evenement **{{id}}** wilt verwijderen?",
     "invite_denied": "Je hebt de uitnodiging voor evenement **{{id}}** geweigerd.",
     "deny_dm": "<@{{invitee}}> heeft je uitnodiging voor evenement **{{id}}** geweigerd.",
-    "info": "# Informatie over evenement **{{id}}**:\nNaam: {{name}}\nLocatie: {{location}}\nStart: {{start}}\nEinde: {{end}}\nMaker: <@{{creator}}>\nHerhaalinterval: elke {{repeat_interval}} dagen\nHerhaald tot: {{repeat_until}}\nUitgenodigden: {{invitees}}\n-# Alle datums worden berekend in {{timezone}}. Gebruik \"/settings timezone\" om de tijdzone voor de hele server te wijzigen, of \"/preferences timezone\" om je eigen tijdzone te wijzigen.",
+    "info": "# Informatie over evenement **{{id}}**:\nNaam: {{name}}\nLocatie: {{location}}\nStart: {{start}}\nEinde: {{end}}\nMaker: <@{{creator}}>\nHerhalingsinterval: {{repeat_interval}} dagen\nHerhaald tot: {{repeat_until}}\nGenodigden: {{invitees}}\nType: {{type}}\n-# Alle datums worden berekend in de tijdzone {{timezone}}. Gebruik \"/settings timezone\" om de tijdzone voor de hele server te wijzigen, of \"/preferences timezone\" om je eigen tijdzone aan te passen.",
     "invite_creator_error": "Je kunt geen gebruikers uitnodigen voor een evenement waarvan je niet de maker bent. Gebruik \"/event list\" om alle evenementen weer te geven of maak een nieuwe aan met \"/event create\".",
     "invite_self_creator_error": "Je kunt jezelf niet uitnodigen voor een evenement waarvan je de maker bent. Kies een andere gebruiker om uit te nodigen voor het evenement.",
     "invite_already_invited": "De gebruiker <@{{user}}> is al uitgenodigd voor evenement **{{id}}**.",
@@ -532,7 +532,12 @@
     "edited": "Het evenement **{{id}}** is bewerkt met titel **{{name}}** van {{start}} tot {{end}}.\n-# Alle datums worden berekend in {{timezone}}. Gebruik \"/settings timezone\" om de tijdzone voor de hele server te wijzigen, of \"/preferences timezone\" om je eigen tijdzone te wijzigen.",
     "edit_no_changes": "Er zijn geen wijzigingen aangebracht in evenement **{{id}}**. Geef een nieuwe naam, start- of eindtijd op in het commando om wijzigingen aan dit evenement aan te brengen.",
     "edit_creator_error": "Alleen de maker kan wijzigingen aanbrengen in een evenement!",
-    "used_timezone_notice": "Alle datums worden berekend in {{timezone}}. Gebruik \"/settings timezone\" om de tijdzone voor de hele server te wijzigen, of \"/preferences timezone\" om je eigen tijdzone te wijzigen."
+    "used_timezone_notice": "Alle datums worden berekend in {{timezone}}. Gebruik \"/settings timezone\" om de tijdzone voor de hele server te wijzigen, of \"/preferences timezone\" om je eigen tijdzone te wijzigen.",
+    "type": {
+      "task": "Taak",
+      "birthday": "Verjaardag",
+      "out_of_office": "Buiten kantoor"
+    }
   },
   "setup": {
     "skip_button_label": "Sla deze stap over",

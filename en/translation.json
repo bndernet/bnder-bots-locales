@@ -506,7 +506,7 @@
     "delete_confirm": "Are you sure you want to delete the event **{{id}}**?",
     "invite_denied": "You have denied the invitation to the event **{{id}}**.",
     "deny_dm": "<@{{invitee}}> has denied your invitation to the event **{{id}}**.",
-    "info": "# Information about event **{{id}}**:\nName: {{name}}\nLocation: {{location}}\nStart: {{start}}\nEnd: {{end}}\nCreator: <@{{creator}}>\nRepeat interval: {{repeat_interval}} days\nRepeated until: {{repeat_until}}\nInvitees: {{invitees}}\n-# All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.",
+    "info": "# Information about event **{{id}}**:\nName: {{name}}\nLocation: {{location}}\nStart: {{start}}\nEnd: {{end}}\nCreator: <@{{creator}}>\nRepeat interval: {{repeat_interval}} days\nRepeated until: {{repeat_until}}\nInvitees: {{invitees}}\nType: {{type}}\n-# All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.",
     "invite_creator_error": "You can't invite users to an event you are not the creator of. Use \"/event list\" to list all events or create a new one with \"/event create\".",
     "invite_self_creator_error": "You can't invite yourself to an event you are the creator of. Choose another user to invite to the event.",
     "invite_already_invited": "The user <@{{user}}> is already invited to the event **{{id}}**.",
@@ -532,7 +532,13 @@
     "edited": "The event **{{id}}** has been edited with title **{{name}}** from {{start}} to {{end}}.\n-# All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.",
     "edit_no_changes": "No changes were made to event **{{id}}**. Please specify a new name, start or end time in the command to make changes to this event.",
     "edit_creator_error": "Only the creator can make changes to an event!",
-    "used_timezone_notice": "All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own."
+    "used_timezone_notice": "All dates are calculated in {{timezone}}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.",
+    "type": {
+      "task": "Task",
+      "birthday": "Birthday",
+      "out_of_office": "Out of office",
+      "event": "Event"
+    }
   },
   "setup": {
     "skip_button_label": "Skip this step",

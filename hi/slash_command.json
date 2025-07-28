@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "अपने कैलेंडर के लिए सदस्यता लिंक प्राप्त करें",
     "repeat_interval_option_description": "अंतराल जिस पर घटना दोहराई जानी चाहिए",
     "repeat_until_option_description": "वह दिनांक जब तक घटना दोहराई जानी चाहिए",
-    "all_day_option_description": "क्या इवेंट पूरे दिन का इवेंट है"
+    "all_day_option_description": "क्या इवेंट पूरे दिन का इवेंट है",
+    "type_option_description": "ईवेंट का प्रकार",
+    "type_option_event": "ईवेंट",
+    "type_option_out_of_office": "कार्यालय से बाहर",
+    "type_option_birthday": "जन्मदिन"
   }
 }

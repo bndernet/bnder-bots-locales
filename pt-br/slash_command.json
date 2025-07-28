@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Obter o link de assinatura de seu calendário",
     "repeat_interval_option_description": "Intervalo em que o evento deve se repetir",
     "repeat_until_option_description": "Data até a qual o evento deve se repetir",
-    "all_day_option_description": "Se o evento é um evento de dia inteiro"
+    "all_day_option_description": "Se o evento é um evento de dia inteiro",
+    "type_option_description": "Tipo de evento",
+    "type_option_event": "Evento",
+    "type_option_out_of_office": "Fora do escritório",
+    "type_option_birthday": "Aniversário"
   }
 }

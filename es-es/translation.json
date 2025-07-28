@@ -506,7 +506,7 @@
     "delete_confirm": "¿Estás seguro de que quieres borrar el evento **{{id}}**?",
     "invite_denied": "Has denegado la invitación al evento **{{id}}** {{title}}.",
     "deny_dm": "<@{{invitee}}> ha denegado su invitación al evento **{{id}}** {{title}}.",
-    "info": "# Información sobre el evento **{{id}}**:\nNombre: {{name}}\nUbicación: {{location}}\nInicio: {{start}}\nFin: {{end}}\nCreador: <@{{creator}}>\nIntervalo de repetición: {{repeat_interval}} días\nRepetido hasta: {{repeat_until}}\nInvitados: {{invitees}}\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
+    "info": "# Información sobre el evento **{{id}}**:\nNombre: {{name}}\nUbicación: {{location}}\nInicio: {{start}}\nFin: {{end}}\nCreador: <@{{creator}}>\nIntervalo de repetición: {{repeat_interval}} días\nRepetido hasta: {{repeat_until}}\nInvitados: {{invitees}}\nTipo: {{type}}\n-# Todas las fechas se calculan en la zona horaria {{timezone}}. Usa \"/settings timezone\" para cambiar la zona horaria de todo el servidor, o \"/preferences timezone\" para cambiar la tuya.",
     "invite_creator_error": "No puedes invitar a usuarios a un evento que no hayas creado. Usa \"/event list\" para listar todos los eventos o crea uno nuevo con \"/event create\".",
     "invite_self_creator_error": "No puedes autoinvitarte a un evento que creaste. Elige a otro usuario para invitarlo al evento.",
     "invite_already_invited": "El usuario <@{{user}}> ya está invitado al evento **{{id}}**",
@@ -532,7 +532,13 @@
     "edited": "El evento **{{id}}** ha sido editado con el título **{{name}}** desde {{start}} hasta {{end}}.\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
     "edit_no_changes": "No se realizaron cambios en el evento **{{id}}**. Especifique un nuevo nombre y hora de inicio o de finalización en el comando para realizar cambios en este evento.",
     "edit_creator_error": "¡Solo el creador puede realizar cambios en un evento!",
-    "used_timezone_notice": "Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya."
+    "used_timezone_notice": "Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
+    "type": {
+      "task": "Tarea",
+      "birthday": "Cumpleaños",
+      "out_of_office": "Fuera de la oficina",
+      "event": "Evento"
+    }
   },
   "setup": {
     "skip_button_label": "Saltar este paso",

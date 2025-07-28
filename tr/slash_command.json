@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Takviminiz için abonelik bağlantısını alın",
     "repeat_interval_option_description": "Olayın tekrarlanması gereken aralık",
     "repeat_until_option_description": "Etkinliğin tekrarlanacağı tarih",
-    "all_day_option_description": "Etkinliğin tüm gün süren bir etkinlik olup olmadığı"
+    "all_day_option_description": "Etkinliğin tüm gün süren bir etkinlik olup olmadığı",
+    "type_option_description": "Etkinlik türü",
+    "type_option_event": "Etkinlik",
+    "type_option_out_of_office": "Ofis Dışında",
+    "type_option_birthday": "Doğum Günü"
   }
 }

@@ -506,7 +506,7 @@
     "delete_confirm": "Czy na pewno chcesz usunąć wydarzenie **{{id}}**?",
     "invite_denied": "Odrzuciłeś zaproszenie na wydarzenie **{{id}}**.",
     "deny_dm": "<@{{invitee}}> odrzucił Twoje zaproszenie na wydarzenie **{{id}}**.",
-    "info": "# Informacje o wydarzeniu **{{id}}**:\nNazwa: {{name}}\nLokalizacja: {{location}}\nStart: {{start}}\nKoniec: {{end}}\nTwórca: <@{{creator}}>\nInterwał powtarzania: {{repeat_interval}} dni\nPowtarzane do: {{repeat_until}}\nZaproszeni: {{invitees}}\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
+    "info": "# Informacje o wydarzeniu **{{id}}**:\nNazwa: {{name}}\nLokalizacja: {{location}}\nPoczątek: {{start}}\nKoniec: {{end}}\nTwórca: <@{{creator}}>\nInterwał powtarzania: {{repeat_interval}} dni\nPowtarzane do: {{repeat_until}}\nZaproszeni: {{invitees}}\nTyp: {{type}}\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj \"/settings timezone\", aby zmienić strefę czasową dla całego serwera, lub \"/preferences timezone\", aby zmienić swoją własną.",
     "invite_creator_error": "Nie możesz zaprosić użytkowników na wydarzenie, którego nie jesteś twórcą. Użyj „/event list”, aby wyświetlić wszystkie wydarzenia lub utwórz nowe za pomocą „/event create”.",
     "invite_self_creator_error": "Nie możesz zaprosić siebie na wydarzenie, którego jesteś twórcą. Wybierz innego użytkownika, którego chcesz zaprosić na wydarzenie.",
     "invite_already_invited": "Użytkownik <@{{user}}> jest już zaproszony na wydarzenie **{{id}}**.",
@@ -532,7 +532,12 @@
     "edited": "Wydarzenie **{{id}}** zostało edytowane z tytułem **{{name}}** od {{start}} do {{end}}.\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
     "edit_no_changes": "Nie wprowadzono żadnych zmian w wydarzeniu **{{id}}**. Określ nową nazwę, czas rozpoczęcia lub zakończenia w poleceniu, aby wprowadzić zmiany w tym wydarzeniu.",
     "edit_creator_error": "Tylko twórca może wprowadzać zmiany w wydarzeniu!",
-    "used_timezone_notice": "Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną."
+    "used_timezone_notice": "Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
+    "type": {
+      "task": "Zadanie",
+      "birthday": "Urodziny",
+      "out_of_office": "Poza biurem"
+    }
   },
   "setup": {
     "skip_button_label": "Pomiń ten krok",

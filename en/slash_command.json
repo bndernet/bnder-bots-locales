@@ -185,6 +185,10 @@
     "subscription_subcommand_description": "Get the subscription link for your calendar",
     "repeat_interval_option_description": "Interval at which the event should repeat",
     "repeat_until_option_description": "Date until which the event should repeat",
-    "all_day_option_description": "Whether the event is an all day event"
+    "all_day_option_description": "Whether the event is an all day event",
+    "type_option_description": "Type of the event",
+    "type_option_event": "Event",
+    "type_option_out_of_office": "Out of Office",
+    "type_option_birthday": "Birthday"
   }
 }

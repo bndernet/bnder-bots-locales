@@ -506,7 +506,7 @@
     "delete_confirm": "Tem certeza de que deseja excluir o evento **{{id}}**?",
     "invite_denied": "Você negou o convite para o evento **{{id}}** {{title}}.",
     "deny_dm": "<@{{invitee}}> negou seu convite para o evento **{{id}}** {{title}}.",
-    "info": "# Informações sobre o evento **{{id}}**:\nNome: {{name}}\nLocalização: {{location}}\nInício: {{start}}\nFim: {{end}}\nCriador: <@{{creator}}>\nIntervalo de repetição: {{repeat_interval}} dias\nRepetido até: {{repeat_until}}\nConvidados: {{invitees}}\n-# Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio.",
+    "info": "# Informações sobre o evento **{{id}}**:\nNome: {{name}}\nLocal: {{location}}\nInício: {{start}}\nTérmino: {{end}}\nCriador: <@{{creator}}>\nIntervalo de repetição: {{repeat_interval}} dias\nRepetido até: {{repeat_until}}\nConvidados: {{invitees}}\nTipo: {{type}}\n-# Todas as datas são calculadas no fuso horário {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor, ou \"/preferences timezone\" para alterar o seu próprio.",
     "invite_creator_error": "Você não pode convidar usuários para um evento do qual você não é o criador. Use \"/event list\" para listar todos os eventos ou crie um novo com \"/event create\".",
     "invite_self_creator_error": "Você não pode se convidar para um evento do qual você é o criador. Escolha outro usuário para convidar para o evento.",
     "invite_already_invited": "O usuário <@{{user}}> já está convidado para o evento **{{id}}**.",
@@ -532,7 +532,12 @@
     "edited": "O evento **{{id}}** foi editado com o título **{{name}}** de {{start}} a {{end}}.\n-# Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio.",
     "edit_no_changes": "Nenhuma alteração foi feita no evento **{{id}}**. Especifique um novo nome, hora de início ou término no comando para fazer alterações neste evento.",
     "edit_creator_error": "Somente o criador pode fazer alterações em um evento!",
-    "used_timezone_notice": "Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio fuso horário."
+    "used_timezone_notice": "Todas as datas são calculadas em {{timezone}}. Use \"/settings timezone\" para alterar o fuso horário de todo o servidor ou \"/preferences timezone\" para alterar o seu próprio fuso horário.",
+    "type": {
+      "task": "Tarefa",
+      "birthday": "Aniversário",
+      "out_of_office": "Fora do escritório"
+    }
   },
   "setup": {
     "skip_button_label": "Pular esta etapa",
