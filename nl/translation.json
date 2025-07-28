@@ -536,7 +536,8 @@
     "type": {
       "task": "Taak",
       "birthday": "Verjaardag",
-      "out_of_office": "Buiten kantoor"
+      "out_of_office": "Buiten kantoor",
+      "event": "Evenement"
     }
   },
   "setup": {

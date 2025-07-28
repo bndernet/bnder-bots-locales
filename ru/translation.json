@@ -536,7 +536,8 @@
     "type": {
       "task": "Задача",
       "birthday": "День рождения",
-      "out_of_office": "Вне офиса"
+      "out_of_office": "Вне офиса",
+      "event": "Событие"
     }
   },
   "setup": {

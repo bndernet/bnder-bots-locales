@@ -536,7 +536,8 @@
     "type": {
       "task": "Görev",
       "birthday": "Doğum günü",
-      "out_of_office": "Ofis dışında"
+      "out_of_office": "Ofis dışında",
+      "event": "Etkinlik"
     }
   },
   "setup": {

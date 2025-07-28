@@ -536,7 +536,8 @@
     "type": {
       "task": "任务",
       "birthday": "生日",
-      "out_of_office": "离开办公室"
+      "out_of_office": "离开办公室",
+      "event": "事件"
     }
   },
   "setup": {

@@ -536,7 +536,8 @@
     "type": {
       "task": "Tarefa",
       "birthday": "Aniversário",
-      "out_of_office": "Fora do escritório"
+      "out_of_office": "Fora do escritório",
+      "event": "Evento"
     }
   },
   "setup": {
