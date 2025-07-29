@@ -47,7 +47,7 @@
     "project_not_deleted": "O projeto **{{name}}** não está marcado como excluído.",
     "project_restored": "O projeto **{{name}}** foi restaurado e não será mais excluído.",
     "project_marked_deleted": "O projeto **{{name}}** está marcado como excluído. Restaure-o com o comando \"/project restore\".",
-    "project_name_default_cant_deleted": "O projeto **default** não pode ser deletado, pois é o projeto padrão. Você pode renomeá-lo com o comando \"/project rename\".",
+    "project_name_default_cant_deleted": "O projeto **{{name}}** não pode ser excluído, pois é o projeto padrão. Você pode renomeá-lo com o comando \"/project rename\".",
     "project_selected": "O projeto **{{name}}** foi selecionado. Todo comando agora será executado nesse projeto, se nenhum outro projeto for especificado no comando. Para mudar para outro projeto, use o comando \"/project select\".",
     "project_renamed": "O projeto {{old_name}} foi renomeado para **{{name}}**.",
     "project_name_default_cant_renamed": "O projeto **default** não pode ser renomeado, pois é o projeto padrão.",

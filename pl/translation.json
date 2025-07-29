@@ -47,7 +47,7 @@
     "project_not_deleted": "Projekt **{{name}}** nie jest oznaczony jako usunięty.",
     "project_restored": "Projekt **{{name}}** został przywrócony i nie zostanie już usunięty.",
     "project_marked_deleted": "Projekt **{{name}}** jest oznaczony jako usunięty. Przywróć go za pomocą polecenia \"/project restore\".",
-    "project_name_default_cant_deleted": "Projektu **default** nie można usunąć, ponieważ jest to projekt domyślny. Możesz zmienić jego nazwę za pomocą polecenia \"/project rename\".",
+    "project_name_default_cant_deleted": "Projektu **{{name}}** nie można usunąć, ponieważ jest to projekt domyślny. Możesz zmienić jego nazwę za pomocą polecenia „/project rename”.",
     "project_selected": "Projekt **{{name}}** został wybrany. Każde polecenie będzie teraz wykonywane w tym projekcie, jeśli w poleceniu nie określono innego projektu. Aby przełączyć się na inny projekt, użyj polecenia \"/project select\".",
     "project_renamed": "Nazwa projektu {{old_name}} została zmieniona na **{{name}}**.",
     "project_name_default_cant_renamed": "Nazwy projektu **default** nie można zmienić, ponieważ jest to projekt domyślny.",

@@ -47,7 +47,7 @@
     "project_not_deleted": "项目 **{{name}}** 未被标记为已删除。",
     "project_restored": "项目 **{{name}}** 已恢复，不会被删除。",
     "project_marked_deleted": "项目 **{{name}}** 已标记为已删除。使用命令 \"/project restore\" 恢复。",
-    "project_name_default_cant_deleted": "项目 **default** 不能被删除，因为它是默认项目。您可以使用命令 \"/project rename\" 重命名它。",
+    "project_name_default_cant_deleted": "项目 **{{name}}** 无法删除，因为它是默认项目。您可以使用命令“/project rename”重命名它。",
     "project_selected": "项目 **{{name}}** 已被选择。如果未在命令中指定其他项目，每个命令现在都将在该项目上执行。要切换到其他项目，请使用命令 \"/project select\"。",
     "project_renamed": "项目 {{old_name}} 已重命名为 **{{name}}**。",
     "project_name_default_cant_renamed": "项目 **default** 不能被重命名，因为它是默认项目。",

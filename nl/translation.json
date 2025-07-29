@@ -47,7 +47,7 @@
     "project_not_deleted": "Het project **{{name}}** is niet gemarkeerd als verwijderd.",
     "project_restored": "Het project **{{name}}** is hersteld en wordt niet meer verwijderd.",
     "project_marked_deleted": "Het project **{{name}}** is gemarkeerd als verwijderd. Herstel het met het commando \"/project restore\".",
-    "project_name_default_cant_deleted": "Het project **default** kan niet worden verwijderd, omdat het het standaardproject is. Je kunt het hernoemen met het commando \"/project rename\".",
+    "project_name_default_cant_deleted": "Project **{{name}}** kan niet worden verwijderd, omdat het het standaardproject is. U kunt het hernoemen met de opdracht \"/project rename\".",
     "project_selected": "Het project **{{name}}** is geselecteerd. Elk commando wordt nu op dit project uitgevoerd, tenzij een ander project in het commando is opgegeven. Om naar een ander project te wisselen, gebruik je het commando \"/project select\".",
     "project_renamed": "Het project {{old_name}} is hernoemd naar **{{name}}**.",
     "project_name_default_cant_renamed": "Het project **default** kan niet worden hernoemd, omdat het het standaardproject is.",

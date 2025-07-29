@@ -47,7 +47,7 @@
     "project_not_deleted": "Das Projekt **{{name}}** ist nicht als gelöscht markiert.",
     "project_restored": "Das Projekt **{{name}}** wurde wiederhergestellt und wird nicht mehr gelöscht.",
     "project_marked_deleted": "Das Projekt **{{name}}** ist als gelöscht markiert. Stellen Sie es mit dem Befehl \"/project restore\" wieder her.",
-    "project_name_default_cant_deleted": "Das Projekt **default** kann nicht gelöscht werden, da es das Standardprojekt ist. Du kannst es mit dem Befehl \"/project rename\" umbenennen.",
+    "project_name_default_cant_deleted": "Das Projekt **{{name}}** kann nicht gelöscht werden, da es das Standardprojekt ist. Sie können es mit dem Befehl \"/project rename\" umbenennen.",
     "project_selected": "Das Projekt **{{name}}** wurde ausgewählt. Jeder Befehl wird nun auf diesem Projekt ausgeführt, wenn kein anderes Projekt im Befehl angegeben ist. Um zu einem anderen Projekt zu wechseln, verwenden Sie den Befehl \"/project select\".",
     "project_renamed": "Das Projekt {{old_name}} wurde in **{{name}}** umbenannt.",
     "project_name_default_cant_renamed": "Das Projekt **default** kann nicht umbenannt werden, da es das Standardprojekt ist.",
