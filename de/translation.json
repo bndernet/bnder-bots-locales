@@ -165,7 +165,7 @@
     "task_delete_could_not_send_message": "Die Aufgabe **{{id}}** wurde als gelöscht markiert und wird in {{days}} Tagen endgültig gelöscht.\n\n⚠\uFE0F Der Bot hat versucht eine, für alle sichtbare, Bestätigungsnachricht zu senden, konnte dies aufgrund fehlender Discord-Berechtigungen in diesem Kanal. Bitte gewähre dem Bot die Discord-Berechtigung Nachrichten zu senden.",
     "task_delete_instantly_could_not_send_message": "Die Aufgabe **{{id}}** wurde gelöscht.\n\n⚠\uFE0F Der Bot hat versucht, eine für alle sichtbare Bestätigungsnachricht zu senden, konnte dies aber aufgrund fehlender Discord-Berechtigungen in diesem Kanal nicht tun. Bitte erteile dem Bot die Discord-Berechtigung zum Senden von Nachrichten.",
     "deleted_instantly_ephemeral_message": "Die Aufgabe **{{id}}** wurde gelöscht.",
-    "invalid_deadline_date": "Die Eingabe konnte nicht in ein Datum umgewandelt werden. Bitte verwenden Sie das Format **{{format}}** (z. B. {{example_date}}) oder ein relatives Datum wie **1 week 3 days**. Sie können das Datumsformat mit dem Befehl `/settings dateformat` konfigurieren. [Alle unterstützten Datumsformate anzeigen](<https://bnder.net/help/dateformats>)\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
+    "invalid_deadline_date": "Die Eingabe konnte nicht in ein Datum umgewandelt werden. Bitte verwenden Sie das Format **{{format}}** (z. B. {{example_date}}) oder ein relatives Datum wie **1 week 3 days**. Sie können das Datumsformat mit dem Befehl `/settings dateformat` konfigurieren. [Alle unterstützten Datumsformate anzeigen](<https://bnder.net/help/configuration/dateformats>)\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
     "more_assignees": "(+ {{count}} weitere)",
     "not_created_deleted_project": "Die Aufgabe konnte nicht erstellt werden, weil das Projekt \"{{name}}\" als gelöscht markiert ist. Stellen Sie das Projekt über \"/project restore\" wieder her oder wählen Sie ein anderes Projekt.",
     "not_moved_deleted_project": "Die Aufgabe konnte nicht verschoben werden, weil das Projekt \"{{name}}\" als gelöscht markiert ist. Stellen Sie das Projekt über \"/project restore\" wieder her oder wählen Sie ein anderes Projekt.",
@@ -417,7 +417,7 @@
       "language_not_found": "Die Sprache {{languageTag}} ist nicht verfügbar."
     },
     "timezone": {
-      "timezone_not_found": "Die Zeitzone **{{timezone}}** konnte nicht gefunden werden. Bitte verwenden Sie einen gültigen Zeitzonennamen aus der Liste unter https://bnder.net/help/timezones.",
+      "timezone_not_found": "Die Zeitzone **{{timezone}}** konnte nicht gefunden werden. Bitte verwenden Sie einen gültigen Zeitzonennamen aus der Liste unter https://bnder.net/help/configuration/timezones.",
       "timezone_set": "Die Zeitzone wurde auf **{{timezone}}** eingestellt. Das aktuelle Datum und die aktuelle Uhrzeit in **{{timezone}}** sind **{{date}}**."
     },
     "dateformat": {
@@ -495,7 +495,7 @@
   },
   "event": {
     "not_found": "Das Ereignis mit der ID **{{id}}** konnte nicht gefunden werden. Verwenden Sie \"/event list\", um alle Ereignisse aufzulisten, oder erstellen Sie ein neues Ereignis mit \"/event create\".",
-    "invalid_date": "Die Eingabe konnte nicht in ein Datum umgewandelt werden. Bitte verwenden Sie das Format **{{format}}** (z. B. {{example_date}}) oder ein relatives Datum wie **1 week 3 days**. Sie können das Datumsformat mit dem Befehl `/settings dateformat` konfigurieren. [Alle unterstützten Datumsformate anzeigen](<https://bnder.net/help/dateformats>)\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
+    "invalid_date": "Die Eingabe konnte nicht in ein Datum umgewandelt werden. Bitte verwenden Sie das Format **{{format}}** (z. B. {{example_date}}) oder ein relatives Datum wie **1 week 3 days**. Sie können das Datumsformat mit dem Befehl `/settings dateformat` konfigurieren. [Alle unterstützten Datumsformate anzeigen](<https://bnder.net/help/configuration/dateformats>)\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
     "start_after_end": "Das Startdatum muss vor dem Enddatum liegen.",
     "created": "Das Event **{{name}}** wurde mit der ID **{{id}}** von {{start}} bis {{end}} erstellt. Verwenden Sie \"/event invite\", um andere zu diesem Event einzuladen.\n-# Alle Daten werden in {{timezone}} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.",
     "accept_not_invited": "Die Veranstaltung **{{id}}** konnte nicht angenommen werden, da Sie nicht eingeladen sind. Verwenden Sie „/event list“, um alle Veranstaltungen aufzulisten, oder erstellen Sie eine neue Veranstaltung mit „/event create“.",

@@ -165,7 +165,7 @@
     "task_delete_could_not_send_message": "Zadanie **{{id}}** zostało oznaczone jako usunięte i zostanie trwale usunięte za {{days}} dni.\n\n⚠\uFE0F Bot próbował wysłać wiadomość potwierdzającą widoczną dla wszystkich, ale nie był w stanie tego zrobić z powodu braku uprawnień Discorda na tym kanale. Proszę przyznać botowi uprawnienie Discorda do wysyłania wiadomości.",
     "task_delete_instantly_could_not_send_message": "Zadanie **{{id}}** zostało usunięte.\n\n⚠\uFE0F Bot próbował wysłać wiadomość potwierdzającą widoczną dla wszystkich, ale nie był w stanie tego zrobić z powodu braku uprawnień Discorda na tym kanale. Proszę przyznać botowi uprawnienie Discorda do wysyłania wiadomości.",
     "deleted_instantly_ephemeral_message": "Zadanie **{{id}}** zostało usunięte.",
-    "invalid_deadline_date": "Nie można przetworzyć wprowadzonej wartości na datę. Użyj formatu **{{format}}** (np. {{example_date}}), lub użyj daty względnej, np. **1 tydzień 3 dni**. Możesz skonfigurować format daty za pomocą polecenia `/settings dateformat`. [Zobacz wszystkie obsługiwane formaty dat](<https://bnder.net/help/dateformats>)\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
+    "invalid_deadline_date": "Nie można przetworzyć wprowadzonej wartości na datę. Użyj formatu **{{format}}** (np. {{example_date}}), lub użyj daty względnej, np. **1 tydzień 3 dni**. Możesz skonfigurować format daty za pomocą polecenia `/settings dateformat`. [Zobacz wszystkie obsługiwane formaty dat](<https://bnder.net/help/configuration/dateformats>)\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
     "more_assignees": "(+ {{count}} więcej)",
     "not_created_deleted_project": "Nie można utworzyć zadania, ponieważ projekt **{{name}}** jest oznaczony jako usunięty. Przywróć projekt za pomocą \"/project restore\" lub wybierz inny projekt.",
     "not_moved_deleted_project": "Nie można przenieść zadania, ponieważ projekt **{{name}}** jest oznaczony jako usunięty. Przywróć projekt za pomocą \"/project restore\" lub wybierz inny projekt.",
@@ -417,7 +417,7 @@
       "language_not_found": "Język {{languageTag}} jest niedostępny."
     },
     "timezone": {
-      "timezone_not_found": "Nie znaleziono strefy czasowej **{{timezone}}**. Użyj poprawnej nazwy strefy czasowej z listy na https://bnder.net/help/timezones.",
+      "timezone_not_found": "Nie znaleziono strefy czasowej **{{timezone}}**. Użyj poprawnej nazwy strefy czasowej z listy na https://bnder.net/help/configuration/timezones.",
       "timezone_set": "Strefa czasowa została ustawiona na **{{timezone}}**. Aktualna data i godzina w **{{timezone}}** to **{{date}}**."
     },
     "dateformat": {
@@ -495,7 +495,7 @@
   },
   "event": {
     "not_found": "Nie znaleziono wydarzenia o id **{{id}}**. Użyj \"/event list\", aby wyświetlić wszystkie wydarzenia lub utwórz nowe za pomocą \"/event create\".",
-    "invalid_date": "Nie można przetworzyć wprowadzonej wartości na datę. Użyj formatu **{{format}}** (np. {{example_date}}), lub użyj daty względnej, np. **1 tydzień 3 dni**. Możesz skonfigurować format daty za pomocą polecenia `/settings dateformat`. [Zobacz wszystkie obsługiwane formaty dat](<https://bnder.net/help/dateformats>)\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
+    "invalid_date": "Nie można przetworzyć wprowadzonej wartości na datę. Użyj formatu **{{format}}** (np. {{example_date}}), lub użyj daty względnej, np. **1 tydzień 3 dni**. Możesz skonfigurować format daty za pomocą polecenia `/settings dateformat`. [Zobacz wszystkie obsługiwane formaty dat](<https://bnder.net/help/configuration/dateformats>)\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
     "start_after_end": "Data rozpoczęcia musi być wcześniejsza niż data zakończenia.",
     "created": "Wydarzenie **{{name}}** zostało utworzone z id **{{id}}** od {{start}} do {{end}}. Użyj \"/event invite\", aby zaprosić innych na to wydarzenie.\n-# Wszystkie daty są obliczane w strefie czasowej {{timezone}}. Użyj polecenia \"/settings timezone\", aby zmienić strefę czasową dla całego serwera lub \"/preferences timezone\", aby zmienić swoją własną.",
     "accept_not_invited": "Nie można zaakceptować wydarzenia **{{id}}**, ponieważ nie jesteś zaproszony. Użyj \"/event list\", aby wyświetlić wszystkie wydarzenia lub utwórz nowe za pomocą \"/event create\".",

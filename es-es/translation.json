@@ -165,7 +165,7 @@
     "task_delete_could_not_send_message": "La tarea {{id}} se ha marcado como eliminada y se eliminará permanentemente en {{days}} días.\n\n⚠\uFE0F El bot intentó enviar un mensaje de confirmación visible para todos, pero no pudo hacerlo debido a la falta de permisos de Discord en este canal. Por favor, concede al bot el permiso de Discord para enviar mensajes.",
     "task_delete_instantly_could_not_send_message": "La tarea **{{id}}** fue eliminada.\n\n⚠\uFE0F El bot intentó enviar un mensaje de confirmación visible para todos, pero no pudo hacerlo debido a la falta de permisos de Discord en este canal. Por favor, concede al bot el permiso de Discord para enviar mensajes",
     "deleted_instantly_ephemeral_message": "La tarea **{{id}}** fue eliminada",
-    "invalid_deadline_date": "No se pudo procesar la entrada con una fecha. Utilice el formato **{{format}}** (p. ej., {{example_date}}) o una fecha relativa como **1 week 3 days**. Puede configurar el formato de fecha con el comando `/settings dateformat`. [Ver todos los formatos de fecha compatibles](<https://bnder.net/help/dateformats>)\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
+    "invalid_deadline_date": "No se pudo procesar la entrada con una fecha. Utilice el formato **{{format}}** (p. ej., {{example_date}}) o una fecha relativa como **1 week 3 days**. Puede configurar el formato de fecha con el comando `/settings dateformat`. [Ver todos los formatos de fecha compatibles](<https://bnder.net/help/configuration/dateformats>)\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
     "more_assignees": "(+ {{count}} más)",
     "not_created_deleted_project": "La tarea no se ha podido crear porque el proyecto \"{{name}}\" está marcado como eliminado. Restaure el proyecto a través de \"/project restore\" o elija un proyecto diferente.",
     "not_moved_deleted_project": "La tarea no se ha podido mover porque el tablón \"{{name}}\" está marcado como eliminado. Restaura el proyecto a través de \"/project restore\" o elige un proyecto diferente.",
@@ -417,7 +417,7 @@
       "language_not_found": "El idioma {{languageTag}} no está disponible."
     },
     "timezone": {
-      "timezone_not_found": "No se ha podido encontrar la zona horaria **{{timezone}}**. Utilice un nombre de zona horaria válido de la lista que aparece en https://bnder.net/help/timezones.",
+      "timezone_not_found": "No se ha podido encontrar la zona horaria **{{timezone}}**. Utilice un nombre de zona horaria válido de la lista que aparece en https://bnder.net/help/configuration/timezones.",
       "timezone_set": "La zona horaria se ha establecido en **{{timezone}}**. La fecha y hora actuales en **{{timezone}}** son **{{date}}**."
     },
     "dateformat": {
@@ -495,7 +495,7 @@
   },
   "event": {
     "not_found": "No se ha encontrado el evento con el id **{{id}}**. Utilice \"/event list\" para listar todos los eventos o cree uno nuevo con \"/event create\".",
-    "invalid_date": "No se pudo procesar la entrada con una fecha. Utilice el formato **{{format}}** (p. ej., {{example_date}}) o una fecha relativa como **1 week 3 days**. Puede configurar el formato de fecha con el comando `/settings dateformat`. [Ver todos los formatos de fecha compatibles](<https://bnder.net/help/dateformats>)\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
+    "invalid_date": "No se pudo procesar la entrada con una fecha. Utilice el formato **{{format}}** (p. ej., {{example_date}}) o una fecha relativa como **1 week 3 days**. Puede configurar el formato de fecha con el comando `/settings dateformat`. [Ver todos los formatos de fecha compatibles](<https://bnder.net/help/configuration/dateformats>)\n-# Todas las fechas se calculan en {{timezone}}. Utilice \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
     "start_after_emd": "La fecha de inicio debe ser anterior a la fecha de fin",
     "created": "El evento **{{name}}** ha sido creado con el id **{{id}}** desde {{start}} hasta {{end}}. Use \"/event invite\" para invitar a otros a este evento.\n-# Todas las fechas se calculan en {{timezone}}. Use \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.",
     "accept_not_invited": "No se ha podido aceptar el evento **{{id}}** porque no estás invitado. Utiliza «/event list» para listar todos los eventos o crea uno nuevo con «/event create».",
