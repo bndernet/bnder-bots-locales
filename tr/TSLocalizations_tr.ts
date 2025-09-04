@@ -4,10 +4,10 @@ export class TSLocalizations_tr {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `Görev **${id}** ${taskTitle} için son tarih sunucu [${guildName}](https://discord.com/channels/${guildId})'da ${deadline} tarihinde sona erecektir.`;
+                return `Görev **${id}** ${taskTitle} için son tarih sunucu [${guildName}](<https://discord.com/channels/${guildId}>)'da ${deadline} tarihinde sona erecektir.`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Sunucuda **${id}** ${taskText} görevine atandınız [${guildName}](https://discord.com/channels/${guildId})`;
+                return `Sunucuda **${id}** ${taskText} görevine atandınız [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Görev ${id} atandı`;
@@ -16,10 +16,10 @@ export class TSLocalizations_tr {
             assigned_embed_button_in_progress: "Devam ediyor",
             assigned_embed_button_done: "Yapıldı",
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `Görev **${id}** için son teslim tarihi sunucuda [${guildName}](https://discord.com/channels/${guildId}) geçmiş`;
+                return `Görev **${id}** için son teslim tarihi sunucuda [${guildName}](<https://discord.com/channels/${guildId}>) geçmiş`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Görev **${id}** ${taskTitle} atandığınız sunucu tekrarlandı ve [${guildName}](https://discord.com/channels/${guildId}) sunucusunda tekrar yapılması gerekiyor.`;
+                return `Görev **${id}** ${taskTitle} atandığınız sunucu tekrarlandı ve [${guildName}](<https://discord.com/channels/${guildId}>) sunucusunda tekrar yapılması gerekiyor.`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Görev ${id} tekrarlandı`;
@@ -29,7 +29,7 @@ export class TSLocalizations_tr {
                 return `Göreve yorum eklendi: ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Sunucuda [${guildName}](https://discord.com/channels/${guildId}) bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
+                return `Sunucuda [${guildName}](<https://discord.com/channels/${guildId}>) bir göreve ${author} tarafından yorum eklendi: ${commentText}`;
             },
             comment_response_button: "Yoruma yanıt ver",
             stop_followup_reminder_button: "Takip hatırlatmasını durdur",
@@ -37,18 +37,18 @@ export class TSLocalizations_tr {
             extend_deadline_by_two_days_button: "Son teslim tarihini 2 gün uzatın",
             extend_deadline_by_one_week_button: "Son teslim tarihini 1 hafta uzatın",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `<@${addedBy}> tarafından [${guildName}](https://discord.com/channels/${guildId}) sunucusundaki **${id}** ${taskText} görevine gözlemci olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirimler alacaksınız. Bildirimleri almayı durdurmak istiyorsanız, aşağıdaki düğmeye tıklayabilirsiniz.`;
+                return `<@${addedBy}> tarafından [${guildName}](<https://discord.com/channels/${guildId}>) sunucusundaki **${id}** ${taskText} görevine gözlemci olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirimler alacaksınız. Bildirimleri almayı durdurmak istiyorsanız, aşağıdaki düğmeye tıklayabilirsiniz.`;
             },
             watcher_added_notification_unsubscribe_button: "Abonelikten çık",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Görev **${id}** ${taskTitle} sunucuda izlediğiniz [${guildName}](https://discord.com/channels/${guildId}) değişti:`;
+                return `Görev **${id}** ${taskTitle} sunucuda izlediğiniz [${guildName}](<https://discord.com/channels/${guildId}>) değişti:`;
             },
             watcher_notification_footer: "“/task unwatch” komutunu kullanarak bu görev için bildirimleri devre dışı bırakın",
             watcher_embed_title(id: string): string {
                 return `Görev ${id} güncellendi`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `**${milestoneName}** kilometre taşı, 6 saatten az bir süre içinde [${guildName}](https://discord.com/channels/${guildId}) sunucusunda yayınlanacak ve tamamlanması gereken görevler içeriyor.`;
+                return `**${milestoneName}** kilometre taşı, 6 saatten az bir süre içinde [${guildName}](<https://discord.com/channels/${guildId}>) sunucusunda yayınlanacak ve tamamlanması gereken görevler içeriyor.`;
             },
             status_todo: "Yapılacak",
             status_in_progress: "Devam ediyor",
@@ -252,7 +252,7 @@ export class TSLocalizations_tr {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Yaklaşan etkinlik (${id}) **${name}** ${durationTillEventMinutes} dakika içinde, ${startTime} saatinde [${guildName}](https://discord.com/channels/${guildId}) başlayacak.`;
+                return `Yaklaşan etkinlik (${id}) **${name}** ${durationTillEventMinutes} dakika içinde, ${startTime} saatinde [${guildName}](<https://discord.com/channels/${guildId}>) başlayacak.`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_tr {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `**${fileName}** dosyası [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
+                return `**${fileName}** dosyası [${guildName}](<https://discord.com/channels/${guildId}>) sunucusunda paylaşıldı.`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `**${folderName}** klasörü [${guildName}](https://discord.com/channels/${guildId}) sunucusunda paylaşıldı.`;
+                return `**${folderName}** klasörü [${guildName}](<https://discord.com/channels/${guildId}>) sunucusunda paylaşıldı.`;
             }
         },
         self_data_download_ready: "Verileriniz indirilmeye hazır. Bunu [uygulamamızdan](<https://bnder.net/app/>) indirebilirsiniz. İndirme bağlantısı iki hafta boyunca kullanılabilir.",

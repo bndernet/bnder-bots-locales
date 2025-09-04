@@ -4,10 +4,10 @@ export class TSLocalizations_zh_cn {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `任务 **${id}** ${taskTitle} 的截止日期为 ${deadline}，在服务器 [${guildName}](https://discord.com/channels/${guildId})`;
+                return `任务 **${id}** ${taskTitle} 的截止日期为 ${deadline}，在服务器 [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `您已被分配到任务 **${id}** ${taskText}，在服务器 [${guildName}](https://discord.com/channels/${guildId})`;
+                return `您已被分配到任务 **${id}** ${taskText}，在服务器 [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `任务 ${id} 已分配`;
@@ -16,10 +16,10 @@ export class TSLocalizations_zh_cn {
             assigned_embed_button_in_progress: "标记为进行中",
             assigned_embed_button_done: "标记为完成",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `任务 **${id}** ${taskTitle} 的截止日期已过期，服务器 [${guildName}](https://discord.com/channels/${guildId})`;
+                return `任务 **${id}** ${taskTitle} 的截止日期已过期，服务器 [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `任务 **${id}** ${taskTitle} 已被重复分配，您需要重新完成它，在服务器 [${guildName}](https://discord.com/channels/${guildId})`;
+                return `任务 **${id}** ${taskTitle} 已被重复分配，您需要重新完成它，在服务器 [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `任务 ${id} 被重复分配`;
@@ -29,7 +29,7 @@ export class TSLocalizations_zh_cn {
                 return `任务 ${id} 添加了评论`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `在服务器 [${guildName}](https://discord.com/channels/${guildId}) 由 ${author} 添加了评论：${commentText}`;
+                return `在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 由 ${author} 添加了评论：${commentText}`;
             },
             comment_response_button: "回复评论",
             stop_followup_reminder_button: "停止后续提醒",
@@ -37,18 +37,18 @@ export class TSLocalizations_zh_cn {
             extend_deadline_by_two_days_button: "延长截止日期 2 天",
             extend_deadline_by_one_week_button: "延长截止日期 1 周",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `您已被 <@${addedBy}> 添加为服务器 [${guildName}](https://discord.com/channels/${guildId}) 中任务 **${id}** ${taskText} 的观察者。当此任务发生任何变化时，您将收到通知。如果您想停止接收通知，请点击下方按钮。`;
+                return `您已被 <@${addedBy}> 添加为服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中任务 **${id}** ${taskText} 的观察者。当此任务发生任何变化时，您将收到通知。如果您想停止接收通知，请点击下方按钮。`;
             },
             watcher_added_notification_unsubscribe_button: "取消订阅",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `您在服务器 [${guildName}](https://discord.com/channels/${guildId}) 观看的任务 **${id}** ${taskTitle} 已更新：`;
+                return `您在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 观看的任务 **${id}** ${taskTitle} 已更新：`;
             },
             watcher_notification_footer: "使用命令 \"/task unwatch\" 禁用此任务的通知",
             watcher_embed_title(id: string): string {
                 return `任务 ${id} 更新`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `里程碑 **${milestoneName}** 在服务器 [${guildName}](https://discord.com/channels/${guildId}) 中少于 6 小时后到期，并且有任务需要完成。`;
+                return `里程碑 **${milestoneName}** 在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中少于 6 小时后到期，并且有任务需要完成。`;
             },
             status_todo: "待办",
             status_in_progress: "进行中",
@@ -252,7 +252,7 @@ export class TSLocalizations_zh_cn {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `即将开始的活动（${id}）**${name}**将在 ${durationTillEventMinutes} 分钟后开始，时间为 ${startTime}，地点在 [${guildName}](https://discord.com/channels/${guildId})。`;
+                return `即将开始的活动（${id}）**${name}**将在 ${durationTillEventMinutes} 分钟后开始，时间为 ${startTime}，地点在 [${guildName}](<https://discord.com/channels/${guildId}>)。`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_zh_cn {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `文件 **${fileName}** 已由 <@${userId}> 在服务器 [${guildName}](https://discord.com/channels/${guildId}) 与您共享。`;
+                return `文件 **${fileName}** 已由 <@${userId}> 在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 与您共享。`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `文件夹 **${folderName}** 已由 <@${userId}> 在服务器 [${guildName}](https://discord.com/channels/${guildId}) 与您共享。`;
+                return `文件夹 **${folderName}** 已由 <@${userId}> 在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 与您共享。`;
             }
         },
         self_data_download_ready: "您的数据已准备好下载。您可以在 [我们的应用](<https://bnder.net/app/>) 中下载。下载链接有效期为两周。",

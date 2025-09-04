@@ -4,10 +4,10 @@ export class TSLocalizations_de {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `Die Deadline für die Aufgabe **${id}** ${taskTitle} ist am ${deadline} fällig im Server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `Die Deadline für die Aufgabe **${id}** ${taskTitle} ist am ${deadline} fällig im Server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Sie wurden der Aufgabe **${id}** ${taskText} im Server [${guildName}](https://discord.com/channels/${guildId}) zugewiesen`;
+                return `Sie wurden der Aufgabe **${id}** ${taskText} im Server [${guildName}](<https://discord.com/channels/${guildId}>) zugewiesen`;
             },
             assigned_embed_title(id: string): string {
                 return `Aufgabe ${id} zugewiesen`;
@@ -16,10 +16,10 @@ export class TSLocalizations_de {
             assigned_embed_button_in_progress: "In Bearbeitung",
             assigned_embed_button_done: "Erledigt",
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `Die Deadline für die Aufgabe ${id} ist im Server [${guildName}](https://discord.com/channels/${guildId}) abgelaufen`;
+                return `Die Deadline für die Aufgabe ${id} ist im Server [${guildName}](<https://discord.com/channels/${guildId}>) abgelaufen`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Die Aufgabe **${id}** ${taskTitle} die Ihnen zugewiesen wurde, wurde wiederholt und muss auf dem Server [${guildName}](https://discord.com/channels/${guildId}) erneut erledigt werden.`;
+                return `Die Aufgabe **${id}** ${taskTitle} die Ihnen zugewiesen wurde, wurde wiederholt und muss auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) erneut erledigt werden.`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;
@@ -29,7 +29,7 @@ export class TSLocalizations_de {
                 return `Kommentar hinzugefügt zu Aufgabe ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt von ${author}: ${commentText}`;
+                return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](<https://discord.com/channels/${guildId}>) hinzugefügt von ${author}: ${commentText}`;
             },
             comment_response_button: "Auf Kommentar antworten",
             stop_followup_reminder_button: "Folge-Erinnerung stoppen",
@@ -37,18 +37,18 @@ export class TSLocalizations_de {
             extend_deadline_by_two_days_button: "Frist um 2 Tage verlängern",
             extend_deadline_by_one_week_button: "Frist um 1 Woche verlängern",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Du wurdest von <@${addedBy}> als Beobachter zur Aufgabe **${id}** ${taskText} auf Server [${guildName}](https://discord.com/channels/${guildId}) hinzugefügt. Du erhältst Benachrichtigungen, sobald sich an dieser Aufgabe etwas ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, klicke auf die Schaltfläche unten.`;
+                return `Du wurdest von <@${addedBy}> als Beobachter zur Aufgabe **${id}** ${taskText} auf Server [${guildName}](<https://discord.com/channels/${guildId}>) hinzugefügt. Du erhältst Benachrichtigungen, sobald sich an dieser Aufgabe etwas ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, klicke auf die Schaltfläche unten.`;
             },
             watcher_added_notification_unsubscribe_button: "Abbestellen",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Die Aufgabe **${id}** ${taskTitle} die Sie auf dem Server [${guildName}](https://discord.com/channels/${guildId}) beobachten, wurde geändert:`;
+                return `Die Aufgabe **${id}** ${taskTitle} die Sie auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) beobachten, wurde geändert:`;
             },
             watcher_notification_footer: "Benachrichtigungen für diese Aufgabe mit dem Befehl „/task unwatch“ deaktivieren",
             watcher_embed_title(id: string): string {
                 return `Aufgabe ${id} wurde aktualisiert`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](https://discord.com/channels/${guildId}) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
+                return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
             },
             status_todo: "Todo",
             status_in_progress: "In Bearbeitung",
@@ -252,7 +252,7 @@ export class TSLocalizations_de {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `Das bevorstehende Event (${id}) **${name}** beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Das bevorstehende Event (${id}) **${name}** beginnt in ${durationTillEventMinutes} Minuten um ${startTime} in [${guildName}](<https://discord.com/channels/${guildId}>).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_de {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `Die Datei **${fileName}** wurde auf dem Server [${guildName}](https://discord.com/channels/${guildId}) geteilt von <@${userId}>`;
+                return `Die Datei **${fileName}** wurde auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `Der Ordner **${folderName}** wurde auf dem Server [${guildName}](https://discord.com/channels/${guildId}) geteilt von <@${userId}>`;
+                return `Der Ordner **${folderName}** wurde auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
             }
         },
         self_data_download_ready: "Deine Daten stehen zum Download bereit. Du kannst sie in [unserer App](<https://bnder.net/app/>) herunterladen. Der Download-Link ist zwei Wochen lang verfügbar.",

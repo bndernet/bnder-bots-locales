@@ -4,10 +4,10 @@ export class TSLocalizations_ja {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `タスク **${id}** ${taskTitle} の期限は ${deadline} です。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
+                return `タスク **${id}** ${taskTitle} の期限は ${deadline} です。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `あなたはタスク **${id}** ${taskText} に割り当てられました。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
+                return `あなたはタスク **${id}** ${taskText} に割り当てられました。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
             },
             assigned_embed_title(id: string): string {
                 return `タスク ${id} が割り当てられました`;
@@ -16,10 +16,10 @@ export class TSLocalizations_ja {
             assigned_embed_button_in_progress: "進行中としてマーク",
             assigned_embed_button_done: "完了としてマーク",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `タスク **${id}** ${taskTitle} の期限は過ぎています。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
+                return `タスク **${id}** ${taskTitle} の期限は過ぎています。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `あなたが割り当てられているタスク **${id}** ${taskTitle} は繰り返しとなり、再度実行する必要があります。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
+                return `あなたが割り当てられているタスク **${id}** ${taskTitle} は繰り返しとなり、再度実行する必要があります。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `タスク ${id} が繰り返されました`;
@@ -29,7 +29,7 @@ export class TSLocalizations_ja {
                 return `タスク ${id} にコメントが追加されました`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `[${guildName}](https://discord.com/channels/${guildId}) サーバーで ${author} によってタスクにコメントが追加されました: ${commentText}`;
+                return `[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで ${author} によってタスクにコメントが追加されました: ${commentText}`;
             },
             comment_response_button: "コメントに返信",
             stop_followup_reminder_button: "フォローアップリマインダーを停止",
@@ -37,18 +37,18 @@ export class TSLocalizations_ja {
             extend_deadline_by_two_days_button: "期限を2日延長",
             extend_deadline_by_one_week_button: "期限を1週間延長",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `あなたは、<@${addedBy}>によってサーバー[${guildName}](https://discord.com/channels/${guildId})のタスク**${id}** ${taskText}のウォッチャーとして追加されました。このタスクに変更があった際に通知が届きます。通知の受信を停止したい場合は、以下のボタンをクリックしてください。`;
+                return `あなたは、<@${addedBy}>によってサーバー[${guildName}](<https://discord.com/channels/${guildId}>)のタスク**${id}** ${taskText}のウォッチャーとして追加されました。このタスクに変更があった際に通知が届きます。通知の受信を停止したい場合は、以下のボタンをクリックしてください。`;
             },
             watcher_added_notification_unsubscribe_button: "購読解除",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `あなたがウォッチしているタスク **${id}** ${taskTitle} が更新されました。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。`;
+                return `あなたがウォッチしているタスク **${id}** ${taskTitle} が更新されました。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
             },
             watcher_notification_footer: "このタスクの通知を無効にするには \"/task unwatch\" コマンドを使用してください。",
             watcher_embed_title(id: string): string {
                 return `タスク ${id} が更新されました`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `マイルストーン **${milestoneName}** の期限が6時間以内に迫っています。[${guildName}](https://discord.com/channels/${guildId}) サーバーで確認できます。完了すべきタスクがあります。`;
+                return `マイルストーン **${milestoneName}** の期限が6時間以内に迫っています。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。完了すべきタスクがあります。`;
             },
             status_todo: "未着手",
             status_in_progress: "進行中",
@@ -252,7 +252,7 @@ export class TSLocalizations_ja {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
-                return `もうすぐイベント (${id}) **${name}** が ${durationTillEventMinutes} 分後に、${startTime} に [${guildName}](https://discord.com/channels/${guildId}) で開始されます。`;
+                return `もうすぐイベント (${id}) **${name}** が ${durationTillEventMinutes} 分後に、${startTime} に [${guildName}](<https://discord.com/channels/${guildId}>) で開始されます。`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_ja {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `ファイル **${fileName}** がサーバー [${guildName}](https://discord.com/channels/${guildId}) で <@${userId}> によって共有されました。`;
+                return `ファイル **${fileName}** がサーバー [${guildName}](<https://discord.com/channels/${guildId}>) で <@${userId}> によって共有されました。`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `フォルダ **${folderName}** がサーバー [${guildName}](https://discord.com/channels/${guildId}) で <@${userId}> によって共有されました。`;
+                return `フォルダ **${folderName}** がサーバー [${guildName}](<https://discord.com/channels/${guildId}>) で <@${userId}> によって共有されました。`;
             }
         },
         self_data_download_ready: "あなたのデータはダウンロード準備が整いました。[アプリ](<https://bnder.net/app/>) からダウンロードできます。ダウンロードリンクは2週間有効です。",

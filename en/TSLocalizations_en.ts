@@ -4,10 +4,10 @@ export class TSLocalizations_en {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `The deadline for task **${id}** ${taskTitle} is due on ${deadline} in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `The deadline for task **${id}** ${taskTitle} is due on ${deadline} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `You have been assigned to task **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `You have been assigned to task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Task ${id} assigned`;
@@ -16,10 +16,10 @@ export class TSLocalizations_en {
             assigned_embed_button_in_progress: "Mark as in progress",
             assigned_embed_button_done: "Mark as done",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `The deadline for task **${id}** ${taskTitle} is overdue in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `The deadline for task **${id}** ${taskTitle} is overdue in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Task ${id} repeated`;
@@ -29,7 +29,7 @@ export class TSLocalizations_en {
                 return `Comment added to task ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `A comment was added to a task in server [${guildName}](https://discord.com/channels/${guildId}) by ${author}: ${commentText}`;
+                return `A comment was added to a task in server [${guildName}](<https://discord.com/channels/${guildId}>) by ${author}: ${commentText}`;
             },
             comment_response_button: "Respond to comment",
             stop_followup_reminder_button: "Stop follow-up reminder",
@@ -37,18 +37,18 @@ export class TSLocalizations_en {
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId}) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
+                return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
             },
             watcher_added_notification_unsubscribe_button: "Unsubscribe",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `The task **${id}** ${taskTitle} you are watching in server [${guildName}](https://discord.com/channels/${guildId}) changed:`
+                return `The task **${id}** ${taskTitle} you are watching in server [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
             },
             watcher_notification_footer: "Disable notifications for this task by using \"/task unwatch\" command",
             watcher_embed_title(id: string): string {
                 return `Task ${id} updated`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `The milestone **${milestoneName}** is due in less than 6 hours in server [${guildName}](https://discord.com/channels/${guildId}) and has tasks that need to be completed.`;
+                return `The milestone **${milestoneName}** is due in less than 6 hours in server [${guildName}](<https://discord.com/channels/${guildId}>) and has tasks that need to be completed.`;
             },
             status_todo: "Todo",
             status_in_progress: "In Progress",
@@ -252,7 +252,7 @@ export class TSLocalizations_en {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
-                return `Upcoming event (${id}) **${name}** is starting in ${durationTillEventMinutes} minutes at ${startTime} in [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Upcoming event (${id}) **${name}** is starting in ${durationTillEventMinutes} minutes at ${startTime} in [${guildName}](<https://discord.com/channels/${guildId}>).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_en {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `The file **${fileName}** was shared with you in server [${guildName}](https://discord.com/channels/${guildId}) by <@${userId}>`;
+                return `The file **${fileName}** was shared with you in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `The folder **${folderName}** was shared with you in server [${guildName}](https://discord.com/channels/${guildId}) by <@${userId}>`;
+                return `The folder **${folderName}** was shared with you in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             }
         },
         self_data_download_ready: "Your data is ready for download. You can download it in [our app](<https://bnder.net/app/>). The download link is available for two weeks.",

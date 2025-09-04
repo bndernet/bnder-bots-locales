@@ -4,10 +4,10 @@ export class TSLocalizations_hi {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `कार्य **${id}** ${taskTitle} की समय सीमा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${deadline} को समाप्त होने वाली है`;
+                return `कार्य **${id}** ${taskTitle} की समय सीमा सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में ${deadline} को समाप्त होने वाली है`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `आपको सर्वर [${guildName}](https://discord.com/channels/${guildId}) में कार्य **${id}** ${taskText} सौंपा गया है`;
+                return `आपको सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में कार्य **${id}** ${taskText} सौंपा गया है`;
             },
             assigned_embed_title(id: string): string {
                 return `कार्य ${id} सौंपा गया`;
@@ -16,10 +16,10 @@ export class TSLocalizations_hi {
             assigned_embed_button_in_progress: "प्रगति पर है के रूप में चिह्नित करें",
             assigned_embed_button_done: "पूर्ण हुआ चिह्नित करें",
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `कार्य ${id} की समय सीमा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में अतिदेय है`;
+                return `कार्य ${id} की समय सीमा सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में अतिदेय है`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `आपको जो कार्य **${id}** ${taskTitle} सौंपा गया है, उसे दोहराया गया है और सर्वर [${guildName}](https://discord.com/channels/${guildId}) में फिर से करने की आवश्यकता है`;
+                return `आपको जो कार्य **${id}** ${taskTitle} सौंपा गया है, उसे दोहराया गया है और सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में फिर से करने की आवश्यकता है`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `कार्य ${id} दोहराया गया`;
@@ -29,7 +29,7 @@ export class TSLocalizations_hi {
                 return `कार्य ${id} में टिप्पणी जोड़ी गई`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `एक टिप्पणी एक कार्य में सर्वर [${guildName}](https://discord.com/channels/${guildId}) में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
+                return `एक टिप्पणी एक कार्य में सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में ${author} द्वारा जोड़ी गई थी: ${commentText}`;
             },
             comment_response_button: "टिप्पणी का जवाब दें",
             stop_followup_reminder_button: "फॉलो-अप अनुस्मारक रोकें",
@@ -37,18 +37,18 @@ export class TSLocalizations_hi {
             extend_deadline_by_two_days_button: "समय सीमा 2 दिन बढ़ाएँ",
             extend_deadline_by_one_week_button: "समय सीमा 1 सप्ताह बढ़ाएँ",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `आपको <@${addedBy}> द्वारा सर्वर [${guildName}](https://discord.com/channels/${guildId}) में टास्क **${id}** ${taskText} में वॉचर के रूप में जोड़ा गया है। जब इस टास्क में कुछ बदलाव होगा तो आपको नोटिफिकेशन प्राप्त होंगे। यदि आप नोटिफिकेशन प्राप्त करना बंद करना चाहते हैं, तो आप नीचे दिए गए बटन पर क्लिक कर सकते हैं।`;
+                return `आपको <@${addedBy}> द्वारा सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में टास्क **${id}** ${taskText} में वॉचर के रूप में जोड़ा गया है। जब इस टास्क में कुछ बदलाव होगा तो आपको नोटिफिकेशन प्राप्त होंगे। यदि आप नोटिफिकेशन प्राप्त करना बंद करना चाहते हैं, तो आप नीचे दिए गए बटन पर क्लिक कर सकते हैं।`;
             },
             watcher_added_notification_unsubscribe_button: "सदस्यता रद्द",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `सर्वर [${guildName}](https://discord.com/channels/${guildId}) में आप जो कार्य **${id}** ${taskTitle} देख रहे हैं, वह बदल गया है:`;
+                return `सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में आप जो कार्य **${id}** ${taskTitle} देख रहे हैं, वह बदल गया है:`;
             },
             watcher_notification_footer: "\"/task unwatch\" कमांड का उपयोग करके इस कार्य के लिए अधिसूचनाएँ अक्षम करें",
             watcher_embed_title(id: string): string {
                 return `कार्य ${id} अपडेट किया गया`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `माइलस्टोन **${milestoneName}** सर्वर [${guildName}](https://discord.com/channels/${guildId}) पर 6 घंटे से भी कम समय में पूरा होने वाला है और इसमें ऐसे कार्य हैं जिन्हें पूरा करने की आवश्यकता है।`;
+                return `माइलस्टोन **${milestoneName}** सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) पर 6 घंटे से भी कम समय में पूरा होने वाला है और इसमें ऐसे कार्य हैं जिन्हें पूरा करने की आवश्यकता है।`;
             },
             status_todo: "करने के लिए",
             status_in_progress: "प्रगति पर है",
@@ -252,7 +252,7 @@ export class TSLocalizations_hi {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string): string {
-                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} पर [${guildName}](https://discord.com/channels/${guildId}) में शुरू हो रहा है।`;
+                return `आगामी इवेंट (${id}) **${name}** ${durationTillEventMinutes} मिनट में ${startTime} पर [${guildName}](<https://discord.com/channels/${guildId}>) में शुरू हो रहा है।`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_hi {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `फ़ाइल **${fileName}** को सर्वर [${guildName}](https://discord.com/channels/${guildId}) में उपयोगकर्ता <@${userId}> द्वारा साझा किया गया है।`;
+                return `फ़ाइल **${fileName}** को सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में उपयोगकर्ता <@${userId}> द्वारा साझा किया गया है।`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `फ़ोल्डर **${folderName}** को सर्वर [${guildName}](https://discord.com/channels/${guildId}) में उपयगकर्ता <@${userId}> द्वारा साझा किया गया है।`;
+                return `फ़ोल्डर **${folderName}** को सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में उपयगकर्ता <@${userId}> द्वारा साझा किया गया है।`;
             }
         },
         self_data_download_ready: "आपका डेटा डाउनलोड के लिए तैयार है। आप इसे [हमारे ऐप](<https://bnder.net/app/>) में डाउनलोड कर सकते हैं। डाउनलोड लिंक दो सप्ताह के लिए उपलब्ध है।",

@@ -4,10 +4,10 @@ export class TSLocalizations_nl {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `De deadline voor taak **${id}** ${taskTitle} is op ${deadline} in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `De deadline voor taak **${id}** ${taskTitle} is op ${deadline} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Je bent toegewezen aan taak **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `Je bent toegewezen aan taak **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Taak ${id} toegewezen`;
@@ -16,10 +16,10 @@ export class TSLocalizations_nl {
             assigned_embed_button_in_progress: "Markeren als 'bezig'",
             assigned_embed_button_done: "Markeren als 'gereed'",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `De deadline voor taak **${id}** ${taskTitle} is verlopen in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `De deadline voor taak **${id}** ${taskTitle} is verlopen in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `De taak **${id}** ${taskTitle} waaraan je bent toegewezen, is herhaald en moet opnieuw worden gedaan in server [${guildName}](https://discord.com/channels/${guildId})`;
+                return `De taak **${id}** ${taskTitle} waaraan je bent toegewezen, is herhaald en moet opnieuw worden gedaan in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Taak ${id} herhaald`;
@@ -29,7 +29,7 @@ export class TSLocalizations_nl {
                 return `Reactie toegevoegd aan taak ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Een reactie is toegevoegd aan een taak in server [${guildName}](https://discord.com/channels/${guildId}) door ${author}: ${commentText}`;
+                return `Een reactie is toegevoegd aan een taak in server [${guildName}](<https://discord.com/channels/${guildId}>) door ${author}: ${commentText}`;
             },
             comment_response_button: "Reageer op opmerking",
             stop_followup_reminder_button: "Stop follow-up herinnering",
@@ -37,18 +37,18 @@ export class TSLocalizations_nl {
             extend_deadline_by_two_days_button: "Deadline met 2 dagen verlengen",
             extend_deadline_by_one_week_button: "Deadline met 1 week verlengen",
             watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Je bent toegevoegd als toeschouwer aan taak **${id}** ${taskText} in server [${guildName}](https://discord.com/channels/${guildId}) door <@${addedBy}>. Je ontvangt meldingen wanneer er iets verandert in deze taak. Als je geen meldingen meer wilt ontvangen, kun je op de onderstaande knop klikken.`;
+                return `Je bent toegevoegd als toeschouwer aan taak **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) door <@${addedBy}>. Je ontvangt meldingen wanneer er iets verandert in deze taak. Als je geen meldingen meer wilt ontvangen, kun je op de onderstaande knop klikken.`;
             },
             watcher_added_notification_unsubscribe_button: "Uitschrijven",
             watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `De taak **${id}** ${taskTitle} die je volgt in server [${guildName}](https://discord.com/channels/${guildId}) is gewijzigd:`
+                return `De taak **${id}** ${taskTitle} die je volgt in server [${guildName}](<https://discord.com/channels/${guildId}>) is gewijzigd:`
             },
             watcher_notification_footer: "Schakel meldingen voor deze taak uit met het commando \"/task unwatch\"",
             watcher_embed_title(id: string): string {
                 return `Taak ${id} bijgewerkt`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `De mijlpaal **${milestoneName}** is binnen 6 uur verschuldigd in server [${guildName}](https://discord.com/channels/${guildId}) en heeft taken die moeten worden voltooid.`;
+                return `De mijlpaal **${milestoneName}** is binnen 6 uur verschuldigd in server [${guildName}](<https://discord.com/channels/${guildId}>) en heeft taken die moeten worden voltooid.`;
             },
             status_todo: "Te doen",
             status_in_progress: "Bezig",
@@ -252,7 +252,7 @@ export class TSLocalizations_nl {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
-                return `Het aankomende evenement (${id}) **${name}** begint over ${durationTillEventMinutes} minuten om ${startTime} in server [${guildName}](https://discord.com/channels/${guildId}).`;
+                return `Het aankomende evenement (${id}) **${name}** begint over ${durationTillEventMinutes} minuten om ${startTime} in server [${guildName}](<https://discord.com/channels/${guildId}>).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -275,10 +275,10 @@ export class TSLocalizations_nl {
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `Het bestand **${fileName}** is met je gedeeld in server [${guildName}](https://discord.com/channels/${guildId}) door <@${userId}>`;
+                return `Het bestand **${fileName}** is met je gedeeld in server [${guildName}](<https://discord.com/channels/${guildId}>) door <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `De map **${folderName}** is met je gedeeld in server [${guildName}](https://discord.com/channels/${guildId}) door <@${userId}>`;
+                return `De map **${folderName}** is met je gedeeld in server [${guildName}](<https://discord.com/channels/${guildId}>) door <@${userId}>`;
             }
         },
         self_data_download_ready: "Je gegevens zijn klaar om te downloaden. Je kunt ze downloaden in [onze app](<https://bnder.net/app/>). De downloadlink is twee weken beschikbaar.",
