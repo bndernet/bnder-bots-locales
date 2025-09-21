@@ -350,6 +350,13 @@ export class TSLocalizations_zh_cn {
                 headline: "您的数据已准备好下载",
                 text: "我们已为您准备好数据，您可以在应用中访问。下载链接有效期为两周。",
             },
+            payment_failed: {
+                headline: "🚨 需要操作：Pro 订阅付款失败",
+                text(guildName: string): string {
+                    return `我们无法处理 ${guildName} 上一个或多个 Pro 席位的付款。为避免失去对 Pro 功能的访问，请立即更新您的付款信息并支付账单。如果不采取行动，您的 Pro 功能将很快被停用。需要帮助吗？请联系支持 — 我们随时为您服务。`;
+                },
+                primaryActionText: "更新付款信息"
+            },
             open_app: "打开应用",
         }
     }

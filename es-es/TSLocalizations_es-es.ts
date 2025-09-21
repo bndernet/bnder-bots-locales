@@ -350,6 +350,13 @@ export class TSLocalizations_es_es {
                 headline: "Tus datos están listos para descargar",
                 text: "Hemos preparado tus datos para su descarga. Puedes acceder a ellos en la aplicación. El enlace de descarga estará disponible durante dos semanas.",
             },
+            payment_failed: {
+                headline: "🚨 Acción necesaria: Falló el pago de la suscripción Pro",
+                text(guildName: string): string {
+                    return `No pudimos procesar el pago de uno o más asientos Pro en ${guildName}. Para evitar perder acceso a las funciones Pro, actualiza tu información de pago y paga tu factura ahora. Tus funciones Pro se desactivarán pronto si no se toma ninguna acción. ¿Necesitas ayuda? Contacta con soporte — estamos aquí para ti.`;
+                },
+                primaryActionText: "Actualizar información de pago"
+            },
             open_app: "Abrir aplicación",
         }
     }

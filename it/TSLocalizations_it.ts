@@ -350,6 +350,13 @@ export class TSLocalizations_it {
                 headline: "I tuoi dati sono pronti per il download",
                 text: "Abbiamo preparato i tuoi dati per il download. Puoi accedervi nell'app. Il link per il download sarà disponibile per due settimane.",
             },
+            payment_failed: {
+                headline: "🚨 Azione necessaria: Pagamento dell’abbonamento Pro non riuscito",
+                text(guildName: string): string {
+                    return `Non siamo riusciti a elaborare il pagamento per uno o più posti Pro su ${guildName}. Per evitare di perdere l’accesso alle funzionalità Pro, aggiorna subito le tue informazioni di pagamento e paga la fattura. Le tue funzionalità Pro verranno presto disabilitate se non agisci. Hai bisogno di aiuto? Contatta il supporto — siamo qui per te.`;
+                },
+                primaryActionText: "Aggiorna informazioni di pagamento"
+            },
             open_app: "Apri l'app",
         }
     }

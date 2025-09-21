@@ -350,6 +350,13 @@ export class TSLocalizations_pl {
                 headline: "Twoje dane są gotowe do pobrania",
                 text: "Przygotowaliśmy Twoje dane do pobrania. Możesz uzyskać do nich dostęp w aplikacji. Link do pobrania będzie dostępny przez dwa tygodnie.",
             },
+            payment_failed: {
+                headline: "🚨 Akcja wymagana: płatność za subskrypcję Pro nie powiodła się",
+                text(guildName: string): string {
+                    return `Nie udało nam się przetworzyć płatności za jedno lub więcej miejsc Pro w ${guildName}. Aby nie stracić dostępu do funkcji Pro, zaktualizuj dane płatnicze i opłać fakturę teraz. Twoje funkcje Pro zostaną wkrótce wyłączone, jeśli nie podejmiesz żadnych działań. Potrzebujesz pomocy? Skontaktuj się z pomocą — jesteśmy tutaj dla Ciebie.`;
+                },
+                primaryActionText: "Zaktualizuj dane płatnicze"
+            },
             open_app: "Otwórz aplikację",
         }
     }

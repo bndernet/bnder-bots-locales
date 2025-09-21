@@ -350,6 +350,13 @@ export class TSLocalizations_de {
                 headline: "Deine Daten stehen zum Download bereit",
                 text: "Wir haben deine Daten für den Download vorbereitet. Du kannst sie in der App abrufen. Der Download-Link ist zwei Wochen lang verfügbar.",
             },
+            payment_failed: {
+                headline: "🚨 Aktion erforderlich: Zahlung für Pro-Abonnement fehlgeschlagen",
+                text(guildName: string): string {
+                    return `Wir konnten die Zahlung für einen oder mehrere Pro-Sitze in ${guildName} nicht verarbeiten. Um den Zugriff auf Pro-Funktionen nicht zu verlieren, aktualisieren Sie bitte jetzt Ihre Zahlungsinformationen und begleichen Sie Ihre Rechnung. Ihre Pro-Funktionen werden bald deaktiviert, wenn keine Aktion erfolgt. Brauchen Sie Hilfe? Kontaktieren Sie den Support — wir sind für Sie da.`;
+                },
+                primaryActionText: "Zahlungsinformationen aktualisieren"
+            },
             open_app: "App öffnen",
         }
     }

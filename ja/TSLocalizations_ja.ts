@@ -350,6 +350,13 @@ export class TSLocalizations_ja {
                 headline: "データのダウンロード準備ができました",
                 text: "あなたのデータをダウンロード用に準備しました。アプリ内でアクセスできます。ダウンロードリンクは2週間有効です。",
             },
+            payment_failed: {
+                headline: "🚨 対応が必要：Proサブスクリプションの支払いに失敗しました",
+                text(guildName: string): string {
+                    return `${guildName} の1つ以上の Pro シートの支払いを処理できませんでした。Pro 機能へのアクセスを失わないように、支払い情報を更新し、請求書を今すぐお支払いください。対応がない場合、Pro 機能はまもなく無効になります。サポートが必要ですか？お問い合わせください — 私たちがサポートします。`;
+                },
+                primaryActionText: "支払い情報を更新"
+            },
             open_app: "アプリを開く",
         }
     }

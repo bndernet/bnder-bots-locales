@@ -350,6 +350,13 @@ export class TSLocalizations_fr {
                 headline: "Vos données sont prêtes à être téléchargées",
                 text: "Nous avons préparé vos données pour le téléchargement. Vous pouvez y accéder dans l'application. Le lien de téléchargement est disponible pendant deux semaines.",
             },
+            payment_failed: {
+                headline: "🚨 Action requise : Échec du paiement de l’abonnement Pro",
+                text(guildName: string): string {
+                    return `Nous n’avons pas pu traiter le paiement pour un ou plusieurs sièges Pro sur ${guildName}. Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez mettre à jour vos informations de paiement et régler votre facture dès maintenant. Vos fonctionnalités Pro seront bientôt désactivées si aucune action n’est entreprise. Besoin d’aide ? Contactez le support — nous sommes là pour vous.`;
+                },
+                primaryActionText: "Mettre à jour les informations de paiement"
+            },
             open_app: "Ouvrir l'application",
         }
     }

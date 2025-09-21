@@ -350,6 +350,13 @@ export class TSLocalizations_pt_br {
                 headline: "Seus dados estão prontos para download",
                 text: "Preparamos seus dados para download. Você pode acessá-los no app. O link para download estará disponível por duas semanas.",
             },
+            payment_failed: {
+                headline: "🚨 Ação necessária: Falha no pagamento da assinatura Pro",
+                text(guildName: string): string {
+                    return `Não conseguimos processar o pagamento de um ou mais assentos Pro em ${guildName}. Para evitar perder acesso aos recursos Pro, atualize suas informações de pagamento e pague sua fatura agora. Seus recursos Pro serão desativados em breve se nenhuma ação for tomada. Precisa de ajuda? Contate o suporte — estamos aqui para você.`;
+                },
+                primaryActionText: "Atualizar informações de pagamento"
+            },
             open_app: "Abrir App",
         }
     }

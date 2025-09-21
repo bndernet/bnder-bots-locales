@@ -350,6 +350,13 @@ export class TSLocalizations_en {
                 headline: "Your data is ready for download",
                 text: "We've prepared your data for download. You can access it in the app. The download link is available for two weeks.",
             },
+            payment_failed: {
+                headline: "🚨 Action Needed: Payment Failed for Pro Subscription",
+                text(guildName: string): string {
+                    return `We couldn’t process the payment for one or more Pro seats on ${guildName}. To avoid losing access to Pro features, please update your payment info and pay your invoice now. Your Pro features will be disabled soon if no action is taken. Need help? Contact support — we’re here for you.`;
+                },
+                primaryActionText: "Update Payment Info"
+            },
             open_app: "Open App",
         }
     }

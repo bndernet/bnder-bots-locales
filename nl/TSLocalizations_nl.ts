@@ -350,6 +350,13 @@ export class TSLocalizations_nl {
                 headline: "Je gegevens zijn klaar om te downloaden",
                 text: "We hebben je gegevens klaargezet voor download. Je kunt er toegang toe krijgen in de app. De downloadlink is twee weken beschikbaar.",
             },
+            payment_failed: {
+                headline: "🚨 Actie vereist: Betaling voor Pro-abonnement mislukt",
+                text(guildName: string): string {
+                    return `We konden de betaling voor een of meer Pro-plaatsen op ${guildName} niet verwerken. Om te voorkomen dat je toegang tot Pro-functies verliest, werk je betalingsgegevens bij en betaal nu je factuur. Je Pro-functies worden binnenkort uitgeschakeld als er geen actie wordt ondernomen. Hulp nodig? Neem contact op met support — we zijn er voor je.`;
+                },
+                primaryActionText: "Betalingsgegevens bijwerken"
+            },
             open_app: "App openen",
         }
     }

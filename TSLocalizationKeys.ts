@@ -245,6 +245,11 @@ export interface TSLocalizationKeys {
             headline: string,
             text: string,
         },
+        payment_failed: {
+            headline: string,
+            text(guildName: string): string,
+            primaryActionText: string,
+        },
         open_app: string,
     }
 

@@ -350,6 +350,13 @@ export class TSLocalizations_tr {
                 headline: "Verileriniz indirilmeye hazır",
                 text: "Verileriniz indirilmeye hazırlandı. Uygulamada erişebilirsiniz. İndirme bağlantısı iki hafta boyunca geçerlidir.",
             },
+            payment_failed: {
+                headline: "🚨 İşlem gerekli: Pro abonelik ödemesi başarısız oldu",
+                text(guildName: string): string {
+                    return `Bir veya daha fazla Pro koltuğu için ${guildName} üzerinde ödeme işlenemedi. Pro özelliklerine erişimi kaybetmemek için lütfen ödeme bilgilerinizi güncelleyin ve faturayı hemen ödeyin. Hiçbir işlem yapılmazsa Pro özellikleriniz yakında devre dışı bırakılacak. Yardıma mı ihtiyacınız var? Destek ile iletişime geçin — buradayız.`;
+                },
+                primaryActionText: "Ödeme bilgilerini güncelle"
+            },
             open_app: "Uygulamayı Aç",
         }
     }
