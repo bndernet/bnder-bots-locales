@@ -520,7 +520,7 @@
     "remove_not_invited_error": "The user <@{{user}}> is not invited to the event **{{id}}**.",
     "remove_success": "The user <@{{user}}> has been removed from the event **{{id}}**.",
     "create_public_key": "Are you sure you want to export your calendar? This will generate a unique link that can be used to access your events from this server. Anyone with the link will be able to see your events. Click the button below to confirm.",
-    "public_key": "You can access your calendar and integrate it in your preferred calendar app with the following link: {{url}}\n\nPlease note the following:\n- Anyone with the link will be able to see your events\n- It will only show events from one week ago or 4 weeks into the future when it is synced with your calendar app\n- You can regenerate the link at any time to make the old link invalid",
+    "public_key": "You can access your calendar and integrate it in your preferred calendar app with the following link: <{{url}}>\n\nPlease note the following:\n- Anyone with the link will be able to see your events\n- It will only show events from one week ago or 4 weeks into the future when it is synced with your calendar app\n- You can regenerate the link at any time to make the old link invalid",
     "regenerate_key": "Are you sure you want to regenerate your calendar link? The old link will be invalid and can't be used to access your events anymore. Click the button below to confirm.",
     "create_key_button": "Create calendar link",
     "repeat_end_before_start": "The repeat end date must be after the start date.",

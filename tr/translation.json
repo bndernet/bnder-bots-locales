@@ -520,7 +520,7 @@
     "remove_not_invited_error": "<@{{user}}> kullanıcısı **{{id}}** etkinliğine davet edilmedi.",
     "remove_success": "<@{{user}}> kullanıcısı **{{id}}** etkinliğinden kaldırıldı.",
     "create_public_key": "Takviminizi dışa aktarmak istediğinizden emin misiniz? Bu, etkinliklerinize bu sunucudan erişmek için kullanılabilecek benzersiz bir bağlantı oluşturacaktır. Bağlantıya sahip olan herkes etkinliklerinizi görebilecektir. Onaylamak için aşağıdaki düğmeyi tıklayın.",
-    "public_key": "Aşağıdaki bağlantıyı kullanarak takviminize erişebilir ve tercih ettiğiniz takvim uygulamasına entegre edebilirsiniz: {{url}}\n\nLütfen aşağıdakilere dikkat edin:\n- Bağlantıya sahip olan herkes etkinliklerinizi görebilir\n- Takvim uygulamanızla senkronize edildiğinde yalnızca bir hafta önceki veya 4 hafta sonraki etkinlikleri gösterecektir\n- Eski bağlantıyı geçersiz kılmak için istediğiniz zaman bağlantıyı yeniden oluşturabilirsiniz",
+    "public_key": "Aşağıdaki bağlantıyı kullanarak takviminize erişebilir ve tercih ettiğiniz takvim uygulamasına entegre edebilirsiniz: <{{url}}>\n\nLütfen aşağıdakilere dikkat edin:\n- Bağlantıya sahip olan herkes etkinliklerinizi görebilir\n- Takvim uygulamanızla senkronize edildiğinde yalnızca bir hafta önceki veya 4 hafta sonraki etkinlikleri gösterecektir\n- Eski bağlantıyı geçersiz kılmak için istediğiniz zaman bağlantıyı yeniden oluşturabilirsiniz",
     "regenerate_key": "Takvim bağlantınızı yeniden oluşturmak istediğinizden emin misiniz? Eski bağlantı geçersiz olacak ve artık etkinliklerinize erişmek için kullanılamayacak. Onaylamak için aşağıdaki düğmeyi tıklayın.",
     "create_key_button": "Takvim bağlantısı oluştur",
     "repeat_end_before_start": "Tekrar bitiş tarihi başlangıç tarihinden sonra olmalıdır.",

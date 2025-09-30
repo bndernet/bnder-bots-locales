@@ -520,7 +520,7 @@
     "remove_not_invited_error": "O usuário <@{{user}}> não foi convidado para o evento **{{id}}**.",
     "remove_success": "O usuário <@{{user}}> foi removido do evento **{{id}}**.",
     "create_public_key": "Tem certeza de que deseja exportar seu calendário? Isso gerará um link exclusivo que pode ser usado para acessar seus eventos a partir deste servidor. Qualquer pessoa com o link poderá ver seus eventos. Clique no botão abaixo para confirmar.",
-    "public_key": "Você pode acessar seu calendário e integrá-lo ao seu aplicativo de calendário preferido com o seguinte link: {{url}}\n\nObserve o seguinte:\n- Qualquer pessoa com o link poderá ver seus eventos\n- Ele só mostrará eventos de uma semana atrás ou de 4 semanas no futuro quando estiver sincronizado com seu aplicativo de calendário\n- Você pode gerar novamente o link a qualquer momento para tornar o link antigo inválido",
+    "public_key": "Você pode acessar seu calendário e integrá-lo ao seu aplicativo de calendário preferido com o seguinte link: <{{url}}>\n\nObserve o seguinte:\n- Qualquer pessoa com o link poderá ver seus eventos\n- Ele só mostrará eventos de uma semana atrás ou de 4 semanas no futuro quando estiver sincronizado com seu aplicativo de calendário\n- Você pode gerar novamente o link a qualquer momento para tornar o link antigo inválido",
     "regenerate_key": "Tem certeza de que deseja gerar novamente o link do seu calendário? O link antigo será inválido e não poderá mais ser usado para acessar seus eventos. Clique no botão abaixo para confirmar.",
     "create_key_button": "Criar link de calendário",
     "repeat_end_before_start": "A data final da repetição deve ser posterior à data de início.",

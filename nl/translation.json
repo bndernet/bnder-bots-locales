@@ -520,7 +520,7 @@
     "remove_not_invited_error": "De gebruiker <@{{user}}> is niet uitgenodigd voor evenement **{{id}}**.",
     "remove_success": "De gebruiker <@{{user}}> is verwijderd uit evenement **{{id}}**.",
     "create_public_key": "Weet je zeker dat je je kalender wilt exporteren? Hiermee wordt een unieke link gegenereerd die kan worden gebruikt om toegang te krijgen tot je evenementen vanaf deze server. Iedereen met de link kan je evenementen zien. Klik op de onderstaande knop om te bevestigen.",
-    "public_key": "Je kunt je kalender openen en integreren in je favoriete kalender-app met de volgende link: {{url}}\n\nHoud rekening met het volgende:\n- Iedereen met de link kan je evenementen zien\n- Het toont alleen evenementen van één week geleden of 4 weken in de toekomst wanneer het gesynchroniseerd is met je kalender-app\n- Je kunt de link op elk moment opnieuw genereren om de oude link ongeldig te maken",
+    "public_key": "Je kunt je kalender openen en integreren in je favoriete kalender-app met de volgende link: <{{url}}>\n\nHoud rekening met het volgende:\n- Iedereen met de link kan je evenementen zien\n- Het toont alleen evenementen van één week geleden of 4 weken in de toekomst wanneer het gesynchroniseerd is met je kalender-app\n- Je kunt de link op elk moment opnieuw genereren om de oude link ongeldig te maken",
     "regenerate_key": "Weet je zeker dat je je kalenderlink opnieuw wilt genereren? De oude link wordt ongeldig en kan niet meer worden gebruikt om toegang te krijgen tot je evenementen. Klik op de onderstaande knop om te bevestigen.",
     "create_key_button": "Maak kalenderlink aan",
     "repeat_end_before_start": "De einddatum van de herhaling moet na de startdatum liggen.",

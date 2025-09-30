@@ -520,7 +520,7 @@
     "remove_not_invited_error": "El usuario <@{{user}}> no está invitado al evento **{{id}}**",
     "remove_success": "El usuario <@{{user}}>> ha sido eliminado del evento **{{id}}**.",
     "create_public_key": "¿Estás seguro de que quieres exportar tu calendario? Esto generará un enlace único que puede utilizarse para acceder a tus eventos desde este servidor. Cualquiera que tenga el enlace podrá ver tus eventos. Haz clic en el botón de abajo para confirmar.",
-    "public_key": "Puede acceder a su calendario e integrarlo en su aplicación de calendario preferida con el siguiente enlace: {{url}}\n\nTenga en cuenta lo siguiente:\n- Cualquier persona con el enlace podrá ver tus eventos\n- Sólo mostrará eventos de hace una semana o de 4 semanas en el futuro cuando esté sincronizado con tu aplicación de calendario.\n- Puedes volver a crear el enlace en cualquier momento para invalidar el antiguo.",
+    "public_key": "Puede acceder a su calendario e integrarlo en su aplicación de calendario preferida con el siguiente enlace: <{{url}}>\n\nTenga en cuenta lo siguiente:\n- Cualquier persona con el enlace podrá ver tus eventos\n- Sólo mostrará eventos de hace una semana o de 4 semanas en el futuro cuando esté sincronizado con tu aplicación de calendario.\n- Puedes volver a crear el enlace en cualquier momento para invalidar el antiguo.",
     "regenerate_key": "¿Estás seguro de que quieres regenerar tu enlace de calendario? El enlace antiguo dejará de ser válido y ya no podrá utilizarse para acceder a tus eventos. Haz clic en el botón de abajo para confirmar",
     "create_key_button": "Crear enlace de calendario",
     "repeat_end_before_start": "La fecha de fin de repetición debe ser posterior a la fecha de inicio",
