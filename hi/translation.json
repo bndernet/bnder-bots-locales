@@ -390,7 +390,8 @@
     "removed_from_task": "**{{name}}** लेबल को कार्य **{{id}}** से हटा दिया गया है।",
     "removed_from_document": "**{{name}}** लेबल को दस्तावेज़ **{{id}}** से हटा दिया गया है।",
     "edited": "**{{old_name}}** लेबल को संपादित किया गया है।",
-    "list": "# लेबल ({{count}} लेबल):\n{{labels}}\n\nनया लेबल बनाने के लिए \"/label create\" कमांड का उपयोग करें।"
+    "list": "# लेबल ({{count}} लेबल):\n{{labels}}\n\nनया लेबल बनाने के लिए \"/label create\" कमांड का उपयोग करें।",
+    "description_too_long": "लेबल विवरण बहुत लंबा है। कृपया इसे {{max}} वर्णों तक छोटा करें।"
   },
   "settings": {
     "logging_webhook": {

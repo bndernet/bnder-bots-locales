@@ -390,7 +390,8 @@
     "removed_from_task": "Le label **{{name}}** a été supprimé de la tâche **{{id}}**.",
     "removed_from_document": "L'étiquette **{{name}}** a été retirée du document **{{id}}**.",
     "edited": "L'étiquette **{{old_name}}** a été modifiée.",
-    "list": "# Étiquettes ({{count}} étiquettes):\n{{labels}}\n\nUtilisez la commande \"/label create\" pour créer une nouvelle étiquette."
+    "list": "# Étiquettes ({{count}} étiquettes):\n{{labels}}\n\nUtilisez la commande \"/label create\" pour créer une nouvelle étiquette.",
+    "description_too_long": "La description est trop longue. Veuillez la raccourcir à {{max}} caractères."
   },
   "settings": {
     "logging_webhook": {

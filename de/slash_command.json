@@ -159,7 +159,8 @@
     "object_option_description": "Id der Aufgabe oder des Dokuments",
     "color_option_description": "Farbe des Labels",
     "new_name_option_description": "Der neue Name des Etiketts",
-    "edit_subcommand_description": "Ein Label bearbeiten"
+    "edit_subcommand_description": "Ein Label bearbeiten",
+    "description_option_description": "Beschreibung des Labels"
   },
   "errors": {
     "interaction_message_too_old": "Du kannst nicht mehr mit dieser Nachricht interagieren, da sie älter als {{minutes}} Minuten ist. Bitte sende den Befehl erneut.",

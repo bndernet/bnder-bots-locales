@@ -159,7 +159,8 @@
     "object_option_description": "Id de la tâche ou du document",
     "color_option_description": "Couleur de l'étiquette",
     "new_name_option_description": "Le nouveau nom de l'étiquette",
-    "edit_subcommand_description": "Modifier une étiquette"
+    "edit_subcommand_description": "Modifier une étiquette",
+    "description_option_description": "Description de l'étiquette"
   },
   "errors": {
     "interaction_message_too_old": "Tu ne peux plus interagir avec ce message, car il date de plus de {{minutes}} minutes. Merci de l'envoyer à nouveau.",

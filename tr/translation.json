@@ -390,7 +390,8 @@
     "removed_from_task": "**{{name}} etiketi **{{id}} görevinden kaldırıldı.",
     "removed_from_document": "**{{name}} etiketi **{{id}} belgesinden kaldırılmıştır.",
     "edited": "**{{old_name}}** etiketi düzenlendi.",
-    "list": "# Etiket ({{count}} etiket):\n{{labels}}\n\nYeni bir etiket oluşturmak için \"/label create\" komutunu kullanın."
+    "list": "# Etiket ({{count}} etiket):\n{{labels}}\n\nYeni bir etiket oluşturmak için \"/label create\" komutunu kullanın.",
+    "description_too_long": "Etiket açıklaması çok uzun. Lütfen {{max}} karaktere kısaltın."
   },
   "settings": {
     "logging_webhook": {

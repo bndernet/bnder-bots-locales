@@ -159,7 +159,8 @@
     "object_option_description": "Id of the task or document",
     "color_option_description": "Color of the label",
     "new_name_option_description": "The new name of the label",
-    "edit_subcommand_description": "Edit a label"
+    "edit_subcommand_description": "Edit a label",
+    "description_option_description": "Description of the label"
   },
   "errors": {
     "interaction_message_too_old": "You can't interact with this message, because it was sent over {{minutes}} minutes ago. Please reuse the command.",

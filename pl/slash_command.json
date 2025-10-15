@@ -159,7 +159,8 @@
     "object_option_description": "Id zadania lub dokumentu",
     "color_option_description": "Kolor etykiety",
     "new_name_option_description": "Nowa nazwa etykiety",
-    "edit_subcommand_description": "Edytuj etykietę"
+    "edit_subcommand_description": "Edytuj etykietę",
+    "description_option_description": "Opis etykiety"
   },
   "errors": {
     "interaction_message_too_old": "Nie możesz interagować z tą wiadomością, ponieważ została wysłana ponad {{minutes}} minut temu. Użyj ponownie polecenia.",

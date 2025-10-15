@@ -159,7 +159,8 @@
     "object_option_description": "任务或文档的 ID",
     "color_option_description": "标签的颜色",
     "new_name_option_description": "标签的新名称",
-    "edit_subcommand_description": "编辑标签"
+    "edit_subcommand_description": "编辑标签",
+    "description_option_description": "标签的描述"
   },
   "errors": {
     "interaction_message_too_old": "您无法与此消息互动，因为它已发送超过 {{minutes}} 分钟。请重新使用该命令。",

@@ -159,7 +159,8 @@
     "object_option_description": "Id задачи или документа",
     "color_option_description": "Цвет этикетки",
     "new_name_option_description": "Новое название ярлыка",
-    "edit_subcommand_description": "Редактировать ярлык"
+    "edit_subcommand_description": "Редактировать ярлык",
+    "description_option_description": "Описание ярлыка"
   },
   "errors": {
     "interaction_message_too_old": "Вы больше не можете взаимодействовать с этим сообщением, так как оно устарело более чем на {{minutes}} минут. Пожалуйста, отправьте команду еще раз.",

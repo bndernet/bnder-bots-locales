@@ -159,7 +159,8 @@
     "object_option_description": "Id de la tarea o documento",
     "color_option_description": "Color de la etiqueta",
     "new_name_option_description": "El nuevo nombre de la etiqueta",
-    "edit_subcommand_description": "Editar una etiqueta"
+    "edit_subcommand_description": "Editar una etiqueta",
+    "description_option_description": "Descripción de la etiqueta"
   },
   "errors": {
     "interaction_message_too_old": "Ya no puede interactuar con este mensaje porque tiene más de {{minutes}} minutos. Por favor, envíe el comando de nuevo.",

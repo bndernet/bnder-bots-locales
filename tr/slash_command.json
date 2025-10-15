@@ -159,7 +159,8 @@
     "object_option_description": "Görevin veya belgenin kimliği",
     "color_option_description": "Etiketin rengi",
     "new_name_option_description": "Etiketin yeni adı",
-    "edit_subcommand_description": "Bir etiketi düzenle"
+    "edit_subcommand_description": "Bir etiketi düzenle",
+    "description_option_description": "Etiketin açıklaması"
   },
   "errors": {
     "interaction_message_too_old": "Bu mesaj {{minutes}} dakikadan daha eski olduğu için artık etkileşimde bulunamazsınız. Lütfen komutu tekrar gönderin.",

@@ -159,7 +159,8 @@
     "object_option_description": "ID van de taak of het document",
     "color_option_description": "Kleur van het label",
     "new_name_option_description": "De nieuwe naam van het label",
-    "edit_subcommand_description": "Bewerk een label"
+    "edit_subcommand_description": "Bewerk een label",
+    "description_option_description": "Beschrijving van het label"
   },
   "errors": {
     "interaction_message_too_old": "Je kunt niet interageren met dit bericht, omdat het meer dan {{minutes}} minuten geleden is verzonden. Gebruik het commando opnieuw.",

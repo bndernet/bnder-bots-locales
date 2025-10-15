@@ -159,7 +159,8 @@
     "object_option_description": "ID del task o documento",
     "color_option_description": "Colore dell'etichetta",
     "new_name_option_description": "Il nuovo nome dell'etichetta",
-    "edit_subcommand_description": "Modifica un'etichetta"
+    "edit_subcommand_description": "Modifica un'etichetta",
+    "description_option_description": "Descrizione dell'etichetta"
   },
   "errors": {
     "interaction_message_too_old": "Non puoi interagire con questo messaggio perché è stato inviato più di {{minutes}} minuti fa. Per favore, riutilizza il comando.",

@@ -390,7 +390,8 @@
     "removed_from_task": "标签 **{{name}}** 已从任务 **{{id}}** 中移除。",
     "removed_from_document": "标签 **{{name}}** 已从文档 **{{id}}** 中移除。",
     "edited": "标签 **{{old_name}}** 已被编辑。",
-    "list": "# 个标签 ({{count}} 个标签):\n{{labels}}\n\n使用命令 \"/label create\" 创建新标签。"
+    "list": "# 个标签 ({{count}} 个标签):\n{{labels}}\n\n使用命令 \"/label create\" 创建新标签。",
+    "description_too_long": "标签描述过长。请将其缩短至 {{max}} 个字符以内。"
   },
   "settings": {
     "logging_webhook": {

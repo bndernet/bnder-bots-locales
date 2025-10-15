@@ -390,7 +390,8 @@
     "removed_from_task": "Het label **{{name}}** is verwijderd uit taak **{{id}}**.",
     "removed_from_document": "Het label **{{name}}** is verwijderd uit document **{{id}}**.",
     "edited": "Het label **{{old_name}}** is bewerkt.",
-    "list": "# Labels ({{count}} labels):\n{{labels}}\n\nGebruik de opdracht \"/label create\" om een nieuw label te maken."
+    "list": "# Labels ({{count}} labels):\n{{labels}}\n\nGebruik de opdracht \"/label create\" om een nieuw label te maken.",
+    "description_too_long": "De beschrijving van het label is te lang. Kort deze in tot maximaal {{max}} tekens."
   },
   "settings": {
     "logging_webhook": {

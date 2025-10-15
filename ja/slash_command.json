@@ -159,7 +159,8 @@
     "object_option_description": "タスクまたはドキュメントのID",
     "color_option_description": "ラベルの色",
     "new_name_option_description": "ラベルの新しい名前",
-    "edit_subcommand_description": "ラベルを編集する"
+    "edit_subcommand_description": "ラベルを編集する",
+    "description_option_description": "ラベルの説明"
   },
   "errors": {
     "interaction_message_too_old": "このメッセージは{{minutes}}分以上前に送信されたため、操作できません。コマンドを再利用してください。",

@@ -159,7 +159,8 @@
     "object_option_description": "Id da tarefa ou documento",
     "color_option_description": "Cor do rótulo",
     "new_name_option_description": "O novo nome do rótulo",
-    "edit_subcommand_description": "Editar um rótulo"
+    "edit_subcommand_description": "Editar um rótulo",
+    "description_option_description": "Descrição do rótulo"
   },
   "errors": {
     "interaction_message_too_old": "Você não pode mais interagir com essa mensagem porque ela tem mais de {{minutes}} minutos. Por favor, envie o comando novamente.",

@@ -159,7 +159,8 @@
     "object_option_description": "कार्य या दस्तावेज़ की आईडी",
     "color_option_description": "लेबल का रंग",
     "new_name_option_description": "लेबल का नया नाम",
-    "edit_subcommand_description": "एक लेबल संपादित करें"
+    "edit_subcommand_description": "एक लेबल संपादित करें",
+    "description_option_description": "लेबल का वर्णन"
   },
   "errors": {
     "interaction_message_too_old": "आप इस संदेश के साथ इंटरैक्ट नहीं कर सकते, क्योंकि यह {{मिनट}} मिनट पहले भेजा गया था। कृपया आदेश का पुन: उपयोग करें.",

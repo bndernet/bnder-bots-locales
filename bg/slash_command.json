@@ -159,7 +159,8 @@
     "object_option_description": "Идентификатор на задачата или документа",
     "color_option_description": "Цвят на етикета",
     "new_name_option_description": "Новото име на етикета",
-    "edit_subcommand_description": "Редактиране на етикет"
+    "edit_subcommand_description": "Редактиране на етикет",
+    "description_option_description": "Описание на етикета"
   },
   "errors": {
     "interaction_message_too_old": "Вече не можете да взаимодействате с това съобщение, тъй като то е на повече от {{minutes}} минути. Моля, изпратете командата отново.",
