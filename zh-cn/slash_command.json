@@ -60,7 +60,6 @@
     "new_name_option_description": "项目的新名称",
     "list_subcommand_description": "列出所有项目",
     "restore_subcommand_description": "恢复已删除的项目及其所有任务",
-    "create_personal_subcommand_description": "创建一个您拥有所有权限的个人项目",
     "manager_subcommand_description": "设置项目的管理者",
     "manager_option_description": "要设置为管理者的用户",
     "columns_subcommand_description": "获取管理项目列的链接"

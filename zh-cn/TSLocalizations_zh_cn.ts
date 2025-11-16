@@ -70,7 +70,6 @@ export class TSLocalizations_zh_cn {
             preset_field: "预设",
             priority_field: "优先级",
             label_field: "标签",
-            personal_field: "个人",
             manager_field: "经理",
             repeat_interval_field: "重复间隔（天）",
             repeat_end_date_field: "重复结束日期",

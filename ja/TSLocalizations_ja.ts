@@ -70,7 +70,6 @@ export class TSLocalizations_ja {
             preset_field: "プリセット",
             priority_field: "優先度",
             label_field: "ラベル",
-            personal_field: "個人",
             manager_field: "マネージャー",
             repeat_interval_field: "繰り返し間隔（日単位）",
             repeat_end_date_field: "繰り返し終了日",

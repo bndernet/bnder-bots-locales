@@ -60,7 +60,6 @@
     "new_name_option_description": "Nuovo nome del progetto",
     "list_subcommand_description": "Elenca tutti i progetti",
     "restore_subcommand_description": "Ripristina un progetto eliminato e tutti i suoi task",
-    "create_personal_subcommand_description": "Crea un progetto personale in cui hai tutti i permessi",
     "manager_subcommand_description": "Imposta il manager di un progetto",
     "manager_option_description": "Utente da impostare come manager",
     "columns_subcommand_description": "Ottieni il link per gestire le colonne di un progetto"

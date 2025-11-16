@@ -60,7 +60,6 @@
     "new_name_option_description": "Nowa nazwa projektu",
     "list_subcommand_description": "Wyświetl wszystkie projekty",
     "restore_subcommand_description": "Przywróć usunięty projekt i wszystkie jego zadania",
-    "create_personal_subcommand_description": "Utwórz osobisty projekt, w którym masz wszystkie uprawnienia",
     "manager_subcommand_description": "Ustaw menedżera projektu",
     "manager_option_description": "Użytkownik do ustawienia jako menedżer",
     "columns_subcommand_description": "Uzyskaj link do zarządzania kolumnami projektu"

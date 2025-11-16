@@ -60,7 +60,6 @@
     "new_name_option_description": "Новое имя проекта",
     "list_subcommand_description": "Перечислить все проекты",
     "restore_subcommand_description": "Восстановить удаленный проект и все его задачи",
-    "create_personal_subcommand_description": "Создать личный проект, в котором у вас есть все права",
     "manager_subcommand_description": "Установить менеджера проекта",
     "manager_option_description": "Пользователь, которого следует назначить менеджером",
     "columns_subcommand_description": "Получить ссылку для управления столбцами проекта"

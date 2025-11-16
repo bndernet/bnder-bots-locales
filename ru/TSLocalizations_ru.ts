@@ -70,7 +70,6 @@ export class TSLocalizations_ru {
             preset_field: "Предустановка",
             priority_field: "Приоритет",
             label_field: "Метка",
-            personal_field: "Личное",
             manager_field: "Менеджер",
             repeat_interval_field: "Интервал повторения в днях",
             repeat_end_date_field: "Дата окончания повторения",

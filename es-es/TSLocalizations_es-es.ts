@@ -70,7 +70,6 @@ export class TSLocalizations_es_es {
             preset_field: "Preestablecido",
             priority_field: "Prioridad",
             label_field: "Etiqueta",
-            personal_field: "Personal",
             manager_field: "Manager",
             repeat_interval_field: "Intervalo de repetición en días",
             repeat_end_date_field: "Fecha de finalización de repetición",

@@ -65,7 +65,6 @@
     "new_name_field": "Nowa nazwa",
     "edit_cant_choose_name_default": "Nie możesz zmienić nazwy projektu na **default**, ponieważ jest ona zarezerwowana dla projektu domyślnego. Wybierz inną nazwę.",
     "create_project_button": "Utwórz projekt",
-    "personal_project_created": "Twój osobisty projekt został utworzony. W tym projekcie masz wszystkie uprawnienia. Możesz go wybrać jako aktywny projekt za pomocą polecenia \"/project select\" lub klikając przycisk poniżej.",
     "manager_set": "Menedżer projektu **{{project}}** został ustawiony na <@{{manager}}>.",
     "no_manager": "Projekt **{{project}}** nie ma ustawionego menedżera. Użyj polecenia \"/project manager\" i wybierz użytkownika, aby ustawić menedżera.",
     "manager_info": "Menedżerem projektu **{{project}}** jest <@{{manager}}>.",

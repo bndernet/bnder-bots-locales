@@ -60,7 +60,6 @@
     "new_name_option_description": "प्रोजेक्ट का नया नाम",
     "list_subcommand_description": "सभी परियोजनाओं की सूची बनाएं",
     "restore_subcommand_description": "हटाए गए प्रोजेक्ट और उसके सभी कार्यों को पुनर्स्थापित करें",
-    "create_personal_subcommand_description": "एक निजी प्रोजेक्ट बनाएं जहां आपकी हर अनुमति हो",
     "manager_subcommand_description": "किसी प्रोजेक्ट का प्रबंधक सेट करें",
     "manager_option_description": "उपयोगकर्ता को प्रबंधक के रूप में सेट करें",
     "columns_subcommand_description": "किसी प्रोजेक्ट के कॉलम प्रबंधित करने के लिए लिंक प्राप्त करें"

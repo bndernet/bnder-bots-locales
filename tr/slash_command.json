@@ -60,7 +60,6 @@
     "new_name_option_description": "Projenin yeni adı",
     "list_subcommand_description": "Tüm projeleri listele",
     "restore_subcommand_description": "Silinen bir projeyi ve tüm görevlerini geri yükle",
-    "create_personal_subcommand_description": "Her izne sahip olduğunuz kişisel bir proje oluşturun",
     "manager_subcommand_description": "Bir projenin yöneticisini ayarla",
     "manager_option_description": "Yönetici olarak ayarlanacak kullanıcı",
     "columns_subcommand_description": "Bir projenin sütunlarını yönetmek için bağlantıyı alın"

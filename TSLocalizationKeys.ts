@@ -59,7 +59,6 @@ export interface TSLocalizationKeys {
         preset_field: string,
         priority_field: string,
         label_field: string,
-        personal_field: string,
         manager_field: string,
         repeat_interval_field: string,
         repeat_end_date_field: string,

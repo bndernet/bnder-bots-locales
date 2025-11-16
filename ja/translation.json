@@ -65,7 +65,6 @@
     "new_name_field": "新しい名前",
     "edit_cant_choose_name_default": "プロジェクト名を **default** に変更することはできません。他の名前を選んでください。",
     "create_project_button": "プロジェクトを作成する",
-    "personal_project_created": "個人用プロジェクトが作成されました。このプロジェクトでは、すべての権限を持っています。アクティブプロジェクトとして選択するには、`/project select` コマンドを使用するか、以下のボタンをクリックしてください。",
     "manager_set": "プロジェクト **{{project}}** のプロジェクトマネージャーが <@{{manager}}> に設定されました。",
     "no_manager": "プロジェクト **{{project}}** にはプロジェクトマネージャーが設定されていません。`/project manager` コマンドを使用して、ユーザーを選択してマネージャーを設定してください。",
     "manager_info": "プロジェクト **{{project}}** のプロジェクトマネージャーは <@{{manager}}> です。",

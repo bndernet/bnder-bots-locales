@@ -65,7 +65,6 @@
     "new_name_field": "Yeni isim",
     "edit_cant_choose_name_default": "Varsayılan proje için ayrıldığından bir projeyi **default** olarak yeniden adlandıramazsınız. Lütfen başka bir isim seçin.",
     "create_project_button": "Proje oluştur",
-    "personal_project_created": "Kişisel projeniz oluşturuldu. Bu projede her türlü izne sahipsiniz. Bu projeyi \"/project select\" komutunu kullanarak veya aşağıdaki düğmeye tıklayarak aktif projeniz olarak seçebilirsiniz.",
     "manager_set": "**{{project}}** projesinin proje yöneticisi <@{{manager}}> olarak ayarlandı.",
     "no_manager": "**{{project}}** projesinin yönetici ayarı yok. \"/project manager\" komutunu kullanın ve bir yönetici ayarlamak için bir kullanıcı seçin.",
     "manager_info": "**{{project}}** projesinin proje yöneticisi <@{{manager}}>'dır.",

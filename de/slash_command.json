@@ -60,7 +60,6 @@
     "new_name_option_description": "Neuer Name des Projekts",
     "list_subcommand_description": "Alle Projekte auflisten",
     "restore_subcommand_description": "Wiederherstellen eines gelöschten Projekts und aller seiner Aufgaben",
-    "create_personal_subcommand_description": "Ein persönliches Projekt erstellen, für das Sie alle Rechte haben",
     "manager_subcommand_description": "Den Manager eines Projekts festlegen",
     "manager_option_description": "Benutzer, der als Manager festgelegt werden soll",
     "columns_subcommand_description": "Link zum Verwalten der Spalten eines Projekts abrufen"

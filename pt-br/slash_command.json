@@ -60,7 +60,6 @@
     "new_name_option_description": "Novo nome do projeto",
     "list_subcommand_description": "Listar todos os projetos",
     "restore_subcommand_description": "Restaurar um projeto excluído e todas as suas tarefas",
-    "create_personal_subcommand_description": "Criar um projeto pessoal no qual você tem todas as permissões",
     "manager_subcommand_description": "Definir o gerente de um projeto",
     "manager_option_description": "Usuário a ser definido como gerente",
     "columns_subcommand_description": "Obtenha o link para gerenciar colunas de um projeto"

@@ -65,7 +65,6 @@
     "new_name_field": "Nieuwe naam",
     "edit_cant_choose_name_default": "Je kunt een project niet hernoemen naar **default**, omdat dit gereserveerd is voor het standaardproject. Kies een andere naam.",
     "create_project_button": "Project aanmaken",
-    "personal_project_created": "Je persoonlijke project is aangemaakt. In dit project heb je alle permissies. Je kunt het selecteren als je actieve project met het commando \"/project select\", of door op de onderstaande knop te klikken.",
     "manager_set": "De projectmanager voor het project **{{project}}** is ingesteld op <@{{manager}}>.",
     "no_manager": "Het project **{{project}}** heeft geen manager ingesteld. Gebruik het commando \"/project manager\" en selecteer een gebruiker om een manager in te stellen.",
     "manager_info": "De projectmanager voor het project **{{project}}** is <@{{manager}}>.",

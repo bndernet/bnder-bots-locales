@@ -65,7 +65,6 @@
     "new_name_field": "Nuovo nome",
     "edit_cant_choose_name_default": "Non puoi rinominare un progetto in **default**, poiché è riservato al progetto predefinito. Per favore scegli un altro nome.",
     "create_project_button": "Crea progetto",
-    "personal_project_created": "Il tuo progetto personale è stato creato. In questo progetto hai tutti i permessi. Puoi selezionarlo come progetto attivo utilizzando il comando \"/project select\" o cliccando il pulsante qui sotto.",
     "manager_set": "Il project manager per il progetto **{{project}}** è stato impostato su <@{{manager}}>.",
     "no_manager": "Il progetto **{{project}}** non ha un project manager impostato. Usa il comando \"/project manager\" e seleziona un utente per impostare un manager.",
     "manager_info": "Il project manager per il progetto **{{project}}** è <@{{manager}}>.",

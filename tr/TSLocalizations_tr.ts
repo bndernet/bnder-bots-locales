@@ -70,7 +70,6 @@ export class TSLocalizations_tr {
             preset_field: "Ön ayar",
             priority_field: "Öncelik",
             label_field: "Etiket",
-            personal_field: "Kişisel",
             manager_field: "Yönetici",
             repeat_interval_field: "Gün cinsinden tekrar aralığı",
             repeat_end_date_field: "Tekrar bitiş tarihi",

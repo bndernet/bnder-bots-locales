@@ -70,7 +70,6 @@ export class TSLocalizations_nl {
             preset_field: "Voorinstelling",
             priority_field: "Prioriteit",
             label_field: "Label",
-            personal_field: "Persoonlijk",
             manager_field: "Manager",
             repeat_interval_field: "Herhaalinterval in dagen",
             repeat_end_date_field: "Einddatum herhaling",

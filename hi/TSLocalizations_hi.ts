@@ -70,7 +70,6 @@ export class TSLocalizations_hi {
             preset_field: "प्रीसेट",
             priority_field: "प्राथमिकता",
             label_field: "लेबल",
-            personal_field: "निजी",
             manager_field: "प्रबंधक",
             repeat_interval_field: "दिनों में अंतराल दोहराएँ",
             repeat_end_date_field: "समाप्ति तिथि दोहराएँ",

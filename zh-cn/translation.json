@@ -65,7 +65,6 @@
     "new_name_field": "新名称",
     "edit_cant_choose_name_default": "您不能将项目重命名为 **default**，因为它是默认项目。请选择另一个名称。",
     "create_project_button": "创建项目",
-    "personal_project_created": "您的个人项目已创建。在此项目中，您拥有所有权限。您可以使用 \"/project select\" 命令将其设置为您的活动项目，或者点击下方按钮进行选择。",
     "manager_set": "项目 **{{project}}** 的项目经理已设置为 <@{{manager}}>。",
     "no_manager": "项目 **{{project}}** 没有设置项目经理。使用命令 \"/project manager\" 并选择一个用户来设置经理。",
     "manager_info": "项目 **{{project}}** 的项目经理是 <@{{manager}}>。",

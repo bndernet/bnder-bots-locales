@@ -70,7 +70,6 @@ export class TSLocalizations_en {
             preset_field: "Preset",
             priority_field: "Priority",
             label_field: "Label",
-            personal_field: "Personal",
             manager_field: "Manager",
             repeat_interval_field: "Repeat interval in days",
             repeat_end_date_field: "Repeat end date",

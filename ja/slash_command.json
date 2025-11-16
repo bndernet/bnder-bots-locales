@@ -60,7 +60,6 @@
     "new_name_option_description": "新しいプロジェクト名",
     "list_subcommand_description": "すべてのプロジェクトを一覧表示する",
     "restore_subcommand_description": "削除されたプロジェクトとそのすべてのタスクを復元する",
-    "create_personal_subcommand_description": "すべての権限を持つ個人用プロジェクトを作成する",
     "manager_subcommand_description": "プロジェクトのマネージャーを設定する",
     "manager_option_description": "マネージャーとして設定するユーザー",
     "columns_subcommand_description": "プロジェクトの列を管理するリンクを取得する"

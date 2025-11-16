@@ -60,7 +60,6 @@
     "new_name_option_description": "Nieuwe naam van het project",
     "list_subcommand_description": "Lijst alle projecten op",
     "restore_subcommand_description": "Herstel een verwijderd project en al zijn taken",
-    "create_personal_subcommand_description": "Maak een persoonlijk project aan waarin je alle permissies hebt",
     "manager_subcommand_description": "Stel de manager van een project in",
     "manager_option_description": "Gebruiker om als manager in te stellen",
     "columns_subcommand_description": "Krijg de link om kolommen van een project te beheren"
