@@ -36,15 +36,15 @@ export class TSLocalizations_hi {
             extend_deadline_by_one_day_button: "समय सीमा 1 दिन बढ़ाएँ",
             extend_deadline_by_two_days_button: "समय सीमा 2 दिन बढ़ाएँ",
             extend_deadline_by_one_week_button: "समय सीमा 1 सप्ताह बढ़ाएँ",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `आपको <@${addedBy}> द्वारा सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में टास्क **${id}** ${taskText} में वॉचर के रूप में जोड़ा गया है। जब इस टास्क में कुछ बदलाव होगा तो आपको नोटिफिकेशन प्राप्त होंगे। यदि आप नोटिफिकेशन प्राप्त करना बंद करना चाहते हैं, तो आप नीचे दिए गए बटन पर क्लिक कर सकते हैं।`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `आपको कार्य **${id}** ${taskText} के सब्सक्राइबर के रूप में सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) पर <@${addedBy}> द्वारा जोड़ा गया है। आपको इस कार्य में किसी भी परिवर्तन पर सूचनाएँ मिलेंगी। यदि आप सूचनाएँ बंद करना चाहते हैं, तो नीचे दिए गए बटन पर क्लिक करें।`;
             },
-            watcher_added_notification_unsubscribe_button: "सदस्यता रद्द",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में आप जो कार्य **${id}** ${taskTitle} देख रहे हैं, वह बदल गया है:`;
+            subscriber_added_notification_unsubscribe_button: "अनसब्सक्राइब",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `कार्य **${id}** ${taskTitle} जिसमें आप सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) पर सब्सक्राइब हैं, बदल गया है:`
             },
-            watcher_notification_footer: "\"/task unwatch\" कमांड का उपयोग करके इस कार्य के लिए अधिसूचनाएँ अक्षम करें",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "इस कार्य की सूचनाएँ \"/task unsubscribe\" कमांड का उपयोग करके बंद करें",
+            subscriber_embed_title(id: string): string {
                 return `कार्य ${id} अपडेट किया गया`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_hi {
                 open_in_app: "कार्य को ऐप में खोलें",
             },
             primaryPasteActionLinkText: "या नीचे दिए गए लिंक को अपने ब्राउज़र में पेस्ट करें:",
-            task_watcher: {
-                added_subject: "आपको एक कार्य का पर्यवेक्षक बनाया गया है",
-                watcher_added(guildName: string): string {
-                    return `आपको कार्यक्षेत्र ${guildName} में एक कार्य का पर्यवेक्षक बनाया गया है। जब भी इस कार्य में कोई बदलाव होगा, आपको सूचनाएँ प्राप्त होंगी।`;
+            task_subscriber: {
+                added_subject: "आपको किसी कार्य के सब्सक्राइबर के रूप में जोड़ा गया है",
+                subscriber_added(guildName: string): string {
+                    return `आपको कार्यक्षेत्र ${guildName} में एक कार्य के सब्सक्राइबर के रूप में जोड़ा गया है। जब भी इस कार्य में कोई बदलाव होगा, आपको सूचनाएँ मिलेंगी।`;
                 },
                 subject: "कार्य अपडेट सूचना",
                 activity(guildName: string): string {
-                    return `कार्यक्षेत्र ${guildName} में जिस कार्य को आप देख रहे हैं, उसमें बदलाव हुआ है।`;
+                    return `आपके द्वारा सब्सक्राइब किया गया कार्य कार्यक्षेत्र ${guildName} में बदल गया है।`;
                 }
             },
             self_data_download_ready: {

@@ -36,16 +36,16 @@ export class TSLocalizations_bg {
             extend_deadline_by_one_day_button: "Удължаване на срока с 1 ден",
             extend_deadline_by_two_days_button: "Удължаване на срока с 2 дни",
             extend_deadline_by_one_week_button: "Удължаване на срока с 1 седмица",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Добавени сте като наблюдател към задача **${id}** ${taskText} на сървър [${guildName}](<https://discord.com/channels/${guildId}>) от <@${addedBy}>. Ще получавате известия, когато нещо се промени в тази задача. Ако искате да спрете да получавате известия, можете да кликнете върху бутона по-долу.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Бяхте добавени като абонат на задачата **${id}** ${taskText} в сървър [${guildName}](<https://discord.com/channels/${guildId}>) от <@${addedBy}>. Ще получавате известия при промени по задачата. Ако желаете да спрете известията, можете да натиснете бутона по-долу.`;
             },
-            watcher_added_notification_unsubscribe_button: "Отписване",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Задачата **${id}** ${taskTitle} която наблюдавате в сървъра [${guildName}](<https://discord.com/channels/${guildId}>), е променена:`;
+            subscriber_added_notification_unsubscribe_button: "Отпиши се",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Задачата **${id}** ${taskTitle}, за която сте абонирани в сървър [${guildName}](<https://discord.com/channels/${guildId}>) беше променена:`
             },
-            watcher_notification_footer: "Деактивиране на известията за тази задача с помощта на командата „/task unwatch“",
-            watcher_embed_title(id: string): string {
-                return `Задачата ${id} е актуализирана`;
+            subscriber_notification_footer: "Изключете известията за тази задача с командата \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
+                return `Задача ${id} обновена`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Важен етап **${milestoneName}** предстои след по-малко от 6 часа в сървъра [${guildName}](<https://discord.com/channels/${guildId}>) и има задачи, които трябва да бъдат изпълнени.`;
@@ -335,14 +335,14 @@ export class TSLocalizations_bg {
                 open_in_app: "Отвори в приложението",
             },
             primaryPasteActionLinkText: "Или поставете връзката по-долу в своя браузър:",
-            task_watcher: {
-                added_subject: "Бяхте добавен като наблюдател към задача",
-                watcher_added(guildName: string): string {
-                    return `Бяхте добавен като наблюдател към задача в работното пространство ${guildName}. Ще получавате известия, когато има промени по тази задача.`;
+            task_subscriber: {
+                added_subject: "Бяхте добавени като абонат на задача",
+                subscriber_added(guildName: string): string {
+                    return `Бяхте добавени като абонат на задача в работното пространство ${guildName}. Ще получавате известия при промени по тази задача.`;
                 },
-                subject: "Известие за промяна по задача",
+                subject: "Известие за актуализация на задача",
                 activity(guildName: string): string {
-                    return `Задача, която наблюдавате в работното пространство ${guildName}, беше променена.`;
+                    return `Задача, за която сте абонирани в работното пространство ${guildName}, беше променена.`;
                 }
             },
             self_data_download_ready: {

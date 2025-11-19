@@ -36,15 +36,15 @@ export class TSLocalizations_tr {
             extend_deadline_by_one_day_button: "Son teslim tarihini 1 gün uzatın",
             extend_deadline_by_two_days_button: "Son teslim tarihini 2 gün uzatın",
             extend_deadline_by_one_week_button: "Son teslim tarihini 1 hafta uzatın",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `<@${addedBy}> tarafından [${guildName}](<https://discord.com/channels/${guildId}>) sunucusundaki **${id}** ${taskText} görevine gözlemci olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirimler alacaksınız. Bildirimleri almayı durdurmak istiyorsanız, aşağıdaki düğmeye tıklayabilirsiniz.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Sunucu [${guildName}](<https://discord.com/channels/${guildId}>) üzerinde <@${addedBy}> tarafından **${id}** ${taskText} görevine abone olarak eklendiniz. Bu görevde bir değişiklik olduğunda bildirim alacaksınız. Bildirim almak istemiyorsanız aşağıdaki butona tıklayabilirsiniz.`;
             },
-            watcher_added_notification_unsubscribe_button: "Abonelikten çık",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Görev **${id}** ${taskTitle} sunucuda izlediğiniz [${guildName}](<https://discord.com/channels/${guildId}>) değişti:`;
+            subscriber_added_notification_unsubscribe_button: "Abonelikten çık",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Sunucu [${guildName}](<https://discord.com/channels/${guildId}>) üzerinde abone olduğunuz **${id}** ${taskTitle} görevi değişti:`
             },
-            watcher_notification_footer: "“/task unwatch” komutunu kullanarak bu görev için bildirimleri devre dışı bırakın",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "Bu görev bildirimlerini \"/task unsubscribe\" komutuyla devre dışı bırakabilirsiniz",
+            subscriber_embed_title(id: string): string {
                 return `Görev ${id} güncellendi`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_tr {
                 open_in_app: "Uygulamada aç",
             },
             primaryPasteActionLinkText: "Ya da aşağıdaki bağlantıyı tarayıcınıza yapıştırın:",
-            task_watcher: {
-                added_subject: "Bir görevin izleyicisi olarak eklendiniz",
-                watcher_added(guildName: string): string {
-                    return `${guildName} çalışma alanındaki bir görevin izleyicisi olarak eklendiniz. Bu görevde bir şey değiştiğinde bildirim alacaksınız.`;
+            task_subscriber: {
+                added_subject: "Bir görevin abonesi olarak eklendiniz",
+                subscriber_added(guildName: string): string {
+                    return `Workspace ${guildName} içinde bir görevin abonesi olarak eklendiniz. Bu görevde bir değişiklik olduğunda bildirim alacaksınız.`;
                 },
                 subject: "Görev güncelleme bildirimi",
                 activity(guildName: string): string {
-                    return `${guildName} çalışma alanında izlediğiniz bir görev değişti.`;
+                    return `Workspace ${guildName} içinde abone olduğunuz bir görev değiştirildi.`;
                 }
             },
             self_data_download_ready: {

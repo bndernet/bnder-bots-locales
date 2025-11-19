@@ -36,16 +36,16 @@ export class TSLocalizations_fr {
             extend_deadline_by_one_day_button: "Prolonger le délai de 1 jour",
             extend_deadline_by_two_days_button: "Prolonger le délai de 2 jours",
             extend_deadline_by_one_week_button: "Prolonger le délai de 1 semaine",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Vous avez été ajouté comme observateur à la tâche **${id}** ${taskText} sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>) par <@${addedBy}>. Vous recevrez des notifications dès qu'un changement sera apporté à cette tâche. Pour ne plus recevoir de notifications, cliquez sur le bouton ci-dessous.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Vous avez été ajouté comme abonné à la tâche **${id}** ${taskText} sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>) par <@${addedBy}>. Vous recevrez des notifications lorsque quelque chose changera dans cette tâche. Si vous souhaitez arrêter de recevoir des notifications, vous pouvez cliquer sur le bouton ci-dessous.`;
             },
-            watcher_added_notification_unsubscribe_button: "Se désabonner",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `La tâche **${id}** ${taskTitle} que vous observez sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>) a changé :`;
+            subscriber_added_notification_unsubscribe_button: "Se désabonner",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `La tâche **${id}** ${taskTitle} à laquelle vous êtes abonné sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>) a changé :`
             },
-            watcher_notification_footer: "Désactiver les notifications pour cette tâche en utilisant la commande « /task unwatch ».",
-            watcher_embed_title(id: string): string {
-                return `Mise à jour de la tâche ${id}`;
+            subscriber_notification_footer: "Désactivez les notifications pour cette tâche avec la commande \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
+                return `Tâche ${id} mise à jour`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Le jalon **${milestoneName}** doit être atteint dans moins de 6 heures sur le serveur [${guildName}](<https://discord.com/channels/${guildId}>) et comporte des tâches à accomplir.`;
@@ -335,14 +335,14 @@ export class TSLocalizations_fr {
                 open_in_app: "Ouvrir dans l'application",
             },
             primaryPasteActionLinkText: "Ou collez le lien ci-dessous dans votre navigateur :",
-            task_watcher: {
-                added_subject: "Vous avez été ajouté en tant qu'observateur d'une tâche",
-                watcher_added(guildName: string): string {
-                    return `Vous avez été ajouté en tant qu'observateur d'une tâche dans l'espace de travail ${guildName}. Vous recevrez des notifications lorsqu'il y aura des changements dans cette tâche.`;
+            task_subscriber: {
+                added_subject: "Vous avez été ajouté comme abonné à une tâche",
+                subscriber_added(guildName: string): string {
+                    return `Vous avez été ajouté comme abonné à une tâche dans l’espace de travail ${guildName}. Vous recevrez des notifications lorsque quelque chose changera dans cette tâche.`;
                 },
-                subject: "Notification de mise à jour de tâche",
+                subject: "Notification de mise à jour d’une tâche",
                 activity(guildName: string): string {
-                    return `Une tâche que vous observez dans l'espace de travail ${guildName} a été modifiée.`;
+                    return `Une tâche à laquelle vous êtes abonné dans l’espace de travail ${guildName} a été modifiée.`;
                 }
             },
             self_data_download_ready: {

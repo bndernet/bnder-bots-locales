@@ -36,16 +36,16 @@ export class TSLocalizations_pl {
             extend_deadline_by_one_day_button: "Przedłuż termin o 1 dzień",
             extend_deadline_by_two_days_button: "Przedłuż termin o 2 dni",
             extend_deadline_by_one_week_button: "Przedłuż termin o 1 tydzień",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Zostałeś dodany jako obserwator do zadania **${id}** ${taskText} na serwerze [${guildName}](<https://discord.com/channels/${guildId}>) przez <@${addedBy}>. Otrzymasz powiadomienia, gdy coś zmieni się w tym zadaniu. Jeśli chcesz przestać otrzymywać powiadomienia, kliknij poniższy przycisk.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Zostałeś dodany jako subskrybent zadania **${id}** ${taskText} na serwerze [${guildName}](<https://discord.com/channels/${guildId}>) przez <@${addedBy}>. Będziesz otrzymywać powiadomienia o każdej zmianie w tym zadaniu. Jeśli chcesz przestać je otrzymywać, kliknij przycisk poniżej.`;
             },
-            watcher_added_notification_unsubscribe_button: "Wypisz się",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Zadanie **${id}** ${taskTitle}, które obserwujesz na serwerze [${guildName}](<https://discord.com/channels/${guildId}>), zostało zmienione:`
+            subscriber_added_notification_unsubscribe_button: "Wypisz się",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Zadanie **${id}** ${taskTitle}, które subskrybujesz na serwerze [${guildName}](<https://discord.com/channels/${guildId}>) zostało zmienione:`
             },
-            watcher_notification_footer: "Wyłącz powiadomienia dla tego zadania za pomocą polecenia \"/task unwatch\"",
-            watcher_embed_title(id: string): string {
-                return `Zadanie ${id} zaktualizowane`;
+            subscriber_notification_footer: "Wyłącz powiadomienia dla tego zadania używając komendy \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
+                return `Zadanie ${id} zaktualizowano`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Kamień milowy **${milestoneName}** upływa za mniej niż 6 godzin na serwerze [${guildName}](<https://discord.com/channels/${guildId}>) i zawiera zadania, które należy wykonać.`;
@@ -335,14 +335,14 @@ export class TSLocalizations_pl {
                 open_in_app: "Zobacz w aplikacji",
             },
             primaryPasteActionLinkText: "Lub wklej poniższy link do swojej przeglądarki:",
-            task_watcher: {
-                added_subject: "Zostałeś dodany jako obserwator zadania",
-                watcher_added(guildName: string): string {
-                    return `Zostałeś dodany jako obserwator zadania w przestrzeni roboczej ${guildName}. Będziesz otrzymywać powiadomienia, gdy coś się zmieni w tym zadaniu.`;
+            task_subscriber: {
+                added_subject: "Zostałeś dodany jako subskrybent zadania",
+                subscriber_added(guildName: string): string {
+                    return `Zostałeś dodany jako subskrybent zadania w przestrzeni roboczej ${guildName}. Otrzymasz powiadomienia, gdy coś w tym zadaniu się zmieni.`;
                 },
-                subject: "Powiadomienie o zmianie w zadaniu",
+                subject: "Powiadomienie o aktualizacji zadania",
                 activity(guildName: string): string {
-                    return `Zadanie, które obserwujesz w przestrzeni roboczej ${guildName}, zostało zmienione.`;
+                    return `Zadanie, które subskrybujesz w przestrzeni roboczej ${guildName}, zostało zmienione.`;
                 }
             },
             self_data_download_ready: {

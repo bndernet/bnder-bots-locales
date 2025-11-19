@@ -36,16 +36,16 @@ export class TSLocalizations_de {
             extend_deadline_by_one_day_button: "Frist um 1 Tag verlängern",
             extend_deadline_by_two_days_button: "Frist um 2 Tage verlängern",
             extend_deadline_by_one_week_button: "Frist um 1 Woche verlängern",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Du wurdest von <@${addedBy}> als Beobachter zur Aufgabe **${id}** ${taskText} auf Server [${guildName}](<https://discord.com/channels/${guildId}>) hinzugefügt. Du erhältst Benachrichtigungen, sobald sich an dieser Aufgabe etwas ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, klicke auf die Schaltfläche unten.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Du wurdest als Abonnent der Aufgabe **${id}** ${taskText} auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) von <@${addedBy}> hinzugefügt. Du wirst Benachrichtigungen erhalten, wenn sich etwas an dieser Aufgabe ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, kannst du unten auf den Button klicken.`;
             },
-            watcher_added_notification_unsubscribe_button: "Abbestellen",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Die Aufgabe **${id}** ${taskTitle} die Sie auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) beobachten, wurde geändert:`;
+            subscriber_added_notification_unsubscribe_button: "Abbestellen",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Die Aufgabe **${id}** ${taskTitle}, die du auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) abonniert hast, wurde geändert:`
             },
-            watcher_notification_footer: "Benachrichtigungen für diese Aufgabe mit dem Befehl „/task unwatch“ deaktivieren",
-            watcher_embed_title(id: string): string {
-                return `Aufgabe ${id} wurde aktualisiert`;
+            subscriber_notification_footer: "Deaktiviere Benachrichtigungen für diese Aufgabe mit dem Befehl \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
+                return `Aufgabe ${id} aktualisiert`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
@@ -335,14 +335,14 @@ export class TSLocalizations_de {
                 open_in_app: "Öffne die Aufgabe in der App",
             },
             primaryPasteActionLinkText: "Oder fügen Sie den untenstehenden Link in Ihren Browser ein:",
-            task_watcher: {
-                added_subject: "Du wurdest als Beobachter für eine Aufgabe hinzugefügt",
-                watcher_added(guildName: string): string {
-                    return `Du wurdest als Beobachter für eine Aufgabe im Arbeitsbereich ${guildName} hinzugefügt. Du wirst Benachrichtigungen erhalten, wenn sich etwas an dieser Aufgabe ändert.`;
+            task_subscriber: {
+                added_subject: "Du wurdest als Abonnent einer Aufgabe hinzugefügt",
+                subscriber_added(guildName: string): string {
+                    return `Du wurdest als Abonnent einer Aufgabe im Workspace ${guildName} hinzugefügt. Du erhältst Benachrichtigungen, wenn sich etwas an dieser Aufgabe ändert.`;
                 },
-                subject: "Benachrichtigung über Aufgabenänderung",
+                subject: "Benachrichtigung über Aufgabenaktualisierung",
                 activity(guildName: string): string {
-                    return `Eine Aufgabe, die du im Arbeitsbereich ${guildName} beobachtest, wurde geändert.`;
+                    return `Eine Aufgabe, die du abonniert hast, wurde im Workspace ${guildName} geändert.`;
                 }
             },
             self_data_download_ready: {

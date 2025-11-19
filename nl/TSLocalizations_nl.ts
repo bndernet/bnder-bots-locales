@@ -36,15 +36,15 @@ export class TSLocalizations_nl {
             extend_deadline_by_one_day_button: "Deadline met 1 dag verlengen",
             extend_deadline_by_two_days_button: "Deadline met 2 dagen verlengen",
             extend_deadline_by_one_week_button: "Deadline met 1 week verlengen",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Je bent toegevoegd als toeschouwer aan taak **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) door <@${addedBy}>. Je ontvangt meldingen wanneer er iets verandert in deze taak. Als je geen meldingen meer wilt ontvangen, kun je op de onderstaande knop klikken.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Je bent toegevoegd als abonnee van taak **${id}** ${taskText} op server [${guildName}](<https://discord.com/channels/${guildId}>) door <@${addedBy}>. Je ontvangt meldingen wanneer er iets verandert aan deze taak. Als je geen meldingen meer wilt ontvangen, kun je op de knop hieronder klikken.`;
             },
-            watcher_added_notification_unsubscribe_button: "Uitschrijven",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `De taak **${id}** ${taskTitle} die je volgt in server [${guildName}](<https://discord.com/channels/${guildId}>) is gewijzigd:`
+            subscriber_added_notification_unsubscribe_button: "Uitschrijven",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `De taak **${id}** ${taskTitle} waarop je bent geabonneerd in server [${guildName}](<https://discord.com/channels/${guildId}>) is gewijzigd:`
             },
-            watcher_notification_footer: "Schakel meldingen voor deze taak uit met het commando \"/task unwatch\"",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "Schakel meldingen voor deze taak uit met het commando \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
                 return `Taak ${id} bijgewerkt`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_nl {
                 open_in_app: "Open in de app",
             },
             primaryPasteActionLinkText: "Of plak de onderstaande link in je browser:",
-            task_watcher: {
-                added_subject: "Je bent toegevoegd als volger van een taak",
-                watcher_added(guildName: string): string {
-                    return `Je bent toegevoegd als volger van een taak in de werkruimte ${guildName}. Je ontvangt meldingen wanneer er iets in deze taak verandert.`;
+            task_subscriber: {
+                added_subject: "Je bent toegevoegd als abonnee van een taak",
+                subscriber_added(guildName: string): string {
+                    return `Je bent toegevoegd als abonnee van een taak in workspace ${guildName}. Je ontvangt meldingen wanneer er iets aan deze taak verandert.`;
                 },
                 subject: "Taakupdate-melding",
                 activity(guildName: string): string {
-                    return `Een taak die je volgt in de werkruimte ${guildName} is gewijzigd.`;
+                    return `Een taak waarop je geabonneerd bent in workspace ${guildName} is gewijzigd.`;
                 }
             },
             self_data_download_ready: {

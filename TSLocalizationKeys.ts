@@ -32,11 +32,11 @@ export interface TSLocalizationKeys {
         extend_deadline_by_one_day_button: string;
         extend_deadline_by_two_days_button: string;
         extend_deadline_by_one_week_button: string;
-        watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string;
-        watcher_added_notification_unsubscribe_button: string;
-        watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
-        watcher_notification_footer: string;
-        watcher_embed_title(id: string): string;
+        subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string;
+        subscriber_added_notification_unsubscribe_button: string;
+        subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
+        subscriber_notification_footer: string;
+        subscriber_embed_title(id: string): string;
         milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string;
         status_todo: string;
         status_in_progress: string;
@@ -234,9 +234,9 @@ export interface TSLocalizationKeys {
             open_in_app: string,
         },
         primaryPasteActionLinkText: string,
-        task_watcher: {
+        task_subscriber: {
             added_subject: string,
-            watcher_added(guildName: string): string,
+            subscriber_added(guildName: string): string,
             subject: string,
             activity(guildName: string): string,
         },

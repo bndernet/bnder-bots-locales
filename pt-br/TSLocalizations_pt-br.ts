@@ -36,15 +36,15 @@ export class TSLocalizations_pt_br {
             extend_deadline_by_one_day_button: "Prorrogar o prazo em 1 dia",
             extend_deadline_by_two_days_button: "Prorrogar o prazo em 2 dias",
             extend_deadline_by_one_week_button: "Prorrogar o prazo em 1 semana",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Você foi adicionado como observador à tarefa **${id}** ${taskText} no servidor [${guildName}](<https://discord.com/channels/${guildId}>) por <@${addedBy}>. Você receberá notificações quando algo mudar nesta tarefa. Se quiser parar de receber notificações, clique no botão abaixo.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Você foi adicionado como assinante da tarefa **${id}** ${taskText} no servidor [${guildName}](<https://discord.com/channels/${guildId}>) por <@${addedBy}>. Você receberá notificações quando houver mudanças nessa tarefa. Se quiser parar de receber notificações, clique no botão abaixo.`;
             },
-            watcher_added_notification_unsubscribe_button: "Cancelar inscrição",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `A tarefa **${id}** ${taskTitle} que você está acompanhando no servidor [${guildName}](<https://discord.com/channels/${guildId}>) foi alterada:`;
+            subscriber_added_notification_unsubscribe_button: "Cancelar inscrição",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `A tarefa **${id}** ${taskTitle} à qual você está inscrito no servidor [${guildName}](<https://discord.com/channels/${guildId}>) foi alterada:`
             },
-            watcher_notification_footer: "Desative as notificações para essa tarefa usando o comando “/task unwatch”",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "Desative as notificações desta tarefa usando o comando \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
                 return `Tarefa ${id} atualizada`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_pt_br {
                 open_in_app: "Abra a tarefa no aplicativo",
             },
             primaryPasteActionLinkText: "Ou cole o link abaixo no seu navegador:",
-            task_watcher: {
-                added_subject: "Você foi adicionado como observador de uma tarefa",
-                watcher_added(guildName: string): string {
-                    return `Você foi adicionado como observador de uma tarefa no espaço de trabalho ${guildName}. Você receberá notificações quando algo mudar nessa tarefa.`;
+            task_subscriber: {
+                added_subject: "Você foi adicionado como assinante de uma tarefa",
+                subscriber_added(guildName: string): string {
+                    return `Você foi adicionado como assinante de uma tarefa no workspace ${guildName}. Você receberá notificações quando algo mudar nesta tarefa.`;
                 },
                 subject: "Notificação de atualização de tarefa",
                 activity(guildName: string): string {
-                    return `Uma tarefa que você está observando no espaço de trabalho ${guildName} foi alterada.`;
+                    return `Uma tarefa que você assinou no workspace ${guildName} foi alterada.`;
                 }
             },
             self_data_download_ready: {

@@ -36,15 +36,15 @@ export class TSLocalizations_en {
             extend_deadline_by_one_day_button: "Extend deadline by 1 day",
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `You have been added as a watcher to task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `You have been added as a subscriber of task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
             },
-            watcher_added_notification_unsubscribe_button: "Unsubscribe",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `The task **${id}** ${taskTitle} you are watching in server [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
+            subscriber_added_notification_unsubscribe_button: "Unsubscribe",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `The task **${id}** ${taskTitle} you are subscribed to in server [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
             },
-            watcher_notification_footer: "Disable notifications for this task by using \"/task unwatch\" command",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "Disable notifications for this task by using \"/task unsubscribe\" command",
+            subscriber_embed_title(id: string): string {
                 return `Task ${id} updated`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_en {
                 open_in_app: "Open in App",
             },
             primaryPasteActionLinkText: "Or paste the link below into your browser:",
-            task_watcher: {
-                added_subject: "You have been added as a watcher to a task",
-                watcher_added(guildName: string): string {
-                    return `You have been added as a watcher to a task in workspace ${guildName}. You will receive notifications when something changes in this task.`;
+            task_subscriber: {
+                added_subject: "You have been added as a subscriber of a task",
+                subscriber_added(guildName: string): string {
+                    return `You have been added as a subscriber of a task in workspace ${guildName}. You will receive notifications when something changes in this task.`;
                 },
                 subject: "Task update notification",
                 activity(guildName: string): string {
-                    return `A task you are watching in workspace ${guildName} has changed.`;
+                    return `A task you are subscribed to in workspace ${guildName} has changed.`;
                 }
             },
             self_data_download_ready: {

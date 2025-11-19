@@ -36,16 +36,16 @@ export class TSLocalizations_it {
             extend_deadline_by_one_day_button: "Estendi la scadenza di 1 giorno",
             extend_deadline_by_two_days_button: "Estendi la scadenza di 2 giorni",
             extend_deadline_by_one_week_button: "Estendi la scadenza di 1 settimana",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Sei stato aggiunto come osservatore all'attività **${id}** ${taskText} sul server [${guildName}](<https://discord.com/channels/${guildId}>) da <@${addedBy}>. Riceverai notifiche ogni volta che qualcosa cambia in questa attività. Se vuoi interrompere la ricezione delle notifiche, puoi cliccare sul pulsante qui sotto.`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `Sei stato aggiunto come abbonato al task **${id}** ${taskText} nel server [${guildName}](<https://discord.com/channels/${guildId}>) da <@${addedBy}>. Riceverai notifiche ogni volta che qualcosa cambia in questo task. Se vuoi smettere di ricevere notifiche, puoi cliccare il pulsante qui sotto.`;
             },
-            watcher_added_notification_unsubscribe_button: "Annulla iscrizione",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Il compito **${id}** ${taskTitle} che stai monitorando nel server [${guildName}](<https://discord.com/channels/${guildId}>) è stato aggiornato:`
+            subscriber_added_notification_unsubscribe_button: "Disiscriviti",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `Il task **${id}** ${taskTitle} a cui sei iscritto nel server [${guildName}](<https://discord.com/channels/${guildId}>) è cambiato:`
             },
-            watcher_notification_footer: "Disabilita le notifiche per questo compito con il comando \"/task unwatch\"",
-            watcher_embed_title(id: string): string {
-                return `Compito ${id} aggiornato`;
+            subscriber_notification_footer: "Disattiva le notifiche per questo task usando il comando \"/task unsubscribe\"",
+            subscriber_embed_title(id: string): string {
+                return `Task ${id} aggiornato`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `La milestone **${milestoneName}** scade tra meno di 6 ore nel server [${guildName}](<https://discord.com/channels/${guildId}>) e ha compiti che devono essere completati.`;
@@ -335,14 +335,14 @@ export class TSLocalizations_it {
                 open_in_app: "Apri nell'app",
             },
             primaryPasteActionLinkText: "Oppure incolla il link qui sotto nel tuo browser:",
-            task_watcher: {
-                added_subject: "Sei stato aggiunto come osservatore a un'attività",
-                watcher_added(guildName: string): string {
-                    return `Sei stato aggiunto come osservatore a un'attività nello spazio di lavoro ${guildName}. Riceverai notifiche quando ci saranno cambiamenti in questa attività.`;
+            task_subscriber: {
+                added_subject: "Sei stato aggiunto come sottoscrittore di un task",
+                subscriber_added(guildName: string): string {
+                    return `Sei stato aggiunto come sottoscrittore di un task nel workspace ${guildName}. Riceverai notifiche quando qualcosa cambia in questo task.`;
                 },
-                subject: "Notifica di aggiornamento attività",
+                subject: "Notifica di aggiornamento del task",
                 activity(guildName: string): string {
-                    return `Un'attività che stai osservando nello spazio di lavoro ${guildName} è stata modificata.`;
+                    return `Un task a cui sei iscritto nel workspace ${guildName} è stato modificato.`;
                 }
             },
             self_data_download_ready: {

@@ -36,15 +36,15 @@ export class TSLocalizations_ja {
             extend_deadline_by_one_day_button: "期限を1日延長",
             extend_deadline_by_two_days_button: "期限を2日延長",
             extend_deadline_by_one_week_button: "期限を1週間延長",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `あなたは、<@${addedBy}>によってサーバー[${guildName}](<https://discord.com/channels/${guildId}>)のタスク**${id}** ${taskText}のウォッチャーとして追加されました。このタスクに変更があった際に通知が届きます。通知の受信を停止したい場合は、以下のボタンをクリックしてください。`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `あなたはタスク **${id}** ${taskText} の購読者として、<@${addedBy}> によりサーバー [${guildName}](<https://discord.com/channels/${guildId}>) に追加されました。このタスクに変更があると通知が届きます。通知を停止したい場合は、下のボタンをクリックしてください。`;
             },
-            watcher_added_notification_unsubscribe_button: "購読解除",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `あなたがウォッチしているタスク **${id}** ${taskTitle} が更新されました。[${guildName}](<https://discord.com/channels/${guildId}>) サーバーで確認できます。`;
+            subscriber_added_notification_unsubscribe_button: "購読解除",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `あなたがサーバー [${guildName}](<https://discord.com/channels/${guildId}>) で購読しているタスク **${id}** ${taskTitle} が変更されました:`
             },
-            watcher_notification_footer: "このタスクの通知を無効にするには \"/task unwatch\" コマンドを使用してください。",
-            watcher_embed_title(id: string): string {
+            subscriber_notification_footer: "このタスクの通知は「/task unsubscribe」で無効化できます",
+            subscriber_embed_title(id: string): string {
                 return `タスク ${id} が更新されました`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
@@ -335,14 +335,14 @@ export class TSLocalizations_ja {
                 open_in_app: "アプリでタスクを開く",
             },
             primaryPasteActionLinkText: "または、以下のリンクをブラウザに貼り付けてください：",
-            task_watcher: {
-                added_subject: "タスクのウォッチャーとして追加されました",
-                watcher_added(guildName: string): string {
-                    return `ワークスペース「${guildName}」のタスクにウォッチャーとして追加されました。このタスクに変更があった場合、通知が届きます。`;
+            task_subscriber: {
+                added_subject: "タスクの購読者として追加されました",
+                subscriber_added(guildName: string): string {
+                    return `ワークスペース ${guildName} のタスクの購読者として追加されました。このタスクに変更があると通知が届きます。`;
                 },
-                subject: "タスク更新の通知",
+                subject: "タスク更新通知",
                 activity(guildName: string): string {
-                    return `あなたがウォッチしているワークスペース「${guildName}」のタスクが変更されました。`;
+                    return `ワークスペース ${guildName} であなたが購読しているタスクが変更されました。`;
                 }
             },
             self_data_download_ready: {

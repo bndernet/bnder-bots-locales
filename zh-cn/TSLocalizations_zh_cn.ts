@@ -36,16 +36,16 @@ export class TSLocalizations_zh_cn {
             extend_deadline_by_one_day_button: "延长截止日期 1 天",
             extend_deadline_by_two_days_button: "延长截止日期 2 天",
             extend_deadline_by_one_week_button: "延长截止日期 1 周",
-            watcher_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `您已被 <@${addedBy}> 添加为服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中任务 **${id}** ${taskText} 的观察者。当此任务发生任何变化时，您将收到通知。如果您想停止接收通知，请点击下方按钮。`;
+            subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
+                return `你已被 <@${addedBy}> 添加为任务 **${id}** ${taskText} 的订阅者，所在服务器为 [${guildName}](<https://discord.com/channels/${guildId}> )。当此任务发生变更时，你将收到通知。如果你想停止接收通知，可以点击下方按钮。`;
             },
-            watcher_added_notification_unsubscribe_button: "取消订阅",
-            watcher_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `您在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 观看的任务 **${id}** ${taskTitle} 已更新：`;
+            subscriber_added_notification_unsubscribe_button: "取消订阅",
+            subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
+                return `你在服务器 [${guildName}](<https://discord.com/channels/${guildId}> ) 订阅的任务 **${id}** ${taskTitle} 已发生更改:`
             },
-            watcher_notification_footer: "使用命令 \"/task unwatch\" 禁用此任务的通知",
-            watcher_embed_title(id: string): string {
-                return `任务 ${id} 更新`;
+            subscriber_notification_footer: "使用 \"/task unsubscribe\" 命令可禁用该任务的通知",
+            subscriber_embed_title(id: string): string {
+                return `任务 ${id} 已更新`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
                 return `里程碑 **${milestoneName}** 在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中少于 6 小时后到期，并且有任务需要完成。`;
@@ -335,14 +335,14 @@ export class TSLocalizations_zh_cn {
                 open_in_app: "在应用中打开",
             },
             primaryPasteActionLinkText: "或者将下面的链接复制到浏览器中：",
-            task_watcher: {
-                added_subject: "您已被添加为任务的观察者",
-                watcher_added(guildName: string): string {
-                    return `您已被添加为工作区 ${guildName} 中某个任务的观察者。当该任务发生变化时，您将收到通知。`;
+            task_subscriber: {
+                added_subject: "您已被添加为任务的订阅者",
+                subscriber_added(guildName: string): string {
+                    return `您已被添加为工作区 ${guildName} 中某任务的订阅者。当该任务有任何更改时，您将收到通知。`;
                 },
                 subject: "任务更新通知",
                 activity(guildName: string): string {
-                    return `您正在关注的工作区 ${guildName} 中的任务已发生变化。`;
+                    return `您在工作区 ${guildName} 订阅的任务已发生更改。`;
                 }
             },
             self_data_download_ready: {
