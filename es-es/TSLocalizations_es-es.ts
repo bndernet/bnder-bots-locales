@@ -4,22 +4,22 @@ export class TSLocalizations_es_es {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `La fecha límite para la tarea **${id}** ${taskTitle} vence el ${deadline} en el servidor [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `La fecha límite para la tarea **${id}** ${taskTitle} vence el ${deadline} en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Has sido asignado a la tarea **${id}** ${taskText} en el servidor [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `Has sido asignado a la tarea **${id}** ${taskText} en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Tarea ${id} asignada`;
             },
-            assigned_embed_footer: "Estas notificaciones pueden ser desactivadas por un administrador del servidor usando el comando \"/preferences direct_messages\"",
+            assigned_embed_footer: "Estas notificaciones pueden ser desactivadas por un administrador del espacio de trabajo usando el comando \"/preferences direct_messages\"",
             assigned_embed_button_in_progress: "Marcar como en progreso",
             assigned_embed_button_done: "Marcar como hecho",
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `La fecha límite para la tarea ${id} está vencida en el servidor [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `La fecha límite para la tarea ${id} está vencida en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `La tarea **${id}** ${taskTitle} a la que está asignado se ha repetido y debe realizarse de nuevo en el servidor [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `La tarea **${id}** ${taskTitle} a la que está asignado se ha repetido y debe realizarse de nuevo en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Tarea ${id} repetida`;
@@ -29,7 +29,7 @@ export class TSLocalizations_es_es {
                 return `Comentario añadido a la tarea ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Se ha añadido un comentario a una tarea en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) por ${author}: ${commentText}`;
+                return `Se ha añadido un comentario a una tarea en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) por ${author}: ${commentText}`;
             },
             comment_response_button: "Responder al comentario",
             stop_followup_reminder_button: "Detener recordatorio de seguimiento",
@@ -37,18 +37,18 @@ export class TSLocalizations_es_es {
             extend_deadline_by_two_days_button: "Ampliar el plazo 2 días",
             extend_deadline_by_one_week_button: "Ampliar el plazo 1 semana",
             subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Has sido añadido como suscriptor de la tarea **${id}** ${taskText} en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) por <@${addedBy}>. Recibirás notificaciones cuando algo cambie en esta tarea. Si quieres dejar de recibir notificaciones, puedes hacer clic en el botón de abajo.`;
+                return `Has sido añadido como suscriptor de la tarea **${id}** ${taskText} en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) por <@${addedBy}>. Recibirás notificaciones cuando algo cambie en esta tarea. Si quieres dejar de recibir notificaciones, puedes hacer clic en el botón de abajo.`;
             },
             subscriber_added_notification_unsubscribe_button: "Darse de baja",
             subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `La tarea **${id}** ${taskTitle} a la que estás suscrito en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) ha cambiado:`
+                return `La tarea **${id}** ${taskTitle} a la que estás suscrito en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) ha cambiado:`
             },
             subscriber_notification_footer: "Desactiva las notificaciones de esta tarea usando el comando \"/task unsubscribe\"",
             subscriber_embed_title(id: string): string {
                 return `Tarea ${id} actualizada`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `El hito **${milestoneName}** vence en menos de 6 horas en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) y tiene tareas que deben completarse.`;
+                return `El hito **${milestoneName}** vence en menos de 6 horas en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) y tiene tareas que deben completarse.`;
             },
             status_todo: "Todo",
             status_in_progress: "En progreso",
@@ -255,29 +255,29 @@ export class TSLocalizations_es_es {
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `Ha sido invitado al evento ${eventId} por <@${inviterId}>: **${eventName}** que comienza en ${start} y termina en ${end}.\n-# Todas las fechas se calculan en ${timezone}. Use \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.`;
+                    return `Ha sido invitado al evento ${eventId} por <@${inviterId}>: **${eventName}** que comienza en ${start} y termina en ${end}.\n-# Todas las fechas se calculan en ${timezone}. Use \"/settings timezone\" para cambiar la zona horaria de todo el espacio de trabajo o \"/preferences timezone\" para cambiar la suya.`;
                 },
                 accept_button: "Aceptar",
                 deny_button: "Rechazar"
             },
             edit_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `<@${inviterId}> actualizó el evento ${eventId}: **${eventName}** comenzando en ${start} y terminando en ${end}.\n-# Todas las fechas se calculan en ${timezone}. Use \"/settings timezone\" para cambiar la zona horaria de todo el servidor o \"/preferences timezone\" para cambiar la suya.`;
+                    return `<@${inviterId}> actualizó el evento ${eventId}: **${eventName}** comenzando en ${start} y terminando en ${end}.\n-# Todas las fechas se calculan en ${timezone}. Use \"/settings timezone\" para cambiar la zona horaria de todo el espacio de trabajo o \"/preferences timezone\" para cambiar la suya.`;
                 }
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `¡Felicitaciones! Has conseguido un puesto pro en el servidor [${guildName}](<https://discord.com/channels/${guildId}>). Esto significa que ahora tienes acceso a las [funciones pro](<https://bnder.net/pricing>). ¡Que lo disfrutes!`;
+            return `¡Felicitaciones! Has conseguido un puesto pro en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>). Esto significa que ahora tienes acceso a las [funciones pro](<https://bnder.net/pricing>). ¡Que lo disfrutes!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Acción necesaria: Error en el pago de la suscripción Pro\nNo pudimos procesar el pago de una o más suscripciones Pro en [${guildName}](<https://discord.com/channels/${guildId}>). Para evitar perder el acceso a las funciones Pro, [actualiza tu información de pago y paga tu factura ahora](<${customerPortalLink}>).\n\nTus funciones Pro se desactivarán pronto si no realizas ninguna acción.\n\n¿Necesitas ayuda? [Contacta con soporte técnico](https://bnder.net/discord). Estamos aquí para ayudarte.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `El archivo **${fileName}** ha sido compartido contigo en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) por <@${userId}>`;
+                return `El archivo **${fileName}** ha sido compartido contigo en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) por <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `La carpeta **${folderName}** ha sido compartida contigo en el servidor [${guildName}](<https://discord.com/channels/${guildId}>) por <@${userId}>`;
+                return `La carpeta **${folderName}** ha sido compartida contigo en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>) por <@${userId}>`;
             }
         },
         self_data_download_ready: "Sus datos están listos para descargarse. Puede descargarlos en [nuestra aplicación](<https://bnder.net/app/>). El enlace de descarga estará disponible durante dos semanas.",

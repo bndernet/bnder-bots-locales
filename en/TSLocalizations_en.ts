@@ -4,10 +4,10 @@ export class TSLocalizations_en {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `The deadline for task **${id}** ${taskTitle} is due on ${deadline} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `The deadline for task **${id}** ${taskTitle} is due on ${deadline} in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `You have been assigned to task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `You have been assigned to task **${id}** ${taskText} in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Task ${id} assigned`;
@@ -16,10 +16,10 @@ export class TSLocalizations_en {
             assigned_embed_button_in_progress: "Mark as in progress",
             assigned_embed_button_done: "Mark as done",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `The deadline for task **${id}** ${taskTitle} is overdue in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `The deadline for task **${id}** ${taskTitle} is overdue in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Task ${id} repeated`;
@@ -29,7 +29,7 @@ export class TSLocalizations_en {
                 return `Comment added to task ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `A comment was added to a task in server [${guildName}](<https://discord.com/channels/${guildId}>) by ${author}: ${commentText}`;
+                return `A comment was added to a task in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by ${author}: ${commentText}`;
             },
             comment_response_button: "Respond to comment",
             stop_followup_reminder_button: "Stop follow-up reminder",
@@ -37,18 +37,18 @@ export class TSLocalizations_en {
             extend_deadline_by_two_days_button: "Extend deadline by 2 days",
             extend_deadline_by_one_week_button: "Extend deadline by 1 week",
             subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `You have been added as a subscriber of task **${id}** ${taskText} in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
+                return `You have been added as a subscriber of task **${id}** ${taskText} in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
             },
             subscriber_added_notification_unsubscribe_button: "Unsubscribe",
             subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `The task **${id}** ${taskTitle} you are subscribed to in server [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
+                return `The task **${id}** ${taskTitle} you are subscribed to in workspace [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
             },
             subscriber_notification_footer: "Disable notifications for this task by using \"/task unsubscribe\" command",
             subscriber_embed_title(id: string): string {
                 return `Task ${id} updated`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `The milestone **${milestoneName}** is due in less than 6 hours in server [${guildName}](<https://discord.com/channels/${guildId}>) and has tasks that need to be completed.`;
+                return `The milestone **${milestoneName}** is due in less than 6 hours in workspace [${guildName}](<https://discord.com/channels/${guildId}>) and has tasks that need to be completed.`;
             },
             status_todo: "Todo",
             status_in_progress: "In Progress",
@@ -255,29 +255,29 @@ export class TSLocalizations_en {
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.`;
+                    return `You have been invited to event ${eventId} by <@${inviterId}>: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole workspace, or \"/preferences timezone\" to change your own.`;
                 },
                 accept_button: "Accept",
                 deny_button: "Deny"
             },
             edit_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole server, or \"/preferences timezone\" to change your own.`
+                    return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole workspace, or \"/preferences timezone\" to change your own.`
                 }
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Congratulations! You have been placed in a pro seat in server [${guildName}](<https://discord.com/channels/${guildId}>). This means you now have access to [pro features](<https://bnder.net/pricing>). Enjoy!`;
+            return `Congratulations! You have been placed in a pro seat in workspace [${guildName}](<https://discord.com/channels/${guildId}>). This means you now have access to [pro features](<https://bnder.net/pricing>). Enjoy!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Action Needed: Payment Failed for Pro Subscription\nWe couldn’t process the payment for one or more Pro seats on [${guildName}](<https://discord.com/channels/${guildId}>). To avoid losing access to Pro features, please [update your payment info and pay your invoice now](<${customerPortalLink}>).\n\nYour Pro features will be disabled soon if no action is taken.\n\nNeed help? [Contact support](https://bnder.net/discord) — we’re here for you.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `The file **${fileName}** was shared with you in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
+                return `The file **${fileName}** was shared with you in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `The folder **${folderName}** was shared with you in server [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
+                return `The folder **${folderName}** was shared with you in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             }
         },
         self_data_download_ready: "Your data is ready for download. You can download it in [our app](<https://bnder.net/app/>). The download link is available for two weeks.",

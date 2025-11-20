@@ -4,22 +4,22 @@ export class TSLocalizations_de {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `Die Deadline für die Aufgabe **${id}** ${taskTitle} ist am ${deadline} fällig im Server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `Die Deadline für die Aufgabe **${id}** ${taskTitle} ist am ${deadline} fällig im Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Sie wurden der Aufgabe **${id}** ${taskText} im Server [${guildName}](<https://discord.com/channels/${guildId}>) zugewiesen`;
+                return `Sie wurden der Aufgabe **${id}** ${taskText} im Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) zugewiesen`;
             },
             assigned_embed_title(id: string): string {
                 return `Aufgabe ${id} zugewiesen`;
             },
-            assigned_embed_footer: "Diese Benachrichtigungen können von einem Serveradministrator mit dem Befehl \"/preferences direct_messages\" deaktiviert werden.",
+            assigned_embed_footer: "Diese Benachrichtigungen können von einem Arbeitsbereichadministrator mit dem Befehl \"/preferences direct_messages\" deaktiviert werden.",
             assigned_embed_button_in_progress: "In Bearbeitung",
             assigned_embed_button_done: "Erledigt",
             deadline_was_in_past(id: string, guildName: string, guildId: string): string {
-                return `Die Deadline für die Aufgabe ${id} ist im Server [${guildName}](<https://discord.com/channels/${guildId}>) abgelaufen`;
+                return `Die Deadline für die Aufgabe ${id} ist im Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) abgelaufen`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Die Aufgabe **${id}** ${taskTitle} die Ihnen zugewiesen wurde, wurde wiederholt und muss auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) erneut erledigt werden.`;
+                return `Die Aufgabe **${id}** ${taskTitle} die Ihnen zugewiesen wurde, wurde wiederholt und muss auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) erneut erledigt werden.`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Aufgabe ${id} wiederholt`;
@@ -29,7 +29,7 @@ export class TSLocalizations_de {
                 return `Kommentar hinzugefügt zu Aufgabe ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Ein Kommentar wurde zu einer Aufgabe im Server [${guildName}](<https://discord.com/channels/${guildId}>) hinzugefügt von ${author}: ${commentText}`;
+                return `Ein Kommentar wurde zu einer Aufgabe im Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) hinzugefügt von ${author}: ${commentText}`;
             },
             comment_response_button: "Auf Kommentar antworten",
             stop_followup_reminder_button: "Folge-Erinnerung stoppen",
@@ -37,18 +37,18 @@ export class TSLocalizations_de {
             extend_deadline_by_two_days_button: "Frist um 2 Tage verlängern",
             extend_deadline_by_one_week_button: "Frist um 1 Woche verlängern",
             subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Du wurdest als Abonnent der Aufgabe **${id}** ${taskText} auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) von <@${addedBy}> hinzugefügt. Du wirst Benachrichtigungen erhalten, wenn sich etwas an dieser Aufgabe ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, kannst du unten auf den Button klicken.`;
+                return `Du wurdest als Abonnent der Aufgabe **${id}** ${taskText} auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) von <@${addedBy}> hinzugefügt. Du wirst Benachrichtigungen erhalten, wenn sich etwas an dieser Aufgabe ändert. Wenn du keine Benachrichtigungen mehr erhalten möchtest, kannst du unten auf den Button klicken.`;
             },
             subscriber_added_notification_unsubscribe_button: "Abbestellen",
             subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Die Aufgabe **${id}** ${taskTitle}, die du auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) abonniert hast, wurde geändert:`
+                return `Die Aufgabe **${id}** ${taskTitle}, die du auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) abonniert hast, wurde geändert:`
             },
             subscriber_notification_footer: "Deaktiviere Benachrichtigungen für diese Aufgabe mit dem Befehl \"/task unsubscribe\"",
             subscriber_embed_title(id: string): string {
                 return `Aufgabe ${id} aktualisiert`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
+                return `Der Meilenstein **${milestoneName}** ist in weniger als 6 Stunden auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) fällig und umfasst Aufgaben, die abgeschlossen werden müssen.`;
             },
             status_todo: "Todo",
             status_in_progress: "In Bearbeitung",
@@ -255,29 +255,29 @@ export class TSLocalizations_de {
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `Sie wurden von <@${inviterId}> zum Event ${eventId} eingeladen: **${eventName}**, das um ${start} beginnt und um ${end} endet.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
+                    return `Sie wurden von <@${inviterId}> zum Event ${eventId} eingeladen: **${eventName}**, das um ${start} beginnt und um ${end} endet.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Arbeitsbereich zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
                 },
                 accept_button: "Akzeptieren",
                 deny_button: "Ablehnen"
             },
             edit_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `<@${inviterId}> hat das Event ${eventId}: **${eventName}** aktualisiert, beginnend um ${start} und endend um ${end}.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Server zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
+                    return `<@${inviterId}> hat das Event ${eventId}: **${eventName}** aktualisiert, beginnend um ${start} und endend um ${end}.\n-# Alle Daten werden in ${timezone} berechnet. Verwenden Sie \"/settings timezone\", um die Zeitzone für den gesamten Arbeitsbereich zu ändern, oder \"/preferences timezone\", um Ihre eigene Zeitzone zu ändern.`;
                 }
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Herzlichen Glückwunsch! Sie haben einen Pro-Platz auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) erhalten. Das bedeutet, dass Sie jetzt Zugang zu [Pro-Features](<https://bnder.net/pricing>) haben. Viel Spaß!`;
+            return `Herzlichen Glückwunsch! Sie haben einen Pro-Platz auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) erhalten. Das bedeutet, dass Sie jetzt Zugang zu [Pro-Features](<https://bnder.net/pricing>) haben. Viel Spaß!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Aktion erforderlich: Zahlung für Pro-Abonnement fehlgeschlagen\nWir konnten die Zahlung für einen oder mehrere Pro-Plätze auf [${guildName}](<https://discord.com/channels/${guildId}>) nicht verarbeiten. Um den Zugriff auf die Pro-Funktionen nicht zu verlieren, [aktualisiere bitte deine Zahlungsinformationen und bezahle deine Rechnung jetzt](<${customerPortalLink}>).\n\nDeine Pro-Funktionen werden bald deaktiviert, wenn du nichts unternimmst.\n\nBenötigst du Hilfe? [Kontaktiere den Support](https://bnder.net/discord) – wir sind für dich da.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `Die Datei **${fileName}** wurde auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
+                return `Die Datei **${fileName}** wurde auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `Der Ordner **${folderName}** wurde auf dem Server [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
+                return `Der Ordner **${folderName}** wurde auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) geteilt von <@${userId}>`;
             }
         },
         self_data_download_ready: "Deine Daten stehen zum Download bereit. Du kannst sie in [unserer App](<https://bnder.net/app/>) herunterladen. Der Download-Link ist zwei Wochen lang verfügbar.",

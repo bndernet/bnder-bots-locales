@@ -4,10 +4,10 @@ export class TSLocalizations_it {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `La scadenza del compito **${id}** ${taskTitle} è il ${deadline} nel server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `La scadenza del compito **${id}** ${taskTitle} è il ${deadline} nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Ti è stato assegnato il compito **${id}** ${taskText} nel server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `Ti è stato assegnato il compito **${id}** ${taskText} nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Compito ${id} assegnato`;
@@ -16,10 +16,10 @@ export class TSLocalizations_it {
             assigned_embed_button_in_progress: "Segna come in corso",
             assigned_embed_button_done: "Segna come completato",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `La scadenza del compito **${id}** ${taskTitle} è scaduta nel server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `La scadenza del compito **${id}** ${taskTitle} è scaduta nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Il compito **${id}** ${taskTitle} a cui sei assegnato è stato ripetuto e deve essere fatto di nuovo nel server [${guildName}](<https://discord.com/channels/${guildId}>)`;
+                return `Il compito **${id}** ${taskTitle} a cui sei assegnato è stato ripetuto e deve essere fatto di nuovo nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Compito ${id} ripetuto`;
@@ -29,7 +29,7 @@ export class TSLocalizations_it {
                 return `Commento aggiunto al compito ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Un commento è stato aggiunto a un compito nel server [${guildName}](<https://discord.com/channels/${guildId}>) da ${author}: ${commentText}`;
+                return `Un commento è stato aggiunto a un compito nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) da ${author}: ${commentText}`;
             },
             comment_response_button: "Rispondi al commento",
             stop_followup_reminder_button: "Ferma il promemoria di follow-up",
@@ -37,18 +37,18 @@ export class TSLocalizations_it {
             extend_deadline_by_two_days_button: "Estendi la scadenza di 2 giorni",
             extend_deadline_by_one_week_button: "Estendi la scadenza di 1 settimana",
             subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Sei stato aggiunto come abbonato al task **${id}** ${taskText} nel server [${guildName}](<https://discord.com/channels/${guildId}>) da <@${addedBy}>. Riceverai notifiche ogni volta che qualcosa cambia in questo task. Se vuoi smettere di ricevere notifiche, puoi cliccare il pulsante qui sotto.`;
+                return `Sei stato aggiunto come abbonato al task **${id}** ${taskText} nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) da <@${addedBy}>. Riceverai notifiche ogni volta che qualcosa cambia in questo task. Se vuoi smettere di ricevere notifiche, puoi cliccare il pulsante qui sotto.`;
             },
             subscriber_added_notification_unsubscribe_button: "Disiscriviti",
             subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Il task **${id}** ${taskTitle} a cui sei iscritto nel server [${guildName}](<https://discord.com/channels/${guildId}>) è cambiato:`
+                return `Il task **${id}** ${taskTitle} a cui sei iscritto nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) è cambiato:`
             },
             subscriber_notification_footer: "Disattiva le notifiche per questo task usando il comando \"/task unsubscribe\"",
             subscriber_embed_title(id: string): string {
                 return `Task ${id} aggiornato`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `La milestone **${milestoneName}** scade tra meno di 6 ore nel server [${guildName}](<https://discord.com/channels/${guildId}>) e ha compiti che devono essere completati.`;
+                return `La milestone **${milestoneName}** scade tra meno di 6 ore nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) e ha compiti che devono essere completati.`;
             },
             status_todo: "Da fare",
             status_in_progress: "In corso",
@@ -251,33 +251,33 @@ export class TSLocalizations_it {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
-                return `L'evento imminente (${id}) **${name}** inizierà tra ${durationTillEventMinutes} minuti alle ${startTime} nel server [${guildName}](<https://discord.com/channels/${guildId}>).`;
+                return `L'evento imminente (${id}) **${name}** inizierà tra ${durationTillEventMinutes} minuti alle ${startTime} nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `Sei stato invitato all'evento ${eventId} da <@${inviterId}>: **${eventName}** che inizia alle ${start} e termina alle ${end}.\n-# Tutte le date sono calcolate in ${timezone}. Usa \"/settings timezone\" per cambiare il fuso orario per l'intero server, o \"/preferences timezone\" per cambiare il tuo fuso orario.`;
+                    return `Sei stato invitato all'evento ${eventId} da <@${inviterId}>: **${eventName}** che inizia alle ${start} e termina alle ${end}.\n-# Tutte le date sono calcolate in ${timezone}. Usa \"/settings timezone\" per cambiare il fuso orario per l'intero spazio di lavoro, o \"/preferences timezone\" per cambiare il tuo fuso orario.`;
                 },
                 accept_button: "Accetta",
                 deny_button: "Rifiuta"
             },
             edit_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
-                    return `<@${inviterId}> ha aggiornato l'evento ${eventId}: **${eventName}** che inizia alle ${start} e termina alle ${end}.\n-# Tutte le date sono calcolate in ${timezone}. Usa \"/settings timezone\" per cambiare il fuso orario per l'intero server, o \"/preferences timezone\" per cambiare il tuo fuso orario.`
+                    return `<@${inviterId}> ha aggiornato l'evento ${eventId}: **${eventName}** che inizia alle ${start} e termina alle ${end}.\n-# Tutte le date sono calcolate in ${timezone}. Usa \"/settings timezone\" per cambiare il fuso orario per l'intero spazio di lavoro, o \"/preferences timezone\" per cambiare il tuo fuso orario.`
                 }
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Congratulazioni! Sei stato inserito in un posto pro nel server [${guildName}](<https://discord.com/channels/${guildId}>). Ciò significa che ora hai accesso alle [funzionalità pro](<https://bnder.net/pricing>). Divertiti!`;
+            return `Congratulazioni! Sei stato inserito in un posto pro nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>). Ciò significa che ora hai accesso alle [funzionalità pro](<https://bnder.net/pricing>). Divertiti!`;
         },
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Azione richiesta: Pagamento non riuscito per l'abbonamento Pro\nNon siamo riusciti a elaborare il pagamento per uno o più utenti Pro su [${guildName}](<https://discord.com/channels/${guildId}>). Per evitare di perdere l'accesso alle funzionalità Pro, [aggiorna le tue informazioni di pagamento e paga la fattura ora](<${customerPortalLink}>).\n\nLe tue funzionalità Pro verranno disattivate a breve se non interverrai.\n\nHai bisogno di aiuto? [Contatta l'assistenza](https://bnder.net/discord) — siamo qui per te.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `Il file **${fileName}** è stato condiviso con te nel server [${guildName}](<https://discord.com/channels/${guildId}>) da <@${userId}>`;
+                return `Il file **${fileName}** è stato condiviso con te nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) da <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `La cartella **${folderName}** è stata condivisa con te nel server [${guildName}](<https://discord.com/channels/${guildId}>) da <@${userId}>`;
+                return `La cartella **${folderName}** è stata condivisa con te nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>) da <@${userId}>`;
             }
         },
         self_data_download_ready: "I tuoi dati sono pronti per il download. Puoi scaricarli nella [nostra app](<https://bnder.net/app/>). Il link per il download sarà disponibile per due settimane.",
