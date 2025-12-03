@@ -122,14 +122,14 @@
       "dependencies_headline": "依存関係"
     },
     "todos": {
-      "text_not_found": "ToDoのテキストが見つかりません。「title」パラメータを使用してToDoテキストを指定してください。",
-      "added": "タスク **{{id}}** にToDoが追加されました。",
-      "number_not_found": "ToDo番号が見つかりません。「number」パラメータを使用してToDo番号を指定してください。「/task info」を使用してタスクのToDo番号を確認できます。",
-      "number_not_a_number": "ToDo番号は正の数である必要があります。",
-      "removed": "タスク **{{id}}** のToDo **{{number}}** が削除されました。",
-      "completed": "タスク **{{id}}** のToDo **{{number}}** が完了としてマークされました。",
-      "uncompleted": "タスク **{{id}}** のToDo **{{number}}** が未完了としてマークされました。",
-      "todo_not_found": "タスクには指定した番号のToDoがありません。タスク**{{id}}**には合計{{todos}}件のToDoがあります。タスクのToDo番号を確認するには、「/task info」を使用してください。"
+      "text_not_found": "To-do のテキストがありません。\"title\" パラメータを使用して to-do のテキストを指定してください。この機能について詳しく知るには、To-do を追加する前に [ヘルプページ](<https://bnder.net/help/tasks#todos>) をご確認ください。",
+      "added": "To-do がタスク **{{id}}** に追加されました。",
+      "number_not_found": "To-do 番号がありません。\"number\" パラメータを使用して番号を指定してください。\"/task info\" でタスクの To-do 番号を確認できます。削除または完了する前にヘルプページをご確認ください。",
+      "number_not_a_number": "To-do 番号は正の数である必要があります。\"number\" パラメータを使用してください。\"/task info\" で番号を確認できます。削除または完了する前にヘルプページをご確認ください。",
+      "removed": "To-do **{{number}}** はタスク **{{id}}** から削除されました。",
+      "completed": "タスク **{{id}}** の To-do **{{number}}** は完了としてマークされました。",
+      "uncompleted": "タスク **{{id}}** の To-do **{{number}}** は未完了としてマークされました。",
+      "todo_not_found": "指定された番号の To-do は存在しません。タスク **{{id}}** には合計 {{todos}} 個の To-do があります。\"/task info\" で番号を確認できます。削除または完了する前にヘルプページをご確認ください。"
     },
     "list_tasks_for_user": "# プロジェクト **{{project_name}}** 内で <@{{user_id}}> に割り当てられたタスク（{{count}} 件）：",
     "no_tasks_role": "プロジェクト **{{project_name}}** において、役割 <@&{{role_id}}> に割り当てられたタスクは見つかりませんでした。「/task project」コマンドを使用してプロジェクトのすべてのタスクを確認してください。",

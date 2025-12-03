@@ -122,14 +122,14 @@
       "dependencies_headline": "Abhängigkeiten"
     },
     "todos": {
-      "text_not_found": "Der Aufgabentext fehlt. Bitte verwenden Sie den Parameter \"title\", um den Aufgabentext anzugeben.",
-      "added": "Der Aufgabe **{{id}}** wurde eine Aufgabe hinzugefügt.",
-      "number_not_found": "Die Aufgabennummer fehlt. Bitte verwenden Sie den Parameter \"number\", um die Aufgabennummer anzugeben. Verwenden Sie \"/task info\", um die Aufgabennummern einer Aufgabe anzuzeigen.",
-      "number_not_a_number": "Die Aufgabennummer muss eine positive Zahl sein.",
-      "removed": "Die Aufgabe **{{number}}** wurde aus der Aufgabe **{{id}}** entfernt.",
-      "completed": "Die Aufgabe **{{number}}** für Aufgabe **{{id}}** wurde als erledigt markiert.",
-      "uncompleted": "Die Aufgabe **{{number}}** für Aufgabe **{{id}}** wurde als nicht erledigt markiert.",
-      "todo_not_found": "Die Aufgabe hat kein To-do mit der von Ihnen angegebenen Nummer. Die Aufgabe **{{id}}** hat insgesamt {{todos}} To-dos. Verwenden Sie \"/task info\", um die To-do-Nummern einer Aufgabe anzuzeigen."
+      "text_not_found": "Der To-do-Text fehlt. Bitte verwende den Parameter \"title\", um den To-do-Text anzugeben. Bitte sieh dir unsere [Hilfeseite](<https://bnder.net/help/tasks#todos>) an, bevor du ein To-do hinzufügst, um mehr über diese Funktion zu erfahren.",
+      "added": "Ein To-do wurde zur Aufgabe **{{id}}** hinzugefügt.",
+      "number_not_found": "Die To-do-Nummer fehlt. Bitte verwende den Parameter \"number\", um die To-do-Nummer anzugeben. Verwende \"/task info\", um die To-do-Nummern einer Aufgabe zu sehen. Bitte sieh dir unsere [Hilfeseite](<https://bnder.net/help/tasks#todos>) an, bevor du ein To-do entfernst oder abschließt, um mehr über diese Funktion zu erfahren.",
+      "number_not_a_number": "Die To-do-Nummer muss eine positive Zahl sein. Bitte verwende den Parameter \"number\", um die To-do-Nummer anzugeben. Verwende \"/task info\", um die To-do-Nummern einer Aufgabe zu sehen. Bitte sieh dir unsere [Hilfeseite](<https://bnder.net/help/tasks#todos>) an, bevor du ein To-do entfernst oder abschließt, um mehr über diese Funktion zu erfahren.",
+      "removed": "Das To-do **{{number}}** wurde aus der Aufgabe **{{id}}** entfernt.",
+      "completed": "Das To-do **{{number}}** der Aufgabe **{{id}}** wurde als abgeschlossen markiert.",
+      "uncompleted": "Das To-do **{{number}}** der Aufgabe **{{id}}** wurde als nicht abgeschlossen markiert.",
+      "todo_not_found": "Die Aufgabe hat kein To-do mit der angegebenen Nummer. Die Aufgabe **{{id}}** hat insgesamt {{todos}} To-dos. Verwende \"/task info\", um die To-do-Nummern einer Aufgabe zu sehen. Bitte sieh dir unsere [Hilfeseite](<https://bnder.net/help/tasks#todos>) an, bevor du ein To-do entfernst oder abschließt, um mehr über diese Funktion zu erfahren."
     },
     "list_tasks_for_user": "# Aufgaben für <@{{user_id}}> im Projekt {{project_name}} ({{count}} Aufgaben):",
     "list_tasks_for_role": "# Aufgaben für Rolle <@&{{role_id}}> im Projekt {{project_name}} ({{count}} Aufgaben):",

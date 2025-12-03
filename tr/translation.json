@@ -122,14 +122,14 @@
       "dependencies_headline": "Bağımlılıklar"
     },
     "todos": {
-      "text_not_found": "Yapılacak iş metni eksik. Lütfen yapılacak iş metnini belirtmek için \"title\" parametresini kullanın.",
-      "added": "Göreve bir yapılacak iş eklendi **{{id}}**.",
-      "number_not_found": "Yapılacak iş numarası eksik. Lütfen yapılacak iş numarasını belirtmek için \"number\" parametresini kullanın. Bir görevin yapılacak iş numaralarını görmek için \"/task info\" öğesini kullanın.",
-      "number_not_a_number": "Yapılacak iş numarası pozitif bir sayı olmalıdır.",
-      "removed": "Yapılacak iş **{{number}}** görevden kaldırıldı **{{id}}**.",
-      "completed": "Yapılacak iş **{{id}}** görevi için **{{number}}** tamamlandı olarak işaretlendi.",
-      "uncompleted": "Yapılacak iş **{{number}}** görev için **{{id}}** tamamlanmamış olarak işaretlendi.",
-      "todo_not_found": "Görevin belirttiğiniz numara ile bir yapılacak işi yok. **{{id}}** görevinin toplam {{todos}} yapılacak işi var. Bir görevin yapılacak iş numaralarını görmek için \"/task info\" komutunu kullanın."
+      "text_not_found": "Yapılacak (to-do) metni eksik. Lütfen metni belirtmek için \"title\" parametresini kullanın. Bir to-do eklemeden önce bu özellik hakkında daha fazla bilgi edinmek için [yardım sayfamıza](<https://bnder.net/help/tasks#todos>) göz atın.",
+      "added": "Bir to-do **{{id}}** numaralı göreve eklendi.",
+      "number_not_found": "To-do numarası eksik. Lütfen numarayı belirtmek için \"number\" parametresini kullanın. Bir görevin to-do numaralarını görmek için \"/task info\" kullanın. Kaldırmadan veya tamamlamadan önce yardım sayfasına bakın.",
+      "number_not_a_number": "To-do numarası pozitif bir sayı olmalıdır. Lütfen \"number\" parametresini kullanın. Numara görmek için \"/task info\" kullanın. Kaldırmadan veya tamamlamadan önce yardım sayfasına bakın.",
+      "removed": "**{{number}}** numaralı to-do, **{{id}}** numaralı görevden kaldırıldı.",
+      "completed": "**{{number}}** numaralı to-do, **{{id}}** numaralı görev için tamamlandı olarak işaretlendi.",
+      "uncompleted": "**{{number}}** numaralı to-do, **{{id}}** numaralı görev için tamamlanmamış olarak işaretlendi.",
+      "todo_not_found": "Görevde belirtilen numarada bir to-do yok. **{{id}}** numaralı görevde toplam {{todos}} to-do var. Numaraları görmek için \"/task info\" kullanın. Kaldırmadan veya tamamlamadan önce yardım sayfasına bakın."
     },
     "list_tasks_for_user": "# <@{{user_id}}> için {{project_name}} proje proje ({{count}} Görev):",
     "list_tasks_for_role": "# Proje {{project_name}}'ndaki <@&{{role_id}}> rolü için proje ({{count}} Görev):",

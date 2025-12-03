@@ -122,14 +122,14 @@
       "dependencies_headline": "Afhankelijkheden"
     },
     "todos": {
-      "text_not_found": "De to-do tekst ontbreekt. Gebruik de parameter \"title\" om de to-do tekst te specificeren.",
-      "added": "Een to-do is toegevoegd aan de taak **{{id}}**.",
-      "number_not_found": "Het to-do nummer ontbreekt. Gebruik de parameter \"number\" om het to-do nummer te specificeren. Gebruik \"/task info\" om de to-do nummers van een taak te zien.",
-      "number_not_a_number": "Het to-do nummer moet een positief getal zijn.",
-      "removed": "De to-do **{{number}}** is verwijderd van de taak **{{id}}**.",
-      "completed": "De to-do **{{number}}** voor taak **{{id}}** is gemarkeerd als voltooid.",
-      "uncompleted": "De to-do **{{number}}** voor taak **{{id}}** is gemarkeerd als onvoltooid.",
-      "todo_not_found": "De taak heeft geen to-do met het door jou opgegeven nummer. De taak **{{id}}** heeft in totaal {{todos}} to-do's. Gebruik \"/task info\" om de to-do nummers van een taak te zien."
+      "text_not_found": "De tekst van de to-do ontbreekt. Gebruik de parameter \"title\" om de tekst op te geven. Bekijk onze [hulppagina](<https://bnder.net/help/tasks#todos>) voordat je een to-do toevoegt om meer over deze functie te leren.",
+      "added": "Er is een to-do toegevoegd aan taak **{{id}}**.",
+      "number_not_found": "Het to-do-nummer ontbreekt. Gebruik de parameter \"number\" om dit op te geven. Gebruik \"/task info\" om de to-do-nummers van een taak te bekijken. Bekijk eerst de hulppagina voordat je een to-do verwijdert of voltooit.",
+      "number_not_a_number": "Het to-do-nummer moet een positief getal zijn. Gebruik de parameter \"number\" om het nummer op te geven. Gebruik \"/task info\" om de nummers te bekijken. Bekijk de hulppagina voordat je een to-do verwijdert of voltooit.",
+      "removed": "De to-do **{{number}}** is verwijderd uit taak **{{id}}**.",
+      "completed": "De to-do **{{number}}** van taak **{{id}}** is als voltooid gemarkeerd.",
+      "uncompleted": "De to-do **{{number}}** van taak **{{id}}** is als niet voltooid gemarkeerd.",
+      "todo_not_found": "De taak heeft geen to-do met dit nummer. Taak **{{id}}** heeft in totaal {{todos}} to-do’s. Gebruik \"/task info\" om de nummers te bekijken. Bekijk de hulppagina voordat je een to-do verwijdert of voltooit."
     },
     "list_tasks_for_user": "# Taken toegewezen aan <@{{user_id}}> in project **{{project_name}}** ({{count}} taken):",
     "no_tasks_role": "Er zijn geen taken gevonden die zijn toegewezen aan <@&{{role_id}}> in het project **{{project_name}}**. Gebruik het commando `/task project` om alle taken van een project te zien.",

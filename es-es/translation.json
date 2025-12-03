@@ -122,14 +122,14 @@
       "dependencies_headline": "Dependencias"
     },
     "todos": {
-      "text_not_found": "Falta el texto de la tarea pendiente. Utilice el parámetro \"title\" para especificar el texto de la tarea pendiente.",
-      "added": "Se agregó una tarea pendiente a la tarea **{{id}}**.",
-      "number_not_found": "Falta el número de la tarea pendiente. Utilice el parámetro \"number\" para especificar el número de la tarea pendiente. Utilice \"/task info\" para ver los números de tareas pendientes de una tarea.",
-      "number_not_a_number": "El número de la tarea pendiente debe ser un número positivo.",
-      "removed": "La tarea pendiente **{{number}}** se eliminó de la tarea **{{id}}**.",
-      "completed": "La tarea pendiente **{{number}}** de la tarea **{{id}}** se marcó como completada.",
-      "uncompleted": "La tarea pendiente **{{number}}** de la tarea **{{id}}** se marcó como incompleta.",
-      "todo_not_found": "La tarea no tiene una tarea con el número especificado. La tarea **{{id}}** tiene un total de {{todos}} tareas. Use \"/task info\" para ver la cantidad de tareas de una tarea."
+      "text_not_found": "Falta el texto del to-do. Usa el parámetro \"title\" para especificarlo. Consulta nuestra [página de ayuda](<https://bnder.net/help/tasks#todos>) antes de añadir un to-do para aprender más sobre esta función.",
+      "added": "Se añadió un to-do a la tarea **{{id}}**.",
+      "number_not_found": "Falta el número del to-do. Usa el parámetro \"number\" para especificarlo. Usa \"/task info\" para ver los números de los to-dos de una tarea. Consulta nuestra [página de ayuda](<https://bnder.net/help/tasks#todos>) antes de eliminar o completar un to-do.",
+      "number_not_a_number": "El número del to-do debe ser un número positivo. Usa el parámetro \"number\" para especificarlo. Usa \"/task info\" para ver los números de los to-dos. Consulta nuestra [página de ayuda](<https://bnder.net/help/tasks#todos>) antes de eliminar o completar un to-do.",
+      "removed": "El to-do **{{number}}** fue eliminado de la tarea **{{id}}**.",
+      "completed": "El to-do **{{number}}** de la tarea **{{id}}** fue marcado como completado.",
+      "uncompleted": "El to-do **{{number}}** de la tarea **{{id}}** fue marcado como no completado.",
+      "todo_not_found": "La tarea no tiene un to-do con el número indicado. La tarea **{{id}}** tiene un total de {{todos}} to-dos. Usa \"/task info\" para ver los números de los to-dos. Consulta nuestra [página de ayuda](<https://bnder.net/help/tasks#todos>) antes de eliminar o completar un to-do."
     },
     "list_tasks_for_user": "# Tareas para <@{{user_id}}> en el proyecto {{project_name}} ({{count}} Tareas):",
     "list_tasks_for_role": "# Tareas para el rol <@&{{role_id}}> en el proyecto {{project_name}} ({{count}} Tareas):",
