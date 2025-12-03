@@ -124,12 +124,12 @@
     "todos": {
       "text_not_found": "Il testo del to-do è mancante. Usa il parametro \"title\" per specificarlo. Consulta la nostra [pagina di aiuto](<https://bnder.net/help/tasks#todos>) prima di aggiungere un to-do per saperne di più.",
       "added": "Un to-do è stato aggiunto al task **{{id}}**.",
-      "number_not_found": "Il numero del to-do è mancante. Usa il parametro \"number\" per specificarlo. Usa \"/task info\" per vedere i numeri dei to-do. Consulta la nostra pagina di aiuto prima di rimuovere o completare un to-do.",
-      "number_not_a_number": "Il numero del to-do deve essere un numero positivo. Usa il parametro \"number\" per specificarlo. Usa \"/task info\" per vedere i numeri. Consulta la nostra pagina di aiuto prima di rimuovere o completare un to-do.",
+      "number_not_found": "Il numero del to-do è mancante. Usa il parametro \"number\" per specificarlo. Usa \"/task info\" per vedere i numeri dei to-do. Consulta la nostra [pagina di aiuto](<https://bnder.net/help/tasks#todos>) prima di rimuovere o completare un to-do.",
+      "number_not_a_number": "Il numero del to-do deve essere un numero positivo. Usa il parametro \"number\" per specificarlo. Usa \"/task info\" per vedere i numeri. Consulta la nostra [pagina di aiuto](<https://bnder.net/help/tasks#todos>) prima di rimuovere o completare un to-do.",
       "removed": "Il to-do **{{number}}** è stato rimosso dal task **{{id}}**.",
       "completed": "Il to-do **{{number}}** del task **{{id}}** è stato contrassegnato come completato.",
       "uncompleted": "Il to-do **{{number}}** del task **{{id}}** è stato contrassegnato come non completato.",
-      "todo_not_found": "Il task non ha un to-do con il numero specificato. Il task **{{id}}** ha un totale di {{todos}} to-do. Usa \"/task info\" per vedere i numeri. Consulta la nostra pagina di aiuto prima di rimuovere o completare un to-do."
+      "todo_not_found": "Il task non ha un to-do con il numero specificato. Il task **{{id}}** ha un totale di {{todos}} to-do. Usa \"/task info\" per vedere i numeri. Consulta la nostra [pagina di aiuto](<https://bnder.net/help/tasks#todos>) prima di rimuovere o completare un to-do."
     },
     "list_tasks_for_user": "# Attività assegnate a <@{{user_id}}> nel progetto **{{project_name}}** ({{count}} attività):",
     "no_tasks_role": "Non sono state trovate attività assegnate al ruolo <@&{{role_id}}> nel progetto **{{project_name}}**. Usa il comando `/task project` per vedere tutte le attività di un progetto.",

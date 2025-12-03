@@ -124,12 +124,12 @@
     "todos": {
       "text_not_found": "O texto do to-do está ausente. Use o parâmetro \"title\" para especificá-lo. Consulte nossa [página de ajuda](<https://bnder.net/help/tasks#todos>) antes de adicionar um to-do para saber mais sobre o recurso.",
       "added": "Um to-do foi adicionado à tarefa **{{id}}**.",
-      "number_not_found": "O número do to-do está ausente. Use o parâmetro \"number\" para especificá-lo. Use \"/task info\" para ver os números dos to-dos de uma tarefa. Consulte a página de ajuda antes de remover ou concluir um to-do.",
-      "number_not_a_number": "O número do to-do deve ser um número positivo. Use o parâmetro \"number\". Use \"/task info\" para ver os números. Consulte a página de ajuda antes de remover ou concluir um to-do.",
+      "number_not_found": "O número do to-do está ausente. Use o parâmetro \"number\" para especificá-lo. Use \"/task info\" para ver os números dos to-dos de uma tarefa. Consulte a [página de ajuda](<https://bnder.net/help/tasks#todos>) antes de remover ou concluir um to-do.",
+      "number_not_a_number": "O número do to-do deve ser um número positivo. Use o parâmetro \"number\". Use \"/task info\" para ver os números. Consulte a [página de ajuda](<https://bnder.net/help/tasks#todos>) antes de remover ou concluir um to-do.",
       "removed": "O to-do **{{number}}** foi removido da tarefa **{{id}}**.",
       "completed": "O to-do **{{number}}** da tarefa **{{id}}** foi marcado como concluído.",
       "uncompleted": "O to-do **{{number}}** da tarefa **{{id}}** foi marcado como não concluído.",
-      "todo_not_found": "A tarefa não possui um to-do com o número informado. A tarefa **{{id}}** tem um total de {{todos}} to-dos. Use \"/task info\" para ver os números. Consulte a página de ajuda antes de remover ou concluir um to-do."
+      "todo_not_found": "A tarefa não possui um to-do com o número informado. A tarefa **{{id}}** tem um total de {{todos}} to-dos. Use \"/task info\" para ver os números. Consulte a [página de ajuda](<https://bnder.net/help/tasks#todos>) antes de remover ou concluir um to-do."
     },
     "list_tasks_for_user": "# Tarefas para <@{{user_id}}> no projeto {{project_name}} ({{count}} tarefas):",
     "list_tasks_for_role": "# Tarefas para a função <@&{{role_id}}> no projeto {{project_name}} ({{count}} tarefas):",

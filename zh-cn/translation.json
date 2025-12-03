@@ -124,12 +124,12 @@
     "todos": {
       "text_not_found": "缺少待办事项文本。请使用 \"title\" 参数来指定待办文本。在添加待办事项之前，请查看我们的[帮助页面](<https://bnder.net/help/tasks#todos>)了解更多信息。",
       "added": "一个待办事项已添加到任务 **{{id}}**。",
-      "number_not_found": "缺少待办事项编号。请使用 \"number\" 参数来指定编号。使用 \"/task info\" 查看任务的待办编号。在删除或完成待办事项前，请查看帮助页面。",
-      "number_not_a_number": "待办事项编号必须是正数。请使用 \"number\" 参数来指定它。使用 \"/task info\" 查看编号。在删除或完成待办事项前，请查看帮助页面。",
+      "number_not_found": "缺少待办事项编号。请使用 \"number\" 参数来指定编号。使用 \"/task info\" 查看任务的待办编号。在删除或完成待办事项前，请查看我们的[帮助页面](<https://bnder.net/help/tasks#todos>)。",
+      "number_not_a_number": "待办事项编号必须是正数。请使用 \"number\" 参数来指定它。使用 \"/task info\" 查看编号。在删除或完成待办事项前，请查看我们的[帮助页面](<https://bnder.net/help/tasks#todos>)。",
       "removed": "待办事项 **{{number}}** 已从任务 **{{id}}** 中移除。",
       "completed": "任务 **{{id}}** 的待办事项 **{{number}}** 已标记为已完成。",
       "uncompleted": "任务 **{{id}}** 的待办事项 **{{number}}** 已标记为未完成。",
-      "todo_not_found": "该任务没有指定编号的待办事项。任务 **{{id}}** 总共有 {{todos}} 个待办事项。使用 \"/task info\" 查看编号。在删除或完成待办事项之前，请查看帮助页面。"
+      "todo_not_found": "该任务没有指定编号的待办事项。任务 **{{id}}** 总共有 {{todos}} 个待办事项。使用 \"/task info\" 查看编号。在删除或完成待办事项之前，请查看我们的[帮助页面](<https://bnder.net/help/tasks#todos>)。"
     },
     "list_tasks_for_user": "# 分配给 <@{{user_id}}> 的任务在项目 **{{project_name}}** 中 ({{count}} 个任务):",
     "no_tasks_role": "未找到分配给角色 <@&{{role_id}}> 的任务在项目 **{{project_name}}** 中。使用 `/task project` 命令查看项目中的所有任务。",
