@@ -124,8 +124,8 @@
     "todos": {
       "text_not_found": "Brakuje tekstu zadania To-do. Użyj parametru \"title\", aby go określić. Sprawdź naszą [stronę pomocy](<https://bnder.net/help/tasks#todos>) przed dodaniem to-do, aby dowiedzieć się więcej o tej funkcji.",
       "added": "Dodano to-do do zadania **{{id}}**.",
-      "number_not_found": "Brakuje numeru to-do. Użyj parametru \"number\", aby go określić. Użyj \"/task info\", aby zobaczyć numery to-do. Sprawdź stronę pomocy przed usunięciem lub ukończeniem to-do.",
-      "number_not_a_number": "Numer to-do musi być dodatnią liczbą. Użyj parametru \"number\". \"/task info\" pokaże numery. Sprawdź stronę pomocy przed usunięciem lub ukończeniem to-do.",
+      "number_not_found": "Brak numeru zadania. Użyj parametru „number”, aby określić numer zadania. Użyj parametru „/task info”, aby wyświetlić numer zadania. Przed usunięciem lub ukończeniem zadania zapoznaj się z naszą [stroną pomocy](<https://bnder.net/help/tasks#todos>), aby dowiedzieć się więcej o tej funkcji.",
+      "number_not_a_number": "Numer zadania musi być liczbą dodatnią. Użyj parametru „number”, aby określić numer zadania. Użyj parametru „/task info”, aby wyświetlić numery zadań dla danego zadania. Przed usunięciem lub ukończeniem zadania zapoznaj się z naszą [stroną pomocy](<https://bnder.net/help/tasks#todos>), aby dowiedzieć się więcej o tej funkcji.",
       "removed": "To-do **{{number}}** zostało usunięte z zadania **{{id}}**.",
       "completed": "To-do **{{number}}** dla zadania **{{id}}** zostało oznaczone jako ukończone.",
       "uncompleted": "To-do **{{number}}** dla zadania **{{id}}** zostało oznaczone jako nieukończone.",
