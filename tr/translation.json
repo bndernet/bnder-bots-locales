@@ -564,5 +564,11 @@
       "help_button": "GitLab entegrasyon yardımı",
       "regenerate_button": "Yeni url oluştur"
     }
+  },
+  "grant_pro_seat": {
+    "no_pro_seats_available": "Çalışma alanınızda hiç Pro koltuk yok. [Lütfen Pro koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Pro koltuklar hakkında daha fazla bilgi için https://bnder.net/pricing.",
+    "user_already_has_pro_seat": "<@{{userId}}> kullanıcısının bu çalışma alanında zaten bir Pro koltuğu var.",
+    "not_enough_pro_seats": "<@{{userId}}> kullanıcısına vermek için yeterli Pro koltuğunuz yok. Bir Pro koltuğu boşaltın veya [daha fazla Pro koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Daha fazla bilgi: https://bnder.net/pricing.",
+    "pro_seat_granted": "<@{{userId}}> kullanıcısına bu çalışma alanında bir Pro koltuk verildi. Tüm Pro koltuk özellikleri artık kullanılabilir."
   }
 }

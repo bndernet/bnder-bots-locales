@@ -564,5 +564,11 @@
       "help_button": "GitLab統合のヘルプ",
       "regenerate_button": "新しいURLを生成"
     }
+  },
+  "grant_pro_seat": {
+    "no_pro_seats_available": "このワークスペースには利用可能な Pro シートがありません。[Pro シートにアップグレードしてください](<https://bnder.net/p/{{guildId}}>）。Pro シートの詳細は https://bnder.net/pricing をご確認ください。",
+    "user_already_has_pro_seat": "ユーザー <@{{userId}}> はすでにこのワークスペースで Pro シートを持っています。",
+    "not_enough_pro_seats": "<@{{userId}}> に付与するための Pro シートが不足しています。Pro シートを解放するか、[さらに Pro シートをアップグレードしてください](<https://bnder.net/p/{{guildId}}>）。詳細は https://bnder.net/pricing をご覧ください。",
+    "pro_seat_granted": "ユーザー <@{{userId}}> にこのワークスペースの Pro シートが付与されました。すべての Pro 機能が利用可能になりました。"
   }
 }

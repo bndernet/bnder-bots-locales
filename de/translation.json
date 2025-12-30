@@ -564,5 +564,11 @@
       "help_button": "GitLab-Integrationshilfe",
       "regenerate_button": "Neue Url generieren"
     }
+  },
+  "grant_pro_seat": {
+    "no_pro_seats_available": "Du hast keine Pro-Sitze in deinem Workspace. [Bitte upgrade auf einen Pro-Sitz](<https://bnder.net/p/{{guildId}}>). Erfahre mehr über Pro-Sitze unter https://bnder.net/pricing.",
+    "user_already_has_pro_seat": "Der Benutzer <@{{userId}}> hat bereits einen Pro-Sitz in diesem Workspace.",
+    "not_enough_pro_seats": "Du hast nicht genügend Pro-Sitze verfügbar, um einen an <@{{userId}}> zu vergeben. Bitte gib einen Pro-Sitz frei oder [upgrade auf weitere Pro-Sitze](<https://bnder.net/p/{{guildId}}>). Erfahre mehr über Pro-Sitze unter https://bnder.net/pricing.",
+    "pro_seat_granted": "Dem Benutzer <@{{userId}}> wurde ein Pro-Sitz in diesem Workspace zugewiesen. Alle Pro-Sitz-Funktionen stehen ihm jetzt zur Verfügung."
   }
 }

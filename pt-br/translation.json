@@ -564,5 +564,11 @@
       "help_button": "Ajuda de integração do GitLab",
       "regenerate_button": "Gerar nova url"
     }
+  },
+  "grant_pro_seat": {
+    "no_pro_seats_available": "Você não possui assentos Pro no seu workspace. [Faça upgrade para um assento Pro](<https://bnder.net/p/{{guildId}}>). Saiba mais sobre assentos Pro em https://bnder.net/pricing.",
+    "user_already_has_pro_seat": "O usuário <@{{userId}}> já possui um assento Pro neste workspace.",
+    "not_enough_pro_seats": "Você não tem assentos Pro suficientes para conceder um a <@{{userId}}>. Libere um assento Pro ou [faça upgrade para mais assentos Pro](<https://bnder.net/p/{{guildId}}>). Saiba mais em https://bnder.net/pricing.",
+    "pro_seat_granted": "O usuário <@{{userId}}> recebeu um assento Pro neste workspace. Todos os recursos Pro agora estão disponíveis para ele."
   }
 }

@@ -564,5 +564,11 @@
       "help_button": "GitLab एकीकरण सहायता",
       "regenerate_button": "नया url जेनरेट करें"
     }
+  },
+  "grant_pro_seat": {
+    "no_pro_seats_available": "आपके workspace में कोई Pro सीट उपलब्ध नहीं है। [कृपया Pro सीट में अपग्रेड करें](<https://bnder.net/p/{{guildId}}>). Pro सीट्स के बारे में अधिक जानें: https://bnder.net/pricing.",
+    "user_already_has_pro_seat": "उपयोगकर्ता <@{{userId}}> के पास पहले से ही इस workspace में एक Pro सीट है।",
+    "not_enough_pro_seats": "आपके पास <@{{userId}}> को Pro सीट देने के लिए पर्याप्त सीटें नहीं हैं। कृपया एक Pro सीट खाली करें या [और Pro सीट्स में अपग्रेड करें](<https://bnder.net/p/{{guildId}}>). अधिक जानकारी: https://bnder.net/pricing.",
+    "pro_seat_granted": "उपयोगकर्ता <@{{userId}}> को इस workspace में Pro सीट प्रदान कर दी गई है। सभी Pro सीट सुविधाएँ अब उनके लिए उपलब्ध हैं।"
   }
 }
