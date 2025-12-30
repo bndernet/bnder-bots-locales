@@ -269,6 +269,10 @@ export class TSLocalizations_en {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Congratulations! You have been placed in a pro seat in workspace [${guildName}](<https://discord.com/channels/${guildId}>). This means you now have access to [pro features](<https://bnder.net/pricing>). Enjoy!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `The user **${requesterUsername}** has requested a Pro seat in workspace [${guildName}](<https://discord.com/channels/${guildId}>). If you have an available Pro seat, you can grant it to them using the button below. If you need more Pro seats, please visit [your workspace settings](<https://bnder.net/app/settings/${guildId}/default?tab=1>) to upgrade your subscription.`;
+        },
+        request_pro_seat_button_label: "Grant Pro Seat",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Action Needed: Payment Failed for Pro Subscription\nWe couldn’t process the payment for one or more Pro seats on [${guildName}](<https://discord.com/channels/${guildId}>). To avoid losing access to Pro features, please [update your payment info and pay your invoice now](<${customerPortalLink}>).\n\nYour Pro features will be disabled soon if no action is taken.\n\nNeed help? [Contact support](https://bnder.net/discord) — we’re here for you.`;
         },

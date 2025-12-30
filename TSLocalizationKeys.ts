@@ -255,6 +255,8 @@ export interface TSLocalizationKeys {
     pro_granted_notification(guildId: string, guildName: string): string,
 
     payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string,
+    pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string,
+    request_pro_seat_button_label: string,
 }
 
 export class Localizations {

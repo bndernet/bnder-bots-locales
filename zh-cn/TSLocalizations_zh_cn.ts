@@ -269,6 +269,10 @@ export class TSLocalizations_zh_cn {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `恭喜！您已在服务器 [${guildName}](<https://discord.com/channels/${guildId}>) 中被安排到专业席位。这意味着您现在可以使用 [专业功能](<https://bnder.net/pricing>)。尽情享受吧！`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `用户 **${requesterUsername}** 已在工作区 [${guildName}](<https://discord.com/channels/${guildId}>) 请求一个 Pro 席位。如果你有可用的 Pro 席位，可以使用下方按钮授予。如果需要更多 Pro 席位，请前往[工作区设置](<https://bnder.net/app/settings/${guildId}/default?tab=1>)升级你的订阅。`;
+        },
+        request_pro_seat_button_label: "授予 Pro 席位",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 需要采取行动：专业版订阅付款失败\n我们无法处理 [${guildName}](<https://discord.com/channels/${guildId}>) 上一个或多个专业版席位的付款。为避免无法使用专业版功能，请[立即更新您的付款信息并支付账单](<${customerPortalLink}>)。\n\n如果不采取任何措施，您的专业版功能将很快被禁用。\n\n需要帮助？[联系客服](https://bnder.net/discord)——我们随时为您服务。`;
         },

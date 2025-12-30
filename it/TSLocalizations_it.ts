@@ -269,6 +269,10 @@ export class TSLocalizations_it {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Congratulazioni! Sei stato inserito in un posto pro nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>). Ciò significa che ora hai accesso alle [funzionalità pro](<https://bnder.net/pricing>). Divertiti!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `L’utente **${requesterUsername}** ha richiesto un posto Pro nel workspace [${guildName}](<https://discord.com/channels/${guildId}>). Se hai un posto Pro disponibile, puoi assegnarlo utilizzando il pulsante qui sotto. Se hai bisogno di altri posti Pro, visita [le impostazioni del tuo workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) per aggiornare il tuo abbonamento.`;
+        },
+        request_pro_seat_button_label: "Assegna posto Pro",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Azione richiesta: Pagamento non riuscito per l'abbonamento Pro\nNon siamo riusciti a elaborare il pagamento per uno o più utenti Pro su [${guildName}](<https://discord.com/channels/${guildId}>). Per evitare di perdere l'accesso alle funzionalità Pro, [aggiorna le tue informazioni di pagamento e paga la fattura ora](<${customerPortalLink}>).\n\nLe tue funzionalità Pro verranno disattivate a breve se non interverrai.\n\nHai bisogno di aiuto? [Contatta l'assistenza](https://bnder.net/discord) — siamo qui per te.`;
         },

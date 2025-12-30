@@ -269,6 +269,10 @@ export class TSLocalizations_de {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Herzlichen Glückwunsch! Sie haben einen Pro-Platz auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) erhalten. Das bedeutet, dass Sie jetzt Zugang zu [Pro-Features](<https://bnder.net/pricing>) haben. Viel Spaß!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `Der Benutzer **${requesterUsername}** hat einen Pro-Sitz im Workspace [${guildName}](<https://discord.com/channels/${guildId}>) angefragt. Wenn du einen verfügbaren Pro-Sitz hast, kannst du ihn über den untenstehenden Button vergeben. Wenn du weitere Pro-Sitze benötigst, besuche bitte [deine Workspace-Einstellungen](<https://bnder.net/app/settings/${guildId}/default?tab=1>), um dein Abonnement zu upgraden.`;
+        },
+        request_pro_seat_button_label: "Pro-Sitz vergeben",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Aktion erforderlich: Zahlung für Pro-Abonnement fehlgeschlagen\nWir konnten die Zahlung für einen oder mehrere Pro-Plätze auf [${guildName}](<https://discord.com/channels/${guildId}>) nicht verarbeiten. Um den Zugriff auf die Pro-Funktionen nicht zu verlieren, [aktualisiere bitte deine Zahlungsinformationen und bezahle deine Rechnung jetzt](<${customerPortalLink}>).\n\nDeine Pro-Funktionen werden bald deaktiviert, wenn du nichts unternimmst.\n\nBenötigst du Hilfe? [Kontaktiere den Support](https://bnder.net/discord) – wir sind für dich da.`;
         },

@@ -269,8 +269,12 @@ export class TSLocalizations_fr {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Félicitations! Vous avez obtenu une place pro sur le espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Vous avez désormais accès aux [fonctionnalités pro](<https://bnder.net/pricing>). Profitez-en!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `L’utilisateur **${requesterUsername}** a demandé un siège Pro dans l’espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Si vous disposez d’un siège Pro disponible, vous pouvez le lui accorder à l’aide du bouton ci-dessous. Si vous avez besoin de plus de sièges Pro, veuillez consulter [les paramètres de votre espace de travail](<https://bnder.net/app/settings/${guildId}/default?tab=1>) pour mettre à niveau votre abonnement.`;
+        },
+        request_pro_seat_button_label: "Accorder un siège Pro",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Action requise : Échec du paiement de l’abonnement Pro\nNous n’avons pas pu traiter le paiement d’un ou plusieurs abonnements Pro sur [${guildName}](<https://discord.com/channels/${guildId}>). Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez [mettre à jour vos informations de paiement et payer votre facture maintenant](<${customerPortalLink}>).\n\nVos fonctionnalités Pro seront bientôt désactivées si aucune mesure n’est prise.\n\nBesoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous sommes là pour vous.`;
+            return `# 🚨 Action requise: Échec du paiement de l’abonnement Pro\nNous n’avons pas pu traiter le paiement d’un ou plusieurs abonnements Pro sur [${guildName}](<https://discord.com/channels/${guildId}>). Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez [mettre à jour vos informations de paiement et payer votre facture maintenant](<${customerPortalLink}>).\n\nVos fonctionnalités Pro seront bientôt désactivées si aucune mesure n’est prise.\n\nBesoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous sommes là pour vous.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {

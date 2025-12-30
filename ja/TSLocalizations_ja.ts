@@ -269,6 +269,10 @@ export class TSLocalizations_ja {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `おめでとうございます！サーバー [${guildName}](<https://discord.com/channels/${guildId}>) のプロ シートに配置されました。つまり、[プロ機能](<https://bnder.net/pricing>) にアクセスできるようになりました。お楽しみください！`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `ユーザー **${requesterUsername}** がワークスペース [${guildName}](<https://discord.com/channels/${guildId}>) で Pro シートをリクエストしました。利用可能な Pro シートがある場合は、下のボタンを使って付与できます。Pro シートを追加する必要がある場合は、[ワークスペース設定](<https://bnder.net/app/settings/${guildId}/default?tab=1>) にアクセスしてサブスクリプションをアップグレードしてください。`;
+        },
+        request_pro_seat_button_label: "Pro シートを付与",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 必要な対応: Pro サブスクリプションの支払いに失敗しました\n[${guildName}](<https://discord.com/channels/${guildId}>) の 1 つ以上の Pro シートの支払いを処理できませんでした。Pro 機能へのアクセスを失うことを避けるため、[支払い情報を更新し、請求書を今すぐお支払いください](<${customerPortalLink}>)。\n\n何も対応しないと、Pro 機能はまもなく無効になります。\n\nお困りですか? [サポートにお問い合わせください](https://bnder.net/discord) — いつでもお手伝いいたします。`;
         },

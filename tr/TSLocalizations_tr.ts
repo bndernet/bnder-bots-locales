@@ -269,6 +269,10 @@ export class TSLocalizations_tr {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Tebrikler! [${guildName}](<https://discord.com/channels/${guildId}>) çalışma alanısunda profesyonel bir koltuğa yerleştirildiniz. Bu, artık [pro özelliklere](<https://bnder.net/pricing>) erişebileceğiniz anlamına geliyor. İyi eğlenceler!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `**${requesterUsername}** kullanıcısı, [${guildName}](<https://discord.com/channels/${guildId}>) çalışma alanında bir Pro koltuk talep etti. Eğer kullanılabilir bir Pro koltuğunuz varsa, aşağıdaki düğmeyi kullanarak verebilirsiniz. Daha fazla Pro koltuğa ihtiyacınız varsa, aboneliğinizi yükseltmek için [çalışma alanı ayarlarınıza](<https://bnder.net/app/settings/${guildId}/default?tab=1>) gidin.`;
+        },
+        request_pro_seat_button_label: "Pro koltuk ver",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 İşlem Gerekli: Pro Aboneliği için Ödeme Başarısız Oldu\n[${guildName}](<https://discord.com/channels/${guildId}>) üzerinde bir veya daha fazla Pro koltuğu için ödemeyi işleme koyamadık. Pro özelliklerine erişiminizi kaybetmemek için lütfen [ödeme bilgilerinizi güncelleyin ve faturanızı hemen ödeyin](<${customerPortalLink}>).\n\nHerhangi bir işlem yapılmazsa Pro özellikleriniz yakında devre dışı bırakılacak.\n\nYardıma mı ihtiyacınız var? [Destek ekibiyle iletişime geçin](https://bnder.net/discord) — sizin için buradayız.`;
         },

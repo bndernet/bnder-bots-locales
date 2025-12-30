@@ -269,6 +269,10 @@ export class TSLocalizations_nl {
         pro_granted_notification(guildId: string, guildName: string): string {
             return `Gefeliciteerd! Je bent in een pro-plek geplaatst in werkruimte [${guildName}](<https://discord.com/channels/${guildId}>). Dit betekent dat je nu toegang hebt tot [pro-functies](<https://bnder.net/pricing>). Veel plezier!`;
         },
+        pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
+            return `De gebruiker **${requesterUsername}** heeft een Pro-plaats aangevraagd in de workspace [${guildName}](<https://discord.com/channels/${guildId}>). Als je een beschikbare Pro-plaats hebt, kun je deze toekennen met de knop hieronder. Als je meer Pro-plaatsen nodig hebt, ga dan naar [je workspace-instellingen](<https://bnder.net/app/settings/${guildId}/default?tab=1>) om je abonnement te upgraden.`;
+        },
+        request_pro_seat_button_label: "Pro-plaats toekennen",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# 🚨 Actie vereist: Betaling voor Pro-abonnement mislukt\nWe konden de betaling voor een of meer Pro-gebruikers op [${guildName}](<https://discord.com/channels/${guildId}>) niet verwerken. Om te voorkomen dat je toegang tot Pro-functies verliest, kun je [je betalingsgegevens bijwerken en je factuur nu betalen](<${customerPortalLink}>).\n\nJe Pro-functies worden binnenkort uitgeschakeld als je geen actie onderneemt.\n\nHulp nodig? [Neem contact op met de support](https://bnder.net/discord) — we staan voor je klaar.`;
         },
