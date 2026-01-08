@@ -12,6 +12,7 @@ import { TSLocalizations_zh_cn } from "./zh-cn/TSLocalizations_zh_cn";
 import { TSLocalizations_it } from "./it/TSLocalizations_it";
 import { TSLocalizations_pl } from "./pl/TSLocalizations_pl";
 import { TSLocalizations_nl } from "./nl/TSLocalizations_nl";
+import { TSLocalizations_id } from "./id/TSLocalizations_en";
 
 export interface TSLocalizationKeys {
     task: {
@@ -278,5 +279,6 @@ export class Localizations {
         "pl": TSLocalizations_pl.Localizations,
         "zh-cn": TSLocalizations_zh_cn.Localizations,
         "it": TSLocalizations_it.Localizations,
+        "id": TSLocalizations_id.Localizations,
     }
 }
