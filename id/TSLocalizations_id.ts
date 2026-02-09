@@ -264,6 +264,13 @@ export class TSLocalizations_id {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> memperbarui acara ${eventId}: **${eventName}** mulai pada ${start} dan berakhir pada ${end}.\n-# Semua tanggal dihitung dalam ${timezone}. Gunakan \"/settings timezone\" untuk mengubah zona waktu untuk seluruh workspace, atau \"/preferences timezone\" untuk mengubah milik Anda sendiri.`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `Pemesanan Anda untuk ${workspaceName} akan dimulai dalam sekitar ${durationTillEventMinutes} menit (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Pengingat pemesanan mendatang",
+                manage_bookings_button: "Kelola pemesanan",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

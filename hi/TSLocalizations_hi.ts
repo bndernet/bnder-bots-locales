@@ -264,6 +264,13 @@ export class TSLocalizations_hi {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> ने ईवेंट ${eventId} को अपडेट किया: **${eventName}** जो ${start} से शुरू होकर ${end} पर समाप्त होता है.\n-# सभी तिथियों की गणना ${timezone} में की जाती है। पूरे सर्वर के लिए समय क्षेत्र बदलने के लिए \"/settings timezone\" का उपयोग करें, या अपना स्वयं का समय क्षेत्र बदलने के लिए \"/preferences timezone\" का उपयोग करें।`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `${workspaceName} के लिए आपकी बुकिंग लगभग ${durationTillEventMinutes} मिनट में शुरू होगी (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "आगामी बुकिंग रिमाइंडर",
+                manage_bookings_button: "बुकिंग प्रबंधित करें",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

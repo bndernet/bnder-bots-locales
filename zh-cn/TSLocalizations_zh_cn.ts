@@ -264,6 +264,13 @@ export class TSLocalizations_zh_cn {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> 更新了活动 ${eventId}: **${eventName}**，开始时间为 ${start}，结束时间为 ${end}。\n-# 所有日期均根据 ${timezone} 时区计算。使用 \"/settings timezone\" 可更改整个服务器的时区，或使用 \"/preferences timezone\" 更改你个人的时区。`
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `你在 ${workspaceName} 的预订将在大约 ${durationTillEventMinutes} 分钟后开始（${start} - ${end}, ${timezone}）。${location}`;
+                },
+                title: "即将开始的预订提醒",
+                manage_bookings_button: "管理预订",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

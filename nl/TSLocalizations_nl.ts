@@ -264,6 +264,13 @@ export class TSLocalizations_nl {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> heeft evenement ${eventId} bijgewerkt: **${eventName}** begint om ${start} en eindigt om ${end}.\n-# Alle datums worden berekend in ${timezone}. Gebruik \"/settings timezone\" om de tijdzone voor de hele werkruimte te wijzigen, of \"/preferences timezone\" om je eigen tijdzone te wijzigen.`
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `${workspaceName} の予約は約 ${durationTillEventMinutes} 分後に開始されます（${start} - ${end}, ${timezone}）。${location}`;
+                },
+                title: "予約開始のリマインダー",
+                manage_bookings_button: "予約を管理",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

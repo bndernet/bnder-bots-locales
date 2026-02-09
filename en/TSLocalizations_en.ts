@@ -264,6 +264,13 @@ export class TSLocalizations_en {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> updated the event ${eventId}: **${eventName}** starting at ${start} and ending at ${end}.\n-# All dates are calculated in ${timezone}. Use \"/settings timezone\" to change the timezone for the whole workspace, or \"/preferences timezone\" to change your own.`
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `Your booking for ${workspaceName} starts in about ${durationTillEventMinutes} minutes (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Upcoming booking reminder",
+                manage_bookings_button: "Manage booking",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

@@ -264,6 +264,13 @@ export class TSLocalizations_ru {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> обновил событие ${eventId}: **${eventName}**, начинающееся в ${start} и заканчивающееся в ${end}.\n-# Все даты рассчитываются в ${timezone}. Используйте \"/settings timezone\", чтобы изменить часовой пояс для всего сервера, или \"/preferences timezone\", чтобы изменить свой собственный.`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `Ваша бронь для ${workspaceName} начнётся примерно через ${durationTillEventMinutes} минут (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Напоминание о предстоящем бронировании",
+                manage_bookings_button: "Управлять бронированием",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

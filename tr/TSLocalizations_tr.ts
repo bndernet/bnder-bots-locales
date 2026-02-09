@@ -264,6 +264,13 @@ export class TSLocalizations_tr {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> ${eventId} etkinliğini güncelledi: **${eventName}** ${start}'da başlayıp ${end}'de bitiyor.\n-# Tüm tarihler ${timezone}'da hesaplanır. Tüm çalışma alanı için saat dilimini değiştirmek için \"/settings timezone\" veya kendi saat diliminizi değiştirmek için \"/preferences timezone\" kullanın.`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `${workspaceName} için rezervasyonunuz yaklaşık ${durationTillEventMinutes} dakika içinde başlayacak (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Yaklaşan rezervasyon hatırlatıcısı",
+                manage_bookings_button: "Rezervasyonu yönet",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

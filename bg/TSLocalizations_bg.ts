@@ -264,6 +264,13 @@ export class TSLocalizations_bg {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> актуализира събитието ${eventId}: **${eventName}**, започващо в ${start} и завършващо в ${end}.\n-# Всички дати се изчисляват в ${timezone}. Използвайте \"/settings timezone\", за да промените часовата зона за целия сървър, или \"/preferences timezone\", за да промените своя собствена.`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `Вашата резервация за ${workspaceName} започва след около ${durationTillEventMinutes} минути (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Напомняне за предстояща резервация",
+                manage_bookings_button: "Управление на резервацията",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

@@ -264,6 +264,13 @@ export class TSLocalizations_fr {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> a mis à jour l'événement ${eventId}: **${eventName}** commençant à ${start} et se terminant à ${end}.\n-# Toutes les dates sont calculées dans ${timezone}. Utilisez \"/settings timezone\" pour modifier le fuseau horaire de l'ensemble du espace de travail, ou \"/preferences timezone\" pour modifier le vôtre.`;
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `Votre réservation pour ${workspaceName} commence dans environ ${durationTillEventMinutes} minutes (${start} - ${end}, ${timezone}).${location}`;
+                },
+                title: "Rappel de réservation à venir",
+                manage_bookings_button: "Gérer la réservation",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {

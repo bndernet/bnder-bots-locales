@@ -264,6 +264,13 @@ export class TSLocalizations_ja {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
                     return `<@${inviterId}> がイベント ${eventId} を更新しました: **${eventName}** が ${start} に開始し、${end} に終了します。\n-# すべての日付は ${timezone} タイムゾーンで計算されています。サーバー全体のタイムゾーンを変更するには「/settings timezone」を使用するか、あなた自身のタイムゾーンを変更するには「/preferences timezone」を使用してください。`
                 }
+            },
+            booking_reminder: {
+                content(workspaceName: string, durationTillEventMinutes: number, location: string, start: string, end: string, timezone: string): string {
+                    return `${workspaceName} の予約は約 ${durationTillEventMinutes} 分後に開始されます（${start} - ${end}, ${timezone}）。${location}`;
+                },
+                title: "予約開始のリマインダー",
+                manage_bookings_button: "予約を管理",
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
