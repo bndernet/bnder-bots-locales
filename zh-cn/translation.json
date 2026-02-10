@@ -570,5 +570,8 @@
     "user_already_has_pro_seat": "用户 <@{{userId}}> 已经在此工作区拥有一个 Pro 席位。",
     "not_enough_pro_seats": "你没有足够的 Pro 席位可授予 <@{{userId}}>。请释放一个 Pro 席位，或[升级以获得更多 Pro 席位](<https://bnder.net/p/{{guildId}}>）。了解更多：https://bnder.net/pricing。",
     "pro_seat_granted": "用户 <@{{userId}}> 已在此工作区获得一个 Pro 席位。所有 Pro 席位功能现已对其开放。"
+  },
+  "booking": {
+    "links_link_app": "在应用中管理"
   }
 }

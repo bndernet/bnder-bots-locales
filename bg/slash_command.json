@@ -190,5 +190,9 @@
     "type_option_event": "Събитие",
     "type_option_out_of_office": "Извън офиса",
     "type_option_birthday": "Рожден ден"
+  },
+  "booking": {
+    "command_description": "Управление на резервации",
+    "link_subcommand_description": "Получете линк за управление на вашите резервации"
   }
 }

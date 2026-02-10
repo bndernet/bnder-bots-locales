@@ -570,5 +570,8 @@
     "user_already_has_pro_seat": "De gebruiker <@{{userId}}> heeft al een Pro-plaats in deze workspace.",
     "not_enough_pro_seats": "Je hebt niet genoeg Pro-plaatsen beschikbaar om er één toe te kennen aan <@{{userId}}>. Maak een Pro-plaats vrij of [upgrade naar meer Pro-plaatsen](<https://bnder.net/p/{{guildId}}>). Meer informatie op https://bnder.net/pricing.",
     "pro_seat_granted": "Aan gebruiker <@{{userId}}> is een Pro-plaats toegekend in deze workspace. Alle Pro-functies zijn nu beschikbaar."
+  },
+  "booking": {
+    "links_link_app": "Beheren in de app"
   }
 }

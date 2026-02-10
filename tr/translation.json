@@ -570,5 +570,8 @@
     "user_already_has_pro_seat": "<@{{userId}}> kullanıcısının bu çalışma alanında zaten bir Pro koltuğu var.",
     "not_enough_pro_seats": "<@{{userId}}> kullanıcısına vermek için yeterli Pro koltuğunuz yok. Bir Pro koltuğu boşaltın veya [daha fazla Pro koltuğa yükseltin](<https://bnder.net/p/{{guildId}}>). Daha fazla bilgi: https://bnder.net/pricing.",
     "pro_seat_granted": "<@{{userId}}> kullanıcısına bu çalışma alanında bir Pro koltuk verildi. Tüm Pro koltuk özellikleri artık kullanılabilir."
+  },
+  "booking": {
+    "links_link_app": "Uygulamada yönet"
   }
 }

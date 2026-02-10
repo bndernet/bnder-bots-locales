@@ -190,5 +190,9 @@
     "type_option_event": "Event",
     "type_option_out_of_office": "Out of Office",
     "type_option_birthday": "Birthday"
+  },
+  "booking": {
+    "command_description": "Manage bookings",
+    "link_subcommand_description": "Get the link to manage your booking link"
   }
 }

@@ -190,5 +190,9 @@
     "type_option_event": "活动",
     "type_option_out_of_office": "外出",
     "type_option_birthday": "生日"
+  },
+  "booking": {
+    "command_description": "管理预订",
+    "link_subcommand_description": "获取用于管理预订的链接"
   }
 }

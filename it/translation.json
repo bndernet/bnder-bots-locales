@@ -570,5 +570,8 @@
     "user_already_has_pro_seat": "L’utente <@{{userId}}> ha già un posto Pro in questo workspace.",
     "not_enough_pro_seats": "Non hai abbastanza posti Pro disponibili per assegnarne uno a <@{{userId}}>. Libera un posto Pro oppure [effettua l’upgrade a più posti Pro](<https://bnder.net/p/{{guildId}}>). Scopri di più su https://bnder.net/pricing.",
     "pro_seat_granted": "All’utente <@{{userId}}> è stato assegnato un posto Pro in questo workspace. Tutte le funzionalità Pro sono ora disponibili."
+  },
+  "booking": {
+    "links_link_app": "Gestisci nell’app"
   }
 }

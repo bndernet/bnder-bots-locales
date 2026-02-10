@@ -190,5 +190,9 @@
     "type_option_event": "Событие",
     "type_option_out_of_office": "Нет на месте",
     "type_option_birthday": "День рождения"
+  },
+  "booking": {
+    "command_description": "Управление бронированиями",
+    "link_subcommand_description": "Получить ссылку для управления бронированиями"
   }
 }

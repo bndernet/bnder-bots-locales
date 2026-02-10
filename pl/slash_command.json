@@ -190,5 +190,9 @@
     "type_option_event": "Zdarzenie",
     "type_option_out_of_office": "Poza biurem",
     "type_option_birthday": "Urodziny"
+  },
+  "booking": {
+    "command_description": "Zarządzaj rezerwacjami",
+    "link_subcommand_description": "Uzyskaj link do zarządzania swoimi rezerwacjami"
   }
 }

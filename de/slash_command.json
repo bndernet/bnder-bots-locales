@@ -190,5 +190,9 @@
     "type_option_event": "Veranstaltung",
     "type_option_out_of_office": "Abwesend",
     "type_option_birthday": "Geburtstag"
+  },
+  "booking": {
+    "command_description": "Buchungen verwalten",
+    "link_subcommand_description": "Link zur Verwaltung deiner Buchungen abrufen"
   }
 }

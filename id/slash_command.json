@@ -190,5 +190,9 @@
     "type_option_event": "Acara",
     "type_option_out_of_office": "Di Luar Kantor",
     "type_option_birthday": "Ulang Tahun"
+  },
+  "booking": {
+    "command_description": "Kelola pemesanan",
+    "link_subcommand_description": "Dapatkan tautan untuk mengelola pemesanan Anda"
   }
 }

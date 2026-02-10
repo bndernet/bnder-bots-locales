@@ -190,5 +190,9 @@
     "type_option_event": "Événement",
     "type_option_out_of_office": "Absent du bureau",
     "type_option_birthday": "Anniversaire"
+  },
+  "booking": {
+    "command_description": "Gérer les réservations",
+    "link_subcommand_description": "Obtenir le lien pour gérer vos réservations"
   }
 }

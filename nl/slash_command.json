@@ -190,5 +190,9 @@
     "type_option_event": "Gebeurtenis",
     "type_option_out_of_office": "Afwezig",
     "type_option_birthday": "Verjaardag"
+  },
+  "booking": {
+    "command_description": "Boekingen beheren",
+    "link_subcommand_description": "Ontvang de link om je boekingen te beheren"
   }
 }

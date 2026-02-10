@@ -190,5 +190,9 @@
     "type_option_event": "Evento",
     "type_option_out_of_office": "Fora do escritório",
     "type_option_birthday": "Aniversário"
+  },
+  "booking": {
+    "command_description": "Gerenciar reservas",
+    "link_subcommand_description": "Obter o link para gerenciar suas reservas"
   }
 }

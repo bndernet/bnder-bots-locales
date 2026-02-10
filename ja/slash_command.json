@@ -190,5 +190,9 @@
     "type_option_event": "イベント",
     "type_option_out_of_office": "不在",
     "type_option_birthday": "誕生日"
+  },
+  "booking": {
+    "command_description": "予約を管理",
+    "link_subcommand_description": "予約を管理するためのリンクを取得"
   }
 }

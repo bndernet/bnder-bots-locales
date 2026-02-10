@@ -190,5 +190,9 @@
     "type_option_event": "Evento",
     "type_option_out_of_office": "Fuori sede",
     "type_option_birthday": "Compleanno"
+  },
+  "booking": {
+    "command_description": "Gestire le prenotazioni",
+    "link_subcommand_description": "Ottieni il link per gestire le tue prenotazioni"
   }
 }

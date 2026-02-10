@@ -190,5 +190,9 @@
     "type_option_event": "ईवेंट",
     "type_option_out_of_office": "कार्यालय से बाहर",
     "type_option_birthday": "जन्मदिन"
+  },
+  "booking": {
+    "command_description": "बुकिंग प्रबंधित करें",
+    "link_subcommand_description": "अपनी बुकिंग प्रबंधित करने के लिए लिंक प्राप्त करें"
   }
 }

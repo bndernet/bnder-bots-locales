@@ -570,5 +570,8 @@
     "user_already_has_pro_seat": "Pengguna <@{{userId}}> sudah memiliki pro seat di workspace ini.",
     "not_enough_pro_seats": "Anda tidak memiliki cukup pro seat untuk diberikan kepada <@{{userId}}>. Silakan kosongkan sebuah pro seat atau [silakan upgrade ke lebih banyak pro seat](<https://bnder.net/p/{{guildId}}>). Pelajari lebih lanjut tentang pro seat di https://bnder.net/pricing.",
     "pro_seat_granted": "Pengguna <@{{userId}}> telah diberikan pro seat di workspace ini. Semua fitur pro seat sekarang tersedia untuknya."
+  },
+  "booking": {
+    "links_link_app": "Kelola di aplikasi"
   }
 }

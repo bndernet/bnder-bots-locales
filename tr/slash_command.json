@@ -190,5 +190,9 @@
     "type_option_event": "Etkinlik",
     "type_option_out_of_office": "Ofis Dışında",
     "type_option_birthday": "Doğum Günü"
+  },
+  "booking": {
+    "command_description": "Rezervasyonları yönet",
+    "link_subcommand_description": "Rezervasyonlarınızı yönetmek için bağlantıyı alın"
   }
 }

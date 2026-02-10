@@ -190,5 +190,9 @@
     "type_option_event": "Evento",
     "type_option_out_of_office": "Fuera de la oficina",
     "type_option_birthday": "Cumpleaños"
+  },
+  "booking": {
+    "command_description": "Gestionar reservas",
+    "link_subcommand_description": "Obtener el enlace para gestionar tus reservas"
   }
 }
