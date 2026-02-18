@@ -367,6 +367,51 @@ export class TSLocalizations_it {
                 },
                 primaryActionText: "Aggiorna informazioni di pagamento"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Nuovo ticket:",
+                subject_prefix_update: "Aggiornamento ticket:",
+                subject_prefix_sla_warning: "Avviso SLA ticket:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "È stato creato un nuovo ticket.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `È stato pubblicato un nuovo messaggio pubblico.\n\nTicket: ${ticketTitle}\n\nAnteprima messaggio: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Lo stato del ticket è cambiato in \"${statusLabel}\".\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Il ticket è stato chiuso automaticamente perché non è stata ricevuta alcuna risposta dal segnalante entro la finestra temporale configurata.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Questo ticket ha raggiunto la soglia di avviso SLA.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nEtà attuale: ${currentAge}\nObiettivo: ${targetAge}`;
+                },
+                action_open_ticket: "Apri ticket",
+                action_reply_to_ticket: "Rispondi al ticket",
+                action_unsubscribe: "Annulla iscrizione a questo ticket",
+                unknown_inbox_subject: "Indirizzo inbox ticket sconosciuto",
+                unknown_inbox_headline: "Indirizzo inbox ticket sconosciuto",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Abbiamo ricevuto la tua email a ${recipientAddress}, ma questo indirizzo inbox non è configurato per la ricezione dei ticket. Nessun ticket è stato creato.\n\nContatta il tuo team di supporto e chiedi l'indirizzo email corretto per i ticket del progetto.`;
+                },
+                unknown_inbox_text_without_recipient: "Abbiamo ricevuto la tua email, ma questo indirizzo inbox non è configurato per la ricezione dei ticket. Nessun ticket è stato creato.\n\nContatta il tuo team di supporto e chiedi l'indirizzo email corretto per i ticket del progetto.",
+                feature_locked_subject: "La funzione email ticket richiede Pro",
+                feature_locked_headline: "La funzione email ticket richiede Pro",
+                feature_locked_text: "Abbiamo ricevuto la tua risposta via email, ma la risposta via email per i ticket è disponibile solo nei workspace Pro. La tua risposta non è stata aggiunta al ticket.\n\nContatta il tuo team di supporto e chiedi di aggiornare il workspace a Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Nuovo ticket nel progetto ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "È stato creato un nuovo ticket",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `È stato creato un nuovo ticket nel progetto ${projectId}.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `È stato creato un nuovo ticket nel progetto **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Apri l'app",
         }
     }

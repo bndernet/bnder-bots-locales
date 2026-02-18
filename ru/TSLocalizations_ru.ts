@@ -367,6 +367,51 @@ export class TSLocalizations_ru {
                 },
                 primaryActionText: "Обновить платёжную информацию"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Новый тикет:",
+                subject_prefix_update: "Обновление тикета:",
+                subject_prefix_sla_warning: "Предупреждение SLA по тикету:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Тикет ${statusLabel}:`;
+                },
+                body_created: "Создан новый тикет.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Опубликовано новое публичное сообщение.\n\nТикет: ${ticketTitle}\n\nПредпросмотр сообщения: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Статус тикета изменён на \"${statusLabel}\".\n\nТикет: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Тикет был автоматически закрыт, потому что в течение настроенного временного окна не был получен ответ от заявителя.\n\nТикет: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Этот тикет достиг порога предупреждения SLA.\n\nТикет: ${ticketTitle}\nSLA: ${slaName}\nТекущий возраст: ${currentAge}\nЦель: ${targetAge}`;
+                },
+                action_open_ticket: "Открыть тикет",
+                action_reply_to_ticket: "Ответить на тикет",
+                action_unsubscribe: "Отписаться от этого тикета",
+                unknown_inbox_subject: "Неизвестный адрес почтового ящика тикетов",
+                unknown_inbox_headline: "Неизвестный адрес почтового ящика тикетов",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Мы получили ваше письмо на ${recipientAddress}, но этот адрес не настроен для приёма тикетов. Тикет не был создан.\n\nПожалуйста, свяжитесь с вашей командой поддержки и запросите правильный адрес электронной почты для тикетов этого проекта.`;
+                },
+                unknown_inbox_text_without_recipient: "Мы получили ваше письмо, но этот адрес не настроен для приёма тикетов. Тикет не был создан.\n\nПожалуйста, свяжитесь с вашей командой поддержки и запросите правильный адрес электронной почты для тикетов этого проекта.",
+                feature_locked_subject: "Функция email для тикетов требует Pro",
+                feature_locked_headline: "Функция email для тикетов требует Pro",
+                feature_locked_text: "Мы получили ваш ответ по email, но ответ по email для тикетов доступен только в рабочих пространствах Pro. Ваш ответ не был добавлен в тикет.\n\nПожалуйста, свяжитесь с вашей командой поддержки и попросите обновить рабочее пространство до Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Новый тикет в проекте ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Создан новый тикет",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `В проекте ${projectId} создан новый тикет.\n\nТикет: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `В проекте **${projectId}** создан новый тикет.\nТикет: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Открыть приложение",
         }
     }

@@ -367,6 +367,51 @@ export class TSLocalizations_pt_br {
                 },
                 primaryActionText: "Atualizar informações de pagamento"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Novo ticket:",
+                subject_prefix_update: "Atualização do ticket:",
+                subject_prefix_sla_warning: "Aviso de SLA do ticket:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "Um novo ticket foi criado.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Uma nova mensagem pública foi publicada.\n\nTicket: ${ticketTitle}\n\nPrévia da mensagem: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `O status do ticket mudou para \"${statusLabel}\".\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `O ticket foi fechado automaticamente porque nenhuma resposta do solicitante foi recebida dentro da janela de tempo configurada.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Este ticket atingiu seu limite de aviso de SLA.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nTempo atual: ${currentAge}\nMeta: ${targetAge}`;
+                },
+                action_open_ticket: "Abrir ticket",
+                action_reply_to_ticket: "Responder ao ticket",
+                action_unsubscribe: "Cancelar inscrição deste ticket",
+                unknown_inbox_subject: "Endereço de caixa de entrada de tickets desconhecido",
+                unknown_inbox_headline: "Endereço de caixa de entrada de tickets desconhecido",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Recebemos seu e-mail para ${recipientAddress}, mas este endereço não está configurado para recebimento de tickets. Nenhum ticket foi criado.\n\nEntre em contato com sua equipe de suporte e peça o endereço de e-mail correto do projeto para tickets.`;
+                },
+                unknown_inbox_text_without_recipient: "Recebemos seu e-mail, mas este endereço não está configurado para recebimento de tickets. Nenhum ticket foi criado.\n\nEntre em contato com sua equipe de suporte e peça o endereço de e-mail correto do projeto para tickets.",
+                feature_locked_subject: "O recurso de e-mail de tickets requer Pro",
+                feature_locked_headline: "O recurso de e-mail de tickets requer Pro",
+                feature_locked_text: "Recebemos sua resposta por e-mail, mas responder tickets por e-mail está disponível apenas em workspaces Pro. Sua resposta não foi adicionada ao ticket.\n\nEntre em contato com sua equipe de suporte e peça para fazer upgrade do workspace para Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Novo ticket no projeto ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Um novo ticket foi criado",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Um novo ticket foi criado no projeto ${projectId}.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Um novo ticket foi criado no projeto **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Abrir App",
         }
     }

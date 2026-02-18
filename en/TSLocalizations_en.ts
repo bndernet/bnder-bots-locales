@@ -367,6 +367,51 @@ export class TSLocalizations_en {
                 },
                 primaryActionText: "Update Payment Info"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "New Ticket:",
+                subject_prefix_update: "Ticket Update:",
+                subject_prefix_sla_warning: "Ticket SLA Warning:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "A new ticket was created.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `A new public message was posted.\n\nTicket: ${ticketTitle}\n\nMessage preview: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `The ticket status changed to \"${statusLabel}\".\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `The ticket was automatically closed because no reporter response was received within the configured time window.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `This ticket reached its SLA warning threshold.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nCurrent age: ${currentAge}\nTarget: ${targetAge}`;
+                },
+                action_open_ticket: "Open Ticket",
+                action_reply_to_ticket: "Reply to Ticket",
+                action_unsubscribe: "Unsubscribe from this ticket",
+                unknown_inbox_subject: "Unknown ticket inbox address",
+                unknown_inbox_headline: "Unknown ticket inbox address",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `We received your email to ${recipientAddress}, but this inbox address is not configured for ticket intake. No ticket was created.\n\nPlease contact your support team and ask for the correct project-specific ticket email address.`;
+                },
+                unknown_inbox_text_without_recipient: "We received your email, but this inbox address is not configured for ticket intake. No ticket was created.\n\nPlease contact your support team and ask for the correct project-specific ticket email address.",
+                feature_locked_subject: "Ticket email feature requires Pro",
+                feature_locked_headline: "Ticket email feature requires Pro",
+                feature_locked_text: "We received your email reply, but reply-by-email for tickets is available on Pro workspaces only. Your reply was not added to the ticket.\n\nPlease contact your support team and ask them to upgrade the workspace to Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `New ticket in project ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "A new ticket was created",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `A new ticket was created in project ${projectId}.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `A new ticket was created in project **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Open App",
         }
     }

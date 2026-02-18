@@ -367,6 +367,51 @@ export class TSLocalizations_bg {
                 },
                 primaryActionText: "Актуализирайте информацията за плащане"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Нов билет:",
+                subject_prefix_update: "Актуализация на билет:",
+                subject_prefix_sla_warning: "SLA предупреждение за билет:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Билет ${statusLabel}:`;
+                },
+                body_created: "Създаден е нов билет.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Публикувано е ново публично съобщение.\n\nБилет: ${ticketTitle}\n\nПреглед на съобщението: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Статусът на билета е променен на \"${statusLabel}\".\n\nБилет: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Билетът беше затворен автоматично, защото не беше получен отговор от подателя в рамките на конфигурирания период.\n\nБилет: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Този билет достигна прага за SLA предупреждение.\n\nБилет: ${ticketTitle}\nSLA: ${slaName}\nТекуща възраст: ${currentAge}\nЦел: ${targetAge}`;
+                },
+                action_open_ticket: "Отвори билет",
+                action_reply_to_ticket: "Отговори на билета",
+                action_unsubscribe: "Отпиши се от този билет",
+                unknown_inbox_subject: "Неизвестен адрес на входяща поща за билети",
+                unknown_inbox_headline: "Неизвестен адрес на входяща поща за билети",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Получихме вашия имейл до ${recipientAddress}, но този адрес не е конфигуриран за прием на билети. Не беше създаден билет.\n\nМоля, свържете се с вашия екип по поддръжка и поискайте правилния имейл адрес за билети за съответния проект.`;
+                },
+                unknown_inbox_text_without_recipient: "Получихме вашия имейл, но този адрес не е конфигуриран за прием на билети. Не беше създаден билет.\n\nМоля, свържете се с вашия екип по поддръжка и поискайте правилния имейл адрес за билети за съответния проект.",
+                feature_locked_subject: "Функцията за имейл на билети изисква Pro",
+                feature_locked_headline: "Функцията за имейл на билети изисква Pro",
+                feature_locked_text: "Получихме вашия имейл отговор, но отговаряне по имейл за билети е налично само в Pro работни пространства. Вашият отговор не беше добавен към билета.\n\nМоля, свържете се с вашия екип по поддръжка и ги помолете да надстроят работното пространство до Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Нов билет в проект ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Създаден е нов билет",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Създаден е нов билет в проект ${projectId}.\n\nБилет: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Създаден е нов билет в проект **${projectId}**.\nБилет: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Отвори приложението",
         }
     }

@@ -367,6 +367,51 @@ export class TSLocalizations_hi {
                 },
                 primaryActionText: "भुगतान जानकारी अपडेट करें"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "नया टिकट:",
+                subject_prefix_update: "टिकट अपडेट:",
+                subject_prefix_sla_warning: "टिकट SLA चेतावनी:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `टिकट ${statusLabel}:`;
+                },
+                body_created: "एक नया टिकट बनाया गया है।",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `एक नया सार्वजनिक संदेश पोस्ट किया गया है।\n\nटिकट: ${ticketTitle}\n\nसंदेश पूर्वावलोकन: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `टिकट की स्थिति \"${statusLabel}\" में बदल गई है।\n\nटिकट: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `कॉन्फ़िगर की गई समय-सीमा में रिपोर्टर से कोई उत्तर न मिलने के कारण टिकट अपने-आप बंद कर दिया गया।\n\nटिकट: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `यह टिकट अपनी SLA चेतावनी सीमा तक पहुँच गया है।\n\nटिकट: ${ticketTitle}\nSLA: ${slaName}\nवर्तमान आयु: ${currentAge}\nलक्ष्य: ${targetAge}`;
+                },
+                action_open_ticket: "टिकट खोलें",
+                action_reply_to_ticket: "टिकट का उत्तर दें",
+                action_unsubscribe: "इस टिकट से सदस्यता हटाएँ",
+                unknown_inbox_subject: "अज्ञात टिकट इनबॉक्स पता",
+                unknown_inbox_headline: "अज्ञात टिकट इनबॉक्स पता",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `हमें आपका ईमेल ${recipientAddress} पर प्राप्त हुआ, लेकिन यह इनबॉक्स पता टिकट प्राप्त करने के लिए कॉन्फ़िगर नहीं है। कोई टिकट नहीं बनाया गया।\n\nकृपया अपनी सपोर्ट टीम से संपर्क करें और सही प्रोजेक्ट-विशिष्ट टिकट ईमेल पता माँगें।`;
+                },
+                unknown_inbox_text_without_recipient: "हमें आपका ईमेल प्राप्त हुआ, लेकिन यह इनबॉक्स पता टिकट प्राप्त करने के लिए कॉन्फ़िगर नहीं है। कोई टिकट नहीं बनाया गया।\n\nकृपया अपनी सपोर्ट टीम से संपर्क करें और सही प्रोजेक्ट-विशिष्ट टिकट ईमेल पता माँगें।",
+                feature_locked_subject: "टिकट ईमेल सुविधा के लिए Pro आवश्यक है",
+                feature_locked_headline: "टिकट ईमेल सुविधा के लिए Pro आवश्यक है",
+                feature_locked_text: "हमें आपका ईमेल उत्तर प्राप्त हुआ, लेकिन टिकट के लिए ईमेल द्वारा उत्तर देना केवल Pro वर्कस्पेस में उपलब्ध है। आपका उत्तर टिकट में नहीं जोड़ा गया।\n\nकृपया अपनी सपोर्ट टीम से संपर्क करें और उनसे वर्कस्पेस को Pro में अपग्रेड करने के लिए कहें।",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `प्रोजेक्ट ${projectId} में नया टिकट: ${ticketTitle}`;
+                },
+                project_member_headline: "एक नया टिकट बनाया गया है",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `प्रोजेक्ट ${projectId} में एक नया टिकट बनाया गया है।\n\nटिकट: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `प्रोजेक्ट **${projectId}** में एक नया टिकट बनाया गया है।\nटिकट: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "ऐप खोलें",
         }
     }

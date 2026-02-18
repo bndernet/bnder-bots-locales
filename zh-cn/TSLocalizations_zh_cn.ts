@@ -367,6 +367,51 @@ export class TSLocalizations_zh_cn {
                 },
                 primaryActionText: "更新付款信息"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "新工单:",
+                subject_prefix_update: "工单更新:",
+                subject_prefix_sla_warning: "工单 SLA 预警:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `工单 ${statusLabel}:`;
+                },
+                body_created: "已创建新工单。",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `已发布新的公开消息。\n\n工单: ${ticketTitle}\n\n消息预览: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `工单状态已更改为 \"${statusLabel}\"。\n\n工单: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `由于在配置的时间窗口内未收到报告人的回复，该工单已被自动关闭。\n\n工单: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `该工单已达到 SLA 预警阈值。\n\n工单: ${ticketTitle}\nSLA: ${slaName}\n当前时长: ${currentAge}\n目标: ${targetAge}`;
+                },
+                action_open_ticket: "打开工单",
+                action_reply_to_ticket: "回复工单",
+                action_unsubscribe: "取消订阅此工单",
+                unknown_inbox_subject: "未知的工单收件地址",
+                unknown_inbox_headline: "未知的工单收件地址",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `我们收到了您发送到 ${recipientAddress} 的邮件，但该收件地址未配置为工单接收地址。未创建任何工单。\n\n请联系您的支持团队，并索取正确的项目专用工单邮箱地址。`;
+                },
+                unknown_inbox_text_without_recipient: "我们收到了您的邮件，但该收件地址未配置为工单接收地址。未创建任何工单。\n\n请联系您的支持团队，并索取正确的项目专用工单邮箱地址。",
+                feature_locked_subject: "工单邮件功能需要 Pro",
+                feature_locked_headline: "工单邮件功能需要 Pro",
+                feature_locked_text: "我们收到了您的邮件回复，但通过邮件回复工单仅在 Pro 工作区可用。您的回复未添加到工单中。\n\n请联系您的支持团队，并请他们将工作区升级到 Pro。",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `项目 ${projectId} 中有新工单: ${ticketTitle}`;
+                },
+                project_member_headline: "已创建新工单",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `项目 ${projectId} 中已创建新工单。\n\n工单: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `项目 **${projectId}** 中已创建新工单。\n工单: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "打开应用",
         }
     }

@@ -367,6 +367,51 @@ export class TSLocalizations_pl {
                 },
                 primaryActionText: "Zaktualizuj dane płatnicze"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Nowe zgłoszenie:",
+                subject_prefix_update: "Aktualizacja zgłoszenia:",
+                subject_prefix_sla_warning: "Ostrzeżenie SLA zgłoszenia:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Zgłoszenie ${statusLabel}:`;
+                },
+                body_created: "Utworzono nowe zgłoszenie.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Dodano nową publiczną wiadomość.\n\nZgłoszenie: ${ticketTitle}\n\nPodgląd wiadomości: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Status zgłoszenia zmienił się na \"${statusLabel}\".\n\nZgłoszenie: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Zgłoszenie zostało automatycznie zamknięte, ponieważ w skonfigurowanym oknie czasowym nie otrzymano odpowiedzi od zgłaszającego.\n\nZgłoszenie: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `To zgłoszenie osiągnęło próg ostrzeżenia SLA.\n\nZgłoszenie: ${ticketTitle}\nSLA: ${slaName}\nAktualny wiek: ${currentAge}\nCel: ${targetAge}`;
+                },
+                action_open_ticket: "Otwórz zgłoszenie",
+                action_reply_to_ticket: "Odpowiedz na zgłoszenie",
+                action_unsubscribe: "Wypisz z tego zgłoszenia",
+                unknown_inbox_subject: "Nieznany adres skrzynki zgłoszeń",
+                unknown_inbox_headline: "Nieznany adres skrzynki zgłoszeń",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Otrzymaliśmy Twoją wiadomość e-mail na adres ${recipientAddress}, ale ten adres skrzynki nie jest skonfigurowany do przyjmowania zgłoszeń. Nie utworzono żadnego zgłoszenia.\n\nSkontaktuj się ze swoim zespołem wsparcia i poproś o poprawny adres e-mail zgłoszeń dla projektu.`;
+                },
+                unknown_inbox_text_without_recipient: "Otrzymaliśmy Twoją wiadomość e-mail, ale ten adres skrzynki nie jest skonfigurowany do przyjmowania zgłoszeń. Nie utworzono żadnego zgłoszenia.\n\nSkontaktuj się ze swoim zespołem wsparcia i poproś o poprawny adres e-mail zgłoszeń dla projektu.",
+                feature_locked_subject: "Funkcja e-mail zgłoszeń wymaga Pro",
+                feature_locked_headline: "Funkcja e-mail zgłoszeń wymaga Pro",
+                feature_locked_text: "Otrzymaliśmy Twoją odpowiedź e-mail, ale odpowiadanie na zgłoszenia przez e-mail jest dostępne tylko w workspace'ach Pro. Twoja odpowiedź nie została dodana do zgłoszenia.\n\nSkontaktuj się ze swoim zespołem wsparcia i poproś o uaktualnienie workspace do Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Nowe zgłoszenie w projekcie ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Utworzono nowe zgłoszenie",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Utworzono nowe zgłoszenie w projekcie ${projectId}.\n\nZgłoszenie: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Utworzono nowe zgłoszenie w projekcie **${projectId}**.\nZgłoszenie: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Otwórz aplikację",
         }
     }

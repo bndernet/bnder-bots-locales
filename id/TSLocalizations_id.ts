@@ -367,6 +367,51 @@ export class TSLocalizations_id {
                 },
                 primaryActionText: "Perbarui Info Pembayaran"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Tiket Baru:",
+                subject_prefix_update: "Pembaruan Tiket:",
+                subject_prefix_sla_warning: "Peringatan SLA Tiket:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Tiket ${statusLabel}:`;
+                },
+                body_created: "Tiket baru telah dibuat.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Pesan publik baru telah diposting.\n\nTiket: ${ticketTitle}\n\nPratinjau pesan: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Status tiket berubah menjadi \"${statusLabel}\".\n\nTiket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Tiket ditutup otomatis karena tidak ada respons dari pelapor dalam rentang waktu yang dikonfigurasi.\n\nTiket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Tiket ini telah mencapai ambang peringatan SLA.\n\nTiket: ${ticketTitle}\nSLA: ${slaName}\nUsia saat ini: ${currentAge}\nTarget: ${targetAge}`;
+                },
+                action_open_ticket: "Buka Tiket",
+                action_reply_to_ticket: "Balas Tiket",
+                action_unsubscribe: "Berhenti berlangganan tiket ini",
+                unknown_inbox_subject: "Alamat kotak masuk tiket tidak dikenal",
+                unknown_inbox_headline: "Alamat kotak masuk tiket tidak dikenal",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Kami menerima email Anda ke ${recipientAddress}, tetapi alamat kotak masuk ini tidak dikonfigurasi untuk penerimaan tiket. Tidak ada tiket yang dibuat.\n\nSilakan hubungi tim dukungan Anda dan minta alamat email tiket khusus proyek yang benar.`;
+                },
+                unknown_inbox_text_without_recipient: "Kami menerima email Anda, tetapi alamat kotak masuk ini tidak dikonfigurasi untuk penerimaan tiket. Tidak ada tiket yang dibuat.\n\nSilakan hubungi tim dukungan Anda dan minta alamat email tiket khusus proyek yang benar.",
+                feature_locked_subject: "Fitur email tiket memerlukan Pro",
+                feature_locked_headline: "Fitur email tiket memerlukan Pro",
+                feature_locked_text: "Kami menerima balasan email Anda, tetapi balas tiket melalui email hanya tersedia di workspace Pro. Balasan Anda tidak ditambahkan ke tiket.\n\nSilakan hubungi tim dukungan Anda dan minta mereka untuk meng-upgrade workspace ke Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Tiket baru di proyek ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Tiket baru telah dibuat",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Tiket baru telah dibuat di proyek ${projectId}.\n\nTiket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Tiket baru telah dibuat di proyek **${projectId}**.\nTiket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Buka App",
         }
     }

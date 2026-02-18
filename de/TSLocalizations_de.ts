@@ -367,6 +367,51 @@ export class TSLocalizations_de {
                 },
                 primaryActionText: "Zahlungsinformationen aktualisieren"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Neues Ticket:",
+                subject_prefix_update: "Ticket-Update:",
+                subject_prefix_sla_warning: "Ticket-SLA-Warnung:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "Ein neues Ticket wurde erstellt.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Eine neue öffentliche Nachricht wurde gepostet.\n\nTicket: ${ticketTitle}\n\nNachrichtenvorschau: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Der Ticketstatus wurde zu \"${statusLabel}\" geändert.\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Das Ticket wurde automatisch geschlossen, weil innerhalb des konfigurierten Zeitfensters keine Antwort des Meldenden eingegangen ist.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Dieses Ticket hat den SLA-Warnschwellenwert erreicht.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nAktuelles Alter: ${currentAge}\nZiel: ${targetAge}`;
+                },
+                action_open_ticket: "Ticket öffnen",
+                action_reply_to_ticket: "Auf Ticket antworten",
+                action_unsubscribe: "Dieses Ticket abbestellen",
+                unknown_inbox_subject: "Unbekannte Ticket-Postfachadresse",
+                unknown_inbox_headline: "Unbekannte Ticket-Postfachadresse",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Wir haben Ihre E-Mail an ${recipientAddress} erhalten, aber diese Postfachadresse ist nicht für die Ticketannahme konfiguriert. Es wurde kein Ticket erstellt.\n\nBitte wenden Sie sich an Ihr Support-Team und fragen Sie nach der korrekten projektspezifischen Ticket-E-Mail-Adresse.`;
+                },
+                unknown_inbox_text_without_recipient: "Wir haben Ihre E-Mail erhalten, aber diese Postfachadresse ist nicht für die Ticketannahme konfiguriert. Es wurde kein Ticket erstellt.\n\nBitte wenden Sie sich an Ihr Support-Team und fragen Sie nach der korrekten projektspezifischen Ticket-E-Mail-Adresse.",
+                feature_locked_subject: "Ticket-E-Mail-Funktion erfordert Pro",
+                feature_locked_headline: "Ticket-E-Mail-Funktion erfordert Pro",
+                feature_locked_text: "Wir haben Ihre E-Mail-Antwort erhalten, aber Antworten per E-Mail für Tickets sind nur in Pro-Workspaces verfügbar. Ihre Antwort wurde dem Ticket nicht hinzugefügt.\n\nBitte wenden Sie sich an Ihr Support-Team und bitten Sie um ein Upgrade des Workspaces auf Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Neues Ticket im Projekt ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Ein neues Ticket wurde erstellt",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Ein neues Ticket wurde im Projekt ${projectId} erstellt.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Ein neues Ticket wurde im Projekt **${projectId}** erstellt.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "App öffnen",
         }
     }

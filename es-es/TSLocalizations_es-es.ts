@@ -367,6 +367,51 @@ export class TSLocalizations_es_es {
                 },
                 primaryActionText: "Actualizar información de pago"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Nuevo ticket:",
+                subject_prefix_update: "Actualización del ticket:",
+                subject_prefix_sla_warning: "Advertencia de SLA del ticket:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "Se creó un nuevo ticket.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Se publicó un nuevo mensaje público.\n\nTicket: ${ticketTitle}\n\nVista previa del mensaje: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `El estado del ticket cambió a \"${statusLabel}\".\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `El ticket se cerró automáticamente porque no se recibió una respuesta del solicitante dentro del intervalo de tiempo configurado.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Este ticket alcanzó su umbral de advertencia de SLA.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nAntigüedad actual: ${currentAge}\nObjetivo: ${targetAge}`;
+                },
+                action_open_ticket: "Abrir ticket",
+                action_reply_to_ticket: "Responder al ticket",
+                action_unsubscribe: "Darse de baja de este ticket",
+                unknown_inbox_subject: "Dirección de bandeja de entrada de tickets desconocida",
+                unknown_inbox_headline: "Dirección de bandeja de entrada de tickets desconocida",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Recibimos tu correo a ${recipientAddress}, pero esta dirección no está configurada para la recepción de tickets. No se creó ningún ticket.\n\nPonte en contacto con tu equipo de soporte y solicita la dirección de correo de tickets correcta para el proyecto.`;
+                },
+                unknown_inbox_text_without_recipient: "Recibimos tu correo, pero esta dirección no está configurada para la recepción de tickets. No se creó ningún ticket.\n\nPonte en contacto con tu equipo de soporte y solicita la dirección de correo de tickets correcta para el proyecto.",
+                feature_locked_subject: "La función de correo de tickets requiere Pro",
+                feature_locked_headline: "La función de correo de tickets requiere Pro",
+                feature_locked_text: "Recibimos tu respuesta por correo, pero responder por correo en tickets solo está disponible en espacios de trabajo Pro. Tu respuesta no se agregó al ticket.\n\nPonte en contacto con tu equipo de soporte y pídeles que actualicen el espacio de trabajo a Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Nuevo ticket en el proyecto ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Se creó un nuevo ticket",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Se creó un nuevo ticket en el proyecto ${projectId}.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Se creó un nuevo ticket en el proyecto **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Abrir aplicación",
         }
     }

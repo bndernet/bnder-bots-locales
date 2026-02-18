@@ -367,6 +367,51 @@ export class TSLocalizations_fr {
                 },
                 primaryActionText: "Mettre à jour les informations de paiement"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Nouveau ticket :",
+                subject_prefix_update: "Mise à jour du ticket :",
+                subject_prefix_sla_warning: "Alerte SLA du ticket :",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel} :`;
+                },
+                body_created: "Un nouveau ticket a été créé.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Un nouveau message public a été publié.\n\nTicket : ${ticketTitle}\n\nAperçu du message : ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Le statut du ticket est passé à \"${statusLabel}\".\n\nTicket : ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Le ticket a été fermé automatiquement, car aucune réponse du demandeur n’a été reçue dans le délai configuré.\n\nTicket : ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Ce ticket a atteint son seuil d’alerte SLA.\n\nTicket : ${ticketTitle}\nSLA : ${slaName}\nAncienneté actuelle : ${currentAge}\nObjectif : ${targetAge}`;
+                },
+                action_open_ticket: "Ouvrir le ticket",
+                action_reply_to_ticket: "Répondre au ticket",
+                action_unsubscribe: "Se désabonner de ce ticket",
+                unknown_inbox_subject: "Adresse de boîte ticket inconnue",
+                unknown_inbox_headline: "Adresse de boîte ticket inconnue",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `Nous avons reçu votre e-mail envoyé à ${recipientAddress}, mais cette adresse n’est pas configurée pour la réception de tickets. Aucun ticket n’a été créé.\n\nVeuillez contacter votre équipe de support et demander la bonne adresse e-mail de ticket propre au projet.`;
+                },
+                unknown_inbox_text_without_recipient: "Nous avons reçu votre e-mail, mais cette adresse n’est pas configurée pour la réception de tickets. Aucun ticket n’a été créé.\n\nVeuillez contacter votre équipe de support et demander la bonne adresse e-mail de ticket propre au projet.",
+                feature_locked_subject: "La fonctionnalité e-mail de ticket nécessite Pro",
+                feature_locked_headline: "La fonctionnalité e-mail de ticket nécessite Pro",
+                feature_locked_text: "Nous avons reçu votre réponse par e-mail, mais la réponse par e-mail pour les tickets est disponible uniquement sur les espaces de travail Pro. Votre réponse n’a pas été ajoutée au ticket.\n\nVeuillez contacter votre équipe de support et leur demander de passer l’espace de travail en Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Nouveau ticket dans le projet ${projectId} : ${ticketTitle}`;
+                },
+                project_member_headline: "Un nouveau ticket a été créé",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Un nouveau ticket a été créé dans le projet ${projectId}.\n\nTicket : ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Un nouveau ticket a été créé dans le projet **${projectId}**.\nTicket : [${ticketTitle}](<${ticketUrl}>)\nID : \`${ticketId}\``;
+                },
+            },
+
             open_app: "Ouvrir l'application",
         }
     }

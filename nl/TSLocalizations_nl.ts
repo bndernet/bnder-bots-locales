@@ -367,6 +367,51 @@ export class TSLocalizations_nl {
                 },
                 primaryActionText: "Betalingsgegevens bijwerken"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Nieuw ticket:",
+                subject_prefix_update: "Ticketupdate:",
+                subject_prefix_sla_warning: "Ticket-SLA-waarschuwing:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Ticket ${statusLabel}:`;
+                },
+                body_created: "Er is een nieuw ticket aangemaakt.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Er is een nieuw openbaar bericht geplaatst.\n\nTicket: ${ticketTitle}\n\nVoorbeeld van bericht: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `De ticketstatus is gewijzigd naar \"${statusLabel}\".\n\nTicket: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Het ticket is automatisch gesloten omdat er binnen het geconfigureerde tijdvenster geen reactie van de melder is ontvangen.\n\nTicket: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Dit ticket heeft de SLA-waarschuwingsdrempel bereikt.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nHuidige leeftijd: ${currentAge}\nDoel: ${targetAge}`;
+                },
+                action_open_ticket: "Ticket openen",
+                action_reply_to_ticket: "Antwoorden op ticket",
+                action_unsubscribe: "Afmelden voor dit ticket",
+                unknown_inbox_subject: "Onbekend ticket-inboxadres",
+                unknown_inbox_headline: "Onbekend ticket-inboxadres",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `We hebben je e-mail naar ${recipientAddress} ontvangen, maar dit inboxadres is niet geconfigureerd voor ticketinname. Er is geen ticket aangemaakt.\n\nNeem contact op met je supportteam en vraag om het juiste projectspecifieke ticket-e-mailadres.`;
+                },
+                unknown_inbox_text_without_recipient: "We hebben je e-mail ontvangen, maar dit inboxadres is niet geconfigureerd voor ticketinname. Er is geen ticket aangemaakt.\n\nNeem contact op met je supportteam en vraag om het juiste projectspecifieke ticket-e-mailadres.",
+                feature_locked_subject: "Ticket-e-mailfunctie vereist Pro",
+                feature_locked_headline: "Ticket-e-mailfunctie vereist Pro",
+                feature_locked_text: "We hebben je e-mailantwoord ontvangen, maar antwoorden per e-mail op tickets is alleen beschikbaar in Pro-workspaces. Je antwoord is niet aan het ticket toegevoegd.\n\nNeem contact op met je supportteam en vraag om de workspace te upgraden naar Pro.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `Nieuw ticket in project ${projectId}: ${ticketTitle}`;
+                },
+                project_member_headline: "Er is een nieuw ticket aangemaakt",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `Er is een nieuw ticket aangemaakt in project ${projectId}.\n\nTicket: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `Er is een nieuw ticket aangemaakt in project **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "App openen",
         }
     }

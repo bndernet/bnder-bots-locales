@@ -367,6 +367,51 @@ export class TSLocalizations_tr {
                 },
                 primaryActionText: "Ödeme bilgilerini güncelle"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "Yeni Talep:",
+                subject_prefix_update: "Talep Güncellemesi:",
+                subject_prefix_sla_warning: "Talep SLA Uyarısı:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `Talep ${statusLabel}:`;
+                },
+                body_created: "Yeni bir talep oluşturuldu.",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `Yeni bir herkese açık mesaj gönderildi.\n\nTalep: ${ticketTitle}\n\nMesaj önizlemesi: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `Talep durumu \"${statusLabel}\" olarak değiştirildi.\n\nTalep: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `Yapılandırılmış zaman aralığında bildirenden yanıt alınmadığı için talep otomatik olarak kapatıldı.\n\nTalep: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `Bu talep SLA uyarı eşiğine ulaştı.\n\nTalep: ${ticketTitle}\nSLA: ${slaName}\nMevcut süre: ${currentAge}\nHedef: ${targetAge}`;
+                },
+                action_open_ticket: "Talebi Aç",
+                action_reply_to_ticket: "Talebe Yanıt Ver",
+                action_unsubscribe: "Bu talepten aboneliği kaldır",
+                unknown_inbox_subject: "Bilinmeyen talep gelen kutusu adresi",
+                unknown_inbox_headline: "Bilinmeyen talep gelen kutusu adresi",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `E-postanızı ${recipientAddress} adresine aldık, ancak bu gelen kutusu adresi talep alımı için yapılandırılmamış. Hiçbir talep oluşturulmadı.\n\nLütfen destek ekibinizle iletişime geçin ve doğru projeye özel talep e-posta adresini isteyin.`;
+                },
+                unknown_inbox_text_without_recipient: "E-postanızı aldık, ancak bu gelen kutusu adresi talep alımı için yapılandırılmamış. Hiçbir talep oluşturulmadı.\n\nLütfen destek ekibinizle iletişime geçin ve doğru projeye özel talep e-posta adresini isteyin.",
+                feature_locked_subject: "Talep e-posta özelliği Pro gerektirir",
+                feature_locked_headline: "Talep e-posta özelliği Pro gerektirir",
+                feature_locked_text: "E-posta yanıtınızı aldık, ancak taleplere e-posta ile yanıt verme yalnızca Pro çalışma alanlarında kullanılabilir. Yanıtınız talebe eklenmedi.\n\nLütfen destek ekibinizle iletişime geçin ve çalışma alanını Pro'ya yükseltmelerini isteyin.",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `${projectId} projesinde yeni talep: ${ticketTitle}`;
+                },
+                project_member_headline: "Yeni bir talep oluşturuldu",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `${projectId} projesinde yeni bir talep oluşturuldu.\n\nTalep: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**${projectId}** projesinde yeni bir talep oluşturuldu.\nTalep: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "Uygulamayı Aç",
         }
     }

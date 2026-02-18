@@ -367,6 +367,51 @@ export class TSLocalizations_ja {
                 },
                 primaryActionText: "支払い情報を更新"
             },
+            // Ticket notification mail and Discord localization keys.
+            ticket_notifications: {
+                subject_prefix_new: "新しいチケット:",
+                subject_prefix_update: "チケット更新:",
+                subject_prefix_sla_warning: "チケットSLA警告:",
+                subject_prefix_status(statusLabel: string): string {
+                    return `チケット ${statusLabel}:`;
+                },
+                body_created: "新しいチケットが作成されました。",
+                body_public_message(ticketTitle: string, messagePreview: string): string {
+                    return `新しい公開メッセージが投稿されました。\n\nチケット: ${ticketTitle}\n\nメッセージプレビュー: ${messagePreview}`;
+                },
+                body_status_closed(statusLabel: string, ticketTitle: string): string {
+                    return `チケットのステータスが\"${statusLabel}\"に変更されました。\n\nチケット: ${ticketTitle}`;
+                },
+                body_auto_closed(ticketTitle: string): string {
+                    return `設定された時間枠内に報告者からの返信がなかったため、チケットは自動的にクローズされました。\n\nチケット: ${ticketTitle}`;
+                },
+                body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
+                    return `このチケットはSLA警告しきい値に達しました。\n\nチケット: ${ticketTitle}\nSLA: ${slaName}\n現在の経過時間: ${currentAge}\n目標: ${targetAge}`;
+                },
+                action_open_ticket: "チケットを開く",
+                action_reply_to_ticket: "チケットに返信",
+                action_unsubscribe: "このチケットの購読を解除",
+                unknown_inbox_subject: "不明なチケット受信アドレス",
+                unknown_inbox_headline: "不明なチケット受信アドレス",
+                unknown_inbox_text_with_recipient(recipientAddress: string): string {
+                    return `${recipientAddress} 宛のメールを受信しましたが、この受信アドレスはチケット受付用に設定されていません。チケットは作成されませんでした。\n\nサポートチームに連絡し、正しいプロジェクト専用チケットメールアドレスを確認してください。`;
+                },
+                unknown_inbox_text_without_recipient: "メールを受信しましたが、この受信アドレスはチケット受付用に設定されていません。チケットは作成されませんでした。\n\nサポートチームに連絡し、正しいプロジェクト専用チケットメールアドレスを確認してください。",
+                feature_locked_subject: "チケットメール機能はProが必要です",
+                feature_locked_headline: "チケットメール機能はProが必要です",
+                feature_locked_text: "メール返信を受信しましたが、チケットのメール返信機能はProワークスペースでのみ利用できます。返信はチケットに追加されませんでした。\n\nサポートチームに連絡し、ワークスペースをProにアップグレードするよう依頼してください。",
+                project_member_subject(projectId: string, ticketTitle: string): string {
+                    return `プロジェクト ${projectId} に新しいチケット: ${ticketTitle}`;
+                },
+                project_member_headline: "新しいチケットが作成されました",
+                project_member_text(projectId: string, ticketTitle: string): string {
+                    return `プロジェクト ${projectId} に新しいチケットが作成されました。\n\nチケット: ${ticketTitle}`;
+                },
+                project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `プロジェクト **${projectId}** に新しいチケットが作成されました。\nチケット: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+            },
+
             open_app: "アプリを開く",
         }
     }
