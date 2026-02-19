@@ -199,6 +199,7 @@
     "command_description": "Управлять тикетами",
     "create_subcommand_description": "Создать новый тикет",
     "mine_subcommand_description": "Показать ваши тикеты",
+    "queue_subcommand_description": "Показать тикеты, которыми вы можете управлять",
     "info_subcommand_description": "Показать детали тикета",
     "reply_subcommand_description": "Добавить публичный ответ в тикет",
     "status_subcommand_description": "Изменить статус тикета",

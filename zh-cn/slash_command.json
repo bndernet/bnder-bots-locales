@@ -199,6 +199,7 @@
     "command_description": "管理工单",
     "create_subcommand_description": "创建新工单",
     "mine_subcommand_description": "列出你的工单",
+    "queue_subcommand_description": "列出你可以管理的工单",
     "info_subcommand_description": "显示工单详情",
     "reply_subcommand_description": "为工单添加公开回复消息",
     "status_subcommand_description": "更改工单状态",

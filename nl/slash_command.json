@@ -199,6 +199,7 @@
     "command_description": "Tickets beheren",
     "create_subcommand_description": "Een nieuw ticket maken",
     "mine_subcommand_description": "Je tickets weergeven",
+    "queue_subcommand_description": "Lijst tickets die je kunt beheren",
     "info_subcommand_description": "Details van een ticket tonen",
     "reply_subcommand_description": "Een openbaar antwoordbericht aan een ticket toevoegen",
     "status_subcommand_description": "Ticketstatus wijzigen",

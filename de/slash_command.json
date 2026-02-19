@@ -199,6 +199,7 @@
     "command_description": "Tickets verwalten",
     "create_subcommand_description": "Ein neues Ticket erstellen",
     "mine_subcommand_description": "Deine Tickets auflisten",
+    "queue_subcommand_description": "Liste Tickets, die du verwalten kannst",
     "info_subcommand_description": "Details zu einem Ticket anzeigen",
     "reply_subcommand_description": "Eine öffentliche Antwort zu einem Ticket hinzufügen",
     "status_subcommand_description": "Ticketstatus ändern",

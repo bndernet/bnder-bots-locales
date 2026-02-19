@@ -199,6 +199,7 @@
     "command_description": "Gerenciar tickets",
     "create_subcommand_description": "Criar um novo ticket",
     "mine_subcommand_description": "Listar seus tickets",
+    "queue_subcommand_description": "Liste os tickets que você pode gerenciar",
     "info_subcommand_description": "Mostrar detalhes de um ticket",
     "reply_subcommand_description": "Adicionar uma mensagem de resposta pública a um ticket",
     "status_subcommand_description": "Alterar status do ticket",

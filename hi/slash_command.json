@@ -199,6 +199,7 @@
     "command_description": "टिकट प्रबंधित करें",
     "create_subcommand_description": "नया टिकट बनाएं",
     "mine_subcommand_description": "अपने टिकटों की सूची दिखाएं",
+    "queue_subcommand_description": "उन टिकटों की सूची दिखाएँ जिन्हें आप प्रबंधित कर सकते हैं",
     "info_subcommand_description": "किसी टिकट का विवरण दिखाएं",
     "reply_subcommand_description": "किसी टिकट में सार्वजनिक उत्तर संदेश जोड़ें",
     "status_subcommand_description": "टिकट की स्थिति बदलें",

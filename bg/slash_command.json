@@ -199,6 +199,7 @@
     "command_description": "Управление на билети",
     "create_subcommand_description": "Създай нов билет",
     "mine_subcommand_description": "Покажи твоите билети",
+    "queue_subcommand_description": "Покажи билетите, които можеш да управляваш",
     "info_subcommand_description": "Покажи детайли за билет",
     "reply_subcommand_description": "Добави публичен отговор към билет",
     "status_subcommand_description": "Промени статуса на билета",

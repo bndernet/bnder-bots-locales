@@ -199,6 +199,7 @@
     "command_description": "チケットを管理",
     "create_subcommand_description": "新しいチケットを作成",
     "mine_subcommand_description": "自分のチケットを一覧表示",
+    "queue_subcommand_description": "管理できるチケットを一覧表示",
     "info_subcommand_description": "チケットの詳細を表示",
     "reply_subcommand_description": "チケットに公開返信メッセージを追加",
     "status_subcommand_description": "チケットのステータスを変更",

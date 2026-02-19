@@ -199,6 +199,7 @@
     "command_description": "Zarządzaj zgłoszeniami",
     "create_subcommand_description": "Utwórz nowe zgłoszenie",
     "mine_subcommand_description": "Wyświetl swoje zgłoszenia",
+    "queue_subcommand_description": "Wyświetl zgłoszenia, którymi możesz zarządzać",
     "info_subcommand_description": "Pokaż szczegóły zgłoszenia",
     "reply_subcommand_description": "Dodaj publiczną wiadomość odpowiedzi do zgłoszenia",
     "status_subcommand_description": "Zmień status zgłoszenia",

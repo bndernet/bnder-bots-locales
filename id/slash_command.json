@@ -199,6 +199,7 @@
     "command_description": "Kelola tiket",
     "create_subcommand_description": "Buat tiket baru",
     "mine_subcommand_description": "Daftarkan tiket Anda",
+    "queue_subcommand_description": "Daftarkan tiket yang dapat Anda kelola",
     "info_subcommand_description": "Tampilkan detail tiket",
     "reply_subcommand_description": "Tambahkan pesan balasan publik ke tiket",
     "status_subcommand_description": "Ubah status tiket",

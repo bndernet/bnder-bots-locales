@@ -199,6 +199,7 @@
     "command_description": "Talepleri yönet",
     "create_subcommand_description": "Yeni bir talep oluştur",
     "mine_subcommand_description": "Taleplerini listele",
+    "queue_subcommand_description": "Yönetebileceğiniz talepleri listele",
     "info_subcommand_description": "Bir talebin detaylarını göster",
     "reply_subcommand_description": "Bir talebe herkese açık yanıt mesajı ekle",
     "status_subcommand_description": "Talep durumunu değiştir",
