@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "アプリで管理"
+  },
+  "ticket": {
+    "create_title_required": "チケットのタイトルを入力してください。",
+    "project_not_found": "プロジェクト **{{project}}** が見つかりませんでした。既存のプロジェクト名を使用するか、選択中のプロジェクトを使うためにプロジェクトオプションを空のままにしてください。",
+    "created": "チケット **{{id}}** がプロジェクト **{{project}}** にタイトル **{{title}}** で作成されました。\nアプリで開く: <{{url}}>",
+    "mine_empty": "まだチケットがありません。`/ticket create` を使って作成してください。",
+    "mine_header": "# 最近のあなたのチケット ({{count}})\n{{rows}}",
+    "not_found": "チケットが見つかりませんでした。チケットIDを確認してもう一度お試しください。",
+    "not_allowed": "自分が作成したチケットのみアクセスできます。`MANAGE_TICKETS` を持つエージェントは追加のチケットにアクセスできます。",
+    "manage_not_allowed": "このチケットプロジェクトに対する `MANAGE_TICKETS` 権限がありません。",
+    "info": "{{details}}\n\nアプリで開く: <{{url}}>",
+    "reply_message_required": "返信メッセージを入力してください。",
+    "reply_added": "チケット **{{id}}** に返信を追加しました。現在のステータス: **{{status}}**。",
+    "status_required": "ステータスIDを入力してください。",
+    "invalid_status": "ステータス **{{status}}** はこのワークスペースに設定されていません。",
+    "status_updated": "チケット **{{id}}** のステータスが **{{old_status}}** から **{{new_status}}** に変更されました。",
+    "assignee_required": "担当ユーザーを指定してください。",
+    "assignee_already_set": "チケット **{{id}}** はすでに <@{{assignee}}> に割り当てられています。",
+    "assignee_updated": "チケット **{{id}}** は <@{{assignee}}> に割り当てられました。",
+    "note_required": "メモメッセージを入力してください。",
+    "note_added": "チケット **{{id}}** に内部メモを追加しました。"
   }
 }

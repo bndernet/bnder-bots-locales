@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Kelola pemesanan",
     "link_subcommand_description": "Dapatkan tautan untuk mengelola pemesanan Anda"
+  },
+  "ticket": {
+    "command_description": "Kelola tiket",
+    "create_subcommand_description": "Buat tiket baru",
+    "mine_subcommand_description": "Daftarkan tiket Anda",
+    "info_subcommand_description": "Tampilkan detail tiket",
+    "reply_subcommand_description": "Tambahkan pesan balasan publik ke tiket",
+    "status_subcommand_description": "Ubah status tiket",
+    "assign_subcommand_description": "Tetapkan tiket ke pengguna",
+    "note_subcommand_description": "Tambahkan catatan internal ke tiket",
+    "ticket_id_option_description": "ID tiket",
+    "title_option_description": "Judul tiket",
+    "description_option_description": "Deskripsi tiket",
+    "message_option_description": "Pesan balasan atau catatan",
+    "status_option_description": "ID status tiket",
+    "assignee_option_description": "Pengguna untuk ditetapkan sebagai pemilik tiket",
+    "project_option_description": "Nama proyek untuk tiket",
+    "type_option_description": "Jenis tiket",
+    "priority_option_description": "Prioritas tiket"
   }
 }

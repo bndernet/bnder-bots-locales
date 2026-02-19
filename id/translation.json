@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Kelola di aplikasi"
+  },
+  "ticket": {
+    "create_title_required": "Harap berikan judul tiket.",
+    "project_not_found": "Proyek **{{project}}** tidak ditemukan. Gunakan nama proyek yang sudah ada atau biarkan opsi proyek kosong untuk menggunakan proyek yang Anda pilih.",
+    "created": "Tiket **{{id}}** dibuat di proyek **{{project}}** dengan judul **{{title}}**.\nBuka di aplikasi: <{{url}}>",
+    "mine_empty": "Anda belum memiliki tiket. Gunakan `/ticket create` untuk membuatnya.",
+    "mine_header": "# Tiket terbaru Anda ({{count}})\n{{rows}}",
+    "not_found": "Tiket tidak ditemukan. Periksa ID tiket dan coba lagi.",
+    "not_allowed": "Anda hanya dapat mengakses tiket yang Anda buat. Agen dengan `MANAGE_TICKETS` dapat mengakses tiket tambahan.",
+    "manage_not_allowed": "Anda tidak memiliki izin `MANAGE_TICKETS` untuk proyek tiket ini.",
+    "info": "{{details}}\n\nBuka di aplikasi: <{{url}}>",
+    "reply_message_required": "Harap berikan pesan balasan.",
+    "reply_added": "Balasan ditambahkan ke tiket **{{id}}**. Status saat ini: **{{status}}**.",
+    "status_required": "Harap berikan ID status.",
+    "invalid_status": "Status **{{status}}** tidak dikonfigurasi untuk workspace ini.",
+    "status_updated": "Status tiket **{{id}}** diubah dari **{{old_status}}** menjadi **{{new_status}}**.",
+    "assignee_required": "Harap berikan pengguna assignee.",
+    "assignee_already_set": "Tiket **{{id}}** sudah ditetapkan ke <@{{assignee}}>.",
+    "assignee_updated": "Tiket **{{id}}** sekarang ditetapkan ke <@{{assignee}}>.",
+    "note_required": "Harap berikan pesan catatan.",
+    "note_added": "Catatan internal ditambahkan ke tiket **{{id}}**."
   }
 }

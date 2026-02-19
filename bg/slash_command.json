@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Управление на резервации",
     "link_subcommand_description": "Получете линк за управление на вашите резервации"
+  },
+  "ticket": {
+    "command_description": "Управление на билети",
+    "create_subcommand_description": "Създай нов билет",
+    "mine_subcommand_description": "Покажи твоите билети",
+    "info_subcommand_description": "Покажи детайли за билет",
+    "reply_subcommand_description": "Добави публичен отговор към билет",
+    "status_subcommand_description": "Промени статуса на билета",
+    "assign_subcommand_description": "Назначи билет на потребител",
+    "note_subcommand_description": "Добави вътрешна бележка към билет",
+    "ticket_id_option_description": "ID на билета",
+    "title_option_description": "Заглавие на билета",
+    "description_option_description": "Описание на билета",
+    "message_option_description": "Съобщение за отговор или бележка",
+    "status_option_description": "ID на статуса на билета",
+    "assignee_option_description": "Потребител за назначаване като собственик на билета",
+    "project_option_description": "Име на проект за билета",
+    "type_option_description": "Тип билет",
+    "priority_option_description": "Приоритет на билета"
   }
 }

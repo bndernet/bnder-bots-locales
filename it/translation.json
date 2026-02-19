@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Gestisci nell’app"
+  },
+  "ticket": {
+    "create_title_required": "Fornisci un titolo del ticket.",
+    "project_not_found": "Il progetto **{{project}}** non è stato trovato. Usa un nome progetto esistente oppure lascia vuota l'opzione progetto per usare il progetto selezionato.",
+    "created": "Il ticket **{{id}}** è stato creato nel progetto **{{project}}** con titolo **{{title}}**.\nAprilo nell'app: <{{url}}>",
+    "mine_empty": "Non hai ancora ticket. Usa `/ticket create` per aprirne uno.",
+    "mine_header": "# I tuoi ticket recenti ({{count}})\n{{rows}}",
+    "not_found": "Il ticket non è stato trovato. Controlla l'ID ticket e riprova.",
+    "not_allowed": "Puoi accedere solo ai ticket che hai creato. Gli agenti con `MANAGE_TICKETS` possono accedere a ticket aggiuntivi.",
+    "manage_not_allowed": "Ti manca il permesso `MANAGE_TICKETS` per questo progetto ticket.",
+    "info": "{{details}}\n\nApri nell'app: <{{url}}>",
+    "reply_message_required": "Fornisci un messaggio di risposta.",
+    "reply_added": "Risposta aggiunta al ticket **{{id}}**. Stato corrente: **{{status}}**.",
+    "status_required": "Fornisci un ID stato.",
+    "invalid_status": "Lo stato **{{status}}** non è configurato per questo workspace.",
+    "status_updated": "Lo stato del ticket **{{id}}** è cambiato da **{{old_status}}** a **{{new_status}}**.",
+    "assignee_required": "Fornisci un utente assegnatario.",
+    "assignee_already_set": "Il ticket **{{id}}** è già assegnato a <@{{assignee}}>.",
+    "assignee_updated": "Il ticket **{{id}}** è ora assegnato a <@{{assignee}}>.",
+    "note_required": "Fornisci un messaggio di nota.",
+    "note_added": "Nota interna aggiunta al ticket **{{id}}**."
   }
 }

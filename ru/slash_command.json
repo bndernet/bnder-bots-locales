@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Управление бронированиями",
     "link_subcommand_description": "Получить ссылку для управления бронированиями"
+  },
+  "ticket": {
+    "command_description": "Управлять тикетами",
+    "create_subcommand_description": "Создать новый тикет",
+    "mine_subcommand_description": "Показать ваши тикеты",
+    "info_subcommand_description": "Показать детали тикета",
+    "reply_subcommand_description": "Добавить публичный ответ в тикет",
+    "status_subcommand_description": "Изменить статус тикета",
+    "assign_subcommand_description": "Назначить тикет пользователю",
+    "note_subcommand_description": "Добавить внутреннюю заметку в тикет",
+    "ticket_id_option_description": "ID тикета",
+    "title_option_description": "Заголовок тикета",
+    "description_option_description": "Описание тикета",
+    "message_option_description": "Сообщение ответа или заметки",
+    "status_option_description": "ID статуса тикета",
+    "assignee_option_description": "Пользователь для назначения владельцем тикета",
+    "project_option_description": "Название проекта для тикета",
+    "type_option_description": "Тип тикета",
+    "priority_option_description": "Приоритет тикета"
   }
 }

@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Beheren in de app"
+  },
+  "ticket": {
+    "create_title_required": "Geef een tickettitel op.",
+    "project_not_found": "Het project **{{project}}** kon niet worden gevonden. Gebruik een bestaande projectnaam of laat de projectoptie leeg om je geselecteerde project te gebruiken.",
+    "created": "Ticket **{{id}}** is aangemaakt in project **{{project}}** met titel **{{title}}**.\nOpen in de app: <{{url}}>",
+    "mine_empty": "Je hebt nog geen tickets. Gebruik `/ticket create` om er een te openen.",
+    "mine_header": "# Je recente tickets ({{count}})\n{{rows}}",
+    "not_found": "Het ticket kon niet worden gevonden. Controleer de ticket-id en probeer het opnieuw.",
+    "not_allowed": "Je hebt alleen toegang tot tickets die je zelf hebt aangemaakt. Agents met `MANAGE_TICKETS` hebben toegang tot extra tickets.",
+    "manage_not_allowed": "Je mist de machtiging `MANAGE_TICKETS` voor dit ticketproject.",
+    "info": "{{details}}\n\nOpen in de app: <{{url}}>",
+    "reply_message_required": "Geef een antwoordbericht op.",
+    "reply_added": "Antwoord toegevoegd aan ticket **{{id}}**. Huidige status: **{{status}}**.",
+    "status_required": "Geef een status-id op.",
+    "invalid_status": "De status **{{status}}** is niet geconfigureerd voor deze workspace.",
+    "status_updated": "Status van ticket **{{id}}** is gewijzigd van **{{old_status}}** naar **{{new_status}}**.",
+    "assignee_required": "Geef een toegewezen gebruiker op.",
+    "assignee_already_set": "Ticket **{{id}}** is al toegewezen aan <@{{assignee}}>.",
+    "assignee_updated": "Ticket **{{id}}** is nu toegewezen aan <@{{assignee}}>.",
+    "note_required": "Geef een notitiebericht op.",
+    "note_added": "Interne notitie toegevoegd aan ticket **{{id}}**."
   }
 }

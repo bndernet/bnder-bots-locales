@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Zarządzaj w aplikacji"
+  },
+  "ticket": {
+    "create_title_required": "Podaj tytuł zgłoszenia.",
+    "project_not_found": "Nie znaleziono projektu **{{project}}**. Użyj istniejącej nazwy projektu lub pozostaw opcję projektu pustą, aby użyć wybranego projektu.",
+    "created": "Zgłoszenie **{{id}}** zostało utworzone w projekcie **{{project}}** z tytułem **{{title}}**.\nOtwórz w aplikacji: <{{url}}>",
+    "mine_empty": "Nie masz jeszcze zgłoszeń. Użyj `/ticket create`, aby utworzyć nowe.",
+    "mine_header": "# Twoje ostatnie zgłoszenia ({{count}})\n{{rows}}",
+    "not_found": "Nie znaleziono zgłoszenia. Sprawdź ID zgłoszenia i spróbuj ponownie.",
+    "not_allowed": "Możesz uzyskać dostęp tylko do zgłoszeń, które utworzyłeś(-aś). Agenci z `MANAGE_TICKETS` mogą uzyskać dostęp do dodatkowych zgłoszeń.",
+    "manage_not_allowed": "Brakuje Ci uprawnienia `MANAGE_TICKETS` dla tego projektu zgłoszeń.",
+    "info": "{{details}}\n\nOtwórz w aplikacji: <{{url}}>",
+    "reply_message_required": "Podaj wiadomość odpowiedzi.",
+    "reply_added": "Odpowiedź dodana do zgłoszenia **{{id}}**. Aktualny status: **{{status}}**.",
+    "status_required": "Podaj ID statusu.",
+    "invalid_status": "Status **{{status}}** nie jest skonfigurowany dla tego workspace.",
+    "status_updated": "Status zgłoszenia **{{id}}** zmieniono z **{{old_status}}** na **{{new_status}}**.",
+    "assignee_required": "Podaj użytkownika do przypisania.",
+    "assignee_already_set": "Zgłoszenie **{{id}}** jest już przypisane do <@{{assignee}}>.",
+    "assignee_updated": "Zgłoszenie **{{id}}** jest teraz przypisane do <@{{assignee}}>.",
+    "note_required": "Podaj treść notatki.",
+    "note_added": "Dodano wewnętrzną notatkę do zgłoszenia **{{id}}**."
   }
 }

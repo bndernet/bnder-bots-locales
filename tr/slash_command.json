@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Rezervasyonları yönet",
     "link_subcommand_description": "Rezervasyonlarınızı yönetmek için bağlantıyı alın"
+  },
+  "ticket": {
+    "command_description": "Talepleri yönet",
+    "create_subcommand_description": "Yeni bir talep oluştur",
+    "mine_subcommand_description": "Taleplerini listele",
+    "info_subcommand_description": "Bir talebin detaylarını göster",
+    "reply_subcommand_description": "Bir talebe herkese açık yanıt mesajı ekle",
+    "status_subcommand_description": "Talep durumunu değiştir",
+    "assign_subcommand_description": "Bir talebi kullanıcıya ata",
+    "note_subcommand_description": "Bir talebe dahili not ekle",
+    "ticket_id_option_description": "Talep ID'si",
+    "title_option_description": "Talep başlığı",
+    "description_option_description": "Talep açıklaması",
+    "message_option_description": "Yanıt veya not mesajı",
+    "status_option_description": "Talep durum ID'si",
+    "assignee_option_description": "Talep sahibi olarak atanacak kullanıcı",
+    "project_option_description": "Talep için proje adı",
+    "type_option_description": "Talep türü",
+    "priority_option_description": "Talep önceliği"
   }
 }

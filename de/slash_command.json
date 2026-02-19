@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Buchungen verwalten",
     "link_subcommand_description": "Link zur Verwaltung deiner Buchungen abrufen"
+  },
+  "ticket": {
+    "command_description": "Tickets verwalten",
+    "create_subcommand_description": "Ein neues Ticket erstellen",
+    "mine_subcommand_description": "Deine Tickets auflisten",
+    "info_subcommand_description": "Details zu einem Ticket anzeigen",
+    "reply_subcommand_description": "Eine öffentliche Antwort zu einem Ticket hinzufügen",
+    "status_subcommand_description": "Ticketstatus ändern",
+    "assign_subcommand_description": "Ein Ticket einem Benutzer zuweisen",
+    "note_subcommand_description": "Eine interne Notiz zu einem Ticket hinzufügen",
+    "ticket_id_option_description": "ID des Tickets",
+    "title_option_description": "Tickettitel",
+    "description_option_description": "Ticketbeschreibung",
+    "message_option_description": "Antwort- oder Notiznachricht",
+    "status_option_description": "Ticket-Status-ID",
+    "assignee_option_description": "Benutzer, der als Ticket-Verantwortlicher zugewiesen wird",
+    "project_option_description": "Projektname für das Ticket",
+    "type_option_description": "Tickettyp",
+    "priority_option_description": "Ticketpriorität"
   }
 }

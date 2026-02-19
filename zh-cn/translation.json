@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "在应用中管理"
+  },
+  "ticket": {
+    "create_title_required": "请提供工单标题。",
+    "project_not_found": "找不到项目 **{{project}}**。请使用现有项目名称，或将项目选项留空以使用你当前选中的项目。",
+    "created": "工单 **{{id}}** 已在项目 **{{project}}** 中创建，标题为 **{{title}}**。\n在应用中打开: <{{url}}>",
+    "mine_empty": "你还没有工单。使用 `/ticket create` 来创建一个。",
+    "mine_header": "# 你最近的工单 ({{count}})\n{{rows}}",
+    "not_found": "找不到该工单。请检查工单ID后重试。",
+    "not_allowed": "你只能访问自己创建的工单。具有 `MANAGE_TICKETS` 的代理可以访问更多工单。",
+    "manage_not_allowed": "你缺少此工单项目的 `MANAGE_TICKETS` 权限。",
+    "info": "{{details}}\n\n在应用中打开: <{{url}}>",
+    "reply_message_required": "请提供回复消息。",
+    "reply_added": "已向工单 **{{id}}** 添加回复。当前状态: **{{status}}**。",
+    "status_required": "请提供状态ID。",
+    "invalid_status": "状态 **{{status}}** 未在此工作区中配置。",
+    "status_updated": "工单 **{{id}}** 状态已从 **{{old_status}}** 更改为 **{{new_status}}**。",
+    "assignee_required": "请提供分配用户。",
+    "assignee_already_set": "工单 **{{id}}** 已分配给 <@{{assignee}}>。",
+    "assignee_updated": "工单 **{{id}}** 现已分配给 <@{{assignee}}>。",
+    "note_required": "请提供备注消息。",
+    "note_added": "已向工单 **{{id}}** 添加内部备注。"
   }
 }

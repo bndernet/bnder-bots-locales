@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Manage in app"
+  },
+  "ticket": {
+    "create_title_required": "Please provide a ticket title.",
+    "project_not_found": "The project **{{project}}** could not be found. Use an existing project name or leave the project option empty to use your selected project.",
+    "created": "Ticket **{{id}}** was created in project **{{project}}** with title **{{title}}**.\nOpen it in app: <{{url}}>",
+    "mine_empty": "You have no tickets yet. Use `/ticket create` to open one.",
+    "mine_header": "# Your recent tickets ({{count}})\n{{rows}}",
+    "not_found": "The ticket could not be found. Check the ticket id and try again.",
+    "not_allowed": "You can only access tickets you created. Agents with `MANAGE_TICKETS` can access additional tickets.",
+    "manage_not_allowed": "You are missing `MANAGE_TICKETS` permission for this ticket project.",
+    "info": "{{details}}\n\nOpen in app: <{{url}}>",
+    "reply_message_required": "Please provide a reply message.",
+    "reply_added": "Reply added to ticket **{{id}}**. Current status: **{{status}}**.",
+    "status_required": "Please provide a status id.",
+    "invalid_status": "The status **{{status}}** is not configured for this workspace.",
+    "status_updated": "Ticket **{{id}}** status changed from **{{old_status}}** to **{{new_status}}**.",
+    "assignee_required": "Please provide an assignee user.",
+    "assignee_already_set": "Ticket **{{id}}** is already assigned to <@{{assignee}}>.",
+    "assignee_updated": "Ticket **{{id}}** is now assigned to <@{{assignee}}>.",
+    "note_required": "Please provide a note message.",
+    "note_added": "Internal note added to ticket **{{id}}**."
   }
 }

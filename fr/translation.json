@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Gérer dans l’application"
+  },
+  "ticket": {
+    "create_title_required": "Veuillez fournir un titre de ticket.",
+    "project_not_found": "Le projet **{{project}}** est introuvable. Utilisez un nom de projet existant ou laissez l'option projet vide pour utiliser votre projet sélectionné.",
+    "created": "Le ticket **{{id}}** a été créé dans le projet **{{project}}** avec le titre **{{title}}**.\nOuvrir dans l'application : <{{url}}>",
+    "mine_empty": "Vous n'avez pas encore de tickets. Utilisez `/ticket create` pour en ouvrir un.",
+    "mine_header": "# Vos tickets récents ({{count}})\n{{rows}}",
+    "not_found": "Le ticket est introuvable. Vérifiez l'ID du ticket et réessayez.",
+    "not_allowed": "Vous ne pouvez accéder qu'aux tickets que vous avez créés. Les agents avec `MANAGE_TICKETS` peuvent accéder à des tickets supplémentaires.",
+    "manage_not_allowed": "Il vous manque la permission `MANAGE_TICKETS` pour ce projet de tickets.",
+    "info": "{{details}}\n\nOuvrir dans l'application : <{{url}}>",
+    "reply_message_required": "Veuillez fournir un message de réponse.",
+    "reply_added": "Réponse ajoutée au ticket **{{id}}**. Statut actuel : **{{status}}**.",
+    "status_required": "Veuillez fournir un ID de statut.",
+    "invalid_status": "Le statut **{{status}}** n'est pas configuré pour cet espace de travail.",
+    "status_updated": "Le statut du ticket **{{id}}** est passé de **{{old_status}}** à **{{new_status}}**.",
+    "assignee_required": "Veuillez fournir un utilisateur assigné.",
+    "assignee_already_set": "Le ticket **{{id}}** est déjà assigné à <@{{assignee}}>.",
+    "assignee_updated": "Le ticket **{{id}}** est maintenant assigné à <@{{assignee}}>.",
+    "note_required": "Veuillez fournir un message de note.",
+    "note_added": "Note interne ajoutée au ticket **{{id}}**."
   }
 }

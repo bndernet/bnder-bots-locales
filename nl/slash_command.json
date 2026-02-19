@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Boekingen beheren",
     "link_subcommand_description": "Ontvang de link om je boekingen te beheren"
+  },
+  "ticket": {
+    "command_description": "Tickets beheren",
+    "create_subcommand_description": "Een nieuw ticket maken",
+    "mine_subcommand_description": "Je tickets weergeven",
+    "info_subcommand_description": "Details van een ticket tonen",
+    "reply_subcommand_description": "Een openbaar antwoordbericht aan een ticket toevoegen",
+    "status_subcommand_description": "Ticketstatus wijzigen",
+    "assign_subcommand_description": "Een ticket aan een gebruiker toewijzen",
+    "note_subcommand_description": "Een interne notitie aan een ticket toevoegen",
+    "ticket_id_option_description": "ID van het ticket",
+    "title_option_description": "Tickettitel",
+    "description_option_description": "Ticketbeschrijving",
+    "message_option_description": "Antwoord- of notitiebericht",
+    "status_option_description": "Ticketstatus-id",
+    "assignee_option_description": "Gebruiker om als ticketeigenaar toe te wijzen",
+    "project_option_description": "Projectnaam voor het ticket",
+    "type_option_description": "Tickettype",
+    "priority_option_description": "Ticketprioriteit"
   }
 }

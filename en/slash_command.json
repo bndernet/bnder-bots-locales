@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Manage bookings",
     "link_subcommand_description": "Get the link to manage your booking link"
+  },
+  "ticket": {
+    "command_description": "Manage tickets",
+    "create_subcommand_description": "Create a new ticket",
+    "mine_subcommand_description": "List your tickets",
+    "info_subcommand_description": "Show details for a ticket",
+    "reply_subcommand_description": "Add a public reply message to a ticket",
+    "status_subcommand_description": "Change ticket status",
+    "assign_subcommand_description": "Assign a ticket to a user",
+    "note_subcommand_description": "Add an internal note to a ticket",
+    "ticket_id_option_description": "ID of the ticket",
+    "title_option_description": "Ticket title",
+    "description_option_description": "Ticket description",
+    "message_option_description": "Reply or note message",
+    "status_option_description": "Ticket status id",
+    "assignee_option_description": "User to assign as ticket owner",
+    "project_option_description": "Project name for the ticket",
+    "type_option_description": "Ticket type",
+    "priority_option_description": "Ticket priority"
   }
 }

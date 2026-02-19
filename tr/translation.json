@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Uygulamada yönet"
+  },
+  "ticket": {
+    "create_title_required": "Lütfen bir talep başlığı girin.",
+    "project_not_found": "**{{project}}** projesi bulunamadı. Mevcut bir proje adı kullanın veya seçili projenizi kullanmak için proje seçeneğini boş bırakın.",
+    "created": "Talep **{{id}}**, **{{project}}** projesinde **{{title}}** başlığıyla oluşturuldu.\nUygulamada aç: <{{url}}>",
+    "mine_empty": "Henüz bir talebiniz yok. Bir tane açmak için `/ticket create` kullanın.",
+    "mine_header": "# Son talepleriniz ({{count}})\n{{rows}}",
+    "not_found": "Talep bulunamadı. Talep ID'sini kontrol edip tekrar deneyin.",
+    "not_allowed": "Yalnızca sizin oluşturduğunuz taleplere erişebilirsiniz. `MANAGE_TICKETS` iznine sahip ajanlar ek taleplere erişebilir.",
+    "manage_not_allowed": "Bu talep projesi için `MANAGE_TICKETS` izniniz yok.",
+    "info": "{{details}}\n\nUygulamada aç: <{{url}}>",
+    "reply_message_required": "Lütfen bir yanıt mesajı girin.",
+    "reply_added": "Talep **{{id}}** için yanıt eklendi. Güncel durum: **{{status}}**.",
+    "status_required": "Lütfen bir durum ID'si girin.",
+    "invalid_status": "**{{status}}** durumu bu çalışma alanı için yapılandırılmamış.",
+    "status_updated": "Talep **{{id}}** durumu **{{old_status}}** değerinden **{{new_status}}** değerine değiştirildi.",
+    "assignee_required": "Lütfen bir atanacak kullanıcı belirtin.",
+    "assignee_already_set": "Talep **{{id}}** zaten <@{{assignee}}> kullanıcısına atanmış.",
+    "assignee_updated": "Talep **{{id}}** artık <@{{assignee}}> kullanıcısına atanmış.",
+    "note_required": "Lütfen bir not mesajı girin.",
+    "note_added": "Talep **{{id}}** için dahili not eklendi."
   }
 }

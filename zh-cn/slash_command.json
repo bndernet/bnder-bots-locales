@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "管理预订",
     "link_subcommand_description": "获取用于管理预订的链接"
+  },
+  "ticket": {
+    "command_description": "管理工单",
+    "create_subcommand_description": "创建新工单",
+    "mine_subcommand_description": "列出你的工单",
+    "info_subcommand_description": "显示工单详情",
+    "reply_subcommand_description": "为工单添加公开回复消息",
+    "status_subcommand_description": "更改工单状态",
+    "assign_subcommand_description": "将工单分配给用户",
+    "note_subcommand_description": "为工单添加内部备注",
+    "ticket_id_option_description": "工单ID",
+    "title_option_description": "工单标题",
+    "description_option_description": "工单描述",
+    "message_option_description": "回复或备注消息",
+    "status_option_description": "工单状态ID",
+    "assignee_option_description": "要分配为工单负责人的用户",
+    "project_option_description": "工单所属项目名称",
+    "type_option_description": "工单类型",
+    "priority_option_description": "工单优先级"
   }
 }

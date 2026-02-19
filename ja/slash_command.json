@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "予約を管理",
     "link_subcommand_description": "予約を管理するためのリンクを取得"
+  },
+  "ticket": {
+    "command_description": "チケットを管理",
+    "create_subcommand_description": "新しいチケットを作成",
+    "mine_subcommand_description": "自分のチケットを一覧表示",
+    "info_subcommand_description": "チケットの詳細を表示",
+    "reply_subcommand_description": "チケットに公開返信メッセージを追加",
+    "status_subcommand_description": "チケットのステータスを変更",
+    "assign_subcommand_description": "チケットをユーザーに割り当て",
+    "note_subcommand_description": "チケットに内部メモを追加",
+    "ticket_id_option_description": "チケットのID",
+    "title_option_description": "チケットのタイトル",
+    "description_option_description": "チケットの説明",
+    "message_option_description": "返信またはメモのメッセージ",
+    "status_option_description": "チケットステータスID",
+    "assignee_option_description": "チケット担当者として割り当てるユーザー",
+    "project_option_description": "チケットのプロジェクト名",
+    "type_option_description": "チケット種別",
+    "priority_option_description": "チケット優先度"
   }
 }

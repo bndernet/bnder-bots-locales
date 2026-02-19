@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "In der App verwalten"
+  },
+  "ticket": {
+    "create_title_required": "Bitte gib einen Tickettitel an.",
+    "project_not_found": "Das Projekt **{{project}}** wurde nicht gefunden. Verwende einen vorhandenen Projektnamen oder lasse die Projektoption leer, um dein ausgewähltes Projekt zu verwenden.",
+    "created": "Ticket **{{id}}** wurde im Projekt **{{project}}** mit dem Titel **{{title}}** erstellt.\nIn der App öffnen: <{{url}}>",
+    "mine_empty": "Du hast noch keine Tickets. Verwende `/ticket create`, um eines zu erstellen.",
+    "mine_header": "# Deine letzten Tickets ({{count}})\n{{rows}}",
+    "not_found": "Das Ticket wurde nicht gefunden. Überprüfe die Ticket-ID und versuche es erneut.",
+    "not_allowed": "Du kannst nur auf Tickets zugreifen, die du erstellt hast. Agenten mit `MANAGE_TICKETS` können auf weitere Tickets zugreifen.",
+    "manage_not_allowed": "Dir fehlt die Berechtigung `MANAGE_TICKETS` für dieses Ticket-Projekt.",
+    "info": "{{details}}\n\nIn der App öffnen: <{{url}}>",
+    "reply_message_required": "Bitte gib eine Antwortnachricht an.",
+    "reply_added": "Antwort zu Ticket **{{id}}** hinzugefügt. Aktueller Status: **{{status}}**.",
+    "status_required": "Bitte gib eine Status-ID an.",
+    "invalid_status": "Der Status **{{status}}** ist für diesen Workspace nicht konfiguriert.",
+    "status_updated": "Der Status von Ticket **{{id}}** wurde von **{{old_status}}** auf **{{new_status}}** geändert.",
+    "assignee_required": "Bitte gib einen zuständigen Benutzer an.",
+    "assignee_already_set": "Ticket **{{id}}** ist bereits <@{{assignee}}> zugewiesen.",
+    "assignee_updated": "Ticket **{{id}}** ist jetzt <@{{assignee}}> zugewiesen.",
+    "note_required": "Bitte gib eine Notiznachricht an.",
+    "note_added": "Interne Notiz zu Ticket **{{id}}** hinzugefügt."
   }
 }

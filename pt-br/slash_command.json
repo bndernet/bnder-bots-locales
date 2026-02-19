@@ -194,5 +194,24 @@
   "booking": {
     "command_description": "Gerenciar reservas",
     "link_subcommand_description": "Obter o link para gerenciar suas reservas"
+  },
+  "ticket": {
+    "command_description": "Gerenciar tickets",
+    "create_subcommand_description": "Criar um novo ticket",
+    "mine_subcommand_description": "Listar seus tickets",
+    "info_subcommand_description": "Mostrar detalhes de um ticket",
+    "reply_subcommand_description": "Adicionar uma mensagem de resposta pública a um ticket",
+    "status_subcommand_description": "Alterar status do ticket",
+    "assign_subcommand_description": "Atribuir um ticket a um usuário",
+    "note_subcommand_description": "Adicionar uma nota interna a um ticket",
+    "ticket_id_option_description": "ID do ticket",
+    "title_option_description": "Título do ticket",
+    "description_option_description": "Descrição do ticket",
+    "message_option_description": "Mensagem de resposta ou nota",
+    "status_option_description": "ID do status do ticket",
+    "assignee_option_description": "Usuário para atribuir como responsável pelo ticket",
+    "project_option_description": "Nome do projeto para o ticket",
+    "type_option_description": "Tipo de ticket",
+    "priority_option_description": "Prioridade do ticket"
   }
 }

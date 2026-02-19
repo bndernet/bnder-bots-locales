@@ -573,5 +573,26 @@
   },
   "booking": {
     "links_link_app": "Gerenciar no app"
+  },
+  "ticket": {
+    "create_title_required": "Por favor, informe um título para o ticket.",
+    "project_not_found": "O projeto **{{project}}** não foi encontrado. Use um nome de projeto existente ou deixe a opção de projeto vazia para usar o seu projeto selecionado.",
+    "created": "O ticket **{{id}}** foi criado no projeto **{{project}}** com o título **{{title}}**.\nAbra no app: <{{url}}>",
+    "mine_empty": "Você ainda não tem tickets. Use `/ticket create` para abrir um.",
+    "mine_header": "# Seus tickets recentes ({{count}})\n{{rows}}",
+    "not_found": "O ticket não pôde ser encontrado. Verifique o ID do ticket e tente novamente.",
+    "not_allowed": "Você só pode acessar tickets que você criou. Agentes com `MANAGE_TICKETS` podem acessar tickets adicionais.",
+    "manage_not_allowed": "Você não tem a permissão `MANAGE_TICKETS` para este projeto de tickets.",
+    "info": "{{details}}\n\nAbrir no app: <{{url}}>",
+    "reply_message_required": "Por favor, informe uma mensagem de resposta.",
+    "reply_added": "Resposta adicionada ao ticket **{{id}}**. Status atual: **{{status}}**.",
+    "status_required": "Por favor, informe um ID de status.",
+    "invalid_status": "O status **{{status}}** não está configurado para este workspace.",
+    "status_updated": "O status do ticket **{{id}}** mudou de **{{old_status}}** para **{{new_status}}**.",
+    "assignee_required": "Por favor, informe um usuário responsável.",
+    "assignee_already_set": "O ticket **{{id}}** já está atribuído a <@{{assignee}}>.",
+    "assignee_updated": "O ticket **{{id}}** agora está atribuído a <@{{assignee}}>.",
+    "note_required": "Por favor, informe uma mensagem de nota.",
+    "note_added": "Nota interna adicionada ao ticket **{{id}}**."
   }
 }
