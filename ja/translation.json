@@ -53,7 +53,7 @@
     "project_name_default_cant_renamed": "プロジェクト **default** はデフォルトプロジェクトのため名前を変更できません。",
     "switch_project_button_label": "プロジェクトに切り替える",
     "project_name_too_long": "プロジェクト名が長すぎます。{{max}} 文字以内に短縮してください。",
-    "project_limit_reached": "急速に成長しています！\uD83D\uDE80\nプロジェクトの上限である {{max}} プロジェクトに達しましたが、ペースを落とす必要はありません。今すぐ [Pro シートにアップグレード](<https://bnder.net/p/{{guildId}}>) して、無制限のプロジェクトを作成し、独占機能をアンロックしましょう！Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
+    "project_limit_reached": "急速に成長しています！🚀\nプロジェクトの上限である {{max}} プロジェクトに達しましたが、ペースを落とす必要はありません。今すぐ [Pro シートにアップグレード](<https://bnder.net/p/{{guildId}}>) して、無制限のプロジェクトを作成し、独占機能をアンロックしましょう！Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "project_delete_could_not_send_message": "プロジェクト **{{project_name}}** とそのすべてのタスクは削除済みとしてマークされ、{{days}} 日後に削除されます。ボットが Discord の権限不足のため、確認メッセージを送信できませんでした。",
     "project_delete_immediate_could_not_send_message": "プロジェクト **{{project_name}}** とそのすべてのタスクが削除されました。ボットが Discord の権限不足のため、確認メッセージを送信できませんでした。",
     "logging_action_create": "プロジェクトが作成されました",
@@ -237,7 +237,7 @@
     "comment_modal_placeholder": "コメントを入力してください",
     "comment_modal_label": "コメント",
     "followup_reminder_stopped": "タスク **{{id}}** のフォローアップリマインダーが停止されました。",
-    "max_assignees_reached_buy_pro": "もっと人手が必要ですか? \uD83D\uDC65\nこのタスクにはすでに最大数の **{{max}} 人の担当者** がいます。[プロ シートを追加](<https://bnder.net/p/{{guildId}}>)して、チーム メンバーをさらに割り当て、コラボレーションを強化しましょう。今すぐアップグレードして、チームを前進させましょう。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
+    "max_assignees_reached_buy_pro": "もっと人手が必要ですか? 👥\nこのタスクにはすでに最大数の **{{max}} 人の担当者** がいます。[プロ シートを追加](<https://bnder.net/p/{{guildId}}>)して、チーム メンバーをさらに割り当て、コラボレーションを強化しましょう。今すぐアップグレードして、チームを前進させましょう。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "daily_repeat_not_allowed": "タスクの繰り返し間隔を7日未満に設定できるのは、プロシートのユーザーのみです。この機能をご利用いただくには、[プロシートにアップグレード](<https://bnder.net/p/{{guildId}}>)してください。プロシートの詳細については、https://bnder.net/pricingをご覧ください。",
     "todos_not_allowed": "Todos で生産性を向上しましょう! ✅\nTodos は、タスクを実行可能なステップに分割するのに役立つ Pro 機能です。今すぐ Pro シートにアップグレードして、この強力なツールをアンロックしましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "attachments_storage_limit_reached": "このサーバーのストレージ上限に達しました。ストレージ上限を増やすには、[プロ シートにアップグレード](<https://bnder.net/p/{{guildId}}>)してください。プロ シートの詳細については、https://bnder.net/pricing をご覧ください。",
@@ -279,7 +279,7 @@
     "not_found": "マイルストーン **{{name}}** が見つかりませんでした。「/milestone list」を使用してすべてのマイルストーンを表示してください。",
     "deleted_immediate_ephemeral_message": "マイルストーン **{{name}}** が削除されました。",
     "already_exists": "名前が **{{name}}** のマイルストーンはすでに存在します。",
-    "max_milestones_reached": "勢いを維持してください! \uD83D\uDE80\nワークスペースのマイルストーンの上限である **{{max}} 個** に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>)して、より多くのマイルストーンを追跡し、プロジェクトを前進させましょう。今すぐアップグレードして、計画どおりに進めましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
+    "max_milestones_reached": "勢いを維持してください! 🚀\nワークスペースのマイルストーンの上限である **{{max}} 個** に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>)して、より多くのマイルストーンを追跡し、プロジェクトを前進させましょう。今すぐアップグレードして、計画どおりに進めましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "due_date_invalid": "締め切り日が無効です。フォーマット **{{format}}** (例: {{example_date}}) を使用するか、「1 week 3 days」のような相対日付を使用してください。日付フォーマットは「/settings dateformat」コマンドで設定できます。",
     "milestone_created": "マイルストーン **{{name}}** がプロジェクト {{project}} 内に作成されました。",
     "delete_confirm": "マイルストーン **{{name}}** を削除してもよろしいですか？",
@@ -294,7 +294,7 @@
     "selected": "ドキュメント **{{id}}** がトピック **{{topic}}** に移動されました。",
     "name_too_long": "トピック名が長すぎます。{{max}}文字以内に短縮してください。",
     "already_exists": "名前が **{{name}}** のトピックはすでに存在します。",
-    "too_many_topics": "制限なく整理整頓しましょう！\uD83D\uDCC2\nドキュメントを整理するための **{{max}} トピック** の制限に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>) して、より多くのトピックを作成し、すべてを自分の好みに合わせて構造化してください。今すぐアップグレードして、より多くのスペースをロック解除しましょう！",
+    "too_many_topics": "制限なく整理整頓しましょう！📂\nドキュメントを整理するための **{{max}} トピック** の制限に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>) して、より多くのトピックを作成し、すべてを自分の好みに合わせて構造化してください。今すぐアップグレードして、より多くのスペースをロック解除しましょう！",
     "created": "トピック **{{name}}** がプロジェクト {{project}} 内に作成されました。",
     "renamed": "トピック **{{old_name}}** が **{{new_name}}** に名前を変更されました。",
     "list_in_project": "# プロジェクト **{{project}}** のトピック ({{count}} 件):",
@@ -374,7 +374,7 @@
   },
   "label": {
     "name_too_long": "ラベル名が長すぎます。最大文字数 {{max}} に短縮してください。",
-    "max_amount_of_labels_reached": "ラベルのスペースが不足しています。\uD83C\uDFF7\uFE0F\nワークスペースのラベル総数上限の **{{max}}** に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>) して、より多くのラベルのロックを解除し、ワークフローを制限なく整理してください。今すぐアップグレードして、ワークスペースを拡張してください。Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
+    "max_amount_of_labels_reached": "ラベルのスペースが不足しています。🏷️\nワークスペースのラベル総数上限の **{{max}}** に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>) して、より多くのラベルのロックを解除し、ワークフローを制限なく整理してください。今すぐアップグレードして、ワークスペースを拡張してください。Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "already_exists": "ラベル名 **{{name}}** はすでに存在します。",
     "color_not_supported": "カラー **{{color}}** はサポートされていません。以下のいずれかを使用してください: {{colors}}",
     "created": "ラベル **{{name}}** が作成されました。コマンド「/label add」を使用して、[タスク](<https://bnder.net/task>) と [ドキュメント](<https://bnder.net/knowledge>) に追加できるようになりました。",
@@ -510,7 +510,7 @@
     "invite_creator_error": "自分が作成者ではないイベントにユーザーを招待することはできません。すべてのイベントを一覧表示するには「/event list」を使用するか、「/event create」で新しいイベントを作成してください。",
     "invite_self_creator_error": "自分が作成したイベントに自分自身を招待することはできません。イベントに招待する別のユーザーを選択してください。",
     "invite_already_invited": "ユーザー <@{{user}}> はすでにイベント **{{id}}** に招待されています。",
-    "invite_limit_reached": "会議が満員です! \uD83D\uDC65\nこの会議の参加者数が **{{max}} 人** の上限に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>)して、さらに多くのチーム メンバーを招待し、全員が最新情報を把握できるようにします。今すぐアップグレードして、コラボレーションを拡大しましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
+    "invite_limit_reached": "会議が満員です! 👥\nこの会議の参加者数が **{{max}} 人** の上限に達しました。[Pro シートを追加](<https://bnder.net/p/{{guildId}}>)して、さらに多くのチーム メンバーを招待し、全員が最新情報を把握できるようにします。今すぐアップグレードして、コラボレーションを拡大しましょう! Pro シートの詳細については、https://bnder.net/pricing をご覧ください。",
     "invite_success": "ユーザー <@{{user}}> がイベント **{{id}}** に招待されました。",
     "already_accepted": "あなたはすでにイベント **{{id}}** への招待を受け入れました。",
     "already_denied": "あなたはすでにイベント **{{id}}** への招待を拒否しました。",
@@ -593,6 +593,8 @@
     "assignee_already_set": "チケット **{{id}}** はすでに <@{{assignee}}> に割り当てられています。",
     "assignee_updated": "チケット **{{id}}** は <@{{assignee}}> に割り当てられました。",
     "note_required": "メモメッセージを入力してください。",
-    "note_added": "チケット **{{id}}** に内部メモを追加しました。"
+    "note_added": "チケット **{{id}}** に内部メモを追加しました。",
+    "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
+    "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   }
 }

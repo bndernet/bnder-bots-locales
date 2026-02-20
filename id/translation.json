@@ -593,6 +593,8 @@
     "assignee_already_set": "Tiket **{{id}}** sudah ditetapkan ke <@{{assignee}}>.",
     "assignee_updated": "Tiket **{{id}}** sekarang ditetapkan ke <@{{assignee}}>.",
     "note_required": "Harap berikan pesan catatan.",
-    "note_added": "Catatan internal ditambahkan ke tiket **{{id}}**."
+    "note_added": "Catatan internal ditambahkan ke tiket **{{id}}**.",
+    "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
+    "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   }
 }

@@ -213,6 +213,7 @@
     "assignee_option_description": "User to assign as ticket owner",
     "project_option_description": "Project name for the ticket",
     "type_option_description": "Ticket type",
-    "priority_option_description": "Ticket priority"
+    "priority_option_description": "Ticket priority",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

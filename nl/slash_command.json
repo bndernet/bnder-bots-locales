@@ -213,6 +213,7 @@
     "assignee_option_description": "Gebruiker om als ticketeigenaar toe te wijzen",
     "project_option_description": "Projectnaam voor het ticket",
     "type_option_description": "Tickettype",
-    "priority_option_description": "Ticketprioriteit"
+    "priority_option_description": "Ticketprioriteit",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

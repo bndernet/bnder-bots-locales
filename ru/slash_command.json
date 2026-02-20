@@ -213,6 +213,7 @@
     "assignee_option_description": "Пользователь для назначения владельцем тикета",
     "project_option_description": "Название проекта для тикета",
     "type_option_description": "Тип тикета",
-    "priority_option_description": "Приоритет тикета"
+    "priority_option_description": "Приоритет тикета",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

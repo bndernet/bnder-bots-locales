@@ -213,6 +213,7 @@
     "assignee_option_description": "Utilisateur à assigner comme responsable du ticket",
     "project_option_description": "Nom du projet pour le ticket",
     "type_option_description": "Type de ticket",
-    "priority_option_description": "Priorité du ticket"
+    "priority_option_description": "Priorité du ticket",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

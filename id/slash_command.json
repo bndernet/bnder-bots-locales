@@ -213,6 +213,7 @@
     "assignee_option_description": "Pengguna untuk ditetapkan sebagai pemilik tiket",
     "project_option_description": "Nama proyek untuk tiket",
     "type_option_description": "Jenis tiket",
-    "priority_option_description": "Prioritas tiket"
+    "priority_option_description": "Prioritas tiket",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

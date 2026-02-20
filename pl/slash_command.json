@@ -213,6 +213,7 @@
     "assignee_option_description": "Użytkownik do przypisania jako właściciel zgłoszenia",
     "project_option_description": "Nazwa projektu dla zgłoszenia",
     "type_option_description": "Typ zgłoszenia",
-    "priority_option_description": "Priorytet zgłoszenia"
+    "priority_option_description": "Priorytet zgłoszenia",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

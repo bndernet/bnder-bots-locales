@@ -213,6 +213,7 @@
     "assignee_option_description": "Потребител за назначаване като собственик на билета",
     "project_option_description": "Име на проект за билета",
     "type_option_description": "Тип билет",
-    "priority_option_description": "Приоритет на билета"
+    "priority_option_description": "Приоритет на билета",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }

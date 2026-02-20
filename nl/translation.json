@@ -53,7 +53,7 @@
     "project_name_default_cant_renamed": "Het project **default** kan niet worden hernoemd, omdat het het standaardproject is.",
     "switch_project_button_label": "Wissel naar project",
     "project_name_too_long": "De projectnaam is te lang. Kort het in tot {{max}} tekens.",
-    "project_limit_reached": "Je groeit snel! \uD83D\uDE80\nJe hebt je projectlimiet van {{max}} projecten bereikt, maar je hoeft niet te vertragen. [Upgrade naar Pro Seats](<https://bnder.net/p/{{guildId}}>) nu om onbeperkt projecten aan te maken en exclusieve functies te ontgrendelen! Leer meer over pro seats op https://bnder.net/pricing.",
+    "project_limit_reached": "Je groeit snel! 🚀\nJe hebt je projectlimiet van {{max}} projecten bereikt, maar je hoeft niet te vertragen. [Upgrade naar Pro Seats](<https://bnder.net/p/{{guildId}}>) nu om onbeperkt projecten aan te maken en exclusieve functies te ontgrendelen! Leer meer over pro seats op https://bnder.net/pricing.",
     "project_delete_could_not_send_message": "Het project **{{project_name}}** en alle taken in het project zijn gemarkeerd als verwijderd en worden over {{days}} dagen verwijderd. Een bevestigingsbericht kon niet door de bot worden verzonden vanwege een gebrek aan Discord-permissie.",
     "project_delete_immediate_could_not_send_message": "Het project **{{project_name}}** en alle taken in het project zijn verwijderd. Een bevestigingsbericht kon niet door de bot worden verzonden vanwege een gebrek aan Discord-permissie.",
     "logging_action_create": "Project aangemaakt",
@@ -237,7 +237,7 @@
     "comment_modal_placeholder": "Voer je reactie in",
     "comment_modal_label": "Reactie",
     "followup_reminder_stopped": "De follow-up herinnering voor taak **{{id}}** is gestopt.",
-    "max_assignees_reached_buy_pro": "Meer mensen nodig? \uD83D\uDC65\nDeze taak heeft al het maximum van **{{max}} toegewezen personen**. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer teamleden toe te wijzen en de samenwerking te stimuleren. Upgrade nu om je team vooruit te helpen! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
+    "max_assignees_reached_buy_pro": "Meer mensen nodig? 👥\nDeze taak heeft al het maximum van **{{max}} toegewezen personen**. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer teamleden toe te wijzen en de samenwerking te stimuleren. Upgrade nu om je team vooruit te helpen! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "Het instellen van het herhalingsinterval voor taken op minder dan 7 dagen is alleen beschikbaar voor gebruikers met een Pro-licentie. [Upgrade naar een Pro-licentie](<https://bnder.net/p/{{guildId}}>) om deze functie te gebruiken. Meer informatie over Pro-licenties vindt u op https://bnder.net/pricing.",
     "todos_not_allowed": "Verhoog de productiviteit met To-do's! ✅\nTo-do's zijn een Pro-functie die je helpt taken op te splitsen in uitvoerbare stappen. Ontgrendel deze krachtige tool door vandaag nog te upgraden naar een Pro-plek! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "Je hebt de maximale opslaglimiet voor deze server bereikt. Om de opslaglimiet te verhogen, [upgrade naar meer pro-plekken](<https://bnder.net/p/{{guildId}}>). Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
@@ -279,7 +279,7 @@
     "not_found": "De mijlpaal **{{name}}** kon niet worden gevonden. Gebruik \"/milestone list\" om alle mijlpalen weer te geven.",
     "deleted_immediate_ephemeral_message": "De mijlpaal **{{name}}** is verwijderd.",
     "already_exists": "Een mijlpaal met de naam **{{name}}** bestaat al.",
-    "max_milestones_reached": "Blijf je momentum behouden! \uD83D\uDE80\nJe hebt de limiet van **{{max}} mijlpalen** voor je werkruimte bereikt. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer mijlpalen bij te houden en je projecten vooruit te helpen. Upgrade nu om op koers te blijven! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
+    "max_milestones_reached": "Blijf je momentum behouden! 🚀\nJe hebt de limiet van **{{max}} mijlpalen** voor je werkruimte bereikt. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer mijlpalen bij te houden en je projecten vooruit te helpen. Upgrade nu om op koers te blijven! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
     "due_date_invalid": "De einddatum is ongeldig. Gebruik het formaat **{{format}}** (bijv. {{example_date}}), of gebruik een relatieve datum zoals **1 week 3 dagen**. Je kunt het datumformaat configureren met het commando `/settings dateformat`.",
     "milestone_created": "De mijlpaal **{{name}}** is aangemaakt in het project {{project}}.",
     "delete_confirm": "Weet je zeker dat je de mijlpaal **{{name}}** wilt verwijderen?",
@@ -294,7 +294,7 @@
     "selected": "Het document **{{id}}** is verplaatst naar het onderwerp **{{topic}}**.",
     "name_too_long": "De onderwerpsnaam is te lang. Kort deze in tot maximaal {{max}} tekens.",
     "already_exists": "Een onderwerp met de naam **{{name}}** bestaat al.",
-    "too_many_topics": "Blijf georganiseerd zonder grenzen! \uD83D\uDCC2\nJe hebt de limiet van **{{max}} onderwerpen** bereikt voor het organiseren van je documenten. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer onderwerpen te maken en alles op jouw manier te structureren. Upgrade nu om meer ruimte te ontgrendelen!",
+    "too_many_topics": "Blijf georganiseerd zonder grenzen! 📂\nJe hebt de limiet van **{{max}} onderwerpen** bereikt voor het organiseren van je documenten. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer onderwerpen te maken en alles op jouw manier te structureren. Upgrade nu om meer ruimte te ontgrendelen!",
     "created": "Het onderwerp **{{name}}** is aangemaakt in project {{project}}.",
     "renamed": "Het onderwerp **{{old_name}}** is hernoemd naar **{{new_name}}**.",
     "list_in_project": "# Onderwerpen in project **{{project}}** ({{count}} onderwerpen):",
@@ -374,7 +374,7 @@
   },
   "label": {
     "name_too_long": "De naam van het label is te lang. Kort deze in tot maximaal {{max}} tekens.",
-    "max_amount_of_labels_reached": "Je hebt niet genoeg ruimte voor labels! \uD83C\uDFF7\uFE0F\nJe hebt de limiet bereikt van **{{max}} labels** in je werkruimte. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer labels te ontgrendelen en je workflow onbeperkt georganiseerd te houden. Upgrade nu om je werkruimte uit te breiden! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
+    "max_amount_of_labels_reached": "Je hebt niet genoeg ruimte voor labels! 🏷️\nJe hebt de limiet bereikt van **{{max}} labels** in je werkruimte. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer labels te ontgrendelen en je workflow onbeperkt georganiseerd te houden. Upgrade nu om je werkruimte uit te breiden! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
     "already_exists": "Er bestaat al een label met de naam **{{name}}**.",
     "color_not_supported": "De kleur **{{color}}** wordt niet ondersteund. Gebruik een van de volgende: {{colors}}",
     "created": "Het label **{{name}}** is aangemaakt. Je kunt het nu toevoegen aan [taken](<https://bnder.net/task>) en [documenten](<https://bnder.net/knowledge>) met het commando \"/label add\".",
@@ -510,7 +510,7 @@
     "invite_creator_error": "Je kunt geen gebruikers uitnodigen voor een evenement waarvan je niet de maker bent. Gebruik \"/event list\" om alle evenementen weer te geven of maak een nieuwe aan met \"/event create\".",
     "invite_self_creator_error": "Je kunt jezelf niet uitnodigen voor een evenement waarvan je de maker bent. Kies een andere gebruiker om uit te nodigen voor het evenement.",
     "invite_already_invited": "De gebruiker <@{{user}}> is al uitgenodigd voor evenement **{{id}}**.",
-    "invite_limit_reached": "Vergadering vol! \uD83D\uDC65\nJe hebt de limiet van **{{max}} deelnemers** voor deze vergadering bereikt. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer teamleden uit te nodigen en ervoor te zorgen dat iedereen op de hoogte blijft. Upgrade nu om je samenwerking uit te breiden! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
+    "invite_limit_reached": "Vergadering vol! 👥\nJe hebt de limiet van **{{max}} deelnemers** voor deze vergadering bereikt. [Voeg een Pro-plek toe](<https://bnder.net/p/{{guildId}}>) om meer teamleden uit te nodigen en ervoor te zorgen dat iedereen op de hoogte blijft. Upgrade nu om je samenwerking uit te breiden! Meer informatie over pro-plekken vind je op https://bnder.net/pricing.",
     "invite_success": "De gebruiker <@{{user}}> is uitgenodigd voor evenement **{{id}}**.",
     "already_accepted": "Je hebt de uitnodiging voor evenement **{{id}}** al geaccepteerd.",
     "already_denied": "Je hebt de uitnodiging voor evenement **{{id}}** al geweigerd.",
@@ -593,6 +593,8 @@
     "assignee_already_set": "Ticket **{{id}}** is al toegewezen aan <@{{assignee}}>.",
     "assignee_updated": "Ticket **{{id}}** is nu toegewezen aan <@{{assignee}}>.",
     "note_required": "Geef een notitiebericht op.",
-    "note_added": "Interne notitie toegevoegd aan ticket **{{id}}**."
+    "note_added": "Interne notitie toegevoegd aan ticket **{{id}}**.",
+    "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
+    "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   }
 }

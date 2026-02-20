@@ -213,6 +213,7 @@
     "assignee_option_description": "Benutzer, der als Ticket-Verantwortlicher zugewiesen wird",
     "project_option_description": "Projektname für das Ticket",
     "type_option_description": "Tickettyp",
-    "priority_option_description": "Ticketpriorität"
+    "priority_option_description": "Ticketpriorität",
+    "commands_subcommand_description": "List available ticket commands for a project"
   }
 }
