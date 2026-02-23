@@ -410,6 +410,9 @@ export class TSLocalizations_bg {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `Създаден е нов билет в проект **${projectId}**.\nБилет: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `Вашият отговор беше успешно добавен към разговора по билета.\n\nБилет: ${ticketTitle}`;
+                },
             },
 
             open_app: "Отвори приложението",

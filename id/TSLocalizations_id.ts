@@ -410,6 +410,9 @@ export class TSLocalizations_id {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `Tiket baru telah dibuat di proyek **${projectId}**.\nTiket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `Balasan Anda berhasil ditambahkan ke percakapan tiket.\n\nTiket: ${ticketTitle}`;
+                },
             },
 
             open_app: "Buka App",

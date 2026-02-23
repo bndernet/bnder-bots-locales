@@ -410,6 +410,9 @@ export class TSLocalizations_zh_cn {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `项目 **${projectId}** 中已创建新工单。\n工单: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `您的回复已成功添加到工单会话中。\n\n工单: ${ticketTitle}`;
+                },
             },
 
             open_app: "打开应用",

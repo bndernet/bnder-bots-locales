@@ -410,6 +410,9 @@ export class TSLocalizations_ru {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `В проекте **${projectId}** создан новый тикет.\nТикет: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `Ваш ответ был успешно добавлен в переписку по тикету.\n\nТикет: ${ticketTitle}`;
+                },
             },
 
             open_app: "Открыть приложение",

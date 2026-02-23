@@ -410,6 +410,9 @@ export class TSLocalizations_hi {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `प्रोजेक्ट **${projectId}** में एक नया टिकट बनाया गया है।\nटिकट: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `आपका उत्तर टिकट वार्तालाप में सफलतापूर्वक जोड़ दिया गया।\n\nटिकट: ${ticketTitle}`;
+                },
             },
 
             open_app: "ऐप खोलें",

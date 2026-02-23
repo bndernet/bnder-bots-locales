@@ -280,6 +280,7 @@ export interface TSLocalizationKeys {
             project_member_headline: string,
             project_member_text(projectId: string, ticketTitle: string): string,
             project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string,
+            body_reply_received_confirmation(ticketTitle: string): string,
         },
         open_app: string,
     }

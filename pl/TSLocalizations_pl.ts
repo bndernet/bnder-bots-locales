@@ -410,6 +410,9 @@ export class TSLocalizations_pl {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `Utworzono nowe zgłoszenie w projekcie **${projectId}**.\nZgłoszenie: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `Twoja odpowiedź została pomyślnie dodana do rozmowy w zgłoszeniu.\n\nZgłoszenie: ${ticketTitle}`;
+                },
             },
 
             open_app: "Otwórz aplikację",

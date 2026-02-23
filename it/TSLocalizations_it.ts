@@ -410,6 +410,9 @@ export class TSLocalizations_it {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `È stato creato un nuovo ticket nel progetto **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `La tua risposta è stata aggiunta con successo alla conversazione del ticket.\n\nTicket: ${ticketTitle}`;
+                },
             },
 
             open_app: "Apri l'app",

@@ -410,6 +410,9 @@ export class TSLocalizations_ja {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `プロジェクト **${projectId}** に新しいチケットが作成されました。\nチケット: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `あなたの返信はチケットの会話に正常に追加されました。\n\nチケット: ${ticketTitle}`;
+                },
             },
 
             open_app: "アプリを開く",

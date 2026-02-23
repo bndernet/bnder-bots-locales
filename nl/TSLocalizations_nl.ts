@@ -410,6 +410,9 @@ export class TSLocalizations_nl {
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
                     return `Er is een nieuw ticket aangemaakt in project **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
+                body_reply_received_confirmation(ticketTitle: string): string {
+                    return `Je antwoord is succesvol toegevoegd aan het ticketgesprek.\n\nTicket: ${ticketTitle}`;
+                },
             },
 
             open_app: "App openen",
