@@ -580,6 +580,8 @@
     "created": "Tiket **{{id}}** dibuat di proyek **{{project}}** dengan judul **{{title}}**.\nBuka di aplikasi: <{{url}}>",
     "mine_empty": "Anda belum memiliki tiket. Gunakan `/ticket create` untuk membuatnya.",
     "mine_header": "# Tiket terbaru Anda ({{count}})\n{{rows}}",
+    "queue_header_one": "# Antrean tiket ({{count}} tiket)\n{{rows}}",
+    "queue_header_other": "# Antrean tiket ({{count}} tiket)\n{{rows}}",
     "not_found": "Tiket tidak ditemukan. Periksa ID tiket dan coba lagi.",
     "not_allowed": "Anda hanya dapat mengakses tiket yang Anda buat. Agen dengan `MANAGE_TICKETS` dapat mengakses tiket tambahan.",
     "manage_not_allowed": "Anda tidak memiliki izin `MANAGE_TICKETS` untuk proyek tiket ini.",

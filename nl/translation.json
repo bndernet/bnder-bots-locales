@@ -580,6 +580,8 @@
     "created": "Ticket **{{id}}** is aangemaakt in project **{{project}}** met titel **{{title}}**.\nOpen in de app: <{{url}}>",
     "mine_empty": "Je hebt nog geen tickets. Gebruik `/ticket create` om er een te openen.",
     "mine_header": "# Je recente tickets ({{count}})\n{{rows}}",
+    "queue_header_one": "# Ticketwachtrij ({{count}} ticket)\n{{rows}}",
+    "queue_header_other": "# Ticketwachtrij ({{count}} tickets)\n{{rows}}",
     "not_found": "Het ticket kon niet worden gevonden. Controleer de ticket-id en probeer het opnieuw.",
     "not_allowed": "Je hebt alleen toegang tot tickets die je zelf hebt aangemaakt. Agents met `MANAGE_TICKETS` hebben toegang tot extra tickets.",
     "manage_not_allowed": "Je mist de machtiging `MANAGE_TICKETS` voor dit ticketproject.",

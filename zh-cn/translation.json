@@ -580,6 +580,8 @@
     "created": "工单 **{{id}}** 已在项目 **{{project}}** 中创建，标题为 **{{title}}**。\n在应用中打开: <{{url}}>",
     "mine_empty": "你还没有工单。使用 `/ticket create` 来创建一个。",
     "mine_header": "# 你最近的工单 ({{count}})\n{{rows}}",
+    "queue_header_one": "# 工单队列（{{count}} 个工单）\n{{rows}}",
+    "queue_header_other": "# 工单队列（{{count}} 个工单）\n{{rows}}",
     "not_found": "找不到该工单。请检查工单ID后重试。",
     "not_allowed": "你只能访问自己创建的工单。具有 `MANAGE_TICKETS` 的代理可以访问更多工单。",
     "manage_not_allowed": "你缺少此工单项目的 `MANAGE_TICKETS` 权限。",

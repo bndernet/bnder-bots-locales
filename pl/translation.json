@@ -580,6 +580,8 @@
     "created": "Zgłoszenie **{{id}}** zostało utworzone w projekcie **{{project}}** z tytułem **{{title}}**.\nOtwórz w aplikacji: <{{url}}>",
     "mine_empty": "Nie masz jeszcze zgłoszeń. Użyj `/ticket create`, aby utworzyć nowe.",
     "mine_header": "# Twoje ostatnie zgłoszenia ({{count}})\n{{rows}}",
+    "queue_header_one": "# Kolejka zgłoszeń ({{count}} zgłoszenie)\n{{rows}}",
+    "queue_header_other": "# Kolejka zgłoszeń ({{count}} zgłoszenia)\n{{rows}}",
     "not_found": "Nie znaleziono zgłoszenia. Sprawdź ID zgłoszenia i spróbuj ponownie.",
     "not_allowed": "Możesz uzyskać dostęp tylko do zgłoszeń, które utworzyłeś(-aś). Agenci z `MANAGE_TICKETS` mogą uzyskać dostęp do dodatkowych zgłoszeń.",
     "manage_not_allowed": "Brakuje Ci uprawnienia `MANAGE_TICKETS` dla tego projektu zgłoszeń.",

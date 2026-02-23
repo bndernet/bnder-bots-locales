@@ -580,6 +580,8 @@
     "created": "Le ticket **{{id}}** a été créé dans le projet **{{project}}** avec le titre **{{title}}**.\nOuvrir dans l'application : <{{url}}>",
     "mine_empty": "Vous n'avez pas encore de tickets. Utilisez `/ticket create` pour en ouvrir un.",
     "mine_header": "# Vos tickets récents ({{count}})\n{{rows}}",
+    "queue_header_one": "# File de tickets ({{count}} ticket)\n{{rows}}",
+    "queue_header_other": "# File de tickets ({{count}} tickets)\n{{rows}}",
     "not_found": "Le ticket est introuvable. Vérifiez l'ID du ticket et réessayez.",
     "not_allowed": "Vous ne pouvez accéder qu'aux tickets que vous avez créés. Les agents avec `MANAGE_TICKETS` peuvent accéder à des tickets supplémentaires.",
     "manage_not_allowed": "Il vous manque la permission `MANAGE_TICKETS` pour ce projet de tickets.",

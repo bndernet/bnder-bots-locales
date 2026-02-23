@@ -580,6 +580,8 @@
     "created": "Ticket **{{id}}** wurde im Projekt **{{project}}** mit dem Titel **{{title}}** erstellt.\nIn der App öffnen: <{{url}}>",
     "mine_empty": "Du hast noch keine Tickets. Verwende `/ticket create`, um eines zu erstellen.",
     "mine_header": "# Deine letzten Tickets ({{count}})\n{{rows}}",
+    "queue_header_one": "# Ticket-Warteschlange ({{count}} Ticket)\n{{rows}}",
+    "queue_header_other": "# Ticket-Warteschlange ({{count}} Tickets)\n{{rows}}",
     "not_found": "Das Ticket wurde nicht gefunden. Überprüfe die Ticket-ID und versuche es erneut.",
     "not_allowed": "Du kannst nur auf Tickets zugreifen, die du erstellt hast. Agenten mit `MANAGE_TICKETS` können auf weitere Tickets zugreifen.",
     "manage_not_allowed": "Dir fehlt die Berechtigung `MANAGE_TICKETS` für dieses Ticket-Projekt.",
