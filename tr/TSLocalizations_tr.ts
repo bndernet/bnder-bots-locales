@@ -413,6 +413,51 @@ export class TSLocalizations_tr {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Yanıtınız talep konuşmasına başarıyla eklendi.\n\nTalep: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Size talep atandı: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `"${ticketTitle}" size atandı`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `"${ticketTitle}" talebi size atandı.`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Talep size yeniden atandı: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Talep size yeniden atandı: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Artık "${ticketTitle}" talebinden siz sorumlusunuz.`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**"${ticketTitle}" size atandı**\n"${ticketTitle}" talebi size atandı.\n\n[Talebi aç](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Talep size yeniden atandı: ${ticketTitle}**\nArtık "${ticketTitle}" talebinden siz sorumlusunuz.\n\n[Talebi aç](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Atanmış talepte bildirici güncellemesi: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `"${ticketTitle}" için bildirici güncellemesi`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Atanmış "${ticketTitle}" talebinde bildirici güncellemesi.\n${notificationText}\n\n[Talebi aç](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Talepte bahsedildiniz: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `"${ticketTitle}" içinde sizden bahsedildi`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Mesaj önizlemesi: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `"${ticketTitle}" talebinde sizden bahsedildi.\nÖnizleme: ${messagePreview}\n\n[Talebi aç](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Uygulamayı Aç",

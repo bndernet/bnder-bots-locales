@@ -413,6 +413,51 @@ export class TSLocalizations_id {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Balasan Anda berhasil ditambahkan ke percakapan tiket.\n\nTiket: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Anda ditugaskan ke tiket: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Anda ditugaskan ke "${ticketTitle}"`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Anda ditugaskan ke tiket "${ticketTitle}".`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Tiket dialihkan kepada Anda: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Tiket dialihkan kepada Anda: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Anda sekarang bertanggung jawab atas tiket "${ticketTitle}".`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Anda ditugaskan ke "${ticketTitle}"**\nAnda ditugaskan ke tiket "${ticketTitle}".\n\n[Buka tiket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Tiket dialihkan kepada Anda: ${ticketTitle}**\nAnda sekarang bertanggung jawab atas tiket "${ticketTitle}".\n\n[Buka tiket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Pembaruan pelapor pada tiket yang ditugaskan: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Pembaruan pelapor di "${ticketTitle}"`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Pembaruan pelapor pada tiket yang ditugaskan "${ticketTitle}".\n${notificationText}\n\n[Buka tiket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Penyebutan dalam tiket: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Anda disebut dalam "${ticketTitle}"`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Pratinjau pesan: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Anda disebut dalam tiket "${ticketTitle}".\nPratinjau: ${messagePreview}\n\n[Buka tiket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Buka App",

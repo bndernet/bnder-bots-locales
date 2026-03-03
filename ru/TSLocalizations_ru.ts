@@ -413,6 +413,51 @@ export class TSLocalizations_ru {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Ваш ответ был успешно добавлен в переписку по тикету.\n\nТикет: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Вам назначен тикет: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Вам назначен «${ticketTitle}»`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Вам назначен тикет «${ticketTitle}».`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Тикет переназначен вам: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Тикет переназначен вам: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Теперь вы отвечаете за тикет «${ticketTitle}».`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Вам назначен «${ticketTitle}»**\nВам назначен тикет «${ticketTitle}».\n\n[Открыть тикет](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Тикет переназначен вам: ${ticketTitle}**\nТеперь вы отвечаете за тикет «${ticketTitle}».\n\n[Открыть тикет](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Обновление от заявителя в назначенном тикете: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Обновление от заявителя в «${ticketTitle}»`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Обновление от заявителя в назначенном тикете «${ticketTitle}».\n${notificationText}\n\n[Открыть тикет](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Упоминание в тикете: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Вас упомянули в «${ticketTitle}»`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Предпросмотр сообщения: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Вас упомянули в тикете «${ticketTitle}».\nПредпросмотр: ${messagePreview}\n\n[Открыть тикет](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Открыть приложение",

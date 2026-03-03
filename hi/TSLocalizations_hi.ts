@@ -413,6 +413,51 @@ export class TSLocalizations_hi {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `आपका उत्तर टिकट वार्तालाप में सफलतापूर्वक जोड़ दिया गया।\n\nटिकट: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `आपको टिकट असाइन किया गया: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `आपको "${ticketTitle}" असाइन किया गया`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `आपको टिकट "${ticketTitle}" असाइन किया गया।`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `टिकट आपको पुनः असाइन किया गया: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `टिकट आपको पुनः असाइन किया गया: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `अब आप टिकट "${ticketTitle}" के लिए ज़िम्मेदार हैं।`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**आपको "${ticketTitle}" असाइन किया गया**\nआपको टिकट "${ticketTitle}" असाइन किया गया।\n\n[टिकट खोलें](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**टिकट आपको पुनः असाइन किया गया: ${ticketTitle}**\nअब आप टिकट "${ticketTitle}" के लिए ज़िम्मेदार हैं।\n\n[टिकट खोलें](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `असाइन किए गए टिकट में रिपोर्टर अपडेट: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `"${ticketTitle}" में रिपोर्टर अपडेट`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `असाइन किए गए टिकट "${ticketTitle}" में रिपोर्टर अपडेट।\n${notificationText}\n\n[टिकट खोलें](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `टिकट में उल्लेख: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `आपका उल्लेख "${ticketTitle}" में किया गया`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `संदेश पूर्वावलोकन: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `आपका उल्लेख टिकट "${ticketTitle}" में किया गया।\nपूर्वावलोकन: ${messagePreview}\n\n[टिकट खोलें](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "ऐप खोलें",

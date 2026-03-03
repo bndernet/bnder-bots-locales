@@ -413,6 +413,51 @@ export class TSLocalizations_it {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `La tua risposta è stata aggiunta con successo alla conversazione del ticket.\n\nTicket: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Ti è stato assegnato il ticket: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Ti è stato assegnato "${ticketTitle}"`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Ti è stato assegnato il ticket "${ticketTitle}".`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Ticket riassegnato a te: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Ticket riassegnato a te: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Ora sei responsabile del ticket "${ticketTitle}".`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ti è stato assegnato "${ticketTitle}"**\nTi è stato assegnato il ticket "${ticketTitle}".\n\n[Apri ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ticket riassegnato a te: ${ticketTitle}**\nOra sei responsabile del ticket "${ticketTitle}".\n\n[Apri ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Aggiornamento del segnalatore nel ticket assegnato: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Aggiornamento del segnalatore in "${ticketTitle}"`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Aggiornamento del segnalatore nel ticket assegnato "${ticketTitle}".\n${notificationText}\n\n[Apri ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Menzione nel ticket: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Sei stato menzionato in "${ticketTitle}"`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Anteprima messaggio: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Sei stato menzionato nel ticket "${ticketTitle}".\nAnteprima: ${messagePreview}\n\n[Apri ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Apri l'app",

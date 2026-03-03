@@ -413,6 +413,51 @@ export class TSLocalizations_ja {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `あなたの返信はチケットの会話に正常に追加されました。\n\nチケット: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `チケットに割り当てられました: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `「${ticketTitle}」に割り当てられました`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `チケット「${ticketTitle}」に割り当てられました。`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `チケットがあなたに再割り当てされました: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `チケットがあなたに再割り当てされました: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `あなたがチケット「${ticketTitle}」の担当になりました。`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**「${ticketTitle}」に割り当てられました**\nチケット「${ticketTitle}」に割り当てられました。\n\n[チケットを開く](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**チケットがあなたに再割り当てされました: ${ticketTitle}**\nあなたがチケット「${ticketTitle}」の担当になりました。\n\n[チケットを開く](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `担当チケットで報告者から更新がありました: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `「${ticketTitle}」で報告者から更新がありました`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `担当チケット「${ticketTitle}」で報告者から更新がありました。\n${notificationText}\n\n[チケットを開く](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `チケットでメンションされました: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `「${ticketTitle}」でメンションされました`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `メッセージプレビュー: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `チケット「${ticketTitle}」でメンションされました。\nプレビュー: ${messagePreview}\n\n[チケットを開く](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "アプリを開く",

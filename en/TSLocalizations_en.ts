@@ -413,6 +413,51 @@ export class TSLocalizations_en {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Your reply was successfully added to the ticket conversation.\n\nTicket: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `You were assigned to ticket: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `You were assigned to "${ticketTitle}"`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `You were assigned to ticket "${ticketTitle}".`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Ticket reassigned to you: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Ticket reassigned to you: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `You are now responsible for ticket "${ticketTitle}".`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**You were assigned to "${ticketTitle}"**\nYou were assigned to ticket "${ticketTitle}".\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ticket reassigned to you: ${ticketTitle}**\nYou are now responsible for ticket "${ticketTitle}".\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Reporter update in assigned ticket: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Reporter update in "${ticketTitle}"`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Reporter update in assigned ticket "${ticketTitle}".\n${notificationText}\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Mention in ticket: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `You were mentioned in "${ticketTitle}"`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Message preview: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `You were mentioned in ticket "${ticketTitle}".\nPreview: ${messagePreview}\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Open App",

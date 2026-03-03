@@ -413,6 +413,51 @@ export class TSLocalizations_zh_cn {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `您的回复已成功添加到工单会话中。\n\n工单: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `你被分配到了工单：${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `你被分配到了“${ticketTitle}”`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `你被分配到了工单“${ticketTitle}”。`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `工单已重新分配给你：${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `工单已重新分配给你：${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `你现在负责工单“${ticketTitle}”。`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**你被分配到了“${ticketTitle}”**\n你被分配到了工单“${ticketTitle}”。\n\n[打开工单](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**工单已重新分配给你：${ticketTitle}**\n你现在负责工单“${ticketTitle}”。\n\n[打开工单](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `已分配工单中的报告人更新：${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `“${ticketTitle}”中的报告人更新`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `已分配工单“${ticketTitle}”中的报告人更新。\n${notificationText}\n\n[打开工单](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `工单中的提及：${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `你在“${ticketTitle}”中被提及了`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `消息预览：${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `你在工单“${ticketTitle}”中被提及了。\n预览：${messagePreview}\n\n[打开工单](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "打开应用",

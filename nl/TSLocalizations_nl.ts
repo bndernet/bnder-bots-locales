@@ -413,6 +413,51 @@ export class TSLocalizations_nl {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Je antwoord is succesvol toegevoegd aan het ticketgesprek.\n\nTicket: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Je bent toegewezen aan ticket: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Je bent toegewezen aan "${ticketTitle}"`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Je bent toegewezen aan ticket "${ticketTitle}".`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Ticket opnieuw aan jou toegewezen: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Ticket opnieuw aan jou toegewezen: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Je bent nu verantwoordelijk voor ticket "${ticketTitle}".`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Je bent toegewezen aan "${ticketTitle}"**\nJe bent toegewezen aan ticket "${ticketTitle}".\n\n[Ticket openen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ticket opnieuw aan jou toegewezen: ${ticketTitle}**\nJe bent nu verantwoordelijk voor ticket "${ticketTitle}".\n\n[Ticket openen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Update van melder in toegewezen ticket: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Update van melder in "${ticketTitle}"`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Update van melder in toegewezen ticket "${ticketTitle}".\n${notificationText}\n\n[Ticket openen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Vermelding in ticket: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Je bent genoemd in "${ticketTitle}"`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Berichtvoorbeeld: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Je bent genoemd in ticket "${ticketTitle}".\nVoorbeeld: ${messagePreview}\n\n[Ticket openen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "App openen",

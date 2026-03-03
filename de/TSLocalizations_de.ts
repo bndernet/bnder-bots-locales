@@ -413,6 +413,51 @@ export class TSLocalizations_de {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Ihre Antwort wurde erfolgreich zur Ticket-Konversation hinzugefügt.\n\nTicket: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Ihnen wurde ein Ticket zugewiesen: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Ihnen wurde "${ticketTitle}" zugewiesen`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Ihnen wurde das Ticket "${ticketTitle}" zugewiesen.`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Ticket wurde Ihnen neu zugewiesen: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Ticket wurde Ihnen neu zugewiesen: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Sie sind jetzt für das Ticket "${ticketTitle}" verantwortlich.`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ihnen wurde "${ticketTitle}" zugewiesen**\nIhnen wurde das Ticket "${ticketTitle}" zugewiesen.\n\n[Ticket öffnen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Ticket wurde Ihnen neu zugewiesen: ${ticketTitle}**\nSie sind jetzt für das Ticket "${ticketTitle}" verantwortlich.\n\n[Ticket öffnen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Aktualisierung des Meldenden im zugewiesenen Ticket: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Aktualisierung des Meldenden in "${ticketTitle}"`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Aktualisierung des Meldenden im zugewiesenen Ticket "${ticketTitle}".\n${notificationText}\n\n[Ticket öffnen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Erwähnung im Ticket: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Sie wurden in "${ticketTitle}" erwähnt`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Nachrichtenvorschau: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Sie wurden im Ticket "${ticketTitle}" erwähnt.\nVorschau: ${messagePreview}\n\n[Ticket öffnen](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "App öffnen",

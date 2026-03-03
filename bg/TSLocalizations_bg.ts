@@ -413,6 +413,51 @@ export class TSLocalizations_bg {
                 body_reply_received_confirmation(ticketTitle: string): string {
                     return `Вашият отговор беше успешно добавен към разговора по билета.\n\nБилет: ${ticketTitle}`;
                 },
+                subject_assigned(ticketTitle: string): string {
+                    return `Бяхте назначен(а) за билет: ${ticketTitle}`;
+                },
+                headline_assigned(ticketTitle: string): string {
+                    return `Бяхте назначен(а) за „${ticketTitle}“`;
+                },
+                body_assigned(ticketTitle: string): string {
+                    return `Бяхте назначен(а) за билет „${ticketTitle}“.`;
+                },
+                subject_reassigned(ticketTitle: string): string {
+                    return `Билетът ви беше преназначен: ${ticketTitle}`;
+                },
+                headline_reassigned(ticketTitle: string): string {
+                    return `Билетът ви беше преназначен: ${ticketTitle}`;
+                },
+                body_reassigned(ticketTitle: string): string {
+                    return `Вече отговаряте за билет „${ticketTitle}“.`;
+                },
+                discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Бяхте назначен(а) за „${ticketTitle}“**\nБяхте назначен(а) за билет „${ticketTitle}“.\n\n[Отвори билета](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
+                    return `**Билетът ви беше преназначен: ${ticketTitle}**\nВече отговаряте за билет „${ticketTitle}“.\n\n[Отвори билета](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_assignee_reporter_update(ticketTitle: string): string {
+                    return `Актуализация от подателя в назначения билет: ${ticketTitle}`;
+                },
+                headline_assignee_reporter_update(ticketTitle: string): string {
+                    return `Актуализация от подателя в „${ticketTitle}“`;
+                },
+                discord_dm_assignee_reporter_update(ticketTitle: string, notificationText: string, ticketUrl: string, ticketId: string): string {
+                    return `Актуализация от подателя в назначения билет „${ticketTitle}“.\n${notificationText}\n\n[Отвори билета](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
+                subject_mentioned(ticketTitle: string): string {
+                    return `Споменаване в билет: ${ticketTitle}`;
+                },
+                headline_mentioned(ticketTitle: string): string {
+                    return `Бяхте споменат(а) в „${ticketTitle}“`;
+                },
+                body_mentioned(messagePreview: string): string {
+                    return `Преглед на съобщението: ${messagePreview}`;
+                },
+                discord_dm_mentioned(ticketTitle: string, messagePreview: string, ticketUrl: string, ticketId: string): string {
+                    return `Бяхте споменат(а) в билет „${ticketTitle}“.\nПреглед: ${messagePreview}\n\n[Отвори билета](<${ticketUrl}>)\nID: \`${ticketId}\``;
+                },
             },
 
             open_app: "Отвори приложението",
