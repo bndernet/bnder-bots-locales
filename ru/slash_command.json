@@ -214,6 +214,6 @@
     "project_option_description": "Название проекта для тикета",
     "type_option_description": "Тип тикета",
     "priority_option_description": "Приоритет тикета",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "Показать доступные команды тикетов для проекта"
   }
 }

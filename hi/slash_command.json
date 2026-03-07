@@ -214,6 +214,6 @@
     "project_option_description": "टिकट के लिए प्रोजेक्ट नाम",
     "type_option_description": "टिकट प्रकार",
     "priority_option_description": "टिकट प्राथमिकता",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "किसी प्रोजेक्ट के लिए उपलब्ध टिकट कमांड की सूची दिखाएँ"
   }
 }

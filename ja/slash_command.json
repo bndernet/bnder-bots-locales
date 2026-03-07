@@ -214,6 +214,6 @@
     "project_option_description": "チケットのプロジェクト名",
     "type_option_description": "チケット種別",
     "priority_option_description": "チケット優先度",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "プロジェクトで利用可能なチケットコマンドを一覧表示"
   }
 }

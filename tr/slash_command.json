@@ -214,6 +214,6 @@
     "project_option_description": "Talep için proje adı",
     "type_option_description": "Talep türü",
     "priority_option_description": "Talep önceliği",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "Bir proje için kullanılabilir talep komutlarını listele"
   }
 }

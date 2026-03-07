@@ -214,6 +214,6 @@
     "project_option_description": "工单所属项目名称",
     "type_option_description": "工单类型",
     "priority_option_description": "工单优先级",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "列出项目可用的工单命令"
   }
 }

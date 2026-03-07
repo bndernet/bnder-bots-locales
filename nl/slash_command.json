@@ -214,6 +214,6 @@
     "project_option_description": "Projectnaam voor het ticket",
     "type_option_description": "Tickettype",
     "priority_option_description": "Ticketprioriteit",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "Beschikbare ticketopdrachten voor een project weergeven"
   }
 }

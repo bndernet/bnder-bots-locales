@@ -214,6 +214,6 @@
     "project_option_description": "Име на проект за билета",
     "type_option_description": "Тип билет",
     "priority_option_description": "Приоритет на билета",
-    "commands_subcommand_description": "List available ticket commands for a project"
+    "commands_subcommand_description": "Покажи наличните команди за билети за проект"
   }
 }
