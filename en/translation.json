@@ -225,7 +225,12 @@
       "milestone_changed": "Milestone changed to {{milestone}}",
       "effort_changed": "Effort changed to {{new_effort}} hours",
       "dependency_added": "Dependency {{dependency_id}} added",
-      "dependency_removed": "Dependency {{dependency_id}} removed"
+      "dependency_removed": "Dependency {{dependency_id}} removed",
+      "relationship_added": "{{relationship_type}} relationship to {{related_task_id}} added",
+      "relationship_removed": "{{relationship_type}} relationship to {{related_task_id}} removed",
+      "relationship_type_duplicate_of": "Duplicate-of",
+      "relationship_type_related_to": "Related-task",
+      "relationship_type_unknown": "Unknown"
     },
     "description_too_long": "The description is too long. Please shorten it to {{max}} characters.",
     "comment_text_too_long": "The comment text is too long. Please shorten it to {{max}} characters.",
@@ -266,6 +271,7 @@
     "force_done": "Set to done",
     "dependencies_not_allowed": "Dependencies are only available to users in pro seats. [Please upgrade to a pro seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about pro seats at https://bnder.net/pricing.",
     "dependencies_cannot_be_same": "The task can't depend on itself. Please choose another task as a dependency.",
+    "dependencies_circular": "The dependency **{{dependencyId}}** can't be added to task **{{id}}** because it would create a circular dependency chain.",
     "dependencies_already_exists": "The task **{{id}}** is already dependent on the task **{{dependencyId}}**. Use \"/task dependencies remove\" to remove the dependency.",
     "dependencies_added": "Task **{{dependencyId}}** was added as a dependency to task **{{id}}**. When task **{{id}}** changes its state, before task **{{dependencyId}}** is completed, a warning will be shown.",
     "dependencies_not_found": "The task **{{dependencyId}}** is not a dependency of the task **{{id}}**. Use \"/task dependencies add\" to add it as a dependency.",
