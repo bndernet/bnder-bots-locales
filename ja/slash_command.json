@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "タスクに依存関係を追加または削除する",
     "dependency_action_option_description": "依存関係に対して実行するアクション",
     "dependency_id_option_description": "依存関係のID",
+    "relations_subcommand_description": "タスクに種類付きの関係を追加または削除する",
+    "relation_action_option_description": "関係に対して実行するアクション",
+    "relation_type_option_description": "編集する関係の種類",
+    "relation_task_id_option_description": "関連するタスクのID",
     "status_subcommand_description": "タスクのステータスを設定する",
     "status_option_description": "タスクに設定するステータス"
   },

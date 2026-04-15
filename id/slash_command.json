@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Tambah atau hapus ketergantungan pada tugas",
     "dependency_action_option_description": "Aksi yang akan dilakukan pada ketergantungan",
     "dependency_id_option_description": "ID ketergantungan",
+    "relations_subcommand_description": "Tambah atau hapus relasi bertipe pada tugas",
+    "relation_action_option_description": "Aksi yang akan dilakukan pada relasi",
+    "relation_type_option_description": "Jenis relasi yang akan diedit",
+    "relation_task_id_option_description": "ID tugas terkait",
     "status_subcommand_description": "Atur status tugas",
     "status_option_description": "Status yang akan ditetapkan untuk tugas"
   },

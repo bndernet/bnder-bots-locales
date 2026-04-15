@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Voeg een afhankelijkheid toe aan of verwijder een afhankelijkheid van een taak",
     "dependency_action_option_description": "Actie om uit te voeren op de afhankelijkheid",
     "dependency_id_option_description": "ID van de afhankelijkheid",
+    "relations_subcommand_description": "Voeg een getypeerde relatie toe aan of verwijder deze van een taak",
+    "relation_action_option_description": "Actie om uit te voeren op de relatie",
+    "relation_type_option_description": "Type relatie dat moet worden bewerkt",
+    "relation_task_id_option_description": "ID van de gerelateerde taak",
     "status_subcommand_description": "Stel de status van een taak in",
     "status_option_description": "Status om in te stellen voor de taak"
   },

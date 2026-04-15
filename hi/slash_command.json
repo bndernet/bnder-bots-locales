@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "किसी कार्य में निर्भरता जोड़ें या निकालें",
     "dependency_action_option_description": "निर्भरता पर की जाने वाली कार्रवाई",
     "dependency_id_option_description": "निर्भरता की आईडी",
+    "relations_subcommand_description": "किसी कार्य पर प्रकार वाली relationship जोड़ें या हटाएँ",
+    "relation_action_option_description": "relationship पर की जाने वाली कार्रवाई",
+    "relation_type_option_description": "संपादित किया जाने वाला relationship प्रकार",
+    "relation_task_id_option_description": "संबंधित कार्य की आईडी",
     "status_subcommand_description": "किसी कार्य की स्थिति सेट करें",
     "status_option_description": "कार्य के लिए सेट की जाने वाली स्थिति"
   },

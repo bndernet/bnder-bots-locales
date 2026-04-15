@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Aggiungi o rimuovi una dipendenza a un task",
     "dependency_action_option_description": "Azione da eseguire sulla dipendenza",
     "dependency_id_option_description": "ID della dipendenza",
+    "relations_subcommand_description": "Aggiungi o rimuovi una relazione tipizzata su un task",
+    "relation_action_option_description": "Azione da eseguire sulla relazione",
+    "relation_type_option_description": "Tipo di relazione da modificare",
+    "relation_task_id_option_description": "ID del task correlato",
     "status_subcommand_description": "Imposta lo stato di un task",
     "status_option_description": "Stato da impostare per il task"
   },

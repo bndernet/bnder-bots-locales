@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Bir göreve bağımlılık ekle veya kaldır",
     "dependency_action_option_description": "Bağımlılık üzerinde gerçekleştirilecek eylem",
     "dependency_id_option_description": "Bağımlılığın kimliği",
+    "relations_subcommand_description": "Bir görevde türlenmiş ilişki ekle veya kaldır",
+    "relation_action_option_description": "İlişki üzerinde gerçekleştirilecek eylem",
+    "relation_type_option_description": "Düzenlenecek ilişki türü",
+    "relation_task_id_option_description": "İlgili görevin kimliği",
     "status_subcommand_description": "Bir görevin durumunu ayarlayın",
     "status_option_description": "Görev için ayarlanacak durum"
   },

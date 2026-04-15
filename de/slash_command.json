@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Eine Abhängigkeit zu einer Aufgabe hinzufügen oder entfernen",
     "dependency_action_option_description": "Für die Abhängigkeit auszuführende Aktion",
     "dependency_id_option_description": "ID der Abhängigkeit",
+    "relations_subcommand_description": "Eine typisierte Beziehung zu einer Aufgabe hinzufügen oder entfernen",
+    "relation_action_option_description": "Für die Beziehung auszuführende Aktion",
+    "relation_type_option_description": "Zu bearbeitender Beziehungstyp",
+    "relation_task_id_option_description": "ID der verknüpften Aufgabe",
     "status_subcommand_description": "Status einer Aufgabe festlegen",
     "status_option_description": "Für die Aufgabe festzulegender Status"
   },

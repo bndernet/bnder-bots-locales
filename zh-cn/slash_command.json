@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "添加或移除任务的依赖项",
     "dependency_action_option_description": "对依赖项执行的操作",
     "dependency_id_option_description": "依赖项的 ID",
+    "relations_subcommand_description": "为任务添加或移除类型化关系",
+    "relation_action_option_description": "对关系执行的操作",
+    "relation_type_option_description": "要编辑的关系类型",
+    "relation_task_id_option_description": "相关任务的 ID",
     "status_subcommand_description": "设置任务的状态",
     "status_option_description": "任务的状态"
   },

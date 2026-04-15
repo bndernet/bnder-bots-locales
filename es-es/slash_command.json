@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Agregar o eliminar una dependencia a una tarea",
     "dependency_action_option_description": "Acción a realizar en la dependencia",
     "dependency_id_option_description": "ID de la dependencia",
+    "relations_subcommand_description": "Agregar o eliminar una relación tipada en una tarea",
+    "relation_action_option_description": "Acción a realizar en la relación",
+    "relation_type_option_description": "Tipo de relación que se debe editar",
+    "relation_task_id_option_description": "ID de la tarea relacionada",
     "status_subcommand_description": "Establecer el estado de una tarea",
     "status_option_description": "Estado que se establecerá para la tarea"
   },

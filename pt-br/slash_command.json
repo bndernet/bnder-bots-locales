@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Adicionar ou remover uma dependência de uma tarefa",
     "dependency_action_option_description": "Ação a ser executada na dependência",
     "dependency_id_option_description": "ID da dependência",
+    "relations_subcommand_description": "Adicionar ou remover um relacionamento tipado em uma tarefa",
+    "relation_action_option_description": "Ação a ser executada no relacionamento",
+    "relation_type_option_description": "Tipo de relacionamento a ser editado",
+    "relation_task_id_option_description": "ID da tarefa relacionada",
     "status_subcommand_description": "Defina o status de uma tarefa",
     "status_option_description": "Status a ser definido para a tarefa"
   },

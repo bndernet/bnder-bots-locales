@@ -111,6 +111,10 @@
     "dependency_subcommand_description": "Добавить или удалить зависимость к задаче",
     "dependency_action_option_description": "Действие, которое нужно выполнить над зависимостью",
     "dependency_id_option_description": "ID зависимости",
+    "relations_subcommand_description": "Добавить или удалить типизированную связь у задачи",
+    "relation_action_option_description": "Действие, которое нужно выполнить над связью",
+    "relation_type_option_description": "Тип связи для редактирования",
+    "relation_task_id_option_description": "ID связанной задачи",
     "status_subcommand_description": "Установить статус задачи",
     "status_option_description": "Статус для установки для задачи"
   },
