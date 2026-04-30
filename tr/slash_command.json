@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "Tercih ettiğiniz saat dilimini değiştirin",
     "event_reminders_subcommand_description": "Olay hatırlatıcılarını etkinleştir veya devre dışı bırak",
     "direct_messages_subcommand_description": "Doğrudan mesajları etkinleştir veya devre dışı bırak",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "Kişisel tatil bölgenizi yapılandır"
   },
   "settings": {
     "command_description": "Ayarları yönet",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "Botun günlük seviyesini ayarla",
     "task_cleanup_policy_option_description": "Bir görev hangi süreden sonra silinmelidir",
     "task_cleanup_policy_subcommand_description": "Bitti durumundaki görevlerin ne zaman silinmesi gerektiğini ayarla",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Workspace tatil takvimlerini yapılandır"
   },
   "permission": {
     "command_description": "Tüm izinleri atayın, kaldırın ve görüntüleyin",
@@ -196,7 +196,7 @@
     "type_option_event": "Etkinlik",
     "type_option_out_of_office": "Ofis Dışında",
     "type_option_birthday": "Doğum Günü",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "Bir tarih aralığı için tatilleri göster"
   },
   "booking": {
     "command_description": "Rezervasyonları yönet",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "Bir proje için kullanılabilir talep komutlarını listele"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "İki harfli ülke kodu, örneğin DE veya US",
+    "region_option_description": "Bölge veya eyalet kodu, örneğin DE-BE, US-CA ya da CH-ZH",
+    "types_option_description": "Virgülle ayrılan türler: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Varsa sağlayıcı okul tatillerini dahil et",
+    "from_option_description": "YYYY-MM-DD biçiminde başlangıç tarihi",
+    "to_option_description": "YYYY-MM-DD biçiminde bitiş tarihi",
+    "user_option_description": "Kişisel tatil bölgesi kullanılacak kullanıcı"
   }
 }

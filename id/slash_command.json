@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "Ubah zona waktu pilihan Anda",
     "event_reminders_subcommand_description": "Aktifkan atau nonaktifkan pengingat acara",
     "direct_messages_subcommand_description": "Aktifkan atau nonaktifkan pesan langsung",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "Atur wilayah hari libur pribadi Anda"
   },
   "settings": {
     "command_description": "Kelola pengaturan",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "Atur tingkat log bot",
     "task_cleanup_policy_option_description": "Setelah berapa lama sebuah tugas harus dihapus",
     "task_cleanup_policy_subcommand_description": "Atur kapan tugas dengan status selesai harus dihapus",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Atur kalender hari libur workspace"
   },
   "permission": {
     "command_description": "Berikan, cabut, atau lihat izin",
@@ -196,7 +196,7 @@
     "type_option_event": "Acara",
     "type_option_out_of_office": "Di Luar Kantor",
     "type_option_birthday": "Ulang Tahun",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "Tampilkan hari libur untuk rentang tanggal"
   },
   "booking": {
     "command_description": "Kelola pemesanan",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "Daftarkan perintah tiket yang tersedia untuk suatu proyek"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "Kode negara dua huruf, misalnya DE atau US",
+    "region_option_description": "Kode wilayah atau negara bagian, misalnya DE-BE, US-CA, atau CH-ZH",
+    "types_option_description": "Jenis dipisah koma: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Sertakan libur sekolah dari penyedia jika tersedia",
+    "from_option_description": "Tanggal mulai dalam format YYYY-MM-DD",
+    "to_option_description": "Tanggal akhir dalam format YYYY-MM-DD",
+    "user_option_description": "Pengguna yang wilayah pribadinya digunakan"
   }
 }

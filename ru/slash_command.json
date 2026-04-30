@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "Изменить предпочтительный часовой пояс",
     "event_reminders_subcommand_description": "Включить или отключить напоминания о событиях",
     "direct_messages_subcommand_description": "Включить или отключить прямые сообщения",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "Настроить личный регион праздников"
   },
   "settings": {
     "command_description": "Управление настройками",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "Установить уровень журнала бота",
     "task_cleanup_policy_option_description": "Через какое время задача должна быть удалена",
     "task_cleanup_policy_subcommand_description": "Установить, когда задачи в состоянии «сделано» должны быть удалены",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Настроить календари праздников workspace"
   },
   "permission": {
     "command_description": "Назначение, удаление и отображение всех разрешений",
@@ -196,7 +196,7 @@
     "type_option_event": "Событие",
     "type_option_out_of_office": "Нет на месте",
     "type_option_birthday": "День рождения",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "Показать праздники за период"
   },
   "booking": {
     "command_description": "Управление бронированиями",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "Показать доступные команды тикетов для проекта"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "Двухбуквенный код страны, например DE или US",
+    "region_option_description": "Код региона или штата, например DE-BE, US-CA или CH-ZH",
+    "types_option_description": "Типы через запятую: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Включить школьные каникулы от провайдера, если доступны",
+    "from_option_description": "Дата начала в формате YYYY-MM-DD",
+    "to_option_description": "Дата окончания в формате YYYY-MM-DD",
+    "user_option_description": "Пользователь, чей личный регион будет использован"
   }
 }

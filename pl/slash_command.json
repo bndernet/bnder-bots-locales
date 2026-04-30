@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "Zmień preferowaną strefę czasową",
     "event_reminders_subcommand_description": "Włącz lub wyłącz przypomnienia o wydarzeniach",
     "direct_messages_subcommand_description": "Włącz lub wyłącz wiadomości bezpośrednie",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "Skonfiguruj osobisty region świąt"
   },
   "settings": {
     "command_description": "Zarządzaj ustawieniami",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "Ustaw poziom logowania bota",
     "task_cleanup_policy_option_description": "Po jakim czasie zadanie powinno zostać usunięte",
     "task_cleanup_policy_subcommand_description": "Ustaw, kiedy zadania w stanie wykonanym powinny zostać usunięte",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Skonfiguruj kalendarze świąt workspace"
   },
   "permission": {
     "command_description": "Przyznaj, cofnij lub wyświetl uprawnienia",
@@ -196,7 +196,7 @@
     "type_option_event": "Zdarzenie",
     "type_option_out_of_office": "Poza biurem",
     "type_option_birthday": "Urodziny",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "Pokaż święta dla zakresu dat"
   },
   "booking": {
     "command_description": "Zarządzaj rezerwacjami",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "Wyświetl dostępne polecenia zgłoszeń dla projektu"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "Dwuliterowy kod kraju, np. DE lub US",
+    "region_option_description": "Kod regionu lub stanu, np. DE-BE, US-CA albo CH-ZH",
+    "types_option_description": "Typy po przecinku: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Uwzględnij ferie szkolne od dostawcy, jeśli dostępne",
+    "from_option_description": "Data początkowa w formacie YYYY-MM-DD",
+    "to_option_description": "Data końcowa w formacie YYYY-MM-DD",
+    "user_option_description": "Użytkownik, którego osobisty region zostanie użyty"
   }
 }

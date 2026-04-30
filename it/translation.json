@@ -513,10 +513,10 @@
       "enabled": "La politica di pulizia delle attività è stata abilitata. Le attività saranno eliminate automaticamente dopo {{days}} giorni nello stato completato senza modifiche."
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "I calendari festività sono attivi per **{{location}}**. Tipi attivi: {{types}}.",
+      "disabled": "I calendari festività sono disattivati. La località salvata è **{{location}}** e i tipi attivi sono {{types}} per la prossima attivazione.",
+      "country_required": "Inserisci un codice paese, ad esempio `DE` o `US`, quando attivi i calendari festività per la prima volta.",
+      "invalid_types": "Uno o più tipi di festività non sono validi. Usa: public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "I messaggi diretti sono abilitati nelle tue preferenze, ma disabilitati dal server. Non riceverai un messaggio diretto quando ti verrà assegnato un compito o per i promemoria degli eventi."
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "La tua regione personale per le festività è attiva per **{{location}}**.",
+      "disabled": "La tua regione personale per le festività è disattivata. La località salvata è **{{location}}** per la prossima attivazione.",
+      "country_required": "Inserisci un codice paese, ad esempio `DE` o `US`, quando attivi per la prima volta la tua regione personale per le festività."
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "Evento"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "Inserisci date nel formato `YYYY-MM-DD` e assicurati che `from` non sia dopo `to`.",
+      "disabled": "I calendari festività non sono attivi per questa selezione. Usa `/settings holidays` per il workspace o `/preferences holidays` per la tua regione personale.",
+      "empty": "Nessuna festività trovata dal **{{from}}** al **{{to}}** per **{{location}}**.",
+      "list": "# Festività dal {{from}} al {{to}} per {{location}}\n{{entries}}{{more}}\n\n-# Copertura: {{coverage}}. Fonti: {{sources}}."
     }
   },
   "setup": {

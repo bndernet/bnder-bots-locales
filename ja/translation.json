@@ -513,10 +513,10 @@
       "enabled": "タスクのクリーンアップポリシーが有効になりました。タスクは完了状態で変更なしの状態が{{days}}日間続いた後に自動的に削除されます。"
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "**{{location}}** の祝日カレンダーを有効にしました。有効な種類: {{types}}。",
+      "disabled": "祝日カレンダーを無効にしました。次回有効化用に保存された場所は **{{location}}**、有効な種類は {{types}} です。",
+      "country_required": "祝日カレンダーを初めて有効にする場合は、`DE` や `US` などの国コードを入力してください。",
+      "invalid_types": "1つ以上の祝日タイプが無効です。使用可能: public, bank, school, observance, religious, company, custom。"
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "ダイレクトメッセージはあなたの設定で有効ですが、サーバーで無効にされています。タスクへの割り当てやイベントリマインダーのダイレクトメッセージは受け取れません。"
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "**{{location}}** の個人用祝日地域を有効にしました。",
+      "disabled": "個人用祝日地域を無効にしました。次回有効化用に保存された場所は **{{location}}** です。",
+      "country_required": "個人用祝日地域を初めて有効にする場合は、`DE` や `US` などの国コードを入力してください。"
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "イベント"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "日付は `YYYY-MM-DD` 形式で入力し、`from` が `to` より後にならないようにしてください。",
+      "disabled": "この選択では祝日カレンダーが有効ではありません。Workspace は `/settings holidays`、個人地域は `/preferences holidays` を使用してください。",
+      "empty": "**{{location}}** で **{{from}}** から **{{to}}** までの祝日は見つかりませんでした。",
+      "list": "# {{location}} の {{from}} から {{to}} までの祝日\n{{entries}}{{more}}\n\n-# 対応範囲: {{coverage}}。ソース: {{sources}}。"
     }
   },
   "setup": {

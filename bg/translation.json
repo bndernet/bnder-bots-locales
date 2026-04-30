@@ -513,10 +513,10 @@
       "enabled": "Политиката за почистване на задачите е активирана. Задачите ще бъдат изтривани автоматично след {{days}} дни в състояние на свършена работа без промени."
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "Календарите с празници са включени за **{{location}}**. Активни типове: {{types}}.",
+      "disabled": "Календарите с празници са изключени. Запазеното място е **{{location}}**, а активните типове са {{types}} за следващото включване.",
+      "country_required": "Въведете код на държава, например `DE` или `US`, когато включвате календарите с празници за първи път.",
+      "invalid_types": "Един или повече типове празници са невалидни. Използвайте: public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "Директните съобщения са разрешени във вашите предпочитания, но са деактивирани от сървъра. Няма да получите директно съобщение, когато сте назначени за задача или за напомняния за събития."
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "Вашият личен регион за празници е включен за **{{location}}**.",
+      "disabled": "Вашият личен регион за празници е изключен. Запазеното място е **{{location}}** за следващото включване.",
+      "country_required": "Въведете код на държава, например `DE` или `US`, когато включвате личния си регион за празници за първи път."
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "Събитие"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "Въведете дати във формат `YYYY-MM-DD` и се уверете, че `from` не е след `to`.",
+      "disabled": "Календарите с празници не са включени за този избор. Използвайте `/settings holidays` за workspace или `/preferences holidays` за личния си регион.",
+      "empty": "Не са намерени празници от **{{from}}** до **{{to}}** за **{{location}}**.",
+      "list": "# Празници от {{from}} до {{to}} за {{location}}\n{{entries}}{{more}}\n\n-# Покритие: {{coverage}}. Източници: {{sources}}."
     }
   },
   "setup": {

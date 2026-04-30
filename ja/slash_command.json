@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "希望するタイムゾーンを変更する",
     "event_reminders_subcommand_description": "イベントリマインダーを有効または無効にする",
     "direct_messages_subcommand_description": "ダイレクトメッセージを有効または無効にする",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "個人用の祝日地域を設定"
   },
   "settings": {
     "command_description": "設定を管理する",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "ボットのログレベルを設定する",
     "task_cleanup_policy_option_description": "タスクを削除するまでの時間",
     "task_cleanup_policy_subcommand_description": "完了状態のタスクをいつ削除するかを設定する",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Workspaceの祝日カレンダーを設定"
   },
   "permission": {
     "command_description": "権限を付与、取り消し、または一覧表示する",
@@ -196,7 +196,7 @@
     "type_option_event": "イベント",
     "type_option_out_of_office": "不在",
     "type_option_birthday": "誕生日",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "日付範囲の祝日を表示"
   },
   "booking": {
     "command_description": "予約を管理",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "プロジェクトで利用可能なチケットコマンドを一覧表示"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "2文字の国コード。例: DE または US",
+    "region_option_description": "地域または州コード。例: DE-BE、US-CA、CH-ZH",
+    "types_option_description": "カンマ区切りの種類: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "利用可能ならプロバイダーの学校休暇を含める",
+    "from_option_description": "YYYY-MM-DD形式の開始日",
+    "to_option_description": "YYYY-MM-DD形式の終了日",
+    "user_option_description": "個人用祝日地域を使用するユーザー"
   }
 }

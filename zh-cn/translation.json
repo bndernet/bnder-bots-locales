@@ -513,10 +513,10 @@
       "enabled": "任务清理策略已启用。任务在完成状态下未更改超过 {{days}} 天后将自动删除。"
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "已为 **{{location}}** 启用节假日日历。启用类型：{{types}}。",
+      "disabled": "节假日日历已停用。已保存的位置是 **{{location}}**，下次启用时的类型为 {{types}}。",
+      "country_required": "首次启用节假日日历时，请提供国家/地区代码，例如 `DE` 或 `US`。",
+      "invalid_types": "一个或多个节假日类型无效。可用类型：public, bank, school, observance, religious, company, custom。"
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "您的偏好设置中已启用直接消息，但服务器禁用了此选项。您将不会在被分配任务或接收事件提醒时收到直接消息。"
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "已为 **{{location}}** 启用你的个人节假日地区。",
+      "disabled": "你的个人节假日地区已停用。已保存的位置 **{{location}}** 将用于下次启用。",
+      "country_required": "首次启用个人节假日地区时，请提供国家/地区代码，例如 `DE` 或 `US`。"
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "事件"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "请输入 `YYYY-MM-DD` 格式的日期，并确保 `from` 不晚于 `to`。",
+      "disabled": "此选择未启用节假日日历。Workspace 请使用 `/settings holidays`，个人地区请使用 `/preferences holidays`。",
+      "empty": "未找到 **{{location}}** 在 **{{from}}** 到 **{{to}}** 期间的节假日。",
+      "list": "# {{location}} 从 {{from}} 到 {{to}} 的节假日\n{{entries}}{{more}}\n\n-# 覆盖范围：{{coverage}}。来源：{{sources}}。"
     }
   },
   "setup": {

@@ -13,7 +13,7 @@
     "timezone_subcommand_description": "अपना पसंदीदा समयक्षेत्र बदलें",
     "event_reminders_subcommand_description": "ईवेंट अनुस्मारक सक्षम या अक्षम करें",
     "direct_messages_subcommand_description": "सीधे संदेश सक्षम या अक्षम करें",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "अपना निजी अवकाश क्षेत्र कॉन्फिगर करें"
   },
   "settings": {
     "command_description": "सेटिंग्स प्रबंधित करें",
@@ -40,7 +40,7 @@
     "loglevel_subcommand_description": "बॉट का लॉग स्तर सेट करें",
     "task_cleanup_policy_option_description": "किस समय के बाद किसी कार्य को हटाया जाना चाहिए",
     "task_cleanup_policy_subcommand_description": "निर्धारित करें कि पूर्ण अवस्था में कार्य कब हटाया जाना चाहिए",
-    "holidays_subcommand_description": "Configure workspace holiday calendars"
+    "holidays_subcommand_description": "Workspace अवकाश कैलेंडर कॉन्फिगर करें"
   },
   "permission": {
     "command_description": "अनुमतियाँ प्रदान करें, रद्द करें या सूचीबद्ध करें",
@@ -196,7 +196,7 @@
     "type_option_event": "ईवेंट",
     "type_option_out_of_office": "कार्यालय से बाहर",
     "type_option_birthday": "जन्मदिन",
-    "holidays_subcommand_description": "Show holidays for a date range"
+    "holidays_subcommand_description": "तारीख सीमा के लिए अवकाश दिखाएं"
   },
   "booking": {
     "command_description": "बुकिंग प्रबंधित करें",
@@ -224,12 +224,12 @@
     "commands_subcommand_description": "किसी प्रोजेक्ट के लिए उपलब्ध टिकट कमांड की सूची दिखाएँ"
   },
   "holiday": {
-    "country_option_description": "Two-letter country code, for example DE or US",
-    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
-    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
-    "include_school_option_description": "Include provider-backed school holidays when available",
-    "from_option_description": "Start date in YYYY-MM-DD format",
-    "to_option_description": "End date in YYYY-MM-DD format",
-    "user_option_description": "User whose personal holiday region should be used"
+    "country_option_description": "दो अक्षर का देश कोड, जैसे DE या US",
+    "region_option_description": "क्षेत्र या राज्य कोड, जैसे DE-BE, US-CA या CH-ZH",
+    "types_option_description": "कॉमा से अलग प्रकार: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "उपलब्ध होने पर प्रदाता की स्कूल छुट्टियां शामिल करें",
+    "from_option_description": "YYYY-MM-DD प्रारूप में शुरू तारीख",
+    "to_option_description": "YYYY-MM-DD प्रारूप में समाप्ति तारीख",
+    "user_option_description": "जिस उपयोगकर्ता का निजी अवकाश क्षेत्र उपयोग करना है"
   }
 }

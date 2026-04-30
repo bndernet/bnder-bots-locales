@@ -513,10 +513,10 @@
       "enabled": "टास्क क्लीनअप नीति को सक्षम कर दिया गया है। टास्क बिना किसी बदलाव के {{days}} दिनों के बाद अपने आप डिलीट हो जाएंगे।"
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "**{{location}}** के लिए अवकाश कैलेंडर चालू हैं। सक्रिय प्रकार: {{types}}।",
+      "disabled": "अवकाश कैलेंडर बंद हैं। अगली बार चालू करने के लिए सहेजा गया स्थान **{{location}}** है और सक्रिय प्रकार {{types}} हैं।",
+      "country_required": "पहली बार अवकाश कैलेंडर चालू करते समय देश कोड दें, जैसे `DE` या `US`।",
+      "invalid_types": "एक या अधिक अवकाश प्रकार अमान्य हैं। उपयोग करें: public, bank, school, observance, religious, company, custom।"
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "प्रत्यक्ष संदेश आपकी प्राथमिकताओं में सक्षम हैं, लेकिन सर्वर द्वारा अक्षम हैं। जब आपको कोई कार्य सौंपा जाता है या ईवेंट अनुस्मारक के लिए आपको कोई प्रत्यक्ष संदेश प्राप्त नहीं होगा।"
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "**{{location}}** के लिए आपका निजी अवकाश क्षेत्र चालू है।",
+      "disabled": "आपका निजी अवकाश क्षेत्र बंद है। अगली बार चालू करने के लिए सहेजा गया स्थान **{{location}}** है।",
+      "country_required": "पहली बार अपना निजी अवकाश क्षेत्र चालू करते समय देश कोड दें, जैसे `DE` या `US`।"
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "ईवेंट"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "कृपया `YYYY-MM-DD` प्रारूप में तारीखें डालें और सुनिश्चित करें कि `from`, `to` के बाद नहीं है।",
+      "disabled": "इस चयन के लिए अवकाश कैलेंडर चालू नहीं हैं। Workspace के लिए `/settings holidays` या अपने निजी क्षेत्र के लिए `/preferences holidays` उपयोग करें।",
+      "empty": "**{{location}}** के लिए **{{from}}** से **{{to}}** तक कोई अवकाश नहीं मिला।",
+      "list": "# {{location}} के लिए {{from}} से {{to}} तक अवकाश\n{{entries}}{{more}}\n\n-# कवरेज: {{coverage}}। स्रोत: {{sources}}।"
     }
   },
   "setup": {

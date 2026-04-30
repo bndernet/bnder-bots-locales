@@ -513,10 +513,10 @@
       "enabled": "La politique de nettoyage des tâches a été activée. Les tâches seront supprimées automatiquement après {{days}} jours dans l'état « done » sans changement."
     },
     "holidays": {
-      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
-      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
-      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
+      "enabled": "Les calendriers de jours fériés sont activés pour **{{location}}**. Types actifs : {{types}}.",
+      "disabled": "Les calendriers de jours fériés sont désactivés. Le lieu enregistré est **{{location}}** et les types actifs sont {{types}} pour la prochaine activation.",
+      "country_required": "Indiquez un code pays, par exemple `DE` ou `US`, lors de la première activation des calendriers de jours fériés.",
+      "invalid_types": "Un ou plusieurs types de jours fériés sont invalides. Utilisez : public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -540,9 +540,9 @@
       "enabled_but_disabled_by_server": "Les messages directs sont activés dans vos préférences, mais désactivés par le serveur. Vous ne recevrez pas de message direct lorsque vous serez affecté à une tâche ou pour des rappels d'événements."
     },
     "holidays": {
-      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
-      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
-      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+      "enabled": "Votre région personnelle de jours fériés est activée pour **{{location}}**.",
+      "disabled": "Votre région personnelle de jours fériés est désactivée. Le lieu enregistré est **{{location}}** pour la prochaine activation.",
+      "country_required": "Indiquez un code pays, par exemple `DE` ou `US`, lors de la première activation de votre région personnelle de jours fériés."
     }
   },
   "event": {
@@ -592,10 +592,10 @@
       "event": "Événement"
     },
     "holidays": {
-      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
-      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
-      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
-      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
+      "invalid_range": "Saisissez les dates au format `YYYY-MM-DD` et vérifiez que `from` n’est pas après `to`.",
+      "disabled": "Les calendriers de jours fériés ne sont pas activés pour cette sélection. Utilisez `/settings holidays` pour le workspace ou `/preferences holidays` pour votre région personnelle.",
+      "empty": "Aucun jour férié trouvé du **{{from}}** au **{{to}}** pour **{{location}}**.",
+      "list": "# Jours fériés du {{from}} au {{to}} pour {{location}}\n{{entries}}{{more}}\n\n-# Couverture : {{coverage}}. Sources : {{sources}}."
     }
   },
   "setup": {
