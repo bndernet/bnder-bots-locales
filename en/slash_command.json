@@ -12,7 +12,8 @@
     "language_subcommand_description": "Change your preferred language",
     "timezone_subcommand_description": "Change your preferred timezone",
     "event_reminders_subcommand_description": "Enable or disable event reminders",
-    "direct_messages_subcommand_description": "Enable or disable direct messages"
+    "direct_messages_subcommand_description": "Enable or disable direct messages",
+    "holidays_subcommand_description": "Configure your personal holiday region"
   },
   "settings": {
     "command_description": "Manage settings",
@@ -38,7 +39,8 @@
     "loglevel_option_description": "The log level to set",
     "loglevel_subcommand_description": "Set the log level of the bot",
     "task_cleanup_policy_option_description": "After which time a task should be deleted",
-    "task_cleanup_policy_subcommand_description": "Set when tasks in the done state should be deleted"
+    "task_cleanup_policy_subcommand_description": "Set when tasks in the done state should be deleted",
+    "holidays_subcommand_description": "Configure workspace holiday calendars"
   },
   "permission": {
     "command_description": "Grant, revoke or list permissions",
@@ -193,7 +195,8 @@
     "type_option_description": "Type of the event",
     "type_option_event": "Event",
     "type_option_out_of_office": "Out of Office",
-    "type_option_birthday": "Birthday"
+    "type_option_birthday": "Birthday",
+    "holidays_subcommand_description": "Show holidays for a date range"
   },
   "booking": {
     "command_description": "Manage bookings",
@@ -219,5 +222,14 @@
     "type_option_description": "Ticket type",
     "priority_option_description": "Ticket priority",
     "commands_subcommand_description": "List available ticket commands for a project"
+  },
+  "holiday": {
+    "country_option_description": "Two-letter country code, for example DE or US",
+    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
+    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Include provider-backed school holidays when available",
+    "from_option_description": "Start date in YYYY-MM-DD format",
+    "to_option_description": "End date in YYYY-MM-DD format",
+    "user_option_description": "User whose personal holiday region should be used"
   }
 }

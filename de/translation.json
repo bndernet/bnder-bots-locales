@@ -511,6 +511,12 @@
     "task_cleanup_policy": {
       "disabled": "Die Aufgabenbereinigungsrichtlinie wurde deaktiviert. Aufgaben werden nicht automatisch gelöscht.",
       "enabled": "Die Aufgabenbereinigungsrichtlinie wurde aktiviert. Aufgaben werden nach {{days}} Tagen im Erledigt-Status ohne Änderungen automatisch gelöscht."
+    },
+    "holidays": {
+      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
+      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
+      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
+      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -532,6 +538,11 @@
       "enabled": "Direktnachrichten sind jetzt aktiviert. Sie erhalten eine direkte Nachricht, wenn Sie einer Aufgabe zugewiesen werden.",
       "disabled": "Direktnachrichten sind jetzt deaktiviert. Sie erhalten keine Direktnachrichten, wenn Sie einer Aufgabe zugewiesen werden.",
       "enabled_but_disabled_by_server": "Direktnachrichten sind in Ihren Einstellungen aktiviert, aber vom Server deaktiviert. Sie erhalten keine Direktnachrichten, wenn Ihnen eine Aufgabe zugewiesen wird oder Sie an ein Ereignis erinnert werden."
+    },
+    "holidays": {
+      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
+      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
+      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
     }
   },
   "event": {
@@ -579,6 +590,12 @@
       "birthday": "Geburtstag",
       "out_of_office": "Außer Haus",
       "event": "Ereignis"
+    },
+    "holidays": {
+      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
+      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
+      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
+      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
     }
   },
   "setup": {

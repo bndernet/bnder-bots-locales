@@ -12,7 +12,8 @@
     "language_subcommand_description": "अपनी पसंदीदा भाषा बदलें",
     "timezone_subcommand_description": "अपना पसंदीदा समयक्षेत्र बदलें",
     "event_reminders_subcommand_description": "ईवेंट अनुस्मारक सक्षम या अक्षम करें",
-    "direct_messages_subcommand_description": "सीधे संदेश सक्षम या अक्षम करें"
+    "direct_messages_subcommand_description": "सीधे संदेश सक्षम या अक्षम करें",
+    "holidays_subcommand_description": "Configure your personal holiday region"
   },
   "settings": {
     "command_description": "सेटिंग्स प्रबंधित करें",
@@ -38,7 +39,8 @@
     "loglevel_option_description": "सेट करने के लिए लॉग स्तर",
     "loglevel_subcommand_description": "बॉट का लॉग स्तर सेट करें",
     "task_cleanup_policy_option_description": "किस समय के बाद किसी कार्य को हटाया जाना चाहिए",
-    "task_cleanup_policy_subcommand_description": "निर्धारित करें कि पूर्ण अवस्था में कार्य कब हटाया जाना चाहिए"
+    "task_cleanup_policy_subcommand_description": "निर्धारित करें कि पूर्ण अवस्था में कार्य कब हटाया जाना चाहिए",
+    "holidays_subcommand_description": "Configure workspace holiday calendars"
   },
   "permission": {
     "command_description": "अनुमतियाँ प्रदान करें, रद्द करें या सूचीबद्ध करें",
@@ -193,7 +195,8 @@
     "type_option_description": "ईवेंट का प्रकार",
     "type_option_event": "ईवेंट",
     "type_option_out_of_office": "कार्यालय से बाहर",
-    "type_option_birthday": "जन्मदिन"
+    "type_option_birthday": "जन्मदिन",
+    "holidays_subcommand_description": "Show holidays for a date range"
   },
   "booking": {
     "command_description": "बुकिंग प्रबंधित करें",
@@ -219,5 +222,14 @@
     "type_option_description": "टिकट प्रकार",
     "priority_option_description": "टिकट प्राथमिकता",
     "commands_subcommand_description": "किसी प्रोजेक्ट के लिए उपलब्ध टिकट कमांड की सूची दिखाएँ"
+  },
+  "holiday": {
+    "country_option_description": "Two-letter country code, for example DE or US",
+    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
+    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Include provider-backed school holidays when available",
+    "from_option_description": "Start date in YYYY-MM-DD format",
+    "to_option_description": "End date in YYYY-MM-DD format",
+    "user_option_description": "User whose personal holiday region should be used"
   }
 }

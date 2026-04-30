@@ -12,7 +12,8 @@
     "language_subcommand_description": "Tercih ettiğiniz dili değiştirin",
     "timezone_subcommand_description": "Tercih ettiğiniz saat dilimini değiştirin",
     "event_reminders_subcommand_description": "Olay hatırlatıcılarını etkinleştir veya devre dışı bırak",
-    "direct_messages_subcommand_description": "Doğrudan mesajları etkinleştir veya devre dışı bırak"
+    "direct_messages_subcommand_description": "Doğrudan mesajları etkinleştir veya devre dışı bırak",
+    "holidays_subcommand_description": "Configure your personal holiday region"
   },
   "settings": {
     "command_description": "Ayarları yönet",
@@ -38,7 +39,8 @@
     "loglevel_option_description": "Ayarlanacak günlük seviyesi",
     "loglevel_subcommand_description": "Botun günlük seviyesini ayarla",
     "task_cleanup_policy_option_description": "Bir görev hangi süreden sonra silinmelidir",
-    "task_cleanup_policy_subcommand_description": "Bitti durumundaki görevlerin ne zaman silinmesi gerektiğini ayarla"
+    "task_cleanup_policy_subcommand_description": "Bitti durumundaki görevlerin ne zaman silinmesi gerektiğini ayarla",
+    "holidays_subcommand_description": "Configure workspace holiday calendars"
   },
   "permission": {
     "command_description": "Tüm izinleri atayın, kaldırın ve görüntüleyin",
@@ -193,7 +195,8 @@
     "type_option_description": "Etkinlik türü",
     "type_option_event": "Etkinlik",
     "type_option_out_of_office": "Ofis Dışında",
-    "type_option_birthday": "Doğum Günü"
+    "type_option_birthday": "Doğum Günü",
+    "holidays_subcommand_description": "Show holidays for a date range"
   },
   "booking": {
     "command_description": "Rezervasyonları yönet",
@@ -219,5 +222,14 @@
     "type_option_description": "Talep türü",
     "priority_option_description": "Talep önceliği",
     "commands_subcommand_description": "Bir proje için kullanılabilir talep komutlarını listele"
+  },
+  "holiday": {
+    "country_option_description": "Two-letter country code, for example DE or US",
+    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
+    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Include provider-backed school holidays when available",
+    "from_option_description": "Start date in YYYY-MM-DD format",
+    "to_option_description": "End date in YYYY-MM-DD format",
+    "user_option_description": "User whose personal holiday region should be used"
   }
 }

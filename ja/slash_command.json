@@ -12,7 +12,8 @@
     "language_subcommand_description": "希望する言語を変更する",
     "timezone_subcommand_description": "希望するタイムゾーンを変更する",
     "event_reminders_subcommand_description": "イベントリマインダーを有効または無効にする",
-    "direct_messages_subcommand_description": "ダイレクトメッセージを有効または無効にする"
+    "direct_messages_subcommand_description": "ダイレクトメッセージを有効または無効にする",
+    "holidays_subcommand_description": "Configure your personal holiday region"
   },
   "settings": {
     "command_description": "設定を管理する",
@@ -38,7 +39,8 @@
     "loglevel_option_description": "設定するログレベル",
     "loglevel_subcommand_description": "ボットのログレベルを設定する",
     "task_cleanup_policy_option_description": "タスクを削除するまでの時間",
-    "task_cleanup_policy_subcommand_description": "完了状態のタスクをいつ削除するかを設定する"
+    "task_cleanup_policy_subcommand_description": "完了状態のタスクをいつ削除するかを設定する",
+    "holidays_subcommand_description": "Configure workspace holiday calendars"
   },
   "permission": {
     "command_description": "権限を付与、取り消し、または一覧表示する",
@@ -193,7 +195,8 @@
     "type_option_description": "イベントの種類",
     "type_option_event": "イベント",
     "type_option_out_of_office": "不在",
-    "type_option_birthday": "誕生日"
+    "type_option_birthday": "誕生日",
+    "holidays_subcommand_description": "Show holidays for a date range"
   },
   "booking": {
     "command_description": "予約を管理",
@@ -219,5 +222,14 @@
     "type_option_description": "チケット種別",
     "priority_option_description": "チケット優先度",
     "commands_subcommand_description": "プロジェクトで利用可能なチケットコマンドを一覧表示"
+  },
+  "holiday": {
+    "country_option_description": "Two-letter country code, for example DE or US",
+    "region_option_description": "Region or state code, for example DE-BE, US-CA or CH-ZH",
+    "types_option_description": "Comma-separated holiday types: public, bank, school, observance, religious, company, custom",
+    "include_school_option_description": "Include provider-backed school holidays when available",
+    "from_option_description": "Start date in YYYY-MM-DD format",
+    "to_option_description": "End date in YYYY-MM-DD format",
+    "user_option_description": "User whose personal holiday region should be used"
   }
 }

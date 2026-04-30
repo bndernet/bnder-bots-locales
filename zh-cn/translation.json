@@ -511,6 +511,12 @@
     "task_cleanup_policy": {
       "disabled": "任务清理策略已禁用。任务将不会自动删除。",
       "enabled": "任务清理策略已启用。任务在完成状态下未更改超过 {{days}} 天后将自动删除。"
+    },
+    "holidays": {
+      "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
+      "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
+      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling holiday calendars for the first time.",
+      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -532,6 +538,11 @@
       "enabled": "直接消息已启用。您将在被分配任务时收到直接消息。",
       "disabled": "直接消息已禁用。您将在被分配任务时不会收到直接消息。",
       "enabled_but_disabled_by_server": "您的偏好设置中已启用直接消息，但服务器禁用了此选项。您将不会在被分配任务或接收事件提醒时收到直接消息。"
+    },
+    "holidays": {
+      "enabled": "Your personal holiday region is enabled for **{{location}}**.",
+      "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
+      "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
     }
   },
   "event": {
@@ -579,6 +590,12 @@
       "birthday": "生日",
       "out_of_office": "离开办公室",
       "event": "事件"
+    },
+    "holidays": {
+      "invalid_range": "Please enter dates in `YYYY-MM-DD` format and make sure `from` is not after `to`.",
+      "disabled": "Holiday calendars are not enabled for this selection. Use `/settings holidays` for the workspace or `/preferences holidays` for your personal region.",
+      "empty": "No holidays were found from **{{from}}** to **{{to}}** for **{{location}}**.",
+      "list": "# Holidays from {{from}} to {{to}} for {{location}}\n{{entries}}{{more}}\n\n-# Coverage: {{coverage}}. Sources: {{sources}}."
     }
   },
   "setup": {
