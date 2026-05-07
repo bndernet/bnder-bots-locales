@@ -309,7 +309,7 @@ export class TSLocalizations_ru {
                 company_address: "Im Flath 12 - 38542 Leiferde - Германия",
                 company_register_court: "Amtsgericht Hildesheim - HRB 209373",
                 company_ceo: "Генеральный директор: Ян Бринкманн",
-                company_contact: "Эл. почта: contact@bnder.net - Телефон: +49 511 45032009",
+                company_contact: "Эл. почта: contact@bnder.net - Телефон: +49 511 80764975",
                 legal_automated_email: "Это письмо было отправлено автоматически. Пожалуйста, не отвечайте на него.",
                 legal_privacy_policy_prefix: "Наша политика конфиденциальности доступна по адресу",
                 legal_imprint: "Выходные данные",

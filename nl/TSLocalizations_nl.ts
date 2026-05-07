@@ -309,7 +309,7 @@ export class TSLocalizations_nl {
                 company_address: "Im Flath 12 - 38542 Leiferde - Duitsland",
                 company_register_court: "Rechtbank Hildesheim - HRB 209373",
                 company_ceo: "Directeur: Jan Brinkmann",
-                company_contact: "E-mail: contact@bnder.net - Telefoon: +49 511 45032009",
+                company_contact: "E-mail: contact@bnder.net - Telefoon: +49 511 80764975",
                 legal_automated_email: "Deze e-mail is automatisch verzonden. Antwoord hier alstublieft niet op.",
                 legal_privacy_policy_prefix: "Onze privacyverklaring is te vinden op",
                 legal_imprint: "Colofon",

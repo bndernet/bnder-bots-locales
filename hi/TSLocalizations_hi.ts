@@ -309,7 +309,7 @@ export class TSLocalizations_hi {
                 company_address: "Im Flath 12 - 38542 Leiferde - जर्मनी",
                 company_register_court: "हिल्डेसहाइम जिला न्यायालय - HRB 209373",
                 company_ceo: "प्रबंध निदेशक: जान ब्रिंकमान",
-                company_contact: "ईमेल: contact@bnder.net - फोन: +49 511 45032009",
+                company_contact: "ईमेल: contact@bnder.net - फोन: +49 511 80764975",
                 legal_automated_email: "यह ईमेल स्वचालित रूप से भेजा गया है। कृपया इसका उत्तर न दें।",
                 legal_privacy_policy_prefix: "हमारी गोपनीयता नीति उपलब्ध है:",
                 legal_imprint: "इंप्रेसम",

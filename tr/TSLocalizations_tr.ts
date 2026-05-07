@@ -309,7 +309,7 @@ export class TSLocalizations_tr {
                 company_address: "Im Flath 12 - 38542 Leiferde - Almanya",
                 company_register_court: "Amtsgericht Hildesheim - HRB 209373",
                 company_ceo: "Yönetici: Jan Brinkmann",
-                company_contact: "E-Posta: contact@bnder.net - Telefon: +49 511 45032009",
+                company_contact: "E-Posta: contact@bnder.net - Telefon: +49 511 80764975",
                 legal_automated_email: "Bu e-posta otomatik olarak gönderilmiştir. Lütfen yanıt vermeyin.",
                 legal_privacy_policy_prefix: "Gizlilik politikamızı aşağıda bulabilirsiniz",
                 legal_imprint: "Yasal Bilgiler",

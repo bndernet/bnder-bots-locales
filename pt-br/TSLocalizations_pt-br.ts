@@ -309,7 +309,7 @@ export class TSLocalizations_pt_br {
                 company_address: "Im Flath 12 - 38542 Leiferde - Alemanha",
                 company_register_court: "Tribunal de Registro de Hildesheim - HRB 209373",
                 company_ceo: "Diretor Executivo: Jan Brinkmann",
-                company_contact: "E-mail: contact@bnder.net - Telefone: +49 511 45032009",
+                company_contact: "E-mail: contact@bnder.net - Telefone: +49 511 80764975",
                 legal_automated_email: "Este e-mail foi enviado automaticamente. Por favor, não responda.",
                 legal_privacy_policy_prefix: "Nossa política de privacidade está disponível em",
                 legal_imprint: "Informações legais",
