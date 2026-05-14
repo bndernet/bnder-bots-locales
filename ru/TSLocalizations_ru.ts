@@ -406,6 +406,12 @@ export class TSLocalizations_ru {
                 footer_brand_context(displayName: string): string {
                     return `Отправлено для ${displayName} через Bnder.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `Отправлено для ${displayName} через `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return ".";
+                },
                 unknown_inbox_subject: "Неизвестный адрес почтового ящика тикетов",
                 unknown_inbox_headline: "Неизвестный адрес почтового ящика тикетов",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

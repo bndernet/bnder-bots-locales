@@ -406,6 +406,12 @@ export class TSLocalizations_ja {
                 footer_brand_context(displayName: string): string {
                     return `${displayName} のために Bnder 経由で送信されました。`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `${displayName} のために `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return " 経由で送信されました。";
+                },
                 unknown_inbox_subject: "不明なチケット受信アドレス",
                 unknown_inbox_headline: "不明なチケット受信アドレス",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

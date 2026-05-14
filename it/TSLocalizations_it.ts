@@ -406,6 +406,12 @@ export class TSLocalizations_it {
                 footer_brand_context(displayName: string): string {
                     return `Inviato per ${displayName} tramite Bnder.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `Inviato per ${displayName} tramite `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return ".";
+                },
                 unknown_inbox_subject: "Indirizzo inbox ticket sconosciuto",
                 unknown_inbox_headline: "Indirizzo inbox ticket sconosciuto",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

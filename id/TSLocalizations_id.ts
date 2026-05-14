@@ -406,6 +406,12 @@ export class TSLocalizations_id {
                 footer_brand_context(displayName: string): string {
                     return `Dikirim untuk ${displayName} melalui Bnder.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `Dikirim untuk ${displayName} melalui `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return ".";
+                },
                 unknown_inbox_subject: "Alamat kotak masuk tiket tidak dikenal",
                 unknown_inbox_headline: "Alamat kotak masuk tiket tidak dikenal",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

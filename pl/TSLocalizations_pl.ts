@@ -406,6 +406,12 @@ export class TSLocalizations_pl {
                 footer_brand_context(displayName: string): string {
                     return `Wysłano dla ${displayName} przez Bnder.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `Wysłano dla ${displayName} przez `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return ".";
+                },
                 unknown_inbox_subject: "Nieznany adres skrzynki zgłoszeń",
                 unknown_inbox_headline: "Nieznany adres skrzynki zgłoszeń",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

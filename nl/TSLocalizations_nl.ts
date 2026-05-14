@@ -406,6 +406,12 @@ export class TSLocalizations_nl {
                 footer_brand_context(displayName: string): string {
                     return `Verzonden voor ${displayName} via Bnder.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `Verzonden voor ${displayName} via `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return ".";
+                },
                 unknown_inbox_subject: "Onbekend ticket-inboxadres",
                 unknown_inbox_headline: "Onbekend ticket-inboxadres",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

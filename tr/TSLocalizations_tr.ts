@@ -406,6 +406,12 @@ export class TSLocalizations_tr {
                 footer_brand_context(displayName: string): string {
                     return `${displayName} için Bnder aracılığıyla gönderildi.`;
                 },
+                footer_brand_context_link_prefix(displayName: string): string {
+                    return `${displayName} için `;
+                },
+                footer_brand_context_link_suffix(): string {
+                    return " aracılığıyla gönderildi.";
+                },
                 unknown_inbox_subject: "Bilinmeyen talep gelen kutusu adresi",
                 unknown_inbox_headline: "Bilinmeyen talep gelen kutusu adresi",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

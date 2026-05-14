@@ -406,6 +406,12 @@ export class TSLocalizations_zh_cn {
                 footer_brand_context(displayName: string): string {
                     return `通过 Bnder 为 ${displayName} 发送。`;
                 },
+                footer_brand_context_link_prefix(): string {
+                    return "通过 ";
+                },
+                footer_brand_context_link_suffix(displayName: string): string {
+                    return ` 为 ${displayName} 发送。`;
+                },
                 unknown_inbox_subject: "未知的工单收件地址",
                 unknown_inbox_headline: "未知的工单收件地址",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {
