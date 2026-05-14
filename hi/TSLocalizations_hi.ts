@@ -25,6 +25,19 @@ export class TSLocalizations_hi {
                 return `कार्य ${id} दोहराया गया`;
             },
             deadline_alert: "कार्य की समय सीमा",
+            deadline_duration_due_now: "अभी देय",
+            deadline_duration_until(duration: string): string {
+                return `${duration} में`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} दिन`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} घं`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} मि`;
+            },
             commented_embed_title(id: string): string {
                 return `कार्य ${id} में टिप्पणी जोड़ी गई`;
             },

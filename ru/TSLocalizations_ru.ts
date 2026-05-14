@@ -25,6 +25,19 @@ export class TSLocalizations_ru {
                 return `Задача ${id} повторена`;
             },
             deadline_alert: "Крайний срок задачи",
+            deadline_duration_due_now: "срок сейчас",
+            deadline_duration_until(duration: string): string {
+                return `через ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} д`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} ч`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} мин`;
+            },
             commented_embed_title(id: string): string {
                 return `К задаче ${id} добавлен комментарий`;
             },

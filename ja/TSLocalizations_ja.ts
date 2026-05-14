@@ -25,6 +25,19 @@ export class TSLocalizations_ja {
                 return `タスク ${id} が繰り返されました`;
             },
             deadline_alert: "タスクの期限",
+            deadline_duration_due_now: "今が期限",
+            deadline_duration_until(duration: string): string {
+                return `あと${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days}日`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours}時間`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes}分`;
+            },
             commented_embed_title(id: string): string {
                 return `タスク ${id} にコメントが追加されました`;
             },

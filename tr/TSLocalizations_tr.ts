@@ -25,6 +25,19 @@ export class TSLocalizations_tr {
                 return `Görev ${id} tekrarlandı`;
             },
             deadline_alert: "Görevin son teslim tarihi",
+            deadline_duration_due_now: "şimdi süresi doluyor",
+            deadline_duration_until(duration: string): string {
+                return `${duration} içinde`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} gün`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} sa`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} dk`;
+            },
             commented_embed_title(id: string): string {
                 return `Göreve yorum eklendi: ${id}`;
             },

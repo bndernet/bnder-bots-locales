@@ -25,6 +25,19 @@ export class TSLocalizations_en {
                 return `Task ${id} repeated`;
             },
             deadline_alert: "Task deadline",
+            deadline_duration_due_now: "due now",
+            deadline_duration_until(duration: string): string {
+                return `in ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days}d`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours}h`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes}m`;
+            },
             commented_embed_title(id: string): string {
                 return `Comment added to task ${id}`;
             },

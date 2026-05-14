@@ -25,6 +25,19 @@ export class TSLocalizations_id {
                 return `Tugas ${id} diulang`;
             },
             deadline_alert: "Tenggat waktu tugas",
+            deadline_duration_due_now: "jatuh tempo sekarang",
+            deadline_duration_until(duration: string): string {
+                return `dalam ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} hr`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} jam`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} mnt`;
+            },
             commented_embed_title(id: string): string {
                 return `Komentar ditambahkan ke tugas ${id}`;
             },

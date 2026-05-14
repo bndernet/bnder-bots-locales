@@ -25,6 +25,19 @@ export class TSLocalizations_fr {
                 return `Tâche ${id} répétée`;
             },
             deadline_alert: "Date limite de tâche",
+            deadline_duration_due_now: "échéance maintenant",
+            deadline_duration_until(duration: string): string {
+                return `dans ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} j`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} h`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} min`;
+            },
             commented_embed_title(id: string): string {
                 return `Commentaire ajouté à la tâche ${id}`;
             },

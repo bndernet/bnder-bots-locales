@@ -25,6 +25,19 @@ export class TSLocalizations_de {
                 return `Aufgabe ${id} wiederholt`;
             },
             deadline_alert: "Deadline Benachrichtigung",
+            deadline_duration_due_now: "jetzt fällig",
+            deadline_duration_until(duration: string): string {
+                return `in ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} T`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} Std.`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} Min.`;
+            },
             commented_embed_title(id: string): string {
                 return `Kommentar hinzugefügt zu Aufgabe ${id}`;
             },

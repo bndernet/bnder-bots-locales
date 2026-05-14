@@ -25,6 +25,19 @@ export class TSLocalizations_zh_cn {
                 return `任务 ${id} 被重复分配`;
             },
             deadline_alert: "任务截止日期",
+            deadline_duration_due_now: "现在到期",
+            deadline_duration_until(duration: string): string {
+                return `${duration}后`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days}天`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours}小时`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes}分钟`;
+            },
             commented_embed_title(id: string): string {
                 return `任务 ${id} 添加了评论`;
             },

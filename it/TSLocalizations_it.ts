@@ -25,6 +25,19 @@ export class TSLocalizations_it {
                 return `Compito ${id} ripetuto`;
             },
             deadline_alert: "Scadenza del compito",
+            deadline_duration_due_now: "scade ora",
+            deadline_duration_until(duration: string): string {
+                return `tra ${duration}`;
+            },
+            deadline_duration_days(days: number): string {
+                return `${days} g`;
+            },
+            deadline_duration_hours(hours: number): string {
+                return `${hours} h`;
+            },
+            deadline_duration_minutes(minutes: number): string {
+                return `${minutes} min`;
+            },
             commented_embed_title(id: string): string {
                 return `Commento aggiunto al compito ${id}`;
             },

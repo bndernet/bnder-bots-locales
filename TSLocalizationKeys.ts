@@ -26,6 +26,11 @@ export interface TSLocalizationKeys {
         repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string;
         repeat_notification_embed_title(id: string): string;
         deadline_alert: string;
+        deadline_duration_due_now: string;
+        deadline_duration_until(duration: string): string;
+        deadline_duration_days(days: number): string;
+        deadline_duration_hours(hours: number): string;
+        deadline_duration_minutes(minutes: number): string;
         commented_notification(guildName: string, guildId: string, author: string, commentText: string): string;
         commented_embed_title(id: string): string;
         comment_response_button: string;
