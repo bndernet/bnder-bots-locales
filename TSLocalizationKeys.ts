@@ -269,6 +269,7 @@ export interface TSLocalizationKeys {
             action_open_ticket: string,
             action_reply_to_ticket: string,
             action_unsubscribe: string,
+            footer_brand_context(displayName: string): string,
             unknown_inbox_subject: string,
             unknown_inbox_headline: string,
             unknown_inbox_text_with_recipient(recipientAddress: string): string,

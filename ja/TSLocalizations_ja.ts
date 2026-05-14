@@ -391,6 +391,9 @@ export class TSLocalizations_ja {
                 action_open_ticket: "チケットを開く",
                 action_reply_to_ticket: "チケットに返信",
                 action_unsubscribe: "このチケットの購読を解除",
+                footer_brand_context(displayName: string): string {
+                    return `${displayName} のために Bnder 経由で送信されました。`;
+                },
                 unknown_inbox_subject: "不明なチケット受信アドレス",
                 unknown_inbox_headline: "不明なチケット受信アドレス",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

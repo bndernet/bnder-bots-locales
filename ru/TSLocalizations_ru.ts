@@ -391,6 +391,9 @@ export class TSLocalizations_ru {
                 action_open_ticket: "Открыть тикет",
                 action_reply_to_ticket: "Ответить на тикет",
                 action_unsubscribe: "Отписаться от этого тикета",
+                footer_brand_context(displayName: string): string {
+                    return `Отправлено для ${displayName} через Bnder.`;
+                },
                 unknown_inbox_subject: "Неизвестный адрес почтового ящика тикетов",
                 unknown_inbox_headline: "Неизвестный адрес почтового ящика тикетов",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

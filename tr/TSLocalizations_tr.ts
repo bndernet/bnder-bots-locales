@@ -391,6 +391,9 @@ export class TSLocalizations_tr {
                 action_open_ticket: "Talebi Aç",
                 action_reply_to_ticket: "Talebe Yanıt Ver",
                 action_unsubscribe: "Bu talepten aboneliği kaldır",
+                footer_brand_context(displayName: string): string {
+                    return `${displayName} için Bnder aracılığıyla gönderildi.`;
+                },
                 unknown_inbox_subject: "Bilinmeyen talep gelen kutusu adresi",
                 unknown_inbox_headline: "Bilinmeyen talep gelen kutusu adresi",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

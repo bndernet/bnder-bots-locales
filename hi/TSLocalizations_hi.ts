@@ -391,6 +391,9 @@ export class TSLocalizations_hi {
                 action_open_ticket: "टिकट खोलें",
                 action_reply_to_ticket: "टिकट का उत्तर दें",
                 action_unsubscribe: "इस टिकट से सदस्यता हटाएँ",
+                footer_brand_context(displayName: string): string {
+                    return `${displayName} के लिए Bnder के माध्यम से भेजा गया।`;
+                },
                 unknown_inbox_subject: "अज्ञात टिकट इनबॉक्स पता",
                 unknown_inbox_headline: "अज्ञात टिकट इनबॉक्स पता",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

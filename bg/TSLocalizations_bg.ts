@@ -391,6 +391,9 @@ export class TSLocalizations_bg {
                 action_open_ticket: "Отвори билет",
                 action_reply_to_ticket: "Отговори на билета",
                 action_unsubscribe: "Отпиши се от този билет",
+                footer_brand_context(displayName: string): string {
+                    return `Изпратено за ${displayName} чрез Bnder.`;
+                },
                 unknown_inbox_subject: "Неизвестен адрес на входяща поща за билети",
                 unknown_inbox_headline: "Неизвестен адрес на входяща поща за билети",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

@@ -391,6 +391,9 @@ export class TSLocalizations_pl {
                 action_open_ticket: "Otwórz zgłoszenie",
                 action_reply_to_ticket: "Odpowiedz na zgłoszenie",
                 action_unsubscribe: "Wypisz z tego zgłoszenia",
+                footer_brand_context(displayName: string): string {
+                    return `Wysłano dla ${displayName} przez Bnder.`;
+                },
                 unknown_inbox_subject: "Nieznany adres skrzynki zgłoszeń",
                 unknown_inbox_headline: "Nieznany adres skrzynki zgłoszeń",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

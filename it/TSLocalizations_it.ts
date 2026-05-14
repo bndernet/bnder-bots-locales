@@ -391,6 +391,9 @@ export class TSLocalizations_it {
                 action_open_ticket: "Apri ticket",
                 action_reply_to_ticket: "Rispondi al ticket",
                 action_unsubscribe: "Annulla iscrizione a questo ticket",
+                footer_brand_context(displayName: string): string {
+                    return `Inviato per ${displayName} tramite Bnder.`;
+                },
                 unknown_inbox_subject: "Indirizzo inbox ticket sconosciuto",
                 unknown_inbox_headline: "Indirizzo inbox ticket sconosciuto",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

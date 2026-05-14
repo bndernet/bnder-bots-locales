@@ -391,6 +391,9 @@ export class TSLocalizations_id {
                 action_open_ticket: "Buka Tiket",
                 action_reply_to_ticket: "Balas Tiket",
                 action_unsubscribe: "Berhenti berlangganan tiket ini",
+                footer_brand_context(displayName: string): string {
+                    return `Dikirim untuk ${displayName} melalui Bnder.`;
+                },
                 unknown_inbox_subject: "Alamat kotak masuk tiket tidak dikenal",
                 unknown_inbox_headline: "Alamat kotak masuk tiket tidak dikenal",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

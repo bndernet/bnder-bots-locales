@@ -391,6 +391,9 @@ export class TSLocalizations_zh_cn {
                 action_open_ticket: "打开工单",
                 action_reply_to_ticket: "回复工单",
                 action_unsubscribe: "取消订阅此工单",
+                footer_brand_context(displayName: string): string {
+                    return `通过 Bnder 为 ${displayName} 发送。`;
+                },
                 unknown_inbox_subject: "未知的工单收件地址",
                 unknown_inbox_headline: "未知的工单收件地址",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {

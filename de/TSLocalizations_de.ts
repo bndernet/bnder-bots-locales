@@ -391,6 +391,9 @@ export class TSLocalizations_de {
                 action_open_ticket: "Ticket öffnen",
                 action_reply_to_ticket: "Auf Ticket antworten",
                 action_unsubscribe: "Dieses Ticket abbestellen",
+                footer_brand_context(displayName: string): string {
+                    return `Gesendet für ${displayName} über Bnder.`;
+                },
                 unknown_inbox_subject: "Unbekannte Ticket-Postfachadresse",
                 unknown_inbox_headline: "Unbekannte Ticket-Postfachadresse",
                 unknown_inbox_text_with_recipient(recipientAddress: string): string {
