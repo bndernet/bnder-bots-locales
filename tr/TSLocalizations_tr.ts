@@ -388,6 +388,18 @@ export class TSLocalizations_tr {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Bu talep SLA uyarı eşiğine ulaştı.\n\nTalep: ${ticketTitle}\nSLA: ${slaName}\nMevcut süre: ${currentAge}\nHedef: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Talep SLA ihlali: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA ihlali: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `"${slaName}" SLA'sı ${stepLabel} için ihlal edildi.\nMevcut süre: ${currentAge}\nHedef: ${targetAge}.`;
+                },
+                sla_step_first_response: "ilk yanıt",
+                sla_step_next_response: "sonraki yanıt",
+                sla_step_resolution: "çözüm",
                 action_open_ticket: "Talebi Aç",
                 action_reply_to_ticket: "Talebe Yanıt Ver",
                 action_unsubscribe: "Bu talepten aboneliği kaldır",

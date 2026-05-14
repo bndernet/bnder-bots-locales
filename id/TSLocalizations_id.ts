@@ -388,6 +388,18 @@ export class TSLocalizations_id {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Tiket ini telah mencapai ambang peringatan SLA.\n\nTiket: ${ticketTitle}\nSLA: ${slaName}\nUsia saat ini: ${currentAge}\nTarget: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Pelanggaran SLA Tiket: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `Pelanggaran SLA: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA "${slaName}" dilanggar untuk ${stepLabel}.\nUsia saat ini: ${currentAge}\nTarget: ${targetAge}.`;
+                },
+                sla_step_first_response: "respons pertama",
+                sla_step_next_response: "respons berikutnya",
+                sla_step_resolution: "resolusi",
                 action_open_ticket: "Buka Tiket",
                 action_reply_to_ticket: "Balas Tiket",
                 action_unsubscribe: "Berhenti berlangganan tiket ini",

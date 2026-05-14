@@ -388,6 +388,18 @@ export class TSLocalizations_bg {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Този билет достигна прага за SLA предупреждение.\n\nБилет: ${ticketTitle}\nSLA: ${slaName}\nТекуща възраст: ${currentAge}\nЦел: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `SLA нарушение за билет: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA нарушение: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA „${slaName}“ е нарушен за ${stepLabel}.\nТекуща възраст: ${currentAge}\nЦел: ${targetAge}.`;
+                },
+                sla_step_first_response: "първи отговор",
+                sla_step_next_response: "следващ отговор",
+                sla_step_resolution: "разрешаване",
                 action_open_ticket: "Отвори билет",
                 action_reply_to_ticket: "Отговори на билета",
                 action_unsubscribe: "Отпиши се от този билет",

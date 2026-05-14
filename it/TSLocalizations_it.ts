@@ -388,6 +388,18 @@ export class TSLocalizations_it {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Questo ticket ha raggiunto la soglia di avviso SLA.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nEtà attuale: ${currentAge}\nObiettivo: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Violazione SLA ticket: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `Violazione SLA: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `Lo SLA "${slaName}" è stato violato per ${stepLabel}.\nEtà attuale: ${currentAge}\nObiettivo: ${targetAge}.`;
+                },
+                sla_step_first_response: "prima risposta",
+                sla_step_next_response: "risposta successiva",
+                sla_step_resolution: "risoluzione",
                 action_open_ticket: "Apri ticket",
                 action_reply_to_ticket: "Rispondi al ticket",
                 action_unsubscribe: "Annulla iscrizione a questo ticket",

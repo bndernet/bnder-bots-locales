@@ -388,6 +388,18 @@ export class TSLocalizations_hi {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `यह टिकट अपनी SLA चेतावनी सीमा तक पहुँच गया है।\n\nटिकट: ${ticketTitle}\nSLA: ${slaName}\nवर्तमान आयु: ${currentAge}\nलक्ष्य: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `टिकट SLA उल्लंघन: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA उल्लंघन: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA "${slaName}" का ${stepLabel} के लिए उल्लंघन हुआ।\nवर्तमान आयु: ${currentAge}\nलक्ष्य: ${targetAge}।`;
+                },
+                sla_step_first_response: "पहला जवाब",
+                sla_step_next_response: "अगला जवाब",
+                sla_step_resolution: "समाधान",
                 action_open_ticket: "टिकट खोलें",
                 action_reply_to_ticket: "टिकट का उत्तर दें",
                 action_unsubscribe: "इस टिकट से सदस्यता हटाएँ",

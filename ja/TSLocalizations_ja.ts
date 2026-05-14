@@ -388,6 +388,18 @@ export class TSLocalizations_ja {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `このチケットはSLA警告しきい値に達しました。\n\nチケット: ${ticketTitle}\nSLA: ${slaName}\n現在の経過時間: ${currentAge}\n目標: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `チケットSLA違反: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA違反: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA「${slaName}」が${stepLabel}で違反しました。\n現在の経過時間: ${currentAge}\n目標: ${targetAge}。`;
+                },
+                sla_step_first_response: "初回応答",
+                sla_step_next_response: "次回応答",
+                sla_step_resolution: "解決",
                 action_open_ticket: "チケットを開く",
                 action_reply_to_ticket: "チケットに返信",
                 action_unsubscribe: "このチケットの購読を解除",

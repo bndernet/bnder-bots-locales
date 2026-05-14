@@ -388,6 +388,18 @@ export class TSLocalizations_nl {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Dit ticket heeft de SLA-waarschuwingsdrempel bereikt.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nHuidige leeftijd: ${currentAge}\nDoel: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Ticket-SLA-schending: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA-schending: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA "${slaName}" is geschonden voor ${stepLabel}.\nHuidige leeftijd: ${currentAge}\nDoel: ${targetAge}.`;
+                },
+                sla_step_first_response: "eerste reactie",
+                sla_step_next_response: "volgende reactie",
+                sla_step_resolution: "oplossing",
                 action_open_ticket: "Ticket openen",
                 action_reply_to_ticket: "Antwoorden op ticket",
                 action_unsubscribe: "Afmelden voor dit ticket",

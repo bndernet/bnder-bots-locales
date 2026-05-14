@@ -388,6 +388,18 @@ export class TSLocalizations_zh_cn {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `该工单已达到 SLA 预警阈值。\n\n工单: ${ticketTitle}\nSLA: ${slaName}\n当前时长: ${currentAge}\n目标: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `工单 SLA 违约: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `SLA 违约: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA「${slaName}」在${stepLabel}阶段已违约。\n当前时长: ${currentAge}\n目标: ${targetAge}。`;
+                },
+                sla_step_first_response: "首次响应",
+                sla_step_next_response: "后续响应",
+                sla_step_resolution: "解决",
                 action_open_ticket: "打开工单",
                 action_reply_to_ticket: "回复工单",
                 action_unsubscribe: "取消订阅此工单",

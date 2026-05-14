@@ -388,6 +388,18 @@ export class TSLocalizations_pl {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `To zgłoszenie osiągnęło próg ostrzeżenia SLA.\n\nZgłoszenie: ${ticketTitle}\nSLA: ${slaName}\nAktualny wiek: ${currentAge}\nCel: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Naruszenie SLA zgłoszenia: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `Naruszenie SLA: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA „${slaName}” zostało naruszone dla etapu ${stepLabel}.\nAktualny wiek: ${currentAge}\nCel: ${targetAge}.`;
+                },
+                sla_step_first_response: "pierwsza odpowiedź",
+                sla_step_next_response: "następna odpowiedź",
+                sla_step_resolution: "rozwiązanie",
                 action_open_ticket: "Otwórz zgłoszenie",
                 action_reply_to_ticket: "Odpowiedz na zgłoszenie",
                 action_unsubscribe: "Wypisz z tego zgłoszenia",

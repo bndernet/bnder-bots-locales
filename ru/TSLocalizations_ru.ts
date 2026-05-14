@@ -388,6 +388,18 @@ export class TSLocalizations_ru {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Этот тикет достиг порога предупреждения SLA.\n\nТикет: ${ticketTitle}\nSLA: ${slaName}\nТекущий возраст: ${currentAge}\nЦель: ${targetAge}`;
                 },
+                subject_prefix_sla_breach(stepLabel: string): string {
+                    return `Нарушение SLA по тикету: ${stepLabel}`;
+                },
+                headline_sla_breach(ticketTitle: string): string {
+                    return `Нарушение SLA: ${ticketTitle}`;
+                },
+                body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
+                    return `SLA «${slaName}» нарушен для этапа ${stepLabel}.\nТекущий возраст: ${currentAge}\nЦель: ${targetAge}.`;
+                },
+                sla_step_first_response: "первый ответ",
+                sla_step_next_response: "следующий ответ",
+                sla_step_resolution: "решение",
                 action_open_ticket: "Открыть тикет",
                 action_reply_to_ticket: "Ответить на тикет",
                 action_unsubscribe: "Отписаться от этого тикета",
