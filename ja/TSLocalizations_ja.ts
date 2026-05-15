@@ -82,6 +82,8 @@ export class TSLocalizations_ja {
             user_field: "ユーザー",
             preset_field: "プリセット",
             priority_field: "優先度",
+            type_field: "種類",
+            reporter_field: "報告者",
             label_field: "ラベル",
             manager_field: "マネージャー",
             repeat_interval_field: "繰り返し間隔（日単位）",
@@ -138,6 +140,21 @@ export class TSLocalizations_ja {
                 },
                 description(id: string): string {
                     return `タスク ${id} が更新され、以下のデータが変更されました。`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `チケット ${id} が作成されました`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `チケット ${id} が更新されました`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `チケット ${id} が削除されました`;
                 }
             },
             project_created: {

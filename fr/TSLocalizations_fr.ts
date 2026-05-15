@@ -82,6 +82,8 @@ export class TSLocalizations_fr {
             user_field: "Utilisateur",
             preset_field: "Préréglage",
             priority_field: "Priorité",
+            type_field: "Type",
+            reporter_field: "Demandeur",
             label_field: "Étiquette",
             manager_field: "Manager",
             repeat_interval_field: "Intervalle de répétition en jours",
@@ -138,6 +140,21 @@ export class TSLocalizations_fr {
                 },
                 description(id: string): string {
                     return `La tâche ${id} a été mise à jour et les données suivantes ont été modifiées.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Ticket ${id} créé`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Ticket ${id} mis à jour`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Ticket ${id} supprimé`;
                 }
             },
             project_created: {

@@ -82,6 +82,8 @@ export class TSLocalizations_bg {
             permission_field: "Право",
             preset_field: "Предварителна настройка",
             priority_field: "Приоритет",
+            type_field: "Тип",
+            reporter_field: "Подател",
             label_field: "Етикет",
             manager_field: "Мениджър",
             repeat_interval_field: "Интервал на повторение в дни",
@@ -138,6 +140,21 @@ export class TSLocalizations_bg {
                 },
                 description(id: string): string {
                     return `Задача ${id} беше актуализирана и бяха променени следните данни.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Билет ${id} създаден`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Билет ${id} актуализиран`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Билет ${id} изтрит`;
                 }
             },
             project_created: {

@@ -82,6 +82,8 @@ export class TSLocalizations_id {
             user_field: "Pengguna",
             preset_field: "Preset",
             priority_field: "Prioritas",
+            type_field: "Jenis",
+            reporter_field: "Pelapor",
             label_field: "Label",
             manager_field: "Manajer",
             repeat_interval_field: "Interval pengulangan dalam hari",
@@ -138,6 +140,21 @@ export class TSLocalizations_id {
                 },
                 description(id: string): string {
                     return `Tugas ${id} telah diperbarui dan data berikut telah diubah.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Tiket ${id} dibuat`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Tiket ${id} diperbarui`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Tiket ${id} dihapus`;
                 }
             },
             project_created: {

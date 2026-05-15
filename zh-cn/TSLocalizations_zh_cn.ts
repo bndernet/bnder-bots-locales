@@ -82,6 +82,8 @@ export class TSLocalizations_zh_cn {
             user_field: "用户",
             preset_field: "预设",
             priority_field: "优先级",
+            type_field: "类型",
+            reporter_field: "报告者",
             label_field: "标签",
             manager_field: "经理",
             repeat_interval_field: "重复间隔（天）",
@@ -138,6 +140,21 @@ export class TSLocalizations_zh_cn {
                 },
                 description(id: string): string {
                     return `任务 ${id} 已更新，以下数据已更改。`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `工单 ${id} 已创建`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `工单 ${id} 已更新`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `工单 ${id} 已删除`;
                 }
             },
             project_created: {

@@ -82,6 +82,8 @@ export class TSLocalizations_ru {
             permission_field: "Право",
             preset_field: "Предустановка",
             priority_field: "Приоритет",
+            type_field: "Тип",
+            reporter_field: "Заявитель",
             label_field: "Метка",
             manager_field: "Менеджер",
             repeat_interval_field: "Интервал повторения в днях",
@@ -138,6 +140,21 @@ export class TSLocalizations_ru {
                 },
                 description(id: string): string {
                     return `Задача ${id} была обновлена, и были изменены следующие данные.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Тикет ${id} создан`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Тикет ${id} обновлен`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Тикет ${id} удален`;
                 }
             },
             project_created: {

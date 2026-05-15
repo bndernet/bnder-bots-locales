@@ -82,6 +82,8 @@ export class TSLocalizations_hi {
             user_field: "उपयोगकर्ता",
             preset_field: "प्रीसेट",
             priority_field: "प्राथमिकता",
+            type_field: "प्रकार",
+            reporter_field: "रिपोर्टर",
             label_field: "लेबल",
             manager_field: "प्रबंधक",
             repeat_interval_field: "दिनों में अंतराल दोहराएँ",
@@ -138,6 +140,21 @@ export class TSLocalizations_hi {
                 },
                 description(id: string): string {
                     return `कार्य ${id} अद्यतन किया गया था और निम्नलिखित डेटा बदल दिया गया था।`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Ticket ${id} बनाया गया`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Ticket ${id} अपडेट किया गया`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Ticket ${id} हटाया गया`;
                 }
             },
             project_created: {

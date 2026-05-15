@@ -82,6 +82,8 @@ export class TSLocalizations_nl {
             user_field: "Gebruiker",
             preset_field: "Voorinstelling",
             priority_field: "Prioriteit",
+            type_field: "Type",
+            reporter_field: "Melder",
             label_field: "Label",
             manager_field: "Manager",
             repeat_interval_field: "Herhaalinterval in dagen",
@@ -138,6 +140,21 @@ export class TSLocalizations_nl {
                 },
                 description(id: string): string {
                     return `Taak ${id} is bijgewerkt en de volgende gegevens zijn gewijzigd.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Ticket ${id} aangemaakt`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Ticket ${id} bijgewerkt`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Ticket ${id} verwijderd`;
                 }
             },
             project_created: {

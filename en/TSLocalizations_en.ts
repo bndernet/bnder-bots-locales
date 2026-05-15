@@ -82,6 +82,8 @@ export class TSLocalizations_en {
             user_field: "User",
             preset_field: "Preset",
             priority_field: "Priority",
+            type_field: "Type",
+            reporter_field: "Reporter",
             label_field: "Label",
             manager_field: "Manager",
             repeat_interval_field: "Repeat interval in days",
@@ -138,6 +140,21 @@ export class TSLocalizations_en {
                 },
                 description(id: string): string {
                     return `Task ${id} was updated and the following data was changed.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Ticket ${id} created`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Ticket ${id} updated`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Ticket ${id} deleted`;
                 }
             },
             project_created: {

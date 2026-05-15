@@ -64,6 +64,8 @@ export interface TSLocalizationKeys {
         user_field: string,
         preset_field: string,
         priority_field: string,
+        type_field: string,
+        reporter_field: string,
         label_field: string,
         manager_field: string,
         repeat_interval_field: string,
@@ -89,6 +91,15 @@ export interface TSLocalizationKeys {
         task_updated: {
             title(id: string): string,
             description(id: string): string,
+        },
+        ticket_created: {
+            title(id: string): string,
+        },
+        ticket_updated: {
+            title(id: string): string,
+        },
+        ticket_deleted: {
+            title(id: string): string,
         },
         project_created: {
             title: string,

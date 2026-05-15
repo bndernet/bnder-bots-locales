@@ -82,6 +82,8 @@ export class TSLocalizations_tr {
             user_field: "Kullanıcı",
             preset_field: "Ön ayar",
             priority_field: "Öncelik",
+            type_field: "Tür",
+            reporter_field: "Bildiren",
             label_field: "Etiket",
             manager_field: "Yönetici",
             repeat_interval_field: "Gün cinsinden tekrar aralığı",
@@ -138,6 +140,21 @@ export class TSLocalizations_tr {
                 },
                 description(id: string): string {
                     return `Görev ${id} güncellendi ve aşağıdaki veriler değiştirildi.`;
+                }
+            },
+            ticket_created: {
+                title(id: string): string {
+                    return `Ticket ${id} oluşturuldu`;
+                }
+            },
+            ticket_updated: {
+                title(id: string): string {
+                    return `Ticket ${id} güncellendi`;
+                }
+            },
+            ticket_deleted: {
+                title(id: string): string {
+                    return `Ticket ${id} silindi`;
                 }
             },
             project_created: {
