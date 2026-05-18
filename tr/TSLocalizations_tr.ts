@@ -77,7 +77,6 @@ export class TSLocalizations_tr {
             text_field: "Metin",
             project_field: "Proje",
             topic_field: "Konu",
-            role_field: "Rol",
             permission_field: "İzin",
             user_field: "Kullanıcı",
             preset_field: "Ön ayar",

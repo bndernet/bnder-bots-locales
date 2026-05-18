@@ -77,7 +77,6 @@ export class TSLocalizations_zh_cn {
             project_field: "项目",
             topic_field: "主题",
             text_field: "文本",
-            role_field: "角色",
             permission_field: "权限",
             user_field: "用户",
             preset_field: "预设",

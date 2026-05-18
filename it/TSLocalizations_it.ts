@@ -77,7 +77,6 @@ export class TSLocalizations_it {
             project_field: "Progetto",
             topic_field: "Argomento",
             text_field: "Testo",
-            role_field: "Ruolo",
             permission_field: "Permesso",
             user_field: "Utente",
             preset_field: "Preset",

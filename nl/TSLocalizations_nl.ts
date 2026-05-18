@@ -77,7 +77,6 @@ export class TSLocalizations_nl {
             project_field: "Project",
             topic_field: "Onderwerp",
             text_field: "Tekst",
-            role_field: "Rol",
             permission_field: "Toestemming",
             user_field: "Gebruiker",
             preset_field: "Voorinstelling",

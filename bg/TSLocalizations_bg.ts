@@ -78,7 +78,6 @@ export class TSLocalizations_bg {
             topic_field: "Тема",
             text_field: "Текст",
             user_field: "Потребител",
-            role_field: "Роля",
             permission_field: "Право",
             preset_field: "Предварителна настройка",
             priority_field: "Приоритет",

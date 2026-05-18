@@ -77,7 +77,6 @@ export class TSLocalizations_id {
             project_field: "Proyek",
             topic_field: "Topik",
             text_field: "Teks",
-            role_field: "Peran",
             permission_field: "Izin",
             user_field: "Pengguna",
             preset_field: "Preset",

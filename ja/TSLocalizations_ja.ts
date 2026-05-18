@@ -77,7 +77,6 @@ export class TSLocalizations_ja {
             project_field: "プロジェクト",
             topic_field: "トピック",
             text_field: "テキスト",
-            role_field: "役職",
             permission_field: "権限",
             user_field: "ユーザー",
             preset_field: "プリセット",

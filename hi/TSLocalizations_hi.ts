@@ -77,7 +77,6 @@ export class TSLocalizations_hi {
             project_field: "परियोजना",
             topic_field: "विषय",
             text_field: "मूलपाठ",
-            role_field: "भूमिका",
             permission_field: "अनुमति",
             user_field: "उपयोगकर्ता",
             preset_field: "प्रीसेट",
