@@ -24,7 +24,19 @@
     "role_field": "角色",
     "invalid_preset": "预设 **{{preset}}** 无效。请使用以下之一：{{presets}}",
     "preset_used_user_project": "预设 **{{preset}}** 已应用于用户 <@{{user_id}}> 的项目 **{{project_name}}**。该用户现在拥有以下权限：{{permissions}}",
-    "preset_used_user": "预设 **{{preset}}** 已应用于用户 <@{{user_id}}> 的全局范围。该用户现在拥有以下权限：{{permissions}}"
+    "preset_used_user": "预设 **{{preset}}** 已应用于用户 <@{{user_id}}> 的全局范围。该用户现在拥有以下权限：{{permissions}}",
+    "target_required": "Choose a user or a Bnder People team.",
+    "one_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "granted_team": "The team **{{team}}** was granted the permission **{{permission}}** for the global scope.",
+    "granted_team_project": "The team **{{team}}** was granted the permission **{{permission}}** for the project **{{project_name}}**.",
+    "team_already_has_permission_global": "The team **{{team}}** already has the permission **{{permission}}** in the global scope.",
+    "team_already_has_permission_project": "The team **{{team}}** already has the permission **{{permission}}** for the project **{{project_name}}**.",
+    "revoked_team": "The permission **{{permission}}** was revoked from the team **{{team}}** for the global scope.",
+    "revoked_team_project": "The permission **{{permission}}** was revoked from the team **{{team}}** for the project **{{project_name}}**.",
+    "preset_used_team": "The preset **{{preset}}** was applied to the team **{{team}}** for the global scope. The team now has the following permissions: {{permissions}}",
+    "preset_used_team_project": "The preset **{{preset}}** was applied to the team **{{team}}** for the project **{{project_name}}**. The team now has the following permissions: {{permissions}}",
+    "user_already_has_permission_project": "<@{{user_id}}> already has the permission **{{permission}}** for the project **{{project_name}}**."
   },
   "project": {
     "project_name_default_exists": "项目名称不能为 **default**。请选择另一个名称。",
@@ -76,7 +88,7 @@
     "delete_cancel": "删除已取消。",
     "text_too_long": "文本太长。请将其缩短至 {{max}} 个字符。",
     "task_created": "任务已创建，ID 为 **{{task_id}}**，所属项目为 {{project_name}}。使用 \"/task info\" 查看任务的所有详细信息。",
-    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user to the task, or assign People teams in the web app.",
+    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user or People team to the task.",
     "delete_button": "删除任务",
     "cancel_button": "取消",
     "deletion_confirmation": "您确定要将任务 **{{task_id}}** 移至回收站吗（将在 {{delete_in_days}} 天后删除）？如果您选择立即删除，此操作无法撤销。",
@@ -297,7 +309,14 @@
       "placeholder_single_select": "选项：{{option_names}}",
       "placeholder_multi_select": "用逗号分隔：{{option_names}}",
       "placeholder_text": "输入值"
-    }
+    },
+    "assignee_target_required": "Choose a user or a Bnder People team.",
+    "one_assignee_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "already_assigned_team": "The task **{{id}}** is already assigned to the team **{{team}}**.",
+    "not_assigned_team": "The task **{{id}}** is not assigned to the team **{{team}}**.",
+    "task_assigned_team": "The task **{{id}}** {{title, length100}} was assigned to the team **{{team}}**. It will appear in the task list of active team members.",
+    "task_unassigned_team": "The team **{{team}}** was unassigned from task **{{id}}**."
   },
   "milestone": {
     "not_found": "无法找到里程碑 **{{name}}**。使用“/milestone list”列出所有里程碑。",

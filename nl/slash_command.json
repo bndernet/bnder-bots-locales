@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "Verleen, trek in of lijst permissies op",
     "permission_option_description": "Permissie om te verlenen of in te trekken",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "Beheer projecten",
@@ -70,7 +71,7 @@
     "command_description": "Beheer taken",
     "create_subcommand_description": "Maak een nieuwe taak aan",
     "unassign_subcommand_description": "Maak een taak los van een gebruiker/rol",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "Krijg informatie over een taak",
     "delete_subcommand_description": "Verwijder een taak",
     "todo_subcommand_description": "Markeer een taak als 'te doen'",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "Type relatie dat moet worden bewerkt",
     "relation_task_id_option_description": "ID van de gerelateerde taak",
     "status_subcommand_description": "Stel de status van een taak in",
-    "status_option_description": "Status om in te stellen voor de taak"
+    "status_option_description": "Status om in te stellen voor de taak",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "Beheer mijlpalen",

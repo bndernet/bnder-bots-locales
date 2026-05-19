@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "Attribue, retire et affiche toutes les autorisations",
     "permission_option_description": "Autorisation à accorder ou à retirer",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "Gérer les projets",
@@ -70,7 +71,7 @@
     "command_description": "Crée, modifie et supprime des tâches",
     "create_subcommand_description": "Crée une nouvelle tâche",
     "unassign_subcommand_description": "Retirer l'attribution d'une tâche",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "Affiche des informations sur une tâche",
     "delete_subcommand_description": "Supprimer une tâche",
     "todo_subcommand_description": "Marquer une tâche comme à faire",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "Type de relation à modifier",
     "relation_task_id_option_description": "ID de la tâche liée",
     "status_subcommand_description": "Définir le statut d'une tâche",
-    "status_option_description": "Statut à définir pour la tâche"
+    "status_option_description": "Statut à définir pour la tâche",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "Gérer les jalons",

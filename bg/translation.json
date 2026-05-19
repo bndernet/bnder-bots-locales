@@ -24,7 +24,19 @@
     "role_field": "Роля",
     "invalid_preset": "Предварителната настройка **{{preset}}** е невалидна. Моля, използвайте един от следните: {{presets}}",
     "preset_used_user_project": "Предварителната настройка **{{preset}}** е приложена към потребителя <@{{user_id}}> за проекта **{{project_name}}**. Потребителят вече има следните права: {{permissions}}",
-    "preset_used_user": "Предварителната настройка **{{preset}}** е приложена към потребителя <@{{user_id}}> за глобалния обхват. Потребителят вече има следните разрешения: {{permissions}}"
+    "preset_used_user": "Предварителната настройка **{{preset}}** е приложена към потребителя <@{{user_id}}> за глобалния обхват. Потребителят вече има следните разрешения: {{permissions}}",
+    "target_required": "Choose a user or a Bnder People team.",
+    "one_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "granted_team": "The team **{{team}}** was granted the permission **{{permission}}** for the global scope.",
+    "granted_team_project": "The team **{{team}}** was granted the permission **{{permission}}** for the project **{{project_name}}**.",
+    "team_already_has_permission_global": "The team **{{team}}** already has the permission **{{permission}}** in the global scope.",
+    "team_already_has_permission_project": "The team **{{team}}** already has the permission **{{permission}}** for the project **{{project_name}}**.",
+    "revoked_team": "The permission **{{permission}}** was revoked from the team **{{team}}** for the global scope.",
+    "revoked_team_project": "The permission **{{permission}}** was revoked from the team **{{team}}** for the project **{{project_name}}**.",
+    "preset_used_team": "The preset **{{preset}}** was applied to the team **{{team}}** for the global scope. The team now has the following permissions: {{permissions}}",
+    "preset_used_team_project": "The preset **{{preset}}** was applied to the team **{{team}}** for the project **{{project_name}}**. The team now has the following permissions: {{permissions}}",
+    "user_already_has_permission_project": "<@{{user_id}}> already has the permission **{{permission}}** for the project **{{project_name}}**."
   },
   "project": {
     "project_name_default_exists": "Името на проекта не може да бъде **default**. Моля, изберете друго име.",
@@ -76,7 +88,7 @@
     "delete_cancel": "Процесът на гасене е отменен.",
     "text_too_long": "Текстът е твърде дълъг. Моля, съкратете го до максимум {{max}} символа.",
     "task_created": "Задачата е създадена с id **{{task_id}}** в проекта {{project_name}}. Използвайте \"/task info\", за да видите всички подробности за задачата.",
-    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user to the task, or assign People teams in the web app.",
+    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user or People team to the task.",
     "delete_button": "Изтриване на задачата",
     "cancel_button": "Отмяна на",
     "deletion_confirmation": "Сигурни ли сте, че искате да преместите задачата **{{task_id}}** в кошчето (изтрива се след {{delete_in_days}} дни)? Ако изберете да изтриете задачата незабавно, действието не може да бъде върнато.",
@@ -297,7 +309,14 @@
       "placeholder_single_select": "Опции: {{option_names}}",
       "placeholder_multi_select": "Разделени със запетая: {{option_names}}",
       "placeholder_text": "Въведете стойност"
-    }
+    },
+    "assignee_target_required": "Choose a user or a Bnder People team.",
+    "one_assignee_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "already_assigned_team": "The task **{{id}}** is already assigned to the team **{{team}}**.",
+    "not_assigned_team": "The task **{{id}}** is not assigned to the team **{{team}}**.",
+    "task_assigned_team": "The task **{{id}}** {{title, length100}} was assigned to the team **{{team}}**. It will appear in the task list of active team members.",
+    "task_unassigned_team": "The team **{{team}}** was unassigned from task **{{id}}**."
   },
   "milestone": {
     "not_found": "Етапът **{{name}}** не може да бъде намерен. Използвайте \"/milestone list\", за да изведете всички крайъгълни камъни.",

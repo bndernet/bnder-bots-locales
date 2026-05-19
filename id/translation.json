@@ -24,7 +24,19 @@
     "role_field": "Peran",
     "invalid_preset": "Preset **{{preset}}** tidak valid. Silakan gunakan salah satu dari berikut ini: {{presets}}",
     "preset_used_user_project": "Preset **{{preset}}** diterapkan ke pengguna <@{{user_id}}> untuk proyek **{{project_name}}**. Pengguna sekarang memiliki izin berikut: {{permissions}}",
-    "preset_used_user": "Preset **{{preset}}** diterapkan ke pengguna <@{{user_id}}> untuk cakupan global. Pengguna sekarang memiliki izin berikut: {{permissions}}"
+    "preset_used_user": "Preset **{{preset}}** diterapkan ke pengguna <@{{user_id}}> untuk cakupan global. Pengguna sekarang memiliki izin berikut: {{permissions}}",
+    "target_required": "Choose a user or a Bnder People team.",
+    "one_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "granted_team": "The team **{{team}}** was granted the permission **{{permission}}** for the global scope.",
+    "granted_team_project": "The team **{{team}}** was granted the permission **{{permission}}** for the project **{{project_name}}**.",
+    "team_already_has_permission_global": "The team **{{team}}** already has the permission **{{permission}}** in the global scope.",
+    "team_already_has_permission_project": "The team **{{team}}** already has the permission **{{permission}}** for the project **{{project_name}}**.",
+    "revoked_team": "The permission **{{permission}}** was revoked from the team **{{team}}** for the global scope.",
+    "revoked_team_project": "The permission **{{permission}}** was revoked from the team **{{team}}** for the project **{{project_name}}**.",
+    "preset_used_team": "The preset **{{preset}}** was applied to the team **{{team}}** for the global scope. The team now has the following permissions: {{permissions}}",
+    "preset_used_team_project": "The preset **{{preset}}** was applied to the team **{{team}}** for the project **{{project_name}}**. The team now has the following permissions: {{permissions}}",
+    "user_already_has_permission_project": "<@{{user_id}}> already has the permission **{{permission}}** for the project **{{project_name}}**."
   },
   "project": {
     "project_name_default_exists": "Nama proyek tidak boleh **default**. Silakan pilih nama lain.",
@@ -76,7 +88,7 @@
     "delete_cancel": "Penghapusan dibatalkan.",
     "text_too_long": "Teks terlalu panjang. Silakan persingkat menjadi {{max}} karakter.",
     "task_created": "Tugas telah dibuat dengan id **{{task_id}}** di proyek {{project_name}}. Gunakan \"/task info\" untuk melihat semua detail tugas.",
-    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user to the task, or assign People teams in the web app.",
+    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user or People team to the task.",
     "delete_button": "Hapus tugas",
     "cancel_button": "Batal",
     "deletion_confirmation": "Apakah Anda yakin ingin memindahkan tugas **{{task_id}}** ke tempat sampah (akan dihapus setelah {{delete_in_days}} hari)? Jika Anda memilih untuk menghapus tugas secara instan, tindakan ini tidak dapat dibatalkan.",
@@ -297,7 +309,14 @@
       "placeholder_single_select": "Opsi: {{option_names}}",
       "placeholder_multi_select": "Dipisahkan koma: {{option_names}}",
       "placeholder_text": "Masukkan nilai"
-    }
+    },
+    "assignee_target_required": "Choose a user or a Bnder People team.",
+    "one_assignee_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "already_assigned_team": "The task **{{id}}** is already assigned to the team **{{team}}**.",
+    "not_assigned_team": "The task **{{id}}** is not assigned to the team **{{team}}**.",
+    "task_assigned_team": "The task **{{id}}** {{title, length100}} was assigned to the team **{{team}}**. It will appear in the task list of active team members.",
+    "task_unassigned_team": "The team **{{team}}** was unassigned from task **{{id}}**."
   },
   "milestone": {
     "not_found": "Milestone **{{name}}** tidak dapat ditemukan. Gunakan \"/milestone list\" untuk melihat semua milestone.",

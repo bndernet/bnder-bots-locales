@@ -24,7 +24,19 @@
     "role_field": "Role",
     "invalid_preset": "Le préréglage **{{preset}}** n'est pas valide. Veuillez utiliser l'un des éléments suivants : {{presets}}",
     "preset_used_user_project": "Le préréglage **{{preset}}** a été appliqué à l'utilisateur <@{{user_id}}> pour le projet **{{project_name}}**. L'utilisateur dispose désormais des autorisations suivantes : {{permissions}}",
-    "preset_used_user": "Le préréglage **{{preset}}** a été appliqué à l'utilisateur <@{{user_id}}> pour la portée globale. L'utilisateur dispose désormais des autorisations suivantes : {{permissions}}"
+    "preset_used_user": "Le préréglage **{{preset}}** a été appliqué à l'utilisateur <@{{user_id}}> pour la portée globale. L'utilisateur dispose désormais des autorisations suivantes : {{permissions}}",
+    "target_required": "Choose a user or a Bnder People team.",
+    "one_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "granted_team": "The team **{{team}}** was granted the permission **{{permission}}** for the global scope.",
+    "granted_team_project": "The team **{{team}}** was granted the permission **{{permission}}** for the project **{{project_name}}**.",
+    "team_already_has_permission_global": "The team **{{team}}** already has the permission **{{permission}}** in the global scope.",
+    "team_already_has_permission_project": "The team **{{team}}** already has the permission **{{permission}}** for the project **{{project_name}}**.",
+    "revoked_team": "The permission **{{permission}}** was revoked from the team **{{team}}** for the global scope.",
+    "revoked_team_project": "The permission **{{permission}}** was revoked from the team **{{team}}** for the project **{{project_name}}**.",
+    "preset_used_team": "The preset **{{preset}}** was applied to the team **{{team}}** for the global scope. The team now has the following permissions: {{permissions}}",
+    "preset_used_team_project": "The preset **{{preset}}** was applied to the team **{{team}}** for the project **{{project_name}}**. The team now has the following permissions: {{permissions}}",
+    "user_already_has_permission_project": "<@{{user_id}}> already has the permission **{{permission}}** for the project **{{project_name}}**."
   },
   "project": {
     "project_name_default_exists": "Le nom du projet ne peut pas être **default**. Veuillez choisir un autre nom.",
@@ -76,7 +88,7 @@
     "delete_cancel": "La procédure de suppression a été annulée.",
     "text_too_long": "Le texte est trop long. Veuillez le raccourcir à {{max}} maximum. caractères.",
     "task_created": "La tâche a été créée avec l'identifiant **{{task_id}}** dans le projet {{project_name}}. Utilisez \"/task info\" pour voir tous les détails de la tâche.",
-    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user to the task, or assign People teams in the web app.",
+    "task_created_no_assignee": "The task has been created with id **{{task_id}}** in the project {{project_name}}, but no assignee was set. Use `/task assign` to assign a user or People team to the task.",
     "delete_button": "Supprimer une tâche",
     "cancel_button": "Annuler",
     "deletion_confirmation": "Êtes-vous sûr de vouloir déplacer la tâche **{{task_id}}** dans la poubelle (elle est supprimée après {{delete_in_days}} jours) ? Si vous choisissez de supprimer la tâche instantanément, l'action ne peut pas être annulée.",
@@ -297,7 +309,14 @@
       "placeholder_single_select": "Options : {{option_names}}",
       "placeholder_multi_select": "Séparé par des virgules : {{option_names}}",
       "placeholder_text": "Saisissez une valeur"
-    }
+    },
+    "assignee_target_required": "Choose a user or a Bnder People team.",
+    "one_assignee_target_required": "Choose either a user or a team, not both.",
+    "team_not_found": "Team **{{team}}** was not found. Choose one of the autocomplete suggestions.",
+    "already_assigned_team": "The task **{{id}}** is already assigned to the team **{{team}}**.",
+    "not_assigned_team": "The task **{{id}}** is not assigned to the team **{{team}}**.",
+    "task_assigned_team": "The task **{{id}}** {{title, length100}} was assigned to the team **{{team}}**. It will appear in the task list of active team members.",
+    "task_unassigned_team": "The team **{{team}}** was unassigned from task **{{id}}**."
   },
   "milestone": {
     "not_found": "Le jalon **{{name}}** n'a pas pu être trouvé. Utilisez \"/milestone list\" pour lister tous les jalons.",

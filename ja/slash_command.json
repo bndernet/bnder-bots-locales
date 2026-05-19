@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "権限を付与、取り消し、または一覧表示する",
     "permission_option_description": "付与または取り消す権限",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "プロジェクトを管理する",
@@ -70,7 +71,7 @@
     "command_description": "タスクを管理する",
     "create_subcommand_description": "新しいタスクを作成する",
     "unassign_subcommand_description": "タスクの割り当てを解除する",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "タスクの情報を取得する",
     "delete_subcommand_description": "タスクを削除する",
     "todo_subcommand_description": "タスクを「やること」にマークする",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "編集する関係の種類",
     "relation_task_id_option_description": "関連するタスクのID",
     "status_subcommand_description": "タスクのステータスを設定する",
-    "status_option_description": "タスクに設定するステータス"
+    "status_option_description": "タスクに設定するステータス",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "マイルストーンを管理する",

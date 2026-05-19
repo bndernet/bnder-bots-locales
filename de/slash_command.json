@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "Vergebe, entferne und zeige alle Berechtigungen an",
     "permission_option_description": "Berechtigung die gewährt oder entzogen werden soll",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "Projekte verwalten",
@@ -70,7 +71,7 @@
     "command_description": "Erstelle, bearbeite und lösche Aufgaben",
     "create_subcommand_description": "Erstelle eine neue Aufgabe",
     "unassign_subcommand_description": "Entziehe einer Aufgabe die Zuweisung",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "Zeige Informationen zu einer Aufgabe an",
     "delete_subcommand_description": "Lösche eine Aufgabe",
     "todo_subcommand_description": "Markiere eine Aufgabe als unerledigt",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "Zu bearbeitender Beziehungstyp",
     "relation_task_id_option_description": "ID der verknüpften Aufgabe",
     "status_subcommand_description": "Status einer Aufgabe festlegen",
-    "status_option_description": "Für die Aufgabe festzulegender Status"
+    "status_option_description": "Für die Aufgabe festzulegender Status",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "Meilensteine verwalten",

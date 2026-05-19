@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "Przyznaj, cofnij lub wyświetl uprawnienia",
     "permission_option_description": "Uprawnienie do przyznania lub cofnięcia",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "Zarządzaj projektami",
@@ -70,7 +71,7 @@
     "command_description": "Zarządzaj zadaniami",
     "create_subcommand_description": "Utwórz nowe zadanie",
     "unassign_subcommand_description": "Odłącz zadanie",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "Uzyskaj informacje o zadaniu",
     "delete_subcommand_description": "Usuń zadanie",
     "todo_subcommand_description": "Oznacz zadanie jako do zrobienia",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "Typ relacji do edycji",
     "relation_task_id_option_description": "ID powiązanego zadania",
     "status_subcommand_description": "Ustaw status zadania",
-    "status_option_description": "Status do ustawienia dla zadania"
+    "status_option_description": "Status do ustawienia dla zadania",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "Zarządzaj kamieniami milowymi",

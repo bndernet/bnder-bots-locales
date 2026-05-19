@@ -45,12 +45,13 @@
   "permission": {
     "command_description": "अनुमतियाँ प्रदान करें, रद्द करें या सूचीबद्ध करें",
     "permission_option_description": "देने या रद्द करने की अनुमति",
-    "grant_subcommand_description": "Grant permission to a user",
-    "revoke_subcommand_description": "Revoke a permission from a user",
-    "list_subcommand_description": "List permissions for a user",
-    "preset_option_description": "Preset to apply to a user",
-    "preset_subcommand_description": "Apply a permission preset to a user",
-    "user_option_description": "User that gets the permission granted or revoked"
+    "grant_subcommand_description": "Grant permission to a user or team",
+    "revoke_subcommand_description": "Revoke a permission from a user or team",
+    "list_subcommand_description": "List permissions for a user or team",
+    "preset_option_description": "Preset to apply to a user or team",
+    "preset_subcommand_description": "Apply a permission preset to a user or team",
+    "user_option_description": "User principal",
+    "team_option_description": "People team principal"
   },
   "project": {
     "command_description": "प्रोजेक्ट प्रबंधित करें",
@@ -70,7 +71,7 @@
     "command_description": "कार्य प्रबंधित करें",
     "create_subcommand_description": "एक नया कार्य बनाएँ",
     "unassign_subcommand_description": "किसी कार्य को अनअसाइन करें",
-    "assign_subcommand_description": "Assign a task to a user",
+    "assign_subcommand_description": "Assign a task to a user or team",
     "info_subcommand_description": "किसी कार्य के बारे में जानकारी प्राप्त करें",
     "delete_subcommand_description": "कोई कार्य हटाएँ",
     "todo_subcommand_description": "किसी कार्य को कार्यान्वित के रूप में चिह्नित करें",
@@ -118,7 +119,8 @@
     "relation_type_option_description": "संपादित किया जाने वाला relationship प्रकार",
     "relation_task_id_option_description": "संबंधित कार्य की आईडी",
     "status_subcommand_description": "किसी कार्य की स्थिति सेट करें",
-    "status_option_description": "कार्य के लिए सेट की जाने वाली स्थिति"
+    "status_option_description": "कार्य के लिए सेट की जाने वाली स्थिति",
+    "team_option_description": "People team to assign the task to"
   },
   "milestone": {
     "command_description": "मील का पत्थर प्रबंधित करें",
