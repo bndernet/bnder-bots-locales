@@ -303,14 +303,19 @@ export class TSLocalizations_it {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Congratulazioni! Sei stato inserito in un posto pro nel spazio di lavoro [${guildName}](<https://discord.com/channels/${guildId}>). Ciò significa che ora hai accesso alle [funzionalità pro](<https://bnder.net/pricing>). Divertiti!`;
+            return `Ti è stato assegnato un posto a pagamento nel workspace [${guildName}](<https://discord.com/channels/${guildId}>). Ora hai accesso alle funzionalità incluse nel posto Starter o Pro che ti è stato assegnato.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `L’utente **${requesterUsername}** ha richiesto un posto Pro nel workspace [${guildName}](<https://discord.com/channels/${guildId}>). Se hai un posto Pro disponibile, puoi assegnarlo utilizzando il pulsante qui sotto. Se hai bisogno di altri posti Pro, visita [le impostazioni del tuo workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) per aggiornare il tuo abbonamento.`;
+            return `L’utente **${requesterUsername}** ha richiesto un posto a pagamento nel workspace [${guildName}](<https://discord.com/channels/${guildId}>). Gli admin del workspace possono assegnare qualsiasi posto Starter o Pro non assegnato usando il pulsante qui sotto. Se il workspace ha bisogno di altri posti, apri [le impostazioni del workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) per acquistare posti.`;
         },
-        request_pro_seat_button_label: "Assegna posto Pro",
+        request_pro_seat_button_label: "Assegna posto a pagamento",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Azione richiesta: Pagamento non riuscito per l'abbonamento Pro\nNon siamo riusciti a elaborare il pagamento per uno o più utenti Pro su [${guildName}](<https://discord.com/channels/${guildId}>). Per evitare di perdere l'accesso alle funzionalità Pro, [aggiorna le tue informazioni di pagamento e paga la fattura ora](<${customerPortalLink}>).\n\nLe tue funzionalità Pro verranno disattivate a breve se non interverrai.\n\nHai bisogno di aiuto? [Contatta l'assistenza](https://bnder.net/discord) — siamo qui per te.`;
+            return `# 🚨 Azione richiesta: pagamento non riuscito per una sottoscrizione di posti a pagamento
+Non siamo riusciti a elaborare il pagamento di uno o più posti Starter o Pro in [${guildName}](<https://discord.com/channels/${guildId}>). Per evitare di perdere l’accesso legato ai posti a pagamento, [aggiorna le informazioni di pagamento e paga subito la fattura](<${customerPortalLink}>).
+
+I posti a pagamento interessati smetteranno presto di contribuire se non intervieni.
+
+Hai bisogno di aiuto? [Contatta il supporto](https://bnder.net/discord) — siamo qui per te.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_it {
                 text: "Abbiamo preparato i tuoi dati per il download. Puoi accedervi nell'app. Il link per il download sarà disponibile per due settimane.",
             },
             payment_failed: {
-                headline: "🚨 Azione necessaria: Pagamento dell’abbonamento Pro non riuscito",
+                headline: "🚨 Azione richiesta: pagamento non riuscito per una sottoscrizione di posti a pagamento",
                 text(guildName: string): string {
-                    return `Non siamo riusciti a elaborare il pagamento per uno o più posti Pro su ${guildName}. Per evitare di perdere l’accesso alle funzionalità Pro, aggiorna subito le tue informazioni di pagamento e paga la fattura. Le tue funzionalità Pro verranno presto disabilitate se non agisci. Hai bisogno di aiuto? Contatta il supporto — siamo qui per te.`;
+                    return `Non siamo riusciti a elaborare il pagamento di uno o più posti Starter o Pro in ${guildName}. Per evitare di perdere l’accesso legato ai posti a pagamento, aggiorna le informazioni di pagamento e paga subito la fattura. I posti a pagamento interessati smetteranno presto di contribuire se non intervieni. Hai bisogno di aiuto? Contatta il supporto — siamo qui per te.`;
                 },
                 primaryActionText: "Aggiorna informazioni di pagamento"
             },

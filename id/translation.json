@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Anda tidak memiliki seat berbayar di workspace ini. [Upgrade ke Starter atau Pro](<https://bnder.net/p/{{guildId}}>). Pelajari lebih lanjut tentang seat berbayar di https://bnder.net/pricing.",
+    "no_pro_seats_available": "Workspace ini belum memiliki seat berbayar. [Upgrade ke Starter atau Pro](<https://bnder.net/p/{{guildId}}>). Admin workspace dapat menggabungkan seat dari beberapa pembayar. Pelajari lebih lanjut tentang seat berbayar di https://bnder.net/pricing.",
     "user_already_has_pro_seat": "Pengguna <@{{userId}}> sudah memiliki kursi berbayar di workspace ini.",
-    "not_enough_pro_seats": "Anda tidak memiliki cukup kursi berbayar untuk memberikannya kepada <@{{userId}}>. Bebaskan satu kursi berbayar atau [upgrade ke lebih banyak kursi](<https://bnder.net/p/{{guildId}}>). Pelajari lebih lanjut tentang kursi berbayar di https://bnder.net/pricing.",
-    "pro_seat_granted": "Pengguna <@{{userId}}> telah diberi kursi berbayar di workspace ini. Sekarang mereka memiliki akses ke semua fitur yang termasuk dalam paket berbayar workspace Anda saat ini."
+    "not_enough_pro_seats": "Workspace ini tidak memiliki seat berbayar yang belum ditetapkan untuk <@{{userId}}>. Kosongkan seat berbayar atau [beli lebih banyak seat](<https://bnder.net/p/{{guildId}}>). Admin workspace dapat menetapkan seat gabungan dari pembayar mana pun. Pelajari lebih lanjut tentang seat berbayar di https://bnder.net/pricing.",
+    "pro_seat_granted": "Pengguna <@{{userId}}> telah diberi seat berbayar di workspace ini. Sekarang mereka memiliki akses ke fitur yang termasuk dalam seat Starter atau Pro yang ditetapkan."
   },
   "booking": {
     "links_link_app": "Kelola di aplikasi"

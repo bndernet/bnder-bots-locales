@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "इस कार्यक्षेत्र में आपके पास कोई भुगतान वाली सीट नहीं है। [Starter या Pro पर अपग्रेड करें](<https://bnder.net/p/{{guildId}}>). भुगतान वाली सीटों के बारे में अधिक जानें: https://bnder.net/pricing.",
+    "no_pro_seats_available": "इस workspace में अभी कोई paid seat नहीं है। [Starter या Pro पर अपग्रेड करें](<https://bnder.net/p/{{guildId}}>). Workspace admins कई payers से seats pool कर सकते हैं। Paid seats के बारे में अधिक जानें: https://bnder.net/pricing.",
     "user_already_has_pro_seat": "यूज़र <@{{userId}}> के पास इस कार्यक्षेत्र में पहले से ही एक भुगतान वाली सीट है।",
-    "not_enough_pro_seats": "<@{{userId}}> को देने के लिए आपके पास पर्याप्त भुगतान वाली सीटें नहीं हैं। एक भुगतान वाली सीट खाली करें या [और सीटों पर अपग्रेड करें](<https://bnder.net/p/{{guildId}}>). भुगतान वाली सीटों के बारे में अधिक जानें: https://bnder.net/pricing.",
-    "pro_seat_granted": "यूज़र <@{{userId}}> को इस कार्यक्षेत्र में एक भुगतान वाली सीट दे दी गई है। अब उसे आपके कार्यक्षेत्र की मौजूदा भुगतान योजना में शामिल सभी सुविधाएँ मिलेंगी।"
+    "not_enough_pro_seats": "इस workspace में <@{{userId}}> के लिए कोई unassigned paid seat उपलब्ध नहीं है। कोई paid seat खाली करें या [और seats खरीदें](<https://bnder.net/p/{{guildId}}>). Workspace admins किसी भी payer से pooled seats assign कर सकते हैं। Paid seats के बारे में अधिक जानें: https://bnder.net/pricing.",
+    "pro_seat_granted": "यूज़र <@{{userId}}> को इस workspace में paid seat assign कर दी गई है। अब उन्हें assigned Starter या Pro seat में शामिल सुविधाएँ मिलेंगी।"
   },
   "booking": {
     "links_link_app": "ऐप में प्रबंधित करें"

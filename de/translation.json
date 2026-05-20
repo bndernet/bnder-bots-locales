@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Du hast keine bezahlten Sitze in diesem Workspace. [Upgrade bitte auf Starter oder Pro](<https://bnder.net/p/{{guildId}}>). Mehr über bezahlte Sitze erfährst du unter https://bnder.net/pricing.",
+    "no_pro_seats_available": "Dieser Workspace hat noch keine bezahlten Sitze. [Upgrade auf Starter oder Pro](<https://bnder.net/p/{{guildId}}>). Workspace-Admins können Sitze von mehreren Zahlenden bündeln. Mehr über bezahlte Sitze erfährst du unter https://bnder.net/pricing.",
     "user_already_has_pro_seat": "Der Benutzer <@{{userId}}> hat bereits einen bezahlten Sitz in diesem Workspace.",
-    "not_enough_pro_seats": "Du hast nicht genügend bezahlte Sitze verfügbar, um einen an <@{{userId}}> zu vergeben. Bitte gib einen bezahlten Sitz frei oder [upgrade auf mehr Sitze](<https://bnder.net/p/{{guildId}}>). Mehr über bezahlte Sitze erfährst du unter https://bnder.net/pricing.",
-    "pro_seat_granted": "Dem Benutzer <@{{userId}}> wurde ein bezahlter Sitz in diesem Workspace zugewiesen. Er hat jetzt Zugriff auf alle Funktionen, die im aktuellen bezahlten Plan deines Workspaces enthalten sind."
+    "not_enough_pro_seats": "Dieser Workspace hat keine freien bezahlten Sitze für <@{{userId}}> verfügbar. Gib einen bezahlten Sitz frei oder [kaufe weitere Sitze](<https://bnder.net/p/{{guildId}}>). Workspace-Admins können gebündelte Sitze von jedem Zahlenden zuweisen. Mehr über bezahlte Sitze erfährst du unter https://bnder.net/pricing.",
+    "pro_seat_granted": "Dem Benutzer <@{{userId}}> wurde in diesem Workspace ein bezahlter Sitz zugewiesen. Die Person hat jetzt Zugriff auf die Funktionen, die in ihrem zugewiesenen Starter- oder Pro-Sitz enthalten sind."
   },
   "booking": {
     "links_link_app": "In der App verwalten"

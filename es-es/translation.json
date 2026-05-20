@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "No tienes asientos de pago en este espacio de trabajo. [Actualiza a Starter o Pro](<https://bnder.net/p/{{guildId}}>). Más información sobre los asientos de pago en https://bnder.net/pricing.",
+    "no_pro_seats_available": "Este espacio de trabajo aún no tiene asientos de pago. [Actualiza a Starter o Pro](<https://bnder.net/p/{{guildId}}>). Los administradores pueden agrupar asientos de varios pagadores. Más información sobre los asientos de pago en https://bnder.net/pricing.",
     "user_already_has_pro_seat": "El usuario <@{{userId}}> ya tiene un asiento de pago en este espacio de trabajo.",
-    "not_enough_pro_seats": "No tienes suficientes asientos de pago para asignar uno a <@{{userId}}>. Libera un asiento de pago o [actualiza a más asientos](<https://bnder.net/p/{{guildId}}>). Más información sobre los asientos de pago en https://bnder.net/pricing.",
-    "pro_seat_granted": "Se ha asignado un asiento de pago al usuario <@{{userId}}> en este espacio de trabajo. Ahora tiene acceso a todas las funciones incluidas en el plan de pago actual del espacio de trabajo."
+    "not_enough_pro_seats": "Este espacio de trabajo no tiene asientos de pago sin asignar disponibles para <@{{userId}}>. Libera un asiento de pago o [compra más asientos](<https://bnder.net/p/{{guildId}}>). Los administradores pueden asignar asientos agrupados de cualquier pagador. Más información sobre los asientos de pago en https://bnder.net/pricing.",
+    "pro_seat_granted": "Se ha asignado un asiento de pago al usuario <@{{userId}}> en este espacio de trabajo. Ahora tiene acceso a las funciones incluidas en su asiento Starter o Pro asignado."
   },
   "booking": {
     "links_link_app": "Gestionar en la app"

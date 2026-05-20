@@ -303,14 +303,19 @@ export class TSLocalizations_id {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Selamat! Anda telah ditempatkan di Pro Seat pada workspace [${guildName}](<https://discord.com/channels/${guildId}>). Ini berarti Anda sekarang memiliki akses ke [fitur Pro](<https://bnder.net/pricing>). Selamat menikmati!`;
+            return `Anda telah diberi seat berbayar di workspace [${guildName}](<https://discord.com/channels/${guildId}>). Sekarang Anda memiliki akses ke fitur yang termasuk dalam seat Starter atau Pro yang ditetapkan untuk Anda.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `Pengguna **${requesterUsername}** telah meminta Pro Seat di workspace [${guildName}](<https://discord.com/channels/${guildId}>). Jika Anda memiliki Pro Seat yang tersedia, Anda dapat memberikannya kepada mereka menggunakan tombol di bawah ini. Jika Anda membutuhkan lebih banyak Pro Seat, silakan kunjungi [pengaturan workspace Anda](<https://bnder.net/app/settings/${guildId}/default?tab=1>) untuk meng-upgrade langganan Anda.`;
+            return `Pengguna **${requesterUsername}** meminta seat berbayar di workspace [${guildName}](<https://discord.com/channels/${guildId}>). Admin workspace dapat menetapkan seat Starter atau Pro mana pun yang belum ditetapkan menggunakan tombol di bawah. Jika workspace membutuhkan lebih banyak seat, buka [pengaturan workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) untuk membeli seat.`;
         },
-        request_pro_seat_button_label: "Berikan Pro Seat",
+        request_pro_seat_button_label: "Tetapkan seat berbayar",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Tindakan Diperlukan: Pembayaran Gagal untuk Langganan Pro\nKami tidak dapat memproses pembayaran untuk satu atau beberapa Pro Seat di [${guildName}](<https://discord.com/channels/${guildId}>). Untuk menghindari kehilangan akses ke fitur Pro, silakan [perbarui info pembayaran Anda dan bayar invoice sekarang](<${customerPortalLink}>).\n\nFitur Pro Anda akan segera dinonaktifkan jika tidak ada tindakan.\n\nButuh bantuan? [Hubungi dukungan](https://bnder.net/discord) — kami siap membantu.`;
+            return `# 🚨 Perlu tindakan: pembayaran langganan seat berbayar gagal
+Kami tidak dapat memproses pembayaran untuk satu atau lebih seat Starter atau Pro di [${guildName}](<https://discord.com/channels/${guildId}>). Agar akses seat berbayar tidak hilang, [perbarui info pembayaran dan bayar invoice sekarang](<${customerPortalLink}>).
+
+Seat berbayar yang terdampak akan segera berhenti dihitung jika tidak ada tindakan.
+
+Butuh bantuan? [Hubungi dukungan](https://bnder.net/discord) — kami siap membantu.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_id {
                 text: "Kami telah menyiapkan data Anda untuk diunduh. Anda dapat mengaksesnya di aplikasi. Tautan unduhan tersedia selama dua minggu.",
             },
             payment_failed: {
-                headline: "🚨 Tindakan Diperlukan: Pembayaran Gagal untuk Langganan Pro",
+                headline: "🚨 Perlu tindakan: pembayaran langganan seat berbayar gagal",
                 text(guildName: string): string {
-                    return `Kami tidak dapat memproses pembayaran untuk satu atau beberapa Pro Seat di ${guildName}. Untuk menghindari kehilangan akses ke fitur Pro, silakan perbarui info pembayaran Anda dan bayar invoice sekarang. Fitur Pro Anda akan segera dinonaktifkan jika tidak ada tindakan. Butuh bantuan? Hubungi dukungan — kami siap membantu.`;
+                    return `Kami tidak dapat memproses pembayaran untuk satu atau lebih seat Starter atau Pro di ${guildName}. Agar akses seat berbayar tidak hilang, perbarui info pembayaran dan bayar invoice sekarang. Seat berbayar yang terdampak akan segera berhenti dihitung jika tidak ada tindakan. Butuh bantuan? Hubungi dukungan — kami siap membantu.`;
                 },
                 primaryActionText: "Perbarui Info Pembayaran"
             },

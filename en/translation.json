@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "You don't have any paid seats in this workspace. [Please upgrade to Starter or Pro](<https://bnder.net/p/{{guildId}}>). Learn more about paid seats at https://bnder.net/pricing.",
+    "no_pro_seats_available": "This workspace doesn’t have any paid seats yet. [Upgrade to Starter or Pro](<https://bnder.net/p/{{guildId}}>). Workspace admins can pool seats from multiple payers. Learn more about paid seats at https://bnder.net/pricing.",
     "user_already_has_pro_seat": "The user <@{{userId}}> already has a paid seat in this workspace.",
-    "not_enough_pro_seats": "You don't have enough paid seats available to grant one to <@{{userId}}>. Please free up a paid seat or [upgrade to more seats](<https://bnder.net/p/{{guildId}}>). Learn more about paid seats at https://bnder.net/pricing.",
-    "pro_seat_granted": "The user <@{{userId}}> has been granted a paid seat in this workspace. They now have access to all features included in your workspace's current paid plan."
+    "not_enough_pro_seats": "This workspace doesn’t have any unassigned paid seats available for <@{{userId}}>. Free up a paid seat or [buy more seats](<https://bnder.net/p/{{guildId}}>). Workspace admins can assign pooled seats from any payer. Learn more about paid seats at https://bnder.net/pricing.",
+    "pro_seat_granted": "The user <@{{userId}}> has been assigned a paid seat in this workspace. They now have access to the features included in their assigned Starter or Pro seat."
   },
   "booking": {
     "links_link_app": "Manage in app"

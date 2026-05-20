@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Nie masz płatnych miejsc w tym workspace. [Przejdź na Starter lub Pro](<https://bnder.net/p/{{guildId}}>). Więcej o płatnych miejscach: https://bnder.net/pricing.",
+    "no_pro_seats_available": "Ta przestrzeń robocza nie ma jeszcze płatnych miejsc. [Przejdź na Starter lub Pro](<https://bnder.net/p/{{guildId}}>). Administratorzy mogą łączyć miejsca od wielu płatników. Więcej o płatnych miejscach: https://bnder.net/pricing.",
     "user_already_has_pro_seat": "Użytkownik <@{{userId}}> ma już płatne miejsce w tym workspace.",
-    "not_enough_pro_seats": "Nie masz wystarczającej liczby płatnych miejsc, aby przyznać jedno użytkownikowi <@{{userId}}>. Zwolnij płatne miejsce lub [przejdź na więcej miejsc](<https://bnder.net/p/{{guildId}}>). Więcej o płatnych miejscach: https://bnder.net/pricing.",
-    "pro_seat_granted": "Użytkownik <@{{userId}}> otrzymał płatne miejsce w tym workspace. Ma teraz dostęp do wszystkich funkcji z obecnego płatnego planu workspace."
+    "not_enough_pro_seats": "Ta przestrzeń robocza nie ma wolnych płatnych miejsc dla <@{{userId}}>. Zwolnij płatne miejsce lub [kup więcej miejsc](<https://bnder.net/p/{{guildId}}>). Administratorzy mogą przydzielać połączone miejsca od dowolnego płatnika. Więcej o płatnych miejscach: https://bnder.net/pricing.",
+    "pro_seat_granted": "Użytkownik <@{{userId}}> otrzymał płatne miejsce w tej przestrzeni roboczej. Ma teraz dostęp do funkcji zawartych w przydzielonym miejscu Starter lub Pro."
   },
   "booking": {
     "links_link_app": "Zarządzaj w aplikacji"

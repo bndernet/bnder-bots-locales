@@ -303,14 +303,19 @@ export class TSLocalizations_hi {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `बधाई हो! आपको सर्वर [${guildName}](<https://discord.com/channels/${guildId}>) में प्रो सीट पर रखा गया है। इसका मतलब है कि अब आपके पास [प्रो फीचर्स](<https://bnder.net/pricing>) तक पहुँच है। आनंद लें!`;
+            return `आपको workspace [${guildName}](<https://discord.com/channels/${guildId}>) में एक paid seat दिया गया है। अब आपको अपने assigned Starter या Pro seat में शामिल सुविधाएँ मिलेंगी।`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `उपयोगकर्ता **${requesterUsername}** ने workspace [${guildName}](<https://discord.com/channels/${guildId}>) में एक Pro सीट का अनुरोध किया है। यदि आपके पास कोई उपलब्ध Pro सीट है, तो आप नीचे दिए गए बटन का उपयोग करके उसे प्रदान कर सकते हैं। यदि आपको और Pro सीटों की आवश्यकता है, तो अपनी सदस्यता अपग्रेड करने के लिए [अपने workspace की सेटिंग्स](<https://bnder.net/app/settings/${guildId}/default?tab=1>) पर जाएँ।`;
+            return `यूज़र **${requesterUsername}** ने workspace [${guildName}](<https://discord.com/channels/${guildId}>) में paid seat मांगा है। Workspace admins नीचे दिए गए बटन से कोई भी unassigned Starter या Pro seat assign कर सकते हैं। अगर workspace को और seats चाहिए, तो seats खरीदने के लिए [workspace settings](<https://bnder.net/app/settings/${guildId}/default?tab=1>) खोलें।`;
         },
-        request_pro_seat_button_label: "Pro सीट प्रदान करें",
+        request_pro_seat_button_label: "Paid seat assign करें",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 कार्रवाई की आवश्यकता: प्रो सदस्यता के लिए भुगतान विफल\nहम [${guildName}](<https://discord.com/channels/${guildId}>) पर एक या अधिक प्रो सीटों के लिए भुगतान संसाधित नहीं कर सके। प्रो सुविधाओं तक पहुँच खोने से बचने के लिए, कृपया [अपनी भुगतान जानकारी अपडेट करें और अपना चालान अभी भुगतान करें](<${customerPortalLink}>).\n\nयदि कोई कार्रवाई नहीं की जाती है, तो आपकी प्रो सुविधाएँ जल्द ही अक्षम कर दी जाएँगी.\n\nमदद चाहिए? [सहायता से संपर्क करें](https://bnder.net/discord) — हम आपकी मदद के लिए यहाँ हैं।`;
+            return `# 🚨 कार्रवाई आवश्यक: paid seat subscription का भुगतान विफल रहा
+हम [${guildName}](<https://discord.com/channels/${guildId}>) पर एक या अधिक Starter या Pro seats का भुगतान प्रोसेस नहीं कर सके। Paid-seat access खोने से बचने के लिए कृपया [अपनी payment info अपडेट करें और invoice अभी pay करें](<${customerPortalLink}>).
+
+कोई कार्रवाई न होने पर प्रभावित paid seats जल्द ही count होना बंद कर देंगी।
+
+मदद चाहिए? [Support से संपर्क करें](https://bnder.net/discord) — हम मदद के लिए हैं।`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_hi {
                 text: "हमने आपका डेटा डाउनलोड के लिए तैयार कर लिया है। आप इसे ऐप में एक्सेस कर सकते हैं। डाउनलोड लिंक दो हफ्तों तक उपलब्ध रहेगा।",
             },
             payment_failed: {
-                headline: "🚨 कार्रवाई आवश्यक: प्रो सब्सक्रिप्शन के लिए भुगतान विफल",
+                headline: "🚨 कार्रवाई आवश्यक: paid seat subscription का भुगतान विफल रहा",
                 text(guildName: string): string {
-                    return `हम ${guildName} पर एक या एक से ज़्यादा प्रो सीटों का भुगतान संसाधित नहीं कर सके। प्रो सुविधाओं तक पहुँच खोने से बचने के लिए, कृपया अपनी भुगतान जानकारी अपडेट करें और अभी अपना इनवॉइस भुगतान करें। अगर कोई कार्रवाई नहीं की गई, तो आपकी प्रो सुविधाएँ जल्द ही बंद कर दी जाएँगी। मदद चाहिए? सहायता टीम से संपर्क करें — हम आपकी मदद के लिए मौजूद हैं।`;
+                    return `हम ${guildName} पर एक या अधिक Starter या Pro seats का भुगतान प्रोसेस नहीं कर सके। Paid-seat access खोने से बचने के लिए अपनी payment info अपडेट करें और invoice अभी pay करें। कोई कार्रवाई न होने पर प्रभावित paid seats जल्द ही count होना बंद कर देंगी। मदद चाहिए? Support से संपर्क करें — हम मदद के लिए हैं।`;
                 },
                 primaryActionText: "भुगतान जानकारी अपडेट करें"
             },

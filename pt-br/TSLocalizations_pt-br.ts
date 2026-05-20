@@ -303,14 +303,19 @@ export class TSLocalizations_pt_br {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Parabéns! Você foi colocado em um assento profissional no espaço de trabalho [${guildName}](<https://discord.com/channels/${guildId}>). Isso significa que agora você tem acesso a [recursos profissionais](<https://bnder.net/pricing>). Aproveite!`;
+            return `Você recebeu um assento pago no workspace [${guildName}](<https://discord.com/channels/${guildId}>). Agora você tem acesso aos recursos incluídos no assento Starter ou Pro atribuído a você.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `O usuário **${requesterUsername}** solicitou um assento Pro no workspace [${guildName}](<https://discord.com/channels/${guildId}>). Se você tiver um assento Pro disponível, poderá concedê-lo usando o botão abaixo. Caso precise de mais assentos Pro, visite [as configurações do seu workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) para fazer upgrade da assinatura.`;
+            return `O usuário **${requesterUsername}** solicitou um assento pago no workspace [${guildName}](<https://discord.com/channels/${guildId}>). Administradores do workspace podem atribuir qualquer assento Starter ou Pro não atribuído usando o botão abaixo. Se o workspace precisar de mais assentos, abra [as configurações do workspace](<https://bnder.net/app/settings/${guildId}/default?tab=1>) para comprar assentos.`;
         },
-        request_pro_seat_button_label: "Conceder assento Pro",
+        request_pro_seat_button_label: "Atribuir assento pago",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Ação necessária: Falha no pagamento da assinatura Pro\nNão foi possível processar o pagamento de uma ou mais assinaturas Pro em [${guildName}](<https://discord.com/channels/${guildId}>). Para evitar perder o acesso aos recursos Pro, [atualize suas informações de pagamento e pague sua fatura agora](<${customerPortalLink}>).\n\nSeus recursos Pro serão desativados em breve se nenhuma ação for tomada.\n\nPrecisa de ajuda? [Entre em contato com o suporte](https://bnder.net/discord) — estamos aqui para ajudar.`;
+            return `# 🚨 Ação necessária: falha no pagamento de assinatura de assentos pagos
+Não conseguimos processar o pagamento de um ou mais assentos Starter ou Pro em [${guildName}](<https://discord.com/channels/${guildId}>). Para evitar perder o acesso dos assentos pagos, [atualize suas informações de pagamento e pague a fatura agora](<${customerPortalLink}>).
+
+Os assentos pagos afetados deixarão de contar em breve se nenhuma ação for tomada.
+
+Precisa de ajuda? [Fale com o suporte](https://bnder.net/discord) — estamos aqui para ajudar.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_pt_br {
                 text: "Preparamos seus dados para download. Você pode acessá-los no app. O link para download estará disponível por duas semanas.",
             },
             payment_failed: {
-                headline: "🚨 Ação necessária: Falha no pagamento da assinatura Pro",
+                headline: "🚨 Ação necessária: falha no pagamento de assinatura de assentos pagos",
                 text(guildName: string): string {
-                    return `Não conseguimos processar o pagamento de um ou mais assentos Pro em ${guildName}. Para evitar perder acesso aos recursos Pro, atualize suas informações de pagamento e pague sua fatura agora. Seus recursos Pro serão desativados em breve se nenhuma ação for tomada. Precisa de ajuda? Contate o suporte — estamos aqui para você.`;
+                    return `Não conseguimos processar o pagamento de um ou mais assentos Starter ou Pro em ${guildName}. Para evitar perder o acesso dos assentos pagos, atualize suas informações de pagamento e pague a fatura agora. Os assentos pagos afetados deixarão de contar em breve se nenhuma ação for tomada. Precisa de ajuda? Fale com o suporte — estamos aqui para ajudar.`;
                 },
                 primaryActionText: "Atualizar informações de pagamento"
             },

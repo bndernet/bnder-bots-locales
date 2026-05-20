@@ -303,14 +303,19 @@ export class TSLocalizations_es_es {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `¡Felicitaciones! Has conseguido un puesto pro en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>). Esto significa que ahora tienes acceso a las [funciones pro](<https://bnder.net/pricing>). ¡Que lo disfrutes!`;
+            return `Se te ha asignado un asiento de pago en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>). Ahora tienes acceso a las funciones incluidas en tu asiento Starter o Pro asignado.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `El usuario **${requesterUsername}** ha solicitado un asiento Pro en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>). Si tienes un asiento Pro disponible, puedes concedérselo usando el botón de abajo. Si necesitas más asientos Pro, visita [la configuración de tu espacio de trabajo](<https://bnder.net/app/settings/${guildId}/default?tab=1>) para actualizar tu suscripción.`;
+            return `El usuario **${requesterUsername}** ha solicitado un asiento de pago en el espacio de trabajo [${guildName}](<https://discord.com/channels/${guildId}>). Los administradores del espacio de trabajo pueden asignar cualquier asiento Starter o Pro sin asignar con el botón de abajo. Si el espacio de trabajo necesita más asientos, abre [la configuración del espacio de trabajo](<https://bnder.net/app/settings/${guildId}/default?tab=1>) para comprar asientos.`;
         },
-        request_pro_seat_button_label: "Conceder asiento Pro",
+        request_pro_seat_button_label: "Asignar asiento de pago",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Acción necesaria: Error en el pago de la suscripción Pro\nNo pudimos procesar el pago de una o más suscripciones Pro en [${guildName}](<https://discord.com/channels/${guildId}>). Para evitar perder el acceso a las funciones Pro, [actualiza tu información de pago y paga tu factura ahora](<${customerPortalLink}>).\n\nTus funciones Pro se desactivarán pronto si no realizas ninguna acción.\n\n¿Necesitas ayuda? [Contacta con soporte técnico](https://bnder.net/discord). Estamos aquí para ayudarte.`;
+            return `# 🚨 Acción necesaria: error en el pago de una suscripción de asientos de pago
+No pudimos procesar el pago de uno o más asientos Starter o Pro en [${guildName}](<https://discord.com/channels/${guildId}>). Para evitar perder el acceso de los asientos de pago, [actualiza tu información de pago y paga la factura ahora](<${customerPortalLink}>).
+
+Los asientos de pago afectados dejarán de contar pronto si no haces nada.
+
+¿Necesitas ayuda? [Contacta con soporte](https://bnder.net/discord) — estamos aquí para ayudarte.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_es_es {
                 text: "Hemos preparado tus datos para su descarga. Puedes acceder a ellos en la aplicación. El enlace de descarga estará disponible durante dos semanas.",
             },
             payment_failed: {
-                headline: "🚨 Acción necesaria: Falló el pago de la suscripción Pro",
+                headline: "🚨 Acción necesaria: error en el pago de una suscripción de asientos de pago",
                 text(guildName: string): string {
-                    return `No pudimos procesar el pago de uno o más asientos Pro en ${guildName}. Para evitar perder acceso a las funciones Pro, actualiza tu información de pago y paga tu factura ahora. Tus funciones Pro se desactivarán pronto si no se toma ninguna acción. ¿Necesitas ayuda? Contacta con soporte — estamos aquí para ti.`;
+                    return `No pudimos procesar el pago de uno o más asientos Starter o Pro en ${guildName}. Para evitar perder el acceso de los asientos de pago, actualiza tu información de pago y paga la factura ahora. Los asientos de pago afectados dejarán de contar pronto si no haces nada. ¿Necesitas ayuda? Contacta con soporte — estamos aquí para ayudarte.`;
                 },
                 primaryActionText: "Actualizar información de pago"
             },

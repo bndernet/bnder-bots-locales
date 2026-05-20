@@ -303,14 +303,19 @@ export class TSLocalizations_de {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Herzlichen Glückwunsch! Sie haben einen Pro-Platz auf dem Arbeitsbereich [${guildName}](<https://discord.com/channels/${guildId}>) erhalten. Das bedeutet, dass Sie jetzt Zugang zu [Pro-Features](<https://bnder.net/pricing>) haben. Viel Spaß!`;
+            return `Dir wurde ein bezahlter Sitz im Workspace [${guildName}](<https://discord.com/channels/${guildId}>) zugewiesen. Du hast jetzt Zugriff auf die Funktionen, die in deinem zugewiesenen Starter- oder Pro-Sitz enthalten sind.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `Der Benutzer **${requesterUsername}** hat einen Pro-Sitz im Workspace [${guildName}](<https://discord.com/channels/${guildId}>) angefragt. Wenn du einen verfügbaren Pro-Sitz hast, kannst du ihn über den untenstehenden Button vergeben. Wenn du weitere Pro-Sitze benötigst, besuche bitte [deine Workspace-Einstellungen](<https://bnder.net/app/settings/${guildId}/default?tab=1>), um dein Abonnement zu upgraden.`;
+            return `Der Benutzer **${requesterUsername}** hat einen bezahlten Sitz im Workspace [${guildName}](<https://discord.com/channels/${guildId}>) angefragt. Workspace-Admins können unten jeden freien Starter- oder Pro-Sitz zuweisen. Wenn der Workspace mehr Sitze benötigt, öffne die [Workspace-Einstellungen](<https://bnder.net/app/settings/${guildId}/default?tab=1>), um Sitze zu kaufen.`;
         },
-        request_pro_seat_button_label: "Pro-Sitz vergeben",
+        request_pro_seat_button_label: "Bezahlten Sitz vergeben",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Aktion erforderlich: Zahlung für Pro-Abonnement fehlgeschlagen\nWir konnten die Zahlung für einen oder mehrere Pro-Plätze auf [${guildName}](<https://discord.com/channels/${guildId}>) nicht verarbeiten. Um den Zugriff auf die Pro-Funktionen nicht zu verlieren, [aktualisiere bitte deine Zahlungsinformationen und bezahle deine Rechnung jetzt](<${customerPortalLink}>).\n\nDeine Pro-Funktionen werden bald deaktiviert, wenn du nichts unternimmst.\n\nBenötigst du Hilfe? [Kontaktiere den Support](https://bnder.net/discord) – wir sind für dich da.`;
+            return `# 🚨 Aktion erforderlich: Zahlung für bezahlte Sitz-Subscription fehlgeschlagen
+Wir konnten die Zahlung für einen oder mehrere Starter- oder Pro-Sitze in [${guildName}](<https://discord.com/channels/${guildId}>) nicht verarbeiten. Um den Zugriff über bezahlte Sitze nicht zu verlieren, [aktualisiere bitte deine Zahlungsinformationen und bezahle deine Rechnung jetzt](<${customerPortalLink}>).
+
+Betroffene bezahlte Sitze tragen bald nicht mehr bei, wenn du nichts unternimmst.
+
+Benötigst du Hilfe? [Kontaktiere den Support](https://bnder.net/discord) — wir sind für dich da.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_de {
                 text: "Wir haben deine Daten für den Download vorbereitet. Du kannst sie in der App abrufen. Der Download-Link ist zwei Wochen lang verfügbar.",
             },
             payment_failed: {
-                headline: "🚨 Aktion erforderlich: Zahlung für Pro-Abonnement fehlgeschlagen",
+                headline: "🚨 Aktion erforderlich: Zahlung für bezahlte Sitz-Subscription fehlgeschlagen",
                 text(guildName: string): string {
-                    return `Wir konnten die Zahlung für einen oder mehrere Pro-Sitze in ${guildName} nicht verarbeiten. Um den Zugriff auf Pro-Funktionen nicht zu verlieren, aktualisieren Sie bitte jetzt Ihre Zahlungsinformationen und begleichen Sie Ihre Rechnung. Ihre Pro-Funktionen werden bald deaktiviert, wenn keine Aktion erfolgt. Brauchen Sie Hilfe? Kontaktieren Sie den Support — wir sind für Sie da.`;
+                    return `Wir konnten die Zahlung für einen oder mehrere Starter- oder Pro-Sitze in ${guildName} nicht verarbeiten. Um den Zugriff über bezahlte Sitze nicht zu verlieren, aktualisiere bitte deine Zahlungsinformationen und bezahle deine Rechnung jetzt. Betroffene bezahlte Sitze tragen bald nicht mehr bei, wenn du nichts unternimmst. Brauchst du Hilfe? Kontaktiere den Support — wir sind für dich da.`;
                 },
                 primaryActionText: "Zahlungsinformationen aktualisieren"
             },

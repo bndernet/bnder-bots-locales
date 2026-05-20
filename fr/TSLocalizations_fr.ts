@@ -303,14 +303,19 @@ export class TSLocalizations_fr {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Félicitations! Vous avez obtenu une place pro sur le espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Vous avez désormais accès aux [fonctionnalités pro](<https://bnder.net/pricing>). Profitez-en!`;
+            return `Un siège payant vous a été attribué dans l’espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Vous avez maintenant accès aux fonctionnalités incluses dans votre siège Starter ou Pro attribué.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `L’utilisateur **${requesterUsername}** a demandé un siège Pro dans l’espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Si vous disposez d’un siège Pro disponible, vous pouvez le lui accorder à l’aide du bouton ci-dessous. Si vous avez besoin de plus de sièges Pro, veuillez consulter [les paramètres de votre espace de travail](<https://bnder.net/app/settings/${guildId}/default?tab=1>) pour mettre à niveau votre abonnement.`;
+            return `L’utilisateur **${requesterUsername}** a demandé un siège payant dans l’espace de travail [${guildName}](<https://discord.com/channels/${guildId}>). Les admins de l’espace de travail peuvent attribuer tout siège Starter ou Pro non attribué avec le bouton ci-dessous. Si l’espace de travail a besoin de plus de sièges, ouvrez [les paramètres de l’espace de travail](<https://bnder.net/app/settings/${guildId}/default?tab=1>) pour acheter des sièges.`;
         },
-        request_pro_seat_button_label: "Accorder un siège Pro",
+        request_pro_seat_button_label: "Attribuer un siège payant",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Action requise: Échec du paiement de l’abonnement Pro\nNous n’avons pas pu traiter le paiement d’un ou plusieurs abonnements Pro sur [${guildName}](<https://discord.com/channels/${guildId}>). Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez [mettre à jour vos informations de paiement et payer votre facture maintenant](<${customerPortalLink}>).\n\nVos fonctionnalités Pro seront bientôt désactivées si aucune mesure n’est prise.\n\nBesoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous sommes là pour vous.`;
+            return `# 🚨 Action requise : échec du paiement d’un abonnement de sièges payants
+Nous n’avons pas pu traiter le paiement d’un ou plusieurs sièges Starter ou Pro sur [${guildName}](<https://discord.com/channels/${guildId}>). Pour éviter de perdre l’accès lié aux sièges payants, veuillez [mettre à jour vos informations de paiement et payer votre facture maintenant](<${customerPortalLink}>).
+
+Les sièges payants concernés cesseront bientôt de contribuer si aucune action n’est effectuée.
+
+Besoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous sommes là pour vous.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_fr {
                 text: "Nous avons préparé vos données pour le téléchargement. Vous pouvez y accéder dans l'application. Le lien de téléchargement est disponible pendant deux semaines.",
             },
             payment_failed: {
-                headline: "🚨 Action requise : Échec du paiement de l’abonnement Pro",
+                headline: "🚨 Action requise : échec du paiement d’un abonnement de sièges payants",
                 text(guildName: string): string {
-                    return `Nous n’avons pas pu traiter le paiement pour un ou plusieurs sièges Pro sur ${guildName}. Pour éviter de perdre l’accès aux fonctionnalités Pro, veuillez mettre à jour vos informations de paiement et régler votre facture dès maintenant. Vos fonctionnalités Pro seront bientôt désactivées si aucune action n’est entreprise. Besoin d’aide ? Contactez le support — nous sommes là pour vous.`;
+                    return `Nous n’avons pas pu traiter le paiement d’un ou plusieurs sièges Starter ou Pro sur ${guildName}. Pour éviter de perdre l’accès lié aux sièges payants, veuillez mettre à jour vos informations de paiement et payer votre facture maintenant. Les sièges payants concernés cesseront bientôt de contribuer si aucune action n’est effectuée. Besoin d’aide ? Contactez le support — nous sommes là pour vous.`;
                 },
                 primaryActionText: "Mettre à jour les informations de paiement"
             },

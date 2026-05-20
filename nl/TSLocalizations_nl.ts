@@ -303,14 +303,19 @@ export class TSLocalizations_nl {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Gefeliciteerd! Je bent in een pro-plek geplaatst in werkruimte [${guildName}](<https://discord.com/channels/${guildId}>). Dit betekent dat je nu toegang hebt tot [pro-functies](<https://bnder.net/pricing>). Veel plezier!`;
+            return `Je hebt een betaalde seat toegewezen gekregen in workspace [${guildName}](<https://discord.com/channels/${guildId}>). Je hebt nu toegang tot de functies die horen bij je toegewezen Starter- of Pro-seat.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `De gebruiker **${requesterUsername}** heeft een Pro-plaats aangevraagd in de workspace [${guildName}](<https://discord.com/channels/${guildId}>). Als je een beschikbare Pro-plaats hebt, kun je deze toekennen met de knop hieronder. Als je meer Pro-plaatsen nodig hebt, ga dan naar [je workspace-instellingen](<https://bnder.net/app/settings/${guildId}/default?tab=1>) om je abonnement te upgraden.`;
+            return `De gebruiker **${requesterUsername}** heeft een betaalde seat aangevraagd in workspace [${guildName}](<https://discord.com/channels/${guildId}>). Workspacebeheerders kunnen hieronder elke niet-toegewezen Starter- of Pro-seat toekennen. Heeft de workspace meer seats nodig, open dan [workspace-instellingen](<https://bnder.net/app/settings/${guildId}/default?tab=1>) om seats te kopen.`;
         },
-        request_pro_seat_button_label: "Pro-plaats toekennen",
+        request_pro_seat_button_label: "Betaalde seat toekennen",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Actie vereist: Betaling voor Pro-abonnement mislukt\nWe konden de betaling voor een of meer Pro-gebruikers op [${guildName}](<https://discord.com/channels/${guildId}>) niet verwerken. Om te voorkomen dat je toegang tot Pro-functies verliest, kun je [je betalingsgegevens bijwerken en je factuur nu betalen](<${customerPortalLink}>).\n\nJe Pro-functies worden binnenkort uitgeschakeld als je geen actie onderneemt.\n\nHulp nodig? [Neem contact op met de support](https://bnder.net/discord) — we staan voor je klaar.`;
+            return `# 🚨 Actie vereist: betaling voor betaalde-seatabonnement mislukt
+We konden de betaling voor een of meer Starter- of Pro-seats in [${guildName}](<https://discord.com/channels/${guildId}>) niet verwerken. Werk je betaalgegevens bij en betaal je factuur nu om toegang via betaalde seats te behouden: [betaling bijwerken](<${customerPortalLink}>).
+
+Betrokken betaalde seats tellen binnenkort niet meer mee als er niets gebeurt.
+
+Hulp nodig? [Neem contact op met support](https://bnder.net/discord) — we helpen je graag.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_nl {
                 text: "We hebben je gegevens klaargezet voor download. Je kunt er toegang toe krijgen in de app. De downloadlink is twee weken beschikbaar.",
             },
             payment_failed: {
-                headline: "🚨 Actie vereist: Betaling voor Pro-abonnement mislukt",
+                headline: "🚨 Actie vereist: betaling voor betaalde-seatabonnement mislukt",
                 text(guildName: string): string {
-                    return `We konden de betaling voor een of meer Pro-plaatsen op ${guildName} niet verwerken. Om te voorkomen dat je toegang tot Pro-functies verliest, werk je betalingsgegevens bij en betaal nu je factuur. Je Pro-functies worden binnenkort uitgeschakeld als er geen actie wordt ondernomen. Hulp nodig? Neem contact op met support — we zijn er voor je.`;
+                    return `We konden de betaling voor een of meer Starter- of Pro-seats in ${guildName} niet verwerken. Werk je betaalgegevens bij en betaal je factuur nu om toegang via betaalde seats te behouden. Betrokken betaalde seats tellen binnenkort niet meer mee als er niets gebeurt. Hulp nodig? Neem contact op met support — we helpen je graag.`;
                 },
                 primaryActionText: "Betalingsgegevens bijwerken"
             },

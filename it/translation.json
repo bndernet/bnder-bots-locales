@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Non hai posti a pagamento in questo workspace. [Passa a Starter o Pro](<https://bnder.net/p/{{guildId}}>). Scopri di più sui posti a pagamento su https://bnder.net/pricing.",
+    "no_pro_seats_available": "Questo workspace non ha ancora posti a pagamento. [Passa a Starter o Pro](<https://bnder.net/p/{{guildId}}>). Gli admin possono raggruppare posti acquistati da più pagatori. Scopri di più sui posti a pagamento su https://bnder.net/pricing.",
     "user_already_has_pro_seat": "L'utente <@{{userId}}> ha già un posto a pagamento in questo workspace.",
-    "not_enough_pro_seats": "Non hai abbastanza posti a pagamento per assegnarne uno a <@{{userId}}>. Libera un posto a pagamento o [passa a più posti](<https://bnder.net/p/{{guildId}}>). Scopri di più sui posti a pagamento su https://bnder.net/pricing.",
-    "pro_seat_granted": "All'utente <@{{userId}}> è stato assegnato un posto a pagamento in questo workspace. Ora ha accesso a tutte le funzionalità incluse nel piano a pagamento attuale del workspace."
+    "not_enough_pro_seats": "Questo workspace non ha posti a pagamento non assegnati disponibili per <@{{userId}}>. Libera un posto a pagamento o [acquista altri posti](<https://bnder.net/p/{{guildId}}>). Gli admin possono assegnare posti raggruppati da qualsiasi pagatore. Scopri di più sui posti a pagamento su https://bnder.net/pricing.",
+    "pro_seat_granted": "All’utente <@{{userId}}> è stato assegnato un posto a pagamento in questo workspace. Ora ha accesso alle funzionalità incluse nel posto Starter o Pro assegnato."
   },
   "booking": {
     "links_link_app": "Gestisci nell’app"

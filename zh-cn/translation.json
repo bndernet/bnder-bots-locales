@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "这个工作区当前没有任何付费席位。[升级到 Starter 或 Pro](<https://bnder.net/p/{{guildId}}>）。了解付费席位详情：https://bnder.net/pricing。",
+    "no_pro_seats_available": "这个工作区还没有付费席位。[升级到 Starter 或 Pro](<https://bnder.net/p/{{guildId}}>). 工作区管理员可以汇集多个付款人的席位。了解付费席位详情：https://bnder.net/pricing。",
     "user_already_has_pro_seat": "用户 <@{{userId}}> 在这个工作区中已经拥有付费席位。",
-    "not_enough_pro_seats": "你没有足够的付费席位可分配给 <@{{userId}}>。请先释放一个付费席位，或[升级到更多席位](<https://bnder.net/p/{{guildId}}>）。了解付费席位详情：https://bnder.net/pricing。",
-    "pro_seat_granted": "已为用户 <@{{userId}}> 分配这个工作区的付费席位。Ta 现在可以使用当前工作区付费方案中的全部功能。"
+    "not_enough_pro_seats": "这个工作区没有可分配给 <@{{userId}}> 的未分配付费席位。请先释放一个付费席位，或[购买更多席位](<https://bnder.net/p/{{guildId}}>). 工作区管理员可以分配任何付款人的汇集席位。了解付费席位详情：https://bnder.net/pricing。",
+    "pro_seat_granted": "已为用户 <@{{userId}}> 分配这个工作区的付费席位。Ta 现在可以使用所分配的 Starter 或 Pro 席位包含的功能。"
   },
   "booking": {
     "links_link_app": "在应用中管理"

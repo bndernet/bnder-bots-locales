@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Bu çalışma alanında ücretli koltuğun yok. [Starter veya Pro'ya yükselt](<https://bnder.net/p/{{guildId}}>). Ücretli koltuklar hakkında daha fazla bilgi: https://bnder.net/pricing.",
+    "no_pro_seats_available": "Bu çalışma alanında henüz ücretli koltuk yok. [Starter veya Pro’ya yükselt](<https://bnder.net/p/{{guildId}}>). Çalışma alanı yöneticileri birden fazla ödeyenden gelen koltukları havuzlayabilir. Ücretli koltuklar hakkında daha fazla bilgi: https://bnder.net/pricing.",
     "user_already_has_pro_seat": "<@{{userId}}> kullanıcısının bu çalışma alanında zaten ücretli bir koltuğu var.",
-    "not_enough_pro_seats": "<@{{userId}}> kullanıcısına vermek için yeterli ücretli koltuğun yok. Ücretli bir koltuğu boşalt veya [daha fazla koltuğa yükselt](<https://bnder.net/p/{{guildId}}>). Ücretli koltuklar hakkında daha fazla bilgi: https://bnder.net/pricing.",
-    "pro_seat_granted": "<@{{userId}}> kullanıcısına bu çalışma alanında ücretli bir koltuk verildi. Artık çalışma alanının mevcut ücretli planındaki tüm özelliklere erişebilir."
+    "not_enough_pro_seats": "Bu çalışma alanında <@{{userId}}> için atanmamış ücretli koltuk yok. Ücretli bir koltuğu boşalt veya [daha fazla koltuk satın al](<https://bnder.net/p/{{guildId}}>). Çalışma alanı yöneticileri herhangi bir ödeyenden gelen havuzlanmış koltukları atayabilir. Ücretli koltuklar hakkında daha fazla bilgi: https://bnder.net/pricing.",
+    "pro_seat_granted": "<@{{userId}}> kullanıcısına bu çalışma alanında ücretli bir koltuk atandı. Artık atanan Starter veya Pro koltuğundaki özelliklere erişebilir."
   },
   "booking": {
     "links_link_app": "Uygulamada yönet"

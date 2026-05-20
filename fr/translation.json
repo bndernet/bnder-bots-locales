@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Vous n'avez aucun siège payant dans cet espace de travail. [Passez à Starter ou Pro](<https://bnder.net/p/{{guildId}}>). En savoir plus sur les sièges payants : https://bnder.net/pricing.",
+    "no_pro_seats_available": "Cet espace de travail n’a pas encore de sièges payants. [Passez à Starter ou Pro](<https://bnder.net/p/{{guildId}}>). Les admins peuvent regrouper des sièges achetés par plusieurs payeurs. En savoir plus sur les sièges payants : https://bnder.net/pricing.",
     "user_already_has_pro_seat": "L'utilisateur <@{{userId}}> a déjà un siège payant dans cet espace de travail.",
-    "not_enough_pro_seats": "Vous n'avez pas assez de sièges payants pour en attribuer un à <@{{userId}}>. Libérez un siège payant ou [passez à plus de sièges](<https://bnder.net/p/{{guildId}}>). En savoir plus sur les sièges payants : https://bnder.net/pricing.",
-    "pro_seat_granted": "Un siège payant a été attribué à l'utilisateur <@{{userId}}> dans cet espace de travail. Il a maintenant accès à toutes les fonctionnalités incluses dans l'offre payante actuelle de l'espace de travail."
+    "not_enough_pro_seats": "Cet espace de travail n’a aucun siège payant non attribué disponible pour <@{{userId}}>. Libérez un siège payant ou [achetez plus de sièges](<https://bnder.net/p/{{guildId}}>). Les admins peuvent attribuer des sièges regroupés venant de n’importe quel payeur. En savoir plus sur les sièges payants : https://bnder.net/pricing.",
+    "pro_seat_granted": "Un siège payant a été attribué à l’utilisateur <@{{userId}}> dans cet espace de travail. Cette personne a maintenant accès aux fonctionnalités incluses dans son siège Starter ou Pro attribué."
   },
   "booking": {
     "links_link_app": "Gérer dans l’application"

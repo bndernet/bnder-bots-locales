@@ -303,14 +303,19 @@ export class TSLocalizations_ru {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Поздравляем! Вы получили место pro на сервере [${guildName}](<https://discord.com/channels/${guildId}>). Это значит, что теперь у вас есть доступ к [pro-функциям](<https://bnder.net/pricing>). Наслаждайтесь!`;
+            return `Вам назначено платное место в рабочем пространстве [${guildName}](<https://discord.com/channels/${guildId}>). Теперь вам доступны функции, включенные в назначенное место Starter или Pro.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `Пользователь **${requesterUsername}** запросил место Pro в рабочем пространстве [${guildName}](<https://discord.com/channels/${guildId}>). Если у вас есть свободное место Pro, вы можете предоставить его с помощью кнопки ниже. Если вам нужно больше мест Pro, перейдите в [настройки рабочего пространства](<https://bnder.net/app/settings/${guildId}/default?tab=1>), чтобы обновить подписку.`;
+            return `Пользователь **${requesterUsername}** запросил платное место в рабочем пространстве [${guildName}](<https://discord.com/channels/${guildId}>). Администраторы рабочего пространства могут назначить любое свободное место Starter или Pro с помощью кнопки ниже. Если рабочему пространству нужно больше мест, откройте [настройки рабочего пространства](<https://bnder.net/app/settings/${guildId}/default?tab=1>), чтобы купить места.`;
         },
-        request_pro_seat_button_label: "Предоставить место Pro",
+        request_pro_seat_button_label: "Назначить платное место",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 Необходимо действие: платеж за подписку Pro не прошел\nНам не удалось обработать платеж за одно или несколько мест Pro на [${guildName}](<https://discord.com/channels/${guildId}>). Чтобы не потерять доступ к функциям Pro, пожалуйста, [обновите платежную информацию и оплатите счет сейчас](<${customerPortalLink}>).\n\nВаши функции Pro будут отключены в ближайшее время, если не предпринять никаких действий.\n\nНужна помощь? [Свяжитесь со службой поддержки](https://bnder.net/discord) — мы здесь для вас.`;
+            return `# 🚨 Требуется действие: не удалось оплатить подписку на платные места
+Мы не смогли обработать оплату за одно или несколько мест Starter или Pro в [${guildName}](<https://discord.com/channels/${guildId}>). Чтобы не потерять доступ от платных мест, [обновите платежные данные и оплатите счет сейчас](<${customerPortalLink}>).
+
+Затронутые платные места скоро перестанут учитываться, если ничего не сделать.
+
+Нужна помощь? [Свяжитесь с поддержкой](https://bnder.net/discord) — мы рядом.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_ru {
                 text: "Мы подготовили ваши данные для загрузки. Вы можете получить к ним доступ в приложении. Ссылка для загрузки доступна в течение двух недель.",
             },
             payment_failed: {
-                headline: "🚨 Требуется действие: Платёж за подписку Pro не прошёл",
+                headline: "🚨 Требуется действие: не удалось оплатить подписку на платные места",
                 text(guildName: string): string {
-                    return `Мы не смогли обработать платёж за одно или несколько Pro-мест в ${guildName}. Чтобы не потерять доступ к функциям Pro, обновите платёжную информацию и оплатите счёт сейчас. Ваши функции Pro скоро будут отключены, если не предпринять действий. Нужна помощь? Свяжитесь с поддержкой — мы рядом.`;
+                    return `Мы не смогли обработать оплату за одно или несколько мест Starter или Pro в ${guildName}. Чтобы не потерять доступ от платных мест, обновите платежные данные и оплатите счет сейчас. Затронутые платные места скоро перестанут учитываться, если ничего не сделать. Нужна помощь? Свяжитесь с поддержкой — мы рядом.`;
                 },
                 primaryActionText: "Обновить платёжную информацию"
             },

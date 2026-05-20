@@ -303,14 +303,19 @@ export class TSLocalizations_ja {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `おめでとうございます！サーバー [${guildName}](<https://discord.com/channels/${guildId}>) のプロ シートに配置されました。つまり、[プロ機能](<https://bnder.net/pricing>) にアクセスできるようになりました。お楽しみください！`;
+            return `ワークスペース [${guildName}](<https://discord.com/channels/${guildId}>) で有料シートが割り当てられました。割り当てられた Starter または Pro シートに含まれる機能を利用できます。`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `ユーザー **${requesterUsername}** がワークスペース [${guildName}](<https://discord.com/channels/${guildId}>) で Pro シートをリクエストしました。利用可能な Pro シートがある場合は、下のボタンを使って付与できます。Pro シートを追加する必要がある場合は、[ワークスペース設定](<https://bnder.net/app/settings/${guildId}/default?tab=1>) にアクセスしてサブスクリプションをアップグレードしてください。`;
+            return `ユーザー **${requesterUsername}** がワークスペース [${guildName}](<https://discord.com/channels/${guildId}>) で有料シートをリクエストしました。ワークスペース管理者は、下のボタンで未割り当ての Starter または Pro シートを割り当てられます。ワークスペースにさらにシートが必要な場合は、[ワークスペース設定](<https://bnder.net/app/settings/${guildId}/default?tab=1>) からシートを購入してください。`;
         },
-        request_pro_seat_button_label: "Pro シートを付与",
+        request_pro_seat_button_label: "有料シートを割り当て",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
-            return `# 🚨 必要な対応: Pro サブスクリプションの支払いに失敗しました\n[${guildName}](<https://discord.com/channels/${guildId}>) の 1 つ以上の Pro シートの支払いを処理できませんでした。Pro 機能へのアクセスを失うことを避けるため、[支払い情報を更新し、請求書を今すぐお支払いください](<${customerPortalLink}>)。\n\n何も対応しないと、Pro 機能はまもなく無効になります。\n\nお困りですか? [サポートにお問い合わせください](https://bnder.net/discord) — いつでもお手伝いいたします。`;
+            return `# 🚨 対応が必要です: 有料シートのサブスクリプション支払いに失敗しました
+[${guildName}](<https://discord.com/channels/${guildId}>) の 1 つ以上の Starter または Pro シートの支払いを処理できませんでした。有料シートのアクセスを失わないよう、[支払い情報を更新し、請求書を今すぐお支払いください](<${customerPortalLink}>).
+
+対応がない場合、対象の有料シートはまもなくカウントされなくなります。
+
+お困りですか? [サポートにお問い合わせください](https://bnder.net/discord) — いつでもお手伝いいたします。`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
@@ -390,9 +395,9 @@ export class TSLocalizations_ja {
                 text: "あなたのデータをダウンロード用に準備しました。アプリ内でアクセスできます。ダウンロードリンクは2週間有効です。",
             },
             payment_failed: {
-                headline: "🚨 対応が必要：Proサブスクリプションの支払いに失敗しました",
+                headline: "🚨 対応が必要です: 有料シートのサブスクリプション支払いに失敗しました",
                 text(guildName: string): string {
-                    return `${guildName} の1つ以上の Pro シートの支払いを処理できませんでした。Pro 機能へのアクセスを失わないように、支払い情報を更新し、請求書を今すぐお支払いください。対応がない場合、Pro 機能はまもなく無効になります。サポートが必要ですか？お問い合わせください — 私たちがサポートします。`;
+                    return `${guildName} の 1 つ以上の Starter または Pro シートの支払いを処理できませんでした。有料シートのアクセスを失わないよう、支払い情報を更新し、請求書を今すぐお支払いください。対応がない場合、対象の有料シートはまもなくカウントされなくなります。サポートが必要ですか? お問い合わせください — 私たちがサポートします。`;
                 },
                 primaryActionText: "支払い情報を更新"
             },

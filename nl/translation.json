@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Je hebt geen betaalde seats in deze workspace. [Upgrade naar Starter of Pro](<https://bnder.net/p/{{guildId}}>). Meer informatie over betaalde seats op https://bnder.net/pricing.",
+    "no_pro_seats_available": "Deze workspace heeft nog geen betaalde seats. [Upgrade naar Starter of Pro](<https://bnder.net/p/{{guildId}}>). Workspacebeheerders kunnen seats van meerdere betalers bundelen. Meer informatie over betaalde seats op https://bnder.net/pricing.",
     "user_already_has_pro_seat": "De gebruiker <@{{userId}}> heeft al een betaalde seat in deze workspace.",
-    "not_enough_pro_seats": "Je hebt niet genoeg betaalde seats beschikbaar om er één aan <@{{userId}}> te geven. Maak een betaalde seat vrij of [upgrade naar meer seats](<https://bnder.net/p/{{guildId}}>). Meer informatie over betaalde seats op https://bnder.net/pricing.",
-    "pro_seat_granted": "De gebruiker <@{{userId}}> heeft een betaalde seat in deze workspace gekregen. Die persoon heeft nu toegang tot alle functies van het huidige betaalde plan van je workspace."
+    "not_enough_pro_seats": "Deze workspace heeft geen niet-toegewezen betaalde seats beschikbaar voor <@{{userId}}>. Maak een betaalde seat vrij of [koop meer seats](<https://bnder.net/p/{{guildId}}>). Workspacebeheerders kunnen gebundelde seats van elke betaler toewijzen. Meer informatie over betaalde seats op https://bnder.net/pricing.",
+    "pro_seat_granted": "De gebruiker <@{{userId}}> heeft een betaalde seat in deze workspace toegewezen gekregen. Die persoon heeft nu toegang tot de functies die horen bij de toegewezen Starter- of Pro-seat."
   },
   "booking": {
     "links_link_app": "Beheren in de app"

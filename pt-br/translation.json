@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "Você não tem assentos pagos neste workspace. [Faça upgrade para Starter ou Pro](<https://bnder.net/p/{{guildId}}>). Saiba mais sobre assentos pagos em https://bnder.net/pricing.",
+    "no_pro_seats_available": "Este workspace ainda não tem assentos pagos. [Faça upgrade para Starter ou Pro](<https://bnder.net/p/{{guildId}}>). Administradores podem agrupar assentos de vários pagadores. Saiba mais sobre assentos pagos em https://bnder.net/pricing.",
     "user_already_has_pro_seat": "O usuário <@{{userId}}> já tem um assento pago neste workspace.",
-    "not_enough_pro_seats": "Você não tem assentos pagos suficientes para conceder um a <@{{userId}}>. Libere um assento pago ou [faça upgrade para mais assentos](<https://bnder.net/p/{{guildId}}>). Saiba mais sobre assentos pagos em https://bnder.net/pricing.",
-    "pro_seat_granted": "O usuário <@{{userId}}> recebeu um assento pago neste workspace. Agora ele tem acesso a todos os recursos incluídos no plano pago atual do workspace."
+    "not_enough_pro_seats": "Este workspace não tem assentos pagos não atribuídos disponíveis para <@{{userId}}>. Libere um assento pago ou [compre mais assentos](<https://bnder.net/p/{{guildId}}>). Administradores podem atribuir assentos agrupados de qualquer pagador. Saiba mais sobre assentos pagos em https://bnder.net/pricing.",
+    "pro_seat_granted": "O usuário <@{{userId}}> recebeu um assento pago neste workspace. Agora ele tem acesso aos recursos incluídos no assento Starter ou Pro atribuído."
   },
   "booking": {
     "links_link_app": "Gerenciar no app"

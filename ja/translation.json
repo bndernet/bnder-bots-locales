@@ -606,10 +606,10 @@
     }
   },
   "grant_pro_seat": {
-    "no_pro_seats_available": "このワークスペースには有料シートがありません。[Starter または Pro にアップグレード](<https://bnder.net/p/{{guildId}}>)してください。有料シートの詳細は https://bnder.net/pricing をご覧ください。",
+    "no_pro_seats_available": "このワークスペースにはまだ有料シートがありません。[Starter または Pro にアップグレード](<https://bnder.net/p/{{guildId}}>)してください。ワークスペース管理者は複数の支払者のシートをプールできます。有料シートの詳細は https://bnder.net/pricing をご覧ください。",
     "user_already_has_pro_seat": "ユーザー <@{{userId}}> は、このワークスペースですでに有料シートを持っています。",
-    "not_enough_pro_seats": "<@{{userId}}> に付与できる十分な有料シートがありません。有料シートを 1 つ空けるか、[シート数を増やしてください](<https://bnder.net/p/{{guildId}}>). 有料シートの詳細は https://bnder.net/pricing をご覧ください。",
-    "pro_seat_granted": "ユーザー <@{{userId}}> にこのワークスペースの有料シートが付与されました。現在の有料プランに含まれるすべての機能を利用できます。"
+    "not_enough_pro_seats": "このワークスペースには <@{{userId}}> に割り当てられる未割り当ての有料シートがありません。有料シートを 1 つ空けるか、[さらにシートを購入してください](<https://bnder.net/p/{{guildId}}>). ワークスペース管理者は任意の支払者のプールされたシートを割り当てられます。有料シートの詳細は https://bnder.net/pricing をご覧ください。",
+    "pro_seat_granted": "ユーザー <@{{userId}}> にこのワークスペースの有料シートが割り当てられました。割り当てられた Starter または Pro シートに含まれる機能を利用できます。"
   },
   "booking": {
     "links_link_app": "アプリで管理"
