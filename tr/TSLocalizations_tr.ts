@@ -78,6 +78,7 @@ export class TSLocalizations_tr {
             project_field: "Proje",
             topic_field: "Konu",
             permission_field: "İzin",
+            role_field: "Rol",
             user_field: "Kullanıcı",
             preset_field: "Ön ayar",
             priority_field: "Öncelik",

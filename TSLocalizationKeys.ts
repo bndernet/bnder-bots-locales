@@ -61,6 +61,7 @@ export interface TSLocalizationKeys {
         topic_field: string,
         permission_field: string,
         user_field: string,
+        role_field: string,
         preset_field: string,
         priority_field: string,
         type_field: string,

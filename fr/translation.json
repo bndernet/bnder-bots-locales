@@ -21,6 +21,7 @@
     "logging_action_preset": "Préréglage de permission appliqué",
     "permission_field": "Permission",
     "user_field": "User",
+    "role_field": "Role",
     "invalid_preset": "Le préréglage **{{preset}}** n'est pas valide. Veuillez utiliser l'un des éléments suivants : {{presets}}",
     "preset_used_user_project": "Le préréglage **{{preset}}** a été appliqué à l'utilisateur <@{{user_id}}> pour le projet **{{project_name}}**. L'utilisateur dispose désormais des autorisations suivantes : {{permissions}}",
     "preset_used_user": "Le préréglage **{{preset}}** a été appliqué à l'utilisateur <@{{user_id}}> pour la portée globale. L'utilisateur dispose désormais des autorisations suivantes : {{permissions}}"

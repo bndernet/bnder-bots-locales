@@ -21,6 +21,7 @@
     "logging_action_preset": "Permission preset applied",
     "permission_field": "Permission",
     "user_field": "User",
+    "role_field": "Role",
     "invalid_preset": "The preset **{{preset}}** is invalid. Please use one of the following: {{presets}}",
     "preset_used_user_project": "The preset **{{preset}}** was applied to the user <@{{user_id}}> for the project **{{project_name}}**. The user now has the following permissions: {{permissions}}",
     "preset_used_user": "The preset **{{preset}}** was applied to the user <@{{user_id}}> for the global scope. The user now has the following permissions: {{permissions}}"

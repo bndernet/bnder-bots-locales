@@ -78,6 +78,7 @@ export class TSLocalizations_ja {
             topic_field: "トピック",
             text_field: "テキスト",
             permission_field: "権限",
+            role_field: "役職",
             user_field: "ユーザー",
             preset_field: "プリセット",
             priority_field: "優先度",

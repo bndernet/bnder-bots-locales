@@ -21,6 +21,7 @@
     "logging_action_preset": "Preset izin diterapkan",
     "permission_field": "Izin",
     "user_field": "Pengguna",
+    "role_field": "Peran",
     "invalid_preset": "Preset **{{preset}}** tidak valid. Silakan gunakan salah satu dari berikut ini: {{presets}}",
     "preset_used_user_project": "Preset **{{preset}}** diterapkan ke pengguna <@{{user_id}}> untuk proyek **{{project_name}}**. Pengguna sekarang memiliki izin berikut: {{permissions}}",
     "preset_used_user": "Preset **{{preset}}** diterapkan ke pengguna <@{{user_id}}> untuk cakupan global. Pengguna sekarang memiliki izin berikut: {{permissions}}"

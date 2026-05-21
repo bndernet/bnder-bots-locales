@@ -21,6 +21,7 @@
     "logging_action_preset": "権限プリセットが適用されました",
     "permission_field": "権限",
     "user_field": "ユーザー",
+    "role_field": "ロール",
     "invalid_preset": "プリセット **{{preset}}** は無効です。以下のいずれかを使用してください: {{presets}}",
     "preset_used_user_project": "プリセット **{{preset}}** がユーザー <@{{user_id}}> に対してプロジェクト **{{project_name}}** に適用されました。このユーザーは次の権限を持つようになりました: {{permissions}}",
     "preset_used_user": "プリセット **{{preset}}** がユーザー <@{{user_id}}> に対してグローバルスコープに適用されました。このユーザーは次の権限を持つようになりました: {{permissions}}"

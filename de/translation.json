@@ -21,6 +21,7 @@
     "logging_action_preset": "Berechtigungsvoreinstellung angewendet",
     "permission_field": "Berechtigung",
     "user_field": "Benutzer",
+    "role_field": "Rolle",
     "ungültige_Voreinstellung": "Die Voreinstellung **{{preset}}** ist ungültig. Bitte verwenden Sie eine der folgenden: {{presets}}",
     "preset_used_user_project": "Die Voreinstellung **{{preset}}** wurde auf den Benutzer <@{{user_id}}> für das Projekt **{{project_name}}** angewendet. Der Benutzer hat jetzt die folgenden Berechtigungen: {{permissions}}",
     "preset_used_user": "Die Voreinstellung **{{preset}}** wurde auf den Benutzer <@{{user_id}}> für den globalen Bereich angewendet. Der Benutzer hat jetzt die folgenden Berechtigungen: {{permissions}}"

@@ -21,6 +21,7 @@
     "logging_action_preset": "Zastosowano ustawienie wstępne uprawnień",
     "permission_field": "Uprawnienie",
     "user_field": "Użytkownik",
+    "role_field": "Rola",
     "invalid_preset": "Ustawienie wstępne **{{preset}}** jest nieprawidłowe. Użyj jednego z następujących: {{presets}}",
     "preset_used_user_project": "Ustawienie wstępne **{{preset}}** zostało zastosowane do użytkownika <@{{user_id}}> dla projektu **{{project_name}}**. Użytkownik ma teraz następujące uprawnienia: {{permissions}}",
     "preset_used_user": "Ustawienie wstępne **{{preset}}** zostało zastosowane do użytkownika <@{{user_id}}> w zakresie globalnym. Użytkownik ma teraz następujące uprawnienia: {{permissions}}"

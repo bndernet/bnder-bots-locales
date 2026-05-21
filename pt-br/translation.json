@@ -21,6 +21,7 @@
     "logging_action_preset": "Permissão predefinida aplicada",
     "permission_field": "Permissão",
     "user_field": "Usuário",
+    "role_field": "Função",
     "invalid_preset": "A predefinição **{{preset}}** é inválida. Por favor, use uma das seguintes: {{presets}}",
     "preset_used_user_project": "A predefinição **{{preset}}** foi aplicada ao usuário <@{{user_id}}> para o projeto **{{project_name}}**. O usuário agora tem as seguintes permissões: {{permissions}}",
     "preset_used_user": "A predefinição **{{preset}}** foi aplicada ao usuário <@{{user_id}}> para o escopo global. O usuário agora tem as seguintes permissões: {{permissions}}"

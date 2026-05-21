@@ -21,6 +21,7 @@
     "logging_action_preset": "Ön ayar uygulandı",
     "permission_field": "İzin",
     "user_field": "Kullanıcı",
+    "role_field": "Rol",
     "invalid_preset": "**{{preset}}** ön ayarı geçersiz. Lütfen aşağıdakilerden birini kullanın: {{presets}}",
     "preset_used_user_project": "**{{preset}}** ön ayarı **{{project_name}}** projesi için <@{{user_id}}> kullanıcısına uygulandı. Kullanıcı artık aşağıdaki izinlere sahip: {{permissions}}",
     "preset_used_user": "**{{preset}}** ön ayarı global kapsam için <@{{user_id}}> kullanıcısına uygulandı. Kullanıcı artık aşağıdaki izinlere sahip: {{permissions}}"

@@ -78,6 +78,7 @@ export class TSLocalizations_nl {
             topic_field: "Onderwerp",
             text_field: "Tekst",
             permission_field: "Toestemming",
+            role_field: "Rol",
             user_field: "Gebruiker",
             preset_field: "Voorinstelling",
             priority_field: "Prioriteit",

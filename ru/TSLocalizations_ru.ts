@@ -77,6 +77,7 @@ export class TSLocalizations_ru {
             project_field: "Проект",
             topic_field: "Тема",
             text_field: "Текст",
+            role_field: "Роль",
             user_field: "Пользователь",
             permission_field: "Право",
             preset_field: "Предустановка",

@@ -21,6 +21,7 @@
     "logging_action_preset": "Permissie voorinstelling toegepast",
     "permission_field": "Permissie",
     "user_field": "Gebruiker",
+    "role_field": "Rol",
     "invalid_preset": "De voorinstelling **{{preset}}** is ongeldig. Gebruik een van de volgende: {{presets}}",
     "preset_used_user_project": "De voorinstelling **{{preset}}** is toegepast op de gebruiker <@{{user_id}}> voor het project **{{project_name}}**. De gebruiker heeft nu de volgende permissies: {{permissions}}",
     "preset_used_user": "De voorinstelling **{{preset}}** is toegepast op de gebruiker <@{{user_id}}> voor het globale bereik. De gebruiker heeft nu de volgende permissies: {{permissions}}"

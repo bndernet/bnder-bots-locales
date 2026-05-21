@@ -21,6 +21,7 @@
     "logging_action_preset": "Conjunto de permisos aplicado",
     "permission_field": "Permission",
     "user_field": "User",
+    "role_field": "Role",
     "invalid_preset": "El preajuste **{{preset}}** no es válido. Por favor, utilice uno de los siguientes: {{presets}}",
     "preset_used_user_project": "El preajuste **{{preset}}** se aplicó al usuario <@{{user_id}}> para el proyecto **{{project_name}}**. El usuario tiene ahora los siguientes permisos: {{permissions}}",
     "preset_used_user": "El preajuste **{{preset}}** se aplicó al usuario <@{{user_id}}> para el ámbito global. El usuario tiene ahora los siguientes permisos: {{permissions}}"

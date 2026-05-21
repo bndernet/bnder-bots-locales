@@ -21,6 +21,7 @@
     "logging_action_preset": "权限预设已应用",
     "permission_field": "权限",
     "user_field": "用户",
+    "role_field": "角色",
     "invalid_preset": "预设 **{{preset}}** 无效。请使用以下之一：{{presets}}",
     "preset_used_user_project": "预设 **{{preset}}** 已应用于用户 <@{{user_id}}> 的项目 **{{project_name}}**。该用户现在拥有以下权限：{{permissions}}",
     "preset_used_user": "预设 **{{preset}}** 已应用于用户 <@{{user_id}}> 的全局范围。该用户现在拥有以下权限：{{permissions}}"
