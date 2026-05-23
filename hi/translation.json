@@ -545,6 +545,14 @@
       "enabled": "**{{location}}** के लिए आपका निजी अवकाश क्षेत्र चालू है।",
       "disabled": "आपका निजी अवकाश क्षेत्र बंद है। अगली बार चालू करने के लिए सहेजा गया स्थान **{{location}}** है।",
       "country_required": "पहली बार अपना निजी अवकाश क्षेत्र चालू करते समय देश कोड दें, जैसे `DE` या `US`।"
+    },
+    "vacation": {
+      "enabled": "आपका vacation replacement सेट है: **{{replacement}}** **{{startDate}}** से **{{endDate}}** तक नया काम संभालेगा।",
+      "cleared": "आपके vacation replacements हटा दिए गए हैं।",
+      "invalid_date": "`YYYY-MM-DD` format में सही dates इस्तेमाल करें और end date start से पहले न हो।",
+      "self_replacement": "Replacement के लिए कोई दूसरा workspace member चुनें।",
+      "replacement_not_found": "वह replacement active workspace member के रूप में नहीं मिला।",
+      "people_unavailable": "इस workspace में People Management उपलब्ध नहीं है।"
     }
   },
   "event": {

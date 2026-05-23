@@ -545,6 +545,14 @@
       "enabled": "Kişisel tatil bölgeniz **{{location}}** için etkinleştirildi.",
       "disabled": "Kişisel tatil bölgeniz devre dışı. Kayıtlı konum bir sonraki etkinleştirme için **{{location}}**.",
       "country_required": "Kişisel tatil bölgenizi ilk kez etkinleştirirken `DE` veya `US` gibi bir ülke kodu girin."
+    },
+    "vacation": {
+      "enabled": "Tatil vekilin ayarlandı: **{{replacement}}**, **{{startDate}}** ile **{{endDate}}** arasında yeni işleri devralır.",
+      "cleared": "Tatil vekillerin temizlendi.",
+      "invalid_date": "`YYYY-MM-DD` biçiminde geçerli tarihler kullan ve bitişin başlangıçtan önce olmadığından emin ol.",
+      "self_replacement": "Vekil olarak başka bir workspace üyesi seç.",
+      "replacement_not_found": "Bu vekil aktif bir workspace üyesi olarak bulunamadı.",
+      "people_unavailable": "People Management bu workspace içinde kullanılamıyor."
     }
   },
   "event": {

@@ -545,6 +545,14 @@
       "enabled": "Twój osobisty region świąt jest włączony dla **{{location}}**.",
       "disabled": "Twój osobisty region świąt jest wyłączony. Zapisana lokalizacja to **{{location}}** przy następnym włączeniu.",
       "country_required": "Podaj kod kraju, na przykład `DE` albo `US`, gdy włączasz osobisty region świąt po raz pierwszy."
+    },
+    "vacation": {
+      "enabled": "Twoje zastępstwo urlopowe jest ustawione: **{{replacement}}** przejmuje nową pracę od **{{startDate}}** do **{{endDate}}**.",
+      "cleared": "Twoje zastępstwa urlopowe zostały wyczyszczone.",
+      "invalid_date": "Użyj poprawnych dat w formacie `YYYY-MM-DD` i upewnij się, że koniec nie jest przed początkiem.",
+      "self_replacement": "Wybierz innego członka workspace jako zastępstwo.",
+      "replacement_not_found": "Tego zastępstwa nie znaleziono jako aktywnego członka workspace.",
+      "people_unavailable": "People Management nie jest dostępny w tym workspace."
     }
   },
   "event": {

@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "更改您的首选时区",
     "event_reminders_subcommand_description": "启用或禁用事件提醒",
     "direct_messages_subcommand_description": "启用或禁用直接消息",
-    "holidays_subcommand_description": "配置你的个人节假日地区"
+    "holidays_subcommand_description": "配置你的个人节假日地区",
+    "vacation_subcommand_description": "设置休假替代成员",
+    "vacation_clear_subcommand_description": "清除你的休假替代成员",
+    "vacation_start_option_description": "开始日期，格式 YYYY-MM-DD",
+    "vacation_end_option_description": "结束日期，格式 YYYY-MM-DD",
+    "vacation_replacement_option_description": "接手你工作的工作区成员",
+    "vacation_note_option_description": "此替代安排的可选备注"
   },
   "settings": {
     "command_description": "管理设置",

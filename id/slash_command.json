@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Ubah zona waktu pilihan Anda",
     "event_reminders_subcommand_description": "Aktifkan atau nonaktifkan pengingat acara",
     "direct_messages_subcommand_description": "Aktifkan atau nonaktifkan pesan langsung",
-    "holidays_subcommand_description": "Atur wilayah hari libur pribadi Anda"
+    "holidays_subcommand_description": "Atur wilayah hari libur pribadi Anda",
+    "vacation_subcommand_description": "Atur pengganti cuti",
+    "vacation_clear_subcommand_description": "Hapus pengganti cuti Anda",
+    "vacation_start_option_description": "Tanggal mulai dalam YYYY-MM-DD",
+    "vacation_end_option_description": "Tanggal akhir dalam YYYY-MM-DD",
+    "vacation_replacement_option_description": "Anggota workspace yang menangani pekerjaan Anda",
+    "vacation_note_option_description": "Catatan opsional untuk pengganti ini"
   },
   "settings": {
     "command_description": "Kelola pengaturan",

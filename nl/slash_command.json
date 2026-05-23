@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Wijzig je voorkeurstijdzone",
     "event_reminders_subcommand_description": "Schakel herinneringen voor evenementen in of uit",
     "direct_messages_subcommand_description": "Schakel directe berichten in of uit",
-    "holidays_subcommand_description": "Je persoonlijke feestdagenregio instellen"
+    "holidays_subcommand_description": "Je persoonlijke feestdagenregio instellen",
+    "vacation_subcommand_description": "Vakantievervanger instellen",
+    "vacation_clear_subcommand_description": "Je vakantievervangers wissen",
+    "vacation_start_option_description": "Startdatum in YYYY-MM-DD",
+    "vacation_end_option_description": "Einddatum in YYYY-MM-DD",
+    "vacation_replacement_option_description": "Workspace-lid dat je werk overneemt",
+    "vacation_note_option_description": "Optionele notitie voor deze vervanging"
   },
   "settings": {
     "command_description": "Beheer instellingen",

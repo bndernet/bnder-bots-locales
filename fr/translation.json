@@ -545,6 +545,14 @@
       "enabled": "Votre région personnelle de jours fériés est activée pour **{{location}}**.",
       "disabled": "Votre région personnelle de jours fériés est désactivée. Le lieu enregistré est **{{location}}** pour la prochaine activation.",
       "country_required": "Indiquez un code pays, par exemple `DE` ou `US`, lors de la première activation de votre région personnelle de jours fériés."
+    },
+    "vacation": {
+      "enabled": "Votre remplaçant de congé est défini : **{{replacement}}** couvre le nouveau travail du **{{startDate}}** au **{{endDate}}**.",
+      "cleared": "Vos remplacements de congé ont été effacés.",
+      "invalid_date": "Utilisez des dates valides au format `YYYY-MM-DD`, avec une fin après le début.",
+      "self_replacement": "Choisissez un autre membre du workspace comme remplaçant.",
+      "replacement_not_found": "Ce remplaçant n’a pas été trouvé comme membre actif du workspace.",
+      "people_unavailable": "People Management n’est pas disponible dans ce workspace."
     }
   },
   "event": {

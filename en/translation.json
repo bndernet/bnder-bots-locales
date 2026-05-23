@@ -545,6 +545,14 @@
       "enabled": "Your personal holiday region is enabled for **{{location}}**.",
       "disabled": "Your personal holiday region is disabled. The saved location is **{{location}}** for the next time you enable it.",
       "country_required": "Please provide a country code, for example `DE` or `US`, when enabling your personal holiday region for the first time."
+    },
+    "vacation": {
+      "enabled": "Your vacation replacement is set: **{{replacement}}** covers new work from **{{startDate}}** to **{{endDate}}**.",
+      "cleared": "Your vacation replacements have been cleared.",
+      "invalid_date": "Use valid dates in `YYYY-MM-DD` format, and make sure the end date is not before the start date.",
+      "self_replacement": "Choose another workspace member as your replacement.",
+      "replacement_not_found": "That replacement could not be found as an active workspace member.",
+      "people_unavailable": "People management is not available in this workspace."
     }
   },
   "event": {

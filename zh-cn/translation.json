@@ -545,6 +545,14 @@
       "enabled": "已为 **{{location}}** 启用你的个人节假日地区。",
       "disabled": "你的个人节假日地区已停用。已保存的位置 **{{location}}** 将用于下次启用。",
       "country_required": "首次启用个人节假日地区时，请提供国家/地区代码，例如 `DE` 或 `US`。"
+    },
+    "vacation": {
+      "enabled": "你的休假替代成员已设置：**{{replacement}}** 将从 **{{startDate}}** 到 **{{endDate}}** 接手新工作。",
+      "cleared": "你的休假替代成员已清除。",
+      "invalid_date": "请使用 `YYYY-MM-DD` 格式的有效日期，并确保结束日期不早于开始日期。",
+      "self_replacement": "请选择另一个工作区成员作为替代成员。",
+      "replacement_not_found": "未找到该替代成员作为活跃工作区成员。",
+      "people_unavailable": "此工作区不可使用 People Management。"
     }
   },
   "event": {

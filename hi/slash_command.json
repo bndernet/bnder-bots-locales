@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "अपना पसंदीदा समयक्षेत्र बदलें",
     "event_reminders_subcommand_description": "ईवेंट अनुस्मारक सक्षम या अक्षम करें",
     "direct_messages_subcommand_description": "सीधे संदेश सक्षम या अक्षम करें",
-    "holidays_subcommand_description": "अपना निजी अवकाश क्षेत्र कॉन्फिगर करें"
+    "holidays_subcommand_description": "अपना निजी अवकाश क्षेत्र कॉन्फिगर करें",
+    "vacation_subcommand_description": "छुट्टी का replacement सेट करें",
+    "vacation_clear_subcommand_description": "अपने vacation replacements हटाएं",
+    "vacation_start_option_description": "शुरू तारीख YYYY-MM-DD में",
+    "vacation_end_option_description": "अंत तारीख YYYY-MM-DD में",
+    "vacation_replacement_option_description": "आपका काम संभालने वाला workspace member",
+    "vacation_note_option_description": "इस replacement के लिए optional note"
   },
   "settings": {
     "command_description": "सेटिंग्स प्रबंधित करें",

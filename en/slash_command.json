@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Change your preferred timezone",
     "event_reminders_subcommand_description": "Enable or disable event reminders",
     "direct_messages_subcommand_description": "Enable or disable direct messages",
-    "holidays_subcommand_description": "Configure your personal holiday region"
+    "holidays_subcommand_description": "Configure your personal holiday region",
+    "vacation_subcommand_description": "Set a vacation replacement",
+    "vacation_clear_subcommand_description": "Clear your vacation replacements",
+    "vacation_start_option_description": "Vacation start date in YYYY-MM-DD",
+    "vacation_end_option_description": "Vacation end date in YYYY-MM-DD",
+    "vacation_replacement_option_description": "Workspace member covering your work",
+    "vacation_note_option_description": "Optional note for this replacement"
   },
   "settings": {
     "command_description": "Manage settings",

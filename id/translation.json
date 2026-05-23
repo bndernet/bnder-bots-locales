@@ -545,6 +545,14 @@
       "enabled": "Wilayah hari libur pribadi Anda diaktifkan untuk **{{location}}**.",
       "disabled": "Wilayah hari libur pribadi Anda dinonaktifkan. Lokasi tersimpan adalah **{{location}}** untuk aktivasi berikutnya.",
       "country_required": "Masukkan kode negara, misalnya `DE` atau `US`, saat mengaktifkan wilayah hari libur pribadi untuk pertama kali."
+    },
+    "vacation": {
+      "enabled": "Pengganti cuti Anda sudah diatur: **{{replacement}}** menangani pekerjaan baru dari **{{startDate}}** sampai **{{endDate}}**.",
+      "cleared": "Pengganti cuti Anda telah dihapus.",
+      "invalid_date": "Gunakan tanggal valid dalam format `YYYY-MM-DD`, dan pastikan tanggal akhir tidak sebelum tanggal mulai.",
+      "self_replacement": "Pilih anggota workspace lain sebagai pengganti.",
+      "replacement_not_found": "Pengganti itu tidak ditemukan sebagai anggota workspace aktif.",
+      "people_unavailable": "People Management tidak tersedia di workspace ini."
     }
   },
   "event": {

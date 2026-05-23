@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Tercih ettiğiniz saat dilimini değiştirin",
     "event_reminders_subcommand_description": "Olay hatırlatıcılarını etkinleştir veya devre dışı bırak",
     "direct_messages_subcommand_description": "Doğrudan mesajları etkinleştir veya devre dışı bırak",
-    "holidays_subcommand_description": "Kişisel tatil bölgenizi yapılandır"
+    "holidays_subcommand_description": "Kişisel tatil bölgenizi yapılandır",
+    "vacation_subcommand_description": "Tatil vekili ayarla",
+    "vacation_clear_subcommand_description": "Tatil vekillerini temizle",
+    "vacation_start_option_description": "YYYY-MM-DD biçiminde başlangıç tarihi",
+    "vacation_end_option_description": "YYYY-MM-DD biçiminde bitiş tarihi",
+    "vacation_replacement_option_description": "İşini devralacak workspace üyesi",
+    "vacation_note_option_description": "Bu vekil için isteğe bağlı not"
   },
   "settings": {
     "command_description": "Ayarları yönet",

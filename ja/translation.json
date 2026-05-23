@@ -545,6 +545,14 @@
       "enabled": "**{{location}}** の個人用祝日地域を有効にしました。",
       "disabled": "個人用祝日地域を無効にしました。次回有効化用に保存された場所は **{{location}}** です。",
       "country_required": "個人用祝日地域を初めて有効にする場合は、`DE` や `US` などの国コードを入力してください。"
+    },
+    "vacation": {
+      "enabled": "休暇代行を設定しました: **{{replacement}}** が **{{startDate}}** から **{{endDate}}** まで新しい作業を代行します。",
+      "cleared": "休暇代行をクリアしました。",
+      "invalid_date": "`YYYY-MM-DD` 形式の有効な日付を使い、終了日が開始日より前にならないようにしてください。",
+      "self_replacement": "代行者には別のワークスペースメンバーを選択してください。",
+      "replacement_not_found": "その代行者はアクティブなワークスペースメンバーとして見つかりませんでした。",
+      "people_unavailable": "このワークスペースでは People Management を利用できません。"
     }
   },
   "event": {

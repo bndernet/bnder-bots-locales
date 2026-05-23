@@ -545,6 +545,14 @@
       "enabled": "Sua região pessoal de feriados está ativada para **{{location}}**.",
       "disabled": "Sua região pessoal de feriados está desativada. O local salvo é **{{location}}** para a próxima ativação.",
       "country_required": "Informe um código de país, por exemplo `DE` ou `US`, ao ativar sua região pessoal de feriados pela primeira vez."
+    },
+    "vacation": {
+      "enabled": "Seu substituto de férias foi definido: **{{replacement}}** cobre novos trabalhos de **{{startDate}}** até **{{endDate}}**.",
+      "cleared": "Seus substitutos de férias foram limpos.",
+      "invalid_date": "Use datas válidas em `YYYY-MM-DD` e garanta que o fim não seja antes do início.",
+      "self_replacement": "Escolha outro membro do workspace como substituto.",
+      "replacement_not_found": "Esse substituto não foi encontrado como membro ativo do workspace.",
+      "people_unavailable": "People Management não está disponível neste workspace."
     }
   },
   "event": {

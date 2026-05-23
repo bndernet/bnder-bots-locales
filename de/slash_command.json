@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Ändern Sie Ihre bevorzugte Zeitzone",
     "event_reminders_subcommand_description": "Ereigniserinnerungen aktivieren oder deaktivieren",
     "direct_messages_subcommand_description": "Direktnachrichten aktivieren oder deaktivieren",
-    "holidays_subcommand_description": "Persönliche Feiertagsregion konfigurieren"
+    "holidays_subcommand_description": "Persönliche Feiertagsregion konfigurieren",
+    "vacation_subcommand_description": "Urlaubsvertretung festlegen",
+    "vacation_clear_subcommand_description": "Urlaubsvertretungen löschen",
+    "vacation_start_option_description": "Startdatum im Format YYYY-MM-DD",
+    "vacation_end_option_description": "Enddatum im Format YYYY-MM-DD",
+    "vacation_replacement_option_description": "Workspace-Mitglied, das deine Arbeit übernimmt",
+    "vacation_note_option_description": "Optionale Notiz für diese Vertretung"
   },
   "settings": {
     "command_description": "Einstellungen verwalten",

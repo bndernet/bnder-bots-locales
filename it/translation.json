@@ -545,6 +545,14 @@
       "enabled": "La tua regione personale per le festività è attiva per **{{location}}**.",
       "disabled": "La tua regione personale per le festività è disattivata. La località salvata è **{{location}}** per la prossima attivazione.",
       "country_required": "Inserisci un codice paese, ad esempio `DE` o `US`, quando attivi per la prima volta la tua regione personale per le festività."
+    },
+    "vacation": {
+      "enabled": "Il tuo sostituto per ferie è impostato: **{{replacement}}** copre il nuovo lavoro da **{{startDate}}** a **{{endDate}}**.",
+      "cleared": "I tuoi sostituti per ferie sono stati cancellati.",
+      "invalid_date": "Usa date valide in formato `YYYY-MM-DD` e assicurati che la fine non preceda l’inizio.",
+      "self_replacement": "Scegli un altro membro del workspace come sostituto.",
+      "replacement_not_found": "Quel sostituto non è stato trovato come membro attivo del workspace.",
+      "people_unavailable": "People Management non è disponibile in questo workspace."
     }
   },
   "event": {

@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Zmień preferowaną strefę czasową",
     "event_reminders_subcommand_description": "Włącz lub wyłącz przypomnienia o wydarzeniach",
     "direct_messages_subcommand_description": "Włącz lub wyłącz wiadomości bezpośrednie",
-    "holidays_subcommand_description": "Skonfiguruj osobisty region świąt"
+    "holidays_subcommand_description": "Skonfiguruj osobisty region świąt",
+    "vacation_subcommand_description": "Ustaw zastępstwo urlopowe",
+    "vacation_clear_subcommand_description": "Wyczyść swoje zastępstwa urlopowe",
+    "vacation_start_option_description": "Data początku w formacie YYYY-MM-DD",
+    "vacation_end_option_description": "Data końca w formacie YYYY-MM-DD",
+    "vacation_replacement_option_description": "Członek workspace przejmujący pracę",
+    "vacation_note_option_description": "Opcjonalna notatka dla tego zastępstwa"
   },
   "settings": {
     "command_description": "Zarządzaj ustawieniami",

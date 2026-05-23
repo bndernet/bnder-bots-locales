@@ -545,6 +545,14 @@
       "enabled": "Je persoonlijke feestdagenregio is ingeschakeld voor **{{location}}**.",
       "disabled": "Je persoonlijke feestdagenregio is uitgeschakeld. De opgeslagen locatie is **{{location}}** voor de volgende keer dat je die inschakelt.",
       "country_required": "Geef een landcode op, bijvoorbeeld `DE` of `US`, wanneer je je persoonlijke feestdagenregio voor het eerst inschakelt."
+    },
+    "vacation": {
+      "enabled": "Je vakantievervanger is ingesteld: **{{replacement}}** neemt nieuw werk over van **{{startDate}}** tot **{{endDate}}**.",
+      "cleared": "Je vakantievervangers zijn gewist.",
+      "invalid_date": "Gebruik geldige datums in `YYYY-MM-DD` en zorg dat de einddatum niet voor de startdatum ligt.",
+      "self_replacement": "Kies een ander workspace-lid als vervanger.",
+      "replacement_not_found": "Die vervanger is niet gevonden als actief workspace-lid.",
+      "people_unavailable": "People Management is niet beschikbaar in deze workspace."
     }
   },
   "event": {

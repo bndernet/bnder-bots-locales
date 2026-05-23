@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Промяна на предпочитаната от вас часова зона",
     "event_reminders_subcommand_description": "Активиране или деактивиране на напомнянията за събития",
     "direct_messages_subcommand_description": "Активиране или деактивиране на директните съобщения",
-    "holidays_subcommand_description": "Настройте личния си регион за празници"
+    "holidays_subcommand_description": "Настройте личния си регион за празници",
+    "vacation_subcommand_description": "Задай заместник за отпуск",
+    "vacation_clear_subcommand_description": "Изчисти заместниците за отпуск",
+    "vacation_start_option_description": "Начална дата във формат YYYY-MM-DD",
+    "vacation_end_option_description": "Крайна дата във формат YYYY-MM-DD",
+    "vacation_replacement_option_description": "Член на workspace, който поема работата",
+    "vacation_note_option_description": "Незадължителна бележка за заместването"
   },
   "settings": {
     "command_description": "Управление на настройките",

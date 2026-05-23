@@ -545,6 +545,14 @@
       "enabled": "Deine persönliche Feiertagsregion ist für **{{location}}** aktiviert.",
       "disabled": "Deine persönliche Feiertagsregion ist deaktiviert. Der gespeicherte Standort ist **{{location}}** für die nächste Aktivierung.",
       "country_required": "Bitte gib einen Ländercode an, zum Beispiel `DE` oder `US`, wenn du deine persönliche Feiertagsregion zum ersten Mal aktivierst."
+    },
+    "vacation": {
+      "enabled": "Deine Urlaubsvertretung ist gesetzt: **{{replacement}}** übernimmt neue Arbeit von **{{startDate}}** bis **{{endDate}}**.",
+      "cleared": "Deine Urlaubsvertretungen wurden gelöscht.",
+      "invalid_date": "Nutze gültige Daten im Format `YYYY-MM-DD`; das Enddatum darf nicht vor dem Startdatum liegen.",
+      "self_replacement": "Wähle ein anderes Workspace-Mitglied als Vertretung.",
+      "replacement_not_found": "Diese Vertretung wurde nicht als aktives Workspace-Mitglied gefunden.",
+      "people_unavailable": "People Management ist in diesem Workspace nicht verfügbar."
     }
   },
   "event": {

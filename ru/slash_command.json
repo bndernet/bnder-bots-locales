@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Изменить предпочтительный часовой пояс",
     "event_reminders_subcommand_description": "Включить или отключить напоминания о событиях",
     "direct_messages_subcommand_description": "Включить или отключить прямые сообщения",
-    "holidays_subcommand_description": "Настроить личный регион праздников"
+    "holidays_subcommand_description": "Настроить личный регион праздников",
+    "vacation_subcommand_description": "Назначить замену на отпуск",
+    "vacation_clear_subcommand_description": "Очистить замены на отпуск",
+    "vacation_start_option_description": "Дата начала в формате YYYY-MM-DD",
+    "vacation_end_option_description": "Дата окончания в формате YYYY-MM-DD",
+    "vacation_replacement_option_description": "Участник, который закроет вашу работу",
+    "vacation_note_option_description": "Необязательная заметка для замены"
   },
   "settings": {
     "command_description": "Управление настройками",

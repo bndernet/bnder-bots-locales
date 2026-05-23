@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "希望するタイムゾーンを変更する",
     "event_reminders_subcommand_description": "イベントリマインダーを有効または無効にする",
     "direct_messages_subcommand_description": "ダイレクトメッセージを有効または無効にする",
-    "holidays_subcommand_description": "個人用の祝日地域を設定"
+    "holidays_subcommand_description": "個人用の祝日地域を設定",
+    "vacation_subcommand_description": "休暇中の代行者を設定",
+    "vacation_clear_subcommand_description": "休暇代行をクリア",
+    "vacation_start_option_description": "開始日 YYYY-MM-DD",
+    "vacation_end_option_description": "終了日 YYYY-MM-DD",
+    "vacation_replacement_option_description": "作業を代行するワークスペースメンバー",
+    "vacation_note_option_description": "この代行の任意メモ"
   },
   "settings": {
     "command_description": "設定を管理する",

@@ -13,7 +13,13 @@
     "timezone_subcommand_description": "Cambia il fuso orario preferito",
     "event_reminders_subcommand_description": "Abilita o disabilita i promemoria per gli eventi",
     "direct_messages_subcommand_description": "Abilita o disabilita i messaggi diretti",
-    "holidays_subcommand_description": "Configura la tua regione personale festività"
+    "holidays_subcommand_description": "Configura la tua regione personale festività",
+    "vacation_subcommand_description": "Imposta un sostituto per ferie",
+    "vacation_clear_subcommand_description": "Cancella i sostituti per ferie",
+    "vacation_start_option_description": "Data inizio in YYYY-MM-DD",
+    "vacation_end_option_description": "Data fine in YYYY-MM-DD",
+    "vacation_replacement_option_description": "Membro che coprirà il tuo lavoro",
+    "vacation_note_option_description": "Nota opzionale per questo sostituto"
   },
   "settings": {
     "command_description": "Gestisci impostazioni",
