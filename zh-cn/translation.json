@@ -684,5 +684,22 @@
     "note_added": "已向工单 **{{id}}** 添加内部备注。",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "此工作区不可使用 People 管理。",
+    "no_teams": "尚未创建 People 团队。",
+    "team_not_found": "未找到团队 **{{team}}**。请选择自动补全建议。",
+    "team_required": "请选择一个 People 团队。",
+    "teams_response": "**People 团队 ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} 名成员，{{routing}}",
+    "more_teams": "- 以及另外 {{count}} 个团队",
+    "team_response": "**{{team}}**\n描述：{{description}}\n上级团队：{{parent}}\n路由：{{routing}}\n成员：\n{{members}}\n负责人：\n{{leads}}\n经理：\n{{managers}}",
+    "me_response": "**{{user}}**\n职位：{{title}}\n部门：{{department}}\n团队：\n{{teams}}\n路由：{{routing}}\n当前休假替代人：\n{{vacation}}",
+    "me_not_configured": "**{{user}}** 还没有 People 资料。",
+    "routing_enabled": "路由已启用",
+    "routing_disabled": "路由已禁用",
+    "unknown_member": "未知成员",
+    "more_members": "以及另外 {{count}} 名成员",
+    "vacation_line": "{{replacement}} 从 {{startDate}} 到 {{endDate}} 代班"
   }
 }

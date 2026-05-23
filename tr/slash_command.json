@@ -239,5 +239,12 @@
     "from_option_description": "YYYY-MM-DD biçiminde başlangıç tarihi",
     "to_option_description": "YYYY-MM-DD biçiminde bitiş tarihi",
     "user_option_description": "Kişisel tatil bölgesi kullanılacak kullanıcı"
+  },
+  "people": {
+    "command_description": "People ekiplerini ve People profilini görüntüle",
+    "teams_subcommand_description": "Bu çalışma alanındaki People ekiplerini listele",
+    "team_subcommand_description": "Bir People ekibini göster",
+    "me_subcommand_description": "People profilini göster",
+    "team_option_description": "People ekibi"
   }
 }

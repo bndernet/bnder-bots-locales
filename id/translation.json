@@ -684,5 +684,22 @@
     "note_added": "Catatan internal ditambahkan ke tiket **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "Manajemen People tidak tersedia di workspace ini.",
+    "no_teams": "Belum ada tim People yang dibuat.",
+    "team_not_found": "Tim **{{team}}** tidak ditemukan. Pilih salah satu saran autocomplete.",
+    "team_required": "Pilih tim People.",
+    "teams_response": "**Tim People ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} anggota, {{routing}}",
+    "more_teams": "- dan {{count}} tim lainnya",
+    "team_response": "**{{team}}**\nDeskripsi: {{description}}\nTim induk: {{parent}}\nRouting: {{routing}}\nAnggota:\n{{members}}\nLead:\n{{leads}}\nManajer:\n{{managers}}",
+    "me_response": "**{{user}}**\nJabatan: {{title}}\nDepartemen: {{department}}\nTim:\n{{teams}}\nRouting: {{routing}}\nPengganti cuti aktif:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** belum memiliki profil People.",
+    "routing_enabled": "routing aktif",
+    "routing_disabled": "routing nonaktif",
+    "unknown_member": "Anggota tidak dikenal",
+    "more_members": "dan {{count}} anggota lainnya",
+    "vacation_line": "{{replacement}} dari {{startDate}} sampai {{endDate}}"
   }
 }

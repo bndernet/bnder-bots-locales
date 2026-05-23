@@ -239,5 +239,12 @@
     "from_option_description": "Begindatum in YYYY-MM-DD-indeling",
     "to_option_description": "Einddatum in YYYY-MM-DD-indeling",
     "user_option_description": "Gebruiker van wie de persoonlijke regio wordt gebruikt"
+  },
+  "people": {
+    "command_description": "Bekijk People-teams en je People-profiel",
+    "teams_subcommand_description": "Toon People-teams in deze workspace",
+    "team_subcommand_description": "Toon een People-team",
+    "me_subcommand_description": "Toon je People-profiel",
+    "team_option_description": "People-team"
   }
 }

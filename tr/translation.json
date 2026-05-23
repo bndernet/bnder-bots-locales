@@ -684,5 +684,22 @@
     "note_added": "Talep **{{id}}** için dahili not eklendi.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "People yönetimi bu çalışma alanında kullanılamıyor.",
+    "no_teams": "Henüz People ekibi oluşturulmadı.",
+    "team_not_found": "**{{team}}** ekibi bulunamadı. Otomatik tamamlama önerilerinden birini seç.",
+    "team_required": "Bir People ekibi seç.",
+    "teams_response": "**People ekipleri ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} üye, {{routing}}",
+    "more_teams": "- ve {{count}} ekip daha",
+    "team_response": "**{{team}}**\nAçıklama: {{description}}\nÜst ekip: {{parent}}\nYönlendirme: {{routing}}\nÜyeler:\n{{members}}\nLiderler:\n{{leads}}\nYöneticiler:\n{{managers}}",
+    "me_response": "**{{user}}**\nUnvan: {{title}}\nDepartman: {{department}}\nEkipler:\n{{teams}}\nYönlendirme: {{routing}}\nAktif izin yedeği:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** için henüz People profili yok.",
+    "routing_enabled": "yönlendirme açık",
+    "routing_disabled": "yönlendirme kapalı",
+    "unknown_member": "Bilinmeyen üye",
+    "more_members": "ve {{count}} üye daha",
+    "vacation_line": "{{replacement}} {{startDate}} ile {{endDate}} arasında"
   }
 }

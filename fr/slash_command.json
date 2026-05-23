@@ -239,5 +239,12 @@
     "from_option_description": "Date de début au format YYYY-MM-DD",
     "to_option_description": "Date de fin au format YYYY-MM-DD",
     "user_option_description": "Utilisateur dont la région personnelle sera utilisée"
+  },
+  "people": {
+    "command_description": "Consulter les équipes People et votre profil People",
+    "teams_subcommand_description": "Lister les équipes People de cet espace",
+    "team_subcommand_description": "Afficher une équipe People",
+    "me_subcommand_description": "Afficher votre profil People",
+    "team_option_description": "Équipe People"
   }
 }

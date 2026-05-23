@@ -239,5 +239,12 @@
     "from_option_description": "YYYY-MM-DD格式的开始日期",
     "to_option_description": "YYYY-MM-DD格式的结束日期",
     "user_option_description": "要使用其个人节假日地区的用户"
+  },
+  "people": {
+    "command_description": "查看 People 团队和你的 People 资料",
+    "teams_subcommand_description": "列出此工作区的 People 团队",
+    "team_subcommand_description": "显示一个 People 团队",
+    "me_subcommand_description": "显示你的 People 资料",
+    "team_option_description": "People 团队"
   }
 }

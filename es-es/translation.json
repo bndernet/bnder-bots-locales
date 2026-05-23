@@ -684,5 +684,22 @@
     "note_added": "Nota interna agregada al ticket **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "La gestión de People no está disponible en este espacio.",
+    "no_teams": "Aún no se ha creado ningún equipo People.",
+    "team_not_found": "No se encontró el equipo **{{team}}**. Elige una sugerencia del autocompletado.",
+    "team_required": "Elige un equipo People.",
+    "teams_response": "**Equipos People ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} miembros, {{routing}}",
+    "more_teams": "- y {{count}} equipos más",
+    "team_response": "**{{team}}**\nDescripción: {{description}}\nEquipo principal: {{parent}}\nEnrutamiento: {{routing}}\nMiembros:\n{{members}}\nResponsables:\n{{leads}}\nManagers:\n{{managers}}",
+    "me_response": "**{{user}}**\nCargo: {{title}}\nDepartamento: {{department}}\nEquipos:\n{{teams}}\nEnrutamiento: {{routing}}\nSustitución de vacaciones activa:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** aún no tiene un perfil People.",
+    "routing_enabled": "enrutamiento activado",
+    "routing_disabled": "enrutamiento desactivado",
+    "unknown_member": "Miembro desconocido",
+    "more_members": "y {{count}} miembros más",
+    "vacation_line": "{{replacement}} del {{startDate}} al {{endDate}}"
   }
 }

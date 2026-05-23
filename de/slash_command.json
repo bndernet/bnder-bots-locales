@@ -239,5 +239,12 @@
     "from_option_description": "Startdatum im Format YYYY-MM-DD",
     "to_option_description": "Enddatum im Format YYYY-MM-DD",
     "user_option_description": "Nutzer, dessen persönliche Feiertagsregion verwendet wird"
+  },
+  "people": {
+    "command_description": "People-Teams und dein People-Profil anzeigen",
+    "teams_subcommand_description": "People-Teams in diesem Workspace auflisten",
+    "team_subcommand_description": "Ein People-Team anzeigen",
+    "me_subcommand_description": "Dein People-Profil anzeigen",
+    "team_option_description": "People-Team"
   }
 }

@@ -684,5 +684,22 @@
     "note_added": "チケット **{{id}}** に内部メモを追加しました。",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "このワークスペースでは People 管理を利用できません。",
+    "no_teams": "People チームはまだ作成されていません。",
+    "team_not_found": "チーム **{{team}}** が見つかりません。オートコンプリート候補から選択してください。",
+    "team_required": "People チームを選択してください。",
+    "teams_response": "**People チーム ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} 人のメンバー、{{routing}}",
+    "more_teams": "- ほか {{count}} チーム",
+    "team_response": "**{{team}}**\n説明: {{description}}\n親チーム: {{parent}}\nルーティング: {{routing}}\nメンバー:\n{{members}}\nリード:\n{{leads}}\nマネージャー:\n{{managers}}",
+    "me_response": "**{{user}}**\n役職: {{title}}\n部門: {{department}}\nチーム:\n{{teams}}\nルーティング: {{routing}}\n有効な休暇代理:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** にはまだ People プロフィールがありません。",
+    "routing_enabled": "ルーティング有効",
+    "routing_disabled": "ルーティング無効",
+    "unknown_member": "不明なメンバー",
+    "more_members": "ほか {{count}} 人のメンバー",
+    "vacation_line": "{{replacement}} が {{startDate}} から {{endDate}} まで代理"
   }
 }

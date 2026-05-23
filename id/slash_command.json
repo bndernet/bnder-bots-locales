@@ -239,5 +239,12 @@
     "from_option_description": "Tanggal mulai dalam format YYYY-MM-DD",
     "to_option_description": "Tanggal akhir dalam format YYYY-MM-DD",
     "user_option_description": "Pengguna yang wilayah pribadinya digunakan"
+  },
+  "people": {
+    "command_description": "Lihat tim People dan profil People Anda",
+    "teams_subcommand_description": "Daftar tim People di workspace ini",
+    "team_subcommand_description": "Tampilkan satu tim People",
+    "me_subcommand_description": "Tampilkan profil People Anda",
+    "team_option_description": "Tim People"
   }
 }

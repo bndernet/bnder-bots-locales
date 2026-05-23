@@ -239,5 +239,12 @@
     "from_option_description": "Дата начала в формате YYYY-MM-DD",
     "to_option_description": "Дата окончания в формате YYYY-MM-DD",
     "user_option_description": "Пользователь, чей личный регион будет использован"
+  },
+  "people": {
+    "command_description": "Просмотр People-команд и вашего профиля People",
+    "teams_subcommand_description": "Показать People-команды в этом рабочем пространстве",
+    "team_subcommand_description": "Показать одну People-команду",
+    "me_subcommand_description": "Показать ваш профиль People",
+    "team_option_description": "People-команда"
   }
 }

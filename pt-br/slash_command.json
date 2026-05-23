@@ -239,5 +239,12 @@
     "from_option_description": "Data inicial no formato YYYY-MM-DD",
     "to_option_description": "Data final no formato YYYY-MM-DD",
     "user_option_description": "Usuário cuja região pessoal deve ser usada"
+  },
+  "people": {
+    "command_description": "Ver equipes People e seu perfil People",
+    "teams_subcommand_description": "Listar equipes People deste workspace",
+    "team_subcommand_description": "Mostrar uma equipe People",
+    "me_subcommand_description": "Mostrar seu perfil People",
+    "team_option_description": "Equipe People"
   }
 }

@@ -684,5 +684,22 @@
     "note_added": "Interne notitie toegevoegd aan ticket **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "People management is niet beschikbaar in deze workspace.",
+    "no_teams": "Er zijn nog geen People-teams aangemaakt.",
+    "team_not_found": "Team **{{team}}** is niet gevonden. Kies een suggestie uit autocomplete.",
+    "team_required": "Kies een People-team.",
+    "teams_response": "**People-teams ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} leden, {{routing}}",
+    "more_teams": "- en nog {{count}} teams",
+    "team_response": "**{{team}}**\nBeschrijving: {{description}}\nBovenliggend team: {{parent}}\nRouting: {{routing}}\nLeden:\n{{members}}\nLeads:\n{{leads}}\nManagers:\n{{managers}}",
+    "me_response": "**{{user}}**\nTitel: {{title}}\nAfdeling: {{department}}\nTeams:\n{{teams}}\nRouting: {{routing}}\nActieve vakantievervanging:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** heeft nog geen People-profiel.",
+    "routing_enabled": "routing ingeschakeld",
+    "routing_disabled": "routing uitgeschakeld",
+    "unknown_member": "Onbekend lid",
+    "more_members": "en nog {{count}} leden",
+    "vacation_line": "{{replacement}} van {{startDate}} tot {{endDate}}"
   }
 }

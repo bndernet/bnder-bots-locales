@@ -239,5 +239,12 @@
     "from_option_description": "Start date in YYYY-MM-DD format",
     "to_option_description": "End date in YYYY-MM-DD format",
     "user_option_description": "User whose personal holiday region should be used"
+  },
+  "people": {
+    "command_description": "Inspect People teams and your People profile",
+    "teams_subcommand_description": "List People teams in this workspace",
+    "team_subcommand_description": "Show one People team",
+    "me_subcommand_description": "Show your People profile",
+    "team_option_description": "People team"
   }
 }

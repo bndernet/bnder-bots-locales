@@ -684,5 +684,22 @@
     "note_added": "टिकट **{{id}}** में आंतरिक नोट जोड़ा गया।",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "इस workspace में People management उपलब्ध नहीं है।",
+    "no_teams": "अभी तक कोई People टीम नहीं बनाई गई है।",
+    "team_not_found": "टीम **{{team}}** नहीं मिली। autocomplete सुझावों में से चुनें।",
+    "team_required": "एक People टीम चुनें।",
+    "teams_response": "**People टीमें ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} सदस्य, {{routing}}",
+    "more_teams": "- और {{count}} टीमें",
+    "team_response": "**{{team}}**\nविवरण: {{description}}\nParent team: {{parent}}\nRouting: {{routing}}\nसदस्य:\n{{members}}\nLeads:\n{{leads}}\nManagers:\n{{managers}}",
+    "me_response": "**{{user}}**\nTitle: {{title}}\nDepartment: {{department}}\nटीमें:\n{{teams}}\nRouting: {{routing}}\nसक्रिय vacation replacement:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** का अभी People profile नहीं है।",
+    "routing_enabled": "routing enabled",
+    "routing_disabled": "routing disabled",
+    "unknown_member": "अज्ञात सदस्य",
+    "more_members": "और {{count}} सदस्य",
+    "vacation_line": "{{replacement}} {{startDate}} से {{endDate}} तक"
   }
 }

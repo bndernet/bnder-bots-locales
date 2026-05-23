@@ -239,5 +239,12 @@
     "from_option_description": "YYYY-MM-DD形式の開始日",
     "to_option_description": "YYYY-MM-DD形式の終了日",
     "user_option_description": "個人用祝日地域を使用するユーザー"
+  },
+  "people": {
+    "command_description": "People チームと自分の People プロフィールを表示",
+    "teams_subcommand_description": "このワークスペースの People チームを一覧表示",
+    "team_subcommand_description": "People チームを表示",
+    "me_subcommand_description": "自分の People プロフィールを表示",
+    "team_option_description": "People チーム"
   }
 }

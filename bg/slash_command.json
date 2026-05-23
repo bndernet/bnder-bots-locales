@@ -239,5 +239,12 @@
     "from_option_description": "Начална дата във формат YYYY-MM-DD",
     "to_option_description": "Крайна дата във формат YYYY-MM-DD",
     "user_option_description": "Потребител, чийто личен регион да се използва"
+  },
+  "people": {
+    "command_description": "Преглед на People екипи и вашия People профил",
+    "teams_subcommand_description": "Списък с People екипите в това работно пространство",
+    "team_subcommand_description": "Покажи един People екип",
+    "me_subcommand_description": "Покажи вашия People профил",
+    "team_option_description": "People екип"
   }
 }

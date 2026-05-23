@@ -684,5 +684,22 @@
     "note_added": "Добавена е вътрешна бележка към билет **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "People управлението не е налично в това работно пространство.",
+    "no_teams": "Все още няма създадени People екипи.",
+    "team_not_found": "Екипът **{{team}}** не беше намерен. Изберете предложение от автоматичното довършване.",
+    "team_required": "Изберете People екип.",
+    "teams_response": "**People екипи ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} членове, {{routing}}",
+    "more_teams": "- и още {{count}} екипа",
+    "team_response": "**{{team}}**\nОписание: {{description}}\nРодителски екип: {{parent}}\nМаршрутизиране: {{routing}}\nЧленове:\n{{members}}\nЛидери:\n{{leads}}\nМениджъри:\n{{managers}}",
+    "me_response": "**{{user}}**\nПозиция: {{title}}\nОтдел: {{department}}\nЕкипи:\n{{teams}}\nМаршрутизиране: {{routing}}\nАктивен заместник за отпуск:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** все още няма People профил.",
+    "routing_enabled": "маршрутизирането е включено",
+    "routing_disabled": "маршрутизирането е изключено",
+    "unknown_member": "Неизвестен член",
+    "more_members": "и още {{count}} членове",
+    "vacation_line": "{{replacement}} от {{startDate}} до {{endDate}}"
   }
 }

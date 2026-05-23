@@ -684,5 +684,22 @@
     "note_added": "Note interne ajoutée au ticket **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "La gestion People n’est pas disponible dans cet espace.",
+    "no_teams": "Aucune équipe People n’a encore été créée.",
+    "team_not_found": "L’équipe **{{team}}** est introuvable. Choisissez une suggestion de l’autocomplétion.",
+    "team_required": "Choisissez une équipe People.",
+    "teams_response": "**Équipes People ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} membres, {{routing}}",
+    "more_teams": "- et {{count}} autres équipes",
+    "team_response": "**{{team}}**\nDescription : {{description}}\nÉquipe parente : {{parent}}\nRoutage : {{routing}}\nMembres :\n{{members}}\nResponsables :\n{{leads}}\nManagers :\n{{managers}}",
+    "me_response": "**{{user}}**\nPoste : {{title}}\nDépartement : {{department}}\nÉquipes :\n{{teams}}\nRoutage : {{routing}}\nRemplacement de congé actif :\n{{vacation}}",
+    "me_not_configured": "**{{user}}** n’a pas encore de profil People.",
+    "routing_enabled": "routage activé",
+    "routing_disabled": "routage désactivé",
+    "unknown_member": "Membre inconnu",
+    "more_members": "et {{count}} autres membres",
+    "vacation_line": "{{replacement}} du {{startDate}} au {{endDate}}"
   }
 }

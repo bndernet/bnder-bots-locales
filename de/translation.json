@@ -684,5 +684,22 @@
     "note_added": "Interne Notiz zu Ticket **{{id}}** hinzugefügt.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "People Management ist in diesem Workspace nicht verfügbar.",
+    "no_teams": "Es wurden noch keine People-Teams erstellt.",
+    "team_not_found": "Team **{{team}}** wurde nicht gefunden. Wähle einen Vorschlag aus der Autovervollständigung.",
+    "team_required": "Wähle ein People-Team.",
+    "teams_response": "**People-Teams ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} Mitglieder, {{routing}}",
+    "more_teams": "- und {{count}} weitere Teams",
+    "team_response": "**{{team}}**\nBeschreibung: {{description}}\nÜbergeordnetes Team: {{parent}}\nRouting: {{routing}}\nMitglieder:\n{{members}}\nLeads:\n{{leads}}\nManager:\n{{managers}}",
+    "me_response": "**{{user}}**\nTitel: {{title}}\nAbteilung: {{department}}\nTeams:\n{{teams}}\nRouting: {{routing}}\nAktive Urlaubsvertretung:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** hat noch kein People-Profil.",
+    "routing_enabled": "Routing aktiviert",
+    "routing_disabled": "Routing deaktiviert",
+    "unknown_member": "Unbekanntes Mitglied",
+    "more_members": "und {{count}} weitere Mitglieder",
+    "vacation_line": "{{replacement}} vom {{startDate}} bis {{endDate}}"
   }
 }

@@ -239,5 +239,12 @@
     "from_option_description": "YYYY-MM-DD प्रारूप में शुरू तारीख",
     "to_option_description": "YYYY-MM-DD प्रारूप में समाप्ति तारीख",
     "user_option_description": "जिस उपयोगकर्ता का निजी अवकाश क्षेत्र उपयोग करना है"
+  },
+  "people": {
+    "command_description": "People टीम और अपना People प्रोफ़ाइल देखें",
+    "teams_subcommand_description": "इस workspace की People टीमों की सूची दिखाएँ",
+    "team_subcommand_description": "एक People टीम दिखाएँ",
+    "me_subcommand_description": "अपना People प्रोफ़ाइल दिखाएँ",
+    "team_option_description": "People टीम"
   }
 }

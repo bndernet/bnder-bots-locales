@@ -684,5 +684,22 @@
     "note_added": "Dodano wewnętrzną notatkę do zgłoszenia **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "Zarządzanie People nie jest dostępne w tym workspace.",
+    "no_teams": "Nie utworzono jeszcze żadnych zespołów People.",
+    "team_not_found": "Nie znaleziono zespołu **{{team}}**. Wybierz sugestię z autouzupełniania.",
+    "team_required": "Wybierz zespół People.",
+    "teams_response": "**Zespoły People ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - {{memberCount}} członków, {{routing}}",
+    "more_teams": "- i jeszcze {{count}} zespołów",
+    "team_response": "**{{team}}**\nOpis: {{description}}\nZespół nadrzędny: {{parent}}\nRouting: {{routing}}\nCzłonkowie:\n{{members}}\nLiderzy:\n{{leads}}\nMenedżerowie:\n{{managers}}",
+    "me_response": "**{{user}}**\nStanowisko: {{title}}\nDział: {{department}}\nZespoły:\n{{teams}}\nRouting: {{routing}}\nAktywne zastępstwo urlopowe:\n{{vacation}}",
+    "me_not_configured": "**{{user}}** nie ma jeszcze profilu People.",
+    "routing_enabled": "routing włączony",
+    "routing_disabled": "routing wyłączony",
+    "unknown_member": "Nieznany członek",
+    "more_members": "i jeszcze {{count}} członków",
+    "vacation_line": "{{replacement}} od {{startDate}} do {{endDate}}"
   }
 }

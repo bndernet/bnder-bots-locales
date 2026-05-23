@@ -684,5 +684,22 @@
     "note_added": "Внутренняя заметка добавлена в тикет **{{id}}**.",
     "commands_header_agent": "# Ticket commands for project **{{project}}**\n\nYou can use these commands:\n{{commands}}",
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
+  },
+  "people": {
+    "unavailable": "Управление People недоступно в этом рабочем пространстве.",
+    "no_teams": "People-команды пока не созданы.",
+    "team_not_found": "Команда **{{team}}** не найдена. Выберите вариант из автодополнения.",
+    "team_required": "Выберите People-команду.",
+    "teams_response": "**People-команды ({{count}})**\n{{teams}}",
+    "teams_row": "- **{{team}}** - участников: {{memberCount}}, {{routing}}",
+    "more_teams": "- и еще {{count}} команд",
+    "team_response": "**{{team}}**\nОписание: {{description}}\nРодительская команда: {{parent}}\nМаршрутизация: {{routing}}\nУчастники:\n{{members}}\nЛиды:\n{{leads}}\nМенеджеры:\n{{managers}}",
+    "me_response": "**{{user}}**\nДолжность: {{title}}\nОтдел: {{department}}\nКоманды:\n{{teams}}\nМаршрутизация: {{routing}}\nАктивная замена на отпуск:\n{{vacation}}",
+    "me_not_configured": "У **{{user}}** пока нет профиля People.",
+    "routing_enabled": "маршрутизация включена",
+    "routing_disabled": "маршрутизация выключена",
+    "unknown_member": "Неизвестный участник",
+    "more_members": "и еще {{count}} участников",
+    "vacation_line": "{{replacement}} с {{startDate}} по {{endDate}}"
   }
 }
