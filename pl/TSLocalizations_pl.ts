@@ -423,6 +423,18 @@ Potrzebujesz pomocy? [Skontaktuj się z pomocą techniczną](https://bnder.net/d
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `To zgłoszenie osiągnęło próg ostrzeżenia SLA.\n\nZgłoszenie: ${ticketTitle}\nSLA: ${slaName}\nAktualny wiek: ${currentAge}\nCel: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Dostarczenie e-maila do zgłaszającego ${failedRecipient} nie powiodło się. Zgłaszający mógł nie otrzymać najnowszej aktualizacji zgłoszenia.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Status: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnostyka: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Oryginalny temat: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Naruszenie SLA zgłoszenia: ${stepLabel}`;
                 },

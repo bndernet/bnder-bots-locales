@@ -423,6 +423,18 @@ Yardıma mı ihtiyacın var? [Destekle iletişime geç](https://bnder.net/discor
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Bu talep SLA uyarı eşiğine ulaştı.\n\nTalep: ${ticketTitle}\nSLA: ${slaName}\nMevcut süre: ${currentAge}\nHedef: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Bildiren kişiye ${failedRecipient} e-posta teslimi başarısız oldu. Bildiren kişi son bilet güncellemesini almamış olabilir.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Durum: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Tanılama: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Orijinal konu: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Talep SLA ihlali: ${stepLabel}`;
                 },

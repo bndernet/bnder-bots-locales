@@ -423,6 +423,18 @@ Hulp nodig? [Neem contact op met support](https://bnder.net/discord) — we help
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Dit ticket heeft de SLA-waarschuwingsdrempel bereikt.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nHuidige leeftijd: ${currentAge}\nDoel: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `E-mailbezorging aan melder ${failedRecipient} is mislukt. De melder heeft de laatste ticketupdate mogelijk niet ontvangen.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Status: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnose: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Oorspronkelijk onderwerp: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Ticket-SLA-schending: ${stepLabel}`;
                 },

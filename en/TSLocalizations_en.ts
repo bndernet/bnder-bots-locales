@@ -423,6 +423,18 @@ Need help? [Contact support](https://bnder.net/discord) — we’re here for you
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `This ticket reached its SLA warning threshold.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nCurrent age: ${currentAge}\nTarget: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Email delivery to reporter ${failedRecipient} failed. The reporter may not have received the latest ticket update.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Status: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnostic: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Original subject: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Ticket SLA Breach: ${stepLabel}`;
                 },

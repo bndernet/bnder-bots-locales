@@ -423,6 +423,18 @@ export class TSLocalizations_ru {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Этот тикет достиг порога предупреждения SLA.\n\nТикет: ${ticketTitle}\nSLA: ${slaName}\nТекущий возраст: ${currentAge}\nЦель: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Не удалось доставить письмо автору обращения ${failedRecipient}. Возможно, автор не получил последнее обновление тикета.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Статус: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Диагностика: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Исходная тема: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Нарушение SLA по тикету: ${stepLabel}`;
                 },

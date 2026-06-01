@@ -423,6 +423,18 @@ Los asientos de pago afectados dejarán de contar pronto si no haces nada.
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Este ticket alcanzó su umbral de advertencia de SLA.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nAntigüedad actual: ${currentAge}\nObjetivo: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `No se pudo entregar el correo al reportero ${failedRecipient}. Es posible que el reportero no haya recibido la última actualización del ticket.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Estado: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnóstico: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Asunto original: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Incumplimiento de SLA del ticket: ${stepLabel}`;
                 },

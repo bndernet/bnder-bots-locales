@@ -423,6 +423,18 @@ export class TSLocalizations_hi {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `यह टिकट अपनी SLA चेतावनी सीमा तक पहुँच गया है।\n\nटिकट: ${ticketTitle}\nSLA: ${slaName}\nवर्तमान आयु: ${currentAge}\nलक्ष्य: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `रिपोर्टर ${failedRecipient} को ईमेल डिलीवरी विफल रही। संभव है कि रिपोर्टर को नवीनतम टिकट अपडेट न मिला हो।`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `स्थिति: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `निदान: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `मूल विषय: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `टिकट SLA उल्लंघन: ${stepLabel}`;
                 },

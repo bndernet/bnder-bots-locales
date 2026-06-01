@@ -423,6 +423,18 @@ Butuh bantuan? [Hubungi dukungan](https://bnder.net/discord) — kami siap memba
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Tiket ini telah mencapai ambang peringatan SLA.\n\nTiket: ${ticketTitle}\nSLA: ${slaName}\nUsia saat ini: ${currentAge}\nTarget: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Pengiriman email ke pelapor ${failedRecipient} gagal. Pelapor mungkin belum menerima pembaruan tiket terbaru.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Status: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnostik: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Subjek asli: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Pelanggaran SLA Tiket: ${stepLabel}`;
                 },

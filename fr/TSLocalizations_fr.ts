@@ -423,6 +423,18 @@ Besoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous som
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Ce ticket a atteint son seuil d’alerte SLA.\n\nTicket : ${ticketTitle}\nSLA : ${slaName}\nAncienneté actuelle : ${currentAge}\nObjectif : ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `La livraison de l’e-mail au demandeur ${failedRecipient} a échoué. Le demandeur n’a peut-être pas reçu la dernière mise à jour du ticket.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Statut : ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Diagnostic : ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Objet d’origine : ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `Violation du SLA du ticket : ${stepLabel}`;
                 },

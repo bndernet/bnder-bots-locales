@@ -423,6 +423,18 @@ export class TSLocalizations_bg {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `Този билет достигна прага за SLA предупреждение.\n\nБилет: ${ticketTitle}\nSLA: ${slaName}\nТекуща възраст: ${currentAge}\nЦел: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `Доставката на имейл до подателя ${failedRecipient} не бе успешна. Възможно е подателят да не е получил последната актуализация по тикета.`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `Статус: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `Диагностика: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `Оригинална тема: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `SLA нарушение за билет: ${stepLabel}`;
                 },

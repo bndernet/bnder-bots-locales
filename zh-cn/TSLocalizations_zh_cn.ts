@@ -423,6 +423,18 @@ export class TSLocalizations_zh_cn {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `该工单已达到 SLA 预警阈值。\n\n工单: ${ticketTitle}\nSLA: ${slaName}\n当前时长: ${currentAge}\n目标: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `发送给报告人 ${failedRecipient} 的电子邮件投递失败。报告人可能没有收到最新的工单更新。`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `状态：${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `诊断：${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `原始主题：${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `工单 SLA 违约: ${stepLabel}`;
                 },

@@ -423,6 +423,18 @@ export class TSLocalizations_ja {
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
                     return `このチケットはSLA警告しきい値に達しました。\n\nチケット: ${ticketTitle}\nSLA: ${slaName}\n現在の経過時間: ${currentAge}\n目標: ${targetAge}`;
                 },
+                reporter_delivery_failed_note(failedRecipient: string): string {
+                    return `報告者 ${failedRecipient} へのメール配信に失敗しました。報告者が最新のチケット更新を受け取っていない可能性があります。`;
+                },
+                reporter_delivery_failed_status(status: string): string {
+                    return `ステータス: ${status}`;
+                },
+                reporter_delivery_failed_diagnostic(diagnostic: string): string {
+                    return `診断: ${diagnostic}`;
+                },
+                reporter_delivery_failed_original_subject(originalSubject: string): string {
+                    return `元の件名: ${originalSubject}`;
+                },
                 subject_prefix_sla_breach(stepLabel: string): string {
                     return `チケットSLA違反: ${stepLabel}`;
                 },
