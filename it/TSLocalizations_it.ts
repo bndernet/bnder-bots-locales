@@ -370,6 +370,9 @@ Hai bisogno di aiuto? [Contatta il supporto](https://bnder.net/discord) — siam
                 text(workspaceName: string): string {
                     return `Sei stato invitato allo spazio di lavoro ${workspaceName}. Fai clic sul pulsante qui sotto per accettare l’invito e unirti allo spazio.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Invitato da: ${inviterLabel}`;
+                },
                 primaryActionText: "Unisciti allo spazio di lavoro",
             },
             task_assigned: {

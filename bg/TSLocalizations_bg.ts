@@ -370,6 +370,9 @@ export class TSLocalizations_bg {
                 text(workspaceName: string): string {
                     return `Бяхте поканени в работното пространство ${workspaceName}. Кликнете върху бутона по-долу, за да приемете поканата и да се присъедините.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Поканено от: ${inviterLabel}`;
+                },
                 primaryActionText: "Присъедини се към работното пространство",
             },
             task_assigned: {

@@ -370,6 +370,9 @@ Benötigst du Hilfe? [Kontaktiere den Support](https://bnder.net/discord) — wi
                 text(workspaceName: string): string {
                     return `Sie wurden zum Workspace ${workspaceName} eingeladen. Klicken Sie auf die Schaltfläche unten, um die Einladung anzunehmen und dem Workspace beizutreten.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Eingeladen von: ${inviterLabel}`;
+                },
                 primaryActionText: "Workspace beitreten",
             },
             task_assigned: {

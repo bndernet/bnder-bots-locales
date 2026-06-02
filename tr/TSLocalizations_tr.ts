@@ -370,6 +370,9 @@ Yardıma mı ihtiyacın var? [Destekle iletişime geç](https://bnder.net/discor
                 text(workspaceName: string): string {
                     return `${workspaceName} workspace'ine davet edildiniz. Daveti kabul etmek ve workspace'e katılmak için aşağıdaki butona tıklayın.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Davet eden: ${inviterLabel}`;
+                },
                 primaryActionText: "Workspace'e katıl",
             },
             task_assigned: {

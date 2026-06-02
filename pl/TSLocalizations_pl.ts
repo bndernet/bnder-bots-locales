@@ -370,6 +370,9 @@ Potrzebujesz pomocy? [Skontaktuj się z pomocą techniczną](https://bnder.net/d
                 text(workspaceName: string): string {
                     return `Zostałeś zaproszony do przestrzeni roboczej ${workspaceName}. Kliknij przycisk poniżej, aby zaakceptować zaproszenie i dołączyć do przestrzeni.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Zaproszenie od: ${inviterLabel}`;
+                },
                 primaryActionText: "Dołącz do przestrzeni roboczej",
             },
             task_assigned: {

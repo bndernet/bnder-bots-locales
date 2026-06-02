@@ -370,6 +370,9 @@ Hulp nodig? [Neem contact op met support](https://bnder.net/discord) — we help
                 text(workspaceName: string): string {
                     return `Je bent uitgenodigd voor de workspace ${workspaceName}. Klik op de onderstaande knop om de uitnodiging te accepteren en deel te nemen aan de workspace.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Uitgenodigd door: ${inviterLabel}`;
+                },
                 primaryActionText: "Deelnemen aan workspace",
             },
             task_assigned: {

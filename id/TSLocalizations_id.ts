@@ -370,6 +370,9 @@ Butuh bantuan? [Hubungi dukungan](https://bnder.net/discord) — kami siap memba
                 text(workspaceName: string): string {
                     return `Anda telah diundang untuk bergabung ke workspace ${workspaceName}. Klik tombol di bawah ini untuk menerima undangan dan bergabung ke workspace.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Diundang oleh: ${inviterLabel}`;
+                },
                 primaryActionText: "Gabung Workspace",
             },
             task_assigned: {

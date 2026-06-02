@@ -370,6 +370,9 @@ Los asientos de pago afectados dejarán de contar pronto si no haces nada.
                 text(workspaceName: string): string {
                     return `Has sido invitado al espacio de trabajo ${workspaceName}. Haz clic en el botón de abajo para aceptar la invitación y unirte al espacio.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Invitado por: ${inviterLabel}`;
+                },
                 primaryActionText: "Unirse al espacio de trabajo",
             },
             task_assigned: {

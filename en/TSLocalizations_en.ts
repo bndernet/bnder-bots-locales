@@ -370,6 +370,9 @@ Need help? [Contact support](https://bnder.net/discord) — we’re here for you
                 text(workspaceName: string): string {
                     return `You have been invited to join the workspace ${workspaceName}. Click the button below to accept the invitation and join the workspace.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Invited by: ${inviterLabel}`;
+                },
                 primaryActionText: "Join Workspace",
             },
             task_assigned: {

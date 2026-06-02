@@ -370,6 +370,9 @@ export class TSLocalizations_ru {
                 text(workspaceName: string): string {
                     return `Вас пригласили в рабочее пространство ${workspaceName}. Нажмите кнопку ниже, чтобы принять приглашение и присоединиться к рабочему пространству.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Пригласил(а): ${inviterLabel}`;
+                },
                 primaryActionText: "Присоединиться к рабочему пространству",
             },
             task_assigned: {

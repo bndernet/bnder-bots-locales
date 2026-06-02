@@ -370,6 +370,9 @@ export class TSLocalizations_hi {
                 text(workspaceName: string): string {
                     return `आपको वर्कस्पेस ${workspaceName} में आमंत्रित किया गया है। निमंत्रण स्वीकार करने और वर्कस्पेस से जुड़ने के लिए नीचे दिए गए बटन पर क्लिक करें।`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `आमंत्रित किया: ${inviterLabel}`;
+                },
                 primaryActionText: "वर्कस्पेस से जुड़ें",
             },
             task_assigned: {

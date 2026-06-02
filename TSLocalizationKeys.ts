@@ -247,6 +247,7 @@ export interface TSLocalizationKeys {
         workspace_invitation: {
             headline: string,
             text(workspaceName: string): string,
+            invitedBy(inviterLabel: string): string,
             primaryActionText: string,
         },
         task_assigned: {

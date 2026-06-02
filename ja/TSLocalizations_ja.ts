@@ -370,6 +370,9 @@ export class TSLocalizations_ja {
                 text(workspaceName: string): string {
                     return `あなたはワークスペース「${workspaceName}」に招待されました。招待を受け入れて参加するには、下のボタンをクリックしてください。`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `招待者: ${inviterLabel}`;
+                },
                 primaryActionText: "ワークスペースに参加",
             },
             task_assigned: {

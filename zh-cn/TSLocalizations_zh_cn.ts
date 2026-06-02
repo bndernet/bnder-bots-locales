@@ -370,6 +370,9 @@ export class TSLocalizations_zh_cn {
                 text(workspaceName: string): string {
                     return `您被邀请加入工作区 ${workspaceName}。点击下面的按钮接受邀请并加入工作区。`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `邀请人：${inviterLabel}`;
+                },
                 primaryActionText: "加入工作区",
             },
             task_assigned: {

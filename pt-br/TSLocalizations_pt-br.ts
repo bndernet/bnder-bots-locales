@@ -370,6 +370,9 @@ Precisa de ajuda? [Fale com o suporte](https://bnder.net/discord) — estamos aq
                 text(workspaceName: string): string {
                     return `Você foi convidado para o workspace ${workspaceName}. Clique no botão abaixo para aceitar o convite e entrar no workspace.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Convidado por: ${inviterLabel}`;
+                },
                 primaryActionText: "Entrar no workspace",
             },
             task_assigned: {

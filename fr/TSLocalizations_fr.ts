@@ -370,6 +370,9 @@ Besoin d’aide ? [Contacter le support](https://bnder.net/discord) — nous som
                 text(workspaceName: string): string {
                     return `Vous avez été invité à rejoindre l’espace de travail ${workspaceName}. Cliquez sur le bouton ci-dessous pour accepter l’invitation et rejoindre l’espace.`;
                 },
+                invitedBy(inviterLabel: string): string {
+                    return `Invité par : ${inviterLabel}`;
+                },
                 primaryActionText: "Rejoindre l’espace de travail",
             },
             task_assigned: {
