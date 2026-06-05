@@ -504,11 +504,11 @@
       "already_disabled": "Private messages are already disabled. Users will not receive a notification via direct message when they are assigned to a task."
     },
     "loglevel": {
-      "changed_but_no_webhook": "The log level has been changed, but no webhook url is set. Please set a webhook url to receive log messages. Learn more by pressing the button below.",
+      "changed_but_no_webhook": "The default log level for new logging webhook endpoints has been changed, but no webhook endpoint is configured yet. Add one with `/settings logging action:add` to receive log messages. Learn more by pressing the button below.",
       "help_button_label": "Logging help",
-      "changed_to_everything": "The log level has been changed to everything. Every log message will be sent to the webhook.",
-      "changed_to_create_delete": "The log level has been changed to create and delete. Only create and delete actions will be sent to the webhook.",
-      "changed_to_permissions_only": "The log level has been changed to permissions only. Only permission changes will be sent to the webhook."
+      "changed_to_everything": "The default log level for new logging webhook endpoints has been changed to everything. Existing endpoints keep their own log level; update them with `/settings logging action:update`.",
+      "changed_to_create_delete": "The default log level for new logging webhook endpoints has been changed to create and delete. Existing endpoints keep their own log level; update them with `/settings logging action:update`.",
+      "changed_to_permissions_only": "The default log level for new logging webhook endpoints has been changed to permissions only. Existing endpoints keep their own log level; update them with `/settings logging action:update`."
     },
     "task_cleanup_policy": {
       "disabled": "The task cleanup policy has been disabled. Tasks will not be deleted automatically.",

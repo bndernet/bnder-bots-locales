@@ -42,8 +42,8 @@
     "weekstartday_option_description": "Day the week starts on",
     "user_timezones_subcommand_description": "Enable/Disable users to set their own timezone",
     "direct_messages_subcommand_description": "Enable/Disable direct messages",
-    "loglevel_option_description": "The log level to set",
-    "loglevel_subcommand_description": "Set the log level of the bot",
+    "loglevel_option_description": "Default log level for new logging webhook endpoints",
+    "loglevel_subcommand_description": "Set the default log level for new logging webhook endpoints",
     "task_cleanup_policy_option_description": "After which time a task should be deleted",
     "task_cleanup_policy_subcommand_description": "Set when tasks in the done state should be deleted",
     "holidays_subcommand_description": "Configure workspace holiday calendars"
