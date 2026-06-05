@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Gerenciar configurações",
-    "logging_webhook_subcommand_description": "Definir ou remover url de webhook para registro",
+    "logging_webhook_subcommand_description": "Gerenciar endpoints de webhook de registro",
     "auto_labeling_subcommand_description": "Ativar ou desativar o recurso de rotulagem automática",
     "language_subcommand_description": "Alterar o idioma do bot",
     "language_subcommand_language_field_description": "Código do idioma",

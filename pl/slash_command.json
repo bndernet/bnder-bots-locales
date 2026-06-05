@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Zarządzaj ustawieniami",
-    "logging_webhook_subcommand_description": "Ustaw lub usuń adres URL webhooka do logowania",
+    "logging_webhook_subcommand_description": "Zarządzaj endpointami webhooków logowania",
     "auto_labeling_subcommand_description": "Włącz lub wyłącz funkcję automatycznego etykietowania",
     "language_subcommand_description": "Zmień język bota",
     "language_subcommand_language_field_description": "Kod języka",

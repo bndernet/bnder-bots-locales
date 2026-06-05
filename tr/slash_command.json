@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Ayarları yönet",
-    "logging_webhook_subcommand_description": "Günlük kaydı için web kancası url'sini ayarla veya kaldır",
+    "logging_webhook_subcommand_description": "Günlük webhook endpointlerini yönet",
     "auto_labeling_subcommand_description": "Otomatik etiketleme özelliğini etkinleştirin veya devre dışı bırakın",
     "language_subcommand_description": "Botun dilini değiştirme",
     "language_subcommand_language_field_description": "Dil kodu",

@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Управление на настройките",
-    "logging_webhook_subcommand_description": "Задаване или премахване на url на webhook за регистриране",
+    "logging_webhook_subcommand_description": "Управление на webhook endpoint-и за логове",
     "auto_labeling_subcommand_description": "Включване или изключване на функцията за автоматично етикетиране",
     "language_subcommand_description": "Промяна на езика на бота",
     "language_subcommand_language_field_description": "Код на езика",

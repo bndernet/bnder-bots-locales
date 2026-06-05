@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Gérer les paramètres",
-    "logging_webhook_subcommand_description": "Définir ou supprimer l'url du webhook pour la journalisation",
+    "logging_webhook_subcommand_description": "Gérer les endpoints webhook de journalisation",
     "auto_labeling_subcommand_description": "Activer ou désactiver la fonction d'étiquetage automatique",
     "language_subcommand_description": "Changer la langue du bot",
     "language_subcommand_language_field_description": "Code langue",

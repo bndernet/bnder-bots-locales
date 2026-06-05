@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "सेटिंग्स प्रबंधित करें",
-    "logging_webhook_subcommand_description": "लॉगिंग के लिए वेबहुक यूआरएल सेट करें या हटाएं",
+    "logging_webhook_subcommand_description": "लॉगिंग वेबहुक एंडपॉइंट प्रबंधित करें",
     "auto_labeling_subcommand_description": "ऑटो लेबलिंग सुविधा को सक्षम या अक्षम करें",
     "language_subcommand_description": "बॉट की भाषा बदलें",
     "language_subcommand_language_field_description": "भाषा कोड",

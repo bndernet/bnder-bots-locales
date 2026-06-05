@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Kelola pengaturan",
-    "logging_webhook_subcommand_description": "Atur atau hapus URL webhook untuk pencatatan log",
+    "logging_webhook_subcommand_description": "Kelola endpoint webhook logging",
     "auto_labeling_subcommand_description": "Aktifkan atau nonaktifkan fitur pelabelan otomatis",
     "language_subcommand_description": "Ubah bahasa bot",
     "language_subcommand_language_field_description": "Kode bahasa",

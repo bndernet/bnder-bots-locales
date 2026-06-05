@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Beheer instellingen",
-    "logging_webhook_subcommand_description": "Stel de webhook-URL voor logboekregistratie in of verwijder deze",
+    "logging_webhook_subcommand_description": "Beheer logging-webhook-eindpunten",
     "auto_labeling_subcommand_description": "Schakel de functie voor automatisch labelen in of uit",
     "language_subcommand_description": "Wijzig de taal van de bot",
     "language_subcommand_language_field_description": "Taalcode",

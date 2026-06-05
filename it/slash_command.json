@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Gestisci impostazioni",
-    "logging_webhook_subcommand_description": "Imposta o rimuovi l'URL del webhook per il logging",
+    "logging_webhook_subcommand_description": "Gestisci endpoint webhook di logging",
     "auto_labeling_subcommand_description": "Abilita o disabilita la funzione di etichettatura automatica",
     "language_subcommand_description": "Cambia la lingua del bot",
     "language_subcommand_language_field_description": "Codice lingua",

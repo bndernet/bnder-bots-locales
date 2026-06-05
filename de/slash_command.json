@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Einstellungen verwalten",
-    "logging_webhook_subcommand_description": "Webhook-Url für die Protokollierung festlegen oder entfernen",
+    "logging_webhook_subcommand_description": "Logging-Webhook-Endpunkte verwalten",
     "auto_labeling_subcommand_description": "Aktivieren oder Deaktivieren der Auto-Labeling-Funktion",
     "language_subcommand_description": "Ändere die Sprache des Bots",
     "language_subcommand_language_field_description": "Sprach-Code",

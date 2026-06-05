@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "管理设置",
-    "logging_webhook_subcommand_description": "设置或移除日志记录的 Webhook URL",
+    "logging_webhook_subcommand_description": "管理日志记录 Webhook 端点",
     "auto_labeling_subcommand_description": "启用或禁用自动标签功能",
     "language_subcommand_description": "更改机器人的语言",
     "language_subcommand_language_field_description": "语言代码",

@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "設定を管理する",
-    "logging_webhook_subcommand_description": "ロギング用のWebhook URLを設定または削除する",
+    "logging_webhook_subcommand_description": "ログ用Webhookエンドポイントを管理",
     "auto_labeling_subcommand_description": "自動ラベリング機能を有効または無効にする",
     "language_subcommand_description": "ボットの言語を変更する",
     "language_subcommand_language_field_description": "言語コード",

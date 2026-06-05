@@ -23,7 +23,7 @@
   },
   "settings": {
     "command_description": "Управление настройками",
-    "logging_webhook_subcommand_description": "Установить или удалить url веб-хука для ведения журнала",
+    "logging_webhook_subcommand_description": "Управлять webhook-эндпоинтами журналирования",
     "auto_labeling_subcommand_description": "Включить или отключить функцию автоматической маркировки",
     "language_subcommand_description": "Изменить язык бота",
     "language_subcommand_language_field_description": "Код языка",
