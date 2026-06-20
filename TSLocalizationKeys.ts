@@ -1,3 +1,5 @@
+import { TSLocalizations_ar_ae } from "./ar-ae/TSLocalizations_ar-ae";
+import { TSLocalizations_ar_sa } from "./ar-sa/TSLocalizations_ar-sa";
 import { TSLocalizations_de } from "./de/TSLocalizations_de";
 import { TSLocalizations_bg } from "./bg/TSLocalizations_bg";
 import { TSLocalizations_en } from "./en/TSLocalizations_en";
@@ -344,6 +346,8 @@ export class Localizations {
     static Localizations: {
         [key: string]: TSLocalizationKeys
     } = {
+        "ar-ae": TSLocalizations_ar_ae.Localizations,
+        "ar-sa": TSLocalizations_ar_sa.Localizations,
         "bg": TSLocalizations_bg.Localizations,
         "de": TSLocalizations_de.Localizations,
         "en": TSLocalizations_en.Localizations,

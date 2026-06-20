@@ -40,6 +40,8 @@ correct.
 
 ## Currently Supported languages
 
+- Arabic (Saudi Arabia) (ar-sa)
+- Arabic (United Arab Emirates) (ar-ae)
 - Bulgarian (bg)
 - German (de)
 - English (en)
