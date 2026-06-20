@@ -40,8 +40,8 @@
     "default_assignee_option_description": "المستعمل المحال إليه",
     "week_start_subcommand_description": "حدد اليوم الذي يبدأ فيه الأسبوع",
     "weekstartday_option_description": "اليوم يبدأ الأسبوع",
-    "user_timezones_subcommand_description": "Enable/Disable users to set their own timezone",
-    "direct_messages_subcommand_description": "Enable/Disable direct messages",
+    "user_timezones_subcommand_description": "مستعملون مؤهلون/متاحون لتحديد فترة زمنية خاصة بهم",
+    "direct_messages_subcommand_description": "الرسائل المباشرة التي يمكن استخدامها/قابلة للتداول",
     "loglevel_option_description": "مستوى السجل الافتراضي للنقاط النهائية الجديدة لقطع الأشجار",
     "loglevel_subcommand_description": "تحديد مستوى السجل الافتراضي للنقاط النهائية الجديدة لقطع الأشجار",
     "task_cleanup_policy_option_description": "بعد ذلك ينبغي حذف المهمة",
@@ -176,7 +176,7 @@
     "description_option_description": "وصف الوسم"
   },
   "errors": {
-    "interaction_message_too_old": "You can't interact with this message, because it was sent over {{minutes}} minutes ago. Please reuse the command.",
+    "interaction_message_too_old": "لا يمكنك التفاعل مع هذه الرسالة لأنه تم إرسالها {{minutes}} منذ دقائق من فضلك أعيدي استخدام القيادة",
     "interaction_unknown_error": "كان هناك خطأ غير متوقع عند حساب التفاعل. يرجى إعادة استخدام القيادة ومحاولة التفاعل مرة أخرى."
   },
   "event": {
