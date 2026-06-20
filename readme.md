@@ -43,6 +43,7 @@ correct.
 - Bulgarian (bg)
 - German (de)
 - English (en)
+- English (United Kingdom) (en-gb)
 - Spanish (es-es)
 - French (fr)
 - Hindi (hi)
