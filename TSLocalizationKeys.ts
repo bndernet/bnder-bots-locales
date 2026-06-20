@@ -3,6 +3,7 @@ import { TSLocalizations_bg } from "./bg/TSLocalizations_bg";
 import { TSLocalizations_en } from "./en/TSLocalizations_en";
 import { TSLocalizations_en_gb } from "./en-gb/TSLocalizations_en_gb";
 import { TSLocalizations_es_es } from "./es-es/TSLocalizations_es-es";
+import { TSLocalizations_es_mx } from "./es-mx/TSLocalizations_es-mx";
 import { TSLocalizations_fr } from "./fr/TSLocalizations_fr";
 import { TSLocalizations_pt_br } from "./pt-br/TSLocalizations_pt-br";
 import { TSLocalizations_ru } from "./ru/TSLocalizations_ru";
@@ -348,6 +349,7 @@ export class Localizations {
         "en": TSLocalizations_en.Localizations,
         "en-gb": TSLocalizations_en_gb.Localizations,
         "es-es": TSLocalizations_es_es.Localizations,
+        "es-mx": TSLocalizations_es_mx.Localizations,
         "fr": TSLocalizations_fr.Localizations,
         "hi": TSLocalizations_hi.Localizations,
         "pt-br": TSLocalizations_pt_br.Localizations,

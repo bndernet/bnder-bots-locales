@@ -45,6 +45,7 @@ correct.
 - English (en)
 - English (United Kingdom) (en-gb)
 - Spanish (es-es)
+- Spanish (Mexico) (es-mx)
 - French (fr)
 - Hindi (hi)
 - Portuguese (brazilian) (pt-br)
