@@ -53,6 +53,7 @@ correct.
 - Portuguese (brazilian) (pt-br)
 - Russian (ru)
 - Turkish (tr)
+- Vietnamese (Vietnam) (vi-vn)
 - Japanese (ja)
 - Korean (South Korea) (ko-kr)
 - Chinese (simplified) (zh-cn)
