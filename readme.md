@@ -54,5 +54,6 @@ correct.
 - Russian (ru)
 - Turkish (tr)
 - Japanese (ja)
+- Korean (South Korea) (ko-kr)
 - Chinese (simplified) (zh-cn)
 - Polish (pl)

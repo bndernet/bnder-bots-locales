@@ -12,6 +12,7 @@ import { TSLocalizations_ru } from "./ru/TSLocalizations_ru";
 import { TSLocalizations_tr } from "./tr/TSLocalizations_tr";
 import { TSLocalizations_hi } from "./hi/TSLocalizations_hi";
 import { TSLocalizations_ja } from "./ja/TSLocalizations_ja";
+import { TSLocalizations_ko_kr } from "./ko-kr/TSLocalizations_ko-kr";
 import { TSLocalizations_zh_cn } from "./zh-cn/TSLocalizations_zh_cn";
 import { TSLocalizations_it } from "./it/TSLocalizations_it";
 import { TSLocalizations_pl } from "./pl/TSLocalizations_pl";
@@ -360,6 +361,7 @@ export class Localizations {
         "ru": TSLocalizations_ru.Localizations,
         "tr": TSLocalizations_tr.Localizations,
         "ja": TSLocalizations_ja.Localizations,
+        "ko-kr": TSLocalizations_ko_kr.Localizations,
         "nl": TSLocalizations_nl.Localizations,
         "pl": TSLocalizations_pl.Localizations,
         "zh-cn": TSLocalizations_zh_cn.Localizations,
