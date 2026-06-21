@@ -1,6 +1,6 @@
 {
   "support": {
-    "support_text": "Nếu bạn cần giúp đỡ hay có thắc mắc gì, hãy tự do tham gia vào máy phục vụ hỗ trợ Bnder bằng cách nhấn vào cái nút bên dưới. Bạn cũng có thể truy cập trang giúp đỡ của chúng tôi tại https mỡnder.net/help. Nếu bạn là một công ty hoặc tổ chức chúng tôi cung cấp một hỗ trợ kinh doanh miễn phí với một kênh hỗ trợ tận tụy cho bạn và đội của bạn. Để biết thêm thông tin, xin hãy liên lạc với chúng tôi.\n\nNếu bạn chưa chạy thiết lập cho robot này, xin vui lòng dùng lệnh « / đặt lại ».",
+    "support_text": "Nếu bạn cần trợ giúp hoặc có câu hỏi, hãy tham gia máy chủ hỗ trợ bnder bằng cách nhấn nút bên dưới. Bạn cũng có thể truy cập trang trợ giúp của chúng tôi tại https://bnder.net/help. Nếu bạn là công ty hoặc tổ chức, chúng tôi cung cấp hỗ trợ doanh nghiệp miễn phí với một kênh hỗ trợ riêng cho bạn và đội ngũ của bạn. Để biết thêm thông tin, vui lòng liên hệ với chúng tôi.\n\nNếu bạn chưa chạy phần thiết lập cho bot này, vui lòng dùng lệnh `/setup`.",
     "join_discord_button": "Nhập vào máy chủ chính thức  BR0 ",
     "documentation_button": "Trang giúp đỡ"
   },
@@ -125,10 +125,10 @@
       "dependencies_headline": "Phụ thuộc"
     },
     "todos": {
-      "text_not_found": "Văn bản bị mất. Xin hãy dùng tham số « tiêu đề » để ghi rõ đoạn cần làm. Vui lòng kiểm tra xem [giúp trang] [https mỡer.net/help/tasks#) trước khi bạn thêm a để tìm hiểu thêm về tính năng này.",
+      "text_not_found": "Thiếu văn bản. Vui lòng dùng tham số `title` để ghi rõ nội dung todo. Xem [trang trợ giúp](<https://bnder.net/help/tasks#todos>) trước khi thêm todo để tìm hiểu thêm về tính năng này.",
       "added": "A to do was added to the task **{{id}}**.",
-      "number_not_found": "Con số là thiếu. Hãy sử dụng tham số « Số » để ghi rõ con số cần làm. Dùng thông tin \"/task\" để xem số cần làm của một công việc. Vui lòng kiểm tra xem trước khi bạn gỡ bỏ hay hoàn thành một chức năng để tìm hiểu thêm về tính năng này.",
-      "number_not_a_number": "Để làm số điện thoại phải là một số tích cực. Hãy sử dụng tham số « Số » để ghi rõ con số cần làm. Dùng thông tin \"/task\" để xem số cần làm của một công việc. Vui lòng kiểm tra xem trước khi bạn gỡ bỏ hay hoàn thành một chức năng để tìm hiểu thêm về tính năng này.",
+      "number_not_found": "Thiếu số todo. Vui lòng dùng tham số `number` để chỉ định todo. Dùng `/task info` để xem số todo của một tác vụ. Xem [trang trợ giúp](<https://bnder.net/help/tasks#todos>) trước khi xóa hoặc hoàn thành todo để tìm hiểu thêm về tính năng này.",
+      "number_not_a_number": "Số todo phải là một số dương. Vui lòng dùng tham số `number` để chỉ định todo. Dùng `/task info` để xem số todo của một tác vụ. Xem [trang trợ giúp](<https://bnder.net/help/tasks#todos>) trước khi xóa hoặc hoàn thành todo để tìm hiểu thêm về tính năng này.",
       "removed": "The to do **{{number}}** was removed from the task **{{id}}**.",
       "completed": "The to do **{{number}}** for task **{{id}}** was marked as completed.",
       "uncompleted": "The to do **{{number}}** for task **{{id}}** was marked as uncompleted.",
@@ -234,7 +234,7 @@
     "followup_reminder_stopped": "The follow-up reminder for task **{{id}}** has been stopped.",
     "max_assignees_reached_buy_pro": "Need more hands on deck? 👥\nThis task already has the maximum **{{max}} assignees**. [Upgrade to a Starter or Pro seat](<https://bnder.net/p/{{guildId}}>) to assign more people and keep your whole team aligned. Learn more about paid seats at https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "Setting the task repeat interval to less than 7 days is only available to users in pro seats. [Please upgrade to a pro seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about pro seats at https://bnder.net/pricing.",
-    "todos_not_allowed": "Năng suất khởi động với Todos!\nĐồ thị là một tính năng  BR0  giúp bạn phá vỡ tác vụ thành bước có thể thực hiện được. Mở khóa công cụ mạnh mẽ này bằng cách nâng cấp thành một  BR1  Ngồi xuống! Tìm hiểu thêm về chỗ ngồi dành cho người tham gia tại https lập trình viên.net/gia đình.",
+    "todos_not_allowed": "Tăng năng suất với Todos!\nTodos là một tính năng của bnder giúp bạn chia tác vụ thành các bước có thể thực hiện. Mở khóa công cụ này bằng cách nâng cấp lên ghế Starter hoặc Pro. Tìm hiểu thêm về ghế thành viên tại https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "You have reached the maximum storage limit for this workspace. To increase the storage limit, [upgrade to Starter or Pro](<https://bnder.net/p/{{guildId}}>). Learn more about Starter and Pro plans at https://bnder.net/pricing.",
     "attachment_added": "The attachment **{{file_name}}** has been added to the task **{{id}}**. You can view it by using the \"/task attachments\" command.",
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
@@ -392,7 +392,7 @@
   "object_not_found": "The object with the id **{{id}}** could not be found. You can use `/task project`, `/document list` or `/event list` to list all objects across our services.",
   "resolved_document": "Linked Document {{id}}",
   "resolved_task": "Linked Task {{id}}",
-  "invalid_id_format": "Số ID đã nhập là không hợp lệ.  BAR cho [tasks]<htps chặt chẽ.net/help/tasks>, [doctts] (<htps vội.net/help/ helpts) chỉ nên chứa số.",
+  "invalid_id_format": "Định dạng ID đã nhập không hợp lệ. ID của [tasks](<https://bnder.net/help/tasks>) và [documents](<https://bnder.net/help/documents>) chỉ nên chứa chữ số.",
   "delete_instantly_button": "Xoá ngay",
   "times": {
     "singleMinute": "phút",
@@ -439,7 +439,7 @@
     "logging_webhook": {
       "invalid_url": "Trình chọn & màu Hãy nhập vào một định dạng  BR0  Webok url hợp lệ, bắt đầu với định dạng url hợp lệ (https vội.)",
       "url_set_non_discord_url": "Trình chọn & màu Nếu bạn muốn nhận tin nhắn bản ghi trong kênh  BR1  t  tin nhắn này, vui lòng đặt một  BR2    pagek url hợp lệ, nếu không hãy bỏ qua thông điệp này.",
-      "url_set": "Đã cài đặt Một tin nhắn thử đã được gửi, kiểm tra kênh  BR2 của bạn để xem nó có hoạt động không. Nếu không, hãy kiểm tra trang giúp đỡ của chúng tôi tại https mỡnder.net/help/advanced/loging để biết thêm thông tin.",
+      "url_set": "Đã thiết lập URL. Một tin nhắn thử nghiệm đã được gửi; hãy kiểm tra kênh webhook của bạn để xác nhận. Nếu không hoạt động, hãy xem trang trợ giúp tại https://bnder.net/help/advanced/logging để biết thêm thông tin.",
       "url_removed": "Hiện thời bị tắt",
       "test_title": "Thư thử",
       "test_description": "Đây là thông điệp thử ra để kiểm tra xem trình bao Mạng có hợp lệ không. Nếu bạn thấy thông điệp này, mọi thứ đều hoạt động tốt.",
@@ -450,10 +450,10 @@
       "url_remove_canceled": "Việc gỡ bỏ kilô web đã bị hủy bỏ."
     },
     "auto_labeling": {
-      "enabled": "Đánh dấu tự động đã bật. Để tạo một nhãn mới, hãy dùng lệnh «/ nhãn tạo ». Để tìm hiểu thêm về nhãn hiệu tự động, hãy truy cập https mỡder.net/help/ labels.",
+      "enabled": "Tự động gắn nhãn đã được bật. Để tạo nhãn mới, hãy dùng lệnh `/label create`. Để tìm hiểu thêm về tự động gắn nhãn, hãy truy cập https://bnder.net/help/labels.",
       "disabled": "Đóng nhãn tự động bị tắt.",
-      "already_enabled": "Tự động dán nhãn đã bật. Để tạo một nhãn mới, hãy dùng lệnh «/ nhãn tạo ». Để tìm hiểu thêm về nhãn hiệu tự động, hãy truy cập https mỡder.net/help/ labels.",
-      "already_disabled": "Tự động dán nhãn đã bị tắt. Để tạo một nhãn mới, hãy dùng lệnh «/ nhãn tạo ». Để tìm hiểu thêm về nhãn hiệu tự động, hãy truy cập https mỡder.net/help/ labels."
+      "already_enabled": "Tự động gắn nhãn đã được bật. Để tạo nhãn mới, hãy dùng lệnh `/label create`. Để tìm hiểu thêm về tự động gắn nhãn, hãy truy cập https://bnder.net/help/labels.",
+      "already_disabled": "Tự động gắn nhãn đã bị tắt. Để tạo nhãn mới, hãy dùng lệnh `/label create`. Để tìm hiểu thêm về tự động gắn nhãn, hãy truy cập https://bnder.net/help/labels."
     },
     "language": {
       "language_changed": "Ngôn ngữ đã được thay đổi.",
