@@ -1,6 +1,6 @@
 import { TSLocalizationKeys } from "../TSLocalizationKeys";
 
-export class TSLocalizations_vi_VN {
+export class TSLocalizations_vi_vn {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
