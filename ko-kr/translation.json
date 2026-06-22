@@ -552,7 +552,7 @@
       "invalid_date": "사용 유효한 날짜 `YYYY-MM-DD` 형식, 그리고 마지막 날짜가 시작 날짜 전에 확인.",
       "self_replacement": "당신의 보충으로 다른 workspace 일원을 선택하십시오.",
       "replacement_not_found": "그 교체는 Active Workspace 회원으로 찾을 수 없습니다.",
-      "people_unavailable": "사람들은이 작업 공간에서 사용할 수 없습니다."
+      "people_unavailable": "현재 플랜에 포함되어 있지 않아 이 워크스페이스에서 People Management를 사용할 수 없습니다. Starter 또는 Pro로 업그레이드하면 팀, 역할, 사람 기반 라우팅을 사용할 수 있습니다: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# 프로젝트의 티켓 명령 **{{project}}**\n\n이 명령을 작성자로 사용할 수 있습니다:\n{{commands}}"
   },
   "people": {
-    "unavailable": "사람들은이 작업 공간에서 사용할 수 없습니다.",
+    "unavailable": "현재 플랜에 포함되어 있지 않아 이 워크스페이스에서 People Management를 사용할 수 없습니다. Starter 또는 Pro로 업그레이드하면 팀, 역할, 사람 기반 라우팅을 사용할 수 있습니다: https://bnder.net/pricing",
     "no_teams": "사람들은 아직 만들지 않았습니다.",
     "team_not_found": "회사연혁 **{{team}}** 찾을 수 없습니다. 자동 완성 제안 중 하나를 선택하십시오.",
     "team_required": "사람들 팀을 선택하십시오.",

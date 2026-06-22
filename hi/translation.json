@@ -552,7 +552,7 @@
       "invalid_date": "`YYYY-MM-DD` format में सही dates इस्तेमाल करें और end date start से पहले न हो।",
       "self_replacement": "Replacement के लिए कोई दूसरा workspace member चुनें।",
       "replacement_not_found": "वह replacement active workspace member के रूप में नहीं मिला।",
-      "people_unavailable": "इस workspace में People Management उपलब्ध नहीं है।"
+      "people_unavailable": "इस workspace में People Management उपलब्ध नहीं है क्योंकि आपकी मौजूदा योजना में यह शामिल नहीं है। टीमों, भूमिकाओं और people-based routing को अनलॉक करने के लिए Starter या Pro में अपग्रेड करें: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "इस workspace में People management उपलब्ध नहीं है।",
+    "unavailable": "इस workspace में People Management उपलब्ध नहीं है क्योंकि आपकी मौजूदा योजना में यह शामिल नहीं है। टीमों, भूमिकाओं और people-based routing को अनलॉक करने के लिए Starter या Pro में अपग्रेड करें: https://bnder.net/pricing",
     "no_teams": "अभी तक कोई People टीम नहीं बनाई गई है।",
     "team_not_found": "टीम **{{team}}** नहीं मिली। autocomplete सुझावों में से चुनें।",
     "team_required": "एक People टीम चुनें।",

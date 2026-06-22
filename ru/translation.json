@@ -552,7 +552,7 @@
       "invalid_date": "Используйте даты в формате `YYYY-MM-DD` и убедитесь, что конец не раньше начала.",
       "self_replacement": "Выберите другого участника workspace в качестве замены.",
       "replacement_not_found": "Эта замена не найдена среди активных участников workspace.",
-      "people_unavailable": "People Management недоступен в этом workspace."
+      "people_unavailable": "People Management недоступен в этом workspace, потому что он не входит в ваш текущий тариф. Перейдите на Starter или Pro, чтобы разблокировать команды, роли и маршрутизацию по людям: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "Управление People недоступно в этом рабочем пространстве.",
+    "unavailable": "People Management недоступен в этом workspace, потому что он не входит в ваш текущий тариф. Перейдите на Starter или Pro, чтобы разблокировать команды, роли и маршрутизацию по людям: https://bnder.net/pricing",
     "no_teams": "People-команды пока не созданы.",
     "team_not_found": "Команда **{{team}}** не найдена. Выберите вариант из автодополнения.",
     "team_required": "Выберите People-команду.",

@@ -552,7 +552,7 @@
       "invalid_date": "`YYYY-MM-DD` biçiminde geçerli tarihler kullan ve bitişin başlangıçtan önce olmadığından emin ol.",
       "self_replacement": "Vekil olarak başka bir workspace üyesi seç.",
       "replacement_not_found": "Bu vekil aktif bir workspace üyesi olarak bulunamadı.",
-      "people_unavailable": "People Management bu workspace içinde kullanılamıyor."
+      "people_unavailable": "People Management bu workspace içinde kullanılamıyor çünkü mevcut planınız bunu içermiyor. Ekipleri, rolleri ve kişi tabanlı yönlendirmeyi açmak için Starter veya Pro planına yükseltin: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "People yönetimi bu çalışma alanında kullanılamıyor.",
+    "unavailable": "People Management bu workspace içinde kullanılamıyor çünkü mevcut planınız bunu içermiyor. Ekipleri, rolleri ve kişi tabanlı yönlendirmeyi açmak için Starter veya Pro planına yükseltin: https://bnder.net/pricing",
     "no_teams": "Henüz People ekibi oluşturulmadı.",
     "team_not_found": "**{{team}}** ekibi bulunamadı. Otomatik tamamlama önerilerinden birini seç.",
     "team_required": "Bir People ekibi seç.",

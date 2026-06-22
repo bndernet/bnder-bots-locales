@@ -552,7 +552,7 @@
       "invalid_date": "请使用 `YYYY-MM-DD` 格式的有效日期，并确保结束日期不早于开始日期。",
       "self_replacement": "请选择另一个工作区成员作为替代成员。",
       "replacement_not_found": "未找到该替代成员作为活跃工作区成员。",
-      "people_unavailable": "此工作区不可使用 People Management。"
+      "people_unavailable": "此工作区无法使用 People Management，因为当前套餐不包含该功能。升级到 Starter 或 Pro 即可解锁团队、角色和基于人员的路由：https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "此工作区不可使用 People 管理。",
+    "unavailable": "此工作区无法使用 People Management，因为当前套餐不包含该功能。升级到 Starter 或 Pro 即可解锁团队、角色和基于人员的路由：https://bnder.net/pricing",
     "no_teams": "尚未创建 People 团队。",
     "team_not_found": "未找到团队 **{{team}}**。请选择自动补全建议。",
     "team_required": "请选择一个 People 团队。",

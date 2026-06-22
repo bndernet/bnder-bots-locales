@@ -552,7 +552,7 @@
       "invalid_date": "`YYYY-MM-DD` 形式の有効な日付を使い、終了日が開始日より前にならないようにしてください。",
       "self_replacement": "代行者には別のワークスペースメンバーを選択してください。",
       "replacement_not_found": "その代行者はアクティブなワークスペースメンバーとして見つかりませんでした。",
-      "people_unavailable": "このワークスペースでは People Management を利用できません。"
+      "people_unavailable": "このワークスペースでは、現在のプランに含まれていないため People Management を利用できません。Starter または Pro にアップグレードすると、チーム、ロール、People ベースのルーティングを利用できます: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "このワークスペースでは People 管理を利用できません。",
+    "unavailable": "このワークスペースでは、現在のプランに含まれていないため People Management を利用できません。Starter または Pro にアップグレードすると、チーム、ロール、People ベースのルーティングを利用できます: https://bnder.net/pricing",
     "no_teams": "People チームはまだ作成されていません。",
     "team_not_found": "チーム **{{team}}** が見つかりません。オートコンプリート候補から選択してください。",
     "team_required": "People チームを選択してください。",

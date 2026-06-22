@@ -552,7 +552,7 @@
       "invalid_date": "Използвай валидни дати във формат `YYYY-MM-DD`, като крайната дата не е преди началната.",
       "self_replacement": "Избери друг член на workspace като заместник.",
       "replacement_not_found": "Този заместник не е намерен като активен член на workspace.",
-      "people_unavailable": "People Management не е наличен в този workspace."
+      "people_unavailable": "Управлението на хора не е налично в това работно пространство, защото текущият ви план не го включва. Надстройте до Starter или Pro, за да активирате екипи, роли и маршрутизиране по хора: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "People управлението не е налично в това работно пространство.",
+    "unavailable": "Управлението на хора не е налично в това работно пространство, защото текущият ви план не го включва. Надстройте до Starter или Pro, за да активирате екипи, роли и маршрутизиране по хора: https://bnder.net/pricing",
     "no_teams": "Все още няма създадени People екипи.",
     "team_not_found": "Екипът **{{team}}** не беше намерен. Изберете предложение от автоматичното довършване.",
     "team_required": "Изберете People екип.",

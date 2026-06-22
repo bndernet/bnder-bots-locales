@@ -552,7 +552,7 @@
       "invalid_date": "Hãy dùng khoảng ngày hợp lệ theo định dạng **YYYY-MM-DD** và đảm bảo ngày kết thúc không trước ngày bắt đầu.",
       "self_replacement": "Hãy chọn một thành viên khác trong không gian làm việc làm người thay thế.",
       "replacement_not_found": "Không tìm thấy người thay thế đang hoạt động.",
-      "people_unavailable": "Tính năng quản lý People không khả dụng trong không gian làm việc này."
+      "people_unavailable": "Tính năng People Management không khả dụng trong workspace này vì gói hiện tại của bạn chưa bao gồm tính năng này. Nâng cấp lên Starter hoặc Pro để mở khóa đội nhóm, vai trò và định tuyến theo nhân sự: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Lệnh phiếu hỗ trợ cho dự án **{{project}}**\n\nBạn có thể dùng các lệnh sau với tư cách người báo cáo:\n{{commands}}"
   },
   "people": {
-    "unavailable": "Tính năng quản lý People không khả dụng trong không gian làm việc này.",
+    "unavailable": "Tính năng People Management không khả dụng trong workspace này vì gói hiện tại của bạn chưa bao gồm tính năng này. Nâng cấp lên Starter hoặc Pro để mở khóa đội nhóm, vai trò và định tuyến theo nhân sự: https://bnder.net/pricing",
     "no_teams": "Chưa có đội nào được cấu hình.",
     "team_not_found": "Không tìm thấy đội **{{team}}**. Hãy chọn một gợi ý tự động hoàn thành.",
     "team_required": "Chọn một đội.",

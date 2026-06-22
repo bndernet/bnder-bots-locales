@@ -552,7 +552,7 @@
       "invalid_date": "Gunakan tanggal valid dalam format `YYYY-MM-DD`, dan pastikan tanggal akhir tidak sebelum tanggal mulai.",
       "self_replacement": "Pilih anggota workspace lain sebagai pengganti.",
       "replacement_not_found": "Pengganti itu tidak ditemukan sebagai anggota workspace aktif.",
-      "people_unavailable": "People Management tidak tersedia di workspace ini."
+      "people_unavailable": "People Management tidak tersedia di workspace ini karena paket Anda saat ini belum menyertakannya. Upgrade ke Starter atau Pro untuk membuka tim, peran, dan routing berbasis orang: https://bnder.net/pricing"
     }
   },
   "event": {
@@ -686,7 +686,7 @@
     "commands_header_reporter": "# Ticket commands for project **{{project}}**\n\nYou can use these commands as reporter:\n{{commands}}"
   },
   "people": {
-    "unavailable": "Manajemen People tidak tersedia di workspace ini.",
+    "unavailable": "People Management tidak tersedia di workspace ini karena paket Anda saat ini belum menyertakannya. Upgrade ke Starter atau Pro untuk membuka tim, peran, dan routing berbasis orang: https://bnder.net/pricing",
     "no_teams": "Belum ada tim People yang dibuat.",
     "team_not_found": "Tim **{{team}}** tidak ditemukan. Pilih salah satu saran autocomplete.",
     "team_required": "Pilih tim People.",
