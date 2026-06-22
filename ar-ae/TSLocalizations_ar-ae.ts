@@ -415,7 +415,7 @@ export class TSLocalizations_ar_ae {
                 },
                 body_created: "تم إنشاء تذكرة جديدة",
                 body_public_message(ticketTitle: string, messagePreview: string): string {
-                    return `تم نشر رسالة عامة جديدة ${ticketTitle}'nMessage preview: ${messagePreview}`;
+                    return `تم نشر رسالة عامة جديدة.\n\nالتذكرة: ${ticketTitle}\n\nمعاينة الرسالة: ${messagePreview}`;
                 },
                 body_status_closed(statusLabel: string, ticketTitle: string): string {
                     return `تغير وضع التذكرة إلى "${statusLabel}? ${ticketTitle}`;

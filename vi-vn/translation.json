@@ -1,7 +1,7 @@
 {
   "support": {
-    "support_text": "Nếu bạn cần trợ giúp hoặc có câu hỏi, hãy tham gia máy chủ hỗ trợ bnder bằng cách nhấn nút bên dưới. Bạn cũng có thể truy cập trang trợ giúp của chúng tôi tại https://bnder.net/help. Nếu bạn là công ty hoặc tổ chức, chúng tôi cung cấp hỗ trợ doanh nghiệp miễn phí với một kênh hỗ trợ riêng cho bạn và đội ngũ của bạn. Để biết thêm thông tin, vui lòng liên hệ với chúng tôi.\n\nNếu bạn chưa chạy phần thiết lập cho bot này, vui lòng dùng lệnh `/setup`.",
-    "join_discord_button": "Nhập vào máy chủ chính thức  BR0 ",
+    "support_text": "If you need any help or have any questions, feel free to join the bnder support server by clicking the button below. You can also visit our help page at https://bnder.net/help . If you are a company or organisation we offer a free enterprise support with a dedicated support channel for you and your team. For more information, please contact us.\n\nIf you have not yet run the setup for this bot, please do so by using `/setup` command.",
+    "join_discord_button": "Join official Discord server",
     "documentation_button": "Trang giúp đỡ"
   },
   "invite": {
@@ -100,7 +100,7 @@
     "task_assigned_user": "The task **{{id}}** {{title, length100}} was assigned to the user <@{{user_id}}>. It will appear in the task list (\"/task list\") of this user.",
     "task_done": "The task **{{id}}** {{title, length100}} is now set to done.",
     "info": {
-      "id_headline": "b BAR ",
+      "id_headline": "Id",
       "text_headline": "Văn bản",
       "status_headline": "Trạng thái",
       "project_headline": "Chổi",
@@ -167,7 +167,7 @@
     "not_moved_deleted_project": "The task could not be moved because the project **{{name}}** is marked as deleted. Restore the project via \"/project restore\" or choose a different project.",
     "not_restored_deleted_project": "The task **{{id}}** could not be restored because the project **{{name}}** is marked as deleted. Restore the project via \"/project restore\" or choose a different project.",
     "no_tasks_in_all_projects": "Không có nhiệm vụ trong bất kỳ dự án nào. Dùng lệnh « tạo/ nhiệm vụ » để tạo một tác vụ mới.",
-    "id_field": "b BAR ",
+    "id_field": "Id",
     "text_field": "Văn bản",
     "project_field": "Chổi",
     "assignee_field": "Gán",
@@ -234,7 +234,7 @@
     "followup_reminder_stopped": "The follow-up reminder for task **{{id}}** has been stopped.",
     "max_assignees_reached_buy_pro": "Need more hands on deck? 👥\nThis task already has the maximum **{{max}} assignees**. [Upgrade to a Starter or Pro seat](<https://bnder.net/p/{{guildId}}>) to assign more people and keep your whole team aligned. Learn more about paid seats at https://bnder.net/pricing.",
     "daily_repeat_not_allowed": "Setting the task repeat interval to less than 7 days is only available to users in pro seats. [Please upgrade to a pro seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about pro seats at https://bnder.net/pricing.",
-    "todos_not_allowed": "Tăng năng suất với Todos!\nTodos là một tính năng của bnder giúp bạn chia tác vụ thành các bước có thể thực hiện. Mở khóa công cụ này bằng cách nâng cấp lên ghế Starter hoặc Pro. Tìm hiểu thêm về ghế thành viên tại https://bnder.net/pricing.",
+    "todos_not_allowed": "Boost productivity with Todos! ✅\nTodos are a Pro feature that helps you break tasks into actionable steps. Unlock this powerful tool by upgrading to a Pro Seat today! Learn more about pro seats at https://bnder.net/pricing.",
     "attachments_storage_limit_reached": "You have reached the maximum storage limit for this workspace. To increase the storage limit, [upgrade to Starter or Pro](<https://bnder.net/p/{{guildId}}>). Learn more about Starter and Pro plans at https://bnder.net/pricing.",
     "attachment_added": "The attachment **{{file_name}}** has been added to the task **{{id}}**. You can view it by using the \"/task attachments\" command.",
     "deadline_extended": "The deadline for the task **{{id}}** has been extended to {{deadline}}.",
@@ -243,7 +243,7 @@
     "attachment_not_found": "The attachment **{{file_name}}** could not be found in the task **{{id}}**. Use \"/task info\" to see all attachments.",
     "attachments_list_title": "# Attachments of task **{{id}}** ({{count}} attachments):",
     "no_attachments": "There are no attachments for the task **{{id}}**. Use the command \"/task attach\" to add an attachment to the task.",
-    "attachment_discord_download_error": "Không thể tải tập tin đính kèm từ  BR0. Vui lòng gọi lại sau.",
+    "attachment_discord_download_error": "The attachment could not be downloaded from Discord. Please try again later.",
     "attachment_cdn_upload_error": "Không thể tải lên CDN. Vui lòng gọi lại sau.",
     "already_subscribed": "You are already subscribed to the task **{{id}}**.",
     "subscribe_success": "You are now subscribed to the task **{{id}}**. You will get notified about every change to this task.",
@@ -260,7 +260,7 @@
     "force_in_progress": "Đặt trong tiến trình",
     "force_done": "Đặt làm",
     "dependencies_not_allowed": "Dependencies are only available to users in pro seats. [Please upgrade to a pro seat](<https://bnder.net/p/{{guildId}}>) to use this feature. Learn more about pro seats at https://bnder.net/pricing.",
-    "dependencies_cannot_be_same": "Nhiệm vụ không thể tùy thuộc vào bản thân. Hãy chọn một nhiệm vụ khác làm phụ thuộc.",
+    "dependencies_cannot_be_same": "The task can't depend on itself. Please choose another task as a dependency.",
     "dependencies_already_exists": "The task **{{id}}** is already dependent on the task **{{dependencyId}}**. Use \"/task dependencies remove\" to remove the dependency.",
     "dependencies_added": "Task **{{dependencyId}}** was added as a dependency to task **{{id}}**. When task **{{id}}** changes its state, before task **{{dependencyId}}** is completed, a warning will be shown.",
     "dependencies_not_found": "The task **{{dependencyId}}** is not a dependency of the task **{{id}}**. Use \"/task dependencies add\" to add it as a dependency.",
@@ -280,7 +280,7 @@
     "invalid_status": "The status **{{status}}** is invalid. Please use one of the following: {{statuses}}",
     "custom_fields": {
       "requires_file_fields_create": "This project requires app-only task fields ({{field_names}}). Please finish task creation in the app.",
-      "no_editable_fields": "Dự án này không có trường tự chọn nào có thể được biên dịch trong  BR0 .",
+      "no_editable_fields": "This task's project has no custom fields that can be edited in Discord.",
       "requires_file_fields_edit": "This task still needs required app-only task fields ({{field_names}}). Please finish those in the app.",
       "modal_title_create": "Cần thiết trường tác vụ",
       "modal_title_edit": "Các trường tự chọn tác vụ",
@@ -437,13 +437,13 @@
   },
   "settings": {
     "logging_webhook": {
-      "invalid_url": "Trình chọn & màu Hãy nhập vào một định dạng  BR0  Webok url hợp lệ, bắt đầu với định dạng url hợp lệ (https vội.)",
-      "url_set_non_discord_url": "Trình chọn & màu Nếu bạn muốn nhận tin nhắn bản ghi trong kênh  BR1  t  tin nhắn này, vui lòng đặt một  BR2    pagek url hợp lệ, nếu không hãy bỏ qua thông điệp này.",
+      "invalid_url": "The entered webhook url is invalid. Please enter a valid Discord webhook url, starting in a valid url format (https://...).",
+      "url_set_non_discord_url": "The webhook url has been set, but it does not seem to be a Discord webhook url. If you want to receive log messages in your Discord channel, please set a valid Discord webhook url, otherwise ignore this message.",
       "url_set": "Đã thiết lập URL. Một tin nhắn thử nghiệm đã được gửi; hãy kiểm tra kênh webhook của bạn để xác nhận. Nếu không hoạt động, hãy xem trang trợ giúp tại https://bnder.net/help/advanced/logging để biết thêm thông tin.",
       "url_removed": "Hiện thời bị tắt",
       "test_title": "Thư thử",
-      "test_description": "Đây là thông điệp thử ra để kiểm tra xem trình bao Mạng có hợp lệ không. Nếu bạn thấy thông điệp này, mọi thứ đều hoạt động tốt.",
-      "url_remove_confirmation": "Anh có chắc là muốn gỡ bỏ cái móc câu không? Việc ghi lưu sẽ bị tắt.\n\nĐể bật việc ghi nhật ký, hãy đặt url làm tùy chọn lệnh.",
+      "test_description": "This is a test message to check if the webhook url is valid. If you see this message, everything is working fine.",
+      "url_remove_confirmation": "Are you sure you want to remove the webhook url? Logging will be disabled.\n\nTo enable logging, set a url as a command option.",
       "remove_button": "Tắt đăng nhập",
       "help_button": "Trợ giúp ghi lưu",
       "url_not_set": "Không có cái móc kéo nào được thiết lập. Vui lòng đặt một webhoook để nhận tin nhắn đăng nhập. Học nhiều hơn bằng cách nhấn cái nút bên dưới.",
@@ -468,19 +468,19 @@
       "set": "The date format has been set to **{{format}}**."
     },
     "private_responses": {
-      "enabled": "Đáp ứng cá nhân bây giờ được bật. Một số thông điệp sẽ không được hiển thị cho mọi người, nếu không được ghi rõ bằng tùy chọn lệnh.",
-      "disabled": "Phản ứng cá nhân bây giờ bị tắt. Mọi tin nhắn sẽ được hiển thị cho mọi người.",
-      "already_enabled": "Đáp ứng cá nhân đã được bật. Một số thông điệp sẽ không được hiển thị cho mọi người, nếu không được ghi rõ bằng tùy chọn lệnh.",
-      "already_disabled": "Đáp ứng cá nhân đã bị tắt. Mọi tin nhắn sẽ được hiển thị cho mọi người."
+      "enabled": "Private responses are now enabled. Some messages will not be shown to everyone, if not otherwise specified via a command option.",
+      "disabled": "Private responses are now disabled. All messages will be shown to everyone.",
+      "already_enabled": "Private responses are already enabled. Some messages will not be shown to everyone, if not otherwise specified via a command option.",
+      "already_disabled": "Private responses are already disabled. All messages will be shown to everyone."
     },
     "auto_priority": {
-      "enabled": "Ưu tiên tự động được bật. Công việc bây giờ sẽ tự động được ưu tiên dựa trên văn bản của họ.",
-      "disabled": "Ưu tiên tự động bây giờ bị tắt.",
-      "already_enabled": "Ưu tiên tự động đã bật. Công việc bây giờ sẽ tự động được ưu tiên dựa trên văn bản của họ.",
+      "enabled": "Auto priority is now enabled. Tasks will now automatically get a priority based on their text.",
+      "disabled": "Auto priority is now disabled.",
+      "already_enabled": "Auto priority is already enabled. Tasks will now automatically get a priority based on their text.",
       "already_disabled": "Ưu tiên tự động đã bị tắt. Tác vụ sẽ không tự động được ưu tiên dựa trên văn bản của họ."
     },
     "user_languages": {
-      "enabled": "Người dùng bây giờ có thể đặt ngôn ngữ riêng bằng ngôn ngữ \"/p tương thích\". Điều này sẽ giúp họ đáp lại bằng ngôn ngữ đã được cấu hình.",
+      "enabled": "Users can now set their own language using \"/preferences language\". This will make the respond to them in their configured language.",
       "disabled": "Người dùng không thể đặt ngôn ngữ riêng nữa. Con robot sẽ dùng ngôn ngữ máy chủ đã cấu hình. Bạn có thể thay đổi ngôn ngữ bằng ngôn ngữ \"/ cấu hình\".",
       "already_enabled": "Ngôn ngữ người dùng đã được bật. Bạn có thể thay đổi ngôn ngữ bằng ngôn ngữ \"/p tương thích\".",
       "already_disabled": "Ngôn ngữ người dùng đã bị tắt. Con robot sẽ dùng ngôn ngữ máy chủ đã cấu hình. Bạn có thể thay đổi ngôn ngữ bằng ngôn ngữ \"/ cấu hình\"."
@@ -492,14 +492,14 @@
       "set": "The week start day has been set to **{{day}}**."
     },
     "user_timezones": {
-      "enabled": "Người dùng bây giờ có thể đặt múi giờ riêng bằng \"/p tương thích múi giờ\". Điều này sẽ làm cho robot phản ứng với chúng trong vùng thời gian đã định sẵn.",
+      "enabled": "Users can now set their own timezone using \"/preferences timezone\". This will make the bot respond to them in their configured timezone.",
       "disabled": "Người dùng không còn có thể tự định giờ được nữa. Con robot sẽ dùng múi giờ máy chủ đã cấu hình. Bạn có thể thay đổi múi giờ qua \"/ dàn xếp múi giờ\".",
       "already_enabled": "Người dùng đã bật dùng múi giờ. Bạn có thể thay đổi múi giờ bằng \"/p tham chiếu múi giờ\".",
       "already_disabled": "Người dùng đã tắt. Con robot sẽ dùng múi giờ máy chủ đã cấu hình. Bạn có thể thay đổi múi giờ qua \"/ dàn xếp múi giờ\"."
     },
     "private_messages": {
       "enabled": "Name Người dùng sẽ nhận thông báo qua thông điệp trực tiếp khi họ được giao nhiệm vụ.",
-      "disabled": "Điện thoại cá nhân đã bị tắt. Người dùng sẽ không nhận được thông báo qua thông điệp trực tiếp khi họ được giao nhiệm vụ.",
+      "disabled": "Private messages are now disabled. Users will not receive a notification via direct message when they are assigned to a task.",
       "already_enabled": "Comment Người dùng sẽ nhận thông báo qua thông điệp trực tiếp khi họ được giao nhiệm vụ.",
       "already_disabled": "Comment Người dùng sẽ không nhận được thông báo qua thông điệp trực tiếp khi họ được giao nhiệm vụ."
     },
@@ -518,7 +518,7 @@
       "enabled": "Holiday calendars are enabled for **{{location}}**. Active types: {{types}}.",
       "disabled": "Holiday calendars are disabled. The saved location is **{{location}}** and active types are {{types}} for the next time you enable them.",
       "country_required": "Vui lòng cung cấp một mật mã quốc gia, ví dụ « DD » hay «US », khi cho phép lịch nghỉ phép lần đầu tiên.",
-      "invalid_types": "Một hoặc nhiều loại kỳ nghỉ là không hợp lệ. Dùng bất cứ thứ gì: công chúng, ngân hàng, trường học, lễ, tôn giáo, công ty, phong tục."
+      "invalid_types": "One or more holiday types are invalid. Use any of: public, bank, school, observance, religious, company, custom."
     }
   },
   "preferences": {
@@ -533,11 +533,11 @@
       "timezone_set_but_disabled_by_server": "Your personal timezone has been set to **{{timezone}}**, but the server has disabled the option to set your own timezone. The server timezone will be used (currently **{{server_timezone}}**)."
     },
     "event_reminders": {
-      "enabled": "Bây giờ những lời nhắc nhở về sự kiện đã được thực hiện. Bạn sẽ nhận được một lời nhắc nhở đến 30 phút trước khi một sự kiện bắt đầu.",
+      "enabled": "Event reminders are now enabled. You will receive a reminder up to 30 minutes before an event starts.",
       "disabled": "Những lời nhắc nhở về sự kiện hiện đã bị tắt."
     },
     "direct_messages": {
-      "enabled": "Các tin nhắn trực tiếp bây giờ được bật. Bạn sẽ nhận được một thông điệp trực tiếp khi được giao nhiệm vụ.",
+      "enabled": "Direct messages are now enabled. You will receive a direct message when you are assigned to a task.",
       "disabled": "Các tin nhắn trực tiếp đã bị tắt. Bạn sẽ không nhận được thông điệp trực tiếp khi được giao nhiệm vụ.",
       "enabled_but_disabled_by_server": "Name Bạn sẽ không nhận được một thông điệp trực tiếp khi được giao nhiệm vụ hoặc những lời nhắc nhở về sự kiện."
     },
@@ -622,14 +622,14 @@
   "integration": {
     "github": {
       "already_linked": "Use this url {{url}} to link your GitHub repository with the bot. For further information click the button below.\n\nSet the url as a webhook url in your github repository and select only the push event.",
-      "not_linked": "Hiện tại không có url tạo ra để liên kết  BR0  kho của bạn với robot. Nhấn vào nút bên dưới để tạo ra một cái.\n\nKết hợp githib cho phép bạn liên kết các nhiệm vụ bằng cách đề cập nhiệm vụ với \"#\" trong thông điệp cam kết. Để biết thêm thông tin, hãy nhắp vào cái nút bên dưới.",
-      "help_button": "Trợ giúp hợp nhất  BR0 ",
+      "not_linked": "Currently there is no url generated to link your GitHub repository with the bot. Click the button below to generate one.\n\nIntegrating github allows you to link commits to tasks by mentioning the task id with \"#\" in the commit message. For further information click the button below.",
+      "help_button": "GitHub integration help",
       "regenerate_button": "Tạo ra url mới"
     },
     "gitlab": {
       "already_linked": "Use this url {{url}} to link your GitLab repository with the bot. For further information click the button below.\n\nSet the url as a webhook url in your gitlab repository and select only the push event.",
-      "not_linked": "Hiện tại không có url tạo ra để liên kết  BR0  kho của bạn với robot. Nhấn vào nút bên dưới để tạo ra một cái.\n\nKết hợp gitlab cho phép bạn liên kết các nhiệm vụ bằng cách đề cập nhiệm vụ với \"#\" trong thông điệp cam kết. Để biết thêm thông tin, hãy nhắp vào cái nút bên dưới.",
-      "help_button": "Trợ giúp hợp nhất  BR0 ",
+      "not_linked": "Currently there is no url generated to link your GitLab repository with the bot. Click the button below to generate one.\n\nIntegrating gitlab allows you to link commits to tasks by mentioning the task id with \"#\" in the commit message. For further information click the button below.",
+      "help_button": "GitLab integration help",
       "regenerate_button": "Tạo ra url mới"
     }
   },
@@ -660,7 +660,7 @@
     "create_template_placeholder_email": "tên",
     "create_template_placeholder_date": "YYY-MM-DD hoặc ngày ISO",
     "create_template_placeholder_boolean": "đúng / sai",
-    "create_template_placeholder_file": "Tập tin tải lên không được hỗ trợ trong  BR0 ",
+    "create_template_placeholder_file": "File upload is not supported in Discord",
     "create_project_deleted": "Project '{{project}}' no longer exists.",
     "project_not_found": "The project **{{project}}** could not be found. Use an existing project name or leave the project option empty to use your selected project.",
     "created": "Ticket **{{id}}** was created in project **{{project}}** with title **{{title}}**.\nOpen it in app: <{{url}}>",

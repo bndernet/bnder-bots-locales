@@ -4,10 +4,10 @@ export class TSLocalizations_vi_vn {
     static Localizations: TSLocalizationKeys = {
         task: {
             deadline_due(id: string, deadline: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `Thời hạn cho nhiệm vụ **${id}** ${taskTitle}là đến hạn${deadline}trong vùng làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>)`;
+                return `The deadline for task **${id}** ${taskTitle} is due on ${deadline} in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_notification(guildName: string, guildId: string, id: string, taskText: string): string {
-                return `Bạn đã được giao nhiệm vụ **${id}** ${taskText}trong vùng làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>)`;
+                return `You have been assigned to task **${id}** ${taskText} in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             assigned_embed_title(id: string): string {
                 return `Tác vụ${id}Đã gán`;
@@ -16,16 +16,16 @@ export class TSLocalizations_vi_vn {
             assigned_embed_button_in_progress: "Đánh dấu trong tiến trình",
             assigned_embed_button_done: "Đánh dấu xong",
             deadline_was_in_past(id: string, guildName: string, guildId: string, taskTitle: string): string {
-                return `Thời hạn cho nhiệm vụ **${id}** ${taskTitle}không gian làm việc quá hạn${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>)`;
+                return `The deadline for task **${id}** ${taskTitle} is overdue in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Nhiệm vụ **${id}** ${taskTitle}Bạn được chỉ định làm việc lặp lại và cần phải làm lại trong vùng làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>)`;
+                return `The task **${id}** ${taskTitle} you are assigned to has been repeated and needs to be done again in workspace [${guildName}](<https://discord.com/channels/${guildId}>)`;
             },
             repeat_notification_embed_title(id: string): string {
                 return `Tác vụ${id}lặp lại`;
             },
             deadline_alert: "Thời hạn tác vụ",
-            deadline_duration_due_now: "bây giờ",
+            deadline_duration_due_now: "due now",
             deadline_duration_until(duration: string): string {
                 return `in${duration}`;
             },
@@ -42,7 +42,7 @@ export class TSLocalizations_vi_vn {
                 return `Chú thích thêm vào tác vụ${id}`;
             },
             commented_notification(guildName: string, guildId: string, author: string, commentText: string): string {
-                return `Lời bình luận được thêm vào một công việc trong vùng làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) bởi${author}: ${commentText}`;
+                return `A comment was added to a task in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by ${author}: ${commentText}`;
             },
             comment_response_button: "Đáp ứng lời bình luận",
             stop_followup_reminder_button: "Dừng nhắc nhở theo dõi",
@@ -50,25 +50,25 @@ export class TSLocalizations_vi_vn {
             extend_deadline_by_two_days_button: "Thời hạn mở rộng 2 ngày",
             extend_deadline_by_one_week_button: "Hạn chót mở rộng là 1 tuần",
             subscriber_added_notification(guildName: string, guildId: string, id: string, taskText: string, addedBy: string): string {
-                return `Anh đã được thêm vào như một người đặt mua dài hạn nhiệm vụ **${id}** ${taskText}trong vùng làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) bởi${addedBy}>. Bạn sẽ nhận thông báo khi có gì đó thay đổi trong nhiệm vụ này. Nếu bạn muốn dừng nhận thông báo, bạn có thể nhấn vào nút bên dưới.`;
+                return `You have been added as a subscriber of task **${id}** ${taskText} in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${addedBy}>. You will receive notifications when something changes in this task. If you want to stop receiving notifications, you can click the button below.`;
             },
             subscriber_added_notification_unsubscribe_button: "Hành động",
             subscriber_notification(guildName: string, guildId: string, id: string, taskTitle: string): string {
-                return `Nhiệm vụ **${id}** ${taskTitle}[ Chú thích]${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) đã thay đổi:`
+                return `The task **${id}** ${taskTitle} you are subscribed to in workspace [${guildName}](<https://discord.com/channels/${guildId}>) changed:`
             },
             subscriber_notification_footer: "Tắt thông báo cho nhiệm vụ này bằng lệnh \"/taskSke\"",
             subscriber_embed_title(id: string): string {
                 return `Tác vụ${id}Cập nhật`;
             },
             milestone_due_notification(guildName: string, guildId: string, milestoneName: string): string {
-                return `Giai đoạn quan trọng **${milestoneName}** sẽ đến trong vòng chưa đầy 6 giờ làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) và có công việc cần phải hoàn thành.`;
+                return `The milestone **${milestoneName}** is due in less than 6 hours in workspace [${guildName}](<https://discord.com/channels/${guildId}>) and has tasks that need to be completed.`;
             },
             status_todo: "Todo",
             status_in_progress: "Tiến hành",
             status_done: "Hoàn tất"
         },
         webhookLogging: {
-            id_field: "b BAR ",
+            id_field: "Id",
             deadline_field: "Đường tắt",
             assignees_field: "Gán",
             status_field: "Trạng thái",
@@ -195,8 +195,8 @@ export class TSLocalizations_vi_vn {
                 }
             },
             test_message: {
-                title: "Đây là tin nhắn thử",
-                description: "Nếu bạn thấy thông điệp này, lưỡi câu web hoạt động đúng và việc ghi nhật ký được bật."
+                title: "This is a test message",
+                description: "If you see this message, the webhook is working correctly and the logging is enabled."
             },
             comment_added: {
                 title(id: string): string {
@@ -281,7 +281,7 @@ export class TSLocalizations_vi_vn {
         },
         event: {
             reminderDirectMessage(id: string, name: string, durationTillEventMinutes: number, guildName: string, guildId: string, startTime: string,): string {
-                return `Comment${id}) **${name}** đang bắt đầu${durationTillEventMinutes}phút${startTime}trong [${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>).`;
+                return `Upcoming event (${id}) **${name}** is starting in ${durationTillEventMinutes} minutes at ${startTime} in [${guildName}](<https://discord.com/channels/${guildId}>).`;
             },
             invite_notification: {
                 content(inviterId: string, eventId: string, eventName: string, start: string, end: string, timezone: string): string {
@@ -304,29 +304,29 @@ export class TSLocalizations_vi_vn {
             }
         },
         pro_granted_notification(guildId: string, guildName: string): string {
-            return `Bạn đã được chỉ định chỗ làm việc${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>). Bây giờ bạn có quyền truy cập các tính năng bao gồm trong  BR0   hoặc  BR1  ghế.`;
+            return `You have been assigned a paid seat in workspace [${guildName}](<https://discord.com/channels/${guildId}>). You now have access to the features included in your assigned Starter or Pro seat.`;
         },
         pro_seat_request_notification(guildId: string, guildName: string, requesterUsername: string): string {
-            return `Người dùng **${requesterUsername}** đã yêu cầu một chỗ làm lương${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>). Quản trị vùng làm việc có thể gán bất kỳ  BR0      hay  P1  chỗ bằng cái nút bên dưới. Nếu không gian làm việc cần thêm chỗ ngồi, hãy ghé thăm [những thiết lập không gian làm việc] [https vội vã.net/app/ cons/${guildId}Để mua chỗ ngồi.`;
+            return `The user **${requesterUsername}** has requested a paid seat in workspace [${guildName}](<https://discord.com/channels/${guildId}>). Workspace admins can assign any unassigned Starter or Pro seat using the button below. If the workspace needs more seats, visit [workspace settings](<https://bnder.net/app/settings/${guildId}/default?tab=1>) to buy seats.`;
         },
         request_pro_seat_button_label: "Grant trả tiền chỗ ngồi",
         payment_failed_notification(guildId: string, guildName: string, customerPortalLink: string): string {
             return `# Cần hành động: Trả tiền thất bại vì phục vụ ở biển
-Chúng tôi không thể xử lý việc thanh toán một hoặc nhiều hơn  BAR hoặc   BAR  ghế trên [${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>). Để tránh mất quyền truy cập thực phẩm, xin vui lòng [ cập nhật thông tin thanh toán và thanh toán hóa đơn ngay bây giờ]${customerPortalLink}>).
+We couldn’t process the payment for one or more Starter or Pro seats on [${guildName}](<https://discord.com/channels/${guildId}>). To avoid losing paid-seat access, please [update your payment info and pay your invoice now](<${customerPortalLink}>).
 
 Nếu không có hành động, ghế ngồi có ảnh hưởng sẽ ngừng đóng góp ngay.
 
-Cần giúp không? Chúng tôi ở đây vì các bạn.`;
+Need help? [Contact support](https://bnder.net/discord) — we’re here for you.`;
         },
         files: {
             file_shared_notification(guildName: string, guildId: string, fileName: string, userId: string): string {
-                return `Tập tin **${fileName}** được chia sẻ với bạn trong không gian làm việc [${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) bởi${userId}>`;
+                return `The file **${fileName}** was shared with you in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             },
             folder_shared_notification(guildName: string, guildId: string, folderName: string, userId: string): string {
-                return `Thư mục **.${folderName}** được chia sẻ với bạn trong không gian làm việc [${guildName}(<htps tảng băng ghi âm.com/Graps/${guildId}>) bởi${userId}>`;
+                return `The folder **${folderName}** was shared with you in workspace [${guildName}](<https://discord.com/channels/${guildId}>) by <@${userId}>`;
             }
         },
-        self_data_download_ready: "Dữ liệu của bạn đã sẵn sàng để tải về. Bạn có thể tải nó xuống [ Ứng dụng của chúng tôi] [https vội vã.net/app/>. Liên kết tải về sẵn sàng trong hai tuần.",
+        self_data_download_ready: "Your data is ready for download. You can download it in [our app](<https://bnder.net/app/>). The download link is available for two weeks.",
         tutorial_tasks: {
             tutorial_label_name: "Hướng dẫn",
             create_first_task_title: "Tạo tác vụ đầu tiên",
@@ -345,8 +345,8 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
                 company_register_court: "Tòa án quận Hildesheim (Đức) - HRB 209373",
                 company_ceo: "Jan Brinkmann",
                 company_contact: "Thư: liên lạc",
-                legal_automated_email: "Đây là một email tự động. Xin đừng trả lời email này.",
-                legal_privacy_policy_prefix: "Xin vui lòng đọc chính sách cá nhân của chúng tôi tại",
+                legal_automated_email: "This is an automated email. Please do not reply to this email.",
+                legal_privacy_policy_prefix: "Please read our privacy policy at",
                 legal_imprint: "In ấn",
                 legal_terms_of_use: "Điều kiện dùng",
                 legal_privacy_policy: "Chính sách riêng tư",
@@ -378,7 +378,7 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
             task_assigned: {
                 subject: "Bạn đã được giao nhiệm vụ mới",
                 greeting(guildName: string): string {
-                    return `Bạn đã được phân công trong vùng làm việc${guildName}.`;
+                    return `You have been assigned to a task in workspace ${guildName}.`;
                 },
                 no_deadline: "Không có thời hạn cho nhiệm vụ này.",
                 open_in_app: "Mở trong ứng dụng",
@@ -401,7 +401,7 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
             payment_failed: {
                 headline: "▪ Cần hành động: Trả tiền thất bại vì phục vụ ở biển",
                 text(guildName: string): string {
-                    return `Chúng tôi không thể xử lý việc thanh toán cho một hay nhiều  BAR hoặc     BAR  ghế trên${guildName}Để tránh mất quyền truy cập thực phẩm, xin hãy cập nhật thông tin thanh toán và trả hóa đơn ngay. Nếu không có hành động, ghế ngồi có ảnh hưởng sẽ ngừng đóng góp ngay. Cần giúp không? Sự hỗ trợ của bạn — chúng tôi ở đây vì bạn.`;
+                    return `We couldn’t process the payment for one or more Starter or Pro seats on ${guildName}. To avoid losing paid-seat access, please update your payment info and pay your invoice now. Affected paid seats will stop contributing soon if no action is taken. Need help? Contact support — we’re here for you.`;
                 },
                 primaryActionText: "Cập nhật thông tin chi trả"
             },
@@ -409,7 +409,7 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
             ticket_notifications: {
                 subject_prefix_new: "Vé mới:",
                 subject_prefix_update: "Cập nhật vé:",
-                subject_prefix_sla_warning: "Vé  BR0  Cảnh báo:",
+                subject_prefix_sla_warning: "Ticket SLA Warning:",
                 subject_prefix_status(statusLabel: string): string {
                     return `Vé${statusLabel}:`;
                 },
@@ -421,10 +421,10 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
                     return `Trạng thái vé đã đổi thành\ "${statusLabel}\.\n\n\n bộ nhớ:${ticketTitle}`;
                 },
                 body_auto_closed(ticketTitle: string): string {
-                    return `Vé đã tự động đóng, vì không nhận được hồi âm của phóng viên trong cửa sổ đã cấu hình thời gian.\n\n\ tocket:${ticketTitle}`;
+                    return `The ticket was automatically closed because no reporter response was received within the configured time window.\n\nTicket: ${ticketTitle}`;
                 },
                 body_sla_warning(ticketTitle: string, slaName: string, currentAge: string, targetAge: string): string {
-                    return `Ô này đã tới ngưỡng cảnh báo.\n\nitet:${ticketTitle}\nSLA:${slaName}\ độ tuổi hiện tại:${currentAge}\nTarget:${targetAge}`;
+                    return `This ticket reached its SLA warning threshold.\n\nTicket: ${ticketTitle}\nSLA: ${slaName}\nCurrent age: ${currentAge}\nTarget: ${targetAge}`;
                 },
                 reporter_delivery_failed_note(failedRecipient: string): string {
                     return `Gửi thư cho phóng viên${failedRecipient}bị lỗi. Có lẽ phóng viên chưa nhận được bản cập nhật vé mới nhất.`;
@@ -439,22 +439,22 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
                     return `Chủ đề gốc:${originalSubject}`;
                 },
                 subject_prefix_sla_breach(stepLabel: string): string {
-                    return `Vé  BR0  Phá vỡ:${stepLabel}`;
+                    return `Ticket SLA Breach: ${stepLabel}`;
                 },
                 headline_sla_breach(ticketTitle: string): string {
-                    return `b BAR  Phá vỡ:${ticketTitle}`;
+                    return `SLA Breach: ${ticketTitle}`;
                 },
                 body_sla_breach(slaName: string, stepLabel: string, currentAge: string, targetAge: string): string {
-                    return `BR0 "${slaName}"Đã xâm phạm${stepLabel}.\n độ tuổi hiện tại:${currentAge}\nTarget:${targetAge}.`;
+                    return `SLA "${slaName}" breached for ${stepLabel}.\nCurrent age: ${currentAge}\nTarget: ${targetAge}.`;
                 },
                 sla_step_first_response: "phản ứng đầu tiên",
-                sla_step_next_response: "câu trả lời tiếp theo",
-                sla_step_resolution: "Độ phân giải",
+                sla_step_next_response: "next response",
+                sla_step_resolution: "resolution",
                 action_open_ticket: "Mở thẻ",
                 action_reply_to_ticket: "Trả lời bảng chọn",
                 action_unsubscribe: "Hung thủ đăng ký từ vé này",
                 footer_brand_context(displayName: string): string {
-                    return `Đã gửi${displayName}thông qua  BR0.`;
+                    return `Sent for ${displayName} via Bnder.`;
                 },
                 footer_brand_context_link_prefix(displayName: string): string {
                     return `Đã gửi${displayName}qua`;
@@ -468,21 +468,21 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
                     return `Chúng tôi nhận được email của bạn${recipientAddress}Nhưng địa chỉ hộp thư này không được cấu hình cho việc nhập vé. Không có vé nào được tạo.\n\n\n  vui lòng liên lạc với nhóm hỗ trợ của bạn và yêu cầu địa chỉ email riêng của dự án.`;
                 },
                 unknown_inbox_text_without_recipient: "Chúng tôi nhận được email của anh, nhưng địa chỉ hộp thư này không được cấu hình cho việc nhập vé. Không có vé nào được tạo ra.\n\nVui lòng liên lạc với đội hỗ trợ và yêu cầu địa chỉ email của dự án.",
-                feature_locked_subject: "Tính năng thư điện tử cần thiết  BR0 ",
-                feature_locked_headline: "Tính năng thư điện tử cần thiết  BR0 ",
-                feature_locked_text: "Chúng tôi đã nhận được thư điện tử của bạn, nhưng trả lời từng email cho vé có sẵn trên  BR0 spaces chỉ. Câu trả lời của anh không được thêm vào vé.\n\nVui lòng liên lạc với đội hỗ trợ của bạn và yêu cầu họ nâng cấp không gian làm việc để  BR1 .",
+                feature_locked_subject: "Ticket email feature requires Pro",
+                feature_locked_headline: "Ticket email feature requires Pro",
+                feature_locked_text: "We received your email reply, but reply-by-email for tickets is available on Pro workspaces only. Your reply was not added to the ticket.\n\nPlease contact your support team and ask them to upgrade the workspace to Pro.",
                 project_member_subject(projectId: string, ticketTitle: string): string {
                     return `Vé mới trong dự án${projectId}: ${ticketTitle}`;
                 },
                 project_member_headline: "Một vé mới đã được tạo ra",
                 project_member_text(projectId: string, ticketTitle: string): string {
-                    return `Một tấm vé mới được tạo ra trong dự án${projectId}\n\n bitet:${ticketTitle}`;
+                    return `A new ticket was created in project ${projectId}.\n\nTicket: ${ticketTitle}`;
                 },
                 project_member_discord_dm(projectId: string, ticketTitle: string, ticketUrl: string, ticketId: string): string {
-                    return `Một tấm vé mới được tạo ra trong dự án **${projectId}**.\nitet: [${ticketTitle}](<${ticketUrl}>)\nID:\${ticketId}\``;
+                    return `A new ticket was created in project **${projectId}**.\nTicket: [${ticketTitle}](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
                 body_reply_received_confirmation(ticketTitle: string): string {
-                    return `Câu trả lời của bạn đã được thêm vào cuộc đối thoại vé.\n\nitet:${ticketTitle}`;
+                    return `Your reply was successfully added to the ticket conversation.\n\nTicket: ${ticketTitle}`;
                 },
                 subject_assigned(ticketTitle: string): string {
                     return `Bạn đã được chỉ định để vé:${ticketTitle}`;
@@ -500,13 +500,13 @@ Cần giúp không? Chúng tôi ở đây vì các bạn.`;
                     return `Chuyển đổi vé cho bạn:${ticketTitle}`;
                 },
                 body_reassigned(ticketTitle: string): string {
-                    return `Bây giờ anh phải chịu trách nhiệm về vé."${ticketTitle}".`;
+                    return `You are now responsible for ticket "${ticketTitle}".`;
                 },
                 discord_dm_assigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
-                    return `**Bạn được chỉ định "${ticketTitle}"** Bạn đã được chỉ định vào vé."${ticketTitle}".\n\n\n[ vé mở ra](<i>${ticketUrl}>)\nID:\${ticketId}\``;
+                    return `**You were assigned to "${ticketTitle}"**\nYou were assigned to ticket "${ticketTitle}".\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
                 discord_dm_reassigned(ticketTitle: string, ticketUrl: string, ticketId: string): string {
-                    return `** Bộ nhớ lại:${ticketTitle}**\n bạn bây giờ chịu trách nhiệm về vé "${ticketTitle}".\n\n\n[ vé mở ra](<i>${ticketUrl}>)\nID:\${ticketId}\``;
+                    return `**Ticket reassigned to you: ${ticketTitle}**\nYou are now responsible for ticket "${ticketTitle}".\n\n[Open ticket](<${ticketUrl}>)\nID: \`${ticketId}\``;
                 },
                 subject_assignee_reporter_update(ticketTitle: string): string {
                     return `Cập nhật phóng viên trên vé được chỉ định:${ticketTitle}`;

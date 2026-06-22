@@ -399,7 +399,7 @@ export class TSLocalizations_ko_kr {
                 text: "우리는 다운로드에 대한 데이터를 준비했습니다. 앱에 액세스 할 수 있습니다. 다운로드 링크는 2 주 동안 가능합니다.",
             },
             payment_failed: {
-                headline: "ð ̈ Action Needed: 유료 좌석 구독에 실패",
+                headline: "🚨 Action Needed: Payment Failed for Paid Seat Subscription",
                 text(guildName: string): string {
                     return `우리는 하나 이상의 스타터 또는 Pro 좌석에 대한 지불을 처리 할 수 없습니다 ${guildName}. 유료 좌석 액세스를 피하기 위해 지불 정보를 업데이트하고 지금 청구서를 지불하십시오. 유료 좌석은 작업이 이루어지지 않으면 즉시 기여할 것입니다. 도움이 필요하십니까? 연락 지원 - 우리는 당신을 위해 여기에 있습니다.`;
                 },
