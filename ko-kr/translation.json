@@ -640,7 +640,7 @@
     "pro_seat_granted": "사용자 이름 <@{{userId}}> 이 작업 공간에서 유료 좌석을 할당했습니다. 그들은 이제 지정된 스타터 또는 프로 시트에 포함 된 기능에 액세스해야합니다."
   },
   "booking": {
-    "links_link_app": "앱 관리"
+    "links_link_app": "앱에서 예약 링크 관리"
   },
   "ticket": {
     "create_title_required": "티켓 제목을 제공하십시오.",

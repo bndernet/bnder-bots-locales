@@ -640,7 +640,7 @@
     "pro_seat_granted": "Dem Benutzer <@{{userId}}> wurde in diesem Workspace ein bezahlter Sitz zugewiesen. Die Person hat jetzt Zugriff auf die Funktionen, die in ihrem zugewiesenen Starter- oder Pro-Sitz enthalten sind."
   },
   "booking": {
-    "links_link_app": "In der App verwalten"
+    "links_link_app": "Buchungslink in der App verwalten"
   },
   "ticket": {
     "create_title_required": "Bitte gib einen Tickettitel an.",

@@ -640,7 +640,7 @@
     "pro_seat_granted": "Un siège payant a été attribué à l’utilisateur <@{{userId}}> dans cet espace de travail. Cette personne a maintenant accès aux fonctionnalités incluses dans son siège Starter ou Pro attribué."
   },
   "booking": {
-    "links_link_app": "Gérer dans l’application"
+    "links_link_app": "Gérer le lien de réservation dans l’application"
   },
   "ticket": {
     "create_title_required": "Veuillez fournir un titre de ticket.",

@@ -640,7 +640,7 @@
     "pro_seat_granted": "यूज़र <@{{userId}}> को इस workspace में paid seat assign कर दी गई है। अब उन्हें assigned Starter या Pro seat में शामिल सुविधाएँ मिलेंगी।"
   },
   "booking": {
-    "links_link_app": "ऐप में प्रबंधित करें"
+    "links_link_app": "ऐप में बुकिंग लिंक प्रबंधित करें"
   },
   "ticket": {
     "create_title_required": "कृपया टिकट का शीर्षक दें।",

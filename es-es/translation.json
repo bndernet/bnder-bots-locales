@@ -640,7 +640,7 @@
     "pro_seat_granted": "Se ha asignado un asiento de pago al usuario <@{{userId}}> en este espacio de trabajo. Ahora tiene acceso a las funciones incluidas en su asiento Starter o Pro asignado."
   },
   "booking": {
-    "links_link_app": "Gestionar en la app"
+    "links_link_app": "Gestionar enlace de reservas en la app"
   },
   "ticket": {
     "create_title_required": "Por favor, proporciona un título para el ticket.",

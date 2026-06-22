@@ -640,7 +640,7 @@
     "pro_seat_granted": "All’utente <@{{userId}}> è stato assegnato un posto a pagamento in questo workspace. Ora ha accesso alle funzionalità incluse nel posto Starter o Pro assegnato."
   },
   "booking": {
-    "links_link_app": "Gestisci nell’app"
+    "links_link_app": "Gestisci il link di prenotazione nell’app"
   },
   "ticket": {
     "create_title_required": "Fornisci un titolo del ticket.",

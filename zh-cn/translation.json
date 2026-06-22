@@ -640,7 +640,7 @@
     "pro_seat_granted": "已为用户 <@{{userId}}> 分配这个工作区的付费席位。Ta 现在可以使用所分配的 Starter 或 Pro 席位包含的功能。"
   },
   "booking": {
-    "links_link_app": "在应用中管理"
+    "links_link_app": "在应用中管理预订链接"
   },
   "ticket": {
     "create_title_required": "请提供工单标题。",

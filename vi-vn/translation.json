@@ -640,7 +640,7 @@
     "pro_seat_granted": "Người dùng <@{{userId}}> đã được gán một suất trả phí trong không gian làm việc này. Họ hiện có quyền truy cập các tính năng có trong suất Starter hoặc Pro được gán."
   },
   "booking": {
-    "links_link_app": "Quản lý trong ứng dụng"
+    "links_link_app": "Quản lý liên kết đặt lịch trong ứng dụng"
   },
   "ticket": {
     "create_title_required": "Vui lòng cung cấp tiêu đề phiếu hỗ trợ.",

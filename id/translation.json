@@ -640,7 +640,7 @@
     "pro_seat_granted": "Pengguna <@{{userId}}> telah diberi seat berbayar di workspace ini. Sekarang mereka memiliki akses ke fitur yang termasuk dalam seat Starter atau Pro yang ditetapkan."
   },
   "booking": {
-    "links_link_app": "Kelola di aplikasi"
+    "links_link_app": "Kelola tautan booking di aplikasi"
   },
   "ticket": {
     "create_title_required": "Harap berikan judul tiket.",

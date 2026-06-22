@@ -640,7 +640,7 @@
     "pro_seat_granted": "Użytkownik <@{{userId}}> otrzymał płatne miejsce w tej przestrzeni roboczej. Ma teraz dostęp do funkcji zawartych w przydzielonym miejscu Starter lub Pro."
   },
   "booking": {
-    "links_link_app": "Zarządzaj w aplikacji"
+    "links_link_app": "Zarządzaj linkiem rezerwacji w aplikacji"
   },
   "ticket": {
     "create_title_required": "Podaj tytuł zgłoszenia.",

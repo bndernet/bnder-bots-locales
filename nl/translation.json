@@ -640,7 +640,7 @@
     "pro_seat_granted": "De gebruiker <@{{userId}}> heeft een betaalde seat in deze workspace toegewezen gekregen. Die persoon heeft nu toegang tot de functies die horen bij de toegewezen Starter- of Pro-seat."
   },
   "booking": {
-    "links_link_app": "Beheren in de app"
+    "links_link_app": "Boekingslink beheren in de app"
   },
   "ticket": {
     "create_title_required": "Geef een tickettitel op.",

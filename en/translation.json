@@ -640,7 +640,7 @@
     "pro_seat_granted": "The user <@{{userId}}> has been assigned a paid seat in this workspace. They now have access to the features included in their assigned Starter or Pro seat."
   },
   "booking": {
-    "links_link_app": "Manage in app"
+    "links_link_app": "Manage booking link in app"
   },
   "ticket": {
     "create_title_required": "Please provide a ticket title.",

@@ -640,7 +640,7 @@
     "pro_seat_granted": "المستخدم <@{{userId}}> تم تعيين مقعد في مكان العمل هذا They now have access to the features included in their assigned Starter or Pro seat."
   },
   "booking": {
-    "links_link_app": "إدارة التطبيق"
+    "links_link_app": "إدارة رابط الحجز في التطبيق"
   },
   "ticket": {
     "create_title_required": "يرجى تقديم عنوان تذكرة.",

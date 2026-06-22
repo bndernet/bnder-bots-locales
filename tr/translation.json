@@ -640,7 +640,7 @@
     "pro_seat_granted": "<@{{userId}}> kullanıcısına bu çalışma alanında ücretli bir koltuk atandı. Artık atanan Starter veya Pro koltuğundaki özelliklere erişebilir."
   },
   "booking": {
-    "links_link_app": "Uygulamada yönet"
+    "links_link_app": "Rezervasyon bağlantısını uygulamada yönet"
   },
   "ticket": {
     "create_title_required": "Lütfen bir talep başlığı girin.",

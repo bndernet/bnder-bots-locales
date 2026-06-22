@@ -640,7 +640,7 @@
     "pro_seat_granted": "ユーザー <@{{userId}}> にこのワークスペースの有料シートが割り当てられました。割り当てられた Starter または Pro シートに含まれる機能を利用できます。"
   },
   "booking": {
-    "links_link_app": "アプリで管理"
+    "links_link_app": "アプリで予約リンクを管理"
   },
   "ticket": {
     "create_title_required": "チケットのタイトルを入力してください。",
