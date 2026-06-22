@@ -29,7 +29,7 @@
     "language_subcommand_language_field_description": "Código de idioma",
     "url_option_description": "URL",
     "enable_disable_option_description": "True para activar, false para desactivar",
-    "timezone_option_description": "Timezone",
+    "timezone_option_description": "Zona horaria",
     "timezone_subcommand_description": "Cambiar la zona horaria del bot",
     "dateformat_option_description": "Formato de fecha",
     "dateformat_subcommand_description": "Cambiar el formato de fecha del bot utilizado para la entrada y salida de fechas",
@@ -37,7 +37,7 @@
     "auto_priority_subcommand_description": "Activar o desactivar la función de prioridad automática",
     "user_languages_subcommand_description": "Si se activa, los usuarios pueden establecer su propio idioma en sus preferencias",
     "default_assignee_subcommand_description": "Establecer el asignatario predeterminado para las tareas",
-    "default_assignee_option_description": "User to set as default assignee",
+    "default_assignee_option_description": "Usuario para establecer como responsable predeterminado",
     "week_start_subcommand_description": "Establecer el día en que comienza la semana",
     "weekstartday_option_description": "Día en el que comienza la semana",
     "user_timezones_subcommand_description": "Habilitar/deshabilitar que los usuarios establezcan su propia zona horaria",
@@ -51,13 +51,13 @@
   "permission": {
     "command_description": "Asignar, eliminar y mostrar todos los permisos",
     "permission_option_description": "Concesión o retirada del derecho",
-    "grant_subcommand_description": "Grant permission to a user or team",
-    "revoke_subcommand_description": "Revoke a permission from a user or team",
-    "list_subcommand_description": "List permissions for a user or team",
-    "preset_option_description": "Preset to apply to a user or team",
-    "preset_subcommand_description": "Apply a permission preset to a user or team",
-    "user_option_description": "User principal",
-    "team_option_description": "People team principal"
+    "grant_subcommand_description": "Otorgar permiso a un usuario o equipo",
+    "revoke_subcommand_description": "Revocar un permiso de un usuario o equipo",
+    "list_subcommand_description": "Listar permisos de un usuario o equipo",
+    "preset_option_description": "Preset para aplicar a un usuario o equipo",
+    "preset_subcommand_description": "Aplicar un preset de permisos a un usuario o equipo",
+    "user_option_description": "Principal de usuario",
+    "team_option_description": "Principal de equipo de People"
   },
   "project": {
     "command_description": "Gestionar proyectos",
@@ -77,7 +77,7 @@
     "command_description": "Crear, editar y eliminar tareas",
     "create_subcommand_description": "Crear una nueva tarea",
     "unassign_subcommand_description": "Retirar la asignación de una tarea",
-    "assign_subcommand_description": "Assign a task to a user or team",
+    "assign_subcommand_description": "Asignar una tarea a un usuario o equipo",
     "info_subcommand_description": "Mostrar información sobre una tarea",
     "delete_subcommand_description": "Eliminar una tarea",
     "todo_subcommand_description": "Marcar una tarea como pendiente",
@@ -87,7 +87,7 @@
     "list_subcommand_description": "Mostrar todas las tareas",
     "text_option_description": "Tarea a asignar",
     "id_option_description": "ID de tarea",
-    "assignee_option_description": "User to assign the task to",
+    "assignee_option_description": "Usuario al que asignar la tarea",
     "project_name_option_description": "Nombre de un tablero en el servidor",
     "filter_option_description": "Filtrar las tareas por estado",
     "restore_subcommand_description": "Restaurar una tarea eliminada",
@@ -126,7 +126,7 @@
     "relation_task_id_option_description": "ID de la tarea relacionada",
     "status_subcommand_description": "Establecer el estado de una tarea",
     "status_option_description": "Estado que se establecerá para la tarea",
-    "team_option_description": "People team to assign the task to"
+    "team_option_description": "Equipo de People al que asignar la tarea"
   },
   "milestone": {
     "command_description": "Administrar hitos",
